@@ -1,407 +1,601 @@
 {
-  "version": 1,
-  "sample": true,
-  "generatedAt": "2026-11-13T06:10:00Z",
-  "modules": [
-    { "id": "scm", "name": "Logistics & Supply Chain Management", "short": "Supply chain", "color": "#2de2e6" },
-    { "id": "operations", "name": "Operations Management", "short": "Operations", "color": "#3ba7ff" },
-    { "id": "strategy", "name": "Strategic Planning", "short": "Strategy", "color": "#8b7cff" },
-    { "id": "pwo", "name": "People, Work & Organisations", "short": "PWO", "color": "#f06bd6" },
-    { "id": "leadership", "name": "Leadership", "short": "Leadership", "color": "#ff6b8b" },
-    { "id": "economics", "name": "Economics for Business", "short": "Economics", "color": "#ffb454" },
-    { "id": "finance", "name": "Financial Decision Making", "short": "Finance", "color": "#c6f04f" },
-    { "id": "marketing", "name": "Strategic Marketing", "short": "Marketing", "color": "#ff8a4c" },
-    { "id": "projects", "name": "Delivering Successful Projects", "short": "Projects", "color": "#4ff0a8" }
-  ],
-  "articles": [
+ "version": 1,
+ "generatedAt": "2026-11-14T14:36:03Z",
+ "model": "claude-haiku-5-5",
+ "modules": [
+  {
+   "id": "scm",
+   "name": "Logistics & Supply Chain Management",
+   "short": "Supply chain",
+   "color": "#2de2e6"
+  },
+  {
+   "id": "operations",
+   "name": "Operations Management",
+   "short": "Operations",
+   "color": "#3ba7ff"
+  },
+  {
+   "id": "strategy",
+   "name": "Strategic Planning",
+   "short": "Strategy",
+   "color": "#8b7cff"
+  },
+  {
+   "id": "pwo",
+   "name": "People, Work & Organisations",
+   "short": "PWO",
+   "color": "#f06bd6"
+  },
+  {
+   "id": "leadership",
+   "name": "Leadership",
+   "short": "Leadership",
+   "color": "#ff6b8b"
+  },
+  {
+   "id": "economics",
+   "name": "Economics for Business",
+   "short": "Economics",
+   "color": "#ffb454"
+  },
+  {
+   "id": "finance",
+   "name": "Financial Decision Making",
+   "short": "Finance",
+   "color": "#c6f04f"
+  },
+  {
+   "id": "marketing",
+   "name": "Strategic Marketing",
+   "short": "Marketing",
+   "color": "#ff8a4c"
+  },
+  {
+   "id": "projects",
+   "name": "Delivering Successful Projects",
+   "short": "Projects",
+   "color": "#4ff0a8"
+  }
+ ],
+ "articles": [
+  {
+   "id": "d57d6b3424bd",
+   "title": "The 3PL reality check: Bigger, better, or just more complicated?",
+   "url": "https://theloadstar.com/the-3pl-reality-check-bigger-better-or-just-more-complicated/",
+   "source": "The Loadstar",
+   "publishedAt": "2026-11-14T09:02:26Z",
+   "addedAt": "2026-11-14T14:36:03Z",
+   "basis": "abstract",
+   "takeaway": "Strong reported profits do not guarantee that a logistics provider is performing well, so buyers should look beyond headline financials to integration and operational capability.",
+   "summary": "The article notes that recent earnings look healthy for the major third-party logistics (3PL) firms, with profits rising and management raising expectations. The author, who has long experience in logistics, argues that financial success does not necessarily mean a provider is becoming better at logistics. The abstract says that behind the figures some firms are struggling with integration and are reworking management structures that had previously worked well. The remainder of the piece is cut off, so its detailed evidence is not available.",
+   "keyPoints": [
+    "Earnings for the major 3PLs have improved and management teams are raising expectations.",
+    "The author argues that strong financial results do not necessarily mean a better logistics provider.",
+    "Some 3PLs are struggling to integrate businesses, which the abstract presents as a hidden problem behind the numbers.",
+    "Some firms are changing management structures that previously served them well, which the abstract implies may be disruptive."
+   ],
+   "modules": [
     {
-      "id": "sample-01",
-      "title": "Why resilient supply chains trade speed for optionality",
-      "url": "",
-      "source": "Sample Business Review",
-      "publishedAt": "2026-11-13T05:20:00Z",
-      "readingMinutes": 7,
-      "basis": "full_text",
-      "takeaway": "Resilience is bought, not found: the firms that cope best decide in advance which products deserve a slower, costlier, safer supply chain.",
-      "summary": "The article follows manufacturers that added backup suppliers and regional stock after repeated disruptions. Dual sourcing raised unit costs and lengthened some lead times, but cut stock-outs sharply. The firms that gained most did not protect everything; they segmented their portfolio and paid for resilience only where a shortage would be most damaging.",
-      "keyPoints": [
-        "Backup capacity behaves like insurance: a visible premium for an invisible benefit.",
-        "Protecting every product equally destroys margin; segmentation is the real decision.",
-        "Lead time, not unit cost, becomes the variable managers trade against risk."
-      ],
-      "modules": [ { "id": "scm", "relevance": 92 }, { "id": "operations", "relevance": 74 }, { "id": "finance", "relevance": 48 } ],
-      "applications": [
-        {
-          "moduleId": "scm",
-          "concept": "Fisher's supply chain matrix",
-          "link": "Fisher argues that functional products need efficient supply chains and innovative products need responsive ones. The firms in the article are re-sorting products between those two designs rather than making the whole chain 'resilient'.",
-          "practice": "List your top 20 products by margin and demand uncertainty. Give dual sourcing and safety stock only to the high-margin, hard-to-forecast group; keep the rest on the lean, low-cost chain."
-        },
-        {
-          "moduleId": "finance",
-          "concept": "Real options thinking",
-          "link": "A qualified second supplier is an option: you pay a premium now for the right, not the obligation, to switch volume later. Its value rises with uncertainty, which plain NPV tends to miss.",
-          "practice": "When you build the business case, price the backup supplier as an insurance premium against the expected cost of a stock-out, instead of comparing unit prices alone."
-        }
-      ],
-      "exam": {
-        "question": "A manufacturer wants to make its supply chain more resilient without eroding margins. How should it decide which products to protect, and with which mechanisms?",
-        "outline": [
-          "Segment products by demand uncertainty and contribution margin (Fisher).",
-          "Match the mechanism to the risk: buffer stock, dual sourcing, or flexible capacity.",
-          "Evaluate the cost as an option premium against the expected loss from disruption."
-        ]
-      }
+     "id": "scm",
+     "relevance": 85
     },
     {
-      "id": "sample-02",
-      "title": "What middle managers do when AI takes over the reporting",
-      "url": "",
-      "source": "Sample Management Quarterly",
-      "publishedAt": "2026-11-13T03:05:00Z",
-      "readingMinutes": 6,
-      "basis": "full_text",
-      "takeaway": "When software writes the status report, the manager's job does not disappear; it shifts from collecting information to making sense of it for the team.",
-      "summary": "Interviews with managers in firms that automated performance reporting show two outcomes. Some felt stripped of purpose and status; others used the freed time for coaching and cross-team problem solving. The difference came from how the role was redesigned, not from the technology itself.",
-      "keyPoints": [
-        "Automation removed tasks, and with them a source of the manager's authority.",
-        "Roles that were redesigned on purpose gained autonomy and significance.",
-        "Where nothing was redesigned, engagement fell and turnover intentions rose."
-      ],
-      "modules": [ { "id": "pwo", "relevance": 88 }, { "id": "leadership", "relevance": 70 }, { "id": "strategy", "relevance": 34 } ],
-      "applications": [
-        {
-          "moduleId": "pwo",
-          "concept": "Job Characteristics Model (Hackman and Oldham)",
-          "link": "Taking reporting away lowers task identity and significance unless something replaces it. The successful firms raised skill variety, autonomy and feedback, the levers the model says drive motivation.",
-          "practice": "Before you automate a task, write down which of the five core job dimensions it supports for the people who do it, and what will replace each one afterwards."
-        },
-        {
-          "moduleId": "leadership",
-          "concept": "Sensemaking as a leadership task",
-          "link": "With data freely available, the leader's contribution is interpreting it: explaining what the numbers mean for priorities. That is closer to transformational leadership than to transactional monitoring.",
-          "practice": "Replace the weekly status meeting with a short 'what changed and what we do about it' session led by the manager."
-        }
-      ],
-      "exam": {
-        "question": "Critically evaluate the claim that AI will make middle management redundant, using theories of job design and leadership.",
-        "outline": [
-          "Separate the tasks that are automated from the role as a whole.",
-          "Apply the Job Characteristics Model to the redesigned role.",
-          "Contrast transactional monitoring with transformational, sensemaking leadership."
-        ]
-      }
+     "id": "strategy",
+     "relevance": 60
     },
     {
-      "id": "sample-03",
-      "title": "Pricing power in a slow-growth economy",
-      "url": "",
-      "source": "Sample Insights",
-      "publishedAt": "2026-11-12T16:40:00Z",
-      "readingMinutes": 8,
-      "basis": "full_text",
-      "takeaway": "When volume stops growing, price becomes the main profit lever, and only firms that know their customers' elasticity can pull it safely.",
-      "summary": "The piece compares companies that raised prices during weak demand. Those with differentiated offers kept their volumes; those selling near-commodities lost share within two quarters. The authors argue that most firms set prices from cost and competitor lists rather than from measured willingness to pay.",
-      "keyPoints": [
-        "A small price rise moves profit far more than the same percentage rise in volume.",
-        "Elasticity differs by segment, so one list price leaves money on the table.",
-        "Differentiation, not market share, is what protects a price increase."
-      ],
-      "modules": [ { "id": "economics", "relevance": 86 }, { "id": "marketing", "relevance": 78 }, { "id": "finance", "relevance": 40 } ],
-      "applications": [
-        {
-          "moduleId": "economics",
-          "concept": "Price elasticity of demand",
-          "link": "Revenue rises with price only where demand is inelastic. The commodity sellers in the article faced elastic demand and close substitutes, so their increases reduced total revenue.",
-          "practice": "Estimate elasticity for each segment from past price changes or a small test before you announce an increase, and raise prices first where demand is least sensitive."
-        },
-        {
-          "moduleId": "marketing",
-          "concept": "Value-based pricing",
-          "link": "The winners priced from the value customers perceive, not from cost plus a margin. Positioning and brand equity are what made that value credible.",
-          "practice": "Rewrite your price justification around the customer's outcome, such as time saved or risk removed, and offer good, better and best tiers so segments choose their own price."
-        }
-      ],
-      "exam": {
-        "question": "Under what market conditions can a firm raise prices without losing revenue? Illustrate with elasticity and differentiation.",
-        "outline": [
-          "Define price elasticity and its link to total revenue.",
-          "Explain how substitutes and market structure shape elasticity.",
-          "Show how differentiation and segmentation make demand less elastic."
-        ]
-      }
-    },
-    {
-      "id": "sample-04",
-      "title": "The hidden cash in your warehouse",
-      "url": "",
-      "source": "Sample CFO Brief",
-      "publishedAt": "2026-11-12T11:15:00Z",
-      "readingMinutes": 5,
-      "basis": "full_text",
-      "takeaway": "With borrowing costs high, the cheapest finance a company can find is often sitting on its own shelves as excess inventory.",
-      "summary": "Retailers in the article released cash by cutting slow-moving stock and renegotiating supplier payment terms. Finance and supply chain teams had been working to conflicting targets: one rewarded low unit cost through bulk buying, the other rewarded cash. Joint targets on the cash conversion cycle resolved it.",
-      "keyPoints": [
-        "Bulk-purchase discounts can cost more in tied-up cash than they save.",
-        "Inventory days, receivable days and payable days must be managed together.",
-        "Shared metrics matter more than new software."
-      ],
-      "modules": [ { "id": "finance", "relevance": 85 }, { "id": "scm", "relevance": 72 }, { "id": "operations", "relevance": 46 } ],
-      "applications": [
-        {
-          "moduleId": "finance",
-          "concept": "Cash conversion cycle",
-          "link": "The cycle equals inventory days plus receivable days minus payable days. Every day removed is cash the firm no longer needs to borrow, which matters more as the cost of capital rises.",
-          "practice": "Calculate the three components for your business unit and price one day of each at your cost of capital, so operations can see the money value of inventory."
-        },
-        {
-          "moduleId": "scm",
-          "concept": "Economic order quantity and holding cost",
-          "link": "EOQ balances ordering cost against holding cost. The retailers had been using outdated holding costs that ignored higher interest rates, so their order sizes were too large.",
-          "practice": "Recalculate order quantities with a current holding cost and review any supplier discount that requires more than a few weeks of cover."
-        }
-      ],
-      "exam": {
-        "question": "Explain how inventory policy affects a firm's working capital, and how a rise in interest rates should change that policy.",
-        "outline": [
-          "Set out the cash conversion cycle and its components.",
-          "Link holding cost to the cost of capital in the EOQ trade-off.",
-          "Discuss the conflict between purchasing and finance objectives."
-        ]
-      }
-    },
-    {
-      "id": "sample-05",
-      "title": "Why megaprojects fail early, not late",
-      "url": "",
-      "source": "Sample Project Review",
-      "publishedAt": "2026-11-12T08:00:00Z",
-      "readingMinutes": 9,
-      "basis": "full_text",
-      "takeaway": "Most cost overruns are locked in before construction starts, by optimistic forecasts made when the project was still trying to win approval.",
-      "summary": "The article reviews large infrastructure and IT projects and finds that overruns trace back to the business case: underestimated costs, overstated benefits and a rushed front end. Projects that spent longer on planning and compared themselves with similar past projects finished closer to budget.",
-      "keyPoints": [
-        "Optimism bias and strategic misrepresentation distort early estimates.",
-        "A slow, thorough front end makes fast delivery possible.",
-        "Past projects of the same type predict outcomes better than detailed bottom-up plans."
-      ],
-      "modules": [ { "id": "projects", "relevance": 93 }, { "id": "leadership", "relevance": 44 }, { "id": "finance", "relevance": 41 } ],
-      "applications": [
-        {
-          "moduleId": "projects",
-          "concept": "Reference class forecasting",
-          "link": "Flyvbjerg's method replaces the 'inside view' of a unique project with the 'outside view': the actual results of comparable projects. It directly counters the planning fallacy described in the article.",
-          "practice": "For your next estimate, find five comparable completed projects, record their overrun, and add that uplift to your bottom-up figure before seeking approval."
-        },
-        {
-          "moduleId": "leadership",
-          "concept": "Escalation of commitment",
-          "link": "Once approved, leaders keep funding a failing project to justify earlier decisions. Stage gates with independent reviewers are a governance answer to this bias.",
-          "practice": "Define in advance the measurable conditions under which the project would be stopped, and give that decision to someone who did not sponsor it."
-        }
-      ],
-      "exam": {
-        "question": "Why do large projects so often exceed their budgets, and what can project sponsors do at the front end to reduce the risk?",
-        "outline": [
-          "Explain optimism bias and strategic misrepresentation.",
-          "Describe reference class forecasting and front-end loading.",
-          "Discuss governance: stage gates and independent assurance."
-        ]
-      }
-    },
-    {
-      "id": "sample-06",
-      "title": "Nearshoring's second act: the new trade map",
-      "url": "",
-      "source": "Sample Supply Chain Daily",
-      "publishedAt": "2026-11-11T14:30:00Z",
-      "readingMinutes": 6,
-      "basis": "abstract",
-      "takeaway": "Moving production closer to customers is no longer only about labour cost; tariffs, transit time and carbon are now part of the calculation.",
-      "summary": "The abstract reports that companies are relocating some production from distant low-cost countries to locations nearer their main markets, and that the decision increasingly rests on total cost and risk rather than factory wages.",
-      "keyPoints": [
-        "Location decisions are shifting from unit labour cost to total landed cost.",
-        "Shorter transit times reduce both inventory and exposure to disruption."
-      ],
-      "modules": [ { "id": "scm", "relevance": 90 }, { "id": "economics", "relevance": 66 }, { "id": "strategy", "relevance": 58 } ],
-      "applications": [
-        {
-          "moduleId": "scm",
-          "concept": "Total landed cost",
-          "link": "Total landed cost adds freight, duties, inventory in transit, quality failures and risk to the factory price. Nearshoring wins on this measure in cases where it loses on unit cost.",
-          "practice": "Build a landed-cost comparison for one product across two locations, including the cost of the extra weeks of pipeline inventory."
-        },
-        {
-          "moduleId": "economics",
-          "concept": "Comparative advantage and trade costs",
-          "link": "Comparative advantage still explains where production is cheapest, but tariffs and transport act as trade costs that can outweigh it.",
-          "practice": "Test how sensitive your sourcing decision is to a change in tariff rates or freight prices before committing to a long contract."
-        }
-      ],
-      "exam": {
-        "question": "Assess the factors a firm should consider when deciding whether to nearshore production.",
-        "outline": [
-          "Compare unit cost with total landed cost.",
-          "Include risk, lead time and responsiveness.",
-          "Consider trade policy and comparative advantage."
-        ]
-      }
-    },
-    {
-      "id": "sample-07",
-      "title": "The four-day week, two years on",
-      "url": "",
-      "source": "Sample Workplace Journal",
-      "publishedAt": "2026-11-11T09:10:00Z",
-      "readingMinutes": 6,
-      "basis": "full_text",
-      "takeaway": "Shorter weeks held productivity where work was redesigned, and quietly failed where the same workload was squeezed into fewer days.",
-      "summary": "A follow-up of organisations that adopted a four-day week finds that most kept it. Wellbeing and retention improved. Output held steady in teams that cut meetings and clarified priorities, while teams that simply compressed hours reported more stress than before.",
-      "keyPoints": [
-        "The benefit came from removing low-value work, not from the day off itself.",
-        "Retention gains offset part of the cost of reduced hours.",
-        "Customer-facing teams needed staggered schedules to keep coverage."
-      ],
-      "modules": [ { "id": "pwo", "relevance": 90 }, { "id": "operations", "relevance": 52 }, { "id": "leadership", "relevance": 36 } ],
-      "applications": [
-        {
-          "moduleId": "pwo",
-          "concept": "Herzberg's two-factor theory",
-          "link": "Working time is a hygiene factor: improving it removes dissatisfaction. The lasting gains in the article came from motivators such as autonomy over how work is organised.",
-          "practice": "Pair any change in hours with a team-led review of which tasks to stop, so the change adds autonomy and not only free time."
-        },
-        {
-          "moduleId": "operations",
-          "concept": "Capacity and utilisation",
-          "link": "Cutting a day reduces available capacity by a fifth. Output only holds if waste is removed or utilisation of the remaining time rises, which is a process-design problem.",
-          "practice": "Map one team's weekly hours into value-adding and non-value-adding activity before the trial, and set the target on the second category."
-        }
-      ],
-      "exam": {
-        "question": "Using motivation theory, evaluate whether a four-day working week is likely to improve organisational performance.",
-        "outline": [
-          "Distinguish hygiene factors from motivators.",
-          "Consider work intensification as a counter-argument.",
-          "Link outcomes to job redesign and to capacity."
-        ]
-      }
-    },
-    {
-      "id": "sample-08",
-      "title": "Private labels are winning the brand war",
-      "url": "",
-      "source": "Sample Marketing Weekly",
-      "publishedAt": "2026-11-10T13:45:00Z",
-      "readingMinutes": 5,
-      "basis": "full_text",
-      "takeaway": "Retailers' own brands have moved from cheap alternative to first choice, and that shifts bargaining power away from manufacturers.",
-      "summary": "Shoppers who switched to supermarket own brands during the cost-of-living squeeze have largely stayed. Retailers invested in quality and packaging, and now use their own ranges to negotiate harder with branded suppliers. Brands that kept share were those with clear, defensible differentiation.",
-      "keyPoints": [
-        "Quality perceptions of own brands have closed much of the gap.",
-        "Retailers control shelf space and data, which strengthens their position.",
-        "Mid-market brands without a distinct position are the most exposed."
-      ],
-      "modules": [ { "id": "marketing", "relevance": 88 }, { "id": "strategy", "relevance": 64 }, { "id": "economics", "relevance": 42 } ],
-      "applications": [
-        {
-          "moduleId": "marketing",
-          "concept": "Customer-based brand equity (Keller)",
-          "link": "Brand equity is the difference brand knowledge makes to a customer's response. When own brands match perceived quality, that difference shrinks and the price premium becomes hard to defend.",
-          "practice": "Audit what your brand stands for beyond quality. If customers cannot name it, invest in a distinct association before spending on promotions."
-        },
-        {
-          "moduleId": "strategy",
-          "concept": "Porter's five forces: buyer power",
-          "link": "A retailer with a credible own brand has, in effect, integrated backwards. That raises buyer power and squeezes supplier margins across the category.",
-          "practice": "Map how dependent you are on your three largest retail customers and build a direct or alternative channel for part of your volume."
-        }
-      ],
-      "exam": {
-        "question": "How should a branded manufacturer respond to the growth of retailer own brands?",
-        "outline": [
-          "Analyse the shift in buyer power using the five forces.",
-          "Assess brand equity and the basis of differentiation.",
-          "Evaluate options: innovate, reposition, or supply own brands."
-        ]
-      }
-    },
-    {
-      "id": "sample-09",
-      "title": "Lean meets volatility: rethinking just-in-time",
-      "url": "",
-      "source": "Sample Operations Review",
-      "publishedAt": "2026-11-10T07:30:00Z",
-      "readingMinutes": 7,
-      "basis": "full_text",
-      "takeaway": "Just-in-time was never about zero inventory; the plants that kept it working treated buffers as a deliberate design choice.",
-      "summary": "Plants that abandoned lean after supply shocks saw costs rise without becoming more reliable. Those that kept lean discipline but placed small buffers at known bottlenecks recovered faster. The article argues that many firms had copied lean's low stock levels without its problem-solving culture.",
-      "keyPoints": [
-        "Low inventory is a result of stable processes, not a starting point.",
-        "Buffers belong at the constraint, not spread evenly along the line.",
-        "Demand signals shared with suppliers reduce the need for stock."
-      ],
-      "modules": [ { "id": "operations", "relevance": 91 }, { "id": "scm", "relevance": 80 } ],
-      "applications": [
-        {
-          "moduleId": "operations",
-          "concept": "Theory of constraints",
-          "link": "Goldratt's point is that a system's output is set by its bottleneck. Protecting that one step with a buffer preserves flow at far lower cost than raising stock everywhere.",
-          "practice": "Identify the single step that limits your throughput and hold a time buffer in front of it; remove buffers elsewhere."
-        },
-        {
-          "moduleId": "scm",
-          "concept": "The bullwhip effect",
-          "link": "Small swings in customer demand grow as orders pass upstream. Firms that shared real demand data with suppliers dampened that amplification and needed less safety stock.",
-          "practice": "Send suppliers your point-of-sale or consumption data instead of orders alone, and review any batching rules that distort the signal."
-        }
-      ],
-      "exam": {
-        "question": "Is just-in-time still an appropriate philosophy in a volatile environment? Discuss.",
-        "outline": [
-          "Clarify what lean and JIT actually require.",
-          "Use the theory of constraints to position buffers.",
-          "Explain the bullwhip effect and the role of information sharing."
-        ]
-      }
-    },
-    {
-      "id": "sample-10",
-      "title": "Leading through a restructuring without losing trust",
-      "url": "",
-      "source": "Sample Leadership Journal",
-      "publishedAt": "2026-11-09T10:20:00Z",
-      "readingMinutes": 6,
-      "basis": "full_text",
-      "takeaway": "People forgive a hard decision more readily than a vague one; trust during restructuring depends on how openly leaders explain the reasoning.",
-      "summary": "The article contrasts two companies that cut similar numbers of roles. In one, leaders explained the criteria early and stayed visible; engagement recovered within a year. In the other, messages were delayed and filtered, and the best performers left first.",
-      "keyPoints": [
-        "Perceived fairness of the process matters as much as the outcome.",
-        "Silence is read as bad news and fills with rumour.",
-        "Those who stay judge the organisation by how it treats those who leave."
-      ],
-      "modules": [ { "id": "leadership", "relevance": 90 }, { "id": "pwo", "relevance": 78 }, { "id": "strategy", "relevance": 30 } ],
-      "applications": [
-        {
-          "moduleId": "leadership",
-          "concept": "Kotter's eight-step change model",
-          "link": "The successful firm created urgency with evidence, formed a visible guiding coalition and communicated the vision repeatedly, the early steps Kotter says most change efforts skip.",
-          "practice": "Before announcing a change, prepare a one-page explanation of why, why now and how decisions will be made, and have every senior leader deliver it in person."
-        },
-        {
-          "moduleId": "pwo",
-          "concept": "The psychological contract",
-          "link": "Rousseau describes the unwritten expectations between employee and employer. Restructuring breaches it; procedural justice determines whether survivors rebuild it or disengage.",
-          "practice": "Ask remaining staff what they now expect from the organisation and state clearly what you can and cannot promise."
-        }
-      ],
-      "exam": {
-        "question": "Discuss how leaders can maintain employee commitment during organisational restructuring.",
-        "outline": [
-          "Apply a change model such as Kotter's.",
-          "Explain the psychological contract and survivor syndrome.",
-          "Relate procedural justice to trust and retention."
-        ]
-      }
+     "id": "pwo",
+     "relevance": 35
     }
-  ]
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Transaction cost economics (Williamson) applied to outsourcing",
+     "link": "The article concerns companies that outsource logistics to 3PLs and questions whether the provider's reported strength reflects its real capability. Transaction cost economics explains outsourcing as a trade-off between market costs, such as monitoring and contract risk, and the costs of doing the work in-house. The article suggests these monitoring costs rise when a provider's financial health is not a reliable guide to its service quality.",
+     "practice": "A shipper reviewing a 3PL should build the outsourcing case on service delivery evidence, such as on-time performance, damage rates and account-level metrics, rather than on the provider's share price or profit growth. In an assignment, you could use the article to argue for stronger contract governance and performance monitoring where a 3PL is going through integration or restructuring."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Haspeslagh and Jemison's post-merger integration approaches",
+     "link": "The abstract points to integration problems at some 3PLs, which is the central challenge in Haspeslagh and Jemison's account of acquisitions. Their framework says the degree of integration should match the strategic interdependence between the merging businesses and the need to preserve what makes the acquired firm valuable. The article's warning that integration can hide behind good numbers fits this framework's emphasis on capability transfer.",
+     "practice": "A manager leading an acquisition-driven 3PL should decide, before integrating, how much autonomy the acquired operations need and which capabilities must be protected. Use the article as an example of a case where financial results may mask integration risk, and recommend tracking operational indicators alongside financial ones."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Kotter's eight-step model of organisational change",
+     "link": "The abstract refers to some 3PLs changing management structures that had served them well, which is an organisational change process. Kotter's model argues that change initiatives often fail when urgency, a guiding coalition and short-term wins are not handled carefully. The article suggests that structural change can carry hidden costs that financial results do not show.",
+     "practice": "Leaders reorganising management structures during integration should set out a clear case for change, identify who will lead it and track early wins in service quality. In an essay, you could use the article to show that structural change needs to be evaluated on operational outcomes, not just on the headline numbers."
+    }
+   ],
+   "exam": {
+    "question": "Critically assess whether a shipper should rely on a third-party logistics provider's financial performance when choosing or retaining it as a supply chain partner.",
+    "outline": [
+     "Explain why financial results are an incomplete measure of a 3PL's ability to deliver service, drawing on the idea that reported profits can hide integration problems.",
+     "Evaluate outsourcing decisions using transaction cost economics, weighing monitoring and contract costs against the benefits of using a specialist provider.",
+     "Recommend performance measures and governance arrangements, such as service-level metrics and contract review, that a shipper should use to assess a 3PL's real capability."
+    ]
+   }
+  },
+  {
+   "id": "b5c029268518",
+   "title": "JD Sports leverages tech for faster replenishment",
+   "url": "https://www.supplychaindive.com/news/jd-sports-leverages-tech-for-faster-replenishment/874427/",
+   "source": "Supply Chain Dive",
+   "publishedAt": "2026-11-13T15:55:00Z",
+   "addedAt": "2026-11-14T14:36:03Z",
+   "basis": "abstract",
+   "takeaway": "Real-time inventory visibility across channels is an information capability that can raise on-shelf availability, but its value depends on how it changes stock, replenishment and customer service decisions.",
+   "summary": "JD Sports is working with Zebra to achieve real-time inventory visibility across its omnichannel operations. The publisher's abstract cites 98% on-shelf availability as the reason for the partnership. The abstract does not say which technology is used, how the system works, or what it cost. The full article would be needed to judge the scale of the change.",
+   "keyPoints": [
+    "The retailer is partnering with Zebra to gain real-time visibility of inventory.",
+    "The visibility covers its omnichannel operations, linking stores and online sales.",
+    "The stated benefit is 98% on-shelf availability.",
+    "The abstract gives no detail on the technology, costs or effects on stock levels."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85
+    },
+    {
+     "id": "operations",
+     "relevance": 55
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Chopra and Meindl's drivers of supply chain performance (information as a driver)",
+     "link": "Chopra and Meindl treat information as one of the drivers that shape supply chain performance, alongside inventory, facilities and transportation. Real-time stock visibility across stores and online channels is an information investment that should let the retailer hold and move inventory more responsively. The abstract's 98% on-shelf availability figure is the outcome that such a change would be expected to improve.",
+     "practice": "A supply chain manager could map how the new visibility feeds replenishment decisions and whether it allows lower safety stock at the same service level. For an assignment, the student could use the 98% figure as evidence of performance, but should check the full article for the baseline and for how availability was measured."
+    },
+    {
+     "moduleId": "operations",
+     "concept": "Ohno's seven wastes (particularly waste of inventory and waiting)",
+     "link": "Ohno's seven wastes include excess inventory and waiting, both of which arise when stock locations are unknown or stock records are inaccurate. Real-time visibility targets these by letting staff find and replenish product quickly. High availability can also tempt managers to hold extra stock, which Lean would classify as waste.",
+     "practice": "An operations manager could run a value stream map of the replenishment process before and after the change, counting time spent searching, waiting for replenishment and holding stock. The student could argue that the success of the project should be judged by reduced waste as well as by the availability percentage."
+    }
+   ],
+   "exam": {
+    "question": "Critically evaluate the contribution of real-time inventory visibility to supply chain performance for omnichannel retailers. Your answer should draw on relevant supply chain theory and assess the trade-offs involved.",
+    "outline": [
+     "Explain how information visibility affects inventory, replenishment and responsiveness, using a framework such as Chopra and Meindl's supply chain drivers.",
+     "Assess the trade-off between higher on-shelf availability and the cost of holding stock, including Lean perspectives on waste.",
+     "Evaluate the limits of the evidence, such as relying on a single availability metric and needing a baseline and full data to judge success."
+    ]
+   }
+  },
+  {
+   "id": "772bdfb75b61",
+   "title": "CEO exits due to misconduct have doubled compared to 2024",
+   "url": "https://www.hrdive.com/news/the-number-of-ceos-exiting-due-to-misconduct-has-doubled-compared-to-2024/874528/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-12T20:27:00Z",
+   "addedAt": "2026-11-14T14:36:03Z",
+   "basis": "abstract",
+   "takeaway": "Boards and organisations increasingly treat CEO misconduct as a failure of judgement, not only a personal or moral lapse, which places it squarely within leadership and decision making.",
+   "summary": "The article, as provided, is only the publisher's short abstract. Its headline reports that CEO departures caused by misconduct have roughly doubled compared with 2024. A quotation from Andy Challenger of Challenger, Gray & Christmas frames the issue as one of judgement rather than just romance or morality. The abstract gives no further data, causes or examples.",
+   "keyPoints": [
+    "The headline reports that CEO exits linked to misconduct have roughly doubled compared with 2024.",
+    "Andy Challenger of Challenger, Gray & Christmas argues that the issue is now one of judgement rather than only romance or morality.",
+    "Reframing misconduct as a judgement problem suggests that the relevant question is how leaders decide, not only what private behaviour is acceptable.",
+    "The abstract gives no detail on sectors, company sizes or the specific cases behind the figure, so conclusions should be treated cautiously."
+   ],
+   "modules": [
+    {
+     "id": "leadership",
+     "relevance": 75
+    },
+    {
+     "id": "pwo",
+     "relevance": 30
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "leadership",
+     "concept": "Ethical leadership (Brown, Treviño and Harrison's social learning model)",
+     "link": "The abstract's point that misconduct is now seen as a question of judgement fits the idea that leaders set the ethical standards others follow and are judged on the consequences of their decisions. Brown and colleagues argue that ethical leadership depends on being a visible role model and on using rewards and sanctions consistently. A rise in exits for misconduct suggests that boards are holding leaders to these standards more strictly.",
+     "practice": "A board or senior manager could use this model to review whether the company's own expectations of executives are explicit, consistently enforced and reinforced through formal processes such as performance reviews and succession planning. In an assignment, you could use the headline statistic as evidence that ethical standards at the top are now a governance concern, then critically assess whether the figure reflects more misconduct or stricter enforcement."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Decision making under ethical uncertainty (Kohlberg's stages of moral development, applied to leaders)",
+     "link": "Challenger's framing of judgement rather than romance or morality implies that the problem lies in how leaders weigh personal and organisational interests when they decide. Kohlberg's stages suggest that leaders who reason at conventional or post-conventional levels are more likely to consider the wider consequences of their conduct for the organisation and its stakeholders.",
+     "practice": "Leadership development programmes can use scenario-based exercises that ask participants to reason through a conflict of interest or a personal relationship with a subordinate, then to explain their reasoning in terms of duties, consequences and organisational impact. For a module assignment, the quotation can support an argument that ethical failures are often failures of decision making, which training and governance can address rather than treating them only as private misconduct."
+    }
+   ],
+   "exam": {
+    "question": "To what extent is the rise in CEO dismissals for misconduct evidence of a failure of ethical leadership rather than of individual character?",
+    "outline": [
+     "Define ethical leadership and distinguish it from personal morality, drawing on social learning or moral development theory.",
+     "Assess whether boards and governance structures have enforced ethical standards more strictly, and what that implies for how misconduct is interpreted.",
+     "Evaluate the evidence for and against judgement as the main cause, and recommend how organisations can strengthen leaders' decision making."
+    ]
+   }
+  },
+  {
+   "id": "6d25edbe3279",
+   "title": "Your AI Productivity Gains May Be Hiding a Capability Gap",
+   "url": "https://cmr.berkeley.edu/2026/11/your-ai-productivity-gains-may-be-hiding-a-capability-gap/",
+   "source": "California Management Review",
+   "publishedAt": "2026-11-12T14:25:00Z",
+   "addedAt": "2026-11-14T14:36:03Z",
+   "basis": "full_text",
+   "takeaway": "Generative AI can raise output while quietly eroding the human judgment needed to check, run or recover the work without it, so organisations should measure residual capability alongside assisted productivity.",
+   "summary": "The article introduces residual capability, meaning the knowledge, judgment and execution capacity an organisation keeps independently of its AI systems, and argues that it can weaken while productivity rises. It reviews mixed experimental evidence: one 2026 preprint found that developers who used AI while learning a Python library scored lower on a later unaided mastery test, while other preprints found AI gains that persisted without harm after removal, and the author stresses that these studies are small, young and limited in scope. Drawing on aviation's experience with automation, the author proposes assessing AI-enabled workflows on assisted productivity and residual capability, deciding which capabilities must stay in-house, and testing them with three stress tests. Boards are advised to treat capability resilience as a standing oversight category.",
+   "keyPoints": [
+    "Two workflows can show the same productivity gain yet differ sharply once AI is removed, which a conventional AI return-on-investment dashboard would not reveal.",
+    "Workflows should be assessed on a two-dimension matrix of assisted productivity and residual capability, with the acceptable threshold set by the risk the task carries.",
+    "Capabilities with severe failure consequences, slow rebuilding and heavy dependence on one external system should be retained, and tested with AI-off, AI-wrong and AI-change exercises.",
+    "The longer-term risk lies in the junior pipeline, since AI may remove the routine tasks through which junior staff develop judgment, so work should be redesigned and boards should oversee capability resilience."
+   ],
+   "modules": [
+    {
+     "id": "operations",
+     "relevance": 80
+    },
+    {
+     "id": "pwo",
+     "relevance": 75
+    },
+    {
+     "id": "strategy",
+     "relevance": 45
+    },
+    {
+     "id": "leadership",
+     "relevance": 35
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "operations",
+     "concept": "Bainbridge's ironies of automation, with automation complacency",
+     "link": "Bainbridge argued that the more reliable an automated system becomes, the less practice its human supervisors get and the more demanding the rare interventions become. The article applies this to AI-enabled service and knowledge work, noting that Klarna brought human staff back for difficult cases such as identity theft, and that aviation responded to automation by maintaining manual flying skills through simulator practice with the automation switched off.",
+     "practice": "An operations manager running an AI-assisted claims or service process could schedule regular manual-mode drills, track how staff handle escalated cases as a metric, and report residual capability alongside throughput. In an assignment, this case can serve as evidence that efficiency measures alone miss the fallback capacity a process needs."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Hackman and Oldham's job characteristics model",
+     "link": "The article suggests that junior analysts should form an initial assessment before consulting AI and then explain disagreements to a supervisor, and warns that losing drafting, debugging and reviewing tasks removes the experience through which judgment develops. This maps onto the model's core job dimensions of skill variety, task significance and autonomy, which AI can reduce when it takes over the reasoning work.",
+     "practice": "An HR or line manager could use the job diagnostic survey on junior roles before and after AI adoption to see whether skill variety and autonomy have fallen. Roles can then be redesigned to keep meaningful reasoning tasks, with success measured by later independent performance as well as current output."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Barney's VRIO framework (resource-based view)",
+     "link": "The article implies that AI-assisted output may be neither rare nor hard to imitate if many firms can access the same tools, whereas the tacit judgment built through experience may be valuable and difficult to copy. It also notes that some capabilities depend on one provider's model, which raises questions about whether a firm controls the resource.",
+     "practice": "Before treating an AI-enabled process as a source of competitive advantage, a strategist could apply the VRIO questions to it. If the advantage rests on a widely available model, the in-house judgment that makes the output reliable may be the true rare resource, and its erosion should be treated as a strategic risk."
+    }
+   ],
+   "exam": {
+    "question": "Critically discuss whether productivity gains from generative AI in operations are sustainable if organisations fail to maintain the human capability needed to run, check and recover those processes when the technology is unavailable or wrong.",
+    "outline": [
+     "Explain the productivity case for AI in operations and why conventional efficiency metrics such as cycle time and cost per output can miss residual capability.",
+     "Apply Bainbridge's ironies of automation and the aviation response to show how reliance reduces practice and makes rare interventions harder, and assess the transferability of the aviation analogy.",
+     "Evaluate the strength of the evidence, including the mixed preprint experiments, and propose stress tests and a capability register, weighing the cost of retained capability against the risk it protects against."
+    ]
+   },
+   "readingMinutes": 15
+  },
+  {
+   "id": "8cc7d5d5eee5",
+   "title": "Climate risk influences the economy through the cost of capital",
+   "url": "https://blogs.lse.ac.uk/businessreview/2026/11/12/cop31-climate-risk-influences-the-economy-through-the-cost-of-capital/",
+   "source": "LSE Business Review",
+   "publishedAt": "2026-11-12T10:15:04Z",
+   "addedAt": "2026-11-14T14:36:03Z",
+   "basis": "full_text",
+   "takeaway": "Climate risk raises firms' cost of capital and lowers safe-asset yields, so it works as a macroeconomic and financial force as well as an environmental one.",
+   "summary": "Avino, Chen and Hoque argue that climate risk affects how much and where firms invest, how investors allocate capital and the level of risk-free interest rates. Drawing on US listed firms and Treasury markets over several decades, and a climate risk measure built from news coverage, they report that higher climate risk is followed by lower capital expenditure, which persists for years. They also report that higher climate risk is associated with lower Treasury yields, which they read as a flight to safe assets. The article presents this as evidence that climate risk operates through the cost of capital, and says the investment effect weakened after 2006 as carbon-intensive firms moved towards cleaner production.",
+   "keyPoints": [
+    "A one-standard-deviation rise in climate risk is linked to roughly 8 per cent lower capital expenditure in the following quarter, with the effect lasting several years.",
+    "Investors demand higher returns from climate-exposed firms, so fewer projects clear required return thresholds, and financially constrained firms cut back most.",
+    "Higher climate risk is associated with Treasury yields about 30 basis points lower, and the effect is stronger when economic policy uncertainty is already high.",
+    "Since the mid-2000s, carbon-intensive firms have been less likely to cut investment when climate risk rises, and they have tended to reduce emissions intensity instead of postponing investment."
+   ],
+   "modules": [
+    {
+     "id": "finance",
+     "relevance": 85
+    },
+    {
+     "id": "economics",
+     "relevance": 70
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "finance",
+     "concept": "Weighted average cost of capital (WACC) and the capital asset pricing model",
+     "link": "The article's central mechanism is that climate risk raises the returns investors demand, which in finance terms means a higher cost of capital. That is why fewer projects meet a firm's hurdle rate, and the article's finding of lower capital expenditure is consistent with this pattern. The article does not itself estimate a WACC, so this is an interpretation rather than a reported result.",
+     "practice": "When appraising a long-lived project, a finance manager could run NPV and IRR tests at a higher discount rate that includes an allowance for climate exposure, and see which projects still pass. For an assignment, the student could argue that climate exposure belongs in discount rates or scenario analysis rather than only in ESG reporting, using the article as evidence."
+    },
+    {
+     "moduleId": "economics",
+     "concept": "Precautionary saving and the flight-to-quality effect in government bond markets",
+     "link": "The article finds that Treasury yields fall when climate risk rises, which fits the idea that heightened uncertainty increases demand for safe assets. The effect is stronger when economic uncertainty is already elevated, which the authors link to earlier work on climate-related pricing in corporate bond markets. This suggests that interest rate outlooks should consider non-inflation drivers such as risk perceptions.",
+     "practice": "An economist forecasting bond yields or advising on monetary policy could treat climate concern as a shift in demand for safe assets, alongside growth and inflation expectations. In an assignment, the student should note that the evidence is statistical and that central bank policy and inflation expectations also move yields, so the climate effect must be separated from these."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Real options and the irreversibility of investment (Dixit and Pindyck)",
+     "link": "The article notes that many investments are costly to reverse and that firms often wait when uncertainty rises. Real options theory explains this as the value of keeping the option to defer, which can make a standard NPV rule too quick to accept a project under high uncertainty. The article's evidence of postponed investment during high climate risk is consistent with this logic.",
+     "practice": "A manager facing uncertain climate regulation or physical risk could value the option to delay a capital project, and compare that with an immediate NPV decision. For an assignment, the student could argue that flexibility has value when climate risk is high, while noting that the article does not measure option value directly."
+    }
+   ],
+   "exam": {
+    "question": "Evaluate how climate risk should be reflected in a firm's cost of capital and its investment appraisal decisions, drawing on evidence that climate risk reduces corporate investment and affects risk-free interest rates.",
+    "outline": [
+     "Explain how higher climate risk raises investors' required returns, the WACC and the hurdle rate, and how this changes NPV and IRR outcomes.",
+     "Discuss the real options argument that uncertainty and irreversibility can justify deferring investment, and when this argument holds.",
+     "Assess the limits of the evidence, including how climate risk is measured, the gap between firm-level and macroeconomic effects, and the role of credible policy in reducing risk."
+    ]
+   },
+   "readingMinutes": 6
+  },
+  {
+   "id": "d144ba3217a0",
+   "title": "Programmatic M&A in Australia: The most reliable way to unlock value",
+   "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/programmatic-m-and-a-in-australia-the-most-reliable-way-to-unlock-value",
+   "source": "McKinsey Insights",
+   "publishedAt": "2026-11-12T00:00:00Z",
+   "addedAt": "2026-11-14T14:36:03Z",
+   "basis": "abstract",
+   "takeaway": "Companies that pursue a sustained programme of acquisitions rather than one-off deals appear to earn the highest excess shareholder returns, though very few listed firms have tried this approach.",
+   "summary": "The McKinsey abstract reports that fewer than one in 20 Australian-listed companies pursued programmatic M&A over the past decade. Those that did delivered the highest excess shareholder returns of any cohort the study examined. The title presents this approach as the most reliable way to unlock value. The abstract gives no detail on the method, deal sizes or mechanisms behind the result, so these notes rest on the headline finding alone.",
+   "keyPoints": [
+    "Programmatic M&A means a sustained sequence of acquisitions rather than isolated, one-off deals.",
+    "Only a very small share of Australian-listed companies adopted this approach over the past decade.",
+    "Companies using programmatic M&A delivered the highest excess shareholder returns of any cohort.",
+    "The abstract does not explain how excess returns were measured or why the approach works."
+   ],
+   "modules": [
+    {
+     "id": "strategy",
+     "relevance": 85
+    },
+    {
+     "id": "finance",
+     "relevance": 45
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "strategy",
+     "concept": "Resource-based view (Barney) and dynamic capabilities (Teece)",
+     "link": "A repeated series of deals suggests that any advantage may lie in a repeatable capability to find, execute and integrate targets, rather than in any single transaction. The abstract does not test this, but it is consistent with the view that competitive advantage comes from capabilities that are hard for rivals to copy.",
+     "practice": "A manager considering this route should check whether the firm has a repeatable acquisition process, including screening criteria, an integration playbook and post-deal reviews. Apply the VRIO test to see whether that capability is valuable, rare, costly to imitate and organised to be exploited. In an assignment, present the article as an observed pattern and state its limits, since the abstract gives no evidence on mechanisms."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Event study methodology and abnormal returns measured against CAPM (MacKinlay)",
+     "link": "Excess returns imply that shareholder returns were compared with an expected benchmark, but the abstract does not say which benchmark or time window was used. The finding concerns value to equity holders, so it speaks directly to how acquisitions are judged in capital markets.",
+     "practice": "When assessing an acquisition programme, measure abnormal returns against CAPM-expected returns over a defined event window around each announcement, then aggregate across deals. Test whether the cohort result holds across deal sizes and time periods, and consider selection bias, since firms that choose programmatic M&A may differ from others. Obtain the full report's method before relying on the figures in an assignment."
+    }
+   ],
+   "exam": {
+    "question": "Evaluate whether a programme of repeated acquisitions is a more reliable route to shareholder value than a single transformational merger. Draw on theories of growth strategy and the resource-based view, and consider the evidence on excess shareholder returns.",
+    "outline": [
+     "Define programmatic M&A and contrast it with large one-off mergers, using a growth strategy framework such as Ansoff's matrix.",
+     "Explain how repeatable acquisition and integration capabilities could create sustained advantage, testing them with VRIO.",
+     "Assess the evidence on excess returns, covering how measurement method and selection bias could affect the conclusion."
+    ]
+   }
+  },
+  {
+   "id": "650dfe0db8b4",
+   "title": "The Achilles’ heel of global trade: Building resilience where it matters most",
+   "url": "https://www.mckinsey.com/mgi/our-research/the-achilles-heel-of-global-trade-building-resilience-where-it-matters-most",
+   "source": "McKinsey Insights",
+   "publishedAt": "2026-11-12T00:00:00Z",
+   "addedAt": "2026-11-14T14:36:03Z",
+   "basis": "abstract",
+   "takeaway": "Global trade can look resilient overall while hidden single points of vulnerability remain, so identifying and managing these weak points is a source of both protection and growth.",
+   "summary": "The abstract says that international trade has held up well, but that important vulnerabilities sit beneath the surface. It argues that identifying and managing these weak points could help organisations and economies open new markets and products and support growth. Only the abstract was provided, so the full article's evidence, examples and figures are not known here.",
+   "keyPoints": [
+    "Aggregate trade appears resilient, which can hide specific fragilities.",
+    "The vulnerabilities are described as Achilles' heels: concentrated points whose failure would disproportionately disrupt flows.",
+    "Identifying these weak points is presented as a precondition for managing them well.",
+    "Better management of these risks is linked to access to new markets, products and growth."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85
+    },
+    {
+     "id": "economics",
+     "relevance": 55
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Christopher and Peck's supply chain resilience framework (building the resilient supply chain)",
+     "link": "The abstract's idea of hidden Achilles' heels maps directly onto identifying critical nodes and single points of failure in a network that looks robust on the surface. Christopher and Peck's approach treats resilience as a design property, built through visibility, flexibility and redundancy rather than assumed from past performance.",
+     "practice": "A supply chain manager could map tier-one and tier-two suppliers, flag nodes that have no qualified alternative, and score each for likelihood and impact of disruption. The student could use this as the basis for a risk-mapping section in an assignment, arguing for targeted redundancy at the most critical points rather than across the whole network."
+    },
+    {
+     "moduleId": "economics",
+     "concept": "Ricardo's theory of comparative advantage",
+     "link": "Comparative advantage explains why countries and firms specialise and trade, which raises efficiency and growth. The abstract's warning that vulnerabilities lie beneath resilient trade suggests that specialisation can also concentrate dependence on particular producers, routes or markets, a cost the simple gains-from-trade story does not capture.",
+     "practice": "When discussing trade policy or a firm's sourcing choices, the student could set the efficiency gains from specialisation against the concentration risks the abstract highlights. A useful assignment argument is that the optimal level of specialisation depends on how well those risks are identified and managed."
+    }
+   ],
+   "exam": {
+    "question": "Critically evaluate how a manufacturing firm can identify and manage hidden vulnerabilities in its global supply chain without sacrificing the efficiency gains that globalisation provides.",
+    "outline": [
+     "Explain why aggregate resilience can conceal concentrated vulnerabilities, drawing on the idea of critical nodes and single points of failure.",
+     "Assess tools for identifying and mapping these risks, such as supplier mapping, likelihood and impact scoring, and building redundancy, with their costs and limits.",
+     "Evaluate the trade-off between efficiency and resilience, using comparative advantage and lean versus resilient design to reach a reasoned recommendation."
+    ]
+   }
+  },
+  {
+   "id": "c56fdca0262d",
+   "title": "Research: The Risks of Rewarding Top Employees with Better Schedules",
+   "url": "https://hbr.org/2026/11/research-the-risks-of-rewarding-top-employees-with-better-schedules",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-11T13:15:18Z",
+   "addedAt": "2026-11-14T14:36:03Z",
+   "basis": "abstract",
+   "takeaway": "Giving top performers better schedules can backfire, because workers with poor schedules who see colleagues doing better become more likely to leave, so the perceived fairness of how rewards are distributed matters as much as the rewards themselves.",
+   "summary": "The publisher's abstract reports a study of 1,189 restaurant workers. It finds that people with poor schedules were nearly twice as likely to quit when they saw that colleagues had better schedules. The title frames this as a risk of rewarding top employees with better scheduling. The abstract gives no further detail on method or results, so the wider findings cannot be confirmed from this summary alone.",
+   "keyPoints": [
+    "Workers with poor schedules were nearly twice as likely to quit when they saw colleagues receiving better ones.",
+    "The concern is comparative: the reaction depends on what others appear to receive, not only on the schedule itself.",
+    "Using schedules as a reward for top employees may create turnover among the workers who are left with less favourable shifts.",
+    "The sample is large (1,189 workers) but drawn from one sector, restaurants, so transfer to other settings needs care."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 85
+    },
+    {
+     "id": "operations",
+     "relevance": 35
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Adams' equity theory",
+     "link": "Equity theory holds that people judge the fairness of their outcomes by comparing their inputs and rewards with those of relevant others, and that perceived inequity drives them to reduce effort or leave. The abstract fits this closely: workers with poor schedules reacted strongly when they saw colleagues doing better, which is the comparison step the theory predicts.",
+     "practice": "A manager planning to reward high performers with preferred shifts should first check how visible those allocations are and whether the remaining staff have a clear, consistent basis for their own rosters. Pairing any reward with transparent criteria and a route for others to earn better shifts may reduce the perception of inequity. In an assignment, the student could use this study as evidence that reward design affects retention, and then discuss the trade-off with motivating top performers."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological contract (Rousseau)",
+     "link": "The psychological contract is the set of unwritten expectations employees hold about what they will give and receive from an employer, and it is breached when those expectations appear unmet. Workers who see colleagues favoured in scheduling may come to feel that the implicit deal about fair treatment has been broken, which could explain why they leave.",
+     "practice": "HR managers could review scheduling policies against the expectations staff hold about fairness, using surveys or exit interviews to identify perceived breaches. The student could frame an answer by arguing that formal rewards systems must be consistent with the unwritten contract, or they risk damaging retention among the wider workforce."
+    },
+    {
+     "moduleId": "operations",
+     "concept": "Service profit chain (Heskett, Sasser and Schlesinger)",
+     "link": "The service profit chain proposes that employee satisfaction and retention feed into service quality, customer satisfaction and profitability. This study shows one early link in the chain: how workers perceive their scheduling affects whether they stay, which in service operations bears on continuity and the quality of delivery. The abstract does not measure service outcomes, so the wider chain is an interpretation rather than a finding of this study.",
+     "practice": "An operations manager in a restaurant or similar service business could treat workforce scheduling as part of service capacity planning, recognising that turnover disrupts staffing and service consistency. The student could use the service profit chain to show why scheduling decisions have operational consequences beyond HR, while noting that the article itself covers only the employee-retention step."
+    }
+   ],
+   "exam": {
+    "question": "Critically evaluate whether organisations should use preferential working arrangements, such as better schedules, to reward their highest-performing employees.",
+    "outline": [
+     "Explain how equity theory and the psychological contract predict that employees compare their treatment with that of colleagues and respond to perceived unfairness.",
+     "Assess the potential benefits of differential rewards in motivating and retaining top performers, and the risks of turnover among the wider workforce, drawing on the restaurant study.",
+     "Recommend how managers can design and communicate reward systems that minimise perceived inequity, and identify the limits of the evidence given the study's sector and abstract-level detail."
+    ]
+   }
+  },
+  {
+   "id": "f67974b74b5d",
+   "title": "The Hidden Costs of Delegating to AI",
+   "url": "https://hbr.org/2026/11/the-hidden-costs-of-delegating-to-ai",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-11T13:05:50Z",
+   "addedAt": "2026-11-14T14:36:03Z",
+   "basis": "abstract",
+   "takeaway": "Making individual tasks faster, for example by delegating them to AI, does not by itself improve overall organisational performance, because the gains depend on how the wider process and the people within it are redesigned.",
+   "summary": "The publisher's abstract argues that faster execution does not automatically lead to better organisational performance, and it draws its lessons from accounting firms. The title points to hidden costs of delegating work to AI, but the abstract does not say what those costs are. Only the short abstract was available, so the specific findings, figures and examples of the full piece are not known here and should be checked in the original article before being cited.",
+   "keyPoints": [
+    "The abstract's central claim is that speeding up execution does not automatically improve organisational performance.",
+    "The evidence comes from accounting firms, where work is structured, checked and billed, so the lessons may transfer to other professional service settings.",
+    "The title suggests the costs lie in what delegating work to AI brings with it, but the abstract does not specify them.",
+    "The full article is needed to confirm the mechanisms and evidence before relying on them in an assignment."
+   ],
+   "modules": [
+    {
+     "id": "operations",
+     "relevance": 70
+    },
+    {
+     "id": "pwo",
+     "relevance": 55
+    },
+    {
+     "id": "strategy",
+     "relevance": 35
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "operations",
+     "concept": "Theory of constraints (Goldratt)",
+     "link": "The abstract's claim that faster execution does not improve performance fits the theory of constraints, which holds that throughput is set by the slowest step in a process. If a firm speeds up one task but review, approval or client handling remains the bottleneck, the overall output does not rise and work simply queues at the constraint. The accounting-firm lessons may show this pattern in practice.",
+     "practice": "A manager should map the end-to-end process and time each stage before automating anything. Automation should be targeted at the binding constraint, and success should be measured by throughput, lead time and error rates rather than the time taken for one task."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job characteristics model (Hackman and Oldham)",
+     "link": "If delegating tasks to AI changes which work people do, it may alter skill variety, task identity, autonomy and feedback. These changes affect motivation and quality, which could offset the speed gain. The abstract's point that faster work does not automatically mean better performance suggests that people's roles need to be examined alongside the technology.",
+     "practice": "Before rolling out delegation, a manager could redesign roles using the five core job dimensions and check whether reviewers still have the expertise and motivation to catch errors. The student could use this model as a lens in an assignment to test the article's claims against evidence on job design."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "VRIO framework (Barney)",
+     "link": "Faster execution is valuable, but if competitors can buy the same AI tools, speed is unlikely to be rare or hard to imitate. The abstract's message that speed alone does not improve performance is consistent with the view that such capabilities provide parity rather than sustained competitive advantage.",
+     "practice": "A strategy team could apply VRIO to the proposed AI capability and ask whether it is rare, inimitable and organised to capture value. If it fails those tests, the firm should look for complementary capabilities, such as client insight or quality assurance, that make the speed gain worth something."
+    }
+   ],
+   "exam": {
+    "question": "To what extent does faster task execution, such as the use of AI, improve organisational performance? Discuss with reference to process design and the management of bottlenecks.",
+    "outline": [
+     "Explain how the theory of constraints shows that throughput depends on the slowest step, so speeding up one task may not raise overall output.",
+     "Assess the role of review, quality control and human judgement in automated processes, and the risk that errors or hidden work increase downstream.",
+     "Evaluate the measures of performance that should be used, such as throughput, quality, cost and customer outcomes, and conclude on when speed does and does not translate into better results."
+    ]
+   }
+  },
+  {
+   "id": "6683e8da9c7f",
+   "title": "The HBR Guide to Killing Projects",
+   "url": "https://hbr.org/2026/11/the-hbr-guide-to-killing-projects",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-10T18:05:30Z",
+   "addedAt": "2026-11-14T14:36:03Z",
+   "basis": "abstract",
+   "takeaway": "Stopping a struggling initiative is a deliberate management decision that needs agreed criteria, not just persistence.",
+   "summary": "The publisher's abstract says this is a collection of seven Harvard Business Review articles. It states that the articles explain how to recognise when an initiative is not working. It also says they cover when it is time to move on from that initiative. The abstract gives no further findings, examples or recommendations, so the detail of the guide cannot be judged from this text alone.",
+   "keyPoints": [
+    "The guide is a collection of seven separate HBR articles rather than a single piece of research.",
+    "Its central focus is recognising when an initiative is failing.",
+    "It also addresses the harder judgement of when to stop and move on.",
+    "The abstract gives no specific findings, so the advice itself cannot be verified from this source."
+   ],
+   "modules": [
+    {
+     "id": "projects",
+     "relevance": 85
+    },
+    {
+     "id": "finance",
+     "relevance": 40
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "projects",
+     "concept": "Escalation of commitment (Staw) and stage-gate governance",
+     "link": "The abstract's concern with recognising a failing initiative and knowing when to move on describes the problem that escalation of commitment creates. Teams often keep investing in a project because of earlier spending and public commitment. Stage gates with defined go or stop criteria are one way to force that review at set points.",
+     "practice": "A project sponsor should agree explicit kill criteria at the start, covering scope, cost, schedule and expected benefits, with a review at each gate. The student could use this abstract as a starting point for a critique of why projects continue beyond the point of recovery, and then test the suggested criteria against a named case."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Sunk cost principle in investment appraisal",
+     "link": "Deciding whether to continue or abandon an initiative is essentially an investment decision. The sunk cost principle says money already spent should not influence that choice, so only future cash flows and the value of options still open matter. The abstract's question of when to move on fits this forward-looking framing.",
+     "practice": "Before deciding whether to continue, a finance manager should estimate the incremental NPV of the remaining spend against the remaining benefits, ignoring costs already incurred. The student could use this to explain, in an assignment, why a project that looks costly to abandon may still be worth stopping."
+    }
+   ],
+   "exam": {
+    "question": "Why do organisations often persist with failing projects, and how can governance and decision criteria help them decide when to stop?",
+    "outline": [
+     "Explain escalation of commitment and the psychological and political reasons projects continue despite poor progress.",
+     "Evaluate governance tools such as stage gates, independent reviews and predefined kill criteria.",
+     "Discuss how forward-looking appraisal, ignoring sunk costs, supports a sound decision to terminate a project."
+    ]
+   }
+  }
+ ]
 }
