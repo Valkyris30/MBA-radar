@@ -1,6 +1,6 @@
 {
- "version": 1,
- "generatedAt": "2026-11-14T14:36:03Z",
+ "version": 2,
+ "generatedAt": "2026-11-14T21:17:22Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
@@ -59,6 +59,1083 @@
   }
  ],
  "articles": [
+  {
+   "id": "b8969565bb0c",
+   "title": "Extreme weather risk is scaring big corporations away from poorer countries – that hurts the companies, too",
+   "url": "https://theconversation.com/extreme-weather-risk-is-scaring-big-corporations-away-from-poorer-countries-that-hurts-the-companies-too-295591",
+   "source": "The Conversation",
+   "publishedAt": "2026-11-12T13:42:26Z",
+   "addedAt": "2026-11-14T21:17:22Z",
+   "basis": "full_text",
+   "takeaway": "Physical climate risk is shaping where multinationals choose to invest. Firms that avoid climate-vulnerable countries reduce one set of exposures but may give up access to growing markets and critical minerals, so location risk needs to be assessed at site level, not country level.",
+   "summary": "The article, by a researcher in international business, argues that multinationals increasingly treat climate vulnerability as a location risk and are steering investment away from poorer, climate-exposed countries. The author cites several studies, including his own analysis of 159 countries, finding that more climate-vulnerable countries attract less foreign direct investment. Examples include Google's abandoned Chilean data centre after a permit was revoked over water concerns, a delayed Kenyan data centre project, flood losses that reduced shareholder value at listed firms, and factory shutdowns in Thailand in 2011. The author argues that avoidance harms poor countries by reducing jobs and technology transfer, and that it also costs companies access to resources such as Congolese cobalt and Indonesian nickel, where more risk-tolerant firms have already built strong positions. He proposes three remedies: adaptation aid, climate risk insurance from development banks, and more granular local risk data.",
+   "keyPoints": [
+    "Climate vulnerability is increasingly part of the location decision for factories, mines and offices, alongside traditional political and economic risks.",
+    "Several studies find that more climate-vulnerable countries receive less foreign direct investment; the author reports a 12% fall in FDI for each one-point rise on a 100-point vulnerability scale, holding other factors constant.",
+    "Companies rarely state climate reasons for avoiding a location, but visible cases include a halted US$200 million data centre in Chile and a suspended US$1 billion Kenyan project.",
+    "One analysis of 71 large listed firms found that major flood losses were followed by an average 5% fall in shareholder value over the next year, after adjusting for market movements.",
+    "Avoidance has a cost: the Democratic Republic of Congo supplies most of the world's cobalt and Indonesia is the dominant nickel producer, and more risk-tolerant firms have secured strong positions there."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 72,
+     "reading": "In supply chain terms, the article is about disruption risk and the design of a sourcing and production network. Flooded factories in Thailand in 2011 halted car production at several major manufacturers, showing how a local shock can spread through a network. The concentration of cobalt and nickel supply in a few climate-exposed countries is a sourcing and supply-security problem. A student of this module should see the article as a case for building resilience into network design rather than simply exiting a region."
+    },
+    {
+     "id": "strategy",
+     "relevance": 70,
+     "reading": "The article treats location as a strategic choice that shapes long-run competitive position. Environmental factors, one of the PESTEL dimensions, now carry investment-deciding weight. The author also suggests that risk-tolerant firms have built defensible positions in valuable mineral resources, which connects to resource-based arguments about advantage. Strategists should note that a cautious policy of avoidance is itself a strategic decision with consequences for access to markets and inputs."
+    },
+    {
+     "id": "finance",
+     "relevance": 68,
+     "reading": "From a finance perspective, the article describes climate risk as something that raises the cost of projects and makes them harder to finance. The 5% fall in shareholder value after major flood losses shows investors pricing physical risk. Insurance and development-bank risk sharing are presented as ways to reduce the risk premium that investors demand. A finance student should consider how climate exposure changes cash flows, discount rates and the value of risk transfer."
+    },
+    {
+     "id": "economics",
+     "relevance": 58,
+     "reading": "The article describes a mismatch in which climate damage falls mainly on countries that contributed little to emissions. Economists would see this as an externality that is not reflected in location and investment prices. The author's argument that aid for adaptation can attract investment is a claim about correcting an information or risk failure in the market. Students should note that this is a claim about correlation in the author's own study, and that causation needs more evidence."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Christopher and Peck: supply chain risk management and resilience",
+     "theory": "Supply chain risk arises from disruptions that can be internal or external to the network, and they can propagate through interconnected partners. Resilience is the capacity of a network to resist disruption and recover to an acceptable performance level. Firms reduce exposure by mapping vulnerabilities, improving visibility, and building redundancy or flexibility into sourcing and production.",
+     "link": "The 2011 Thai floods halted Toyota, Nissan and Honda production when local factories flooded, which shows how a single localised event can disrupt parts supply across a manufacturing network. The article's concentration of cobalt in the Democratic Republic of Congo and nickel in Indonesia represents a single-region dependency for critical inputs. Vietnam's infrastructure losses, estimated at about US$280 million for unreliable infrastructure, show how a disruption at the network's infrastructure layer can impose costs on firms. The author's point that avoidance is a blunt response maps onto Christopher and Peck's emphasis on understanding the specific vulnerabilities of each node rather than withdrawing from whole regions.",
+     "critique": "The framework is designed to manage risk within existing networks and says less about whether a firm should exit a country altogether, which is the decision the article is concerned with. Resilience measures such as buffer stocks or dual sourcing carry cost, and the article gives no evidence on whether they would be cheaper than the investment forgone.",
+     "practice": "A procurement or network director should map climate exposure at each critical site and tier, identify single-source dependencies in minerals and components, and compare the cost of dual sourcing or buffer stock against the value of access. Where exposure varies within a country, the firm should prefer site-level selection and mitigation over blanket exclusion."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Barney: the resource-based view and VRIO",
+     "theory": "A firm gains sustained competitive advantage when it controls resources that are valuable, rare, costly to imitate and organised to be exploited. VRIO is a diagnostic that tests each resource on these four dimensions. Advantage rests on resources that competitors cannot easily obtain or copy.",
+     "link": "The article reports that companies with a greater tolerance for risk have established strong positions in the Congolese cobalt and Indonesian nickel industries. Access to these minerals is valuable and rare because the supply is concentrated in a few countries. Firms that are willing to operate in climate-exposed locations hold a capability that cautious competitors lack, which makes it difficult to imitate quickly. The author's claim that cautious firms surrender access to important resources is a VRIO argument in reverse: forgoing a valuable, rare resource means forgoing a potential source of advantage.",
+     "critique": "VRIO is largely static and inward-looking, and it does not explicitly account for the risk that makes a resource valuable and scarce. Climate events or expropriation could erode a resource rapidly, and the article provides no data on the returns earned by risk-tolerant firms, so the advantage claim is plausible but not demonstrated.",
+     "practice": "A strategy team should test whether the target resource is valuable, rare, inimitable and organised after accounting for climate exposure. If it passes, the team should consider how to secure it through local partnerships, insurance-backed projects or staged investment rather than a simple accept-or-reject decision."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "CAPM and the weighted average cost of capital (WACC)",
+     "theory": "The capital asset pricing model sets the required return on equity as the risk-free rate plus beta multiplied by the market risk premium. The weighted average cost of capital blends the cost of equity and debt, and it is used as the discount rate in net present value appraisal. A higher perceived risk raises the discount rate, which lowers the present value of future cash flows and can make a project unattractive.",
+     "link": "The article says climate risk makes projects in vulnerable countries more expensive, less attractive and harder to finance, which corresponds to a higher discount rate or risk premium on these projects. The 5% fall in shareholder value after major flood losses at 71 listed firms suggests that investors price physical climate risk in equity values. The author's proposal that development banks provide climate insurance is effectively a means of transferring part of the cash-flow risk, which would reduce the required premium and support the project's NPV.",
+     "critique": "CAPM beta measures systematic market risk, but climate hazards are often location-specific and may not be captured by historic market co-movement. Applying a single country risk premium to all projects treats a city site and a rural site as equally risky, which the article itself criticises. Long horizons also make historic betas and fixed discount rates unreliable.",
+     "practice": "An appraisal team should model climate hazards explicitly in forecast cash flows, through lower output, higher insurance and repair costs or project delay, rather than simply raising the discount rate. They should compare project NPVs with and without available insurance and use site-specific risk assessments where possible."
+    },
+    {
+     "moduleId": "economics",
+     "concept": "Externalities and market failure",
+     "theory": "A negative externality arises when an activity imposes costs on third parties that are not reflected in market prices, leading to outcomes that are inefficient from a societal perspective. Market failure means the price system does not allocate resources efficiently. Remedies include taxes, regulation, property rights or direct provision of public goods such as adaptation infrastructure.",
+     "link": "Climate change is a large externality: emissions from high-income countries impose costs on low- and middle-income countries, which the article notes are responsible for only a small share of emissions yet face much of the damage. Location decisions by firms do not account for these wider welfare costs, so investment flows away from the places that most need it. The author's 2025 finding that adaptation aid is associated with more FDI fits a corrective view in which public funding reduces the perceived risk that private investors would otherwise price in.",
+     "critique": "Externality theory assumes that costs can be measured and internalised, but climate damage is uncertain, distributed across generations and difficult to attribute to specific investment decisions. The FDI–aid link is a correlation within the author's study and may reflect other factors, such as governance quality or existing investment ties, so causal claims should be stated cautiously.",
+     "practice": "A policymaker or development bank should identify the adaptation infrastructure and risk-sharing instruments that would lower the expected cost of investment in exposed regions, and should target them where the benefit to local development is greatest. A firm should treat the wider cost of avoidance, including reputational and stakeholder costs, as part of its sustainability and risk assessment."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A diversified mining company is considering a new cobalt processing plant in a central African country that ranks highly on climate vulnerability. Its internal risk model labels the whole country as high risk, and some competitors have already invested in neighbouring sites. Local infrastructure is fragile, and the plant would need reliable power and water supplies.",
+    "question": "Advise the board on whether the company should invest in the proposed plant, and critically evaluate the conditions under which investment would be justified.",
+    "evidence": [
+     "The author's analysis suggests a 12% reduction in foreign direct investment for each one-point rise in climate vulnerability on a 100-point scale, holding other factors constant.",
+     "Firms reporting major flood losses at 71 large listed companies saw an average 5% fall in shareholder value over the following year, after adjusting for market movements.",
+     "The Democratic Republic of Congo supplies most of the world's cobalt, and more risk-tolerant firms have established strong positions in its mineral industry.",
+     "The World Bank already offers political risk coverage that has given companies confidence to invest in several African countries, and the author proposes climate risk insurance from development banks as a similar safety net."
+    ],
+    "plan": [
+     "Define the decision using the VRIO test to establish whether access to cobalt processing is valuable, rare and difficult to imitate for this firm.",
+     "Apply the risk analysis from Christopher and Peck to map site-level exposures to flood, water, heat and power failure, and identify single points of failure in the proposed network.",
+     "Use CAPM and WACC logic to show how climate risk could raise the discount rate or reduce cash flows, and recalculate NPV for the project under base and adverse climate scenarios.",
+     "Assess the effect of insurance, development-bank risk sharing and adaptation investment on the NPV and on the risk profile, and consider whether the national risk score overstates the site-level risk.",
+     "Use the externalities argument to note the wider social and reputational consequences of exit, and weigh these against the financial case.",
+     "Recommend conditional investment: proceed only at a site that passes the local risk assessment, with insurance and adaptation measures in place, and with a defined review trigger if climate exposure changes."
+    ],
+    "pitfalls": [
+     "Treating the author's 12% figure or the FDI–aid association as established causal effects rather than findings from a specific study and sample.",
+     "Assessing the investment using only the national risk score, which the article itself criticises as too coarse for site-level decisions."
+    ]
+   },
+   "alsoConsider": [
+    "Kraljic's purchasing portfolio matrix, to classify critical mineral inputs by supply risk and profit impact",
+    "Dunning's eclectic (OLI) paradigm, to explain location choice for foreign direct investment",
+    "Elkington's triple bottom line, to assess social and environmental consequences alongside financial return"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether a multinational's decision to avoid investing in climate-vulnerable countries is a sound strategic response to risk, and assess the alternatives available to the firm.",
+    "outline": [
+     "Define climate vulnerability as a location risk and explain how it affects investment appraisal, using evidence such as the reported FDI reduction and the shareholder value effect.",
+     "Assess the strategic costs of avoidance, drawing on resource-based arguments about access to cobalt and nickel and the growth opportunities in these markets.",
+     "Evaluate alternative responses, including site-level selection, insurance, development-bank risk sharing and adaptation aid, and recommend a course of action with clear limitations."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "c9b2faf96985",
+   "title": "Which ESG disclosures link words to action?",
+   "url": "https://blogs.lse.ac.uk/businessreview/2026/11/12/which-esg-disclosures-link-words-to-action/",
+   "source": "LSE Business Review",
+   "publishedAt": "2026-11-12T15:16:54Z",
+   "addedAt": "2026-11-14T21:17:22Z",
+   "basis": "full_text",
+   "takeaway": "Not all ESG narratives are equally informative. Emphasis on sustainable value chains and renewable energy tracked better environmental performance, while frequent talk about greenhouse-gas emissions and electric vehicles showed no significant link. Judge ESG reports by which topics they stress and whether those topics connect to measurable outcomes, not by their volume.",
+   "summary": "Savin, López Carel and Schlindwein analysed 1,477 ESG reports from STOXX Europe 600 companies (2010 to 2023), using computational linguistics to identify the environmental themes firms emphasise. They tested these themes against independently measured KPIs such as emissions, energy use and environmental innovation. Only some themes, notably sustainable value chains and renewable energy, were consistently linked to stronger environmental performance. The author argues that the question should shift from whether ESG reports can be trusted as a whole to which parts of them carry real information, and that absence of a measurable link should not be read automatically as greenwashing.",
+   "keyPoints": [
+    "Greater emphasis on sustainable value chains and on renewable energy was associated with better environmental outcomes.",
+    "Frequent discussion of greenhouse-gas emissions and electric vehicles showed no statistically significant relationship with environmental performance.",
+    "Across 34 topics, governance received the most attention, and environmental topics made up almost one-fifth of report content.",
+    "Discussion of emissions, electric vehicles, renewable energy and environmental subsidies rose over time.",
+    "The author suggests topics tied to operational decisions produce measurable outcomes sooner, while emissions strategies may take longer or be poorly captured by current indicators."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 70,
+     "reading": "The article is about sustainability reporting, a core concern of supply chain sustainability. Its strongest finding concerns sustainable value chains and renewable energy, which are supply-side, operational decisions with measurable effects. A supply chain student should see this as evidence that the environmental impact of a firm lies largely in how its chain is designed and run, and that reporting on those areas is more informative than generic commitments. It also shows why sustainability must be measured across more than one dimension."
+    },
+    {
+     "id": "finance",
+     "relevance": 55,
+     "reading": "For a finance student the article concerns how investors and rating agencies read non-financial information. The author argues that counting disclosures or relying on aggregate ESG scores is inadequate, and that investors need to distinguish topics by their informational value. This connects to information asymmetry between managers and capital providers, and to the reliability of disclosure as a basis for valuation and risk assessment. Students should consider how ESG signals enter cost of capital and risk judgements."
+    },
+    {
+     "id": "strategy",
+     "relevance": 45,
+     "reading": "The article examines the gap between what companies say about environmental priorities and what they achieve. In strategic planning terms, ESG reports are statements of intended strategy, while KPIs approximate realised strategy. The finding that some stated priorities track outcomes and others do not invites analysis of where intentions and results diverge, and why. Students should consider whether reporting is a communication exercise or a tool for demonstrating how priorities translate into action."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Triple bottom line (Elkington)",
+     "theory": "The triple bottom line holds that organisational performance should be assessed across economic, social and environmental dimensions together, sometimes called people, planet and profit. Each dimension should be measured and reported so that trade-offs are visible. It is widely used to frame sustainability reporting and supply chain responsibility.",
+     "link": "The article's strongest result concerns sustainable value chains, which relate to the environmental and supply-side dimension of the triple bottom line and are tied to operational decisions. Renewable energy deployment also produced measurable outcomes linked to environmental performance. By contrast, emissions and electric vehicle narratives, although frequently discussed, showed no significant link with the KPIs used. This suggests the environmental dimension is not uniformly reported, and that breadth of coverage across the triple bottom line does not guarantee that each dimension reflects performance.",
+     "critique": "The triple bottom line is a framing device rather than a measurement method, and it does not say how to weight the three dimensions when they conflict. Its breadth may encourage firms to report widely without showing which environmental claims are substantive, which is the problem the article identifies.",
+     "practice": "A supply chain manager applying this framework should report environmental performance using measurable indicators tied to specific operational levers, such as supplier sustainability, energy sourcing and logistics emissions. Disclosures on each dimension should be linked to the KPIs they claim to influence, with trade-offs stated explicitly."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Deliberate and emergent strategy (Mintzberg)",
+     "theory": "Mintzberg distinguishes deliberate strategy, the intentions an organisation sets out, from realised strategy, what actually happens. The gap between them comes from unrealised intentions and from emergent strategies that arise from learning and circumstances. Managers should monitor realisation rather than assume intentions have been carried out.",
+     "link": "ESG reports function as public statements of intended strategy, and the KPIs for emissions, energy use and environmental innovation approximate realised strategy. The article finds that emphasis on some themes, such as sustainable value chains and renewable energy, aligns with better outcomes, while emphasis on emissions and electric vehicles does not show a consistent link. This pattern is consistent with a gap between intended and realised strategy in some areas. The author also notes that some initiatives take years to show effects, which means the gap may partly be a timing issue.",
+     "critique": "Mintzberg's distinction assumes realised strategy is observable in clear actions. For environmental initiatives, lags and imperfect indicators mean a missing statistical link may reflect measurement limits rather than unrealised intentions. The article warns against reading non-significance as greenwashing for this reason.",
+     "practice": "A strategy team should set measurable milestones for each stated environmental priority and track them against KPIs over time. Where realised outcomes lag, the team should explain the reasons and revise intentions openly, rather than expanding narrative coverage."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Agency theory (principal-agent problem)",
+     "theory": "Agency theory, associated with Jensen and Meckling, holds that shareholders (principals) delegate decisions to managers (agents) whose interests and information may differ. Information asymmetry creates monitoring problems and agency costs, which disclosure and independent verification can reduce. Investors seek reliable signals of managerial effort and performance.",
+     "link": "Investors cannot directly observe a firm's environmental effort, so they rely on ESG reports as a monitoring channel. The article shows that the informational value of these reports varies by topic, so volume and aggregate scores are poor guides. Investors who weigh disclosures about sustainable value chains and renewable energy more heavily, and discount unsupported claims on emissions, would be using disclosure as a more effective monitoring tool, in line with the article's advice to distinguish topics.",
+     "critique": "Agency theory assumes managers may act opportunistically, but the firm controls what it discloses, so ESG reports are themselves a managerial choice and an endogenous signal. The theory does not explain why firms emphasise weakly informative topics, which may reflect legitimacy concerns rather than agency problems.",
+     "practice": "An investor applying this framework should map each ESG claim to a measurable KPI and give more weight to topics with demonstrated links to performance. Engagement with the company should ask for independent verification and time-bound targets for the topics that matter most."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large listed manufacturer publishes a detailed ESG report that dedicates many pages to governance and to its plans for emissions reduction and fleet electrification. Its report says much less about how it manages sustainability across its supplier network and its energy sourcing. An institutional investor is considering whether to increase its holding and wants to know which parts of the report can be relied on as evidence of environmental progress.",
+    "question": "Critically evaluate whether the company's ESG report provides reliable evidence of its environmental performance, and advise the investor on how to use the report in its decision.",
+    "evidence": [
+     "The study analysed 1,477 ESG reports from STOXX Europe 600 companies published between 2010 and 2023.",
+     "Sustainable value chains and renewable energy were consistently associated with better environmental performance.",
+     "Greenhouse-gas emissions and electric vehicles showed no statistically significant relationship with environmental performance.",
+     "Governance received the most attention across the 34 topics identified, while environmental topics made up almost one-fifth of report content."
+    ],
+    "plan": [
+     "Define the problem using the article: volume of disclosure does not equal informativeness, and the question is which topics carry information.",
+     "Apply the distinction between intended and realised strategy (Mintzberg) to compare the report's stated priorities with what can be measured.",
+     "Use the finding on sustainable value chains and renewable energy to identify which claims are most credible and which should be verified.",
+     "Apply agency theory to explain why the investor faces an information asymmetry and why independent verification matters.",
+     "Note the article's caution that the absence of a measurable link does not prove greenwashing, and that lags may explain it.",
+     "Recommend a decision: weight supply-side and renewable energy disclosures, request evidence and time-bound targets for emissions claims, and engage the company before changing the holding."
+    ],
+    "pitfalls": [
+     "Treating the absence of a significant link for emissions as proof that the company is greenwashing, which the article explicitly cautions against.",
+     "Assuming that the most detailed or longest report is the most informative, when the article's central point is that topic matters more than volume."
+    ]
+   },
+   "alsoConsider": [
+    "Signalling theory (Spence)",
+    "Legitimacy theory",
+    "Stakeholder theory (Freeman)",
+    "Triple bottom line (Elkington)"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether corporate sustainability reporting provides reliable evidence of environmental performance, and discuss how supply chain managers and investors should use such reports to assess progress.",
+    "outline": [
+     "Explain the distinction between the volume of ESG disclosure and its informational value, using the article's evidence on which topics are linked to measured outcomes.",
+     "Apply the triple bottom line and the intended-versus-realised strategy distinction to explain why some environmental narratives track performance and others do not, including the role of time lags.",
+     "Critically evaluate the limits of the evidence, including correlation rather than causation, imperfect KPIs and the risk of misreading absent links, then recommend how managers and investors should respond."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "7b6dcebf370c",
+   "title": "More work than it looks: the new jobs coming from AI adoption",
+   "url": "https://blogs.lse.ac.uk/businessreview/2026/11/11/more-work-than-it-looks-the-new-jobs-coming-from-ai-adoption/",
+   "source": "LSE Business Review",
+   "publishedAt": "2026-11-11T15:07:37Z",
+   "addedAt": "2026-11-14T21:17:22Z",
+   "basis": "full_text",
+   "takeaway": "The jobs question for AI depends less on the technology than on whether organisations and workers can build the 'missing middle' of facilitators who redesign work around AI, so the policy task is to create routes into those roles.",
+   "summary": "Teather argues that the workforce is shaping AI adoption, not just adapting to it. Using the history of the synthesiser, electricity in car manufacturing and personal computers, he claims that gains come from redesigning work around a new technology, which needs engineering and organisational skill, rather than from simply using it. He introduces the AI Labor Stack, with innovators, users and facilitators as its three layers. In a study of about 94,000 AI-related postings at S&P 500 firms, facilitators made up roughly 60 to 80 per cent of demand, split into technical, social and infrastructural types. He ends with a policy agenda: better regional evidence, modular employer-shaped training, institutions that link universities and employers, and support for displaced workers. The argument is persuasive but rests on job adverts rather than hires, on large US firms, and on historical analogies, so it should be treated as evidence of demand rather than proof of outcomes.",
+   "keyPoints": [
+    "Loss aversion makes people better at naming the jobs AI could destroy than at picturing the new jobs it could create, and the article uses this bias to frame the debate.",
+    "The article's historical case rests on a distinction: Ford's moving assembly line redesigned production around electric power, while earlier factories only used electricity for lighting, which extended hours but left work unchanged.",
+    "The AI Labor Stack divides the AI workforce into innovators who build frontier systems, users who apply them, and facilitators who deploy, integrate and govern them, and the facilitators are the focus of the research.",
+    "Of about 94,000 AI-related postings at S&P 500 firms, facilitators were roughly 60 to 80 per cent, and among facilitator postings 39 per cent were purely technical, 32 per cent mixed technical and social, and nearly 20 per cent purely social.",
+    "Positive signals cited include an 81 per cent self-reported time saving among workers using generative AI, a 23 per cent advertised wage premium for AI skills in Britain, and stronger headcount growth at heavy AI adopters, though the article admits that correlation and adverts do not establish causa"
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 80,
+     "reading": "The article is about how work is designed and who does it when a new technology arrives. The Ford example shows that tasks, roles and sequences of work had to be restructured, not just equipped with new tools, and the facilitators the author describes are people whose jobs combine technical work with redesigning processes and building trust. For a student of people, work and organisations this raises questions about job design, skill requirements, the psychological effects of new roles, and how displaced workers are supported through change."
+    },
+    {
+     "id": "operations",
+     "relevance": 60,
+     "reading": "From an operations viewpoint the article is about process redesign enabled by technology. The move from stationary car assembly to a moving line changed the process type and the economics of manufacturing, and the author's facilitators are described as adapting factory processes and redesigning workflows. Operations students should note that the article treats AI as a process and capability question rather than a product question, and that the bottleneck to adoption is the organisation's ability to change how work flows."
+    },
+    {
+     "id": "economics",
+     "relevance": 55,
+     "reading": "The article makes labour-market claims: demand for AI facilitators is substantial, advertised wages for AI skills carry a premium, and the benefits may not flow to those who currently lose work. An economics student would read this through the supply and demand for skills, the scarcity signal given by wage premiums, and the case for public intervention where training benefits spill over to other firms and workers. The evidence is thin, drawn from adverts and one survey, so the economic claims need careful testing."
+    },
+    {
+     "id": "strategy",
+     "relevance": 40,
+     "reading": "For strategic planning the article is about how firms build the capacity to adopt and scale a new technology. The claim that heavy AI adopters are also growing headcount suggests that adoption is linked to growth ambitions, and facilitators can be seen as the human resources that let a firm sense opportunities and reconfigure its processes. A strategy student should treat the causal claim with caution while noting the capability argument."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model (Hackman and Oldham)",
+     "theory": "The model holds that five core job dimensions (skill variety, task identity, task significance, autonomy and feedback) shape three critical psychological states (experienced meaningfulness, responsibility for outcomes and knowledge of results). Those states in turn drive motivation, performance and satisfaction, with the effect moderated by employees' growth-need strength. Redesigning jobs along these dimensions is therefore a route to better work, not only a route to higher output.",
+     "link": "The article argues that the Ford gains came from redesigning work around electric power, with components moving through an organised sequence of tasks, while the Ceirano workshops that simply added light bulbs changed nothing about how work was done. This maps onto the model's insistence that the job itself must change, not just the tools. The facilitator roles described, especially the combined technical and social postings that make up 32 per cent of facilitator adverts, look like jobs with high skill variety and task significance, since they link AI systems to real processes and to the people who must trust them. The advice to pair technical and social responsibilities therefore fits the model's logic.",
+     "critique": "The model was developed for individual jobs and assumes that growth-need strength is a stable personal trait, which does not address the collective and institutional issues the article stresses, such as regional labour markets and displacement. It also cannot show whether AI-assisted users, who may be left doing narrower tasks, end up with lower skill variety, which is a risk the article does not discuss.",
+     "practice": "A manager introducing AI into a team should audit each affected role against the five core dimensions before rollout, identify where tasks are being narrowed and where they can be enriched, and build feedback loops from the tool into the worker's view of results. Where roles combine technical and social work, the manager should check that the people in them have the autonomy to make decisions about the AI's use."
+    },
+    {
+     "moduleId": "operations",
+     "concept": "Product-process matrix (Hayes and Wheelwright)",
+     "theory": "The matrix links the type of product, from unique custom items to standard high-volume ones, with the type of process, from jumbled job-shop flow to continuous or line flow. Consistency along the diagonal is expected, and firms that drift away from it typically face higher costs or poorer responsiveness. Changes in technology can shift which process type is viable for a given product mix.",
+     "link": "The Ford case in the article describes a shift from fixed-position assembly to a moving line, which moved production towards the line-flow end of the matrix, a shift made possible by electric motors that powered conveyors and tools. The article's claim that the gain came from redesigning work around the technology, rather than adding it to existing methods, is the same point the matrix makes about aligning process with product. The facilitators who adapt factory processes and redesign workflows are the people who would move an operation to a new position on the matrix.",
+     "critique": "The matrix was built for physical production and treats process choice as a question of layout and volume, whereas AI adoption mostly changes information flows and knowledge work, where the matrix offers little guidance. It is also static, while the article suggests that the transition could be unusually fast and that the gains may be concentrated in a few firms.",
+     "practice": "An operations manager should map the current product mix and volumes against the process type, then identify where AI is changing the process and whether it will push the operation off the diagonal. Staffing the transition with facilitators who understand both the process and the technology reduces the risk that new tools are bolted onto old flows."
+    },
+    {
+     "moduleId": "economics",
+     "concept": "Externalities and market failure",
+     "theory": "When an activity imposes benefits or costs on third parties that are not reflected in market prices, the market produces too little of a good with positive externalities and too much of one with negative externalities. Training is a common example of a positive externality, because some of its benefits spill over to other employers when workers move between firms, so individual firms may underinvest. Policy responses include subsidies, co-funded apprenticeships or direct public provision.",
+     "link": "The article's policy agenda, which calls for modular training shaped by employers, apprenticeships such as Singapore's and Ireland's, and support for smaller firms through Germany's Mittelstand-Digital, can be read as an attempt to correct an underinvestment in facilitator skills. The point that the skills are needed across sectors and regions, and that the people who gain may not be those who lose, suggests that the private returns to training fall short of the social returns. The 23 per cent advertised wage premium for AI skills signals that the skills are scarce, which is the price signal a market would normally use to draw in training.",
+     "critique": "The wage premium may itself be enough to attract private training without intervention, and firms may capture much of the return through retention, so the externality argument is contestable. The article provides no evidence of how much training is actually under-provided, and its evidence is adverts rather than training outcomes.",
+     "practice": "A policymaker applying this theory should estimate the spillover benefit of facilitator training by sector and region, then co-fund employer-led apprenticeships where the gap is largest. An employer should track how long trained staff stay, since retention determines whether it captures enough of the return to justify investing in training."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Dynamic capabilities (Teece)",
+     "theory": "Dynamic capabilities are a firm's ability to sense opportunities and threats, to seize them by committing resources to new business models or products, and to reconfigure assets, processes and structures as conditions change. They rest on managerial and organisational routines rather than on static resources, and they are the source of sustained advantage in fast-changing environments.",
+     "link": "The article's claim that the companies investing most heavily in AI are also reporting stronger headcount growth fits the seizing element of the theory, since adoption is linked to scaling ambition. The argument that gains depend on redesigning workflows and governing AI responsibly corresponds to reconfiguring, and the three types of facilitator map onto the capabilities a firm needs to convert a technology into advantage. The framing that the workforce drives adoption rather than merely responding to it also suggests that the human capability sits at the centre of the theory.",
+     "critique": "Dynamic capabilities can be hard to define and measure, and the Ramp correlation may reflect firm size, prior growth or reverse causality rather than AI adoption driving headcount. The article does not show that facilitator hiring produces the reconfiguration the theory requires, so the causal chain remains untested.",
+     "practice": "A strategy team should identify which routines in the business need reconfiguring to use AI, then hire or develop people for the sensing and reconfiguring roles. They should measure outcomes such as cycle time and redeployment of staff rather than counting AI spend or tool licences."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized engineering manufacturer has rolled out generative AI tools across its design and planning teams, and most staff use them mainly to draft documents and search for information. The board wants to reduce headcount to cut costs, while a regional rival is recruiting people who connect AI tools to production systems and redesign its workflows. Local universities offer short AI courses, but employers say graduates have little practical experience of deploying such tools.",
+    "question": "Advise the board on how the firm should use AI adoption to create and retain work, and critically evaluate whether workforce policy or organisational redesign should take priority.",
+    "evidence": [
+     "Around 81 per cent of workers who used generative AI at work said it saved them time, which shows the gain exists but does not show that it has been turned into redesigned work.",
+     "Facilitators accounted for roughly 60 to 80 per cent of AI-related job postings across sectors in the study of about 94,000 S&P 500 postings, with manufacturing among the strongest areas of demand.",
+     "A 23 per cent advertised wage premium for AI skills in British job vacancies points to scarcity of the skills needed to connect AI to real processes.",
+     "Ford's moving assembly line transformed manufacturing because the work was redesigned around electric power, while the Ceirano workshops that used electricity only for lighting left work unchanged."
+    ],
+    "plan": [
+     "Define the three layers of the AI Labor Stack and locate the firm's staff within them, noting that most current use resembles the Ceirano use of a new tool without changing the work.",
+     "Apply the Job Characteristics Model to the design and planning roles to show where redesign would enrich tasks and where it would narrow them, and so where the board's headcount plan could damage motivation.",
+     "Use the product-process matrix to assess whether the firm's manufacturing process needs to shift position as AI is integrated, and therefore which facilitator skills it needs.",
+     "Apply externalities to the training question: the firm's investment in facilitator skills will benefit competitors and the local labour market, so the case for co-funded training with local universities is stronger than the firm's private return alone suggests.",
+     "Evaluate the trade-off between cost reduction and capability building using dynamic capabilities, concluding that the firm should prioritise organisational redesign and retain staff as facilitators, with workforce policy as a support, and recommend specific measures."
+    ],
+    "pitfalls": [
+     "Treating job adverts as evidence of hires, or the US sample as representative of a British manufacturer's labour market, without noting the limitation.",
+     "Presenting the Ford example as proof that AI will create jobs in the same way, rather than as an analogy that depends on the redesign of work."
+    ]
+   },
+   "alsoConsider": [
+    "Socio-technical systems theory (Trist and Emery)",
+    "Schumpeter's theory of creative destruction",
+    "Human capital theory (Becker)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the argument that the benefits of AI adoption depend more on the redesign of work and the availability of facilitator skills than on the technology itself.",
+    "outline": [
+     "Define the missing middle and facilitators, using the AI Labor Stack and the evidence on posting shares, and explain why the author sees them as central to adoption.",
+     "Contrast technology-led and organisation-led adoption using the Ford and Ceirano examples and the personal computer analogy, and assess how far the historical comparison supports the argument.",
+     "Evaluate the evidence and the policy implications, noting the limits of adverts and the US sample, the risk of displacement, and the case for employer-shaped training and institutions."
+    ]
+   },
+   "readingMinutes": 6
+  },
+  {
+   "id": "20ec3f478693",
+   "title": "Lessons From Tech’s Diversity Disclosures",
+   "url": "https://sloanreview.mit.edu/article/lessons-from-techs-diversity-disclosures/",
+   "source": "MIT Sloan Management Review",
+   "publishedAt": "2026-11-12T12:00:12Z",
+   "addedAt": "2026-11-14T21:17:22Z",
+   "basis": "full_text",
+   "takeaway": "Publishing diversity data before building the people, budgets and authority to deliver on it invites backlash and, when the climate shifts, retreat. Durable change depends on operational capacity and internal political support, not on disclosure alone.",
+   "summary": "The article traces how Jesse Jackson pressed Silicon Valley to publish workforce demographic data, beginning with Google's 2014 disclosure, after which reporting became the norm within about a year. Its central argument is that transparency raised visibility faster than companies built the capacity to act, so when lawsuits and political shifts changed the risk calculus, firms retreated and stand-alone reports largely disappeared. The author argues that lasting progress depends on quieter, high-capacity programmes such as recruitment pipelines and mentoring, protected by an internal coalition, and recommends keeping those running while shielding them from public scrutiny until the climate improves.",
+   "keyPoints": [
+    "Jackson's 2014 campaign relied on a concrete, data-based demand rather than moral appeals, and won its first concession through a private understanding with Google's chief legal officer before the shareholder meeting.",
+    "Google's first release showed very low representation of Black, Hispanic and female employees, particularly in engineering. Its move made disclosure look like leadership, and other firms followed within weeks.",
+    "The article claims investors repriced companies by more than a billion dollars once gender diversity data emerged, though it presents this as limited to gender rather than race.",
+    "The author separates visibility from capacity. Reports record static snapshots and omit the operational machinery of hiring, promotion, mentoring and accountability. High visibility with low capacity is the danger zone.",
+    "By the article's account, 24 of 25 targeted firms initially complied, but a decade later only one still publishes a stand-alone report, about a dozen fold figures into ESG or annual filings, and eleven have stopped reporting."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 85,
+     "reading": "This is a case about organisational change, culture and HR practice, and the gap between what an organisation says and what its systems actually do. The article treats diversity programmes as change initiatives facing resistance from both sides, and separates the visible artefact (the report) from the under-resourced machinery of hiring and promotion. A PWO student should see it as an example of why commitments made without changed routines and assumptions do not last."
+    },
+    {
+     "id": "leadership",
+     "relevance": 70,
+     "reading": "The article is about power, influence and coalition-building in leading change. Jackson's success depended on relationships with a senior insider, and the author argues that programmes survive only when insiders form a coalition and protect resources. It also raises ethical questions about leaders choosing between accountability and strategic silence, which a leadership student should evaluate."
+    },
+    {
+     "id": "strategy",
+     "relevance": 40,
+     "reading": "The article is about how external political and legal conditions shape corporate choices about disclosure. Lawsuits, elections, quota law and federal reporting rules change the risk calculus, and the author describes firms responding by going quiet rather than adapting openly. A strategy student should treat this as an environmental analysis problem and ask how firms should plan for political cycles."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Lewin's three-step change model and force field analysis",
+     "theory": "Kurt Lewin proposed that change involves unfreezing an existing equilibrium, moving to a new state, and refreezing it so the new behaviour becomes routine. The equilibrium is a balance between driving forces that push for change and restraining forces that resist it. Change succeeds when driving forces are strengthened or restraining forces weakened, and the new state must be anchored to last.",
+     "link": "Jackson's campaign acted as a driving force that unfroze the old norm of secrecy, and investor reaction and press impatience added pressure. The 'trade secret' culture and legal caution were restraining forces, which Google's concession and the argument that rivals should follow its lead weakened. By 2015 disclosure had become the rule, which looks like refreezing, but the later reversals driven by lawsuits and elections show that restraining forces returned. The article's point that reports omit the operational machinery suggests the new state was anchored at the level of reporting rather than in hiring and promotion practice.",
+     "critique": "Lewin's model assumes a reasonably stable new equilibrium that managers can plan, whereas the article describes an externally driven and cyclical environment in which restraining forces keep returning. The refreezing stage is therefore the weak point, and it needs to be built into routine systems rather than public documents.",
+     "practice": "A manager would map the driving and restraining forces around any programme, separating internal from external ones, and strengthen internal drivers such as protected budgets and named owners before making a public commitment. Refreezing should be built into hiring and promotion processes so the change can survive a shift in external pressure."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of organisational culture",
+     "theory": "Edgar Schein described culture in three levels: visible artefacts (what can be seen and heard), espoused values (the stated goals and strategies), and basic underlying assumptions (taken-for-granted beliefs that actually guide behaviour). When espoused values run ahead of underlying assumptions, artefacts can be produced without changing what people believe or do, and the culture becomes unstable.",
+     "link": "Diversity reports are artefacts and espoused values. They are highly visible, easy to publish once Legal approves, and signal commitment. The article's point that a report omits the machinery of recruitment, promotion and mentoring implies that underlying assumptions about who is hired and advanced were not altered. The author notes that diversity offices were visible but under-resourced, and that hiring was treated as the existential bottleneck so that HR meant recruiting. This is the mismatch Schein's levels would predict when stated values outpace assumptions and resources.",
+     "critique": "Schein's model is descriptive and gives little practical guidance on how to move from artefacts to assumptions. The article's own prescription of quiet, protected programmes implicitly accepts that visible commitments and operating reality can diverge for long periods without resolution.",
+     "practice": "A manager should audit the gap between what is published and what is practised, checking whether hiring and promotion decisions, budgets and outcome accountability match stated goals. Investment should go first into the systems and people that embody the assumptions, with public communication following once the practice exists."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "French and Raven's bases of power",
+     "theory": "John French and Bertram Raven identified five bases of social power: reward, coercive, legitimate, expert and referent power. A leader's influence depends on which of these bases they can draw on and on whether others accept their authority as legitimate. Leaders pursuing difficult change usually combine several bases, because formal authority alone is often insufficient.",
+     "link": "The article's account of the first concession depends on relationships. Jackson's private understanding with Google's chief legal officer, the company's only senior Black executive at the time, made a public reversal possible, and that executive's standing gave him expert and legitimate power to sell a controversial idea internally. Jackson's referent power among civil rights allies created external pressure. The author also argues that Legal's assessment of litigation risk can stop disclosure, which shows how the legitimate power of another function can block change. Later, the article says controversial programmes survive only when insiders form a coalition, which pools influence across these bases.",
+     "critique": "The framework describes sources of power but not how to sustain them over time. The article's evidence is largely anecdotal and drawn from one campaign's perspective, so a student should be careful about attributing the shift to personal relationships alone rather than to reputational and investor pressure.",
+     "practice": "A leader pursuing a difficult change should identify who holds legitimate, expert and referent power in the organisation and build relationships with them before making a public demand. They should also ensure the programme has a sponsor with formal authority and budget, so that progress does not depend on a single relationship."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "PESTEL analysis",
+     "theory": "PESTEL is an environmental scanning framework that groups external factors into political, economic, social, technological, environmental and legal categories. Its purpose is to identify forces that create opportunities and threats so that they can inform strategic choices. A good analysis assesses both how likely each factor is to change and how much impact it would have.",
+     "link": "The article identifies political and legal factors as decisive. Lawsuits and elections changed the risk calculus, the conservative movement against woke corporations shifted pressure, and U.S. law restricts quotas outside court-ordered remedies, which made goals and timetables risky. Federal EEO-1 filing duties shape what data exists even though the government does not publish it. Social factors such as press pressure and investor reaction also drove the original disclosure wave. The article shows the same external environment prompting disclosure at one point and silence at another.",
+     "critique": "PESTEL identifies the factors but does not say how firms should respond or who should act. The article suggests the response is deliberately concealed and political, which a static scan does not capture, and it describes an environment that swings in cycles rather than one that can be snapshotted.",
+     "practice": "A strategist would list the legal and political factors relevant to any public commitment, assess their likelihood and impact, and set triggers for reviewing the commitment. The response, including whether to change what is reported as well as whether to keep programmes running, should be decided in advance rather than reactively."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large software company, under pressure from campaigners and investors, publishes its first workforce diversity report, showing under-representation in engineering. Two years later the figures have been folded into a general sustainability section, and a new legal challenge has made senior managers cautious about public targets. The diversity office is under-resourced, and recruitment and mentoring programmes depend on a few enthusiastic champions.",
+    "question": "Advise the board on whether the company should continue publishing workforce diversity data, and on what it should do to make any diversity commitment last through a change in the political and legal climate. Critically evaluate the view that transparency is sufficient to drive lasting change.",
+    "evidence": [
+     "Of the 25 companies targeted by the 2014 campaign, 24 initially complied, but a decade later only one still publishes a stand-alone diversity report, about a dozen fold figures into ESG or annual filings, and eleven have stopped reporting.",
+     "Google's first release showed a US workforce that was 60% White, and an engineering corps with just 17% women of any race.",
+     "Google and Microsoft skipped a 2025 report after a decade of reporting, and Meta shut its Meta University recruitment programme in 2025.",
+     "The article reports that investors marked companies up or down by more than a billion dollars once gender diversity data became known."
+    ],
+    "plan": [
+     "Define the problem using the article's visibility-capacity framework, explaining why high visibility with low capacity leaves the company exposed to scrutiny before it can deliver.",
+     "Apply Lewin's force field analysis to list driving and restraining forces, separating internal drivers from external pressures such as litigation, elections, investors and the press.",
+     "Use Schein's levels of culture to test whether the reports reflect changed underlying assumptions about hiring and promotion, or only artefacts and espoused values.",
+     "Use French and Raven's bases of power and stakeholder analysis to identify who can protect or obstruct programmes, and whether a sponsor with formal authority and budget exists.",
+     "Weigh the ethical and legal costs of reducing public disclosure against accountability to employees, investors and the public, and critically evaluate the article's recommendation to camouflage programmes.",
+     "Recommend that the board disclose only where it is legally and ethically defensible, fund evidence-backed programmes with named ownership, make public commitments only once capacity exists, and set review triggers for changes in the legal and political climate."
+    ],
+    "pitfalls": [
+     "Presenting the article's visibility-capacity matrix as an established theory rather than the author's own analytical framework, and failing to note that its evidence is largely anecdotal.",
+     "Recommending concealment without weighing the trust and accountability costs to employees and investors, or ignoring the legal duties and constraints, such as EEO-1 filing and quota law, that bound the choice."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter's eight-step change model",
+    "Mendelow's power-interest matrix",
+    "Freeman's stakeholder theory",
+    "Mintzberg's deliberate and emergent strategy"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether public disclosure of workforce diversity data can deliver lasting organisational change, drawing on change management and stakeholder theory.",
+    "outline": [
+     "Explain the gap between visibility and capacity, using Lewin's force field analysis and Schein's levels of culture to show why visible commitments can outrun operational change.",
+     "Assess the role of power and coalitions in sustaining programmes through political cycles, using French and Raven's bases of power and stakeholder analysis.",
+     "Critically evaluate the article's recommendation to camouflage effective programmes, weighing strategic resilience against accountability and ethical costs."
+    ]
+   },
+   "readingMinutes": 12
+  },
+  {
+   "id": "7da2448a4cc1",
+   "title": "The market and social price of CEO indiscretions go beyond Jensen Huang and Nvidia",
+   "url": "https://blogs.lse.ac.uk/businessreview/2026/11/13/the-market-and-social-price-of-ceo-indiscretions-go-beyond-jensen-huang-and-nvidia/",
+   "source": "LSE Business Review",
+   "publishedAt": "2026-11-13T11:37:05Z",
+   "addedAt": "2026-11-14T21:17:22Z",
+   "basis": "full_text",
+   "takeaway": "A chief executive's personal conduct is a governance and trust issue whose costs reach employees, customers and users of shared infrastructure, not just shareholders, so boards need oversight and succession plans that do not rest on one celebrated leader.",
+   "summary": "The author argues that Jensen Huang's resignation as chief executive of Nvidia, after admitted personal misconduct with a Chinese customer and investigations into an alleged link to Chinese intelligence, matters well beyond the company's shareholders. The piece separates admitted conduct from unproven allegations, noting that the board said on 8 November it had no reason to believe national security or company secrets were compromised. Markets do react to CEO indiscretions: one 2018 study is cited as finding immediate shareholder losses of around 4 per cent, with links to lost customers and joint ventures, though the author warns that historical averages cannot predict this episode's losses. Exceptional performance can weaken oversight by making a celebrated leader hard to challenge, and a 2025 study comparing personal and financial misconduct is cited to argue that boards should respond according to misconduct type and firm performance. Employees, families and society bear costs that share prices do not record. Because Nvidia's hardware and software underpin AI research and commercial development, leadership turmoil could in principle disrupt downstream users, though the article presents this as a plausible channel rather than a demonstrated effect. The author recommends credible succession plans, independent investigations, enforceable conflict disclosures, protected reportin",
+   "keyPoints": [
+    "Huang's resignation followed admitted personal misconduct; investigations into an alleged intelligence link were still open, and the author stresses that admitted conduct is not proof of espionage.",
+    "Nvidia named its finance chief, Colette Kress, as interim chief executive when the resignation was announced on 12 November.",
+    "A 2018 study cited in the article reports immediate shareholder losses of around 4 per cent after CEO indiscretions, with links to lost customers and joint ventures.",
+    "The article argues that exceptional performance can make challenge harder, since directors, employees and investors become dependent on a celebrated leader.",
+    "A 2025 study compares 59 personal misconduct events with 324 financial misconduct events, supporting the view that boards should respond by misconduct type and firm performance."
+   ],
+   "modules": [
+    {
+     "id": "leadership",
+     "relevance": 85,
+     "reading": "This is a case about the ethics and responsibility of a leader whose public message on character conflicts with his private conduct, and about how a celebrated leader can make challenge harder. A leadership student should read it as a test of whether influence built on personal reputation survives when that reputation is damaged. It also shows why boards and staff need legitimate ways to challenge leaders, since dependence on one admired figure weakens scrutiny. The author's careful separation of admitted conduct from unproven allegations is itself a lesson in fair judgement."
+    },
+    {
+     "id": "economics",
+     "relevance": 55,
+     "reading": "The article describes owners delegating to a chief executive whose conduct they cannot fully observe, so the economic question is how boards monitor and discipline an agent. Share price movements are the mechanism by which investors react, and the cited 4 per cent loss shows how the market prices this risk. The author also describes externalities: costs fall on employees, families and users of AI infrastructure who had no part in the decision and no means to price the risk."
+    },
+    {
+     "id": "strategy",
+     "relevance": 50,
+     "reading": "The article raises the question of whether Nvidia's advantage rests on resources that outlast any single leader. The author notes that engineers and institutional capabilities remain and that customer commitments and the product roadmap are expected to continue, which suggests valuable capabilities sit within the organisation. A strategy student can test this against the VRIO framework, asking whether those capabilities are rare, hard to imitate and organised for use. The article also reports, without confirming, that many staff reported directly to the chief executive, a point where dependence on one person could undermine the resource base."
+    },
+    {
+     "id": "scm",
+     "relevance": 45,
+     "reading": "From a supply chain viewpoint the article highlights a concentrated and critical input: computing hardware and software that many downstream users depend on. The concern is not physical disruption but the possibility that leadership turmoil delays product decisions, customer agreements or investment, passing costs and delays to users with few alternatives. Students should read this as a resilience question about concentrated sources and how buyers build alternatives. Export restrictions and scrutiny of partnerships, which the author mentions, add a geopolitical risk that sits outside the supplier."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "leadership",
+     "concept": "French and Raven's bases of power",
+     "theory": "French and Raven identified bases of social power: legitimate, reward, coercive, expert and referent, with informational power added later. Referent power arises from followers' identification with and admiration for a leader, while expert power comes from knowledge or skill. Power that rests on admiration is especially hard to challenge, because followers may withhold criticism out of loyalty.",
+     "link": "Huang's standing as a teacher of character, shown in his advice to students, rests largely on referent and expert power. The author notes that exceptional performance can make challenge harder when directors, employees and investors become dependent on a celebrated leader. The public nature of his message extended that referent power beyond the firm, so when his conduct was admitted it damaged the trust others placed in the company's promises. This maps onto the theory's point that referent power depends on the leader's perceived integrity.",
+     "critique": "The model describes sources of power but says little about how leaders use power to resist oversight, and it does not separate a leader's influence from the formal authority the board holds to constrain it.",
+     "practice": "A board applying this theory should identify where the chief executive's influence rests on personal standing rather than formal authority, then make sure legitimate channels such as independent directors and protected reporting can still challenge decisions. Directors should test whether dissent is being suppressed by admiration as much as by fear."
+    },
+    {
+     "moduleId": "economics",
+     "concept": "Principal-agent theory",
+     "theory": "In principal-agent theory, owners (principals) delegate decisions to managers (agents) whose interests may diverge from theirs, and information asymmetry makes the agent's actions hard to observe. Principals design monitoring, incentives and governance to align behaviour, but these measures are costly and imperfect. The theory implies a continuing role for boards, audit and disclosure rules.",
+     "link": "Shareholders cannot directly observe a chief executive's personal conduct, and the article shows investors reacting only once revelations emerge, with a cited average immediate loss of around 4 per cent. The author argues that boards' dismissal and succession decisions must be understood through misconduct type and firm performance, which points to governance design as the response. The 2025 study cited, comparing 59 personal misconduct events with 324 financial misconduct events, suggests that the agency problem takes different forms. The author's concern about oversight of a celebrated leader is a monitoring failure in which principals rely on the agent's reputation rather than verification.",
+     "critique": "The model assumes agents act opportunistically for gain, whereas the article suggests personal indiscretion may not be an agency cost in the narrow sense. It also treats principals as shareholders alone, neglecting employees, families and users of infrastructure, whom the author treats as affected parties.",
+     "practice": "A board should map which misconduct risks affect performance and which affect trust, then set monitoring to match, including conflict-of-interest disclosure, independent investigation and a credible succession plan. Shareholders should press for these as governance requirements rather than wait for losses to appear."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "theory": "Christopher and Peck treat supply chain risk management as the ability of a network to withstand disruption and recover, or move to a more desirable state afterwards. Resilience depends on understanding vulnerabilities, reducing exposure to concentrated or single sources, and building redundancy, flexibility and visibility across the chain.",
+     "link": "The article identifies a concentrated supply: Nvidia's hardware and software underpin AI research and commercial development worldwide, so leadership turmoil could delay product decisions, customer agreements or investment. The downstream users the author lists, including smaller laboratories and firms with limited alternatives, are the buyers least able to absorb disruption, which is the classic problem of low-redundancy supply. The author also raises geopolitical risk through export restrictions, which sits outside the supplier. Nvidia's statement that operations and commitments will continue is a visibility measure that supports trust.",
+     "critique": "The theory was developed mainly for operational and physical disruption, whereas this risk arises from governance and reputation, and the article itself describes these channels as plausible rather than demonstrated. The theory also gives no way of estimating how likely governance shocks are, and dual sourcing is hard where few suppliers offer the capability needed.",
+     "practice": "A buyer relying on the concentrated supplier should map which products depend on it, identify alternative sources or contractual protections, and run a stress test on how it would respond to a delay in supply. A supplier should disclose its continuity plans to customers so they can plan around them."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "The resource-based view and VRIO (Barney)",
+     "theory": "The resource-based view holds that sustained competitive advantage comes from resources and capabilities that are valuable, rare, costly to imitate and organised to be exploited, which the VRIO framework tests in turn. Resources that pass all four tests can support persistent advantage, while those failing one may yield only temporary advantage or parity.",
+     "link": "The author argues that Nvidia's engineers and institutional capabilities remain after the chief executive's resignation, and that operations and the product roadmap are expected to continue. Under VRIO, this suggests that valuable resources sit in people and processes rather than in one person. However, the article also reports, without confirming, that many staff reported directly to Mr Huang, which would suggest the capability depends on one individual and may be less organised than claimed. Testing the claim means checking whether institutional knowledge is embedded and whether succession planning would protect it.",
+     "critique": "VRIO is a snapshot test that does not capture how a leader's personal standing can change the value of a resource over time. The article's evidence on continuity is largely the company's own statement, so the analysis cannot confirm that the capabilities are organised independently of the chief executive.",
+     "practice": "A strategy team should audit which capabilities depend on named individuals, document and spread institutional knowledge, and build succession plans so that the advantage survives a change of leader."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A leading chipmaker, whose founder and chief executive has publicly preached that greatness comes from character, resigns after admitting a personal relationship with a customer from a politically sensitive market. Investigations are open into allegations involving foreign intelligence, although the board has said it has no reason to believe security or secrets were compromised. The company supplies computing hardware that many firms and research laboratories depend on. Its shareholders, customers and users must now decide how far to rely on it.",
+    "question": "Critically evaluate the view that a chief executive's personal misconduct matters only to shareholders, and advise the board on how to protect the wider stakeholders affected.",
+    "evidence": [
+     "A 2018 study cited in the article reports immediate shareholder losses of around 4 per cent after CEO indiscretions, linked to lost customers and joint ventures.",
+     "A 2025 study cited compares 59 personal misconduct events with 324 financial misconduct events and argues that boards should respond according to misconduct type and firm performance.",
+     "The board said on 8 November that it had no reason to believe national security or company secrets had been compromised, and the interim chief executive was named when the resignation was announced on 12 November.",
+     "The author argues that the company's hardware and software underpin AI research and commercial development worldwide, so disruption would fall on downstream users with few alternatives."
+    ],
+    "plan": [
+     "Define the stakeholders affected beyond shareholders, using the triple bottom line (Elkington) to set out economic, social and environmental costs.",
+     "Apply principal-agent theory to explain why owners rely on governance because they cannot observe the chief executive's conduct, and why boards should distinguish misconduct types.",
+     "Use French and Raven's bases of power to explain why a celebrated leader's referent and expert power makes challenge harder, and so strengthens the case for independent scrutiny.",
+     "Assess supply risk for customers using Christopher and Peck's resilience approach, separating plausible transmission channels from demonstrated effects.",
+     "Evaluate the evidence critically: separate admitted conduct from unproven allegations and note that historical averages cannot predict this episode's losses.",
+     "Recommend succession planning, independent investigation, enforceable conflict disclosure, protected reporting channels and customer resilience planning, ending with a clear recommendation to the board."
+    ],
+    "pitfalls": [
+     "Treating the espionage allegations as established, or using the 4 per cent average as a forecast of Nvidia's loss, both overstate what the article supports.",
+     "Discussing only share value and ignoring employees, customers and users of the infrastructure, which are the wider costs the question is designed to test."
+    ]
+   },
+   "alsoConsider": [
+    "Cressey's fraud triangle of pressure, opportunity and rationalisation",
+    "Elkington's triple bottom line",
+    "Authentic leadership",
+    "Stakeholder theory (Freeman)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that a chief executive's personal conduct is a matter only for the board and shareholders, and discuss how boards can reduce the risks such conduct poses to wider stakeholders.",
+    "outline": [
+     "Define the stakeholders affected and distinguish market costs, such as share price falls, from social costs borne by employees, customers and users of shared infrastructure.",
+     "Apply principal-agent theory and French and Raven's bases of power to explain why oversight of a celebrated leader is hard to maintain.",
+     "Critically evaluate the evidence, separating admitted conduct from allegations and noting the limits of event-study averages, then recommend governance and resilience measures."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "d6781a390746",
+   "title": "Every AI Investment Is Two Bets: Does It Work, Who Profits?",
+   "url": "https://cmr.berkeley.edu/2026/11/every-ai-investment-is-two-bets-does-it-work-who-profits/",
+   "source": "California Management Review",
+   "publishedAt": "2026-11-11T12:34:00Z",
+   "addedAt": "2026-11-14T21:17:22Z",
+   "basis": "full_text",
+   "takeaway": "Every AI investment bundles a technical bet and a value-capture bet. GE's predictive maintenance worked, but its horizontal platform did not capture the value, so managers should ask who keeps the surplus as well as whether the model works.",
+   "summary": "The article argues that a substantial AI investment contains two separate bets: whether the system performs its technical task, and whether the investing firm, rather than a customer, rival, supplier or platform, captures the value created. The two bets have independent answers and failure modes. GE's industrial software story shows this: its predictive maintenance capability worked, according to the cited survey evidence, but its Predix platform strategy, aimed at selling a horizontal platform to the wider industrial world, failed. The author contrasts this with Rolls-Royce's Power by the Hour model, which sold flying hours and kept the value of better reliability in its own margins. The article presents a fourth option, which is to decline the ecosystem and deploy the capability internally while changing what the firm sells, and sets out four conditions under which that option is available. It extends the argument to professional services and to the wider AI boom, and closes with five questions for managers to answer before committing money.",
+   "keyPoints": [
+    "AI investment decisions bundle two questions: does the technology work, and does the investing firm keep the value it creates?",
+    "The two bets have independent evidence, independent failure modes and should have separate abandonment thresholds.",
+    "GE's predictive maintenance capability succeeded, while the platform business built on it failed, so the failure lay in value capture rather than technology.",
+    "Jacobides' three ecosystem roles (orchestrator, partner, complementor) omit the option of not entering an ecosystem at all, which the article calls the fourth option.",
+    "Internal deployment with outcome-based pricing, as Rolls-Royce did, requires four conditions: an installed base, an outcome that is measurable and attributable, capacity to carry the residual risk, and a contract that can be changed."
+   ],
+   "modules": [
+    {
+     "id": "strategy",
+     "relevance": 85,
+     "reading": "The article is about where value is captured and how business architecture determines returns, which is central to strategic positioning and business models. GE's choice between building a horizontal platform for new industries and selling outcomes to its existing installed base is a diversification and business model decision. The argument that owned assets only protect returns for a particular route to market is a resource and capability argument. Students should use the piece to connect resources, business model and value capture."
+    },
+    {
+     "id": "projects",
+     "relevance": 50,
+     "reading": "Seen from project management, GE's platform push is a programme that kept accelerating after an external assessment in 2016 found Predix less developed than claimed. The article's separate tests and abandonment thresholds for each bet are a stage-gate and benefits realisation idea. Students should note that the failure was in governance and benefits definition as well as in delivery."
+    },
+    {
+     "id": "finance",
+     "relevance": 45,
+     "reading": "The article treats the two bets as having different risk profiles and argues that asymmetric payoffs justify a bet only where the cost of failure is bounded and a plausible route to winning exists. It also says that funding a long transformation from a cyclical division removes the patience the strategy needs. Students should read this as a capital allocation and decision-under-uncertainty problem, where the funding horizon and the staging of investment matter as much as expected value."
+    },
+    {
+     "id": "marketing",
+     "relevance": 40,
+     "reading": "The article's point that outcome-based contracts replace time-based pricing is a pricing and customer value question. The professional services example, where internal AI makes billable hours a poorer signal of work done, shows how a capability can change a firm's pricing logic. Students should note that marketing theory on value-based pricing has to deal with attribution, namely whether the outcome can be credited to the supplier."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "strategy",
+     "concept": "Teece's framework for profiting from technological innovation (appropriability and complementary assets)",
+     "theory": "Innovators do not always capture the profits from their innovations. Who profits depends on how easily the innovation can be imitated, which is its appropriability, and on who controls the complementary assets needed to commercialise it. Firms with those assets tend to gain the rents, and the choice of commercialisation route determines which assets matter.",
+     "link": "GE developed a predictive maintenance capability that delivered technical benefits, but the value went to parties with complementary assets in the chosen route, such as hyperscalers at the infrastructure layer and domain specialists at the application layer. GE held an installed base, domain knowledge, service relationships and outcome-based aviation contracts, yet its platform route called on assets it did not have, so its existing assets became irrelevant to the returns it sought. Rolls-Royce, by contrast, used its installed base and service contracts, so the same technology improved its own margins directly. The article's point is that complementary assets protect returns only relative to a specific route to market.",
+     "critique": "Teece's framework is largely static about the route and treats imitability as a property of the innovation, whereas the article suggests route choice is the decisive variable. Its three-layer account of AI returns is asserted rather than measured, and the evidence for the GE case comes largely from one firm and a small set of comparisons.",
+     "practice": "Before committing funds, a manager should list the complementary assets each candidate route requires and check which of them the firm already controls. Where the required assets are missing, the cost of building them should be priced into the case, or the firm should choose the route that uses its existing assets."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "The VRIO framework and the resource-based view (Barney)",
+     "theory": "A resource sustains competitive advantage only if it is valuable, rare, inimitable and organised so that the firm can exploit it. Failing the last test means that a potentially advantageous resource produces no advantage. The resource-based view treats the firm's internal resources as the source of its advantage.",
+     "link": "GE's installed base and outcome-based aviation contracts were valuable and hard to replicate, so they pass the first and third tests. The AI capability itself is becoming available to competitors on broadly similar terms, so it fails the rarity test, which the article says means it cannot by itself produce advantage. The article's central point is the organisational test: GE did not organise its resources around the route that would have used them, so the organisation test was failed, and the resources produced no return.",
+     "critique": "VRIO is inward-looking and gives little weight to external forces such as the bargaining power of buyers or the entry of hyperscalers, which the article identifies as decisive. The organisation test is also hard to apply before the outcome is known, which is the hindsight problem the article itself warns about.",
+     "practice": "A manager should run each relevant resource through the VRIO tests for the specific route under consideration, not for the firm in general. If the AI capability fails the rarity test, the case for investment should rest on the arrangement that captures value, such as pricing or the installed base, rather than on the capability."
+    },
+    {
+     "moduleId": "projects",
+     "concept": "Escalation of commitment (Staw)",
+     "theory": "Decision makers who have committed resources to a course of action tend to continue investing when feedback is negative, often because of sunk costs, a wish to justify earlier decisions, or reluctance to admit error. The tendency is strongest when the decision-maker is personally tied to the project and when there is no pre-agreed exit point.",
+     "link": "GE accelerated its platform push after an outside assessment in July 2016 found Predix less developed than claimed. The successor cut the budget, but the spin-off announced in 2018 was never completed as announced. The article argues that the two bets were merged in internal and external discussion, which made it hard to ask whether the second bet had failed, and therefore hard to stop. The category-wide failure of comparable platforms also indicates that the thesis, not just execution, was flawed.",
+     "critique": "Escalation research is largely about individual psychology, whereas the article frames the problem as a failure to separate the bets in governance. The article's own warning against reasoning backwards from outcomes also applies here, so students should avoid assuming in hindsight that continued investment was obviously irrational at the time.",
+     "practice": "Before the investment starts, a manager should define the value-capture hypothesis separately, set thresholds for abandoning it, and assign a review body independent of the sponsors. Negative external assessments should trigger a formal review rather than an acceleration."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Real options",
+     "theory": "Management flexibility to delay, expand or abandon an investment has value under uncertainty, and this option value can make a staged or reversible investment worth more than a simple net present value calculation suggests. The value depends on the volatility of outcomes and on the cost of exercising or abandoning the option.",
+     "link": "The article argues that asymmetric payoffs justify a platform bet only where the firm has a plausible route to winning and a bounded cost of failure. GE's cost of failure was not bounded because the platform was funded by a cyclical division, so the staged exit that real options thinking would recommend was hard to exercise. The Rolls-Royce route, by contrast, is a high-probability, moderate-payoff option built on existing assets, and the article's fork between routes can be read as a choice between options of very different value.",
+     "critique": "Real options models need volatility and probability inputs that are very hard to estimate for AI capabilities, and the article's conditions are largely qualitative. A conventional probability-weighted NPV could also capture the asymmetry, so the option framing adds value mainly as a way of structuring decisions.",
+     "practice": "A manager should split the investment into tranches tied to evidence for each bet, so that later tranches can be cancelled if the value-capture hypothesis fails. The funding horizon should be matched to the volatility of the funding division, and the value of waiting should be considered before committing the largest sums."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large industrial equipment manufacturer has built an AI system that predicts failures in the machines it sells, and its customers have seen fewer unplanned stoppages. The board is considering whether to spend heavily on turning the system into a software platform for other manufacturers across many industries, or to use it to offer customers guaranteed machine availability for a fee per operating hour. Cloud providers are investing heavily in similar tools, and the division that would fund the platform has a cyclical revenue profile.",
+    "question": "Advise the board on whether to commercialise the AI capability as a horizontal platform or to deploy it internally and change its commercial model. Critically evaluate the case for each option, using appropriate strategic and financial frameworks.",
+    "evidence": [
+     "Predictive maintenance was reported to reduce unplanned downtime and defects among surveyed manufacturers, although the NIST report itself describes these comparisons as anecdotal and gives smaller figures.",
+     "GE's platform revenue targets were announced in 2015, the platform was reported as less developed than claimed in 2016, and the spin-off announced in 2018 was never completed as announced.",
+     "Rolls-Royce's Power by the Hour model let it keep the margin gains from better reliability, while the airline bought availability.",
+     "Industrial platforms gain less from network effects than consumer platforms, and hyperscalers took the infrastructure layer.",
+     "The article reports that roughly a quarter of McKinsey's global fees now come from outcome-based arrangements, as reported in a press article."
+    ],
+    "plan": [
+     "Separate the technical bet from the value-capture bet, and set distinct evidence and abandonment thresholds for each.",
+     "Apply Teece's framework to identify which complementary assets each route requires and which the firm already controls.",
+     "Apply VRIO to the firm's relevant resources for each route, noting that the organisation test is often the one that fails.",
+     "Test whether the outcome-based option meets the four conditions: installed base, measurable and attributable outcome, capacity to carry residual risk, and a contract that can be changed.",
+     "Use real options and stage-gate logic to structure the funding into tranches with pre-agreed exit points, mindful of the cyclical funding source.",
+     "Recommend internal deployment with outcome-based pricing where the conditions hold, and decline the horizontal platform unless the firm can show the complementary assets and demand-side conditions it needs."
+    ],
+    "pitfalls": [
+     "Treating the GE case as a technology failure, or using model accuracy as the main evidence that the investment will create value.",
+     "Citing the NIST figures without noting the authors' caveats, or assuming outcome-based pricing works everywhere without considering attribution problems."
+    ]
+   },
+   "alsoConsider": [
+    "Ansoff matrix (diversification and market development choices)",
+    "Porter's five forces (buyer and supplier power in the platform layer)",
+    "Servitization (Vandermerwe and Rada) on selling outcomes rather than equipment",
+    "Network effects and winner-take-all dynamics in platform markets"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that the success of an AI investment depends more on who captures the value it creates than on whether the technology works.",
+    "outline": [
+     "Distinguish the technical bet from the value-capture bet, explaining why they have independent evidence and failure modes, and illustrate with GE's predictive maintenance and Predix platform.",
+     "Apply Teece's complementary assets and the VRIO framework to show how the choice of route determines returns, contrasting GE's platform route with Rolls-Royce's Power by the Hour model.",
+     "Critically evaluate the article's argument, including the four conditions for outcome-based approaches, the hindsight objection, and the limits of the evidence, such as single-case reliance and the caveats attached to the survey figures."
+    ]
+   },
+   "readingMinutes": 13
+  },
+  {
+   "id": "f6b15033342c",
+   "title": "Turning Better Forecasts Into Better Supply Chain Decisions",
+   "url": "https://www.supplychainbrain.com/blogs/think-tank/blog/15883286/turning-better-forecasts-into-better-supply-chain-decisions",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-13T17:00:00Z",
+   "addedAt": "2026-11-14T21:17:22Z",
+   "basis": "full_text",
+   "takeaway": "A more accurate forecast only improves supply chain performance when it changes the purchasing and allocation decisions people actually make, so retailers should prove value on one decision before scaling.",
+   "summary": "The article, written by a retail client director at Intellias, argues that machine learning has made retail forecasting far more detailed and accurate, but that inventory problems persist because the decision process around the forecast has not changed. It cites IHL Group's estimate that inventory distortion, the combined cost of stockouts and overstocks, costs global retailers $1.73 trillion a year. The author identifies obstacles such as inconsistent inventory records, purchase-order data in legacy systems, siloed promotional data and teams reluctant to abandon processes they built themselves. The proposed approach is a forecast that is embedded in existing workflow, explained clearly enough for buyers to check against their judgement, and combined with human business context. Projects should start with one decision assessed against four tests (signal quality, value clarity, explainability and pilot feasibility), be piloted within a short, bounded period, and then scale only when the forecast meets its benchmark, people act on it and business metrics improve.",
+   "keyPoints": [
+    "Machine learning improves the detail and accuracy of retail forecasts, but forecasting is only one part of the decisions retailers must make on orders, stock positions and transfers.",
+    "IHL Group estimates inventory distortion, meaning stockouts plus overstocks, at $1.73 trillion a year for global retailers.",
+    "Fragmented and inconsistent data, including inventory positions, legacy purchase-order records and siloed promotional information, is often harder to solve than building the model itself.",
+    "A recommendation must be explainable, so buyers can see which SKUs, demand changes and open orders drove it and can check it against their own judgement.",
+    "Trust builds gradually as recommendations prove consistently sound, so adoption is an organisational process as well as a technical one."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "This is squarely about supply chain decisions under uncertainty: releasing purchase orders, positioning inventory and transferring stock between distribution centres. The article's central problem, inventory distortion from stockouts and overstocks, is a core performance issue in inventory management. It also touches on long supplier lead times, port conditions and geopolitical events, which are classic sources of demand and supply uncertainty. Students should note the argument that forecast accuracy alone does not reduce distortion, because the decision rules and data flows around the forecast determine the outcome."
+    },
+    {
+     "id": "operations",
+     "relevance": 60,
+     "reading": "Through an operations lens, the article describes a planning and control problem in which the operating environment has grown more complex. Thousands of SKUs across many locations, with promotions and changing inventory positions, add variety and variation to the planning task. The concern with inconsistent inventory records and siloed data is essentially a question of visibility. The insistence that a model must fit into the existing workflow is a process design point, and the article treats the planning process, not the algorithm, as the operations question."
+    },
+    {
+     "id": "projects",
+     "relevance": 40,
+     "reading": "The article is in effect a guide to running a technology change as a staged project. It recommends selecting one use case, proving it in a short pilot with a demonstrable return, and scaling only when named criteria are met. This parallels stage-gate governance and benefits realisation, where outcomes must be defined and tracked before investment expands. Students should care because the article's warnings about data integration and adoption describe common reasons such projects stall."
+    },
+    {
+     "id": "pwo",
+     "relevance": 35,
+     "reading": "From a people and organisations perspective, the article's key claim is that teams may resist a new way of working because they built the existing process themselves. Adoption depends on users seeing the reasons behind a recommendation and gaining confidence through repeated good results. This makes it a change management problem as much as a technical one. Students should consider how routines, professional expertise and trust in spreadsheets shape whether a new system is actually used."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "The bullwhip effect (Lee, Padmanabhan and Whang)",
+     "theory": "Small fluctuations in end-customer demand are amplified as orders pass upstream through a supply chain, so each tier sees a more volatile pattern than the one below it. Lee and colleagues attribute this to demand signal processing, rationing games, order batching and price fluctuations. Remedies centre on sharing accurate demand and inventory information across the chain.",
+     "link": "The article describes retailers releasing purchase orders and reallocating stock between distribution centres on the basis of forecasts, which are the points where distortion can be created. Its emphasis on inconsistent inventory positions and siloed promotional data matches the distorted information flow the theory describes. Improving the forecast at the retailer alone only partly addresses demand signal processing, because the orders sent upstream still reflect each node's own inferred demand. The author's call for consistent data across systems corresponds to the information-sharing remedy in the theory.",
+     "critique": "The theory was developed for multi-tier chains of separate firms with rational ordering, and the article contains no evidence about upstream amplification, so the bullwhip claim cannot be tested from this text alone.",
+     "practice": "A retail manager should map order and inventory data across tiers and share point-of-sale and promotional data with suppliers under agreed rules. Order batching should be reduced where possible. The manager should compare the variance of orders placed with the variance of customer sales to check whether distortion is actually falling."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Economic order quantity and safety stock",
+     "theory": "Economic order quantity balances ordering costs against holding costs to find the order size that minimises total inventory cost under stable demand. Safety stock is extra inventory held to protect against variability in demand and lead time, and the required level depends on forecast error and the target service level. Better forecasts reduce forecast error, so the buffer needed for a given service level should fall.",
+     "link": "Inventory distortion, the combined cost of stockouts and overstocks, is the failure that order quantity and safety stock decisions are meant to manage. The article's references to long supplier lead times, port conditions and geopolitical events point to lead time variability, which the safety stock calculation must also cover. The author's argument that a forecast is only useful once it changes the order decision maps directly onto this framework, since these parameters depend on the demand estimates fed into them.",
+     "critique": "The classical formulas assume fairly stable demand and approximately normal forecast error, whereas the article describes non-linear demand drivers and promotional spikes that break those assumptions. The article also gives no figures on how far safety stock or order quantities fall after deployment.",
+     "practice": "A planner should recalculate safety stock using the forecast error observed in the pilot SKUs and measure lead time variability separately by supplier and port. The planner should then compare the service level achieved and the inventory held before and after the change, rather than assuming that a better forecast reduces stock."
+    },
+    {
+     "moduleId": "operations",
+     "concept": "The four Vs of operations (volume, variety, variation, visibility)",
+     "theory": "Slack and colleagues describe operations environments along four dimensions: volume, the amount of output; variety, the number of different products or services; variation, the fluctuation in demand and supply; and visibility, how far staff and customers can see the status of the process. Each dimension makes planning harder, and the combination shapes which planning and control approach is appropriate.",
+     "link": "The planner in the article manages thousands of SKUs across multiple locations, which is a high variety dimension. Promotions, port conditions and geopolitical events are sources of variation. Inconsistent inventory positions and siloed promotional data are visibility problems, because the people making decisions cannot see the full state of stock and demand. The author's point that the model must make its reasoning visible to buyers applies visibility to decision makers, not only to customers.",
+     "critique": "The four Vs describe the operating environment but do not tell a manager how to plan within it, and they treat visibility mainly as a process matter, whereas the article's main concern is how humans interpret a signal. A high-variety operation with low variation may be well run with simple rules.",
+     "practice": "An operations manager should rate the planning environment on each dimension and separate SKUs by variety and variation, applying the more sophisticated model only to the high-variation, high-value group. Visibility standards, such as one agreed inventory position across systems, should be set before complexity is added."
+    },
+    {
+     "moduleId": "projects",
+     "concept": "Stage gates and benefits realisation management",
+     "theory": "Stage gates divide a project into phases, with formal reviews at which the decision is made to proceed, redesign or stop, based on evidence. Benefits realisation management requires the expected business benefits to be defined, owned and tracked from the outset, rather than assumed to follow from delivering the output.",
+     "link": "The article's SVEP test and staged adoption path mirror a stage-gate structure: a use case must pass criteria on signal quality, value clarity, explainability and pilot feasibility before commitment, and then move through validation, user delivery and evidence-based scaling. The insistence on naming outcomes such as stockout frequency, buyer processing time or logistics cost before choosing a model is benefits realisation thinking. The time limit on the pilot and the requirement for a demonstrable return act as a time-boxed gate.",
+     "critique": "Stage gates can become bureaucratic hurdles that slow learning, and the article's criteria are largely qualitative, with no threshold for what counts as a sufficient return. Benefits are also hard to attribute to the model where promotions, supplier problems and market shifts change demand at the same time.",
+     "practice": "A project sponsor should record baseline values for the chosen metrics before the pilot begins, set a numeric threshold for each gate and agree in advance who decides whether to stop or scale. Where possible, a control group of SKUs or distribution centres should be kept on the old process so the model's effect can be separated from other changes."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized retailer with thousands of SKUs across several distribution centres has adopted a machine learning forecast that is more accurate than its rules-based system. Buyers still rebuild the numbers in spreadsheets, and purchase orders, promotion calendars and inventory counts sit in separate systems that disagree. Stockouts and overstocks persist, and the board wants to know why the investment has not improved outcomes.",
+    "question": "Advise the board on how the retailer should turn its improved forecasts into better purchasing and allocation decisions, and critically evaluate whether further investment in forecast accuracy should be its priority.",
+    "evidence": [
+     "IHL Group estimates that inventory distortion, the combined cost of stockouts and overstocks, costs global retailers $1.73 trillion a year.",
+     "The author states that inventory positions are sometimes inconsistent, purchase-order data may sit in legacy systems and promotional information is frequently siloed.",
+     "Buyers ask which SKUs drive a recommendation, how demand has changed and which open orders were considered, so explainability must be designed in from the start.",
+     "The article recommends a pilot covering a known group of SKUs or one distribution centre, lasting no longer than three months and showing a demonstrable return, before any scaling."
+    ],
+    "plan": [
+     "Diagnose the problem by distinguishing forecast accuracy from decision quality: the model has improved predictions but not decisions, so identify where the process fails across data, workflow, explainability and trust.",
+     "Apply the four-question SVEP assessment to shortlist one decision, such as container release or transfers between two distribution centres, and justify the choice on signal quality, value clarity, explainability and pilot feasibility.",
+     "Recommend a time-limited pilot with named baseline metrics drawn from the bullwhip effect and safety stock frameworks, such as order variance against sales variance and service level achieved against inventory held.",
+     "Set out how the model will show its reasoning to buyers and how human context, such as supplier difficulties or competitor promotions, will be captured so that experts can override it.",
+     "Specify stage gates for scaling, requiring that the forecast meets the benchmark, people act on the recommendations and business metrics improve, and plan the adoption using a change model such as Lewin's or Kotter's.",
+     "Conclude with a recommendation to the board: fund the single pilot now, defer wider platform spending until the gate criteria are met, and report progress against named benefits."
+    ],
+    "pitfalls": [
+     "Assuming that a more accurate forecast automatically reduces inventory distortion, when the article argues that the decision process and adoption determine the outcome.",
+     "Recommending a full platform or scaling across all SKUs before the pilot has shown value, which the article explicitly advises against."
+    ]
+   },
+   "alsoConsider": [
+    "Lewin's three-step change model and force field analysis",
+    "Kotter's eight-step change model",
+    "Staw's escalation of commitment, relevant to pilots that continue despite weak results"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that improving forecast accuracy through machine learning is not sufficient to reduce inventory distortion in retail supply chains, and explain what else must change for decisions based on forecasts to improve.",
+    "outline": [
+     "Define inventory distortion and explain how forecast error, safety stock and order decisions contribute to stockouts and overstocks, using the bullwhip effect where relevant.",
+     "Evaluate the roles of data integration, visibility and explainability in turning a forecast into operational decisions, using the four Vs and examples from the article.",
+     "Assess the limits of the argument, including the absence of quantified evidence in the article and the need for benefits tracking and stage-gate governance."
+    ]
+   },
+   "readingMinutes": 6
+  },
+  {
+   "id": "7d45b9ebd65b",
+   "title": "The Shipping Line Item That Erases Cyber Monday Profit",
+   "url": "https://www.supplychainbrain.com/blogs/think-tank/blog/15883282/the-shipping-line-item-that-erases-cyber-monday-profit",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-13T05:00:00Z",
+   "addedAt": "2026-11-14T21:17:22Z",
+   "basis": "full_text",
+   "takeaway": "A promotion's real profit depends on the full delivery cost, which is often estimated too low and only confirmed after the offer has already eroded margin, so landed cost should be a design input rather than a reconciliation afterthought.",
+   "summary": "The article, written by the chief executive of two online wheel and tyre retailers, argues that Cyber Monday sales figures overstate profit because shipping and fulfilment costs arrive late, after discounts and advertising have been committed. Negotiated base rates are not the whole story: dimensional weight, handling fees for unboxed tyres, residential and remote-area surcharges, fuel and peak-season surcharges, faster service levels and the choice of warehouse all move the cost per order. During a seven-day promotion, order volumes rose sharply and the company's internal assessment found contribution margin down by roughly 15%, mostly from discounting, with advertising and shipping making up the rest. The proposed remedies are to build full delivery cost into the approval of an offer, cap the shipping the business absorbs, estimate delivery cost for each order and reconcile it against carrier invoices, and steer future promotion towards products and regions that remain profitable to serve.",
+   "keyPoints": [
+    "Sales dashboards record orders at checkout, but delivery costs are confirmed only when carrier invoices and fulfilment adjustments arrive, by which time discounts and advertising spend are committed.",
+    "Average shipping cost can rise even when contracted base rates are unchanged, because promotions shift customer locations, product mix and the warehouse used to fulfil orders.",
+    "Dimensional weight, handling fees, residential and remote-area surcharges and faster service levels can all increase the total, and similar package dimensions do not guarantee similar costs.",
+    "Unboxed tyres attract extra handling charges of $5 to $20 each, so a set of four can add $20 to $80 that may be missing from the initial quote.",
+    "Fuel and peak-season surcharges can change independently of negotiated base rates, so they should be separated in the forecast rather than hidden in a single blended shipping allowance."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 88,
+     "reading": "This is squarely a supply chain problem: the article concerns the cost of moving a product from a dispersed network of warehouses to a customer, and how packaging, handling, carrier surcharges and fulfilment location change that cost. A student of the module should see the piece as an illustration of total landed cost, where the unit price is only one component of what the business pays. It also shows why fulfilment decisions must consider the cost of the next wave of orders rather than the campaign average."
+    },
+    {
+     "id": "finance",
+     "relevance": 72,
+     "reading": "The article is about contribution margin under pressure. Discounts reduce the contribution per order, and an unplanned delivery charge consumes a larger share of what remains, so the case is a live application of contribution analysis and variance control. The author's advice to evaluate contribution per order and as a percentage of sales, and to reconcile quoted against invoiced costs, is standard management accounting practice that a finance student should be able to formalise and critique."
+    },
+    {
+     "id": "marketing",
+     "relevance": 40,
+     "reading": "The promotional offer and the free-shipping threshold are marketing decisions, shaped by customer expectations that delivery is free. The article shows that the price customers see and the cost the business bears can diverge, so promotion design must be checked against delivery economics. Marketing students should note the tension between customer expectations of free shipping and the cost to serve each customer."
+    },
+    {
+     "id": "operations",
+     "relevance": 35,
+     "reading": "Faster delivery promises need more expensive services, which is a trade-off between speed and cost in Slack's performance objectives. The article also raises dependability, since promotional demand changes which inventory locations can fulfil orders and when. Operations students can use the piece to discuss whether a service promise made in marketing can be sustained at peak volume."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Total cost of ownership and total landed cost",
+     "theory": "Total cost of ownership looks beyond the purchase price to all the costs incurred over the life of a sourcing or distribution decision. Total landed cost applies the same logic to goods moving through a supply chain by adding freight, handling, duties and other charges to the product price. Decisions based on unit price alone can select the wrong supplier, warehouse or delivery service.",
+     "link": "The article's point that a lower product price at a distant warehouse may produce a higher total cost than sourcing closer to the customer is a direct landed-cost argument. Unboxed tyres carry handling charges of $5 to $20 each, so products of comparable dimensions can have very different delivered costs, which is a total-cost effect hidden inside the unit price. Residential, remote-area and fuel surcharges are further components that a negotiated base rate does not capture. The author also notes that some handling fees appear only after dispatch, so the landed cost is not known until late in the process.",
+     "critique": "Total cost of ownership assumes that each cost component can be identified and measured in advance, yet carrier surcharges are set by the carrier and often revealed late, as the article itself shows, so the model is only as reliable as the data behind it. It also tends to omit the cost of the time and working capital tied up in delivering an order.",
+     "practice": "A manager would build a landed cost for each product and destination, covering base and surcharge rates, packaging-specific handling and the warehouse used, and would use it to decide where to fulfil from and which products to promote. They would also set a rule that an offer is approved only where the landed cost still leaves an acceptable contribution."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Cost-volume-profit analysis and contribution margin",
+     "theory": "Contribution is sales revenue less variable costs, and it is the amount available to cover fixed costs and generate profit. Cost-volume-profit analysis shows how profit responds to changes in volume, price and variable cost, and identifies the break-even point. A price reduction lowers contribution per unit, so the volume needed to hold total profit rises.",
+     "link": "The article reports order growth of 225% at USAWheels and 35% at CanadaWheels, alongside an approximately 15% fall in contribution margin, which is the trap that cost-volume-profit analysis predicts when a discount lowers contribution faster than volume raises total profit. Discounts of up to 40% reduced contribution per order, and unexpected shipping then consumed a larger share of what remained. The author's attribution of roughly two-thirds of the fall to discounting and one-third to advertising and shipping gives a rough decomposition that a student can examine and question.",
+     "critique": "Cost-volume-profit analysis treats variable cost per unit as constant, but the article shows delivery cost varying by product, destination, season and surcharge, so variable cost per order is uncertain and step-like. The margin figures are the company's own internal assessment, and they do not clearly separate the effect of extra volume from the effect of the discount.",
+     "practice": "A manager would calculate contribution per order and as a share of sales for each promotion before approval, using estimated delivery cost for the expected product and destination mix rather than an average. They would also calculate the extra volume needed to recover any lost margin, and redesign the offer by changing discount depth or thresholds where the required uplift is implausible."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Budgeting and variance analysis",
+     "theory": "A budget sets planned revenues and costs against which actual results are measured, and variance analysis explains the gap between plan and actual by cause, such as price, volume, mix or efficiency. Good practice treats persistent variances as information for revising the plan, because forecasts that miss consistently in one direction show a systematic bias.",
+     "link": "The author's practice of assigning an estimated delivery cost to every order, then reconciling it against the carrier invoice, forms a variance control loop: the gap between quoted and invoiced shipping is the variance, and recurring differences are to inform the next forecast. The article also argues that a single blended shipping allowance can hide which cost is rising, so the rate, mix and destination effects are lost in an aggregate figure. Separating those components in the budget is what makes the variance diagnosable.",
+     "critique": "Variance analysis is backward-looking, and the article's problem is that the variance appears after commitments have been made, so reconciliation mainly protects future campaigns rather than the current one. Its usefulness also depends on whether invoices can be split into the cost drivers needed for analysis.",
+     "practice": "A manager would split the shipping budget into base rate, fuel, peak-season, handling and destination components, tag each order with its expected cost, and review quoted against invoiced variances by component at the end of each event. They would then reset the estimate for the next campaign and adjust allowances for the products and regions where gaps recur."
+    },
+    {
+     "moduleId": "marketing",
+     "concept": "Value-based pricing",
+     "theory": "Value-based pricing sets a price according to the value the customer perceives in an offer rather than the cost of supplying it. The firm must understand what customers value, how much they will pay for it, and whether the resulting price still delivers an acceptable margin. It contrasts with cost-plus pricing, in which cost determines the price.",
+     "link": "The article's free-shipping structure is a pricing design in which the customer's perceived value of free delivery is set against a cost that varies by destination and product. The $600 threshold and the $150 cap show the retailer trying to deliver the perceived benefit while bounding its own exposure. The author notes that customers have come to expect free shipping, so the benefit is hard to withdraw, and the cap becomes the main protection for margin.",
+     "critique": "Value-based pricing assumes the firm can observe perceived value clearly and capture it, whereas here delivery cost is largely a cost-based constraint, so the cap works as cost-based protection layered onto a value-led offer. The article also does not address how promotional discounts shape future price expectations, and it provides no measure of that effect.",
+     "practice": "A manager would test whether free shipping still justifies its cost for each customer segment and region, consider whether thresholds should vary by destination, and make the customer's contribution transparent before checkout so that expectations are set. They would avoid changing the cap in ways that surprise buyers after purchase."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "An online retailer of wheels and tyres runs a seven-day Cyber Monday promotion that combines supplier-funded and retailer-funded discounts of up to 40%. Order volumes rise sharply, but delivery and handling charges, many of them unknown when the offer was approved, reduce contribution margin considerably. Unboxed tyres attract extra handling fees, fuel and peak-season surcharges rise, and once local stock sells out later orders may be routed to more distant warehouses. The board wants the next promotion to grow revenue without eroding margin.",
+    "question": "Advise the board on how the retailer should redesign its Cyber Monday promotion to protect contribution margin, critically evaluating the management tools you recommend.",
+    "evidence": [
+     "Order volumes rose 225% at USAWheels and 35% at CanadaWheels during the promotional week compared with the equivalent period in the previous year.",
+     "Contribution margin fell by roughly 15% against ordinary operating levels, with about two-thirds attributed to discounting and the remaining third to higher advertising and shipping expenses.",
+     "Unboxed tyres attract handling charges of $5 to $20 each, so a set of four can add $20 to $80 that may be absent from the initial quote.",
+     "Free shipping applies to orders over $600 where delivery costs are no more than $150, and above that the retailer covers the first $150 while the customer pays the difference, so a $250 cost means a $100 customer contribution."
+    ],
+    "plan": [
+     "Diagnose the margin problem using contribution analysis: show contribution per order and as a share of sales after discounts, advertising and estimated delivery cost, referring to the 15% fall and the two-thirds and one-third split (cost-volume-profit analysis).",
+     "Rebuild delivery cost as a total landed cost for each product and destination, separating base rates, fuel and peak surcharges, residential and remote-area charges, packaging-related handling and dimensional weight (total cost of ownership).",
+     "Identify which products and regions remain profitable, and compare warehouse options on total cost and delivery time rather than product price alone, allowing for the risk of stock running out at peak (total landed cost).",
+     "Test each offer by calculating the volume uplift needed to hold contribution at each discount depth and shipping structure, and reject or redesign offers that require implausible growth (break-even reasoning).",
+     "Set the shipping cap and threshold so that the customer's contribution is clear before checkout, and reconcile quoted against invoiced costs each campaign to correct the forecast (variance analysis).",
+     "Recommend a promotion that targets products and regions with positive contribution, relies only on confirmed supplier funding, and reports both contribution per order and total contribution at the end of the event."
+    ],
+    "pitfalls": [
+     "Praising the 225% order growth as success without showing contribution, which is the measure the article reports as having fallen.",
+     "Treating shipping as one blended percentage of sales, which hides the fuel, handling and destination drivers the article says must be separated, or confusing the order-value threshold with the shipping cap."
+    ]
+   },
+   "alsoConsider": [
+    "Activity-based costing (Kaplan and Cooper)",
+    "Customer lifetime value in relationship marketing",
+    "Price elasticity of demand",
+    "Cost-plus pricing"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether total cost of ownership and cost-volume-profit analysis are sufficient to guide the design of e-commerce promotions in which delivery costs vary by product, destination and season.",
+    "outline": [
+     "Define total landed cost and contribution margin, and explain how each applies to promotional pricing and fulfilment decisions.",
+     "Use evidence from the article, such as the 15% fall in contribution despite strong order growth and the handling and surcharge variations, to show where these tools work and where cost uncertainty undermines them.",
+     "Evaluate complementary approaches such as activity-based costing, recommend a practical course of action, and note the limits of the author's self-reported figures."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "21210c93e11e",
+   "title": "Rethinking Owned Warehouses as a Capital Allocation Decision",
+   "url": "https://www.supplychainbrain.com/blogs/think-tank/blog/16425019/rethinking-owned-warehouses-as-a-capital-allocation-decision",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-12T08:00:00Z",
+   "addedAt": "2026-11-14T21:17:22Z",
+   "basis": "full_text",
+   "takeaway": "A sale leaseback turns owned warehouse real estate into cash while the operation carries on, so it should be judged as a capital allocation and financing decision, with the lease terms and network costs weighed against the proceeds.",
+   "summary": "The article argues that owned warehouses and distribution centres can be a large, under-used source of capital, and that a sale leaseback lets an operator release the value of its property while continuing to run it. It reports active 2026 market conditions, with 178 second-quarter transactions and industrial property making up 42% of deals by count, and gives three examples: a proposed $37 million deal by PetMed Express covering a distribution centre and headquarters, Scholastic's $95 million sale of a Missouri distribution facility with a 20-year lease and two 10-year options, and REI's $230 million sale of four distribution centres. Typical leases run 15 to 20 years with renewal options, and the negotiated terms on rent, maintenance, alterations, change of control and reporting determine how much flexibility the operator keeps. The author contends that a sale leaseback can release more capital than a mortgage, moves re-tenanting and obsolescence risk to the investor, and frees capital for automation, inventory, acquisitions or debt reduction. The author is a partner at an adviser to such transactions, so the case for them is presented favourably and the article gives no evidence on total lease costs.",
+   "keyPoints": [
+    "The 10-year Treasury is near 5%, its highest level since 2007, so the article frames capital as expensive across the board.",
+    "Sale leaseback activity in Q2 2026 recorded 178 transactions, the highest Q2 count since 2022, with dollar volume up roughly 27% from Q1 to $4.6 billion; industrial properties were 42% of deals by count.",
+    "PetMed Express proposed a $37 million sale leaseback in July 2026 covering its distribution centre and headquarters, and said it would keep occupying the headquarters while gaining financial flexibility.",
+    "Scholastic completed a $95 million gross sale leaseback in December 2025 with a 20-year lease and two 10-year extension options, and REI completed a $230 million deal in February 2025 covering four distribution centres totalling over 1.9 million square feet, retaining its machinery and equipment.",
+    "Lease terms covering rent, future increases, renewal options, maintenance, taxes, insurance, alterations, environmental matters and change of control determine how much flexibility the operator keeps after the sale."
+   ],
+   "modules": [
+    {
+     "id": "finance",
+     "relevance": 90,
+     "reading": "In finance terms the article treats a warehouse as capital tied up in an asset whose value can be released while the operation continues. The transaction changes the balance sheet: the property leaves the asset side, a long-term rent commitment takes its place, and the proceeds can fund investment or reduce debt. The article's central claim, that every dollar in warehouse real estate is a dollar not funding automation or debt reduction, is an opportunity cost argument, and a finance student should test it with NPV, the cost of capital and the true cost of the rent stream."
+    },
+    {
+     "id": "scm",
+     "relevance": 55,
+     "reading": "From a supply chain perspective the article concerns the physical network, since distribution centres are described as critical to supply chains and the operator keeps running them after the sale. The relevant issues are network design and resilience: the lease can restrict relocation, consolidation or a change of control, which affects how quickly the network can be redesigned. An SCM student should ask whether the financial gain is worth the loss of network flexibility, and whether the risk has really been transferred or only moved onto a fixed commitment."
+    },
+    {
+     "id": "strategy",
+     "relevance": 35,
+     "reading": "Strategically, the warehouse is a resource the firm owns, and a sale leaseback separates ownership from control: the operator keeps use of the facility while monetising the building. The advantage lies in what the site does (its location, operations and people), which the operator keeps, rather than in the bricks and mortar. A strategy student should test whether the real estate is a source of advantage at all, since the active buyer market suggests the property has a tradeable value that is not scarce to the operator."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "finance",
+     "concept": "Modigliani and Miller propositions with the trade-off theory of capital structure",
+     "theory": "Modigliani and Miller argue that, in perfect markets, the value of a firm does not depend on its financing mix, so switching between asset ownership and financing should not create value by itself. Once corporate tax is introduced, debt gains value through the interest tax shield, but the trade-off theory says the optimal level of debt balances this gain against the costs of financial distress.",
+     "link": "The article says a sale leaseback can create a more efficient capital structure and gives an illustration in which a $10 million warehouse supports only $7 million to $8 million of mortgage finance but could release the full $10 million through a sale. Under Modigliani and Miller, exchanging an owned building for a lease obligation should not change value unless there are market imperfections, so any gain must come from somewhere specific. The article points to the transfer of re-tenanting and obsolescence risk, the cash released for growth, and the way investors price tenant strength. The trade-off view adds that a 15 to 20 year rent commitment, plus renewals, is a fixed charge that behaves much like debt and raises the risk of financial distress if cash flows fall.",
+     "critique": "Both theories assume securities markets and do not model a lease that the operator depends on for its operations, so they cannot fully capture the value of keeping the site. The article is written by an adviser to these transactions and does not compare the total rent over the lease with the cost of the mortgage it sets against the sale.",
+     "practice": "A CFO should compare the present value of the full rent stream, including escalations and renewal options, with the net proceeds after transaction costs and taxes, rather than the headline price. They should restate leverage and covenant ratios with the lease treated as a fixed financing charge, and check the impact on credit ratings before committing."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Net present value, opportunity cost and the weighted average cost of capital in investment appraisal",
+     "theory": "Net present value discounts a project's expected cash flows at the cost of capital that reflects their risk, and positive-NPV projects add value. The weighted average cost of capital is the blended return required by debt and equity providers and is used as a hurdle rate. Opportunity cost means that capital should be judged by its best alternative use.",
+     "link": "The article's line that every dollar tied up in warehouse real estate is a dollar not funding automation, inventory, acquisitions or debt reduction is an opportunity cost argument. The sale is worth doing only if the proceeds earn more than their cost, and the article benchmarks the cost of capital with the 10-year Treasury near 5%. The cost of the sale is the rent stream, which is an implicit financing charge the article does not quantify. The appraisal therefore sets the NPV of the property's release (proceeds minus the present value of rent, costs, taxes and the lost residual value of the building) against the NPV of the projects the cash would fund, such as automation or debt repayment.",
+     "critique": "The article gives no implicit rent yield, no residual value and no returns on the investments the cash would fund, and the decision depends entirely on these. NPV also assumes the released cash will earn its hurdle rate, which is not guaranteed, and a lease analysis can understate the lost upside from owning the property.",
+     "practice": "A manager should calculate the implicit yield on the lease, using rent relative to net proceeds adjusted for escalations, and compare it with the WACC and hurdle rate for automation or debt reduction. The sale should go ahead only where the freed cash is committed to uses whose returns or savings clearly exceed that cost, and the appraisal should be rerun under downside rent growth and loss-of-site scenarios."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "theory": "Christopher and Peck treat supply chain resilience as the ability of a network to withstand disruption and recover, which requires identifying and mapping risks, reducing vulnerabilities and building flexibility and redundancy into the network. Risk ownership should be clear, and the trade-off between efficiency and resilience has to be managed deliberately.",
+     "link": "The article notes that warehouse owners hesitate to sell facilities critical to their network, and that the lease can address much of that risk while the company keeps operating the site. In resilience terms the sale moves asset and property risk to the investor, while operational risk stays with the operator, as in REI keeping its machinery and equipment. The article also says change-of-control, network consolidation and relocation provisions should be negotiated before closing, which signals that the operator's network flexibility is being traded for capital. An operator under this framework must ask whether the site is a single point of failure and whether it can still change its network within the lease.",
+     "critique": "The framework concentrates on operational disruptions such as fire, flood or supplier failure, which a sale does nothing to reduce, while the article's risks are mainly financial and property-related. A committed lease can also make a forced exit costly, and the article offers no evidence on how these arrangements worked out for the operators.",
+     "practice": "Before signing, a supply chain manager should map the site's role in the network and test whether losing it would stop critical flows. They should negotiate the lease to keep options open, such as sublet and assignment rights, and align renewal dates with the network plan, and should add lease exit costs to the risk register as a constraint on future redesign."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "The resource-based view and VRIO framework (Barney)",
+     "theory": "The resource-based view holds that sustained competitive advantage comes from resources that are valuable, rare, costly to imitate and organised to be exploited, which is the VRIO test. Physical assets can be resources, but advantage often lies in how resources are combined and managed rather than in the assets alone.",
+     "link": "The article treats the warehouse as a source of capital, and under VRIO the building is valuable because it houses the operation. The strong market for industrial sale leasebacks, with 178 deals in one quarter and industrial property at 42% of transactions, suggests that such real estate is tradeable and not rare to the operator, so it is unlikely to be a durable source of advantage. The operational capabilities that REI and Scholastic keep, such as equipment, processes and staff, are where advantage is more likely to sit, while the property is released as a financial resource.",
+     "critique": "The resource-based view is inward-looking and static and does not directly tell a firm whether to sell an asset. Selling a site that carries local knowledge or location advantages could erode capabilities the article does not consider, and the examples may be financial decisions dressed as strategic ones.",
+     "practice": "Before any sale, a strategist should use VRIO to classify the facility's contribution: if the site or how it is run is hard to imitate, keep the operation and sell only where the proceeds fund capabilities that build advantage. Management should document what is kept, such as equipment, staff and processes, and what moves into the lease."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A regional logistics operator owns its main distribution centre, which is central to its network, at a time when borrowing is expensive and the 10-year Treasury is near 5%. Its board is considering a sale leaseback of the facility to fund warehouse automation and reduce debt, on a lease of around 15 to 20 years with renewal options. The company expects to keep running the site and needs to decide whether the transaction creates value for shareholders.",
+    "question": "Advise the board whether to proceed with a sale leaseback of the distribution centre. Critically evaluate the financial and supply chain implications of the transaction.",
+    "evidence": [
+     "In Q2 2026 there were 178 sale leaseback transactions, the highest second-quarter count since 2022, with dollar volume of about $4.6 billion, up roughly 27% from Q1, and industrial properties were 42% of deals by count.",
+     "The article's illustration is that a $10 million warehouse might support $7 million to $8 million of mortgage financing, whereas a sale leaseback could generate the full $10 million before transaction costs and taxes.",
+     "REI completed a $230 million sale leaseback covering four distribution centres of over 1.9 million square feet, kept operating them and retained the machinery and equipment; Scholastic raised $95 million gross with a 20-year lease and two 10-year extension options.",
+     "Lease terms on rent, renewals, alterations and change of control set how much flexibility the operator keeps, and investor pricing depends on the tenant's cash flows and balance sheet."
+    ],
+    "plan": [
+     "Define the transaction and its effect on the balance sheet, using Modigliani and Miller with the trade-off theory to locate any real gain: proceeds above mortgage finance, transfer of real estate risk, and the fixed rent as a financing charge.",
+     "Appraise the opportunity by calculating the implicit rent yield and the present value of rent including escalations and renewals, then compare these with the WACC and hurdle rate, and test the NPV of the best uses of the cash, such as automation or debt reduction.",
+     "Assess supply chain resilience using Christopher and Peck: decide whether the site is a single point of failure and how the lease constrains consolidation, relocation or a change of control.",
+     "Apply VRIO to decide what the company should keep, separating operational capabilities that build advantage from tradeable real estate.",
+     "Recommend proceeding only if the NPV stays positive under downside scenarios and the lease preserves enough network options; otherwise consider a mortgage or a partial sale."
+    ],
+    "pitfalls": [
+     "Treating the headline proceeds as the value gain without deducting the present value of rent, transaction costs, taxes and the lost residual value of the building.",
+     "Arguing for the sale on financial grounds alone and failing to test the lease's constraints on network flexibility and resilience."
+    ]
+   },
+   "alsoConsider": [
+    "Real options theory",
+    "Transaction cost economics (Williamson)",
+    "Economic value added (EVA)"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether a sale and leaseback of a company's distribution centres creates shareholder value, drawing on capital structure and investment appraisal theory and considering the implications for supply chain resilience.",
+    "outline": [
+     "Explain the transaction and the sources of potential value, such as proceeds above mortgage finance, transfer of real estate risk and redeployment of capital, using capital structure theory and opportunity cost.",
+     "Evaluate the lifetime cost of the lease against the WACC and the NPV of the uses of the released cash, including downside scenarios for rent growth and loss of the site.",
+     "Assess the trade-off between financial gain and network flexibility and resilience, and conclude on the conditions under which the sale is justified."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "8da03af52ea2",
+   "title": "How Geopolitical Friction Is Redefining Cyber Resilience",
+   "url": "https://www.supplychainbrain.com/blogs/think-tank/blog/15883288/how-geopolitical-friction-is-redefining-cyber-resilience",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-12T20:18:27Z",
+   "addedAt": "2026-11-14T21:17:22Z",
+   "basis": "full_text",
+   "takeaway": "Geopolitical rivalry turns cyber risk into a supply chain, data and regulatory problem, so resilience has to be designed around jurisdictions and third parties as well as technical controls.",
+   "summary": "This commentary by Steve Durbin of the Information Security Forum argues that hyperconnected networks and supply chains are being used by states in their rivalries, leaving organisations caught in the middle. It highlights patient state-backed espionage, AI-enabled fraud such as a cloned executive voice, and longer, less visible supply chains shaped by tariffs, sanctions and the Strait of Hormuz disruption. It also points to diverging national data and cyber laws, illustrated by China's Data Security Law, and closes with a checklist for a geopolitically informed resilience framework. Much of the piece is assertion rather than evidence: the one statistic, that 64% of organisations have geopolitics on their risk radar, is given without source or method.",
+   "keyPoints": [
+    "Cyber risk, once treated as a technical matter of patching vulnerabilities, now also has to ask which state might target an organisation and why.",
+    "State-backed threat actors prefer long-term, patient access for espionage and later disruption of critical infrastructure over quick, opportunistic attacks.",
+    "Sanctions, tariffs and export controls lengthen supply chains and add intermediaries, which reduces an organisation's visibility over who it depends on.",
+    "A supplier can move from low to high risk almost overnight through new sanctions, data localisation rules or pressure to share client data with a foreign partner.",
+    "Conflicting national rules raise compliance costs, may draw resources away from security, and push firms towards weaker jurisdictions where security is cheaper but data is more exposed."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "Viewed through Logistics and Supply Chain Management, the article describes a supply base that is becoming longer, less visible and less stable. Tariffs, sanctions and the Hormuz disruption force sourcing shifts, and suppliers can change risk status overnight. This is the risk and resilience material of the module, extended from physical disruption to regulatory and state-driven disruption. The student should care because the recommendations, such as mapping suppliers to jurisdictions, continuous sanctions screening and contingency plans for forced exit or revoked access, are supply chain design and supplier relationship decisions rather than IT controls alone."
+    },
+    {
+     "id": "strategy",
+     "relevance": 55,
+     "reading": "In Strategic Planning the article works as an environmental analysis. It describes political, legal and technological forces that change the rules under which firms compete and operate across borders. Sanctions, export controls, data localisation and diverging national laws are the kind of external shifts a strategy must scan for and respond to. The central claim that threat models must keep pace with geopolitical change means that environmental scanning should be continuous rather than a one-off exercise."
+    },
+    {
+     "id": "economics",
+     "relevance": 45,
+     "reading": "In Economics for Business the article describes a move away from open trade. Tariffs, sanctions and export controls restrict flows, and states build tightly controlled national networks, so globalisation is giving way to protectionism. This challenges the assumption that integration delivers gains without friction. The student should care because the regulatory divergence described changes the cost and location decisions that trade theory normally treats as purely economic."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Christopher and Peck's supply chain risk management and resilience framework",
+     "theory": "Christopher and Peck argue that supply chain resilience is the ability to withstand disruption and recover to the original state or better. It depends on the network's visibility, flexibility, redundancy and collaboration, with risk managed across the whole network rather than only at direct suppliers. Vulnerability is shaped by network design, so resilience requires deliberate choices about where and how a firm sources.",
+     "link": "The article's supply chains are longer and involve more intermediaries, which the framework treats as a visibility problem, since an organisation cannot manage risk it cannot see. A supplier turning high risk overnight through sanctions or data rules is an external disruption event, which fits the framework's category of risks originating beyond the firm. The article's advice to filter out sanctioned suppliers and screen continuously is a visibility and flexibility measure, while mapping data and cloud services to jurisdictions creates redundancy that still works when rules change. The Hormuz example shows an external shock forcing a sourcing shift, the kind of response the framework expects firms to have planned for.",
+     "critique": "The framework was developed largely around operational disruption such as fires, supplier failure and demand shocks. It says less about actors who are deliberately hostile or whose rules can change within days, and the article's risk is partly intentional and partly political. Redundancy measures such as dual sourcing also add cost, which the article does not weigh against the cost of exposure.",
+     "practice": "A manager applying this would map tier-two and tier-three suppliers and their data flows, identify which suppliers sit in jurisdictions where there is pressure to share data, and set triggers for re-sourcing. They would agree contingency plans with key partners, including forced market exit and rapid revocation of access, and budget for the extra visibility and redundancy this requires."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Total cost of ownership and total landed cost",
+     "theory": "Total cost of ownership measures the full cost of a purchase over its life, including acquisition, operation, risk, compliance and exit costs, rather than only the purchase price. Total landed cost extends this to all costs of getting goods to the point of use, such as duties, transport and handling. Decisions based on unit price alone understate costs that arrive later.",
+     "link": "The article's observation that a jurisdiction with relaxed rules lowers security costs but increases data exposure is a total cost of ownership argument: the cheaper location carries hidden costs in breach risk, legal exposure and recovery. The compliance burden from conflicting requirements, which the article says consumes resources and builds technical debt, is another cost a price comparison would miss. Tariffs and sanctions-driven re-sourcing add duties and longer routes to landed cost. Applying the concept shows that the lowest-price sourcing option may be the most expensive once geopolitical risk is priced in.",
+     "critique": "Total cost of ownership is hard to apply to geopolitical risk because the probability and size of a shock are uncertain and cannot be reliably costed, so a firm may end up with spurious precision. The article gives no figures, so the trade-off remains qualitative.",
+     "practice": "A procurement team would add to each supplier's cost model estimates for data-protection and compliance costs, the cost of a forced exit or sanctions breach, and the duty and lead-time effects of alternative sourcing. Where costs are uncertain, they would use scenario ranges rather than single values and compare options under each scenario."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "PESTEL analysis",
+     "theory": "PESTEL is an environmental scan that organises external factors into political, economic, social, technological, environmental and legal categories, to identify forces that could affect an organisation's operations and strategy. Each factor is assessed for its likely impact and for the organisation's exposure to it. It informs strategic choices rather than providing a final answer.",
+     "link": "The article's examples fall mainly into the political and legal categories: sanctions, export controls, tariffs, the Strait of Hormuz disruption, China's Data Security Law and diverging national cyber rules. Technological change appears in AI-enabled fraud and in the fragmentation of the internet into national networks. The recommendation that threat models keep pace with geopolitics treats the scan as ongoing, which is how PESTEL should be used. Linking each factor to specific exposures, such as which data stores or suppliers a rule affects, would turn the scan into a usable input for strategy.",
+     "critique": "PESTEL is descriptive and tends to produce long lists without ranking, so it can give an appearance of coverage without showing which factors matter most. It is also static, whereas the article describes shifts that can happen overnight, so it needs pairing with scenario planning or a regular review cycle.",
+     "practice": "A strategy team would run a PESTEL review at least quarterly, focusing on the political and legal rows, and score each factor by likelihood and impact on named assets such as data stores, suppliers and markets. Each high-scoring factor would then be linked to a strategic response, such as choices about market entry or investment in data localisation."
+    },
+    {
+     "moduleId": "economics",
+     "concept": "Comparative advantage and trade theory (Ricardo)",
+     "theory": "Ricardo's theory of comparative advantage holds that countries gain from trade when they specialise in goods they produce at a lower opportunity cost, even if one country is more efficient at everything. Free trade therefore raises total welfare. The theory is often extended to explain global production networks, in which firms locate activities where they are most efficient.",
+     "link": "The article describes a reversal of this logic: tariffs, sanctions and export controls restrict trade, and states build controlled national networks, so globalisation gives way to protectionism. A firm's location choice that would once have turned on cost and efficiency is now also constrained by political access and by legal exposure to foreign law enforcement. The organisations choosing weaker-protection jurisdictions to lower security costs show specialisation gains being offset by regulatory costs that trade theory typically leaves outside the model.",
+     "critique": "Ricardo's model assumes frictionless exchange and does not account for security or political externalities, such as the costs a country's data regulation imposes on foreign firms. Protectionism can also be justified on security grounds, which the simple model does not recognise.",
+     "practice": "A manager applying the framework would test whether the cost advantage of a sourcing or hosting location survives once sanctions, data-law and retaliation risks are included. They would compare it with a more diversified option, even where that option has a higher unit cost."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized manufacturer sources components through a network of suppliers, several of them outside its home country, and hosts its customer data with a cloud provider in a third jurisdiction. Recent sanctions and tariffs have forced it to shift some sourcing, and one long-standing supplier has come under pressure to share client records with a foreign partner. The board has also been warned that a voice-cloned impostor could approve a payment in the company's name.",
+    "question": "Critically evaluate how the board should build a geopolitically informed cyber resilience framework for this company, recommending priorities within a limited budget.",
+    "evidence": [
+     "The article reports that 64% of organisations have geopolitics firmly on their risk radar, with espionage and attacks on critical infrastructure the main concerns.",
+     "Disruption in the Strait of Hormuz is forcing sourcing shifts, producing longer supply chains with more intermediaries and less visibility over dependencies.",
+     "In the Ferrari case, a cloned voice of the CEO pressured an executive over a supposedly confidential deal, and the attempt failed only because the executive asked a personal question the impostor could not answer.",
+     "China's Data Security Law bars organisations from transferring data to foreign law enforcement without government approval, which the article argues makes cross-border investigations harder and recovery of stolen data less likely."
+    ],
+    "plan": [
+     "Frame the threat: state-backed actors and fraudsters exploit supply chains and data flows, so cyber risk is a geopolitical and third-party problem as well as a technical one, using PESTEL for the external scan.",
+     "Map exposure by tracing data, cloud services and suppliers to jurisdictions and tiers, and identify which dependencies are most exposed to sanctions, data-law changes or forced exit.",
+     "Assess trade-offs using total cost of ownership to compare sourcing and hosting options, including data, compliance and disruption costs rather than unit price, and note that the cheapest jurisdiction may carry the highest hidden cost.",
+     "Prioritise controls: continuous sanctions screening, second-channel verification with human oversight for high-value requests, and contingency plans for market exit and access revocation agreed with partners.",
+     "Acknowledge the limits: the 64% figure is unsourced and geopolitical shocks are hard to cost, so use scenario ranges and defined review triggers.",
+     "Recommend a ranked list of three or four actions with owners and review dates, justified against the mapped exposures and the cost analysis."
+    ],
+    "pitfalls": [
+     "Treating the answer as a purely IT or patching question; the article's point is that the threat depends on who is targeting the firm and why, so the answer must address geopolitics, suppliers and law.",
+     "Recommending that the company simply avoid all weaker-regulation jurisdictions or all sanctioned exposure without weighing costs and trade-offs; a strong answer shows the trade-off and argues for a specific option."
+    ]
+   },
+   "alsoConsider": [
+    "Kraljic's purchasing portfolio matrix",
+    "Transaction cost economics (Williamson)",
+    "Principal-agent theory",
+    "Dynamic capabilities (Teece)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that supply chain resilience and cost efficiency are inherently in conflict, using geopolitical disruption to illustrate your argument.",
+    "outline": [
+     "Define resilience (Christopher and Peck) and efficiency, and explain why lean, low-inventory and single-source designs can create vulnerability.",
+     "Use geopolitical examples such as tariffs, sanctions and the Hormuz disruption to show how the trade-off appears in practice, and how total cost of ownership reveals hidden costs.",
+     "Evaluate the limits of the trade-off view, for example that resilience can be built through visibility and redundancy without wholesale cost increases, and conclude with a justified position."
+    ]
+   },
+   "readingMinutes": 3
+  },
   {
    "id": "d57d6b3424bd",
    "title": "The 3PL reality check: Bigger, better, or just more complicated?",
