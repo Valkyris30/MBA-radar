@@ -1,43 +1,32 @@
 {
  "version": 2,
- "generatedAt": "2026-11-14T21:17:22Z",
+ "generatedAt": "2026-11-14T22:30:57Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
-   "id": "scm",
-   "name": "Logistics & Supply Chain Management",
-   "short": "Supply chain",
-   "color": "#2de2e6"
-  },
-  {
-   "id": "operations",
-   "name": "Operations Management",
-   "short": "Operations",
-   "color": "#3ba7ff"
-  },
-  {
-   "id": "strategy",
-   "name": "Strategic Planning",
-   "short": "Strategy",
-   "color": "#8b7cff"
-  },
-  {
    "id": "pwo",
-   "name": "People, Work & Organisations",
+   "name": "People, Work and Organisations",
    "short": "PWO",
-   "color": "#f06bd6"
+   "color": "#f06bd6",
+   "current": true
   },
   {
    "id": "leadership",
-   "name": "Leadership",
+   "name": "Leadership Theory and Practice",
    "short": "Leadership",
    "color": "#ff6b8b"
   },
   {
-   "id": "economics",
-   "name": "Economics for Business",
-   "short": "Economics",
-   "color": "#ffb454"
+   "id": "projects",
+   "name": "Delivering Successful Projects",
+   "short": "Projects",
+   "color": "#4ff0a8"
+  },
+  {
+   "id": "strategy",
+   "name": "Developing and Executing Strategy",
+   "short": "Strategy",
+   "color": "#8b7cff"
   },
   {
    "id": "finance",
@@ -52,13 +41,1112 @@
    "color": "#ff8a4c"
   },
   {
-   "id": "projects",
-   "name": "Delivering Successful Projects",
-   "short": "Projects",
-   "color": "#4ff0a8"
+   "id": "purchasing",
+   "name": "Global Purchasing and Supply",
+   "short": "Purchasing",
+   "color": "#3ba7ff"
+  },
+  {
+   "id": "scm",
+   "name": "Strategies for Managing Supply Chains",
+   "short": "Supply chains",
+   "color": "#2de2e6"
+  },
+  {
+   "id": "green",
+   "name": "Green and Sustainable Logistics",
+   "short": "Green logistics",
+   "color": "#5fd068"
+  },
+  {
+   "id": "logops",
+   "name": "Logistics Operations: Freight Transport and Warehouse Management",
+   "short": "Logistics ops",
+   "color": "#ffb454"
+  },
+  {
+   "id": "humanitarian",
+   "name": "Humanitarian Logistics",
+   "short": "Humanitarian",
+   "color": "#d9dee9"
   }
  ],
  "articles": [
+  {
+   "id": "503b3197f6fb",
+   "title": "How AI Erodes People’s Sense of Value at Work",
+   "url": "https://hbr.org/2026/11/how-ai-erodes-peoples-sense-of-value-at-work",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-12T13:05:06Z",
+   "addedAt": "2026-11-14T22:30:57Z",
+   "basis": "abstract",
+   "takeaway": "The title says AI can erode people's sense of value at work, and the abstract fragment says the piece turns to what leaders can do about it. Only the title and a final line are available, so the theory below is a framework for testing the claim against the full article, not a summary of its findings.",
+   "summary": "This is an HBR piece whose title states that AI erodes people's sense of value at work. The only other text supplied is a line indicating that the article moves on to what leaders can do about this. The full argument, evidence and recommendations are not in the material provided, so nothing beyond the title and that closing line should be attributed to the article.",
+   "keyPoints": [
+    "The headline claim is that AI erodes people's sense of value at work, which is a question about meaning and worth rather than only about tasks or productivity.",
+    "The abstract signals that the article treats leaders' response as central, so leadership is part of the argument.",
+    "Only the title and one line of the abstract are available, so any finding, figure or example must be checked against the full text before it is used in an assignment.",
+    "Sense of value at work can be analysed through job characteristics, the psychological contract and engagement, which are all taught in Unit 3 of PWO."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 78,
+     "reading": "In PWO terms this is about what happens to motivation and engagement when AI changes the content of jobs. Value at work is closely tied to whether people experience their tasks as meaningful, whether they have autonomy and whether their skills are used. A student should care because the article's concern maps onto job design, the psychological contract and engagement, all of which are examinable in Unit 3, and because the leaders' response it promises belongs to how organisations manage individual differences and change."
+    },
+    {
+     "id": "leadership",
+     "relevance": 42,
+     "reading": "The abstract's closing line places leaders' response at the centre of the piece. From the leadership module's point of view, the question is which leadership style or behaviour can restore people's sense of worth when work is being reshaped by technology. A student should care because the module asks how leaders influence motivation and meaning, and this article offers a live case to test transformational and other leadership theories against."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model (Hackman and Oldham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The Job Characteristics Model holds that five core job dimensions (skill variety, task identity, task significance, autonomy and feedback) shape three psychological states: experienced meaningfulness, responsibility for outcomes and knowledge of results. These states in turn drive internal motivation, satisfaction and performance, and the model is used to redesign jobs so that they score higher on the dimensions.",
+     "link": "The title's claim that AI erodes sense of value can be read through the model's psychological state of experienced meaningfulness, which depends on task significance and skill variety. If AI takes over the varied or judgement-based parts of a role, the remaining work may score lower on skill variety and task identity, and workers may feel their contribution matters less. The full article should be checked for whether it describes this mechanism, and the abstract's focus on leaders suggests it proposes ways to redesign roles rather than only documenting losses.",
+     "critique": "The model was built around manufacturing and clerical jobs and treats job characteristics as stable features of a role, whereas AI can change them quickly and unevenly across a team. It also relies on self-reported perceptions, so a fall in perceived value may reflect expectations and fairness as much as the design of the job.",
+     "practice": "A manager applying the model would audit each role against the five dimensions before and after an AI tool is introduced, looking for lost variety or autonomy. Where meaningfulness has fallen, they would redesign the remaining work, for example by giving people ownership of the outputs AI produces or of the client relationships it cannot handle, and would build in feedback on those outcomes."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of unwritten beliefs about mutual obligations between an employee and an employer, such as expectations of development, job security and recognition in return for effort and loyalty. A breach occurs when one party is perceived to have failed to deliver what was promised, and this can reduce trust, commitment and engagement.",
+     "link": "Introducing AI can change what employees believe they were promised, for example that their expertise would be developed and rewarded or that their role would grow with the firm. If the article argues that people's sense of value is eroding, the psychological contract explains why this may be felt as a breach rather than as a simple change in tasks. The abstract's emphasis on leaders suggests the article sees renegotiating these expectations openly as part of the response.",
+     "critique": "The psychological contract is inferred from perceptions and is hard to observe or measure, and it is not a formal document that leaders can simply rewrite. Critics would also say that the framework places responsibility on the employer's communication, when some erosion of value may come from the technology itself rather than from broken promises.",
+     "practice": "A leader would make explicit what the organisation still promises under AI, such as reskilling, job security or a new role, and would test whether employees share that understanding. They would then keep the commitments made, since visible follow-through does most to protect trust in the contract."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Transformational leadership (Bass)",
+     "unit": "",
+     "theory": "Bass extended Burns's work to describe transformational leadership, which raises followers' awareness of what matters and motivates them to act for the group's goals rather than their own. It works through four components: idealised influence, inspirational motivation, intellectual stimulation and individualised consideration. It is contrasted with transactional leadership, which relies on exchanges of rewards for performance.",
+     "link": "If AI is eroding people's sense of value, a transactional response of incentives and monitoring would not address the question of meaning that the title raises. Transformational leadership offers a more direct fit, since intellectual stimulation can help people see how their judgement and expertise remain central, and individualised consideration can address the particular losses each person faces. The abstract's focus on what leaders can do suggests the article is making a similar case, though the full text is needed to confirm the specific behaviours it recommends.",
+     "critique": "Transformational leadership has been criticised for its vague and idealised character, and its effects are often measured through followers' ratings of the leader, which may overstate impact. It also gives little guidance on what to do when the leader's own role and job security are uncertain under AI.",
+     "practice": "A leader would explain clearly how AI changes the purpose of the team's work and would invite people to shape how it is used, giving them a visible role in the change. They would also check in with individuals on what they find meaningful, and would adjust tasks and recognition to match."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A professional services firm introduces AI tools that now produce a large share of the first drafts its analysts used to write. Some staff report feeling that their expertise matters less, and turnover in one team has begun to rise. The senior leadership team must decide how to respond and what to tell its people.",
+    "question": "Critically evaluate how the firm's leaders should respond to the erosion of their staff's sense of value at work, drawing on theories of motivation, job design and leadership.",
+    "evidence": [
+     "The article's title states that AI erodes people's sense of value at work, which can be used as the central claim to test against theory.",
+     "The abstract indicates that the article addresses what leaders can do about this erosion, so the leaders' response is a stated concern of the piece.",
+     "Specific data, examples or findings from the full article should be added here after reading it, as the abstract supplied does not contain them."
+    ],
+    "plan": [
+     "Define sense of value at work and explain why it matters for motivation and engagement, citing the title's claim as the starting point.",
+     "Apply the Job Characteristics Model to diagnose which of the five core dimensions AI has reduced in the analysts' roles, and link this to experienced meaningfulness.",
+     "Use the psychological contract to examine whether staff now perceive a breach of promises about development, security or recognition, and identify what must be clarified.",
+     "Apply transformational leadership, distinguishing it from transactional responses, to show how leaders can restore meaning through intellectual stimulation and individualised consideration.",
+     "Critically assess the limits of these theories, such as the focus on perception and the difficulty of measuring the contract, and weigh them against the costs of the options.",
+     "Recommend a specific set of actions for the leadership team, including job redesign, open communication about commitments and an agreed way to measure whether value is recovering."
+    ],
+    "pitfalls": [
+     "Asserting the article's findings or examples without having read the full text, since only the title and a closing line are available.",
+     "Treating AI as a simple cause of lost value without considering how leaders' choices in redesigning work and communicating change affect the outcome."
+    ]
+   },
+   "alsoConsider": [
+    "Self-determination theory (Deci and Ryan)",
+    "Kahn's model of personal engagement",
+    "Herzberg's two-factor theory",
+    "Edmondson's psychological safety"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether the introduction of AI erodes people's sense of value at work, and assess what leaders can do to protect it.",
+    "outline": [
+     "Define sense of value at work and explain its links to motivation, meaning and engagement, using job design and the psychological contract.",
+     "Assess the evidence and mechanisms by which AI may change job characteristics and expectations, and identify the limits of the theories used.",
+     "Evaluate the leadership responses available, such as transformational leadership and job redesign, and recommend a justified course of action."
+    ]
+   }
+  },
+  {
+   "id": "740a5a199521",
+   "title": "Why Employees Choose Purpose Over Pay",
+   "url": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/why-employees-choose-purpose-over-pay/",
+   "source": "Knowledge at Wharton",
+   "publishedAt": "2026-11-11T21:42:24Z",
+   "addedAt": "2026-11-14T22:30:57Z",
+   "basis": "abstract",
+   "takeaway": "A strong social mission may help a startup attract talented staff while spending less on pay, which makes it a live question about what motivates people to join and stay, and how the employment bargain is struck. Only the abstract was available, so the notes rely on the abstract's claims and on theory rather than on findings from the full research.",
+   "summary": "The publisher's abstract summarises a discussion by J. Daniel Kim, Wharton assistant professor of management, of new research. According to the abstract, a strong social mission can help startups recruit talented employees while also reducing labour costs. The full article, the study design, sample and figures were not provided, so nothing beyond this headline claim can be reported with confidence. The note therefore treats the claim as a starting point and uses the People, Work and Organisations theories on motivation, the psychological contract and person-organisation fit to show how the effect could work and where it might break down.",
+   "keyPoints": [
+    "The research, as summarised, links a strong social mission to two outcomes for startups: easier recruitment of talented people and lower labour costs.",
+    "The mechanism implied by the abstract is that employees value purpose enough to accept less pay or fewer conventional rewards than they could get elsewhere.",
+    "Because the abstract is short, the evidence base (sample, method, size of the effect, time frame) is unknown and should not be assumed.",
+    "Two theories from People, Work and Organisations help explain the claim: intrinsic motivation from purpose (self-determination theory) and the exchange of promises between employer and employee (psychological contract).",
+    "Herzberg's two-factor theory offers a way to think about pay and purpose as different kinds of workplace factor, though its direct application to recruitment is a stretch."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 80,
+     "reading": "In the language of People, Work and Organisations, the abstract describes employees choosing a mission over higher pay, which is a question about what motivates people and what they value in work. It touches on motivation and engagement, since purpose may act as a source of intrinsic motivation, and on individual differences, since people differ in how much they value meaning relative to income. It also raises the psychological contract, because a mission-led employer may offer non-financial promises in exchange for lower pay. A student should care because the finding challenges a simple pay-led view of recruitment and asks how the employment deal is understood by the person making it."
+    },
+    {
+     "id": "strategy",
+     "relevance": 35,
+     "reading": "In the strategy module the abstract suggests a mission can be a source of advantage in the labour market, because it helps a startup attract talent and lower its cost base. This connects to the resource-based view and VRIO, where a resource gives advantage if it is valuable, rare, hard to imitate and organised to be exploited. The connection is secondary, since the abstract says nothing about competitive positioning or market outcomes. A student should care because it shows how a non-financial asset can have financial effects that appear in a business model."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Self-determination theory (Deci and Ryan)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Self-determination theory holds that people are motivated most strongly when three psychological needs are met: autonomy, competence and relatedness. Intrinsic motivation grows when work satisfies these needs, and extrinsic rewards such as pay can weaken intrinsic motivation when they are seen as controlling rather than informational. Motivation therefore depends on the quality of the regulation of behaviour, not only on its size.",
+     "link": "The abstract says a strong social mission helps startups recruit talented people, which suggests that purpose is valued for its own sake and can stand in for a higher salary. Under self-determination theory, a mission gives work a sense of meaning and direction that can satisfy relatedness and a sense of contributing, so pay becomes less central to the decision. This would explain why employees might accept lower labour costs without seeing it as a loss. The abstract, however, does not report whether the employees in the research were motivated in this way or whether they simply valued the mission at entry.",
+     "critique": "Self-determination theory describes what sustains motivation once someone is in a role, and it does not directly explain why people choose one employer over another. A mission may be a sign of an employer that supports autonomy and competence, but it may also be used as a recruitment message without these conditions, in which case the motivation would not last.",
+     "practice": "A startup founder applying this theory should show new hires how their work serves the mission, but also build autonomy and development into roles so the mission is backed by real opportunities to grow. Managers should avoid tying the mission to rigid rules and monitoring, since these can undermine the intrinsic motivation that the mission is meant to create."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "The psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of beliefs an individual holds about the mutual obligations between themselves and their employer, beyond what is written in the formal contract. Rousseau distinguishes transactional contracts, based on specific and short-term exchanges such as pay for effort, from relational contracts, based on loyalty, long-term commitment and shared purpose. Breach occurs when an employee perceives that the employer has failed to deliver promised obligations, and this can reduce trust and commitment.",
+     "link": "The abstract describes employees trading some pay for a social mission, which is a clear example of a relational element entering the deal. The mission can be understood as a promise the employer makes, and employees who accept lower pay are relying on that promise being kept. This fits the idea that the contract is partly psychological and partly based on shared beliefs about purpose. The abstract does not say how staff experienced the mission after joining, so whether the contract was honoured is unknown.",
+     "critique": "Rousseau's model stresses perceptions, so the contract is only as strong as the employee's belief in it, and employers may not know what staff have understood. A mission-based offer can create high expectations that are hard to meet in a fast-changing startup, which makes breach more likely and could produce disillusionment greater than with a plain pay deal.",
+     "practice": "A manager should make the mission concrete in recruitment conversations, stating what it will mean for work, workload and career paths, and then check regularly whether employees still believe the promise is being kept. Where the startup cannot deliver some promised elements, it should say so early to limit the damage from perceived breach."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Herzberg's two-factor theory",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Herzberg's two-factor theory divides workplace factors into hygiene factors, such as pay, working conditions and supervision, and motivators, such as achievement, recognition, the work itself and responsibility. Hygiene factors prevent dissatisfaction when adequate but do not create satisfaction, whereas motivators produce satisfaction and effort. The theory implies that pay alone cannot be the main source of motivation.",
+     "link": "The abstract's claim that purpose can attract talent while reducing labour costs fits the idea that meaningful work is a motivator that can offset a lower hygiene factor. Under this reading, a strong mission would give employees satisfaction from the work itself, so they would not need the same pay to remain content. The abstract does not state what employees gave up, so the theory can only suggest a mechanism rather than confirm it.",
+     "critique": "The two-factor theory is based on a limited and self-reported sample, and its clean split between hygiene and motivators has been criticised in later research. Pay can act as a motivator for some people, and people with financial pressures may not accept lower pay regardless of purpose, so the theory may overstate how far pay can be traded for meaning.",
+     "practice": "A founder using this theory should use the mission to build motivators, such as responsibility, achievement and recognition for contributions to the mission, while making sure pay and conditions are fair enough to avoid dissatisfaction. The aim is to avoid sending the message that low pay is acceptable simply because the work is meaningful."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "The resource-based view and VRIO (Barney)",
+     "unit": "",
+     "theory": "The resource-based view argues that a firm's competitive advantage comes from resources it controls. VRIO asks whether a resource is valuable, rare, costly to imitate and organised to be exploited, and only resources meeting all four conditions are likely to give sustained advantage. Resources such as culture, reputation and employee commitment can meet these tests when they are embedded in the organisation.",
+     "link": "The abstract suggests a social mission helps a startup attract talented staff at lower cost, which is a value-creating outcome. A mission that is genuinely held and difficult to copy could be rare and inimitable, since rivals cannot simply buy it, and the startup would need to organise recruitment and management to exploit it. The abstract does not establish that the mission is rare or that competitors cannot copy it, so these conditions remain assumptions.",
+     "critique": "Missions are easy to announce, and many firms adopt similar language, which weakens rarity and imitability. The VRIO framework also treats resources as relatively static, while a startup's mission may depend heavily on its founders and may fade as the firm grows.",
+     "practice": "A startup leader applying VRIO should test whether the mission is actually distinctive and whether it is embedded in hiring, reward and decision-making, rather than only in public statements. If it passes these tests, the leader should protect it through governance, such as mission-linked criteria for hiring and promotion, so it stays organised for exploitation."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A young technology startup with a strong social mission is competing for scarce engineering and product talent against larger firms that pay more. It has limited cash and wants to keep its labour costs low while still hiring people who can build the business. The founders are considering how much to emphasise the mission in recruitment and how to reward early employees.",
+    "question": "Advise the founders on how a strong social mission might help the startup recruit talented staff while controlling labour costs, and critically evaluate the risks of relying on mission to replace pay.",
+    "evidence": [
+     "Research discussed by J. Daniel Kim of Wharton shows that a strong social mission can help startups recruit talented employees.",
+     "The same research indicates that a social mission can also reduce labour costs for startups.",
+     "The abstract is a summary only, so the size of the effect, the sample and the time period are not known and should be noted as limitations."
+    ],
+    "plan": [
+     "Set out the claim: according to the research summary, mission helps recruit talent and lowers labour costs, and state that the full evidence was not reviewed.",
+     "Apply self-determination theory to explain why purpose can motivate people beyond pay, and identify the autonomy, competence and relatedness the startup must provide.",
+     "Apply the psychological contract to show that a mission is a relational promise, and discuss the risk of perceived breach if the mission is not reflected in day-to-day work.",
+     "Use Herzberg's two-factor theory to argue that mission can work as a motivator, but that pay must remain adequate to avoid dissatisfaction.",
+     "Use the resource-based view and VRIO to test whether the mission is a sustainable advantage, noting that it must be genuine, distinctive and embedded in management.",
+     "Recommend that the founders use the mission to attract people who share its values, back it with autonomy, development and fair pay, and monitor whether the psychological contract is being honoured."
+    ],
+    "pitfalls": [
+     "Treating the abstract's finding as proven in general, when the source offers only a summary of new research and no detail on method or scale.",
+     "Assuming that employees simply accept lower pay, without considering that some may accept it only in the short term or that mission may be a weaker motivator for people with financial pressures."
+    ]
+   },
+   "alsoConsider": [
+    "Attraction-selection-attrition model (Schneider)",
+    "Compensating differentials in labour economics",
+    "Intrinsic and extrinsic motivation (Deci and Ryan)",
+    "Person-organisation fit"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that employees will accept lower pay in exchange for a sense of purpose, and discuss the implications for organisations seeking to recruit and retain talented staff.",
+    "outline": [
+     "Explain the theories that account for purpose-driven motivation, including self-determination theory and Herzberg's two-factor theory, and show how each treats pay differently.",
+     "Analyse the psychological contract and self-selection as mechanisms that could explain recruitment, and identify the risks of perceived breach when a mission is not delivered in practice.",
+     "Evaluate the limits of the claim, including the unknown size of the effect, the risk of mission rhetoric without substance, and the financial pressures that may stop some people from accepting lower pay, and conclude with recommendations for employers."
+    ]
+   }
+  },
+  {
+   "id": "e18c2180d230",
+   "title": "Coach, don’t rescue: Why HR should stop solving every people problem",
+   "url": "https://hrzone.com/coach-dont-rescue-why-hr-should-stop-solving-every-people-problem/",
+   "source": "HRZone",
+   "publishedAt": "2026-11-12T08:00:00Z",
+   "addedAt": "2026-11-14T22:30:57Z",
+   "basis": "full_text",
+   "takeaway": "When HR routinely solves line managers' people problems, managers grow less capable, employees bypass them, and HR loses time for strategic work. HR should coach managers through everyday issues, reserve direct intervention for legal, safeguarding and serious risks, and judge its value by how few problems need escalating.",
+   "summary": "The article argues that HR is often the default route for difficult people issues such as avoided performance conversations, team tension and concerns raised too late. This leaves managers less capable, encourages employees to go round their line manager, and stretches HR between reactive casework and strategic work. The author argues that line managers shape the employee experience more than any policy, so HR should coach them by asking what has happened, what has been said, what they are worried about and what outcome they want, rather than drafting wording, joining meetings or taking over. HR should still step in for legal, safeguarding, serious employee relations and significant organisational risk. Manager development should be continuous and built on real situations, managers need clear boundaries on when to act and when to escalate, and HR should measure success by whether problems are handled earlier and at the right level. The piece is practitioner opinion; it cites the CIPD's view on line manager capability but presents no original data.",
+   "keyPoints": [
+    "HR is often the first port of call for difficult people issues, which can make managers less capable and HR less strategic.",
+    "Line managers have a larger influence on employee experience than any policy or HR initiative, so their capability matters most.",
+    "The coaching approach asks structured questions to help managers reason through a situation rather than giving them the solution.",
+    "HR must still intervene directly in legal, safeguarding, serious employee relations and significant organisational risk matters.",
+    "Management development should be an ongoing process using real workplace situations, not a one-off training event."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 90,
+     "reading": "The article is about the people side of management: how managers handle performance, conflict and feedback, how they relate to HR and to their teams, and how employees choose whom to go to with a concern. Viewed through PWO, the issue is the capability of managers and the formal and informal structure of who decides what. A student of this module should care because the article links individual skill, feedback and performance management, power and dependence between HR and line managers, and the design of decision rights and escalation routes."
+    },
+    {
+     "id": "leadership",
+     "relevance": 60,
+     "reading": "The article treats coaching as a leadership development approach: HR should develop managers' judgement rather than substitute for it. This raises questions about how leaders should adapt their style to the readiness of the person they lead, and about how developing leaders differs from directing them. Leadership students should see the article as a practical case of developing leaders through real situations, with the risk of over-directing managers who need to build their own judgement."
+    },
+    {
+     "id": "strategy",
+     "relevance": 35,
+     "reading": "The article argues that HR should be measured by what it no longer has to fix, which is a point about performance measurement and value creation. It challenges the idea that a high volume of activity shows influence, and proposes measures that look at earlier and more appropriate handling of problems. Strategy students can see the article as an example of how a support function might build a measurement system that connects its work to wider organisational goals such as long-term growth and workforce capability."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Performance management and feedback",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Performance management is a continuing process of setting expectations, monitoring performance, giving feedback and developing people, rather than an annual event. Feedback is most useful when it is timely, specific and focused on behaviour and outcomes that the person can act on. Managers who avoid difficult feedback let problems grow, which weakens both performance and the employee's trust in the process.",
+     "link": "The article describes managers who avoid difficult performance conversations and situations that could have been dealt with weeks earlier, which is the timeliness problem that performance management is meant to prevent. Its coaching questions about what has already been said and what the manager is worried about map onto the preparation stage of a feedback conversation, where evidence and expected outcomes are set out first. The author's view that performance conversations are development opportunities corresponds to treating feedback as a development tool rather than a disciplinary event. Where the article suggests that HR should help managers work through what evidence exists and what a fair outcome would look like, it describes the preparation that effective feedback requires.",
+     "critique": "The article treats avoidance as a gap in capability, but feedback avoidance can also come from workload pressure, unclear standards, weak organisational support or fear of conflict, and coaching alone may not address these. Feedback theory also suggests that the quality of the relationship and the employee's perception of fairness matter as much as the manager's skill.",
+     "practice": "A manager facing an avoided performance problem should first record specific evidence and agree the outcome they want, then hold a timely conversation focused on observable behaviour. HR can coach them through this preparation, and the organisation should set regular check-ins so that small issues are raised before they become formal."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "French and Raven's bases of power, with resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "French and Raven identify five bases of power: legitimate, reward, coercive, expert and referent. Resource dependence theory holds that power accrues to those who control scarce, critical resources that others need, so that dependence on a particular unit or person shifts power towards it. A unit that is consulted on every problem becomes a critical resource for others.",
+     "link": "When HR becomes the default solver, managers depend on it for expertise and for the handling of difficult issues, which gives HR expert power and makes the manager's own legitimate authority less visible. The article notes that employees bypass their line manager and go to HR, which means the manager's referent power over the team weakens. The author's proposal to coach managers and clarify escalation boundaries is an attempt to reduce that dependence and restore the manager's legitimate and expert authority.",
+     "critique": "Resource dependence explains how power shifts, but not whether HR seeks it, and the article assumes that HR is simply being pulled in by managers. Lukes's third dimension of power suggests that dependence can be sustained by shared assumptions about who should handle problems, so changing behaviour may need changes to norms as well as to escalation rules.",
+     "practice": "HR should map which decisions are currently taken centrally and why, then return clearly defined decisions to line managers with the expertise and support they need. The organisation should publish escalation criteria so that managers and employees both understand when HR involvement is expected."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Situational leadership (Hersey and Blanchard)",
+     "unit": "",
+     "theory": "Situational leadership holds that the effective leader adapts their style to the development level of the person being led, which depends on both competence and commitment. Directing suits low competence and commitment, coaching suits moderate competence with low confidence, supporting suits high competence with variable confidence, and delegating suits high competence and commitment. The leader's task is to match the style to the follower's readiness on each task.",
+     "link": "The article's advice to ask questions before offering wording or taking over matches the coaching style, which fits a manager who has the ability to handle a situation but lacks confidence or practice. The author also says that some situations need direct HR intervention, which corresponds to the directing style where competence on a specific issue is low or risk is high. Treating each difficult issue separately, as the article implies, reflects the task-specific nature of readiness in the model.",
+     "critique": "Situational leadership has been criticised for weak empirical support, for vague definitions of readiness, and for the way it labels people. The article also does not describe how HR would assess a manager's readiness, so applying the model in practice would depend on judgement the article does not specify.",
+     "practice": "HR business partners should assess a manager's readiness for each type of issue, such as a first performance conversation or a dispute between team members, and select a coaching, supporting or directing response accordingly. The aim should be to move the manager towards delegation over time, so that HR's involvement reduces as the manager's capability grows."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "The balanced scorecard (Kaplan and Norton)",
+     "unit": "",
+     "theory": "The balanced scorecard measures performance from four linked perspectives: financial, customer, internal process, and learning and growth. Its aim is to avoid over-reliance on financial measures by linking operational and capability measures to long-term strategic goals. Each perspective should have a few measures that show whether the organisation is building the capability it needs.",
+     "link": "The article argues that HR should measure whether problems are handled earlier and at the right level, not how many consultations it handles, which fits the internal process perspective of the scorecard. Increasing manager capability is a learning and growth measure, and the author links fewer avoidable escalations to better employee experience and to freeing HR for workforce planning and organisational design. The scorecard would therefore link HR's own activity to the organisation's strategic objectives.",
+     "critique": "Fewer escalations can conceal problems rather than solve them, if managers avoid raising issues or employees stop speaking up. A scorecard that rewards low escalation numbers could therefore encourage suppression, so the measures need to be checked against employee voice and outcome data.",
+     "practice": "HR should choose a small set of measures, such as the proportion of performance concerns addressed by the line manager within an agreed time, the number of managers who have completed coaching, and employee survey responses on whether they trust their manager with concerns. These should be reviewed alongside escalations to test that low volumes reflect real capability rather than silence."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large organisation's HR team handles most difficult people issues, from avoided performance conversations to disputes between team members. Managers return to HR repeatedly with similar problems, and some employees take concerns directly to HR rather than to their line manager. The HR director wants to reposition the function so that it works more strategically, while still protecting the organisation from legal and serious risk.",
+    "question": "Critically evaluate whether HR should coach line managers through everyday people problems rather than resolving them on their behalf, and advise the HR director on how the function should change.",
+    "evidence": [
+     "The article states that HR is often the first port of call for difficult people issues, and that this can leave managers less capable and HR less strategic.",
+     "The author notes that employees may bypass their line manager and go to HR, which erodes manager confidence over time.",
+     "The article argues that managers shape how supported, engaged and valued people feel more than any policy or HR initiative does.",
+     "The article says a high volume of escalations is not necessarily a sign of influence, and suggests measuring whether problems are handled earlier and at the right level."
+    ],
+    "plan": [
+     "Identify which problems are everyday and which need direct HR intervention, using the article's distinction between legal, safeguarding, serious employee relations and significant risk matters.",
+     "Explain the performance management problem: avoided and delayed feedback, and the need for timely, evidence-based conversations as set out in performance management and feedback theory.",
+     "Analyse why managers are dependent on HR using French and Raven's bases of power and resource dependence, and show how this weakens the manager's legitimate and referent authority.",
+     "Use situational leadership to explain how HR should match its coaching or directing response to each manager's readiness, and recognise that the model's empirical support is limited.",
+     "Propose clear decision rights and escalation criteria, and a balanced scorecard of measures that test whether problems are handled earlier and by the right person without suppressing employee voice.",
+     "Recommend a phased approach in which HR coaches managers on everyday issues, retains direct control for high-risk matters, and reviews outcomes over time."
+    ],
+    "pitfalls": [
+     "Presenting the article's views as proven: it is practitioner opinion and does not supply data on outcomes, so the evaluation should test its claims rather than accept them.",
+     "Recommending that HR withdraw from all difficult issues, which ignores the article's explicit exceptions for legal, safeguarding and serious risk matters."
+    ]
+   },
+   "alsoConsider": [
+    "Mintzberg's managerial roles",
+    "McGregor's Theory X and Theory Y",
+    "Edmondson's psychological safety",
+    "Lukes's three dimensions of power"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that HR should coach line managers through people problems rather than resolve them on their behalf. Draw on theories of power, performance management and leadership development in your answer.",
+    "outline": [
+     "Define coaching and direct intervention, and identify the types of issue for which each is appropriate, with reference to legal and safeguarding risk.",
+     "Explain how dependence on HR shifts power away from line managers, using French and Raven and resource dependence, and how this affects employee behaviour.",
+     "Evaluate the proposal against performance management and situational leadership theory, noting the limits of the evidence and the risk that low escalation numbers conceal problems."
+    ]
+   },
+   "readingMinutes": 6
+  },
+  {
+   "id": "6eb88465b43e",
+   "title": "How Boards Detect and Prevent Internal Misconduct",
+   "url": "https://hbr.org/2026/11/how-boards-detect-and-prevent-internal-misconduct",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-13T20:50:11Z",
+   "addedAt": "2026-11-14T22:30:57Z",
+   "basis": "abstract",
+   "takeaway": "The supplied text is only a short publisher's abstract, so it supports a note on the subject (boards detecting and preventing internal misconduct) rather than on specific findings. Read through PWO theory, the subject is mainly about culture, power and formal and informal structure, and it should be checked against the full excerpt before use in assessed work.",
+   "summary": "The source is an excerpt from the Harvard Business Review Board Member's Handbook, and its title indicates that it deals with how boards detect and prevent internal misconduct. The text supplied is only that short description, so it reports no findings, methods, cases or figures. The points below rest on the title and on what the relevant theories would lead a student to look for, and they should be checked against the full excerpt before being cited as evidence.",
+   "keyPoints": [
+    "The subject is the board's role in detecting and preventing misconduct that comes from inside the organisation.",
+    "The supplied text gives no findings, methods or examples, so no claims about what boards actually do can be drawn from it.",
+    "Misconduct inside an organisation can be looked at as a question of culture, of power and information flows, and of how formal structures relate to informal practice.",
+    "Boards depend on information from management, so the people they oversee control much of what the board can see.",
+    "The source is a handbook excerpt, so it is likely to be practical guidance rather than an academic study; treat its advice as the publisher's view, not established evidence."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 70,
+     "reading": "Read through People, Work and Organisations, the subject is how an organisation's culture, power relations and formal and informal structures allow or prevent misconduct, and how a governing body can see into them. Unit 7 explains the dark side of strong cultures, in which shared norms can suppress dissent or normalise wrongdoing. Unit 5 on power and politics explains why boards that rely on management for information may see only what those managers choose to show. A student should care because the title points to controls that a board can design, but the module suggests that the people and culture behind those controls decide whether they work."
+    },
+    {
+     "id": "leadership",
+     "relevance": 45,
+     "reading": "Read through Leadership Theory and Practice, the subject raises questions about ethics and responsibility at the top of the organisation. A board sets the tone for executives and is accountable for the conduct of the people it appoints, which connects to ethical and responsible leadership. The module asks what it means for leaders to take responsibility for the behaviour of those who follow them. A student should care because misconduct prevention is partly a question of whether leaders model and enforce the standards that the board sets."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "The dark side of organisational culture (Unit 7 theory; links to Schein's levels of culture)",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Strong organisational cultures can improve coordination, but they can also suppress dissent, normalise questionable behaviour and make people reluctant to challenge the group. Schein distinguishes visible artefacts, espoused values and basic underlying assumptions, and the gap between stated values and what people actually assume can conceal misconduct. A toxic or overly strong culture can therefore make misconduct hard to detect even when formal controls exist.",
+     "link": "The title frames misconduct as something arising inside the organisation, which points to the cultural layer rather than to individual rule-breaking alone. A board that reads only formal artefacts, such as codes of conduct and policy documents, sees the espoused values but may miss the assumptions that govern what people actually do. Mapping the excerpt onto Schein's model suggests that detection depends on looking beneath the written standards. The supplied abstract does not say which methods the handbook recommends, so this mapping is a framework for analysis rather than a summary of the text.",
+     "critique": "Culture is difficult to observe and measure, and boards usually receive a filtered picture from management, so the diagnosis may itself be shaped by the culture under review. Treating culture as a single thing that can be managed also underplays its subcultures and the way different groups within the organisation experience it differently.",
+     "practice": "A board seeking to detect misconduct should combine formal controls with direct evidence about culture, such as staff surveys, exit interviews, and conversations with managers beyond the executive team. It should compare the stated values with the behaviours that are rewarded or tolerated in practice, and treat gaps between the two as a warning sign."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Lukes's three dimensions of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Lukes distinguishes three dimensions of power: overt decision-making power, control over the agenda that decides which issues are raised, and the power to shape people's preferences so that they do not voice grievances. The second and third dimensions are the least visible, because they work by keeping certain issues out of view. Power can therefore be exercised through what is never put on the board's agenda.",
+     "link": "Boards depend on the executives they oversee for the information that reaches them, which gives management control over the agenda in Lukes's second sense. If misconduct is prevented or hidden by controlling what is reported, the board's oversight may be limited by the same power relations it is supposed to monitor. The title's focus on detection suggests that boards need to look at what is kept off their agenda as well as at what is presented to them. The supplied text does not describe such dynamics, so this link is an analytical application.",
+     "critique": "Lukes's framework is abstract and can be hard to apply to a specific board without evidence about who controls information and why. Some observers argue that boards can be given independent sources of information, such as internal audit and whistleblowing channels, which would reduce the effect of agenda control, so the power of management is not absolute.",
+     "practice": "A board should identify its independent sources of information, such as internal audit, direct access to staff and external advisers, and check whether these reach it without passing through management. It should ask regularly which topics have not been raised, and why, and should set the agenda in a way that protects against the third dimension of power."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Formal and informal organisation",
+     "unit": "Unit 6 Designing effective organisations",
+     "theory": "Every organisation has a formal structure of reporting lines, rules and procedures, and an informal organisation of networks, friendships and unwritten practices that shape how work really gets done. The informal organisation can support or undermine the formal rules. Misconduct often lies in the gap between the two, because people can follow the formal process while the informal network decides what is acceptable.",
+     "link": "The subject of detection and prevention implies that formal control systems, such as codes, reporting lines and audit procedures, exist but may not reveal everything that happens. Mapping the excerpt onto this theory suggests that boards need to test whether the formal reporting structure matches the informal networks through which information and norms actually move. The abstract does not say whether the handbook takes this view, so the connection is an application of the theory to the title.",
+     "critique": "The formal and informal distinction can be overstated, since informal networks are sometimes a legitimate way to get things done and may not be a source of misconduct. Mapping informal networks is also difficult and can be seen as intrusive, which may create its own resistance from staff.",
+     "practice": "A board or its committee should ask for information on how reporting lines work in practice, including whether employees raise concerns through formal channels or informal ones, and whether whistleblowing routes operate independently of the line management being reported on. It should then compare what it learns with the formal structure and close any gaps it finds."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Ethical and responsible leadership",
+     "unit": "",
+     "theory": "Ethical and responsible leadership concerns how leaders set and maintain moral standards in their organisations, both through their own conduct and through the systems they put in place. It holds that leaders are responsible for the ethical climate and for the behaviour of those they influence, not only for their own actions. Ethical leadership is therefore expressed through what leaders reward, tolerate and punish.",
+     "link": "A board is itself a leadership body whose responsibilities include the conduct of the organisation's executives, and the title's concern with preventing internal misconduct places the question of ethical standards at the top. The excerpt's focus on detection and prevention suggests that ethical leadership at board level is judged partly by the systems it establishes and how it responds to warning signs. The supplied text does not describe any particular ethical standards or responses, so this application relies on the title and on the theory.",
+     "critique": "Ethical leadership is often described in aspirational terms that are hard to test, and a board's commitment to ethics can be undermined if directors are rewarded for short-term results that depend on weak controls. Critics also point out that codes of conduct can become a form of reputation management rather than a real commitment to change.",
+     "practice": "A board should set explicit ethical expectations for executives and tie them to how performance is assessed, and should ensure that concerns raised about senior people are investigated independently of those people. It should report on how it has responded to past concerns, so that the standards it sets are visibly enforced."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A listed company's board is told that a senior manager may have breached internal rules, and that the concern was raised informally before reaching the board. The board wants to understand why the issue was not picked up earlier by its formal controls. The company has a code of conduct, an internal audit function and a whistleblowing policy that most staff say they know about.",
+    "question": "Advise the board on how it could have detected and prevented this kind of internal misconduct, drawing on the theories of organisational culture, power and formal and informal organisation.",
+    "evidence": [
+     "The publication is an excerpt from the Harvard Business Review Board Member's Handbook, and its stated subject is how boards detect and prevent internal misconduct.",
+     "The supplied text is only the publisher's short description and reports no specific findings, methods or cases, so any evidence drawn from it should be cited as the subject of the source rather than as a result.",
+     "The title frames misconduct as an internal matter, which gives the student a basis for analysing it through organisational structures, culture and power relations."
+    ],
+    "plan": [
+     "Define internal misconduct in organisational terms and note that the board's task is both to detect it and to prevent it, drawing on the handbook's stated subject.",
+     "Apply Schein's levels of culture to the scenario, comparing the written code of conduct with the assumptions that actually guided behaviour, and identify the dark side of strong culture as a possible reason the concern was delayed.",
+     "Apply Lukes's three dimensions of power to explain how management control over information may have limited what reached the board, and how the agenda may have kept the issue out of view.",
+     "Apply the formal and informal organisation to show where the informal concern moved outside the reporting and whistleblowing channels, and why the formal controls did not pick it up.",
+     "Recommend that the board establish independent information sources, test culture directly, reconcile formal and informal reporting, and set clear ethical expectations for senior managers, linking each recommendation to the theory that supports it."
+    ],
+    "pitfalls": [
+     "Presenting the handbook's advice as established evidence, when the supplied text reports only its subject and no findings.",
+     "Treating the code of conduct and audit function as proof that controls were adequate, without examining how the informal organisation and power relations affected them."
+    ]
+   },
+   "alsoConsider": [
+    "Schein's three levels of culture",
+    "Mintzberg's political games",
+    "Thomas-Kilmann conflict modes"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that internal misconduct is best prevented by formal board controls, rather than by understanding the culture, power relations and informal structures of the organisation.",
+    "outline": [
+     "Explain the role of the board in detecting and preventing internal misconduct, and why formal controls alone may be insufficient.",
+     "Apply the dark side of culture and Lukes's dimensions of power to show how misconduct can persist despite formal systems, supporting each point with a clear example.",
+     "Evaluate the limits of these approaches and reach a reasoned judgement about what boards should prioritise."
+    ]
+   }
+  },
+  {
+   "id": "fc765acd4bdf",
+   "title": "Nvidia's Asian Supply Chain Prepares for Life after Huang",
+   "url": "https://www.supplychainbrain.com/industries/high-tech-electronics/article/16425499/nvidias-asian-supply-chain-prepares-for-life-after-huang",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-13T05:00:00Z",
+   "addedAt": "2026-11-14T22:30:57Z",
+   "basis": "full_text",
+   "takeaway": "The sudden exit of a chief executive whose personal relationships and vision had tied a supplier network together shows that suppliers can depend on one person rather than on the institution, so succession and relationship continuity become supply chain and change-management risks.",
+   "summary": "The article reports that Nvidia's partners and suppliers across Asia, including in Taiwan and South Korea, are reassessing their plans after chief executive Jensen Huang resigned on 12 November, four days after the board had expressed confidence in him, following reports of two extramarital affairs. The chief financial officer, Colette Kress, was named interim CEO. Suppliers credit Huang's frequent visits, personal ties and ability to commit the firm to large investments and technology targets, and they fear a successor may be less aggressive in securing capacity or less accessible. Analysts disagree on the effects: one expects slower ecosystem investment and a loss of product clarity that could help rivals, while an investor argues that chips due in the next year or two are already designed and in production and that customers' spending does not depend on who runs the firm. The article is short news reporting and gives no data on how the supply chain will change.",
+   "keyPoints": [
+    "Huang resigned suddenly on 12 November after reports of personal conduct, having been backed by the board on 8 November; the lede calls it an ouster, but the body describes a resignation.",
+    "Colette Kress, the CFO, became interim CEO on the day of the resignation.",
+    "Suppliers including TSMC, Foxconn and Wistron were built into Nvidia's network through Huang's frequent visits, and he reportedly planned about $150 billion of investment in Taiwan in a year.",
+    "A Taiwan supplier executive fears expansion could slow if a successor is slower to commit manufacturing capacity; the executive asked to remain anonymous.",
+    "A South Korean chip company official values Huang's accessibility and asks whether a successor would keep the same favourable relationship."
+   ],
+   "modules": [
+    {
+     "id": "leadership",
+     "relevance": 85,
+     "reading": "This is a case of a leader whose vision and risk-taking shaped commitments across a wide partner network, and the article shows what happens when that leader leaves suddenly. Leadership theory asks which of Huang's qualities, such as an inspiring technical vision, personal attention to partners and willingness to commit resources, can be passed on and which are tied to the individual. The reason given for the exit is personal conduct rather than performance, which raises questions for the module's work on ethics and responsibility, though the article does not develop them. Students should care because the case tests whether leadership effectiveness is a property of a person, of relationships or of the wider system."
+    },
+    {
+     "id": "pwo",
+     "relevance": 65,
+     "reading": "In PWO terms, this is a leadership succession that changes where influence sits in an organisation and its network. Much of Huang's authority appears to have rested on personal credibility, visibility and relationships rather than on his formal post, so the question for partners is whether that influence transfers with the role. The departure is a sudden trigger for change that will move Nvidia and its partners through an interim period under a caretaker CEO. Students should care because it shows how power, culture and change interact when one individual has become the public face of an organisation."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 45,
+     "reading": "From the buyer-supplier perspective, Nvidia holds a powerful position over suppliers that commit capacity on the strength of expected orders. One supplier fears that expansion will slow if a successor does not commit capacity quickly, which shows that supplier investment rests on the buyer's confidence and intentions. Students should care because the article shows the risk of relying on a relationship held by one person rather than on contracts or institutional ties."
+    },
+    {
+     "id": "scm",
+     "relevance": 35,
+     "reading": "The article describes a concentrated supply network spanning Taiwan foundries, Korean memory suppliers and customers in China, where order visibility and capacity investment depend on decisions at the focal firm. Analysts disagree on whether a change of direction would slow execution or leave rivals room to catch up, which is a question about the resilience of a network built around one buyer. Students should care because it shows that the focal firm's decisions on capacity and order commitments are a supply chain risk in their own right."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "French and Raven's bases of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "French and Raven identified five bases of power: legitimate (from position), reward, coercive, expert (from knowledge or skill) and referent (from identification and personal liking). Power can rest on the person as well as the role, and the bases differ in how easily they transfer to a successor. Students should be able to say which base is at stake in a leadership change and why that affects continuity.",
+     "link": "Huang's influence, as described in the article, rests largely on expert and referent bases: suppliers credit his technical judgement in turning engineers' ideas into committed products, and Korean partners value his accessibility and the roadmap he sketched personally for Naver's founder. The Korean official's question about whether a successor would keep the same favourable relationship suggests that referent power does not pass automatically with the job. The formal legitimate power of the CEO post now belongs to the interim CEO, who is the CFO, so the partners' relationships are being tested against a different basis of influence. The Taiwan executive's remark that a successor may not be as aggressive points to the expert and referent bases being in doubt.",
+     "critique": "French and Raven describe the bases of power but say little about how they transfer or how a power holder should replace them, and the article's supplier comments may overstate personal power because Nvidia's chips are in production and its scale gives it leverage regardless of who leads it.",
+     "practice": "A board appointing or confirming an interim leader should identify which relationships depend on personal referent or expert power and move them onto institutional channels, such as named account teams, joint steering committees and written capacity commitments. It should also let the new leader meet key partners early, so that trust is seen to rest on the organisation as well as the individual."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Bridges's transition model",
+     "unit": "Unit 8 Organisational change",
+     "theory": "William Bridges separated the external change event from the internal psychological transition that people go through. The transition has three phases: an ending, in which people let go of the old situation; a neutral zone, a confused in-between period in which new arrangements are tried; and a new beginning, when people commit to new ways of working. Managers need to plan for each phase, not only for the change itself.",
+     "link": "The sudden resignation is an ending for suppliers and partners who built their working relationships around Huang, and the article shows them moving quickly from confidence to reassessment, with the board's backing on 8 November reversed four days later. The period under interim CEO Colette Kress is a neutral zone: suppliers are assessing what the change means, Korean firms are reviewing their ties, and Chinese AI firms are securing access in case regulation tightens. The article contains no sign yet of a new beginning, though the investor's comment that roadmaps and customer spending are fixed suggests that some stakeholders already expect continuity.",
+     "critique": "Bridges's model is largely an individual and group account of psychological transition and does not explain the external pressures, such as possible US curbs on remote access, that drive many of the behaviours reported in the article. It also assumes that a transition is needed, whereas the investor view suggests that for some stakeholders the change may have little practical effect.",
+     "practice": "Nvidia and its partners should name what is ending, such as direct access to Huang, and state clearly what continues, such as roadmaps and committed capacity. They should then set a timetable for the neutral zone, for example joint roadmap reviews with the new leadership, so that partners can move to commitment rather than hedge."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Transformational leadership (Burns; Bass)",
+     "unit": "",
+     "theory": "Burns contrasted transactional leadership, which exchanges rewards for performance, with transformational leadership, which raises followers' awareness of shared goals and motivates them to go beyond self-interest. Bass developed four components: idealised influence, inspirational motivation, intellectual stimulation and individualised consideration. Bass and Steidlmeier later distinguished authentic transformational leaders from pseudo-transformational ones who use vision to serve their own interests.",
+     "link": "The article describes Huang taking engineers' possibilities and turning them into products the whole company commits resources to, which maps onto intellectual stimulation and inspirational motivation in Bass's terms. The Korean partner's praise for his accessibility matches individualised consideration, and the analyst's remark that his competitors are forced to follow suggests that his vision spreads through the industry. The article's account of his personal conduct is outside the leadership dimensions, but it raises the question of whether the vision and the individual can be separated.",
+     "critique": "Transformational leadership is often criticised for its heroic and charismatic emphasis, which can encourage dependence on one person; the theory does not explain how a vision becomes embedded in an organisation after its founder or champion leaves, and the article shows an industry relying heavily on one individual.",
+     "practice": "A board should separate the vision from the person by documenting strategic priorities and decision rights, building a senior team that shares the vision, and using the interim period to check whether partner relationships have been institutionalised. Board members should also judge whether the successor can give the same individual attention to key partners."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Power in buyer-supplier relationships (Cox)",
+     "unit": "",
+     "theory": "Cox argues that the balance of power in buyer-supplier relationships depends on relative dependence: the party that relies more on the relationship, and has fewer alternatives, has less power. Purchasing strategy should therefore map who depends on whom, and whether that dependence is symmetric, before choosing a sourcing and relationship approach.",
+     "link": "Nvidia buys from concentrated suppliers such as TSMC, Foxconn, Wistron and SK Hynix, and suppliers commit capacity on the strength of expected orders, which is the dependence Cox describes. The Taiwan executive's fear that expansion will slow if the successor is less quick to commit capacity shows how supplier investment is tied to the buyer's intentions. The Korean partners' question about whether ties will survive a leadership change suggests that Nvidia also depends on suppliers, particularly for high-bandwidth memory produced in South Korea.",
+     "critique": "Cox's analysis is largely static and treats power as a balance of resources; it does not capture trust built through personal relationships, and the article suggests that the relationships may matter as much as the formal dependence. It also gives limited weight to the possibility that suppliers can find alternative customers in the AI chip market.",
+     "practice": "Nvidia's purchasing team should map dependence on each key supplier and reduce single-person dependence through long-term capacity agreements, joint investment plans and clear escalation routes. Supplier terms should rest on contracts and documented commitments rather than on the personal assurances of the chief executive."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A US designer of specialised AI processors has announced the sudden resignation of its chief executive after reports of personal conduct, four days after the board had expressed confidence in him. Its suppliers in Taiwan and South Korea have committed to expansion on the strength of his strategy and personal relationships, and the company has named its chief financial officer as interim chief executive. Some suppliers fear a successor will be less aggressive in securing manufacturing capacity, while analysts disagree on whether product plans and customer spending will change in the short term.",
+    "question": "Advise the board on how the company should manage the leadership transition so that its suppliers, partners and internal organisation maintain their commitment. Draw on theories of power, organisational change and leadership.",
+    "evidence": [
+     "The chief executive resigned suddenly on 12 November, after the board had backed him on 8 November.",
+     "A Taiwan supplier executive said expansion could slow if a successor was less quick to commit manufacturing capacity, and asked to remain anonymous.",
+     "A South Korean chip company official said the key question was whether a successor would keep the same favourable relationship with the company.",
+     "One analyst warned that any slowdown in execution or loss of product roadmap clarity could give rivals room to catch up, while an investor said the chips due in the next year or two are already designed and in production."
+    ],
+    "plan": [
+     "Diagnose the change as a sudden leadership succession and frame the transition using Bridges's three phases of ending, neutral zone and new beginning.",
+     "Analyse the source of the chief executive's influence using French and Raven, separating legitimate power from referent and expert power and identifying which relationships would not transfer automatically.",
+     "Assess stakeholder dependence using Cox's power analysis, distinguishing suppliers that depend on the company's orders from the company's own dependence on key memory suppliers.",
+     "Evaluate the vision and leadership style using Bass's transformational leadership, and identify which elements of the vision need to be institutionalised in strategy, teams and contracts rather than held by one person.",
+     "Weigh the short-term and long-term risks, noting that near-term products may be fixed while roadmap clarity and partner confidence are more exposed.",
+     "Recommend a transition plan with named continuity contacts, documented capacity commitments, early meetings between the new leadership and key partners, and a clear timetable for the neutral zone."
+    ],
+    "pitfalls": [
+     "Describing the event as a settled dismissal when the article reports a resignation, or treating the affairs as the main business issue rather than the consequences for relationships and capacity.",
+     "Assuming that the chief executive was irreplaceable without testing this against the article's evidence that near-term chip production and customer plans are already fixed."
+    ]
+   },
+   "alsoConsider": [
+    "Weber's charismatic authority and the routinisation of charisma",
+    "Leader-member exchange theory (Graen and Uhl-Bien)",
+    "Kotter's eight-step model of change",
+    "Resource dependence theory (Pfeffer and Salancik)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that the sudden departure of a charismatic chief executive poses a lasting threat to an organisation's relationships with its suppliers and partners, and explain how leaders can reduce that risk.",
+    "outline": [
+     "Explain how the chief executive's influence rested on personal referent and expert power rather than on the legitimate authority of the post, using French and Raven.",
+     "Apply Bridges's transition model to the interim period, identifying the ending, the neutral zone and the conditions for a new beginning, and assess whether the dependence is real or overstated.",
+     "Conclude with recommendations that institutionalise relationships through contracts, shared teams and clear communication, drawing on transformational leadership and Cox's power analysis."
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "425ddf842c40",
+   "title": "What Your Balance Sheet Says About Supply Chain Execution",
+   "url": "https://www.supplychainbrain.com/technology/forecasting-demand-planning/blog/15883280/what-your-balance-sheet-says-about-supply-chain-execution",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-12T08:00:00Z",
+   "addedAt": "2026-11-14T22:30:57Z",
+   "basis": "full_text",
+   "takeaway": "The cash conversion cycle works as a cross-functional scorecard: trapped working capital is a symptom of broken handoffs between sales, planning, procurement, operations and finance, and it stays fixed only when the management system itself changes.",
+   "summary": "Zeffiro argues that inventory, receivables and payables reveal how well an operating model works. He cites J.P. Morgan's Working Capital Index, reported in Forbes in June 2026, which puts roughly $707 billion of cash in S&P 1,500 companies tied up in working capital, up 40% on pre-pandemic levels, with cash conversion cycles lengthening by an average of 2.4 days. He locates the cause at the seams between functions: optimistic sales forecasts, defensive buying and production scheduled around both build stock, unvetted commercial terms and unowned disputes stretch receivables, and payables are stretched to compensate for both. Treasury-led programmes harvest these symptoms through one-off actions that fade once the task force disbands, whereas lasting gains come from one integrated forecast, joint accountability and cash variances reviewed in the weekly management cadence. He describes an industrial biotechnology company whose total inventory fell 54% after it rebuilt its forecasting-to-fulfilment model, and advises CEOs to judge the trend over eight to twelve quarters and to treat deterioration as a management system finding.",
+   "keyPoints": [
+    "Inventory, receivables and payables reveal whether the operating model integrates or fragments, and they are visible on the balance sheet before the organisation names the problem.",
+    "Inventory builds when forecasting, procurement and production work from different assumptions, so buffer stock becomes a measure of how far functions distrust each other's numbers.",
+    "Receivables stretch when commercial terms are agreed without operational vetting and when no single owner spans sales, service and finance.",
+    "Stretching payables compensates for cash trapped elsewhere but can degrade supplier performance, which then feeds back into inventory.",
+    "One-off working capital programmes change the numbers without changing the decision rights, forecasting cadence and accountability that produce them, so gains erode within about a year."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 85,
+     "reading": "The article is about how structure, processes and management routines shape behaviour across functions. Each function pursues its own metrics rationally, so the organisation's result depends on how work crosses the boundaries between sales, planning, procurement, operations and finance. For a PWO student the lesson is that poor outcomes can come from design and routines rather than individual failings, and that change which alters only the numbers, not the systems behind them, tends not to last. It bears on organisation design, intergroup conflict and sustaining organisational change."
+    },
+    {
+     "id": "finance",
+     "relevance": 80,
+     "reading": "Working capital is the core subject here: inventory, receivables and payables together form the cash conversion cycle, which measures the days between paying for inputs and collecting cash from customers. The article treats the cycle as a diagnostic of operations rather than a treasury lever, and argues that stretching payables is a patch that harms supplier performance. A finance student should see why the components must be decomposed and read alongside operating drivers before any judgement on liquidity is made."
+    },
+    {
+     "id": "scm",
+     "relevance": 55,
+     "reading": "The article treats forecasting, procurement and production as one linked system and measures its performance in cash terms. The inventory build that comes from distorted forecasts is a supply chain integration problem, not just a working capital one. Students of SCM should see that the gains come from shared planning and better demand information rather than from pushing stock or payment burdens onto other parties."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Galbraith's Star Model",
+     "unit": "Unit 6 Designing effective organisations",
+     "theory": "Galbraith's Star Model holds that organisational performance depends on five design choices: strategy, structure, processes, rewards and people. These elements must be aligned, and a change to one usually requires matching changes to the others. Structure allocates decision rights, while processes and reward systems determine how work flows and which behaviour is recognised.",
+     "link": "The article's problem is an alignment failure: sales forecasts optimistically, supply chain buys defensively and production schedules around both, so the processes and measures in different functions point in different directions. The author's remedy of one integrated forecast that sales, operations and finance are jointly accountable to changes the processes and decision rights rather than the treasury targets. Terms set without operational input show decision rights sitting with people who do not bear the consequences of those terms. The biotechnology case, where demand planning, production and distribution were connected through integrated systems, shared targets and clear accountability, shows the star's demand that several points change together.",
+     "critique": "The model is a design framework rather than a theory of how change happens, so it says little about why functions resist alignment when it threatens their own measures and influence. It also gives limited attention to the informal networks that often decide whether a cross-functional process works in practice.",
+     "practice": "A CEO applying the model would map each element against the cash cycle, asking who sets commercial terms, who owns the integrated forecast and which bonuses reward stock levels. The CEO would then realign the conflicting points, for example by requiring joint sign-off on terms and linking part of sales and operations incentives to cash conversion, before relying on new systems."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Kotter's eight-step model of change",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Kotter's eight-step model sets out a sequence for leading transformation: create urgency, build a guiding coalition, develop a vision, communicate it, empower broad-based action, generate short-term wins, consolidate gains and anchor new approaches in culture. Kotter warns that declaring victory early allows old habits to return. The final steps are about making change permanent by embedding it in culture and routine systems.",
+     "link": "The article describes the typical arc of a treasury-led programme: a diagnostic, targets, a task force pushing for two or three quarters, then gains quietly eroding within a year. This matches Kotter's warning about the danger of short-term wins that are not consolidated. The author's claim that the programme changed the numbers without changing the machinery corresponds to the missing anchoring step, because new behaviour never became part of routine management. The biotechnology company's sustained gains came when its disciplines were embedded in everyday management, which is the consolidation and anchoring Kotter describes.",
+     "critique": "Kotter's model is largely linear and prescriptive, drawn from case observation rather than systematic evidence, and it can understate political resistance and the way small routine changes can become permanent without a formal culture programme. Its emphasis on leaders may also miss the bottom-up management practices the article credits.",
+     "practice": "A manager would make the working capital metrics part of the weekly operating review, with named owners across sales, operations and finance and with cash variances treated like output variances. Before the programme formally ends, the manager would write the new decision rights and forecast ownership into the standing management system, so the gains do not depend on a task force."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Working capital management and the cash conversion cycle",
+     "unit": "",
+     "theory": "The cash conversion cycle measures the number of days between paying suppliers for inputs and collecting cash from customers, calculated as days inventory outstanding plus days sales outstanding minus days payables outstanding. A lengthening cycle means more cash is tied up in operations, which reduces liquidity and increases the need for external funding. Managing it involves reducing inventory and receivable days and, with care, extending payables, since stretching suppliers can damage supply performance.",
+     "link": "The article's reported 2.4 day lengthening of the cycle and its $707 billion of trapped liquidity are direct measures of this metric across large US companies. The author's three-part breakdown corresponds to the components of the cycle: rising inventory maps onto days inventory outstanding, stretching receivables onto days sales outstanding, and payables used as a lever onto days payables outstanding. The argument that payables stretching degrades supplier performance and feeds back into inventory shows the components interacting, so they cannot be managed as independent levers. The author also advises reading the trend over eight to twelve quarters rather than the level against peers, which is the interpretive approach a finance student should adopt.",
+     "critique": "The cash conversion cycle is a blended average that can conceal offsetting movements, such as a falling payables figure masking an improvement in receivables, and it can be flattered by pressing suppliers. The article's causal claims about functional behaviour are the author's inferences from experience rather than measured relationships.",
+     "practice": "A finance manager would calculate inventory, receivable and payable days separately by product line, site and customer group, and compare each with its own trend. Before recommending changes to payment terms, the manager would test the effect on supplier performance and check whether any payables gain is a genuine improvement rather than a transfer of cost upstream."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "The bullwhip effect (Lee, Padmanabhan and Whang)",
+     "unit": "",
+     "theory": "The bullwhip effect describes how modest fluctuations in customer demand grow as orders move upstream through a supply chain, producing large swings in inventory. Lee, Padmanabhan and Whang identified causes including demand forecast updating, order batching, price fluctuations and shortage gaming, and argued that sharing demand information and coordinating decisions reduces the distortion. Information sharing is therefore a central remedy.",
+     "link": "The article describes sales forecasting optimistically, procurement buying defensively and production scheduling around both, which is a chain of distorted signals that inflates stock. The author's insistence on one integrated forecast that sales, operations and finance share applies the information-sharing remedy directly. The 54% inventory fall at the biotechnology company after demand planning, production and distribution were connected is consistent with that remedy, although the article gives no decomposition of which causes were removed.",
+     "critique": "Bullwhip research is largely based on modelled multi-stage chains, whereas the article's distortions are internal and driven by incentives and distrust, which information sharing alone may not resolve. The source of the distortion may be behavioural, so cross-functional governance and incentives may matter more than the systems themselves.",
+     "practice": "A supply chain manager would trace order variance against sales demand for the product lines where inventory is building, and identify the stage at which variance grows. The manager would then agree a shared demand plan with sales and finance, with performance judged on forecast accuracy as well as on stock levels."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A listed industrial group has run two treasury-led working capital programmes in three years, and each time inventory and receivables improved for two or three quarters before drifting back. Stock is building in several product lines, and the sales and supply chain teams disagree about forecasts and about the terms agreed for large customers. The board has asked for a plan that will hold the cash gains after the next programme ends, and the CFO believes the problem lies in treasury discipline.",
+    "question": "Critically evaluate why the working capital gains from the group's previous programmes have eroded, and advise the board on how to make the improvement last.",
+    "evidence": [
+     "S&P 1,500 companies were holding about $707 billion of trapped liquidity, up 40% on pre-pandemic levels, with cash conversion cycles lengthened by an average of 2.4 days",
+     "An industrial biotechnology company rebuilt its forecasting-to-fulfilment model, connecting demand planning, production and distribution, and total inventory fell 54%",
+     "The gains at that company were sustained once the disciplines were embedded in routine management rather than left to a programme",
+     "The article's account of the usual arc: a diagnostic, targets, a task force for two or three quarters, then erosion within about a year as attention moves on"
+    ],
+    "plan": [
+     "Define the cash conversion cycle and decompose it into inventory days, receivable days and payable days to show where the cash is trapped (finance)",
+     "Diagnose the seams using Galbraith's Star Model, showing how strategy, structure, processes, rewards and people are misaligned across sales, planning, procurement and finance (PWO Unit 6)",
+     "Explain the erosion with Kotter's model, showing that short-term wins were not consolidated or anchored in routine management (PWO Unit 8)",
+     "Use the bullwhip effect to show how distorted forecast signals between sales and procurement create the inventory buffer and how information sharing addresses it (SCM)",
+     "Recommend a single integrated forecast with joint accountability, operational vetting of terms, cash variances reviewed in the weekly cadence and rewards aligned across functions, and assess the risks of stock-outs and supplier strain"
+    ],
+    "pitfalls": [
+     "Treating the 54% result at the biotechnology company as proof the approach works everywhere, when it is one reported case with no detail on method or counterfactual",
+     "Recommending tighter payment terms as a quick fix without noting that the article shows this degrades supplier performance and feeds back into inventory"
+    ]
+   },
+   "alsoConsider": [
+    "Lewin's three-step model and force field analysis",
+    "Pondy's model of organisational conflict",
+    "Goal-setting theory (Locke and Latham)",
+    "Mintzberg's organisational configurations"
+   ],
+   "exam": {
+    "question": "Critically evaluate the claim that organisational change programmes fail to sustain performance because they alter outcomes without altering the structures, processes and routines that produce them. Illustrate your answer with reference to organisational design and change management theory.",
+    "outline": [
+     "Define the claim and explain, using Galbraith's Star Model, how misaligned structures, processes and rewards can generate persistent poor outcomes",
+     "Apply Kotter's model to explain why short-term gains erode without consolidation and anchoring, using a real example",
+     "Critically evaluate the approach by considering the limits of rational design models, the role of functional politics and resistance, and whether embedding routines is always feasible"
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "9d02f115f938",
+   "title": "Using Weather Forecasts to Sharpen Regional Demand Planning",
+   "url": "https://www.supplychainbrain.com/blogs/think-tank/blog/16425018/using-weather-forecasts-to-sharpen-regional-demand-planning",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-12T08:00:00Z",
+   "addedAt": "2026-11-14T22:30:57Z",
+   "basis": "full_text",
+   "takeaway": "A national demand plan built on history and national totals hides regional weather effects, so weather should be treated as a measurable demand input with a defined forecast horizon, matched to the decision it informs.",
+   "summary": "The article argues that one national plan cannot serve regions whose weather diverged sharply in the same year. Pest control rose 11.0% in the Northeast and fell 4.1% in the West, while mold and mildew prevention rose 47% in the Midwest and 31% in the Northeast after flooding. Because national averages offset regional gains and losses, performance looks unremarkable while inventory is in the wrong places, producing expedited freight, transfers and markdowns. The author identifies three weak planning inputs: last year's sales, national totals, and seasonal assumptions based on a calendar that is changing. He recommends matching weather horizons to decisions (long-range for facilities, 30 to 90 day outlooks for allocation and safety stock, two to six week forecasts for deployment), building regional forecasts, applying seasonal adjustments only to proven weather-sensitive categories, setting trigger thresholds, and evaluating post-season variance against weather.",
+   "keyPoints": [
+    "A single national plan produced very different outcomes across four regions in the same year, leaving some retailers overstocked and others short.",
+    "Regional category results diverged: pest control rose 11.0% in the Northeast and fell 4.1% in the West; mold and mildew prevention rose 47% in the Midwest.",
+    "National averages hide regional misses because gains in one region offset losses in another, so an aggregate-accurate plan can still be wrong where stock sits.",
+    "Three planning inputs are weak: historical sales embed last year's weather, national totals mask regional differences, and seasonal calendars are becoming less reliable.",
+    "Forecast horizon should match the decision: long-range patterns for facility location, 30 to 90 day outlooks for regional allocation and safety stock, and two to six week forecasts for deployment."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "The article is about demand and inventory management under uncertain, region-specific demand. Its central point is that an aggregated forecast disaggregated by historical share reproduces last year's conditions, so stock is deployed to the wrong markets. For SCM students it is a clear case of how forecasting horizon, pre-positioning, safety stock and responsiveness interact, and it gives a practical route to building resilience against environmental volatility."
+    },
+    {
+     "id": "logops",
+     "relevance": 65,
+     "reading": "In logistics terms, the costs described (expedited freight, inter-depot transfers and markdowns) are the symptoms of mismatched inventory across the distribution network. The article questions tiering distribution centres by volume alone, since a high-volume and a low-volume site can need different seasonal stock depending on weather-driven variability. Students of freight and warehouse management should see how network design, safety stock and pre-positioning respond to this kind of demand variability."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "The article's contrast between one national plan and regional forecasts is a question of organisation design: how much decision authority is centralised, and how units are integrated. The changing climate is an external trigger that the existing planning process was not built to absorb, which links to change management. Students of People, Work and Organisations can use contingency theory to explain why a structure that suits a stable environment fails when conditions diverge by region."
+    },
+    {
+     "id": "strategy",
+     "relevance": 40,
+     "reading": "Weather is an environmental force that shapes demand differently in each market, which makes it a natural addition to an external environmental analysis. The article also shows that the same environmental trend matters on different time horizons, which affects how strategic and operational decisions should be timed. Strategy students can use it to show how an external factor is translated into a specific operational response."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Fisher's supply chain matrix (Fisher, 1997)",
+     "unit": "",
+     "theory": "Fisher classifies products by demand predictability and life cycle, arguing that functional products with stable demand need efficient supply chains that minimise cost, while innovative products with unpredictable demand need responsive supply chains that can match supply to demand quickly. The choice of design should therefore follow the nature of demand uncertainty, not just the product type.",
+     "link": "The article shows that most household care categories are not weather-sensitive and can be planned on normal assumptions, while a handful of weather-sensitive categories move sharply by region. The pest control and mold prevention results illustrate demand that is unpredictable at regional level even though the product is functional. The author's advice to apply seasonal outlooks only where weather sensitivity is proven is a matrix-style segmentation of categories by predictability. The sharp contrast between metro and rural cold and flu sales also shows that predictability differs within one product category.",
+     "critique": "Fisher's binary treatment of products is a simplification, because weather-driven demand is better understood as a property of category, region and time together, which the matrix does not capture. Applying one label to a whole category could therefore mislead planners.",
+     "practice": "Classify each category and region combination by demand predictability using historical weather sensitivity. Apply a responsive approach with pre-positioning and fast deployment triggers to the sensitive combinations, and an efficient, low-buffer approach to the rest."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "ABC inventory analysis and safety stock",
+     "unit": "",
+     "theory": "ABC analysis ranks items or locations by value or volume so that management effort and control are focused on the most important ones. Safety stock is extra inventory held to absorb variability in demand and lead time, and it rises with demand variability and the risk of stockout, so it should be set for each location rather than as a flat share of volume.",
+     "link": "The article notes that most networks tier their distribution centres by volume, which can place Phoenix and Boston in one group and give them the same seasonal plan, even though their weather and demand variability differ. Because weather drives regional variability, the safety stock needed in each region depends on that variability, not on volume alone. The costs the article lists, including expedited freight, transfers and markdowns, are what happens when safety stock is positioned poorly. Pre-positioning based on 30 to 90 day outlooks is a direct way of adjusting safety stock before the season opens.",
+     "critique": "ABC classification by volume or value ignores demand variability, so a high-volume site with stable demand may be over-buffered while a lower-volume weather-exposed site is under-buffered. Safety stock formulas also assume demand is stable over the period, which a changing climate challenges.",
+     "practice": "Add a variability dimension to the ABC tiering, for example by classifying sites on both volume and weather-driven demand variance. Set regional safety stock levels for weather-sensitive categories from seasonal outlooks, and revisit them when the short-range forecast changes."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Mechanistic and organic structures (Burns and Stalker) and contingency theory (Lawrence and Lorsch)",
+     "unit": "Unit 6 Designing effective organisations",
+     "theory": "Burns and Stalker describe mechanistic structures, with clear hierarchy, specialisation, formal rules and central decision making, as suited to stable environments, and organic structures, with flexible roles, lateral communication and decentralised decisions, as suited to unstable ones. Lawrence and Lorsch argue that greater environmental uncertainty requires more differentiation between units and stronger mechanisms for integrating them.",
+     "link": "A single national plan built on last year's sales and allocated by historical share is a mechanistic approach, applied to an environment that diverged by region. The four regional outcomes are the uncertainty the structure failed to absorb. The author's recommendation to build regional forecasts is a call for differentiation, and the trigger thresholds and post-season variance reviews are integration mechanisms that link regional and central planners. The article does not describe the internal structure of any company, so the link is to the planning design it implies rather than to observed organisational behaviour.",
+     "critique": "Contingency theory explains which structure fits which environment but says little about how to achieve the fit or about the costs of change. Centralised planning also gives scale economies and consistent control, and decentralising it may create coordination problems that the article does not address.",
+     "practice": "Give regional planners authority over allocation within central guardrails on budget and service levels. Create formal integration mechanisms, such as shared weather and sales dashboards, agreed thresholds for changing deployment, and a joint post-season review, so that regional sensing and central control work together."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "PESTEL analysis",
+     "unit": "",
+     "theory": "PESTEL scans the political, economic, social, technological, environmental and legal factors that shape an organisation's external environment. It is used to identify which external forces will affect demand, costs and risk, and it is usually the first step before SWOT analysis and strategic choice.",
+     "link": "The article treats weather as an environmental factor that changes demand by region, with effects that appear in the South's warming winters and in the regional pattern of flooding and drought. The population shift to the South, cited in the article, is a social factor that interacts with the environmental one, so the two should be analysed together. The article's distinction between decades, months and weeks shows that the same environmental trend must be assessed over different horizons.",
+     "critique": "PESTEL is a checklist that treats each factor separately and presents a static picture, whereas the article's problem arises from interaction and timing. A PESTEL note on weather would need scenario analysis to show how the factor could play out in each region.",
+     "practice": "Add a regional weather dimension to the environmental part of the analysis and link it to population growth in the fastest-growing markets. Use scenarios for the main regions to test how far the current plan holds if conditions diverge again."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national home-care products retailer buys for the whole country using one plan, built from last year's sales and allocated to regions by historical share. In one season its Northeast stores ran short of pest control lines while its Western stores held surplus stock, and it paid for expedited freight and transfers to correct the imbalance. The board has asked for a review of how demand planning is organised and controlled.",
+    "question": "Advise the board on whether demand planning should be centralised or devolved to regional teams, using organisation design and contingency theory.",
+    "evidence": [
+     "Pest control sales rose 11.0% in the Northeast and fell 4.1% in the West in the same year.",
+     "Mold and mildew prevention rose 47% in the Midwest and 31% in the Northeast, the latter following flooding.",
+     "Cold and flu peak season sales fell 3.6% nationally, yet upper respiratory grew in the Mountain West, Texas, the Gulf Coast, the Carolinas and Florida.",
+     "Sales in the eight highest-density markets climbed 15.8% over three weeks, against 10.5% in rural markets, so metros indicated the wider trend."
+    ],
+    "plan": [
+     "Diagnose the environment: show that regional demand was highly uncertain and varied by location, using the regional figures as evidence, and apply Burns and Stalker to classify the current planning structure as mechanistic.",
+     "Explain the fit problem: the central plan and its historical-share allocation suit a stable environment and fail when regions diverge, as Lawrence and Lorsch's contingency argument predicts.",
+     "Assess the need for differentiation: argue that regional teams need authority over allocation and forecasting because the environment differs by region, and identify which categories are weather-sensitive enough to justify this.",
+     "Design integration: specify the mechanisms that keep the organisation coherent, including agreed trigger thresholds, shared dashboards, central guardrails on budget and service, and a joint post-season variance review.",
+     "Link to decision horizons: assign long-range, seasonal and short-range weather inputs to the decisions each can inform, so responsibility is matched to information.",
+     "Recommend a hybrid structure with clear decision rights, justified by the contingency analysis and weighed against the loss of scale economies from decentralising."
+    ],
+    "pitfalls": [
+     "Recommending full decentralisation without integration mechanisms or without weighing the costs of coordination and lost scale.",
+     "Describing the regional data without linking it to organisation design or to contingency theory, which is what the question asks for."
+    ]
+   },
+   "alsoConsider": [
+    "Galbraith's Star Model",
+    "Mintzberg's organisational configurations",
+    "Teece's dynamic capabilities",
+    "Lean, agile and leagile supply chains (Christopher; Naylor)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the claim that organisations facing highly variable regional environments should decentralise their decision making. Use contingency theory and illustrate your answer with evidence from regional demand planning.",
+    "outline": [
+     "Define contingency theory and the mechanistic and organic distinction, and explain how environmental uncertainty and differentiation relate.",
+     "Use regional demand evidence to show how a centralised plan can fail when conditions diverge by location, and assess whether decentralisation is the answer.",
+     "Evaluate the costs and benefits of decentralising, including integration mechanisms, scale economies and coordination, and conclude with a justified recommendation."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "2064d99be472",
+   "title": "Back-to-Back Million+ TEU Months at PoLA Set Record",
+   "url": "https://www.supplychainbrain.com/logistics/global-gateways/article/16425480/backtoback-million-teu-months-at-pola-set-record",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-13T05:00:00Z",
+   "addedAt": "2026-11-14T22:30:57Z",
+   "basis": "full_text",
+   "takeaway": "Record container volumes at Los Angeles show strong demand and handling capacity, but volume alone cannot prove a durable competitive advantage, because much of the surge is driven by demand and trade policy outside the port's control.",
+   "summary": "The Port of Los Angeles handled about 1.03 million TEUs in October, its second-highest monthly total and the second month running above one million, following a September all-time record. The port reports nearly 5 million TEUs from June to October, its strongest five-month stretch. The port's executive attributes the volume to consumer spending, retailers restocking inventories, changes in trade policy and disruption on other global shipping routes, and presents speed, reliability and reach as reasons customers choose the port.",
+   "keyPoints": [
+    "October's volume of about 1,026,872 TEUs is the port's second-highest monthly total ever, and the article says it follows September's all-time record.",
+    "It is the first time the port has exceeded one million TEUs in consecutive months, and the article says it reached that mark three times in the year.",
+    "From June to October the port handled nearly 5 million TEUs, described as its strongest five-month period.",
+    "The executive attributes the surge to consumer spending, inventory replenishment, trade policy changes and challenges on other global shipping routes.",
+    "The claim that no other US port has handled a million TEUs in one month is the port's own statement, and the article gives no independent evidence for it."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 85,
+     "reading": "The article is about throughput at a container port, the basic output measure of a freight terminal, expressed in TEUs. In logistics terms the port is a node in a freight network, where ships, cranes, yard space and onward inland transport must absorb the flow, and a million-TEU month is a stress test of that whole system. A student should care because the article reports volume and capacity used, but not the service or cost performance delivered to users."
+    },
+    {
+     "id": "scm",
+     "relevance": 60,
+     "reading": "Port volume is a downstream signal of what buyers are ordering, so supply chain theory treats it as the end result of a longer chain of replenishment decisions. The article links the surge to retailers restocking and to shifting trade policy and rerouted shipping, which are classic sources of order amplification and disruption. It also shows a network responding to problems elsewhere, which raises resilience questions."
+    },
+    {
+     "id": "strategy",
+     "relevance": 40,
+     "reading": "The port's executive presents speed, reliability and reach as the reasons customers choose Los Angeles, which is a claim about competitive advantage. In strategy terms the question is whether those features are valuable, rare and hard to copy, or whether they reflect location and carriers' routing choices that the port does not control. The article offers the claim without comparative data on rival ports, so it should be treated as the port's own view."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "logops",
+     "concept": "Total logistics cost and the cost-service trade-off",
+     "unit": "",
+     "theory": "Logistics managers balance the total cost of moving and holding goods against the service level customers receive, and the two often pull in opposite directions. Total logistics cost includes transport, handling, inventory and the cost of poor service, so lowering one element can raise another. Speed and reliability are service outputs that require spare capacity to deliver.",
+     "link": "The port says customers value speed, reliability and reach, which are service outcomes rather than cost outcomes. Record months of around a million TEUs suggest the terminal is working close to its limits, where additional throughput often increases congestion and waiting times unless capacity has been added. The article reports no dwell times, berth waiting or cost per box, so the claimed service advantage cannot be checked against what it costs to deliver.",
+     "critique": "The trade-off model assumes cost and service can be measured on a common basis, which is hard in a port where costs fall on carriers, shippers and hauliers in different ways. A systems view would ask whether the binding constraint lies at the port or in the inland links that carry its cargo.",
+     "practice": "A port operator applying this framework should track total cost to shippers, including inland transport and delay, alongside volume. It should check whether volume gains are being bought with longer waits, and report on-time performance and dwell time as service measures."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "The bullwhip effect (Lee, Padmanabhan and Whang)",
+     "unit": "",
+     "theory": "Small changes in consumer demand can produce larger swings in orders as they move upstream, because each tier orders on the basis of the orders it receives and adds safety stock, batching or forecast error. The effect arises from distorted information about demand rather than from real demand change alone. Its amplitude grows the further upstream an order travels.",
+     "link": "The article says retailers were replenishing inventories while trade policy was changing, which is the kind of situation in which firms order ahead of need or pull stock forward to avoid future tariffs or shortages. That behaviour would push port throughput above underlying consumer demand, which the article also mentions as a driver. Three consecutive million-TEU months fit a pattern of bunched orders, although the article gives no inventory or order data to confirm it.",
+     "critique": "The bullwhip effect is usually explained by internal causes such as forecasting, batching and rationing, whereas the article points to an external policy shift, which is a different mechanism. Some of the surge may reflect genuine end demand, and port data alone cannot separate the two.",
+     "practice": "A port planning capacity should avoid extrapolating peak months. It should work with shipping lines and large retailers to share forecasts and order timing, so that a policy-driven rush is not mistaken for a lasting trend."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Resilience is the ability of a supply network to resist disruption and return to stable operation, and it is built through redundancy, flexibility, visibility and collaboration. Christopher and Peck argue that risk should be assessed across the whole network and that networks must be designed for disruption as well as for efficiency.",
+     "link": "The article attributes part of the volume to challenges on other global shipping routes, which implies that cargo was diverted to Los Angeles when other routes were disrupted. The port therefore gained from a network-level disruption, and its throughput rose because of problems elsewhere. A resilience lens asks whether the port and its users now face concentration risk, since heavy reliance on one gateway exposes them if conditions there change.",
+     "critique": "The framework was written mainly from the standpoint of a single firm managing its own supply base, and applying it to a shared public gateway used by competing carriers is less straightforward. The article does not say how diverted cargo is distributed, so the resilience gain cannot be quantified.",
+     "practice": "A port authority or large shipper should map where its volume depends on a single route or gateway and then build contingency capacity or alternative routings. It should also monitor disruption on other routes as an early signal of diversion pressure."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "The resource-based view and VRIO (Barney)",
+     "unit": "",
+     "theory": "The resource-based view holds that sustained competitive advantage comes from resources that are valuable, rare, costly to imitate and organised to be exploited, which is summarised as VRIO. A resource that meets all four tests can sustain above-average returns, whereas one that is only valuable tends to yield parity.",
+     "link": "The executive presents speed, reliability and reach as the reasons customers choose the port, and credits its partners and daily waterfront work. Under VRIO the test is whether these features are rare and inimitable. A port's physical position and its links to inland transport are hard to copy, which supports the claim, but the record volumes depend on demand and policy, which are not resources the port owns or controls.",
+     "critique": "VRIO was developed for firm-level resources, and ports are shared infrastructure whose advantages neighbouring ports can partly replicate. The article gives the port's own view and no evidence from rivals.",
+     "practice": "The port should separate the advantages it controls, such as capacity, productivity and inland connections, from those it does not. It should invest in the controllable ones and test its claims against rivals, for example by comparing dwell times, before presenting volume as proof of advantage."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A container port reports record monthly volumes for several months in succession, following a period of retail restocking and shifting trade policy. Its chief executive credits customers' choice of the port for speed, reliability and reach, while neighbouring ports compete for the same shipping lines. The port authority must decide whether to commit funds to additional handling capacity.",
+    "question": "Critically evaluate whether the port's record volumes demonstrate a sustainable competitive advantage, and advise the port authority on how it should use these volumes in capacity and investment planning.",
+    "evidence": [
+     "October's volume of about 1,026,872 TEUs was the second-highest monthly total at the port, following September's all-time record.",
+     "The port exceeded one million TEUs in consecutive months for the first time, and the article says it did so three times in the year.",
+     "From June to October the port handled nearly 5 million TEUs, its strongest five-month stretch.",
+     "The executive attributes the surge to consumer spending, inventory replenishment, trade policy changes and challenges on other global shipping routes."
+    ],
+    "plan": [
+     "Define the claim and separate volume from advantage, using the resource-based view and VRIO to test whether speed, reliability and reach are valuable, rare and inimitable.",
+     "Decompose the drivers of volume into demand, replenishment, policy and diverted cargo, and note which of these the port can influence.",
+     "Apply the bullwhip effect to judge whether the peak reflects order amplification rather than sustained demand.",
+     "Apply the cost-service trade-off to test whether speed and reliability hold at high volumes, using dwell time and total logistics cost as evidence.",
+     "Assess resilience and concentration risk from reliance on one gateway and diverted cargo.",
+     "Recommend investment in controllable capacity and service measures, planning around normal volumes rather than peak months, diversifying routings, and benchmarking against rival ports before treating the volumes as proof of advantage."
+    ],
+    "pitfalls": [
+     "Treating record throughput as proof of competitive advantage without evidence on service, cost or rival ports.",
+     "Misreading the records: October is the second-highest month, September holds the all-time high, and the claim that no other US port has done this is the port's own statement."
+    ]
+   },
+   "alsoConsider": [
+    "Porter's five forces (rivalry among ports and shipping lines)",
+    "Dynamic capabilities (Teece)",
+    "The theory of constraints (Goldratt)",
+    "Hub-and-spoke network design"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that a container port's record throughput is a reliable indicator of its competitive strength in global supply chains.",
+    "outline": [
+     "Distinguish volume driven by demand and trade policy from advantage the port controls, using the resource-based view.",
+     "Assess whether throughput gains hold up on service and cost measures such as dwell time and total logistics cost, and consider bullwhip-driven peaks and concentration risk.",
+     "Conclude with the evidence needed to judge whether the advantage is sustainable, including comparisons with rival ports."
+    ]
+   },
+   "readingMinutes": 1
+  },
+  {
+   "id": "a697bf374c96",
+   "title": "The debate on GHG Protocol’s electricity accounting revisions is far from over",
+   "url": "https://trellis.net/article/the-debate-on-ghg-protocols-electricity-accounting-revisions-is-far-from-over/",
+   "source": "Trellis",
+   "publishedAt": "2026-11-12T14:06:30Z",
+   "addedAt": "2026-11-14T22:30:57Z",
+   "basis": "full_text",
+   "takeaway": "The GHG Protocol's proposed Scope 2 rules, hourly matching and same-region deliverability, look likely to survive, but the timing, the treatment of legacy power purchase agreements and the grid rules are unresolved, so companies with renewable contracts need to plan for several outcomes.",
+   "summary": "A late-October workshop of the GHG Protocol's technical working group, held to revise its Scope 2 electricity accounting standard, failed to settle key questions about how to transition to the new rules and how long existing renewable contracts will be recognised. The group worked through more than 1,100 consultation comments. Two proposals, hourly matching of consumption and same-region deliverability, look set to be included in the final revisions, though hourly matching may be recommended rather than required and phased in from the largest users. Legacy power purchase agreements are the main concern: the draft applies one effective date to all contracts, which the Corporate Energy Buyers Association warns could remove credit from a 15-year PPA while it is still running. Recommendations go to the independent standards board for a December meeting, final text is expected in 2027, and the Science Based Targets initiative is consulting on interim changes to its own standard.",
+   "keyPoints": [
+    "Hourly matching would replace the annual calculation used for purchased electricity since 2015.",
+    "Deliverability rules would require contracts or certificates to come from the same regions where electricity is consumed.",
+    "Hourly matching may be recommended rather than mandatory and phased in over several years, starting with large consumers, with timelines discussed from 2031 to 2039.",
+    "Standardised grid boundaries would be set by the GHG Protocol or an independent authority so companies do not interpret them alone.",
+    "Incrementality flexibility would likely allow contracts where the buyer is the original offtaker, or where generation falls within an age limit of around 15 years."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 85,
+     "reading": "This is a green and sustainable logistics story at its core. Scope 2 captures the emissions from purchased electricity, which warehouses, distribution centres and charging depots use heavily. The module asks how emissions are measured, reported and reduced, and this article shows that the measurement rule itself determines what a company can claim. A student should care because the choice between annual and hourly accounting, and between local and wider matching, changes reported carbon figures and therefore the credibility of any decarbonisation claim."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "From a People, Work and Organisations viewpoint this is an account of externally triggered change being negotiated under pressure, where the outcome depends on who holds power and how the transition is phased. The standards board's final authority, the consultation process and CEBA's lobbying over legacy contracts show stakeholder conflict and resistance. Students should see it as a case in which the design of the transition is as contested as the goal itself."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 35,
+     "reading": "Purchasing students will recognise power purchase agreements as long-term procurement contracts for electricity. The dispute is essentially about whether existing supply contracts keep their value under new rules. The article also touches on sustainable sourcing claims, since a buyer's green credentials depend on how its contracts are accounted for. The module would examine how contract terms, legacy agreements and buyer-supplier power affect the value of such contracts."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "Carbon footprinting and Scope 1, 2 and 3 emissions",
+     "unit": "",
+     "theory": "Carbon footprinting measures the greenhouse gases an organisation emits, grouped into Scope 1 (direct emissions from owned sources), Scope 2 (indirect emissions from purchased electricity, heat or steam) and Scope 3 (all other value-chain emissions). Scope 2 figures depend on the accounting method used to attribute electricity to emissions, so reporting rules can change a reported footprint without any change in physical operations.",
+     "link": "The article describes the GHG Protocol's Scope 2 standard, which governs how companies calculate and disclose emissions from purchased electricity. The proposed move from annual to hourly matching would require each hour's consumption to be matched with generation, so night-time warehouse load on a fossil-heavy grid could no longer be offset by renewable output produced at other times. The deliverability rule adds a geographic test, requiring contracts or certificates from the same regions where electricity is used. Phasing by load, starting with companies with annual loads above 10 terawatt-hours, reflects the view that large users have the data and resources to comply first.",
+     "critique": "The footprint is a construct of reporting conventions rather than a direct measure of physical emissions, so Scope 2 figures can be restated by rule changes alone. The article's uncertainty over legacy contracts shows how this undermines year-on-year comparability and the reliability of targets built on the old method.",
+     "practice": "A logistics operator should calculate Scope 2 emissions for its main sites on both the existing annual basis and an hourly basis, to see the likely restatement before it happens. It should also identify which of its electricity contracts are legacy PPAs and which would meet the proposed deliverability and incrementality conditions, and disclose its method clearly."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Lewin's three-step model and force field analysis",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Lewin's model describes change in three stages: unfreezing the existing equilibrium, moving to a new state, and refreezing new behaviours so they become stable. Force field analysis identifies the driving forces pushing for change and the restraining forces resisting it, and compares their strength to judge whether change is feasible or what must be done to shift the balance.",
+     "link": "The driving forces are clear: the GHG Protocol's aim to tighten electricity accounting, the push for hourly matching and standardised grid boundaries, and the SBTi's need to align its target-setting with the revised standard. The restraining forces include CEBA's concern that contracts bought under the old rules could lose credit, the absence of settled dates, thresholds and readiness conditions, and the open question of how to treat legacy agreements. The proposed responses, a phased transition, recommended rather than required status and flexibility on incrementality, act as attempts to reduce restraining forces without abandoning the driving ones. Refreezing is planned only for 2027, so the new equilibrium remains provisional.",
+     "critique": "Lewin's model implies a sequence with a stable end state, but here the standard is an interim step with repeated consultation, so change looks more continuous than the three stages suggest. Force field analysis also tends to treat forces as fixed and measurable, whereas lobbying and data readiness shift during the process.",
+     "practice": "A manager at a company holding legacy contracts should list the forces for and against adopting the new rules, separating those within the company's control from those outside it. It should then target the restraining forces, for example by supporting interim contract pathways, and set a review point rather than treating the final rules as settled."
+    },
+    {
+     "moduleId": "green",
+     "concept": "Externalities and carbon pricing",
+     "unit": "",
+     "theory": "An externality is a cost or benefit of an activity that falls on third parties and is not reflected in market prices, such as the greenhouse gas emissions from electricity generation. Carbon pricing, through taxes or emissions trading, aims to internalise this cost so that polluters bear it. Accounting rules are a softer instrument: they decide how emissions are attributed and therefore which party is credited for low-carbon power.",
+     "link": "Emissions from electricity generation are an externality that the Scope 2 standard tries to make visible. The debate over whether a 15-year PPA keeps its credit, and whether a contract must come from the same region, is in effect a debate about who is credited with the emissions avoided by a renewable investment. The discussion of incrementality, which asks whether generation is new or the buyer is the original offtaker, reflects a concern that claimed benefits should be additional rather than relabelled from existing supply. Standardised grid boundaries stop each company drawing its own boundary around the externality.",
+     "critique": "Accounting attribution does not change physical emissions on the grid, so a stricter rule can improve credibility without reducing carbon in the atmosphere. Carbon pricing also internalises the cost directly, whereas disclosure relies on stakeholders acting on the information, which is a weaker incentive.",
+     "practice": "A logistics firm should treat the accounting debate as a signal about future carbon costs. It should model its freight and warehouse electricity exposure under a carbon price as well as under the new reporting rules, and prefer contracts that would still qualify under stricter conditions, such as those with local deliverability and new capacity."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on others for critical resources, and that those who control scarce or essential resources hold power over those who depend on them. Power is therefore relational, and dependence can be reduced by diversifying sources, building alternatives or forming coalitions. Organisations also try to manage the uncertainty created by their dependencies.",
+     "link": "The standard-setting process shows dependence running in several directions. The GHG Protocol and its independent standards board control the rulebook on which companies, the SBTi and ISO depend, and their final say gives the board considerable power. CEBA's members hold a different kind of leverage, having procured more than 50 GW of electricity, which makes their long-term contracts central to the market and gives them grounds to press for legacy treatment. The use of subgroups and the planned December recommendations show the board managing uncertainty by channelling input through defined routes, while CEBA's public statement shows buyers using an external voice to shape the outcome.",
+     "critique": "Resource dependence explains power through material resources but underplays legitimacy and technical expertise, which the board draws on through its process and which members can contest only through argument. It also treats dependence as static, whereas a revised standard can shift who holds the leverage.",
+     "practice": "Companies or industry bodies seeking a better outcome should identify what they control that the standard-setter needs, such as data, market volume or technical evidence, and offer it through formal consultation. They should build coalitions, as CEBA has done, rather than rely on individual firms, and avoid depending on a single contract route that a rule change could remove."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national logistics company operates distribution centres and a growing electric delivery fleet, and holds several long-term renewable power purchase agreements, including one older 15-year contract. It reports Scope 2 emissions on an annual basis and has set a science-based target that relies on this method. A proposed revision would require hourly matching and same-region contracts, and the older contract could lose credit under a single effective date. The board must decide how to respond before the final rules are issued.",
+    "question": "Advise the board on how to respond to the proposed revisions to its Scope 2 accounting, critically evaluating the change-management and stakeholder issues involved.",
+    "evidence": [
+     "Hourly matching may be recommended rather than required and phased in over several years, starting with the largest users, with timelines discussed from 2031 to 2039.",
+     "Legacy PPAs are unresolved; the current text applies one effective date to all contracts, and CEBA warns that a 15-year PPA could lose credit while it is still running.",
+     "CEBA members have procured more than 50 GW under the old rules, and the independent standards board has the final say on the revisions.",
+     "Recommendations are due to the board in early December, and final text is expected to circulate in the second quarter of 2027."
+    ],
+    "plan": [
+     "Define Scope 2 and explain the proposed shift from annual to hourly matching and from wider to same-region deliverability, using the carbon footprinting framework to show how the reported emissions could be restated.",
+     "Map the forces for and against adopting the new rules using Lewin's force field analysis, and identify the restraining forces the company controls, notably its exposure through legacy PPAs.",
+     "Analyse the power of the standards board and industry bodies using resource dependence theory, showing which resources the company holds that the board needs and where the company depends on the board's decisions.",
+     "Assess the incrementality and grid boundary options against the company's contract portfolio, and evaluate how phasing by load would affect its own timeline.",
+     "Recommend a staged response: model both accounting bases, support a coalition submission on legacy contracts, set a review at the 2027 text, and communicate the remaining uncertainty in the sustainability report."
+    ],
+    "pitfalls": [
+     "Treating the proposed rules as final; the article makes clear they are recommendations subject to phasing and further consultation.",
+     "Describing Lewin's model as a simple three-step sequence without identifying the specific forces, or ignoring that stakeholders can still shape the outcome."
+    ]
+   },
+   "alsoConsider": [
+    "Elkington's triple bottom line",
+    "Kotter's eight-step model of change",
+    "Lukes's three dimensions of power",
+    "Kotter and Schlesinger's strategies for overcoming resistance to change"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether Lewin's force field analysis is adequate for managing externally imposed change in which powerful stakeholders contest both the goal and the timetable. Illustrate your answer with an example of a regulatory or standard-setting change.",
+    "outline": [
+     "Define Lewin's three-step model and force field analysis, explaining driving and restraining forces with reference to the framework's purpose.",
+     "Apply the framework to a standard-setting change, identifying forces such as lobbying by contract holders, data readiness and the phasing timetable.",
+     "Critique the framework's linear and static assumptions, set out an alternative such as Kotter's model or a power-based analysis, and conclude on its usefulness."
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "e7f83af4f148",
+   "title": "Autonomous Trucks Could Be Cheaper Than Human Drivers in U.S. by 2028",
+   "url": "https://www.supplychainbrain.com/logistics/ltl-truckload-services/article/16425135/autonomous-trucks-could-be-cheaper-than-human-drivers-in-us-by-2028",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-12T08:00:00Z",
+   "addedAt": "2026-11-14T22:30:57Z",
+   "basis": "full_text",
+   "takeaway": "The autonomous-truck story is less about the technology than about who carries the cost and the change. Once driver pay falls away the economics flip, and the human side, from job security to a sense of fair process, becomes the main source of resistance.",
+   "summary": "The article reports Kearney and MIT Mobility Initiative research suggesting that autonomous trucking in the U.S. could match human-driven trucking on cost per mile by 2028. Autonomous costs are projected to fall from about 4 dollars a mile in 2026 while human-driven costs rise, including fuel, benefits and insurance. Europe and the Middle East are expected to reach the same point later, around 2030 and 2032, because driver costs are lower there. Goldman Sachs gives a similar 2028 estimate. Company trial figures from Bot Auto and Aurora suggest even lower costs on specific runs. The article also notes unresolved concerns: safety in bad weather and with unexpected hazards, cyber vulnerability (a U.S. Department of Transportation analysis found more than 90 threat scenarios in a remote-assistance model), and job losses for drivers. Teamsters California has sued the state over rules allowing heavy driverless trucks, arguing the risks to safety and jobs were not properly assessed.",
+   "keyPoints": [
+    "Kearney and the MIT Mobility Initiative project that autonomous trucking could reach cost parity with human-driven trucking in the U.S. in 2028, with costs including fuel, employee benefits, insurance and other factors.",
+    "The projected autonomous cost falls from about 4 dollars a mile in 2026 to 3.30 in 2027 and 2.60 in 2028, while the human-driven cost rises from 2.50 to around 2.70 over the same period.",
+    "Drivers account for roughly half of a U.S. truck's cost per mile, so the U.S. has more cost to remove than regions where drivers are cheaper; the crossover is expected around 2030 in Europe and 2032 in the Middle East.",
+    "Goldman Sachs independently predicts a similar 2028 crossover.",
+    "Bot Auto reports an all-in cost of under 2 dollars a mile for a humanless commercial load, and Aurora estimates 1.84 dollars a mile on a Fort Worth to Phoenix trial. These are company estimates from trials, not independent audited costs."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 78,
+     "reading": "In People, Work and Organisations this article is about how technology reshapes the world of work and the people whose jobs it changes. The driver role is being redesigned, potentially moving from operating a vehicle to supervising it remotely, and the cost forecast implies a large reduction in driver employment. The union lawsuit is a clear example of resistance to change from a stakeholder group that feels it was not properly consulted. A student should care because the forecast turns a technology question into one of job design, the psychological contract and change management."
+    },
+    {
+     "id": "logops",
+     "relevance": 70,
+     "reading": "In logistics operations the driver is typically the largest single element of the cost of road freight, so the article is about how cost per mile drives modal and operational choices. The figures given are operating costs per mile, and the article does not report service levels, utilisation, reliability or the cost of disruption. A logistics student should use the article to see why a per-mile comparison is only one input to a total cost and service decision, and why long-haul corridors such as Fort Worth to Phoenix matter for network design."
+    },
+    {
+     "id": "scm",
+     "relevance": 48,
+     "reading": "From a supply chain perspective, autonomous trucks change the economics of the road leg but also introduce new vulnerabilities. Remote assistance and connected vehicles create a cyber attack surface, and bad weather or unexpected hazards are operational disruption risks. The article shows that a cheaper transport leg does not automatically produce a more resilient chain, and that a shipper's risk exposure depends on its carriers' systems as well as its own. Students should connect this to resilience and risk management."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Kotter and Schlesinger's strategies for overcoming resistance to change",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Resistance to change arises from parochial self-interest, misunderstanding, low tolerance for change and differing assessments of the situation. Kotter and Schlesinger propose a range of responses, including education and communication, participation and involvement, facilitation and support, negotiation and agreement, manipulation and co-optation, and coercion, to be chosen according to the source and strength of resistance.",
+     "link": "The Teamsters California lawsuit shows resistance from a group whose members stand to lose work, and its argument that regulators did not adequately assess job losses points to a perceived lack of participation and information. The projected 2028 cost crossover provides a strong economic driver that makes the change likely to proceed, so the resistance is about how and on what terms it happens rather than whether. Kearney's observation that autonomy pays off first where drivers are expensive and scarce suggests the resistance will vary by region, with different legal and labour contexts in the U.S. and Europe. The article's concerns over safety and cybersecurity are also legitimate grounds for scepticism that managers should engage with rather than dismiss.",
+     "critique": "Kotter and Schlesinger's strategies were developed for change within a single organisation where managers have authority over the people affected. Here the principal resisting party is an external union acting through the courts, and the change is an industry-wide, regulation-led shift, which constrains negotiation and makes coercion both unlikely and unlawful.",
+     "practice": "A carrier planning this change should involve drivers and their representatives early in designing remote-assistance and transition roles, and negotiate redeployment, retraining and safety commitments. It should share the evidence on safety, cost and cyber risk openly, so the workforce does not perceive the decision as one taken without them."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model (Hackman and Oldham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The model identifies five core job characteristics, namely skill variety, task identity, task significance, autonomy and feedback. These shape three critical psychological states, namely experienced meaningfulness, responsibility for outcomes and knowledge of results, which in turn affect motivation, satisfaction and performance, moderated by employees' growth-need strength.",
+     "link": "The article describes a model in which human operators remotely assist autonomous commercial vehicles, so the driver's job would shift from physically controlling the vehicle to monitoring and supporting it from elsewhere. Over the road, autonomy and skill variety may fall as the system takes over driving, which the model predicts will reduce motivation for those who value these characteristics. Remote assistance could, however, add task significance and create a different form of feedback, depending on how the role is designed. The article focuses on cost and jobs rather than on job content, which is the gap this model helps to fill.",
+     "critique": "The model assumes the organisation designs the job, but here the content of the role is being set by technology, regulators and cost pressure, and the model says little about job security, which the article identifies as the central worry. It also does not address whether displaced drivers will have the skills or locations to take up remote roles.",
+     "practice": "Before deployment, a manager should map the current driver role against the five core characteristics, identify which are lost and which can be restored through remote assistance or monitoring roles. Those new roles should be genuinely available to existing drivers, with training and a realistic path to them, so the redesign does not simply transfer the loss to a smaller group."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Total logistics cost and the cost-service trade-off",
+     "unit": "",
+     "theory": "Total logistics cost sums transport, inventory, warehousing and administration costs, and it must be assessed alongside the service level the operation delivers. Good decisions minimise total cost for a given service standard, because reducing one cost element often increases another or affects service.",
+     "link": "The article compares operating cost per mile, with driver costs around half of the U.S. total and fuel, benefits and insurance included, and shows the gap closing as autonomy matures. These are cost figures only, and a total logistics view would also need service measures such as delivery time, reliability and disruption. The Aurora case on the Fort Worth to Phoenix route gives an example of a long corridor where a per-mile figure is most directly relevant. Bad-weather performance and hazard handling, which the article flags as unresolved, would affect service and cost in ways the headline figures do not show.",
+     "critique": "Per-mile cost is a weak proxy for logistics cost when load factors, empty running, utilisation and downtime differ between human-driven and autonomous operations. The article reports none of these, and company trial figures may not reflect typical operations.",
+     "practice": "A logistics manager should build a total cost model lane by lane, including autonomous operating costs, service-level effects, insurance, and expected disruption costs, before deciding which lanes to pilot. The pilot should measure service and utilisation as well as cost per mile."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Supply chain vulnerability depends on the chain's structure and the sources of disruption. Resilience is the capacity to reduce the likelihood and impact of disruption and to recover quickly, using measures such as visibility, flexibility, redundancy and collaboration built into the design of the network, rather than relying only on buffer stock.",
+     "link": "The article's point that a U.S. Department of Transportation model identified more than 90 cybersecurity threat scenarios in remote assistance shows that autonomous transport adds a digital point of failure that did not exist when a driver was in the cab. Bad weather and unexpected road hazards are operational disruption risks on the same legs. The article indicates these concerns are not yet resolved, and they would fall on shippers and carriers as well as vehicle makers. The Teamsters' lawsuit shows that regulatory and labour disruption is also a risk to the chain, and could halt or slow operations in a particular state.",
+     "critique": "Christopher and Peck's approach is strongest for physical supply disruption. Cyber risk needs a different kind of defence, such as security standards and monitoring, and the framework says less about regulatory and labour-related disruption, which may be the most immediate risk here.",
+     "practice": "A shipper should map where autonomous carriers sit within its network and identify single points of failure in the remote-assistance and software chain. It should write cybersecurity and fallback standards into contracts and keep a human-operated alternative for critical flows."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A U.S. freight company runs long-haul routes between Texas and Arizona and has been advised that autonomous trucks could cost less per mile than its drivers by 2028. Its drivers' union has publicly opposed the plan and is challenging related regulation in court. A trial on one corridor has reported very low per-mile costs, but the board is aware that the figures do not show service, safety or cyber risk.",
+    "question": "Advise the board on whether, when and how the company should introduce autonomous trucks, critically evaluating the cost case against the workforce, safety and cyber risks.",
+    "evidence": [
+     "Kearney and the MIT Mobility Initiative project autonomous costs of about 4 dollars a mile in 2026 falling to 2.60 in 2028, while human-driven costs rise to around 2.70",
+     "Drivers account for roughly half of a U.S. truck's cost per mile, according to Kearney",
+     "A U.S. Department of Transportation analysis identified more than 90 cybersecurity threat scenarios for remote assistance of autonomous commercial vehicles",
+     "Teamsters California sued the state's Department of Motor Vehicles over rules for heavy-duty driverless trucks, arguing that risks to public safety and jobs were not adequately assessed"
+    ],
+    "plan": [
+     "Define the decision and identify the stakeholders, including drivers, the union, regulators, customers and shareholders, and frame the cost case as total logistics cost rather than the headline per-mile figure.",
+     "Test the cost forecast by noting that the 2028 crossover rests on projections and self-reported trial costs, and apply the cost-service trade-off to include service levels and disruption effects.",
+     "Assess the supply chain risks using Christopher and Peck's resilience framework, covering cyber, weather and hazard risks, regulatory disruption, and single points of failure.",
+     "Analyse the people impact with the Job Characteristics Model, showing which core characteristics of the driver role are lost and which a remote-assistance role might restore.",
+     "Plan the change using Kotter and Schlesinger's strategies for resistance, deciding where to involve, negotiate and communicate, and distinguishing legitimate concerns from opposition to change.",
+     "Recommend phased pilots on high-cost, driver-short lanes, with redeployment and safety commitments and agreed metrics for cost, service and safety, reviewed before any wider roll-out."
+    ],
+    "pitfalls": [
+     "Treating the 2028 crossover as settled: the article presents forecasts and company trial figures, and per-mile costs leave out service levels, disruption and utilisation.",
+     "Treating drivers only as a cost line; strong answers address job design, the psychological contract and the legitimate safety and fairness concerns raised by the union."
+    ]
+   },
+   "alsoConsider": [
+    "Lewin's three-step model and force field analysis",
+    "Bridges's transition model",
+    "Rousseau's psychological contract",
+    "Herzberg's two-factor theory"
+   ],
+   "exam": {
+    "question": "To what extent can managers introduce automation such as autonomous trucks on cost grounds without damaging the people and organisation on which they depend? Discuss, drawing on theories of job design and organisational change.",
+    "outline": [
+     "Explain how the technology changes the content of the driver's job and the psychological contract, using the Job Characteristics Model and Rousseau's psychological contract.",
+     "Assess the sources of resistance, including the legal challenge, and evaluate strategies for managing them using Kotter and Schlesinger and Lewin's force field analysis.",
+     "Conclude with a critical judgement on whether cost-led automation can be managed without addressing people, taking account of the uncertainty in the cost forecasts."
+    ]
+   },
+   "readingMinutes": 2
+  },
   {
    "id": "b8969565bb0c",
    "title": "Extreme weather risk is scaring big corporations away from poorer countries – that hurts the companies, too",
