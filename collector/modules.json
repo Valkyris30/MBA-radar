@@ -1,49 +1,79 @@
 [
   {
-    "id": "scm",
-    "name": "Logistics & Supply Chain Management",
-    "short": "Supply chain",
-    "color": "#2de2e6",
-    "focus": "Supply chain strategy and design, sourcing and procurement, supplier relationships, inventory and distribution, transport and warehousing, risk and resilience, sustainability.",
+    "id": "pwo",
+    "name": "People, Work and Organisations",
+    "short": "PWO",
+    "color": "#f06bd6",
+    "current": true,
+    "focus": "Behaviour in organisations: individual differences, motivation and engagement, teams, power, politics and conflict, organisation design, organisational culture and organisational change.",
+    "units": [
+      "Unit 1 Understanding behaviour in organisations: key schools of thought in OB; contemporary perspectives on organisations; contemporary influences on the world of work; managing in the 21st century",
+      "Unit 2 Individual differences: how people differ; personality; intelligence and mindsets; attitudes, beliefs and values; perception; neurodiversity; managing individual differences",
+      "Unit 3 Motivation and engagement: how to motivate people at work; theories of motivation; job design; performance management; engagement",
+      "Unit 4 Team dynamics: understanding groups and teams; building and developing effective teams; downsides of teams; teams in the 21st century",
+      "Unit 5 Power, politics and conflict: organisational power; organisational politics; organisational conflict",
+      "Unit 6 Designing effective organisations: what organisation design is; features of organisation structures; types of structures; approaches to structural design; formal and informal organisations",
+      "Unit 7 Organisational culture: what culture is; typologies of culture; the impact of national culture on work; changing culture; whether culture can be managed; the dark side of culture",
+      "Unit 8 Organisational change: triggers for change; understanding change; change management; change management models; the people aspects of change"
+    ],
     "theories": [
-      "Fisher's supply chain matrix (functional vs innovative products)",
-      "The bullwhip effect (Lee, Padmanabhan and Whang)",
-      "Kraljic's purchasing portfolio matrix",
-      "Lean, agile and leagile supply chains (Christopher; Naylor)",
-      "The triple-A supply chain (Lee)",
-      "Postponement and the decoupling point",
-      "Total cost of ownership and total landed cost",
-      "Economic order quantity and safety stock",
-      "The SCOR model",
-      "Supply chain risk management and resilience (Christopher and Peck)",
-      "The triple bottom line (Elkington)"
+      "Unit 1: scientific management (Taylor); bureaucracy (Weber); administrative management (Fayol); the human relations school and the Hawthorne studies (Mayo); systems and contingency approaches; Mintzberg's managerial roles; Theory X and Theory Y (McGregor)",
+      "Unit 2: the Big Five personality model; the Myers-Briggs Type Indicator; multiple intelligences (Gardner); emotional intelligence (Goleman); fixed and growth mindsets (Dweck); cognitive dissonance (Festinger); attribution theory (Heider; Kelley); perceptual biases such as the halo effect, stereotyping and selective perception; the self-fulfilling prophecy; neurodiversity and person-job fit",
+      "Unit 3: Maslow's hierarchy of needs; Alderfer's ERG theory; Herzberg's two-factor theory; McClelland's acquired needs; expectancy theory (Vroom); equity theory (Adams); goal-setting theory (Locke and Latham); self-determination theory (Deci and Ryan); the Job Characteristics Model (Hackman and Oldham); job enlargement, enrichment, rotation and crafting; performance management and feedback; employee engagement (Kahn); the job demands-resources model (Bakker and Demerouti); the psychological contract (Rousseau)",
+      "Unit 4: groups versus teams (Katzenbach and Smith); Tuckman's stages of group development; Belbin's team roles; group norms and cohesiveness; groupthink (Janis); social loafing (Ringelmann); conformity (Asch); Lencioni's five dysfunctions of a team; psychological safety (Edmondson); virtual and hybrid teams",
+      "Unit 5: French and Raven's bases of power; Lukes's three dimensions of power; resource dependence (Pfeffer and Salancik); organisational politics and political tactics (Pfeffer; Mintzberg's political games); unitarist, pluralist and radical perspectives on conflict (Fox); the Thomas-Kilmann conflict modes; functional and dysfunctional conflict (Pondy)",
+      "Unit 6: dimensions of structure (specialisation, centralisation, formalisation, span of control, chain of command); functional, divisional, matrix and network structures; mechanistic and organic organisations (Burns and Stalker); contingency theory (Woodward; Lawrence and Lorsch); Mintzberg's organisational configurations; Galbraith's Star Model; the formal and the informal organisation",
+      "Unit 7: Schein's three levels of culture; Handy's four culture types; Deal and Kennedy's culture model; the Competing Values Framework (Cameron and Quinn); the cultural web (Johnson and Scholes); Hofstede's cultural dimensions; Trompenaars's dimensions; culture as something an organisation has versus something it is (Smircich); toxic culture and the dark side of strong cultures",
+      "Unit 8: internal and external triggers for change (PESTLE); planned versus emergent change; incremental versus transformational change; Lewin's three-step model and force field analysis; Kotter's eight-step model; the ADKAR model; the McKinsey 7S framework; the change curve (Kübler-Ross); resistance to change and Kotter and Schlesinger's strategies; Bridges's transition model"
     ]
   },
   {
-    "id": "operations",
-    "name": "Operations Management",
-    "short": "Operations",
-    "color": "#3ba7ff",
-    "focus": "Process design, capacity and bottlenecks, quality management, lean and just-in-time, planning and control, service operations, productivity, technology and automation in operations.",
+    "id": "leadership",
+    "name": "Leadership Theory and Practice",
+    "short": "Leadership",
+    "color": "#ff6b8b",
+    "focus": "Leadership theories and their practice, power and influence, ethics and responsibility, decision making, leading change, developing leaders, followership.",
     "theories": [
-      "Slack's five performance objectives (quality, speed, dependability, flexibility, cost)",
-      "The four Vs of operations (volume, variety, variation, visibility)",
-      "The theory of constraints (Goldratt)",
-      "Lean and the Toyota Production System, the seven wastes (Ohno)",
-      "Total quality management and the PDCA cycle (Deming)",
-      "Six Sigma and DMAIC",
-      "The Hayes and Wheelwright four-stage model",
-      "The product-process matrix",
-      "Capacity strategies (lead, lag, match) and trade-off theory (Skinner)",
-      "The SERVQUAL gap model (Parasuraman, Zeithaml and Berry)"
+      "Trait theory",
+      "The Blake and Mouton managerial grid",
+      "Situational leadership (Hersey and Blanchard)",
+      "Fiedler's contingency model",
+      "Path-goal theory (House)",
+      "Transformational and transactional leadership (Burns; Bass)",
+      "Leader-member exchange theory",
+      "Authentic and servant leadership",
+      "Distributed leadership and followership",
+      "Emotional intelligence (Goleman)",
+      "Action-centred leadership (Adair)",
+      "Ethical and responsible leadership"
+    ]
+  },
+  {
+    "id": "projects",
+    "name": "Delivering Successful Projects",
+    "short": "Projects",
+    "color": "#4ff0a8",
+    "focus": "Project life cycle, scope, time and cost, planning and scheduling, risk and stakeholder management, governance, agile and waterfall methods, benefits realisation, why projects fail.",
+    "theories": [
+      "The iron triangle (time, cost, quality)",
+      "The project life cycle and stage gates",
+      "Work breakdown structure, critical path method and PERT",
+      "Earned value management",
+      "Stakeholder mapping (Mendelow's power-interest matrix)",
+      "Project risk management and the risk register",
+      "PRINCE2 and the PMBOK guide",
+      "Agile and Scrum versus waterfall",
+      "The planning fallacy and reference class forecasting (Kahneman; Flyvbjerg)",
+      "Benefits realisation management",
+      "Escalation of commitment (Staw)"
     ]
   },
   {
     "id": "strategy",
-    "name": "Strategic Planning",
+    "name": "Developing and Executing Strategy",
     "short": "Strategy",
     "color": "#8b7cff",
-    "focus": "Competitive advantage, industry and environment analysis, resources and capabilities, growth and diversification, mergers and alliances, business models, strategy implementation.",
+    "focus": "Competitive advantage, analysis of the industry and environment, resources and capabilities, strategic choices, growth, mergers and alliances, business models, and turning strategy into execution.",
     "theories": [
       "Porter's five forces",
       "Porter's generic strategies",
@@ -56,70 +86,8 @@
       "The BCG growth-share matrix",
       "Blue ocean strategy (Kim and Mauborgne)",
       "Deliberate and emergent strategy (Mintzberg)",
-      "Bowman's strategy clock"
-    ]
-  },
-  {
-    "id": "pwo",
-    "name": "People, Work & Organisations",
-    "short": "PWO",
-    "color": "#f06bd6",
-    "focus": "Motivation and job design, organisational culture and structure, groups and teams, human resource management, employment relations, organisational change, diversity, wellbeing, the future of work.",
-    "theories": [
-      "Maslow's hierarchy of needs",
-      "Herzberg's two-factor theory",
-      "Expectancy theory (Vroom)",
-      "Equity theory (Adams)",
-      "The Job Characteristics Model (Hackman and Oldham)",
-      "Scientific management (Taylor) and the human relations school (Mayo)",
-      "Schein's three levels of culture",
-      "Handy's four culture types",
-      "Hofstede's cultural dimensions",
-      "Tuckman's stages of group development and Belbin's team roles",
-      "The psychological contract (Rousseau)",
-      "Lewin's three-step change model and force field analysis",
-      "Hard and soft HRM (the Michigan and Harvard models)",
-      "Mintzberg's organisational configurations"
-    ]
-  },
-  {
-    "id": "leadership",
-    "name": "Leadership",
-    "short": "Leadership",
-    "color": "#ff6b8b",
-    "focus": "Leadership theories, power and influence, ethics and responsibility, decision making, leading change, developing leaders, followership.",
-    "theories": [
-      "Trait theory",
-      "The Blake and Mouton managerial grid",
-      "Situational leadership (Hersey and Blanchard)",
-      "Fiedler's contingency model",
-      "Path-goal theory (House)",
-      "Transformational and transactional leadership (Burns; Bass)",
-      "Leader-member exchange theory",
-      "Authentic and servant leadership",
-      "French and Raven's bases of power",
-      "Kotter's eight-step change model",
-      "Emotional intelligence (Goleman)",
-      "Action-centred leadership (Adair)"
-    ]
-  },
-  {
-    "id": "economics",
-    "name": "Economics for Business",
-    "short": "Economics",
-    "color": "#ffb454",
-    "focus": "Demand, supply and pricing, costs and market structures, competition and regulation, macroeconomic conditions, international trade, exchange rates, labour markets.",
-    "theories": [
-      "Supply, demand and price elasticity",
-      "Market structures (perfect competition, monopoly, oligopoly, monopolistic competition)",
-      "Economies of scale and scope",
-      "Game theory and oligopoly behaviour",
-      "Transaction cost economics (Coase; Williamson)",
-      "Principal-agent theory",
-      "Comparative advantage and trade theory",
-      "Externalities and market failure",
-      "Monetary and fiscal policy and the business cycle",
-      "Exchange rate determination"
+      "The balanced scorecard (Kaplan and Norton)",
+      "The McKinsey 7S framework"
     ]
   },
   {
@@ -138,8 +106,7 @@
       "Cost-volume-profit and break-even analysis",
       "Risk and return and portfolio theory (Markowitz)",
       "Real options",
-      "Agency theory",
-      "Economic value added"
+      "Agency theory"
     ]
   },
   {
@@ -162,23 +129,93 @@
     ]
   },
   {
-    "id": "projects",
-    "name": "Delivering Successful Projects",
-    "short": "Projects",
-    "color": "#4ff0a8",
-    "focus": "Project life cycle, scope, time and cost, planning and scheduling, risk and stakeholder management, governance, agile and waterfall methods, benefits realisation, why projects fail.",
+    "id": "purchasing",
+    "name": "Global Purchasing and Supply",
+    "short": "Purchasing",
+    "color": "#3ba7ff",
+    "focus": "Procurement strategy, global sourcing, supplier selection and relationships, make-or-buy and outsourcing, category management, negotiation, purchasing risk, ethical and sustainable sourcing.",
     "theories": [
-      "The iron triangle (time, cost, quality)",
-      "The project life cycle and stage gates",
-      "Work breakdown structure, critical path method and PERT",
-      "Earned value management",
-      "Stakeholder mapping (Mendelow's power-interest matrix)",
-      "Project risk management and the risk register",
-      "PRINCE2 and the PMBOK guide",
-      "Agile and Scrum versus waterfall",
-      "The planning fallacy and reference class forecasting (Kahneman; Flyvbjerg)",
-      "Benefits realisation management",
-      "Escalation of commitment (Staw)"
+      "Kraljic's purchasing portfolio matrix",
+      "Total cost of ownership",
+      "Make-or-buy and transaction cost economics (Williamson)",
+      "Supplier relationship management and the partnership spectrum",
+      "Power in buyer-supplier relationships (Cox)",
+      "Supplier selection and evaluation criteria",
+      "Category management and strategic sourcing",
+      "Global sourcing, offshoring, nearshoring and reshoring",
+      "Single, dual and multiple sourcing",
+      "Ethical and sustainable procurement"
+    ]
+  },
+  {
+    "id": "scm",
+    "name": "Strategies for Managing Supply Chains",
+    "short": "Supply chains",
+    "color": "#2de2e6",
+    "focus": "Supply chain strategy and design, integration and collaboration, demand and inventory management, lean and agile approaches, risk and resilience, performance measurement.",
+    "theories": [
+      "Fisher's supply chain matrix (functional vs innovative products)",
+      "The bullwhip effect (Lee, Padmanabhan and Whang)",
+      "Lean, agile and leagile supply chains (Christopher; Naylor)",
+      "The triple-A supply chain (Lee)",
+      "Postponement and the decoupling point",
+      "Supply chain integration and the arcs of integration (Frohlich and Westbrook)",
+      "Collaboration: vendor-managed inventory and CPFR",
+      "The SCOR model",
+      "Supply chain risk management and resilience (Christopher and Peck)",
+      "Slack's five performance objectives and the theory of constraints (Goldratt)"
+    ]
+  },
+  {
+    "id": "green",
+    "name": "Green and Sustainable Logistics",
+    "short": "Green logistics",
+    "color": "#5fd068",
+    "focus": "The environmental and social impact of logistics: emissions from freight transport and warehousing, decarbonisation, modal shift, reverse logistics, the circular economy, regulation and reporting.",
+    "theories": [
+      "The triple bottom line (Elkington)",
+      "Carbon footprinting and Scope 1, 2 and 3 emissions",
+      "McKinnon's green logistics framework for decarbonising freight",
+      "Modal shift and intermodal transport",
+      "Reverse logistics and closed-loop supply chains",
+      "The circular economy",
+      "City logistics and last-mile sustainability",
+      "Externalities and carbon pricing"
+    ]
+  },
+  {
+    "id": "logops",
+    "name": "Logistics Operations: Freight Transport and Warehouse Management",
+    "short": "Logistics ops",
+    "color": "#ffb454",
+    "focus": "Freight transport modes and networks, carriers and shipping, ports, warehousing, distribution centres, automation, inventory control, outsourcing to logistics providers, logistics costs and service.",
+    "theories": [
+      "Modal choice and the trade-off between transport cost and service",
+      "Distribution network design: hub-and-spoke, cross-docking and consolidation",
+      "Warehouse layout, slotting and order picking methods",
+      "ABC inventory analysis, economic order quantity and safety stock",
+      "Logistics outsourcing: third-party and fourth-party logistics",
+      "Total logistics cost and the cost-service trade-off",
+      "Vehicle routing and load planning",
+      "Logistics performance measures such as on-time in-full",
+      "Warehouse automation and warehouse management systems"
+    ]
+  },
+  {
+    "id": "humanitarian",
+    "name": "Humanitarian Logistics",
+    "short": "Humanitarian",
+    "color": "#d9dee9",
+    "focus": "Logistics for disaster relief and development aid: preparedness and response, relief supply chains, coordination between agencies, donors and governments, last-mile distribution in crises.",
+    "theories": [
+      "The disaster management cycle (mitigation, preparedness, response, recovery)",
+      "Van Wassenhove's humanitarian supply chain preparedness framework",
+      "Agility versus leanness in relief supply chains",
+      "Prepositioning of relief inventory",
+      "Coordination and the cluster system",
+      "Swift trust in hastily formed networks",
+      "Last-mile distribution in disaster relief",
+      "Humanitarian principles (humanity, neutrality, impartiality)"
     ]
   }
 ]

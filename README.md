@@ -16,7 +16,11 @@ relevant module applied to it, and an exam-style question.
 - **Modules and theories:** edit `collector/modules.json`. `focus` is what Claude reads to judge relevance,
   and `theories` is the list it draws on first when it applies theory to an article, so replace both with
   what your course actually teaches.
-- **Sources:** edit `collector/sources.json`. Set `"read_page": false` for subscriber-only sites, so only
+- **The module you are studying now:** put `"current": true` on one module in `collector/modules.json`.
+  It gets 40% of each edition (repository variable `MBA_RADAR_FOCUS_SHARE`), every other note looks for
+  a link to it, and the app marks it "studying now". Give it `units` (the course outline) and the notes
+  will say which unit each theory belongs to. Move the flag when you start the next module.
+- **Sources:** edit `collector/sources.json`. `"lean"` names the module a source mostly serves. Set `"read_page": false` for subscriber-only sites, so only
   the public abstract from the feed is used.
 - **Articles per day and model:** repository variables `MBA_RADAR_MAX_NEW` (default 10) and
   `MBA_RADAR_MODEL` (default `claude-haiku-5-5`).

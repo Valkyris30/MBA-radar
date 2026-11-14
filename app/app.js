@@ -186,10 +186,12 @@ function renderHeader() {
 function renderChips() {
   const all = visible({ ignoreModule: true });
   const counts = moduleCounts(all);
-  const chip = (id, label, n, c) =>
-    `<button type="button" class="chip${state.module === id ? ' on' : ''}" data-m="${esc(id ?? '')}" aria-pressed="${state.module === id}"${c ? ` style="--c:${c}"` : ''}>${c ? '<i></i>' : ''}${esc(label)}<b>${n}</b></button>`;
+  const chip = (id, label, n, c, now) =>
+    `<button type="button" class="chip${state.module === id ? ' on' : ''}${now ? ' now' : ''}" data-m="${esc(id ?? '')}" aria-pressed="${state.module === id}"${c ? ` style="--c:${c}"` : ''}>${c ? '<i></i>' : ''}${esc(label)}${now ? '<u>studying now</u>' : ''}<b>${n}</b></button>`;
+  // The module being studied now comes first, so it is one tap away.
+  const ordered = [...state.data.modules].sort((x, y) => (y.current ? 1 : 0) - (x.current ? 1 : 0));
   $('#chips').innerHTML = chip(null, 'All modules', all.length, '') +
-    state.data.modules.map((m) => chip(m.id, m.short, counts[m.id] || 0, m.color)).join('');
+    ordered.map((m) => chip(m.id, m.short, counts[m.id] || 0, m.color, m.current)).join('');
 }
 
 const tagsHtml = (a, withScore) => a.modules.slice(0, 3).map((m) =>
@@ -252,7 +254,8 @@ function renderRadar() {
   const mods = state.data.modules;
   const cx = W / 2;
   const cy = H / 2;
-  const R = Math.max(70, Math.min(W / 2 - (W < 520 ? 62 : 96), H / 2 - 34));
+  const narrow = W < 520;
+  const R = Math.max(70, Math.min(W / 2 - (narrow ? 72 : 96), H / 2 - 34));
   const k = Math.max(0.62, Math.min(1.5, R / 200));
   wrap.style.setProperty('--R', `${R}px`);
 
@@ -316,15 +319,21 @@ function renderRadar() {
     let lx = p.x + p.cos * 15;
     let ly = p.y + p.sin * 15 + (anchor === 'middle' ? (p.sin < 0 ? -4 : 13) : 4);
     // On a phone there is no room beside the far-left and far-right nodes: tuck those labels above the node.
-    if (W < 520 && Math.abs(p.sin) < 0.3) {
+    if (narrow && Math.abs(p.sin) < 0.3) {
       anchor = p.cos > 0 ? 'end' : 'start';
       lx = p.x + (p.cos > 0 ? 14 : -14);
       ly = p.y - 15;
     }
-    return `<g class="mod${on ? ' on' : ''}${state.module && !on ? ' off' : ''}" data-m="${esc(m.id)}" style="--c:${m.color}" tabindex="0" role="button" aria-pressed="${on}" aria-label="${esc(m.name)}, ${counts[m.id] || 0} articles today">
+    // On a phone, side labels drop their count and break onto two lines so they stay inside the screen.
+    const words = String(m.short).split(' ');
+    const label = narrow && anchor !== 'middle'
+      ? `<text x="${f(lx)}" y="${f(ly - (words.length > 1 ? 7 : 0))}" text-anchor="${anchor}">${words.map((w, i) => `<tspan x="${f(lx)}"${i ? ' dy="1.15em"' : ''}>${esc(w)}</tspan>`).join('')}</text>`
+      : `<text x="${f(lx)}" y="${f(ly)}" text-anchor="${anchor}">${esc(m.short)} <tspan class="n">${counts[m.id] || 0}</tspan></text>`;
+    return `<g class="mod${on ? ' on' : ''}${state.module && !on ? ' off' : ''}" data-m="${esc(m.id)}" style="--c:${m.color}" tabindex="0" role="button" aria-pressed="${on}" aria-label="${esc(m.name)}${m.current ? ', the module you are studying now' : ''}, ${counts[m.id] || 0} articles today">
       <circle class="glow" cx="${f(p.x)}" cy="${f(p.y)}" r="${f(13 * k)}"/>
+      ${m.current ? `<circle class="now" cx="${f(p.x)}" cy="${f(p.y)}" r="${f(11 * k)}"/>` : ''}
       <circle class="node" cx="${f(p.x)}" cy="${f(p.y)}" r="${f(6 * k)}"/>
-      <text x="${f(lx)}" y="${f(ly)}" text-anchor="${anchor}">${esc(m.short)} <tspan class="n">${counts[m.id] || 0}</tspan></text>
+      ${label}
     </g>`;
   }).join('');
 
@@ -401,7 +410,7 @@ function renderDetail() {
   const apps = a.applications.map((p) => {
     const m = state.mods[p.moduleId];
     return `<div class="apply" style="--c:${m.color}">
-      <div class="mod-name">${esc(m.name)}</div>
+      <div class="mod-name">${esc(m.name)}${p.unit ? `<span> · ${esc(p.unit)}</span>` : ''}</div>
       <h4>${esc(p.concept)}</h4>
       <dl>${part('The theory', p.theory)}${part('In this article', p.link)}${part('Limits and critique', p.critique)}${part('In practice', p.practice)}</dl>
     </div>`;
