@@ -168,10 +168,10 @@ svg .link { stroke-linecap: round; stroke-dasharray: 4 6; animation: flow 1.2s l
 /* ── Side: filters + feed ────────────────────────────────── */
 .side { padding: 0 calc(14px + var(--sr)) calc(28px + var(--sb)) calc(14px + var(--sl)); }
 .filters { padding: 6px 0 10px; }
-.row { display: flex; gap: 10px; align-items: center; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 .seg {
   display: flex;
-  flex: none;
+  flex: 1 1 100%;
   padding: 3px;
   border-radius: 12px;
   background: var(--panel);
@@ -186,9 +186,11 @@ svg .link { stroke-linecap: round; stroke-dasharray: 4 6; animation: flow 1.2s l
   font-weight: 550;
   color: var(--mu);
 }
+.seg button { flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+.seg button b { font: 400 11px var(--mono); color: var(--dim); }
 .seg button.on { background: rgba(45, 226, 230, 0.14); color: var(--tx); }
 .search {
-  flex: 1;
+  flex: 1 1 100%;
   min-width: 0;
   display: flex;
   align-items: center;
@@ -336,6 +338,35 @@ svg .link { stroke-linecap: round; stroke-dasharray: 4 6; animation: flow 1.2s l
 }
 .tag em { font: normal 10px var(--mono); opacity: 0.8; }
 
+.tag.plain { --c: #9aa6c4; }
+
+/* Archive: one light row per article, with the link to the original. */
+.arow {
+  position: relative;
+  padding: 11px 12px 10px 16px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  overflow: hidden;
+}
+.arow::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--c); opacity: 0.6; }
+.arow-title { display: block; font-size: 14px; line-height: 1.38; font-weight: 580; color: var(--tx); text-decoration: none; }
+a.arow-title:hover { color: var(--ac); text-decoration: underline; }
+.arow-title svg { width: 13px; height: 13px; vertical-align: -1px; opacity: 0.55; }
+.arow-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 8px; font: 11px var(--mono); color: var(--mu); }
+.arow-meta .src { color: var(--c); margin-right: 2px; }
+.arow-meta .sp { flex: 1; }
+.note-btn {
+  border: 1px solid var(--line-2);
+  background: none;
+  border-radius: 999px;
+  padding: 3px 11px;
+  font: 600 11.5px var(--sans);
+  color: var(--tx);
+}
+.note-btn:hover { border-color: var(--ac); color: var(--ac); }
+
 .empty {
   padding: 40px 18px;
   text-align: center;
@@ -409,6 +440,26 @@ body.detail-open .detail { transform: none; visibility: visible; transition: tra
 .fit-row .track { height: 6px; border-radius: 3px; background: rgba(150, 180, 255, 0.12); overflow: hidden; }
 .fit-row .track i { display: block; height: 100%; border-radius: 3px; background: var(--c); box-shadow: 0 0 12px var(--c); transform-origin: left; animation: grow 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
 .fit-row .pc { font: 12px var(--mono); color: var(--mu); text-align: right; }
+
+.lens { margin-bottom: 18px; }
+.lens:last-child { margin-bottom: 0; }
+.lens p { margin-top: 8px; padding-left: 12px; border-left: 1px solid color-mix(in srgb, var(--c) 50%, transparent); font-size: 14.5px; }
+
+.block h5 { margin: 18px 0 6px; font: 10.5px var(--mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--dim); }
+.case {
+  padding: 16px;
+  border-radius: var(--r);
+  border: 1px solid rgba(45, 226, 230, 0.35);
+  background: rgba(45, 226, 230, 0.05);
+}
+.case > h3 + h5 { margin-top: 0; }
+.case .q { font: 17px/1.45 var(--serif); color: var(--tx); }
+.case .points { margin-top: 0; }
+.case details { margin-top: 16px; }
+.case summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--ac); }
+.plan { margin: 12px 0 0; padding-left: 22px; display: grid; gap: 8px; color: #cfd7ee; }
+.plan li::marker { color: var(--ac); font: 600 12px var(--mono); }
+.pitfalls { margin: 0; padding-left: 18px; display: grid; gap: 6px; color: #ffcf8f; }
 
 .points { margin: 12px 0 0; padding: 0; list-style: none; display: grid; gap: 8px; }
 .points li { position: relative; padding-left: 20px; color: #cfd7ee; }

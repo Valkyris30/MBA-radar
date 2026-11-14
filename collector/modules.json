@@ -4,62 +4,181 @@
     "name": "Logistics & Supply Chain Management",
     "short": "Supply chain",
     "color": "#2de2e6",
-    "focus": "Supply chain strategy and design, sourcing and procurement, supplier relationships, inventory and distribution, transport and warehousing, risk and resilience, sustainability, the bullwhip effect, total landed cost, lean and agile supply chains."
+    "focus": "Supply chain strategy and design, sourcing and procurement, supplier relationships, inventory and distribution, transport and warehousing, risk and resilience, sustainability.",
+    "theories": [
+      "Fisher's supply chain matrix (functional vs innovative products)",
+      "The bullwhip effect (Lee, Padmanabhan and Whang)",
+      "Kraljic's purchasing portfolio matrix",
+      "Lean, agile and leagile supply chains (Christopher; Naylor)",
+      "The triple-A supply chain (Lee)",
+      "Postponement and the decoupling point",
+      "Total cost of ownership and total landed cost",
+      "Economic order quantity and safety stock",
+      "The SCOR model",
+      "Supply chain risk management and resilience (Christopher and Peck)",
+      "The triple bottom line (Elkington)"
+    ]
   },
   {
     "id": "operations",
     "name": "Operations Management",
     "short": "Operations",
     "color": "#3ba7ff",
-    "focus": "Process design, capacity and bottlenecks, quality management (TQM, Six Sigma), lean and just-in-time, planning and control, service operations, productivity, technology and automation in operations."
+    "focus": "Process design, capacity and bottlenecks, quality management, lean and just-in-time, planning and control, service operations, productivity, technology and automation in operations.",
+    "theories": [
+      "Slack's five performance objectives (quality, speed, dependability, flexibility, cost)",
+      "The four Vs of operations (volume, variety, variation, visibility)",
+      "The theory of constraints (Goldratt)",
+      "Lean and the Toyota Production System, the seven wastes (Ohno)",
+      "Total quality management and the PDCA cycle (Deming)",
+      "Six Sigma and DMAIC",
+      "The Hayes and Wheelwright four-stage model",
+      "The product-process matrix",
+      "Capacity strategies (lead, lag, match) and trade-off theory (Skinner)",
+      "The SERVQUAL gap model (Parasuraman, Zeithaml and Berry)"
+    ]
   },
   {
     "id": "strategy",
     "name": "Strategic Planning",
     "short": "Strategy",
     "color": "#8b7cff",
-    "focus": "Competitive advantage, industry analysis (five forces, PESTEL), resources and capabilities (VRIO), generic strategies, growth and diversification, mergers and alliances, business models, strategy implementation."
+    "focus": "Competitive advantage, industry and environment analysis, resources and capabilities, growth and diversification, mergers and alliances, business models, strategy implementation.",
+    "theories": [
+      "Porter's five forces",
+      "Porter's generic strategies",
+      "Porter's value chain",
+      "PESTEL and SWOT analysis",
+      "The resource-based view and VRIO (Barney)",
+      "Dynamic capabilities (Teece)",
+      "Core competences (Prahalad and Hamel)",
+      "The Ansoff matrix",
+      "The BCG growth-share matrix",
+      "Blue ocean strategy (Kim and Mauborgne)",
+      "Deliberate and emergent strategy (Mintzberg)",
+      "Bowman's strategy clock"
+    ]
   },
   {
     "id": "pwo",
     "name": "People, Work & Organisations",
     "short": "PWO",
     "color": "#f06bd6",
-    "focus": "Motivation and job design, organisational culture and structure, groups and teams, human resource management, employment relations, the psychological contract, organisational change, diversity, wellbeing, the future of work."
+    "focus": "Motivation and job design, organisational culture and structure, groups and teams, human resource management, employment relations, organisational change, diversity, wellbeing, the future of work.",
+    "theories": [
+      "Maslow's hierarchy of needs",
+      "Herzberg's two-factor theory",
+      "Expectancy theory (Vroom)",
+      "Equity theory (Adams)",
+      "The Job Characteristics Model (Hackman and Oldham)",
+      "Scientific management (Taylor) and the human relations school (Mayo)",
+      "Schein's three levels of culture",
+      "Handy's four culture types",
+      "Hofstede's cultural dimensions",
+      "Tuckman's stages of group development and Belbin's team roles",
+      "The psychological contract (Rousseau)",
+      "Lewin's three-step change model and force field analysis",
+      "Hard and soft HRM (the Michigan and Harvard models)",
+      "Mintzberg's organisational configurations"
+    ]
   },
   {
     "id": "leadership",
     "name": "Leadership",
     "short": "Leadership",
     "color": "#ff6b8b",
-    "focus": "Leadership theories (trait, behavioural, situational, transformational, authentic), power and influence, ethics and responsibility, decision making, leading change, developing leaders, followership."
+    "focus": "Leadership theories, power and influence, ethics and responsibility, decision making, leading change, developing leaders, followership.",
+    "theories": [
+      "Trait theory",
+      "The Blake and Mouton managerial grid",
+      "Situational leadership (Hersey and Blanchard)",
+      "Fiedler's contingency model",
+      "Path-goal theory (House)",
+      "Transformational and transactional leadership (Burns; Bass)",
+      "Leader-member exchange theory",
+      "Authentic and servant leadership",
+      "French and Raven's bases of power",
+      "Kotter's eight-step change model",
+      "Emotional intelligence (Goleman)",
+      "Action-centred leadership (Adair)"
+    ]
   },
   {
     "id": "economics",
     "name": "Economics for Business",
     "short": "Economics",
     "color": "#ffb454",
-    "focus": "Demand, supply and elasticity, costs and market structures, pricing, competition and regulation, macroeconomic conditions (inflation, interest rates, growth), international trade, exchange rates, labour markets."
+    "focus": "Demand, supply and pricing, costs and market structures, competition and regulation, macroeconomic conditions, international trade, exchange rates, labour markets.",
+    "theories": [
+      "Supply, demand and price elasticity",
+      "Market structures (perfect competition, monopoly, oligopoly, monopolistic competition)",
+      "Economies of scale and scope",
+      "Game theory and oligopoly behaviour",
+      "Transaction cost economics (Coase; Williamson)",
+      "Principal-agent theory",
+      "Comparative advantage and trade theory",
+      "Externalities and market failure",
+      "Monetary and fiscal policy and the business cycle",
+      "Exchange rate determination"
+    ]
   },
   {
     "id": "finance",
     "name": "Financial Decision Making",
     "short": "Finance",
     "color": "#c6f04f",
-    "focus": "Financial statements and ratio analysis, working capital and cash flow, investment appraisal (NPV, IRR, payback), cost of capital, capital structure, budgeting, risk management, valuation."
+    "focus": "Financial statements and ratios, working capital and cash flow, investment appraisal, cost of capital, capital structure, budgeting, risk management, valuation.",
+    "theories": [
+      "Net present value, internal rate of return and payback",
+      "The weighted average cost of capital and CAPM",
+      "Capital structure theory (Modigliani and Miller, trade-off, pecking order)",
+      "Working capital management and the cash conversion cycle",
+      "Ratio analysis and the DuPont model",
+      "Budgeting and variance analysis",
+      "Cost-volume-profit and break-even analysis",
+      "Risk and return and portfolio theory (Markowitz)",
+      "Real options",
+      "Agency theory",
+      "Economic value added"
+    ]
   },
   {
     "id": "marketing",
     "name": "Strategic Marketing",
     "short": "Marketing",
     "color": "#ff8a4c",
-    "focus": "Segmentation, targeting and positioning, brand equity, the marketing mix, pricing strategy, customer experience and loyalty, consumer behaviour, digital marketing, market research."
+    "focus": "Segmentation, targeting and positioning, brands, the marketing mix, pricing, customer experience and loyalty, consumer behaviour, digital marketing, market research.",
+    "theories": [
+      "Segmentation, targeting and positioning",
+      "The marketing mix (4Ps and 7Ps)",
+      "Customer-based brand equity (Keller) and Aaker's brand equity model",
+      "The product life cycle",
+      "Diffusion of innovations (Rogers)",
+      "Relationship marketing and customer lifetime value",
+      "The consumer decision-making process",
+      "Value-based pricing",
+      "Service-dominant logic (Vargo and Lusch)",
+      "The SERVQUAL gap model"
+    ]
   },
   {
     "id": "projects",
     "name": "Delivering Successful Projects",
     "short": "Projects",
     "color": "#4ff0a8",
-    "focus": "Project life cycle, scope, time and cost (the iron triangle), planning and scheduling, risk and stakeholder management, governance, agile and waterfall methods, benefits realisation, why projects fail."
+    "focus": "Project life cycle, scope, time and cost, planning and scheduling, risk and stakeholder management, governance, agile and waterfall methods, benefits realisation, why projects fail.",
+    "theories": [
+      "The iron triangle (time, cost, quality)",
+      "The project life cycle and stage gates",
+      "Work breakdown structure, critical path method and PERT",
+      "Earned value management",
+      "Stakeholder mapping (Mendelow's power-interest matrix)",
+      "Project risk management and the risk register",
+      "PRINCE2 and the PMBOK guide",
+      "Agile and Scrum versus waterfall",
+      "The planning fallacy and reference class forecasting (Kahneman; Flyvbjerg)",
+      "Benefits realisation management",
+      "Escalation of commitment (Staw)"
+    ]
   }
 ]

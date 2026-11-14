@@ -35,6 +35,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 OUTPUT = HERE.parent / "app" / "data" / "articles.json"
+ARCHIVE = HERE.parent / "app" / "data" / "archive.json"
 
 MODEL = os.environ.get("MBA_RADAR_MODEL", "claude-haiku-5-5")
 EFFORT = os.environ.get("MBA_RADAR_EFFORT", "high")
@@ -44,8 +45,9 @@ SHORTLIST = MAX_NEW * 3   # articles tried per run; the ones whose full text can
 
 MAX_AGE_DAYS = 4          # ignore feed items older than this
 PER_SOURCE = 12           # newest items considered per source
-KEEP_DAYS = 45            # how long an article stays in the app
-KEEP_MAX = 300
+NOTE_DAYS = 7             # how long an article keeps its full study note
+ARCHIVE_DAYS = 365        # after that it stays in the archive as a link, for this long
+ARCHIVE_MAX = 4000
 FULL_TEXT_MIN = 1500      # characters needed before we call it "full text"
 TEXT_LIMIT = 60000        # characters of article text sent to the model (about 15k tokens)
 BOT = "MBARadar"
@@ -295,29 +297,48 @@ def article_text(item: dict) -> tuple[str, str]:
 # ── Claude ──────────────────────────────────────────────────────────────────
 
 SYSTEM = """You write study notes for an MBA student at Edinburgh Business School, Heriot-Watt University. \
-Each day the student reads current business and management articles and wants to see how the theory from their \
-modules applies to what is happening in real organisations. Your notes are what makes that connection, so they \
-need to be accurate about the article, specific about the theory, and useful for revision and assignments.
+Each day the student reads current business and management articles and wants to understand them through the \
+theory taught on their modules, and to be able to use them as evidence in assignments, exams and case studies. \
+Your note is what makes that connection. It has to be accurate about the article, precise about the theory, and \
+detailed enough to revise from without opening a textbook.
 
-The student's modules:
+The student's modules, each with the theories taught on it:
 {modules}
 
 How to write a study note:
-- Work only from the article text you are given. The summary and key points must report what the text actually \
-says. If you are given only a short abstract, keep the summary to what the abstract states and do not invent \
-findings, figures, names or examples; put your effort into the module applications instead.
+- Work only from the article text you are given. The summary, key points and evidence must report what the text \
+actually says. If you are given only a short abstract, keep them to what the abstract states and do not invent \
+findings, figures, names or examples; put your effort into the theory instead.
 - Paraphrase. Do not copy sentences from the article and do not quote more than a few words.
-- Give relevance scores from 0 to 100 for the modules the article genuinely bears on: 80 or more means the \
-article is squarely about that module's subject matter, 50 to 79 means a substantial connection, 30 to 49 a \
-secondary one. Leave out modules below 30. Most articles fit one to three modules.
-- For each application, name one specific, established theory, model or framework that a tutor on that module \
-would recognise, with its author where it has one (for example Porter's five forces, Kotter's eight-step model, \
-the cash conversion cycle). In "link", explain how this article illustrates, supports or challenges it. In \
-"practice", give a concrete way to use it: what a manager in the situation should do, or how the student could \
-use this case as evidence in an assignment. Write one to three applications, strongest first, and never force \
-a theory onto an article that does not support it.
-- The exam question should be an essay-style question a tutor on the most relevant module could set, which this \
-article would help to answer. The outline is three short bullet points an answer should cover.
+- modules: give relevance scores from 0 to 100 for the modules the article genuinely bears on. 80 or more means \
+the article is squarely about that module's subject matter, 50 to 79 a substantial connection, 30 to 49 a \
+secondary one. Leave out modules below 30; most articles fit one to three. For each, "reading" explains the \
+article from that module's point of view in three or four sentences: what, in the language of that module, is \
+going on here, and why a student of that module should care.
+- applications: this is the heart of the note. Write three or four, strongest first, spread across the relevant \
+modules, and use more than one theory for the main module when the article supports it. Prefer the theories \
+listed for each module; use another established theory only when it fits better. Never force a theory onto an \
+article that does not support it. For each application:
+  - concept: the name of the theory, model or framework, with its author where it has one.
+  - theory: what it says, in two or three sentences, as the student should define it in an exam answer.
+  - link: four or five sentences showing how this article illustrates, supports or challenges the theory. \
+Point to specifics from the text and map them onto the parts of the theory.
+  - critique: one or two sentences on where the theory falls short in this situation, or a competing view. \
+This is what earns marks for critical evaluation.
+  - practice: two or three sentences on what a manager in this situation should do if they applied the theory.
+- case_study: show how to exploit the article in a case-study exam or assignment.
+  - scenario: a short case of three or four sentences built on the situation in the article, as an examiner \
+might present it. When you only have an abstract, keep it generic ("a company in this position") and invent \
+no facts.
+  - question: the task set on that case, in exam wording (for example "Advise the board on...", "Critically \
+evaluate...").
+  - evidence: two to four facts, examples or findings from the article that the student can cite as evidence.
+  - answer_plan: four to six steps for a strong answer, in order, naming the theory to apply at each step and \
+ending with a recommendation.
+  - pitfalls: one or two mistakes that would lose marks on this question.
+- also_consider: the names of two to four further theories worth mentioning in an answer.
+- exam_question: one essay-style question a tutor on the most relevant module could set, which this article \
+would help to answer. exam_outline: three short points an answer should cover.
 - Set "relevant" to false when the item is not a substantive article (a podcast or event notice, a job advert, \
 a product announcement, a list of links) or has no meaningful connection to any module. Still fill in the other \
 fields briefly.
@@ -341,43 +362,34 @@ numbers of your picks, best first."""
 
 
 def module_block(modules: list[dict]) -> str:
-    return "\n".join(f"- {m['id']}: {m['name']}. {m['focus']}" for m in modules)
+    lines = []
+    for m in modules:
+        lines.append(f"- {m['id']}: {m['name']}. {m['focus']}")
+        if m.get("theories"):
+            lines.append("  Theories: " + "; ".join(m["theories"]) + ".")
+    return "\n".join(lines)
 
 
 def note_schema(module_ids: list[str]) -> dict:
     text = {"type": "string"}
-    return {
-        "type": "object",
-        "additionalProperties": False,
-        "required": ["relevant", "takeaway", "summary", "key_points", "modules", "applications", "exam_question", "exam_outline"],
-        "properties": {
-            "relevant": {"type": "boolean"},
-            "takeaway": {**text, "description": "One sentence: the single idea worth remembering."},
-            "summary": {**text, "description": "Three or four sentences on what the article says."},
-            "key_points": {"type": "array", "items": text, "description": "Three or four short points."},
-            "modules": {
-                "type": "array",
-                "items": {
-                    "type": "object", "additionalProperties": False, "required": ["id", "relevance"],
-                    "properties": {"id": {"type": "string", "enum": module_ids}, "relevance": {"type": "integer"}},
-                },
-            },
-            "applications": {
-                "type": "array",
-                "items": {
-                    "type": "object", "additionalProperties": False, "required": ["module_id", "concept", "link", "practice"],
-                    "properties": {
-                        "module_id": {"type": "string", "enum": module_ids},
-                        "concept": {**text, "description": "Name of the theory, model or framework."},
-                        "link": {**text, "description": "Two or three sentences linking the theory to this article."},
-                        "practice": {**text, "description": "Two or three sentences on using it in practice."},
-                    },
-                },
-            },
-            "exam_question": text,
-            "exam_outline": {"type": "array", "items": text},
-        },
-    }
+    texts = {"type": "array", "items": text}
+
+    def obj(**props) -> dict:
+        return {"type": "object", "additionalProperties": False, "required": list(props), "properties": props}
+
+    module_id = {"type": "string", "enum": module_ids}
+    return obj(
+        relevant={"type": "boolean"},
+        takeaway=text,
+        summary=text,
+        key_points=texts,
+        modules={"type": "array", "items": obj(id=module_id, relevance={"type": "integer"}, reading=text)},
+        applications={"type": "array", "items": obj(module_id=module_id, concept=text, theory=text, link=text, critique=text, practice=text)},
+        case_study=obj(scenario=text, question=text, evidence=texts, answer_plan=texts, pitfalls=texts),
+        also_consider=texts,
+        exam_question=text,
+        exam_outline=texts,
+    )
 
 
 SELECT_SCHEMA = {
@@ -524,22 +536,33 @@ def study_note(claude: Claude, item: dict, text: str, basis: str, modules: list[
         log("    not relevant enough, left out" if note else "    no study note produced")
         return None
 
-    scored: dict[str, int] = {}
+    def texts(values, limit: int, count: int) -> list[str]:
+        return [clean(v, limit) for v in (values or []) if v][:count]
+
+    scored: dict[str, tuple[int, str]] = {}
     for m in note.get("modules", []):
         if m.get("id") in ids:
             score = max(0, min(100, int(m.get("relevance") or 0)))
-            if score >= 30:
-                scored[m["id"]] = max(score, scored.get(m["id"], 0))
-    top = sorted(scored.items(), key=lambda kv: kv[1], reverse=True)[:4]
+            if score >= 30 and score > scored.get(m["id"], (0, ""))[0]:
+                scored[m["id"]] = (score, clean(m.get("reading"), 900))
+    top = sorted(scored.items(), key=lambda kv: kv[1][0], reverse=True)[:4]
     applications = [
-        {"moduleId": a["module_id"], "concept": clean(a.get("concept"), 120), "link": clean(a.get("link"), 900), "practice": clean(a.get("practice"), 900)}
+        {
+            "moduleId": a["module_id"],
+            "concept": clean(a.get("concept"), 140),
+            "theory": clean(a.get("theory"), 700),
+            "link": clean(a.get("link"), 1400),
+            "critique": clean(a.get("critique"), 600),
+            "practice": clean(a.get("practice"), 800),
+        }
         for a in note.get("applications", [])
         if a.get("module_id") in ids and a.get("concept") and a.get("link")
-    ][:3]
+    ][:4]
     if not top or not applications:
         log("    no module fits, left out")
         return None
 
+    case = note.get("case_study") or {}
     record = {
         "id": item["id"],
         "title": clean(item["title"], 300),
@@ -550,14 +573,44 @@ def study_note(claude: Claude, item: dict, text: str, basis: str, modules: list[
         "basis": basis,
         "takeaway": clean(note.get("takeaway"), 400),
         "summary": clean(note.get("summary"), 1400),
-        "keyPoints": [clean(p, 300) for p in note.get("key_points", []) if p][:5],
-        "modules": [{"id": mid, "relevance": score} for mid, score in top],
+        "keyPoints": texts(note.get("key_points"), 300, 5),
+        "modules": [{"id": mid, "relevance": score, "reading": reading} for mid, (score, reading) in top],
         "applications": applications,
-        "exam": {"question": clean(note.get("exam_question"), 500), "outline": [clean(o, 300) for o in note.get("exam_outline", []) if o][:4]},
+        "caseStudy": {
+            "scenario": clean(case.get("scenario"), 1200),
+            "question": clean(case.get("question"), 500),
+            "evidence": texts(case.get("evidence"), 400, 5),
+            "plan": texts(case.get("answer_plan"), 400, 7),
+            "pitfalls": texts(case.get("pitfalls"), 400, 3),
+        },
+        "alsoConsider": texts(note.get("also_consider"), 120, 5),
+        "exam": {"question": clean(note.get("exam_question"), 500), "outline": texts(note.get("exam_outline"), 300, 4)},
     }
     if basis == "full_text":
         record["readingMinutes"] = max(1, round(len(text.split()) / 230))
     return record
+
+
+def link_only(article: dict) -> dict:
+    """What the archive keeps of an article once its study note has expired: enough to find it again."""
+    return {
+        "id": article["id"],
+        "title": article.get("title", ""),
+        "url": article.get("url", ""),
+        "source": article.get("source", ""),
+        "publishedAt": article.get("publishedAt", ""),
+        "addedAt": article.get("addedAt") or article.get("publishedAt", ""),
+        "modules": [{"id": m["id"], "relevance": m.get("relevance", 0)} for m in article.get("modules", [])],
+    }
+
+
+def load(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
+def save(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 # ── Main ────────────────────────────────────────────────────────────────────
@@ -571,12 +624,10 @@ def main() -> int:
     sources = json.loads((HERE / "sources.json").read_text(encoding="utf-8"))
     now = dt.datetime.now(UTC).replace(microsecond=0)
 
-    existing = []
-    if OUTPUT.exists():
-        previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
-        if not previous.get("sample"):          # the invented sample edition is dropped on the first real run
-            existing = previous.get("articles", [])
-    known = {a["id"] for a in existing}
+    previous = load(OUTPUT)
+    existing = [] if previous.get("sample") else previous.get("articles", [])   # the invented sample edition is dropped
+    archived = load(ARCHIVE).get("articles", [])
+    known = {a["id"] for a in existing} | {a["id"] for a in archived}
 
     log(f"Reading {len(sources)} feeds")
     candidates = gather(sources, known, now)
@@ -612,21 +663,23 @@ def main() -> int:
             log("Every request to the API failed. Keeping the previous edition.")
             return 1
 
-    oldest = (now - dt.timedelta(days=KEEP_DAYS)).isoformat().replace("+00:00", "Z")
-    articles = [a for a in fresh + existing if a.get("publishedAt", "") >= oldest]
-    articles.sort(key=lambda a: a.get("publishedAt", ""), reverse=True)
+    def stamp(days: int) -> str:
+        return (now - dt.timedelta(days=days)).isoformat().replace("+00:00", "Z")
 
+    def added(article: dict) -> str:
+        return article.get("addedAt") or article.get("publishedAt", "")
+
+    everything = fresh + existing
+    recent = sorted((a for a in everything if added(a) >= stamp(NOTE_DAYS)), key=added, reverse=True)
+    expired = [link_only(a) for a in everything if added(a) < stamp(NOTE_DAYS)]
+    archive = sorted((a for a in expired + archived if added(a) >= stamp(ARCHIVE_DAYS)), key=added, reverse=True)[:ARCHIVE_MAX]
+
+    generated = now.isoformat().replace("+00:00", "Z")
     public_modules = [{k: m[k] for k in ("id", "name", "short", "color")} for m in modules]
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(json.dumps({
-        "version": 1,
-        "generatedAt": now.isoformat().replace("+00:00", "Z"),
-        "model": MODEL,
-        "modules": public_modules,
-        "articles": articles[:KEEP_MAX],
-    }, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    save(OUTPUT, {"version": 2, "generatedAt": generated, "model": MODEL, "modules": public_modules, "articles": recent})
+    save(ARCHIVE, {"version": 2, "generatedAt": generated, "articles": archive})
 
-    log(f"Edition saved: {len(fresh)} new, {len(articles[:KEEP_MAX])} in total. API use: {claude.cost()}.")
+    log(f"Edition saved: {len(fresh)} new, {len(recent)} with study notes, {len(archive)} in the archive. API use: {claude.cost()}.")
     return 0
 
 
