@@ -17,6 +17,9 @@ relevant module applied to it, and an exam-style question.
   the public abstract from the feed is used.
 - **Articles per day and model:** repository variables `MBA_RADAR_MAX_NEW` (default 10) and
   `MBA_RADAR_MODEL` (default `claude-haiku-5-5`).
+- **Full text first:** the collector tries three times as many articles as it publishes and uses the
+  ones it can read in full first. At most 3 notes per edition come from an abstract alone, unless
+  there are not enough full-text articles that day.
 
 ## Run it yourself
 

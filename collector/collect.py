@@ -12,6 +12,7 @@ Settings (environment variables, all optional):
     MBA_RADAR_MODEL    Claude model id                    (default claude-haiku-5-5)
     MBA_RADAR_EFFORT   low | medium | high                (default high)
     MBA_RADAR_MAX_NEW  study notes written per run        (default 10)
+    MBA_RADAR_MAX_ABSTRACT  notes allowed from an abstract alone while full-text articles remain (default 3)
 """
 from __future__ import annotations
 
@@ -38,6 +39,8 @@ OUTPUT = HERE.parent / "app" / "data" / "articles.json"
 MODEL = os.environ.get("MBA_RADAR_MODEL", "claude-haiku-5-5")
 EFFORT = os.environ.get("MBA_RADAR_EFFORT", "high")
 MAX_NEW = int(os.environ.get("MBA_RADAR_MAX_NEW", "10"))
+MAX_ABSTRACT = int(os.environ.get("MBA_RADAR_MAX_ABSTRACT", "3"))
+SHORTLIST = MAX_NEW * 3   # articles tried per run; the ones whose full text can be read are used first
 
 MAX_AGE_DAYS = 4          # ignore feed items older than this
 PER_SOURCE = 12           # newest items considered per source
@@ -332,7 +335,9 @@ The student's modules:
 Choose articles with real substance (analysis, research findings, case evidence, a significant business \
 development) that connect clearly to one or more modules. Aim for a spread across the modules and across the \
 sources instead of several pieces on one story. Skip podcast and event notices, product announcements, job \
-adverts and thin news briefs. Return the numbers of your picks, best first."""
+adverts and thin news briefs. Items marked [full text] can be read in full, so the study note will be richer: \
+prefer them when quality is comparable, but keep an outstanding article even without the mark. Return the \
+numbers of your picks, best first."""
 
 
 def module_block(modules: list[dict]) -> str:
@@ -449,12 +454,15 @@ class Claude:
 
 
 def choose(claude: Claude, candidates: list[dict], modules: list[dict]) -> list[dict]:
+    """Return a ranked shortlist, longer than the edition, so abstract-only articles can be passed over."""
     if len(candidates) <= MAX_NEW:
         return candidates
-    listing = "\n".join(f"{n}. [{c['source']}] {c['title']} — {c['abstract'][:280]}" for n, c in enumerate(candidates, 1))
+    listing = "\n".join(
+        f"{n}. [{c['source']}]{' [full text]' if len(c['feed_text']) >= FULL_TEXT_MIN else ''} {c['title']} — {c['abstract'][:280]}"
+        for n, c in enumerate(candidates, 1))
     answer = claude.ask(
         SELECT_SYSTEM.format(modules=module_block(modules)),
-        f"Pick up to {MAX_NEW} of these {len(candidates)} articles.\n\n{listing}",
+        f"Pick up to {SHORTLIST} of these {len(candidates)} articles.\n\n{listing}",
         SELECT_SCHEMA,
         "low",
     )
@@ -464,29 +472,47 @@ def choose(claude: Claude, candidates: list[dict], modules: list[dict]) -> list[
             picks.append(candidates[n - 1])
     if not picks:
         log("  selection failed; falling back to the newest articles")
-        return fallback_choice(candidates)
-    return picks[:MAX_NEW]
+        return fallback_choice(candidates, SHORTLIST)
+    return picks[:SHORTLIST]
 
 
-def fallback_choice(candidates: list[dict]) -> list[dict]:
+def fallback_choice(candidates: list[dict], count: int) -> list[dict]:
     """Newest first, taking one per source in turn so no single feed dominates."""
     by_source: dict[str, list[dict]] = {}
     for c in candidates:
         by_source.setdefault(c["source"], []).append(c)
     picks = []
-    while len(picks) < MAX_NEW and any(by_source.values()):
+    while len(picks) < count and any(by_source.values()):
         for items in by_source.values():
-            if items and len(picks) < MAX_NEW:
+            if items and len(picks) < count:
                 picks.append(items.pop(0))
     return picks
+
+
+def plan_edition(shortlist: list[dict]):
+    """Yield (item, text, basis) in the order notes should be written.
+
+    Articles are read in ranked order. Those with full text go first; an article known only by its
+    abstract is used straight away while the abstract allowance lasts, and otherwise kept back to fill
+    the edition only if the full-text articles run out.
+    """
+    held, abstracts = [], 0
+    for item in shortlist:
+        text, basis = article_text(item)
+        if basis == "abstract":
+            if abstracts >= MAX_ABSTRACT:
+                held.append((item, text, basis))
+                continue
+            abstracts += 1
+        yield item, text, basis
+    yield from held
 
 
 def clean(value, limit: int) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()[:limit]
 
 
-def study_note(claude: Claude, item: dict, modules: list[dict], now: dt.datetime) -> dict | None:
-    text, basis = article_text(item)
+def study_note(claude: Claude, item: dict, text: str, basis: str, modules: list[dict], now: dt.datetime) -> dict | None:
     given = "the full article text" if basis == "full_text" else "only the publisher's short abstract, not the article itself"
     user = (
         f"Source: {item['source']}\nTitle: {item['title']}\n"
@@ -560,9 +586,10 @@ def main() -> int:
         return 1
 
     if opts.dry_run:
-        for item in fallback_choice(candidates):
-            text, basis = article_text(item)
+        for count, (item, text, basis) in enumerate(plan_edition(fallback_choice(candidates, SHORTLIST)), 1):
             log(f"  [{basis:9}] {len(text):6} chars  {item['source']}: {item['title'][:70]}")
+            if count >= MAX_NEW:
+                break
         log("Dry run finished. Nothing was sent to the API and nothing was written.")
         return 0
 
@@ -573,10 +600,12 @@ def main() -> int:
     fresh = []
     if candidates:
         chosen = choose(claude, candidates, modules)
-        log(f"Writing study notes for {len(chosen)} articles with {MODEL}")
-        for item in chosen:
-            log(f"  {item['source']}: {item['title'][:80]}")
-            record = study_note(claude, item, modules, now)
+        log(f"Writing up to {MAX_NEW} study notes from a shortlist of {len(chosen)} with {MODEL}")
+        for item, text, basis in plan_edition(chosen):
+            if len(fresh) >= MAX_NEW:
+                break
+            log(f"  [{basis}] {item['source']}: {item['title'][:80]}")
+            record = study_note(claude, item, text, basis, modules, now)
             if record:
                 fresh.append(record)
         if chosen and not fresh and claude.tokens_out == 0:
