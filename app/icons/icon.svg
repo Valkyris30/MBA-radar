@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="70%" cy="15%" r="95%">
+      <stop offset="0" stop-color="#1b1f4a"/>
+      <stop offset="0.55" stop-color="#0a0e1a"/>
+      <stop offset="1" stop-color="#05070d"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="256" y1="256" x2="400" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2de2e6" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#2de2e6" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="168" fill="none" stroke="#2de2e6" stroke-opacity="0.45" stroke-width="6"/>
+  <circle cx="256" cy="256" r="108" fill="none" stroke="#2de2e6" stroke-opacity="0.32" stroke-width="5"/>
+  <circle cx="256" cy="256" r="50" fill="none" stroke="#2de2e6" stroke-opacity="0.25" stroke-width="5"/>
+  <path d="M256 256 L256 88 A168 168 0 0 1 401.5 172 Z" fill="url(#sweep)"/>
+  <line x1="256" y1="256" x2="256" y2="88" stroke="#2de2e6" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="16" fill="#2de2e6"/>
+  <circle cx="338" cy="176" r="22" fill="#8b7cff"/>
+  <circle cx="160" cy="300" r="17" fill="#ffb454"/>
+  <circle cx="312" cy="352" r="14" fill="#f06bd6"/>
+</svg>

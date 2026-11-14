@@ -1,0 +1,65 @@
+[
+  {
+    "id": "scm",
+    "name": "Logistics & Supply Chain Management",
+    "short": "Supply chain",
+    "color": "#2de2e6",
+    "focus": "Supply chain strategy and design, sourcing and procurement, supplier relationships, inventory and distribution, transport and warehousing, risk and resilience, sustainability, the bullwhip effect, total landed cost, lean and agile supply chains."
+  },
+  {
+    "id": "operations",
+    "name": "Operations Management",
+    "short": "Operations",
+    "color": "#3ba7ff",
+    "focus": "Process design, capacity and bottlenecks, quality management (TQM, Six Sigma), lean and just-in-time, planning and control, service operations, productivity, technology and automation in operations."
+  },
+  {
+    "id": "strategy",
+    "name": "Strategic Planning",
+    "short": "Strategy",
+    "color": "#8b7cff",
+    "focus": "Competitive advantage, industry analysis (five forces, PESTEL), resources and capabilities (VRIO), generic strategies, growth and diversification, mergers and alliances, business models, strategy implementation."
+  },
+  {
+    "id": "pwo",
+    "name": "People, Work & Organisations",
+    "short": "PWO",
+    "color": "#f06bd6",
+    "focus": "Motivation and job design, organisational culture and structure, groups and teams, human resource management, employment relations, the psychological contract, organisational change, diversity, wellbeing, the future of work."
+  },
+  {
+    "id": "leadership",
+    "name": "Leadership",
+    "short": "Leadership",
+    "color": "#ff6b8b",
+    "focus": "Leadership theories (trait, behavioural, situational, transformational, authentic), power and influence, ethics and responsibility, decision making, leading change, developing leaders, followership."
+  },
+  {
+    "id": "economics",
+    "name": "Economics for Business",
+    "short": "Economics",
+    "color": "#ffb454",
+    "focus": "Demand, supply and elasticity, costs and market structures, pricing, competition and regulation, macroeconomic conditions (inflation, interest rates, growth), international trade, exchange rates, labour markets."
+  },
+  {
+    "id": "finance",
+    "name": "Financial Decision Making",
+    "short": "Finance",
+    "color": "#c6f04f",
+    "focus": "Financial statements and ratio analysis, working capital and cash flow, investment appraisal (NPV, IRR, payback), cost of capital, capital structure, budgeting, risk management, valuation."
+  },
+  {
+    "id": "marketing",
+    "name": "Strategic Marketing",
+    "short": "Marketing",
+    "color": "#ff8a4c",
+    "focus": "Segmentation, targeting and positioning, brand equity, the marketing mix, pricing strategy, customer experience and loyalty, consumer behaviour, digital marketing, market research."
+  },
+  {
+    "id": "projects",
+    "name": "Delivering Successful Projects",
+    "short": "Projects",
+    "color": "#4ff0a8",
+    "focus": "Project life cycle, scope, time and cost (the iron triangle), planning and scheduling, risk and stakeholder management, governance, agile and waterfall methods, benefits realisation, why projects fail."
+  }
+]

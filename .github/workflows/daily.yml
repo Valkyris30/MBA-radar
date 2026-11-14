@@ -1,0 +1,65 @@
+name: Daily edition
+
+# Every morning: collect new articles, write the study notes, publish the app.
+# A push that changes the app republishes it without collecting.
+on:
+  schedule:
+    - cron: "30 5 * * *"   # 05:30 UTC, every day
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - ".github/workflows/daily.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: edition
+  cancel-in-progress: false
+
+jobs:
+  edition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: github.event_name != 'push'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect articles and write study notes
+        if: github.event_name != 'push'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MBA_RADAR_MODEL: ${{ vars.MBA_RADAR_MODEL || 'claude-haiku-5-5' }}
+          MBA_RADAR_MAX_NEW: ${{ vars.MBA_RADAR_MAX_NEW || '10' }}
+        run: |
+          pip install --quiet -r collector/requirements.txt
+          python collector/collect.py
+
+      - name: Save the edition
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "mba-radar-bot"
+          git config user.email "mba-radar-bot@users.noreply.github.com"
+          git add app/data/articles.json
+          git diff --cached --quiet || git commit -m "Daily edition"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+      - name: Publish the app
+        id: deploy
+        uses: actions/deploy-pages@v4

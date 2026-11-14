@@ -1,0 +1,18 @@
+[
+  { "name": "Harvard Business Review", "feed": "http://feeds.harvardbusiness.org/harvardbusiness", "site": "https://hbr.org/", "read_page": false },
+  { "name": "MIT Sloan Management Review", "feed": "https://sloanreview.mit.edu/feed/", "site": "https://sloanreview.mit.edu/", "read_page": false },
+  { "name": "McKinsey Insights", "feed": "https://www.mckinsey.com/insights/rss", "site": "https://www.mckinsey.com/" },
+  { "name": "Knowledge at Wharton", "feed": "https://knowledge.wharton.upenn.edu/feed/", "site": "https://knowledge.wharton.upenn.edu/" },
+  { "name": "HBS Working Knowledge", "feed": "https://hbswk.hbs.edu/rss/home.aspx", "site": "https://hbswk.hbs.edu/" },
+  { "name": "California Management Review", "feed": "https://cmr.berkeley.edu/feed.xml", "site": "https://cmr.berkeley.edu/" },
+  { "name": "LSE Business Review", "feed": "https://blogs.lse.ac.uk/businessreview/feed/", "site": "https://blogs.lse.ac.uk/businessreview/" },
+  { "name": "The Conversation", "feed": "https://theconversation.com/global/business/articles.atom", "site": "https://theconversation.com/" },
+  { "name": "Supply Chain Dive", "feed": "https://www.supplychaindive.com/feeds/news/", "site": "https://www.supplychaindive.com/" },
+  { "name": "SupplyChainBrain", "feed": "https://www.supplychainbrain.com/rss/articles", "site": "https://www.supplychainbrain.com/" },
+  { "name": "Supply Chain Xchange", "feed": "https://www.supplychainquarterly.com/rss/articles", "site": "https://www.supplychainquarterly.com/" },
+  { "name": "The Loadstar", "feed": "https://theloadstar.com/feed/", "site": "https://theloadstar.com/" },
+  { "name": "HR Dive", "feed": "https://www.hrdive.com/feeds/news/", "site": "https://www.hrdive.com/" },
+  { "name": "CFO Dive", "feed": "https://www.cfodive.com/feeds/news/", "site": "https://www.cfodive.com/" },
+  { "name": "Marketing Week", "feed": "https://www.marketingweek.com/feed/", "site": "https://www.marketingweek.com/" },
+  { "name": "VoxEU (CEPR)", "feed": "https://cepr.org/rss/vox-content", "site": "https://cepr.org/" }
+]

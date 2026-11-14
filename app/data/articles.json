@@ -1,0 +1,407 @@
+{
+  "version": 1,
+  "sample": true,
+  "generatedAt": "2026-11-13T06:10:00Z",
+  "modules": [
+    { "id": "scm", "name": "Logistics & Supply Chain Management", "short": "Supply chain", "color": "#2de2e6" },
+    { "id": "operations", "name": "Operations Management", "short": "Operations", "color": "#3ba7ff" },
+    { "id": "strategy", "name": "Strategic Planning", "short": "Strategy", "color": "#8b7cff" },
+    { "id": "pwo", "name": "People, Work & Organisations", "short": "PWO", "color": "#f06bd6" },
+    { "id": "leadership", "name": "Leadership", "short": "Leadership", "color": "#ff6b8b" },
+    { "id": "economics", "name": "Economics for Business", "short": "Economics", "color": "#ffb454" },
+    { "id": "finance", "name": "Financial Decision Making", "short": "Finance", "color": "#c6f04f" },
+    { "id": "marketing", "name": "Strategic Marketing", "short": "Marketing", "color": "#ff8a4c" },
+    { "id": "projects", "name": "Delivering Successful Projects", "short": "Projects", "color": "#4ff0a8" }
+  ],
+  "articles": [
+    {
+      "id": "sample-01",
+      "title": "Why resilient supply chains trade speed for optionality",
+      "url": "",
+      "source": "Sample Business Review",
+      "publishedAt": "2026-11-13T05:20:00Z",
+      "readingMinutes": 7,
+      "basis": "full_text",
+      "takeaway": "Resilience is bought, not found: the firms that cope best decide in advance which products deserve a slower, costlier, safer supply chain.",
+      "summary": "The article follows manufacturers that added backup suppliers and regional stock after repeated disruptions. Dual sourcing raised unit costs and lengthened some lead times, but cut stock-outs sharply. The firms that gained most did not protect everything; they segmented their portfolio and paid for resilience only where a shortage would be most damaging.",
+      "keyPoints": [
+        "Backup capacity behaves like insurance: a visible premium for an invisible benefit.",
+        "Protecting every product equally destroys margin; segmentation is the real decision.",
+        "Lead time, not unit cost, becomes the variable managers trade against risk."
+      ],
+      "modules": [ { "id": "scm", "relevance": 92 }, { "id": "operations", "relevance": 74 }, { "id": "finance", "relevance": 48 } ],
+      "applications": [
+        {
+          "moduleId": "scm",
+          "concept": "Fisher's supply chain matrix",
+          "link": "Fisher argues that functional products need efficient supply chains and innovative products need responsive ones. The firms in the article are re-sorting products between those two designs rather than making the whole chain 'resilient'.",
+          "practice": "List your top 20 products by margin and demand uncertainty. Give dual sourcing and safety stock only to the high-margin, hard-to-forecast group; keep the rest on the lean, low-cost chain."
+        },
+        {
+          "moduleId": "finance",
+          "concept": "Real options thinking",
+          "link": "A qualified second supplier is an option: you pay a premium now for the right, not the obligation, to switch volume later. Its value rises with uncertainty, which plain NPV tends to miss.",
+          "practice": "When you build the business case, price the backup supplier as an insurance premium against the expected cost of a stock-out, instead of comparing unit prices alone."
+        }
+      ],
+      "exam": {
+        "question": "A manufacturer wants to make its supply chain more resilient without eroding margins. How should it decide which products to protect, and with which mechanisms?",
+        "outline": [
+          "Segment products by demand uncertainty and contribution margin (Fisher).",
+          "Match the mechanism to the risk: buffer stock, dual sourcing, or flexible capacity.",
+          "Evaluate the cost as an option premium against the expected loss from disruption."
+        ]
+      }
+    },
+    {
+      "id": "sample-02",
+      "title": "What middle managers do when AI takes over the reporting",
+      "url": "",
+      "source": "Sample Management Quarterly",
+      "publishedAt": "2026-11-13T03:05:00Z",
+      "readingMinutes": 6,
+      "basis": "full_text",
+      "takeaway": "When software writes the status report, the manager's job does not disappear; it shifts from collecting information to making sense of it for the team.",
+      "summary": "Interviews with managers in firms that automated performance reporting show two outcomes. Some felt stripped of purpose and status; others used the freed time for coaching and cross-team problem solving. The difference came from how the role was redesigned, not from the technology itself.",
+      "keyPoints": [
+        "Automation removed tasks, and with them a source of the manager's authority.",
+        "Roles that were redesigned on purpose gained autonomy and significance.",
+        "Where nothing was redesigned, engagement fell and turnover intentions rose."
+      ],
+      "modules": [ { "id": "pwo", "relevance": 88 }, { "id": "leadership", "relevance": 70 }, { "id": "strategy", "relevance": 34 } ],
+      "applications": [
+        {
+          "moduleId": "pwo",
+          "concept": "Job Characteristics Model (Hackman and Oldham)",
+          "link": "Taking reporting away lowers task identity and significance unless something replaces it. The successful firms raised skill variety, autonomy and feedback, the levers the model says drive motivation.",
+          "practice": "Before you automate a task, write down which of the five core job dimensions it supports for the people who do it, and what will replace each one afterwards."
+        },
+        {
+          "moduleId": "leadership",
+          "concept": "Sensemaking as a leadership task",
+          "link": "With data freely available, the leader's contribution is interpreting it: explaining what the numbers mean for priorities. That is closer to transformational leadership than to transactional monitoring.",
+          "practice": "Replace the weekly status meeting with a short 'what changed and what we do about it' session led by the manager."
+        }
+      ],
+      "exam": {
+        "question": "Critically evaluate the claim that AI will make middle management redundant, using theories of job design and leadership.",
+        "outline": [
+          "Separate the tasks that are automated from the role as a whole.",
+          "Apply the Job Characteristics Model to the redesigned role.",
+          "Contrast transactional monitoring with transformational, sensemaking leadership."
+        ]
+      }
+    },
+    {
+      "id": "sample-03",
+      "title": "Pricing power in a slow-growth economy",
+      "url": "",
+      "source": "Sample Insights",
+      "publishedAt": "2026-11-12T16:40:00Z",
+      "readingMinutes": 8,
+      "basis": "full_text",
+      "takeaway": "When volume stops growing, price becomes the main profit lever, and only firms that know their customers' elasticity can pull it safely.",
+      "summary": "The piece compares companies that raised prices during weak demand. Those with differentiated offers kept their volumes; those selling near-commodities lost share within two quarters. The authors argue that most firms set prices from cost and competitor lists rather than from measured willingness to pay.",
+      "keyPoints": [
+        "A small price rise moves profit far more than the same percentage rise in volume.",
+        "Elasticity differs by segment, so one list price leaves money on the table.",
+        "Differentiation, not market share, is what protects a price increase."
+      ],
+      "modules": [ { "id": "economics", "relevance": 86 }, { "id": "marketing", "relevance": 78 }, { "id": "finance", "relevance": 40 } ],
+      "applications": [
+        {
+          "moduleId": "economics",
+          "concept": "Price elasticity of demand",
+          "link": "Revenue rises with price only where demand is inelastic. The commodity sellers in the article faced elastic demand and close substitutes, so their increases reduced total revenue.",
+          "practice": "Estimate elasticity for each segment from past price changes or a small test before you announce an increase, and raise prices first where demand is least sensitive."
+        },
+        {
+          "moduleId": "marketing",
+          "concept": "Value-based pricing",
+          "link": "The winners priced from the value customers perceive, not from cost plus a margin. Positioning and brand equity are what made that value credible.",
+          "practice": "Rewrite your price justification around the customer's outcome, such as time saved or risk removed, and offer good, better and best tiers so segments choose their own price."
+        }
+      ],
+      "exam": {
+        "question": "Under what market conditions can a firm raise prices without losing revenue? Illustrate with elasticity and differentiation.",
+        "outline": [
+          "Define price elasticity and its link to total revenue.",
+          "Explain how substitutes and market structure shape elasticity.",
+          "Show how differentiation and segmentation make demand less elastic."
+        ]
+      }
+    },
+    {
+      "id": "sample-04",
+      "title": "The hidden cash in your warehouse",
+      "url": "",
+      "source": "Sample CFO Brief",
+      "publishedAt": "2026-11-12T11:15:00Z",
+      "readingMinutes": 5,
+      "basis": "full_text",
+      "takeaway": "With borrowing costs high, the cheapest finance a company can find is often sitting on its own shelves as excess inventory.",
+      "summary": "Retailers in the article released cash by cutting slow-moving stock and renegotiating supplier payment terms. Finance and supply chain teams had been working to conflicting targets: one rewarded low unit cost through bulk buying, the other rewarded cash. Joint targets on the cash conversion cycle resolved it.",
+      "keyPoints": [
+        "Bulk-purchase discounts can cost more in tied-up cash than they save.",
+        "Inventory days, receivable days and payable days must be managed together.",
+        "Shared metrics matter more than new software."
+      ],
+      "modules": [ { "id": "finance", "relevance": 85 }, { "id": "scm", "relevance": 72 }, { "id": "operations", "relevance": 46 } ],
+      "applications": [
+        {
+          "moduleId": "finance",
+          "concept": "Cash conversion cycle",
+          "link": "The cycle equals inventory days plus receivable days minus payable days. Every day removed is cash the firm no longer needs to borrow, which matters more as the cost of capital rises.",
+          "practice": "Calculate the three components for your business unit and price one day of each at your cost of capital, so operations can see the money value of inventory."
+        },
+        {
+          "moduleId": "scm",
+          "concept": "Economic order quantity and holding cost",
+          "link": "EOQ balances ordering cost against holding cost. The retailers had been using outdated holding costs that ignored higher interest rates, so their order sizes were too large.",
+          "practice": "Recalculate order quantities with a current holding cost and review any supplier discount that requires more than a few weeks of cover."
+        }
+      ],
+      "exam": {
+        "question": "Explain how inventory policy affects a firm's working capital, and how a rise in interest rates should change that policy.",
+        "outline": [
+          "Set out the cash conversion cycle and its components.",
+          "Link holding cost to the cost of capital in the EOQ trade-off.",
+          "Discuss the conflict between purchasing and finance objectives."
+        ]
+      }
+    },
+    {
+      "id": "sample-05",
+      "title": "Why megaprojects fail early, not late",
+      "url": "",
+      "source": "Sample Project Review",
+      "publishedAt": "2026-11-12T08:00:00Z",
+      "readingMinutes": 9,
+      "basis": "full_text",
+      "takeaway": "Most cost overruns are locked in before construction starts, by optimistic forecasts made when the project was still trying to win approval.",
+      "summary": "The article reviews large infrastructure and IT projects and finds that overruns trace back to the business case: underestimated costs, overstated benefits and a rushed front end. Projects that spent longer on planning and compared themselves with similar past projects finished closer to budget.",
+      "keyPoints": [
+        "Optimism bias and strategic misrepresentation distort early estimates.",
+        "A slow, thorough front end makes fast delivery possible.",
+        "Past projects of the same type predict outcomes better than detailed bottom-up plans."
+      ],
+      "modules": [ { "id": "projects", "relevance": 93 }, { "id": "leadership", "relevance": 44 }, { "id": "finance", "relevance": 41 } ],
+      "applications": [
+        {
+          "moduleId": "projects",
+          "concept": "Reference class forecasting",
+          "link": "Flyvbjerg's method replaces the 'inside view' of a unique project with the 'outside view': the actual results of comparable projects. It directly counters the planning fallacy described in the article.",
+          "practice": "For your next estimate, find five comparable completed projects, record their overrun, and add that uplift to your bottom-up figure before seeking approval."
+        },
+        {
+          "moduleId": "leadership",
+          "concept": "Escalation of commitment",
+          "link": "Once approved, leaders keep funding a failing project to justify earlier decisions. Stage gates with independent reviewers are a governance answer to this bias.",
+          "practice": "Define in advance the measurable conditions under which the project would be stopped, and give that decision to someone who did not sponsor it."
+        }
+      ],
+      "exam": {
+        "question": "Why do large projects so often exceed their budgets, and what can project sponsors do at the front end to reduce the risk?",
+        "outline": [
+          "Explain optimism bias and strategic misrepresentation.",
+          "Describe reference class forecasting and front-end loading.",
+          "Discuss governance: stage gates and independent assurance."
+        ]
+      }
+    },
+    {
+      "id": "sample-06",
+      "title": "Nearshoring's second act: the new trade map",
+      "url": "",
+      "source": "Sample Supply Chain Daily",
+      "publishedAt": "2026-11-11T14:30:00Z",
+      "readingMinutes": 6,
+      "basis": "abstract",
+      "takeaway": "Moving production closer to customers is no longer only about labour cost; tariffs, transit time and carbon are now part of the calculation.",
+      "summary": "The abstract reports that companies are relocating some production from distant low-cost countries to locations nearer their main markets, and that the decision increasingly rests on total cost and risk rather than factory wages.",
+      "keyPoints": [
+        "Location decisions are shifting from unit labour cost to total landed cost.",
+        "Shorter transit times reduce both inventory and exposure to disruption."
+      ],
+      "modules": [ { "id": "scm", "relevance": 90 }, { "id": "economics", "relevance": 66 }, { "id": "strategy", "relevance": 58 } ],
+      "applications": [
+        {
+          "moduleId": "scm",
+          "concept": "Total landed cost",
+          "link": "Total landed cost adds freight, duties, inventory in transit, quality failures and risk to the factory price. Nearshoring wins on this measure in cases where it loses on unit cost.",
+          "practice": "Build a landed-cost comparison for one product across two locations, including the cost of the extra weeks of pipeline inventory."
+        },
+        {
+          "moduleId": "economics",
+          "concept": "Comparative advantage and trade costs",
+          "link": "Comparative advantage still explains where production is cheapest, but tariffs and transport act as trade costs that can outweigh it.",
+          "practice": "Test how sensitive your sourcing decision is to a change in tariff rates or freight prices before committing to a long contract."
+        }
+      ],
+      "exam": {
+        "question": "Assess the factors a firm should consider when deciding whether to nearshore production.",
+        "outline": [
+          "Compare unit cost with total landed cost.",
+          "Include risk, lead time and responsiveness.",
+          "Consider trade policy and comparative advantage."
+        ]
+      }
+    },
+    {
+      "id": "sample-07",
+      "title": "The four-day week, two years on",
+      "url": "",
+      "source": "Sample Workplace Journal",
+      "publishedAt": "2026-11-11T09:10:00Z",
+      "readingMinutes": 6,
+      "basis": "full_text",
+      "takeaway": "Shorter weeks held productivity where work was redesigned, and quietly failed where the same workload was squeezed into fewer days.",
+      "summary": "A follow-up of organisations that adopted a four-day week finds that most kept it. Wellbeing and retention improved. Output held steady in teams that cut meetings and clarified priorities, while teams that simply compressed hours reported more stress than before.",
+      "keyPoints": [
+        "The benefit came from removing low-value work, not from the day off itself.",
+        "Retention gains offset part of the cost of reduced hours.",
+        "Customer-facing teams needed staggered schedules to keep coverage."
+      ],
+      "modules": [ { "id": "pwo", "relevance": 90 }, { "id": "operations", "relevance": 52 }, { "id": "leadership", "relevance": 36 } ],
+      "applications": [
+        {
+          "moduleId": "pwo",
+          "concept": "Herzberg's two-factor theory",
+          "link": "Working time is a hygiene factor: improving it removes dissatisfaction. The lasting gains in the article came from motivators such as autonomy over how work is organised.",
+          "practice": "Pair any change in hours with a team-led review of which tasks to stop, so the change adds autonomy and not only free time."
+        },
+        {
+          "moduleId": "operations",
+          "concept": "Capacity and utilisation",
+          "link": "Cutting a day reduces available capacity by a fifth. Output only holds if waste is removed or utilisation of the remaining time rises, which is a process-design problem.",
+          "practice": "Map one team's weekly hours into value-adding and non-value-adding activity before the trial, and set the target on the second category."
+        }
+      ],
+      "exam": {
+        "question": "Using motivation theory, evaluate whether a four-day working week is likely to improve organisational performance.",
+        "outline": [
+          "Distinguish hygiene factors from motivators.",
+          "Consider work intensification as a counter-argument.",
+          "Link outcomes to job redesign and to capacity."
+        ]
+      }
+    },
+    {
+      "id": "sample-08",
+      "title": "Private labels are winning the brand war",
+      "url": "",
+      "source": "Sample Marketing Weekly",
+      "publishedAt": "2026-11-10T13:45:00Z",
+      "readingMinutes": 5,
+      "basis": "full_text",
+      "takeaway": "Retailers' own brands have moved from cheap alternative to first choice, and that shifts bargaining power away from manufacturers.",
+      "summary": "Shoppers who switched to supermarket own brands during the cost-of-living squeeze have largely stayed. Retailers invested in quality and packaging, and now use their own ranges to negotiate harder with branded suppliers. Brands that kept share were those with clear, defensible differentiation.",
+      "keyPoints": [
+        "Quality perceptions of own brands have closed much of the gap.",
+        "Retailers control shelf space and data, which strengthens their position.",
+        "Mid-market brands without a distinct position are the most exposed."
+      ],
+      "modules": [ { "id": "marketing", "relevance": 88 }, { "id": "strategy", "relevance": 64 }, { "id": "economics", "relevance": 42 } ],
+      "applications": [
+        {
+          "moduleId": "marketing",
+          "concept": "Customer-based brand equity (Keller)",
+          "link": "Brand equity is the difference brand knowledge makes to a customer's response. When own brands match perceived quality, that difference shrinks and the price premium becomes hard to defend.",
+          "practice": "Audit what your brand stands for beyond quality. If customers cannot name it, invest in a distinct association before spending on promotions."
+        },
+        {
+          "moduleId": "strategy",
+          "concept": "Porter's five forces: buyer power",
+          "link": "A retailer with a credible own brand has, in effect, integrated backwards. That raises buyer power and squeezes supplier margins across the category.",
+          "practice": "Map how dependent you are on your three largest retail customers and build a direct or alternative channel for part of your volume."
+        }
+      ],
+      "exam": {
+        "question": "How should a branded manufacturer respond to the growth of retailer own brands?",
+        "outline": [
+          "Analyse the shift in buyer power using the five forces.",
+          "Assess brand equity and the basis of differentiation.",
+          "Evaluate options: innovate, reposition, or supply own brands."
+        ]
+      }
+    },
+    {
+      "id": "sample-09",
+      "title": "Lean meets volatility: rethinking just-in-time",
+      "url": "",
+      "source": "Sample Operations Review",
+      "publishedAt": "2026-11-10T07:30:00Z",
+      "readingMinutes": 7,
+      "basis": "full_text",
+      "takeaway": "Just-in-time was never about zero inventory; the plants that kept it working treated buffers as a deliberate design choice.",
+      "summary": "Plants that abandoned lean after supply shocks saw costs rise without becoming more reliable. Those that kept lean discipline but placed small buffers at known bottlenecks recovered faster. The article argues that many firms had copied lean's low stock levels without its problem-solving culture.",
+      "keyPoints": [
+        "Low inventory is a result of stable processes, not a starting point.",
+        "Buffers belong at the constraint, not spread evenly along the line.",
+        "Demand signals shared with suppliers reduce the need for stock."
+      ],
+      "modules": [ { "id": "operations", "relevance": 91 }, { "id": "scm", "relevance": 80 } ],
+      "applications": [
+        {
+          "moduleId": "operations",
+          "concept": "Theory of constraints",
+          "link": "Goldratt's point is that a system's output is set by its bottleneck. Protecting that one step with a buffer preserves flow at far lower cost than raising stock everywhere.",
+          "practice": "Identify the single step that limits your throughput and hold a time buffer in front of it; remove buffers elsewhere."
+        },
+        {
+          "moduleId": "scm",
+          "concept": "The bullwhip effect",
+          "link": "Small swings in customer demand grow as orders pass upstream. Firms that shared real demand data with suppliers dampened that amplification and needed less safety stock.",
+          "practice": "Send suppliers your point-of-sale or consumption data instead of orders alone, and review any batching rules that distort the signal."
+        }
+      ],
+      "exam": {
+        "question": "Is just-in-time still an appropriate philosophy in a volatile environment? Discuss.",
+        "outline": [
+          "Clarify what lean and JIT actually require.",
+          "Use the theory of constraints to position buffers.",
+          "Explain the bullwhip effect and the role of information sharing."
+        ]
+      }
+    },
+    {
+      "id": "sample-10",
+      "title": "Leading through a restructuring without losing trust",
+      "url": "",
+      "source": "Sample Leadership Journal",
+      "publishedAt": "2026-11-09T10:20:00Z",
+      "readingMinutes": 6,
+      "basis": "full_text",
+      "takeaway": "People forgive a hard decision more readily than a vague one; trust during restructuring depends on how openly leaders explain the reasoning.",
+      "summary": "The article contrasts two companies that cut similar numbers of roles. In one, leaders explained the criteria early and stayed visible; engagement recovered within a year. In the other, messages were delayed and filtered, and the best performers left first.",
+      "keyPoints": [
+        "Perceived fairness of the process matters as much as the outcome.",
+        "Silence is read as bad news and fills with rumour.",
+        "Those who stay judge the organisation by how it treats those who leave."
+      ],
+      "modules": [ { "id": "leadership", "relevance": 90 }, { "id": "pwo", "relevance": 78 }, { "id": "strategy", "relevance": 30 } ],
+      "applications": [
+        {
+          "moduleId": "leadership",
+          "concept": "Kotter's eight-step change model",
+          "link": "The successful firm created urgency with evidence, formed a visible guiding coalition and communicated the vision repeatedly, the early steps Kotter says most change efforts skip.",
+          "practice": "Before announcing a change, prepare a one-page explanation of why, why now and how decisions will be made, and have every senior leader deliver it in person."
+        },
+        {
+          "moduleId": "pwo",
+          "concept": "The psychological contract",
+          "link": "Rousseau describes the unwritten expectations between employee and employer. Restructuring breaches it; procedural justice determines whether survivors rebuild it or disengage.",
+          "practice": "Ask remaining staff what they now expect from the organisation and state clearly what you can and cannot promise."
+        }
+      ],
+      "exam": {
+        "question": "Discuss how leaders can maintain employee commitment during organisational restructuring.",
+        "outline": [
+          "Apply a change model such as Kotter's.",
+          "Explain the psychological contract and survivor syndrome.",
+          "Relate procedural justice to trust and retention."
+        ]
+      }
+    }
+  ]
+}
