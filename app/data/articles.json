@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-14T22:30:57Z",
+ "generatedAt": "2026-11-15T06:20:27Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
@@ -72,6 +72,1077 @@
   }
  ],
  "articles": [
+  {
+   "id": "45ff0c65b2b3",
+   "title": "NVIDIA’s Leadership Crisis Reveals a Bigger Problem",
+   "url": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/nvidias-leadership-crisis-reveals-a-bigger-problem/",
+   "source": "Knowledge at Wharton",
+   "publishedAt": "2026-11-13T19:15:53Z",
+   "addedAt": "2026-11-15T06:20:27Z",
+   "basis": "abstract",
+   "takeaway": "Founder departures test whether an organisation's authority, culture and leadership capability sit in people and structures or in one powerful individual. The abstract only signals this theme, so the theory below is the substance of the note.",
+   "summary": "The publisher's abstract, which is all that was supplied, says Henning Piezunka, a Wharton management professor, discusses three things: the difficulty of replacing influential founders, how future CEOs can be prepared, and how organisations can be built to thrive beyond their most powerful leaders. The headline refers to a leadership crisis at NVIDIA, but the abstract gives no details of that case, so no facts about it are reported here. Its value for study is as a prompt to apply succession, power and culture theory to founder-dependent organisations.",
+   "keyPoints": [
+    "The abstract frames the problem as replacing influential founders, which is a question of how authority held by one person is transferred.",
+    "Preparing future CEOs is presented as a deliberate task, not something that happens by default.",
+    "The stated goal is an organisation that can keep performing beyond its most powerful leaders, which points to shared or institutionalised leadership rather than dependence on individuals.",
+    "The title refers to a leadership crisis at NVIDIA, but the abstract does not describe it, so any claims about that company should be checked against the full article."
+   ],
+   "modules": [
+    {
+     "id": "leadership",
+     "relevance": 80,
+     "reading": "In leadership terms the piece is about succession and whether leadership can outlast the leader who held it. A founder often combines formal authority with personal influence that is hard to replicate. The abstract's focus on preparing future CEOs and building organisations beyond powerful leaders invites analysis of distributed leadership and of how followers and senior teams carry leadership capacity. Students should care because succession is a recurring exam and case topic."
+    },
+    {
+     "id": "pwo",
+     "relevance": 65,
+     "reading": "For People, Work and Organisations the abstract touches on power, organisational culture and change. A founder's power rests on bases such as expertise, reputation and legitimacy, and removing that person changes who holds influence and how decisions are made. Organisational culture often carries a founder's assumptions, so replacing the founder is also a cultural transition. Students should care because this links directly to Units 5, 7 and 8 of the module."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "leadership",
+     "concept": "Distributed leadership and followership",
+     "unit": "",
+     "theory": "Distributed leadership holds that leadership is a collective activity spread across people and roles in an organisation, not only the work of a single formal leader. Followership treats the people being led as active contributors whose behaviour shapes leadership outcomes. Together they suggest that an organisation's capacity to lead can be built deliberately across many people.",
+     "link": "The abstract's stated aim of building organisations that can thrive beyond their most powerful leaders is the central question distributed leadership asks. Preparing future CEOs, as the abstract describes, corresponds to developing leadership capacity across several people rather than selecting one successor. The abstract does not say how this is done, so the link rests on its framing of the problem. The theory predicts that a founder-centred organisation will be more fragile during succession because leadership has not been spread out.",
+     "critique": "The abstract gives no evidence on whether distributed arrangements actually produce better succession outcomes, and a formal successor may still be needed for accountability. Critics also argue that distributed leadership can blur responsibility when a crisis needs a clear decision-maker.",
+     "practice": "A board preparing for founder succession should identify several leaders with credible capability across key functions and give them real decision rights before the transition. Development should be built into their roles through stretch assignments and visible responsibility. The board should also set out who decides in a crisis so that distribution does not weaken accountability."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "French and Raven's bases of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "French and Raven identify five bases of social power: legitimate, reward, coercive, expert and referent power. Each base gives a person influence through a different source, such as formal position, control of rewards, expertise or personal attraction. Influence is therefore not fixed to the role, and it can be lost or transferred when the source changes.",
+     "link": "A founder typically holds several of these bases at once, such as legitimate power from ownership or office and referent power from personal influence and reputation. The abstract's concern with replacing influential founders suggests that the founder's influence is hard to hand over. Successors may inherit legitimate power from the role but not the referent or expert power that gave the founder their authority. This makes the transition a question of whether influence can be rebuilt on other bases.",
+     "critique": "French and Raven describe the bases of power but do not explain how they transfer between people over time, which is what succession requires. Lukes's view that power also works through shaping preferences would add a dimension the typology lacks.",
+     "practice": "A manager planning a succession should map which bases of power the founder holds and which the successor can realistically acquire. Where referent or expert power cannot be transferred, the organisation should build legitimacy for the successor through visible expertise and by giving others a stake in decisions. Gradual handover of key relationships reduces the risk of power vacuums."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of culture",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Edgar Schein describes organisational culture at three levels: visible artefacts, espoused values and the deeper underlying assumptions that are often taken for granted. Founders shape culture mainly through the assumptions they embed in the organisation, and those assumptions can persist after the founder leaves. Changing deep assumptions is harder than changing structures or stated values.",
+     "link": "The abstract's focus on organisations that thrive beyond their most powerful leaders implies that some of the founder's influence is embedded in how the organisation works. Schein's model suggests that the founder's deeper assumptions may remain even after the founder has gone, which would shape how a successor is received. Separating what has been formally handed over from what persists in shared assumptions helps explain why succession can be harder than replacing a job-holder.",
+     "critique": "Schein's model is largely descriptive and gives limited guidance on how deliberately to change deep assumptions. Culture may also be less uniform than the model implies, with different subcultures reacting differently to a new leader.",
+     "practice": "Before appointing a successor, a manager should assess which founder assumptions are still shaping decisions and which need to change. The successor should be encouraged to name and test those assumptions openly rather than replace the artefacts alone. Symbolic changes without changes in underlying assumptions are unlikely to hold."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A fast-growing technology company has grown around a founder who is widely seen as its main source of strategic direction and public credibility. The board has begun planning for a future leadership change and recognises that the organisation has depended heavily on that one person. Senior managers disagree about whether the next leader should come from inside or outside the company.",
+    "question": "Advise the board on how the organisation can prepare for the departure of its founder so that it can continue to perform without depending on any single leader.",
+    "evidence": [
+     "The publisher's abstract says the discussion covers the challenges of replacing influential founders.",
+     "The abstract says it addresses preparing future CEOs as a deliberate task.",
+     "The abstract's stated aim is building organisations that can thrive beyond their most powerful leaders.",
+     "The title refers to a leadership crisis at NVIDIA, which the abstract does not describe in detail."
+    ],
+    "plan": [
+     "Diagnose the dependence: use French and Raven to identify which bases of power the founder holds and which of them cannot easily transfer to a successor.",
+     "Assess the culture: use Schein's three levels to determine which founder assumptions are embedded in the organisation and will shape how a successor is received.",
+     "Consider the successor pool: apply distributed leadership and followership to show how leadership capacity can be spread across several senior people before the handover.",
+     "Compare options: weigh an internal successor against an external appointment in terms of legitimacy, continuity and cultural change, using the evidence above.",
+     "Sequence the transition: propose a staged handover of key relationships, decision rights and symbolic roles to limit power vacuums.",
+     "Recommend a course of action with clear accountability for crisis decisions, and state the risks that remain."
+    ],
+    "pitfalls": [
+     "Presenting the abstract as if it reports findings or specific NVIDIA facts; it only states the topics the discussion covers.",
+     "Treating succession as only a matter of choosing the right person, without analysing power bases and culture that persist after the founder leaves."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Leader-member exchange theory",
+    "Kotter's eight-step model"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that an organisation can only continue to perform after the departure of a powerful founder if leadership, power and culture have been deliberately distributed beyond that individual.",
+    "outline": [
+     "Explain how distributed leadership and followership can build leadership capacity that is not dependent on one person.",
+     "Analyse how French and Raven's bases of power and Schein's levels of culture explain why founder succession is difficult, and where those theories fall short.",
+     "Evaluate competing views, such as the need for clear individual accountability, and reach a justified conclusion."
+    ]
+   }
+  },
+  {
+   "id": "b6c8e0929667",
+   "title": "How Nvidia Can Move Forward Without Its Founder",
+   "url": "https://hbr.org/2026/11/how-nvidia-can-move-forward-without-its-founder",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-13T21:40:08Z",
+   "addedAt": "2026-11-15T06:20:27Z",
+   "basis": "abstract",
+   "takeaway": "The abstract sets out three linked priorities for a firm moving on from its founder: rebuild trust, choose a successor and keep the business moving. Each maps onto People, Work and Organisations theory of change, trust and leadership succession.",
+   "summary": "The publisher's abstract, the only text supplied, gives three priorities for Nvidia as it moves forward without its founder: rebuild trust, choose a successor and keep the business moving. It gives no findings, figures or detail about why trust needs rebuilding or who the candidates are, so this note works from the framing alone and does not assume further facts.",
+   "keyPoints": [
+    "The abstract names three priorities: rebuild trust, choose a successor and keep the business moving.",
+    "The sequence implies that trust must be repaired before or alongside the leadership handover, because stakeholders need to accept the successor.",
+    "Keeping the business moving is a continuity requirement that runs alongside the people-focused tasks, so operations and decisions cannot pause during the transition.",
+    "The title frames the situation as a founder-dependent company, which suggests that authority and identity may be concentrated in one person and so need deliberate transfer.",
+    "The abstract says nothing about the cause of the founder's departure, the successor's identity or any measures taken, so claims on those points would be unsupported."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 72,
+     "reading": "In People, Work and Organisations terms, this is an organisational transition in which trust, identity and continuity must be managed together. Rebuilding trust concerns the psychological contract and the cultural assumptions that staff and partners have built around the founder. Choosing a successor and keeping the business moving are change-management tasks that require people to let go of old routines and accept new ones. A student of this module should care because the abstract treats people and operations as one problem, which is the core of organisational change theory."
+    },
+    {
+     "id": "leadership",
+     "relevance": 64,
+     "reading": "In leadership terms, the piece is about succession and how authority is transferred after a founder-leader leaves. The question is whether the successor can gain the credibility that the founder had, and whether that credibility rests on personal charisma, on formal authority or on trust earned over time. Leadership theories such as transformational leadership help explain what the new leader must do to build followers' commitment. Students should care because succession is a standard leadership-development and power-and-influence question."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Bridges's transition model",
+     "unit": "Unit 8 Organisational change",
+     "theory": "William Bridges distinguishes change, which is external and situational, from transition, which is the internal psychological process people go through to accept it. Transitions have three phases: an ending in which people let go of the old situation, a neutral zone of uncertainty in which the old is gone but the new is not yet settled, and a new beginning in which people commit to new ways of working. Managers should focus on the transition as well as the change itself.",
+     "link": "The abstract's three priorities can be read as a transition sequence. Rebuilding trust addresses the ending, because stakeholders must accept that the founder's era is over and that their confidence now has to rest on something else. Choosing a successor and keeping the business moving describe the neutral zone, in which the firm must keep operating while leadership is unsettled. The new beginning would be the point at which the successor's authority is accepted and the firm's direction is set again. The abstract does not describe these phases, so this mapping is an interpretation of the framing rather than a reported finding.",
+     "critique": "Bridges's model is descriptive and does not say how long each phase lasts or how a firm can tell that it has moved from neutral zone to new beginning. It also gives little weight to external market pressures, which may force a faster timetable than the psychology of transition allows.",
+     "practice": "A board applying this model would first acknowledge what is ending, such as the founder's personal role and the trust built around it, and communicate that openly. It would then use the neutral zone to keep critical operations stable and to make the successor decision visible and well explained. Only once the new leader is accepted should it set out a clear new direction."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Kotter's eight-step model",
+     "unit": "Unit 8 Organisational change",
+     "theory": "John Kotter's eight-step model sets out a sequence for leading transformation: create urgency, build a guiding coalition, form a strategic vision, communicate the vision, empower broad-based action, generate short-term wins, consolidate gains and anchor new approaches in the culture. Kotter argued that firms skip steps, especially the early ones, and that this undermines lasting change.",
+     "link": "The abstract's order, rebuilding trust before choosing a successor and keeping the business moving, implies a need for a guiding coalition and a shared vision before the transition is complete. Rebuilding trust corresponds to communicating the vision and building credibility with stakeholders. Keeping the business moving links to generating short-term wins, which show that the firm can perform without the founder. The abstract does not describe these steps, so the links are inferential.",
+     "critique": "Kotter's model is criticised as linear, and in practice change is often messy and iterative, especially when a firm's identity is tied to one person. The model also assumes that leaders can control the sequence, which a succession contest or external shock may prevent.",
+     "practice": "A leadership team using Kotter would set a clear, shared case for the transition and form a coalition of senior executives and board members who support it. It would communicate the successor decision and the plan for continuity early and repeatedly. It would also identify short-term operational wins to show that the business is stable."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Transformational and transactional leadership (Burns; Bass)",
+     "unit": "",
+     "theory": "James MacGregor Burns distinguished transformational leadership, which raises followers' awareness and motivates them to pursue collective goals, from transactional leadership, which exchanges rewards for performance. Bernard Bass developed this into a measurable model in which transformational leaders use idealised influence, inspirational motivation, intellectual stimulation and individual consideration.",
+     "link": "A founder-led firm may depend heavily on the founder's idealised influence and inspirational motivation, so the abstract's concern to rebuild trust suggests that followers' commitment is personal rather than institutional. The successor will need to show intellectual stimulation and individual consideration to earn trust, and to keep the business moving will require transactional elements such as clear targets and rewards. The abstract does not say which qualities the successor has, so this is a framework for analysis rather than a conclusion.",
+     "critique": "Transformational theory has been criticised for its heroic view of leaders and for overlooking the role of teams, structures and systems. Its reliance on charisma also makes it hard to explain how a firm can build trust in an institution rather than in a person, which is the central problem here.",
+     "practice": "A board choosing a successor should test candidates against the transformational dimensions, but also judge whether they can run the transactional systems that keep the firm delivering. It should build trust through structures and processes that outlast any one leader, such as clear governance and open communication. The aim is to move trust from the person to the organisation."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large technology company whose founder is stepping back faces questions about its direction and its leadership. Staff, investors and partners are uncertain about who will set strategy and whether the firm can keep delivering. The board must rebuild confidence, appoint a new leader and maintain operations through the change.",
+    "question": "Advise the board on how to manage the transition from a founder-led firm to new leadership, drawing on theories of organisational change and leadership succession. Justify your recommendations.",
+    "evidence": [
+     "The publisher's abstract identifies three priorities: rebuild trust, choose a successor and keep the business moving.",
+     "The title describes the company as moving forward without its founder, which indicates a founder-dependent leadership arrangement.",
+     "The abstract does not provide further findings, so any further evidence must come from the candidate's own research or from the case material supplied in the exam."
+    ],
+    "plan": [
+     "Diagnose the situation by stating that the firm must manage three linked issues: trust, leadership succession and operational continuity.",
+     "Apply Bridges's transition model to show that the firm must address the ending of the founder's era before the new beginning can be secured.",
+     "Apply Kotter's eight-step model to set out the coalition, vision and short-term wins needed to build momentum during the neutral zone.",
+     "Apply transformational and transactional leadership theory to specify the qualities the successor needs and to test whether trust can move from the founder to the institution.",
+     "Recommend a sequenced plan in which trust is rebuilt by open communication, the successor is chosen on explicit criteria, and operations are protected throughout, and state the risks of each step."
+    ],
+    "pitfalls": [
+     "Inventing facts about the company, the founder's reasons for leaving or the successor, which the abstract does not provide.",
+     "Treating the three priorities as a complete account of the transition without analysing how they interact or what could go wrong."
+    ]
+   },
+   "alsoConsider": [
+    "Lewin's three-step model (unfreeze, change, refreeze), from Unit 8 Organisational change",
+    "Rousseau's psychological contract, from Unit 3 Motivation and engagement, to explain how broken trust affects staff comm",
+    "Lencioni's five dysfunctions of a team, to examine trust as the foundation of a leadership team",
+    "Edmondson's psychological safety, to consider whether employees feel able to speak up during the transition"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether transformational leadership theory can explain how a founder-dependent organisation rebuilds trust and sustains performance after its founder leaves.",
+    "outline": [
+     "Define transformational and transactional leadership and explain how the founder's charisma may have sustained trust in the organisation.",
+     "Assess how far Bridges's transition model and Kotter's change model help explain the actions needed to rebuild trust and keep operations moving.",
+     "Evaluate the limits of charismatic and transformational theory, including the difficulty of transferring trust from a person to an institution, and reach a supported conclusion."
+    ]
+   }
+  },
+  {
+   "id": "5136e08a3445",
+   "title": "Most organisations failing to redesign digital workplaces to accommodate AI",
+   "url": "https://workplaceinsight.net/most-organisations-failing-to-redesign-digital-workplaces-to-accommodate-ai/?utm_source=rss&utm_medium=rss&utm_campaign=most-organisations-failing-to-redesign-digital-workplaces-to-accommodate-ai",
+   "source": "Workplace Insight",
+   "publishedAt": "2026-11-13T10:34:08Z",
+   "addedAt": "2026-11-15T06:20:27Z",
+   "basis": "full_text",
+   "takeaway": "AI adoption stalls when organisations bolt new tools onto unchanged work. The value depends on redesigning jobs, workflows, measures and change management, which are organisational problems as much as technical ones.",
+   "summary": "Lenovo's Work Reborn survey of 1,200 IT leaders in organisations with at least 1,000 staff across 12 countries reports that most organisations have not redesigned their digital workplaces for AI. Only 10 percent have fundamentally redesigned their working environments, although 80 percent regard the digital workplace as essential and 76 percent rank AI among their leading IT priorities. Just 27 percent have scaled AI across business functions. The report argues that the barriers go beyond technology spending: organisations need to rethink how work is organised, how employees interact with AI, how performance is measured and how responsibilities are divided between people and autonomous agents. Lenovo's AI Workplace Readiness Index scores five dimensions (architecture, operations, trust, workforce and value). Firms that have embedded AI average 4.1 out of five, against 2.7 for those still evaluating. The source is a vendor's own research, so the figures are self-reported and the index is the vendor's own construct.",
+   "keyPoints": [
+    "Only 10 percent of organisations have fundamentally redesigned their digital workplaces for AI, although 80 percent of IT decision makers see the digital workplace as essential.",
+    "Just 27 percent have scaled AI across business functions, which the report presents as a gap between ambition and everyday integration.",
+    "Many organisations introduce AI into existing processes rather than redesigning the processes, which risks isolated pockets of productivity gain without wider operational improvement.",
+    "Only one in ten has a mature approach to continuously assessing AI's impact on workflows. Lenovo recommends workflow-level measures such as process completion times, recurring incidents and outcome quality.",
+    "70 percent have an AI adoption programme, but only 12 percent measure adoption and effectiveness at individual or team level and use the results to refine training and decisions."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 88,
+     "reading": "This is an organisational behaviour story about how work is designed and how people relate to new technology. The article's central claim is that AI value depends on changing job design, task allocation, training, management practice and performance measures, not on installing software. For PWO this connects to job design and performance management in Unit 3, to organisational change in Unit 8, where existing routines resist new ways of working, and to the systems view of organisations in Unit 1. Students should note that the survey reports what IT leaders say their organisations do, not what employees experience."
+    },
+    {
+     "id": "projects",
+     "relevance": 50,
+     "reading": "Viewed through the projects module, the article is about benefits. The question Lenovo poses, what value are we actually getting from AI, is the benefits realisation question: an investment counts only when measurable outcomes are tracked against the business case. The article's point that tools are deployed without changes to processes resembles projects that deliver outputs on time but never realise the benefit, because the operational change was not managed. Students should consider whether AI rollouts are run with named benefits owners and baselines."
+    },
+    {
+     "id": "strategy",
+     "relevance": 35,
+     "reading": "Strategically, the article describes a gap between ambition and execution. Firms rank AI as a top priority, yet only a minority have scaled it, which points to the execution side of strategy. Measuring performance at workflow level links operational measures to outcomes, in the spirit of the balanced scorecard. The article does not discuss competitive advantage, so the strategy link is secondary."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model (Hackman and Oldham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The model holds that five core job characteristics (skill variety, task identity, task significance, autonomy and feedback) shape three psychological states: experienced meaningfulness, responsibility for outcomes and knowledge of results. These states drive motivation, performance and satisfaction, with the effect moderated by employees' growth-need strength. Redesigning a job means deliberately changing these characteristics.",
+     "link": "The article says organisations must decide which tasks can be delegated to AI and which need human judgement, creativity, accountability and oversight. In the model's terms this is a job design decision: handing routine tasks to AI could reduce skill variety for those who remain, while keeping oversight and accountability could raise autonomy and task significance. The report's call for changes to job design, and its finding that few firms have formal working models for human and AI collaboration, suggests most have not carried out this diagnosis. Feedback is also at stake, because workflow measures such as cycle times and repeat incidents could give staff knowledge of results they currently lack.",
+     "critique": "The model was developed for stable, human-performed roles and assumes a job can be specified and redesigned once. AI agents change the task mix continuously, so a static diagnosis may quickly become outdated. The model also says little about how employees' identity and trust respond when routine work is handed to machines, which the article's trust dimension hints at but does not explore.",
+     "practice": "A manager should map the tasks in each role, mark which can be delegated and which require human judgement, and then assess the effect on autonomy, skill variety and feedback for the people who remain. A short job diagnostic should be repeated after rollout rather than assuming the redesign has worked."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Lewin's three-step model of change (unfreezing, changing, refreezing) and force field analysis",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Kurt Lewin proposed that change has three stages: unfreezing existing attitudes and behaviours, moving to a new pattern, and refreezing so that the new pattern becomes stable. Force field analysis holds that change succeeds when the forces maintaining the current state are weakened as well as the forces supporting the new state.",
+     "link": "The article's main complaint is that firms add AI tools to existing processes instead of redesigning them. In Lewin's terms this skips the unfreezing stage: the old workflow remains intact, so the tool is absorbed into established routines and produces isolated gains. The report's call for coordinated changes to skills, operational support and governance is an argument about refreezing, since new working patterns must be embedded in roles, measures and governance to hold. The finding that only 12 percent measure adoption at team level suggests that refreezing is weak in most organisations.",
+     "critique": "Lewin's model presents change as a sequence that ends in a stable state. AI capability is changing so quickly that there may be no settled pattern to refreeze into, and critics argue that the model is too linear for continuous change. A more adaptive approach may fit better where change is ongoing.",
+     "practice": "Before deploying a tool, a manager should map the current workflow and identify the forces that will resist change, such as performance targets, habits and incentives. Redesign the process and roles first, then embed the new pattern through training, job descriptions and performance measures so that it does not slip back into old routines."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Systems approach and contingency theory",
+     "unit": "Unit 1 Understanding behaviour in organisations",
+     "theory": "The systems approach views an organisation as interrelated subsystems that take inputs, transform them and produce outputs, so that optimising one part can reduce the performance of the whole. Contingency theory adds that the most effective way of organising depends on the environment and the task. Performance should therefore be judged at the level of the whole system rather than its parts.",
+     "link": "The article's call to evaluate entire workflows, using cycle times, repeat incidents and outcome quality, is a systems argument: a tool that speeds up one step may simply move the bottleneck or create rework elsewhere. The warning about isolated pockets of productivity describes the sub-optimisation that a systems view predicts. The readiness index, which spans architecture, operations, trust, workforce and value, treats the organisation as a set of interdependent subsystems that must be aligned together.",
+     "critique": "The systems approach is abstract and does not say which measures to use or how to resolve conflicts between subsystem goals. The article's list of indicators is a practical answer that the theory does not supply. Its contingency side also means the 4.1 against 2.7 difference could reflect different environments as well as readiness, which the survey cannot separate.",
+     "practice": "A manager should map the workflow end to end, find the bottleneck and choose measures that show whether it has moved. Use measures that reveal trade-offs between speed, quality and incidents rather than a single productivity figure, and review them across the whole process."
+    },
+    {
+     "moduleId": "projects",
+     "concept": "Benefits realisation management",
+     "unit": "",
+     "theory": "Benefits realisation management treats a project as successful only when its intended benefits are achieved and sustained, not when outputs are delivered on time and within budget. Benefits must be identified and owned before work starts, measured against a baseline, tracked over time and linked to the business changes that make them possible. The iron triangle measures outputs, not value.",
+     "link": "Lenovo's executive asks what value the organisation is getting from AI and proposes measuring cycle times and repeat incidents against outcomes. That is a baseline-and-track approach to benefits. The finding that 70 percent have an adoption programme but only a small share measure its effectiveness mirrors the projects problem of delivering the output (the tool is live) without tracking the benefit. The report's insistence on changes to training, job design and governance corresponds to the business change that benefits realisation says must accompany delivery.",
+     "critique": "Benefits are hard to attribute when AI changes many things at once and when no baseline was recorded, so the workflow indicators could be shaped by other changes. The source is also a vendor with a commercial interest in promoting measurement and readiness frameworks.",
+     "practice": "Before scaling a tool, name a business benefits owner for each workflow, record baseline cycle times and incident rates, agree target improvements and review them at set intervals. Be ready to change or stop tools that do not move the measures."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large organisation with several thousand staff has rolled out an AI assistant across several departments over the past year. Most teams use it alongside their existing procedures, and leaders report time savings in some areas, but no one has measured the effect on the whole process from order to delivery. Staff are unsure which decisions the AI may make and which still need a person, and most of the training budget has gone on licences.",
+    "question": "Critically evaluate why AI investment has not translated into business-wide performance gains, and advise the board on how to redesign work so that the organisation can realise value. Apply theories of job design, organisational change and the systems approach.",
+    "evidence": [
+     "Only 10 percent of organisations have fundamentally redesigned their working environments for AI, although 80 percent regard the digital workplace as essential.",
+     "Just 27 percent have scaled AI across business functions.",
+     "Only one in ten has a mature approach to continuously assessing AI's impact on workflows.",
+     "70 percent have an AI adoption programme, but only 12 percent measure adoption and effectiveness at individual or team level.",
+     "Firms that have embedded AI average 4.1 out of five on readiness, against 2.7 for those still evaluating."
+    ],
+    "plan": [
+     "Diagnose the problem using the systems approach: tools added to existing workflows create local gains and sub-optimisation, which the report's call for workflow-level measurement addresses.",
+     "Apply Lewin's model to explain why change has stalled: existing processes were not unfrozen, and the low rate of team-level measurement suggests the new patterns have not been refrozen.",
+     "Use the Job Characteristics Model to analyse the division of tasks between employees and AI, identifying which tasks to delegate and how skill variety, autonomy and feedback will change for those who remain.",
+     "Address the people aspects: training, management practice and trust, and link them to the weakest readiness dimensions that block the organisation's immediate objectives.",
+     "Evaluate the measurement problem using benefits realisation, proposing baselines, named benefits owners and workflow indicators such as cycle time, repeat incidents and outcome quality.",
+     "Recommend a sequenced plan: redesign the highest-priority workflow first, pilot it with agreed measures, then scale it, and state the limits of the evidence."
+    ],
+    "pitfalls": [
+     "Treating the survey as proof that redesign causes higher performance. The readiness gap is an association drawn from vendor-commissioned, self-reported data and should be presented as such.",
+     "Writing mainly about choosing or upgrading technology rather than the job design, change management and measurement changes the question asks for."
+    ]
+   },
+   "alsoConsider": [
+    "Socio-technical systems theory (Trist and Bamforth), on jointly optimising social and technical systems",
+    "Taylor's scientific management (Unit 1), for the historical roots of time-based workflow measurement",
+    "Kotter's eight-step model of change (Unit 8), on embedding change through short-term wins",
+    "Kahn's model of engagement (Unit 3), on how meaningfulness and safety shape employees' response to new tools"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that the main barrier to AI adoption in organisations is organisational rather than technological. Use theories of job design, organisational change and the systems approach to support your answer.",
+    "outline": [
+     "Define the systems argument and explain why tools added to existing workflows create sub-optimisation, drawing on the report's evidence about workflow measurement.",
+     "Apply Lewin's change model and the Job Characteristics Model to show how change and job design determine whether AI value spreads, using the 10 and 27 percent findings.",
+     "Critically evaluate the evidence: self-reported vendor data, the association between readiness and maturity, and the limits of theories built for human-only work."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "3d385c33f4be",
+   "title": "Five steps: Close the waiting gap in workplace mental health",
+   "url": "https://hrzone.com/five-steps-close-the-waiting-gap-in-workplace-mental-health/",
+   "source": "HRZone",
+   "publishedAt": "2026-11-11T08:00:00Z",
+   "addedAt": "2026-11-15T06:20:27Z",
+   "basis": "full_text",
+   "takeaway": "The 'waiting gap' between an employee asking for help and receiving the right clinical support is where mental health difficulties can worsen. HR should measure that gap, give line managers a clear and bounded route into support, and make sure triage and therapy choices match the person's actual need.",
+   "summary": "The article argues that employee mental health support begins when someone first decides they need help, not when therapy starts. The period between disclosure and clinical assessment, which it calls the waiting gap, is a risk period because stress, low mood and anxiety can build while the employee waits. The author proposes five practical steps: map the waiting gap, give line managers a clear route into support with defined limits, treat triage as a clinical decision, offer more than one type of therapy, and measure outcomes rather than just uptake. It cites ONS figures for working days lost to sickness and to mental health conditions, and it frames rapid access to early support as a way to prevent escalation.",
+   "keyPoints": [
+    "The waiting gap is the period after someone has asked for help, through a manager, GP or other route, and before the right intervention begins.",
+    "Mental health difficulties continue during the wait and can affect sleep, concentration, relationships and the sense of being able to cope at work.",
+    "Many organisations track benefit uptake but do not know how long employees wait between asking for help and seeing a clinician.",
+    "Line managers without a clear route are left holding responsibility they were not trained for, which can produce resentment in employees and disillusionment in managers.",
+    "Employees describe distress in everyday language, but the same words can hide very different clinical problems, so intake should involve clinical judgement."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 85,
+     "reading": "This is squarely a People, Work and Organisations question about how an organisation's processes, managers and expectations respond when an employee discloses a personal difficulty. It connects to Unit 2 on individual differences, including neurodiversity and how people present stress, and to Unit 3 on engagement, workload demands and the psychological contract. A PWO student should care because the article turns abstract ideas about wellbeing and trust into a concrete problem of how an organisation treats people at their most vulnerable."
+    },
+    {
+     "id": "leadership",
+     "relevance": 35,
+     "reading": "Leadership is relevant through the line manager, who is expected to act as the first point of contact for distress without training. The article's advice on what managers should and should not promise raises questions about how leaders exercise responsibility and care for followers. A leadership student can see this as responsibility being pushed down the hierarchy without the authority or resources to carry it."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Job demands-resources model (Bakker and Demerouti)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Every job has demands, meaning the physical, psychological, social or organisational aspects that require sustained effort, and resources, meaning the aspects that help people meet demands, reduce their costs or support growth. Sustained demands without adequate resources lead to strain and burnout, while resources promote engagement and performance.",
+     "link": "The article describes stress and withdrawal becoming harder to manage over time, affecting sleep, concentration and the sense of being able to cope at work, which matches the strain pathway of the model. A clear route into support and timely clinical help are resources that can interrupt that pathway, whereas the waiting gap is a period when demands continue and resources are not yet available. The article's point that difficulties escalate before absence becomes unavoidable fits the model's prediction that unmet demands accumulate over time.",
+     "critique": "The model is largely descriptive and does not say how quickly a resource must arrive before strain becomes harmful, which is the central question the article raises. It also treats demands as work-based, whereas the article notes that the underlying cause may be trauma, grief or health anxiety outside work.",
+     "practice": "A manager applying the model would list the main demands on the employee, such as workload or role uncertainty, and the resources available, then identify which can be added quickly while referral is under way, such as adjusted workload or a named contact. They should also track the waiting period so unmet demands are visible early."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of unwritten beliefs that employees and employers hold about their mutual obligations, going beyond the formal employment contract. A breach occurs when one party believes the other has failed to deliver what was implicitly promised, and breaches can reduce trust, commitment and engagement.",
+     "link": "The article says the response an employee receives when asking for help shapes whether they feel supported, dismissed or left alone, which is a judgement about whether the employer has honoured an implicit promise of care. A long, unexplained wait or a manager who promises more than can be delivered may be experienced as a breach. The article's warning about what managers should not promise recognises this risk, and its note that unfair pressure creates resentment and disillusionment describes the emotional consequences for both parties.",
+     "critique": "The psychological contract is perceptual, so it depends on how each individual interprets events, and a well-designed pathway can still feel like a breach to someone in acute distress. The theory also assumes a reasonably clear exchange, whereas mental health support is often framed as a voluntary benefit, which may blur what the organisation actually owes.",
+     "practice": "HR should make explicit what the organisation will and will not provide, communicate expected timescales honestly and check in with employees during the wait. Managers should avoid promises beyond their remit and follow up when an agreed step has not happened."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Neurodiversity and person-job fit",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Neurodiversity is the view that neurological differences, such as autism, ADHD and dyslexia, are natural variations in human cognition rather than simply deficits, and that people differ in how they process information, respond to stress and work best. Person-job fit holds that wellbeing and performance depend on how well an individual's abilities and needs match the demands and rewards of their job.",
+     "link": "The article lists neurodiversity-related stress among the many causes that distress may conceal, and it argues that an intake process which records only the words used will misdirect people. This shows individual differences affecting not only which support is needed but how the employee describes and seeks help. A neurodivergent employee may also find a standard referral pathway hard to navigate, which the article's call for a clear route into support is designed to address.",
+     "critique": "Person-job fit is usually used at selection, whereas the article is concerned with support during employment, where the organisation may need to adjust the job rather than the person. The theory can also encourage sorting people by diagnosis rather than by their actual needs.",
+     "practice": "HR should ask providers whether assessments consider neurodiversity-related presentations. Managers should discuss with the employee which adjustments to workload, communication or pace would improve fit, rather than assuming a diagnosis explains the difficulty."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Ethical and responsible leadership",
+     "unit": "",
+     "theory": "Ethical leadership involves behaving in normatively appropriate ways and promoting such behaviour in others, through honesty, fairness and care for those affected by decisions. Responsible leadership extends this to accountability for the wider consequences of a leader's actions, including for people they do not directly control.",
+     "link": "The article's advice that managers should not assess or diagnose, and should know what not to promise, sets an ethical boundary that protects the employee from false reassurance and protects the manager from responsibility they were never trained for. Its argument that the organisation, rather than the individual manager, should provide a clear pathway is a question about where accountability sits. The statement that poor responses leave people feeling dismissed or alone shows the ethical stakes of how a leader responds to disclosure.",
+     "critique": "Ethical leadership theory describes desirable conduct but offers little guidance on structural constraints, such as waiting times set by commissioning budgets rather than by any individual manager. Locating ethics in the leader alone can obscure the organisational systems that make ethical behaviour possible.",
+     "practice": "Organisations should give managers a short written route into support, set boundaries on what they should say and promise, and make clear that referring someone is an expected act of care. Senior leaders should treat waiting times as a leadership accountability rather than leaving them to front-line managers."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized professional services firm offers an employee counselling benefit, but nobody tracks how long staff wait between asking for help and seeing a clinician. Line managers report feeling unsure what to say, and some have made reassurances about support that the firm could not guarantee. Mental health-related absence is rising, and the HR director has been asked to improve the process.",
+    "question": "Critically evaluate how the job demands-resources model and the psychological contract explain employees' experience during the waiting gap, and advise the HR director on the actions that would most improve the pathway.",
+    "evidence": [
+     "The article states that stress, withdrawal and low mood can become harder to manage during the wait, affecting sleep, concentration, relationships and the sense of being able to cope at work.",
+     "The article notes that most organisations can report benefit uptake but far fewer can say how long employees waited between asking for help and speaking to a clinician.",
+     "The article argues that without a clear route, line managers hold responsibility they were never trained for, which creates resentment for employees and disillusionment for managers.",
+     "The article says the response someone receives when asking for help shapes whether they feel supported, dismissed or left to manage alone."
+    ],
+    "plan": [
+     "Define the waiting gap as the period between disclosure and clinical assessment, and explain from the article why it matters: difficulties continue and can escalate during the wait.",
+     "Apply the job demands-resources model by identifying the demands that persist during the gap and the resources available, and argue that unmet resource needs produce strain.",
+     "Apply the psychological contract by explaining how the employee reads the response as a test of the employer's implicit promise of care, and identify where breach risk arises, such as unclear timescales or over-promising by managers.",
+     "Use the article's evidence to show that the problem is systemic and measurable, not just managerial, by contrasting uptake data with the absence of waiting-time data and the need to map the journey.",
+     "Recommend mapping and measuring the waiting time, giving managers a defined and bounded route into support, asking providers about triage and assessor qualifications, and communicating timescales honestly.",
+     "Close with the limitations of both theories and a prioritised recommendation, placing system fixes ahead of manager training."
+    ],
+    "pitfalls": [
+     "Treating the waiting gap as a failing of individual managers rather than a problem of pathway design and resourcing, which ignores the article's emphasis on organisational systems.",
+     "Naming the job demands-resources model or the psychological contract without linking them to specific features of the case, such as triage quality or the wording of manager guidance."
+    ]
+   },
+   "alsoConsider": [
+    "Kahn's personal engagement",
+    "Edmondson's psychological safety",
+    "Herzberg's two-factor theory",
+    "Karasek's demand-control model"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that organisations can improve employee mental health support mainly by changing how line managers respond to disclosure, rather than by redesigning the systems that determine how long employees wait for help.",
+    "outline": [
+     "Define the waiting gap and explain, using the job demands-resources model or the psychological contract, why delay can worsen wellbeing and erode trust.",
+     "Assess the role of line managers and individual differences, including how neurodiversity and different presentations affect the support that is needed.",
+     "Critically evaluate whether the answer lies in managers or in systems, and conclude with a prioritised set of organisational actions."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "dce81325ee87",
+   "title": "Taiwan's Foxconn Bullish on Outlook But Warns About Supply Chain Tightness",
+   "url": "https://www.supplychainbrain.com/industries/high-tech-electronics/article/16425695/taiwans-foxconn-bullish-on-outlook-but-warns-about-supply-chain-tightness",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-15T05:00:00Z",
+   "addedAt": "2026-11-15T06:20:27Z",
+   "basis": "full_text",
+   "takeaway": "Foxconn's results show a supply chain under strain, with shortages of chips, memory and components, while its revenue mix and factory footprint are changing in response to AI demand and external uncertainty. For PWO, this is a case of external triggers prompting organisational change.",
+   "summary": "Foxconn, the largest contract electronics maker and a major supplier to Nvidia and Apple, reported July to September net profit of T$77.5 billion, up 34% on the year and ahead of analysts' consensus. It stayed confident about strong AI demand into 2026 and 2027, expecting high double-digit growth in AI rack shipments in 2027. Its chairman said cloud and networking already make up over half of revenue and should pass 60% within three to five years. He also warned that chips, memory and some key components are tight across the AI and consumer electronics supply chains, that demand will exceed supply next year, and that the PC segment is a worry. External risks he flagged include inflation, exchange-rate movements, the US midterm elections and an uncertain political and economic climate. The company is shifting production, with iPhones for US buyers made in India and AI servers for Nvidia going into new plants in Mexico and Texas, and it is looking to grow in electric vehicles. Its shares had risen only 4% year to date against a 49% gain in the broader Taiwan index.",
+   "keyPoints": [
+    "Foxconn beat profit expectations on strong AI demand, with net profit up 34% on the year in the July to September quarter",
+    "Cloud and networking products are already over half of revenue and are expected to exceed 60% within three to five years",
+    "Chips, memory and some key components are tight, and demand is expected to exceed supply into next year even as new capacity comes online",
+    "The chairman is cautious about the PC segment and the external environment, citing inflation, exchange rates and US midterm elections",
+    "Production is spreading beyond China to India, Mexico and Texas, and the company is exploring electric vehicles"
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "The article is essentially about a supply chain under tightness, where the binding constraint is upstream components and memory rather than assembly capacity. Foxconn cannot control its suppliers' capacity, so its ability to meet AI demand depends on supply chain visibility, resilience and relationships with key vendors. The shift of production to several countries is a resilience and footprint decision as much as a growth one. A student of SCM should use the article to examine how a leading assembler manages bottlenecks it does not own."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 55,
+     "reading": "From a purchasing perspective, the article raises questions about sourcing concentration and bargaining power. Tight chips and memory mean that buyers with volume and strong supplier relationships are likely to secure allocation, while smaller buyers face shortages. The move to multiple production sites changes the sourcing decision, but the article does not say which suppliers Foxconn uses or how contracts are structured. Purchasing students should consider how sourcing decisions interact with footprint decisions."
+    },
+    {
+     "id": "strategy",
+     "relevance": 55,
+     "reading": "The article describes a deliberate shift in the business model, away from low-margin device assembly towards cloud and networking products, supported by new plants and a possible move into electric vehicles. This is a strategic choice in response to market change and is a useful case of adapting to shifting demand. Strategy students can use it to discuss how capabilities are being redeployed and whether the move is a sound response to a boom that may not last."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "The article shows external triggers for change, including AI demand, policy uncertainty, inflation, exchange rates and elections, and the company's response includes changing its product mix and location of operations. For PWO, the question is how these pressures lead to changes in structure, people and ways of working, not just to new capacity. The reported caution about the PC segment also points to the people side of change, where parts of the business may decline while others expand."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Christopher and Peck supply chain risk management and resilience",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chain resilience is the ability to absorb and recover from disruption, and that it is built through visibility of the network, flexibility and redundancy rather than through efficiency alone. They stress that vulnerabilities often sit beyond the first tier of suppliers and need to be mapped and managed in advance.",
+     "link": "Foxconn says chips, memory and key components are tight across the AI and consumer electronics supply chains, which means the bottleneck lies with suppliers that Foxconn does not own. The chairman expects supply to ease as new capacity comes online, which depends on suppliers' investment rather than on Foxconn's own actions. Building plants in Mexico, Texas and India adds geographic redundancy, which is a resilience move in the terms Christopher and Peck use. The article's expectation that demand will exceed supply next year suggests the risk is structural and not a short-term disruption.",
+     "critique": "Resilience has a cost, since redundancy and buffer stock reduce efficiency and tie up capital, and the article gives no information on Foxconn's inventory levels or dual-sourcing arrangements, so it cannot show how far resilience is actually built. In a shortage, the buyer with most volume gets allocation, so the framework may understate the role of bargaining power.",
+     "practice": "A manager in this position should map sub-tier suppliers for chips and memory to find single points of failure, and agree capacity commitments with key vendors in return for allocation priority. The manager should also qualify alternative sites and sources before the next shortage, accepting a higher cost of resilience as the price of reliable delivery."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Single, dual and multiple sourcing",
+     "unit": "",
+     "theory": "Sourcing strategy determines how many suppliers an organisation uses for a given item. Single sourcing offers scale, closer relationships and often lower cost, but increases exposure to disruption, while dual or multiple sourcing spreads risk and keeps bargaining power at the cost of volume leverage and added complexity.",
+     "link": "Foxconn's shift of iPhone production for US buyers into India, and of AI server production into Mexico and Texas, moves it from concentration in China towards multi-site production, which is a form of dual sourcing at site level. The article does not name component suppliers, but the logic applies to the chips and memory it says are tight. The scarcity of those inputs means that sourcing decisions are constrained by supplier allocation, which is where the purchasing power of a large assembler matters.",
+     "critique": "Diversifying plants does not protect against shortages of a shared upstream part. If every site draws on the same memory or chip supplier, the sourcing risk remains concentrated even though production is spread, so the apparent diversification may buy less protection than it seems.",
+     "practice": "For each critical component, a purchasing manager should check whether a second site can draw on a different supplier pool. The manager should negotiate volume commitments with main chip and memory vendors that include allocation terms, and should weigh the extra cost of dual sourcing against the cost of a stoppage."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Internal and external triggers for change (PESTLE)",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Organisational change is triggered by forces either inside the organisation or in its environment. External triggers are commonly classified using PESTLE: political, economic, social, technological, legal and environmental. Triggers differ in urgency and visibility, and managers must recognise them early to decide whether change is needed now or should be monitored.",
+     "link": "The article mentions a range of external triggers: technological (AI demand and the shift to cloud and networking), economic (inflation and exchange rates affecting operating costs), and political (the US midterm elections and the wider political climate). Liu's reference to several external variables worth continued attention reads as a monitoring stance, where triggers are recognised but do not yet require full change. The planned rise of cloud and networking above 60% of revenue is a change Foxconn is driving itself in response to these external triggers.",
+     "critique": "PESTLE treats triggers as largely external facts, but in practice managers interpret them, and different leaders may read the same signals as urgent or as noise. The article shows Foxconn choosing which triggers to act on, so a trigger-led view understates managerial judgement and the political dimension of deciding what counts as a threat.",
+     "practice": "A manager should sort triggers into those requiring immediate action, such as component shortages, and those to monitor, such as elections. Each trigger should have an owner and a threshold, for example an exchange-rate movement that prompts a review of sourcing costs or a site decision."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Dynamic capabilities (Teece)",
+     "unit": "",
+     "theory": "Dynamic capabilities are an organisation's ability to sense opportunities and threats, to seize them by mobilising resources, and to reconfigure assets and processes as conditions change. Teece argues that in fast-changing markets competitive advantage depends on this capacity for renewal rather than on static resources alone.",
+     "link": "Foxconn's move from iPhone assembly towards cloud and networking products is a reconfiguration of its business, and building plants in Mexico and Texas is a seizing decision that puts capacity where customers are. Its forecast-beating profit and confidence in AI demand suggest that sensing has been effective so far, though the article gives little detail on how these decisions were made. The possible move into electric vehicles is an option being explored rather than committed.",
+     "critique": "The theory can be circular, since capabilities are often inferred from success and the article reports results rather than the processes that produced them. Reconfiguration is also costly and slow when components are short, so the capacity to change may be limited by the very constraints the company is facing.",
+     "practice": "A manager should build formal sensing routines, such as regular scenario reviews of AI demand and trade policy, and should pre-approve options like pilot lines for new products. Resource allocation rules should allow capacity to move between product lines as demand changes."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A contract electronics maker has beaten profit expectations on strong demand for AI servers, but key chips and memory are in short supply and its PC business is weakening. Its production is spreading across China, India, Mexico and Texas, and its revenue mix is shifting towards cloud and networking products. Its leaders see several external risks, including inflation, exchange rates and political uncertainty.",
+    "question": "Advise the board how to lead the organisational change needed to move the business towards AI and cloud products while coping with uncertain external triggers. Critically evaluate the role of change triggers and change management models in your advice.",
+    "evidence": [
+     "Cloud and networking products already account for more than 50% of revenue and are expected to exceed 60% within three to five years",
+     "Chips, memory and some key components are tight, and demand is expected to exceed supply next year",
+     "The chairman warns that inflation, exchange rates and US midterm elections could affect operating costs and the industry",
+     "Production is being built up in India, Mexico and Texas, while the PC segment is viewed with caution"
+    ],
+    "plan": [
+     "Identify the external triggers using PESTLE, separating immediate ones such as component shortages and AI demand from those to monitor such as elections and policy",
+     "Apply Lewin's three-step model to describe the current state of the product mix and footprint, the desired future state, and the transition between them",
+     "Use force field analysis to list drivers of change such as AI customer spending and restraints such as the PC segment, skills gaps and capital tied up in new plants",
+     "Use Kotter's steps of creating urgency, building a guiding coalition and securing short-term wins to plan the plant and product transitions, while noting the risk that capacity arrives after demand has moved",
+     "Anticipate resistance from staff in the PC business and from managers of older sites, and recommend communication, participation and retraining to address it",
+     "Recommend a sequenced plan with monitoring thresholds for each trigger and a named owner for each decision"
+    ],
+    "pitfalls": [
+     "Treating the AI demand boom as a permanent trigger without considering how the change would be managed if demand weakened",
+     "Writing only about capacity and structure while ignoring the people aspects of change, such as resistance, skills and communication"
+    ]
+   },
+   "alsoConsider": [
+    "Lewin's three-step model and force field analysis",
+    "Galbraith's Star Model",
+    "Lawrence and Lorsch contingency theory"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether external triggers such as technological change, political uncertainty and currency movements determine the need for organisational change, or whether managers' interpretation of those triggers is the more important driver.",
+    "outline": [
+     "Define internal and external triggers for change and use PESTLE to classify the triggers in an illustrative case",
+     "Evaluate the role of managerial interpretation and choice against a more deterministic view of triggers, using evidence from the case",
+     "Conclude with the implications for managing the people side of change, including resistance and communication"
+    ]
+   },
+   "readingMinutes": 2
+  },
+  {
+   "id": "27bad3703597",
+   "title": "AI cargo thefts top $150 million from June 2025 to June 2026",
+   "url": "https://www.freightwaves.com/news/ai-cargo-thefts-top-150-million-from-june-2025-to-june-2026",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-13T21:11:42Z",
+   "addedAt": "2026-11-15T06:20:27Z",
+   "basis": "full_text",
+   "takeaway": "AI hardware is being stolen mainly through impersonation and forged paperwork at the point of collection, so tracking a load must be paired with verified checks on who is collecting it and whether they are authorised to take it.",
+   "summary": "Overhaul, a supply chain visibility and risk management vendor, reports that more than $150 million of AI equipment was stolen across the United States in the 12 months from June 2025 to June 2026. Its report analysed 111 incidents from 2023 to June 2026 and says incidents rose 34% since 2024. Most thefts involved deception: criminals use identity theft, fake carrier identities and altered bills of lading to take over loads, and fraud was involved in 92% of reported thefts. The article argues that tracking a shipment is not enough, because thieves can impersonate legitimate carriers and manipulate documents, so the identity of the person collecting a load and their authority to move it must also be verified. It places these thefts within rising cargo crime in North America and estimates that indirect losses run at about $3 for every $1 of insured hardware loss.",
+   "keyPoints": [
+    "Overhaul estimates more than $150 million of AI equipment was stolen from June 2025 to June 2026, based on 111 incidents analysed from 2023 to June 2026, with incidents up 34% since 2024.",
+    "Fraud or deception was involved in 92% of the reported thefts, using identity theft, fraudulent carrier identities and altered bills of lading to obtain shipments.",
+    "A single flagship AI server rack is estimated to cost roughly $3 million, so one truckload of computing hardware can represent millions in potential losses.",
+    "Overhaul estimates roughly $3 of unclaimed losses for every $1 of insured hardware loss, a figure it calls conservative and bases on a RAND research paper; indirect costs include deployment delays, lost contract eligibility, compliance exposure and extra security spending.",
+    "Verisk CargoNet recorded 2,646 confirmed cargo thefts in the US and Canada in 2025, up 18%, with estimated losses of nearly $725 million (up 60%) and an average value per theft of $273,990."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "Within scm this is a risk and resilience story. The vulnerability sits at the handover between shipper, provider and carrier rather than in physical infrastructure, and the article shows that visibility, a core resilience tool, cannot on its own confirm who is moving the goods. Students should use it to argue that resilience needs identity and authority controls as well as tracking, and that the risk should be assessed by its high likelihood and severe impact."
+    },
+    {
+     "id": "logops",
+     "relevance": 70,
+     "reading": "In logistics operations the article concerns carrier selection, subcontracting and pickup control. Freight moves through chains of third-party carriers, and the article shows how a fake carrier identity can enter that chain and collect a booked load. Logops students should consider carrier vetting, document control and the collection process at the point where goods leave a provider's control."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 55,
+     "reading": "Purchasing students will recognise the theme of hidden costs. The stolen hardware is only part of the loss, since unclaimed indirect costs are estimated at roughly three times the insured value. The case also raises supplier and provider due diligence, because buyers of logistics services must verify who they are contracting with. It shows that freight rate alone is a poor measure of the true cost of a logistics decision."
+    },
+    {
+     "id": "pwo",
+     "relevance": 40,
+     "reading": "In PWO terms this concerns perception and judgement under deception. Staff judge a pickup by surface cues such as a plausible carrier name, a convincing document or a collector who appears to be legitimate, and the article suggests fraudsters exploit exactly these cues. A student of individual differences and perception should see how cognitive shortcuts, as well as process gaps, create vulnerability, and why organisations need checks that do not depend entirely on individual judgement."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chains should identify and map their vulnerabilities, assess the likelihood and impact of each risk, and build resilience through visibility, flexibility, redundancy and collaboration with partners. Resilience is the capacity to withstand disruption and recover quickly, and it comes from how the chain is designed and managed, not from monitoring alone.",
+     "link": "The thefts described are caused by deception at the pickup point rather than by mechanical failure, so the risk map must include fake carriers and altered bills of lading as threats. Overhaul's conclusion that visibility alone is not enough matches the resilience argument that visibility is necessary but not sufficient. The 92% share of fraud-related thefts shows that the risk is concentrated, so controls should target the collection handover. The value of a single AI server rack, roughly $3 million, shows that the impact side of the assessment is severe and justifies stronger controls for this category of freight.",
+     "critique": "The framework was developed mainly for supply disruptions such as supplier failure and demand shocks, and it says less about deliberate criminal attack by actors who adapt to controls. Redundancy is also expensive for individual shipments and does not directly stop identity fraud.",
+     "practice": "A logistics director would add the collection handover to the risk register, rate its likelihood and impact, and put in place verified collection, pickup authorisation checks and controlled documents for the highest-value loads. The controls should be tested regularly and reviewed as the threat changes, since the article describes thieves becoming more deceptive."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Logistics outsourcing: third-party and fourth-party logistics",
+     "unit": "",
+     "theory": "Third-party logistics providers carry out logistics activities on behalf of a shipper, while fourth-party providers manage and integrate those third parties. Outsourcing transfers execution to the provider but not responsibility for the shipper's goods, so the shipper must control and monitor how work is subcontracted. Each extra layer of subcontracting lengthens the chain and creates points where security and service can fail.",
+     "link": "The article describes criminals impersonating legitimate carriers and collecting loads that were booked through normal channels, which shows that a carrier arrangement can hide who is physically moving the goods. Altered bills of lading are a document-control failure at the interface between shipper, provider and carrier. The Oakland to Fort Worth lane in the NVIDIA case is a long-distance route with several possible handovers, which is where such a chain is most exposed. The article's advice to verify who collects each load points to the need to check the people at the end of the subcontracting chain, not only the contracted company.",
+     "critique": "Fourth-party models are usually justified by cost and coordination benefits and assume the integrator can enforce standards down the chain. The article suggests fraud can enter exactly where that enforcement is weakest. Transaction cost arguments would also say that tighter control is itself costly, so the shipper has to weigh security spending against the risk.",
+     "practice": "Logistics managers should vet every carrier in the chain, including any subcontractor who will physically collect goods, and require providers to verify driver identity and authority for each pickup. Changes to carrier or collection details should trigger a second check through a separate channel before a load is released."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Perceptual biases: selective perception and the halo effect",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Perception is the process by which people select, organise and interpret information, and it is shaped by expectations and context. Perceptual biases distort judgement: the halo effect allows one favourable cue to colour the overall impression, and stereotyping judges individuals by assumptions about their group. Selective perception means people notice information that fits their expectations and overlook what does not.",
+     "link": "Fraudulent pickups succeed when the person accepting a load judges what they can see, such as a credible carrier name, a plausible document or a collector who looks legitimate, and this favourable impression can outweigh the missing check. The finding that fraud was involved in 92% of thefts suggests that the cues being checked are the ones criminals can fake. Selective perception explains why a person may focus on paperwork that looks correct and miss an inconsistency in the collector's identity. A halo built around a familiar shipper or carrier can then extend to a new and unverified request.",
+     "critique": "Perception theory explains why individuals make errors, but a purely individual reading risks blaming staff and missing the process design problem. The article's remedy is verification procedures that do not rely on judgement at all. The article gives no data on the staff involved in these thefts, so any claim about individual error is an inference rather than a finding.",
+     "practice": "A manager should not rely on staff intuition when a load is collected. Standard verification steps, such as checking identity against a pre-agreed list and confirming pickup authority with the booking party, reduce the influence of first impressions. Staff should also be briefed on common deception patterns so that they recognise inconsistencies."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Total cost of ownership",
+     "unit": "",
+     "theory": "Total cost of ownership measures the full cost of acquiring and using a good or service, including costs beyond the purchase price such as transport, handling, quality failures, risk and administration. Buyers use it to compare options that look cheaper on price but cost more overall. It moves the focus of a sourcing decision from unit price to whole-life cost.",
+     "link": "The article's estimate of roughly $3 of unclaimed loss for every $1 of insured hardware shows how the visible value of a shipment understates the true cost of theft. The indirect costs it lists, including deployment delays, lost contract eligibility, compliance exposure and extra security spending, are the kind of hidden costs that total cost of ownership is designed to capture. The ratio is based on a RAND paper and described as conservative, so the real total may be higher. A buyer comparing carriers should therefore include exposure to fraud in the comparison, not only the freight rate.",
+     "critique": "Total cost of ownership is hard to apply to risk, because the 3:1 ratio is an estimate built on another study and the probability of infrequent thefts is difficult to quantify. The method can also make a risk-based decision look more precise than the underlying assumptions justify. The source is a vendor with a commercial interest in security services.",
+     "practice": "Purchasing managers should add a risk-adjusted element to freight and carrier cost models, using incident rates for the relevant lane and freight category. They should compare the saving from a cheaper carrier with the cost of enhanced verification, and treat secure collection as a requirement in tender specifications and evaluation."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A technology manufacturer ships high-value server racks from its assembly plant to a data centre customer on a cross-country lane. Over the past year, criminals have used fake carrier identities and altered bills of lading to collect loads that were booked through its logistics provider. The firm already tracks its shipments in real time, but its board is debating whether this is enough and whether to outsource more of the chain.",
+    "question": "Advise the board on how the company should protect high-value AI hardware in transit, and critically evaluate whether shipment tracking and visibility are sufficient.",
+    "evidence": [
+     "Overhaul estimates that more than $150 million of AI equipment was stolen across the United States from June 2025 to June 2026.",
+     "Fraud or deception was involved in 92% of the reported thefts, with identity theft, fake carrier identities and altered bills of lading used to obtain shipments.",
+     "Overhaul estimates a single flagship AI server rack costs roughly $3 million.",
+     "Overhaul estimates roughly $3 of unclaimed losses for every $1 of insured hardware loss, citing a RAND paper and describing this as conservative."
+    ],
+    "plan": [
+     "Frame the risk using Christopher and Peck's approach: map the lane, identify the collection handover as the key vulnerability, and rate it as high likelihood (given the 92% fraud share) and severe impact (given the value of each rack).",
+     "Assess the sufficiency of visibility by explaining that tracking shows where a load is, not whether the person collecting it is authorised, and cite the article's conclusion that visibility alone is not enough.",
+     "Apply total cost of ownership to show that unclaimed indirect costs, at about three times the insured value, justify spending on security over the life of the contract.",
+     "Apply logistics outsourcing theory to review the carrier chain, requiring verification of every subcontracted carrier and driver and controlled documentation at each handover.",
+     "Apply perceptual bias theory to argue that controls must not depend on staff judgement, and recommend standard verification procedures and staff training on deception patterns.",
+     "Recommend a layered set of controls (verified collector identity, pickup authorisation, controlled documents and tracking as one layer), prioritised by load value and reviewed regularly."
+    ],
+    "pitfalls": [
+     "Do not compare Overhaul's $150 million with Cornell's $110.6 million as if they measured the same thing, because they cover different periods and categories of freight.",
+     "Do not present tracking as a complete solution, and do not treat Overhaul's conclusions as neutral evidence, since the company sells visibility and risk services."
+    ]
+   },
+   "alsoConsider": [
+    "Reason's Swiss cheese model of accident causation",
+    "Cressey's fraud triangle",
+    "Williamson's transaction cost economics"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that organisations can protect high-value freight from theft mainly through better technology, drawing on theories of supply chain risk and resilience and on the role of verified process over technology alone.",
+    "outline": [
+     "Define supply chain risk and resilience, and identify the collection handover as a critical vulnerability, using the evidence that fraud was involved in 92% of thefts.",
+     "Evaluate the limits of tracking and visibility, showing that location data does not confirm authority, and weigh the value of verified process and reduced reliance on human judgement.",
+     "Conclude with a layered recommendation that weighs control costs against indirect losses, and note the limitations of vendor-produced evidence."
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "599a1f0dfdfd",
+   "title": "Pay more or risk ‘an awful lot of cherry juice’: the perishables airfreight squeeze",
+   "url": "https://theloadstar.com/pay-more-or-risk-an-awful-lot-of-cherry-juice-the-perishables-airfreight-squeeze/",
+   "source": "The Loadstar",
+   "publishedAt": "2026-11-13T11:49:10Z",
+   "addedAt": "2026-11-15T06:20:27Z",
+   "basis": "full_text",
+   "takeaway": "Rising airfreight rates squeeze low-margin perishable exports, so the cost-service trade-off, dependence on scarce carrier capacity and the ceiling set by consumer prices all bear on whether a product can still be flown.",
+   "summary": "The article reports that airlines warn perishables shippers have little room to absorb higher airfreight costs, because consumers will only pay so much for fruit and flowers. Cargo airlines and forwarders contrast AI-server shippers, who can pay more, with flower and fruit exporters, who cannot. WorldACD figures cited by Avianca Cargo show Latin American yield increases of about 7 to 8 per cent against 24 to 25 per cent globally, which the article reads as a sign of the region's weaker ability to pass on fuel costs. Atlas Air warns that persistent increases could push some perishables out of air freight through modal shift. Sea is not always an alternative, because a delayed harvest can leave no time for an ocean journey. Cathay Cargo describes coordinating charters with several carriers and gateways for South American cherries, with heavy communication among carriers, forwarders, growers and farmers, and reports capacity shortages within Asia and between Asia and the US. Handling needs differ by product, and forwarders must balance the harvest, connecting flights, handling conditions and a freight bill the customer can afford.",
+   "keyPoints": [
+    "Perishables exporters have a price ceiling set by what consumers will pay, so they cannot easily absorb rising air freight costs.",
+    "Yield increases differ sharply by region (about 7 to 8 per cent in Latin America against 24 to 25 per cent globally), suggesting uneven bargaining strength.",
+    "A delayed harvest can remove the time needed for sea freight, which forces more cargo onto air at the moment it is most expensive.",
+    "Sustained cost rises could cause modal shift away from air for some perishable products.",
+    "Cathay coordinates pre-booked interline charters across several carriers and gateways, and a crop delay forces that plan to be reworked with growers, forwarders and farmers."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 85,
+     "reading": "In logistics operations terms this is a modal choice problem: air freight buys speed and temperature control at a high price, while sea is cheaper but only feasible when the harvest leaves enough time. Rising air rates raise total logistics cost while the service requirement stays fixed, so the cost-service trade-off tightens. The article also shows that the switch to sea is sometimes unavailable, which a logops student should weigh against the modal shift warning."
+    },
+    {
+     "id": "scm",
+     "relevance": 60,
+     "reading": "The article is about supply uncertainty: weather can delay a harvest and change the required journey at short notice. Capacity is booked in advance through interline charters, and the chain must be reconfigured through communication among growers, forwarders and carriers when plans slip. This is a question of responsiveness and resilience, so students should consider agile design and supply chain risk alongside cost."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 50,
+     "reading": "From a purchasing standpoint, airfreight is a bought category with tight supply and rising prices, and perishable exporters are buyers with limited bargaining strength. The regional gap in yield increases suggests some buyers can pass costs on and others cannot. Buyer-supplier power, category strategy and contract design are the relevant lenses for this situation."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "For People, Work and Organisations, the article concerns dependence between organisations: growers, forwarders, carriers and airlines coordinate under capacity shortages, and the weaker party bears the costs. The informal communication described across Cathay, forwarders, growers and farmers is a networked way of working rather than a formal hierarchy. Students should see the power and network design angles, not only the logistics."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "logops",
+     "concept": "Modal choice and the cost-service trade-off",
+     "unit": "",
+     "theory": "Shippers choose a transport mode by weighing the freight rate against transit time, reliability and the value that the goods lose in transit. Faster modes are justified when time is valuable and the product decays quickly, but only while the price premium is affordable. Choice is constrained when one mode cannot physically meet the time window.",
+     "link": "The article shows the trade-off tilting towards air: a delayed harvest means the fast boats are missed, so more cargo has to fly, and produce that loses quality in transit is described as leaving an awful lot of cherry juice. Atlas Air warns that rising costs could push some commodities to modal shift away from air, which is the trade-off reaching its limit. The text also shows that sea is sometimes not an option at all, so timing rather than cost alone can determine the mode.",
+     "critique": "Standard modal choice models assume both modes are available and that the value of time is stable, but for seasonal perishables the decisive variables are harvest timing and the price ceiling set by consumers, which the basic model does not capture well.",
+     "practice": "A logistics manager should map each product's quality decay against sea and air transit times and identify the harvest dates after which sea is no longer feasible. The manager should then agree a fallback air capacity and price band in advance, and decide which lines are worth flying at current rates."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Agile supply chains (Christopher)",
+     "unit": "",
+     "theory": "An agile supply chain responds quickly to unpredictable changes in demand or supply, using flexible capacity, shared information and close coordination with partners. It is usually contrasted with lean, which pursues efficiency and low cost under stable conditions. Agility is most useful where volatility is high and the cost of being unresponsive is severe.",
+     "link": "Perishable supply here is volatile because weather can delay a harvest and change the journey needed at short notice. Cathay books charters with interline carriers well ahead, which gives some flexibility, but these must be reworked when the crop slips, and the article describes a lot of communication among Cathay, forwarders, growers and farmers. The text also reports capacity shortages within Asia, so an agile response depends on lift that may not be available.",
+     "critique": "Agility is expensive, and holding spare capacity in a low-margin business is hard to justify when consumers will pay only so much. A leagile or hybrid design, which keeps a lean core and holds agile buffers only for the most time-critical lines, may be more realistic than full agility.",
+     "practice": "The chain should pre-agree several fallback options, such as alternative gateways, carriers and sea-air combinations, with triggers linked to harvest forecasts so that switching happens early. It should also share harvest data with growers and forwarders so that decisions are taken on a common picture rather than after the crop is already late."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Power in buyer-supplier relationships (Cox)",
+     "unit": "",
+     "theory": "Cox argues that the balance of power between buyer and supplier depends on the relative scarcity and importance of what each side offers, and on the realistic alternatives each has. Where supply is scarce and the buyer depends on it, the supplier holds power; where the buyer has alternatives, power shifts to the buyer. Power is therefore a property of the relationship and market conditions, not only of size.",
+     "link": "Air cargo capacity is scarce, and airlines have pricing leverage, as shown by rising yields and Cathay's reported capacity shortages. Avianca's contrast between AI-server customers, who can effectively pay whatever is asked, and flower exporters with little room to absorb costs shows that buyers differ in power, and perishable exporters have the weakest position. The lower yield rise in Latin America, at 7 to 8 per cent against 24 to 25 per cent globally, suggests exporters in that region have less ability to pass costs on.",
+     "critique": "Cox's framework is largely dyadic, treating the buyer's alternatives as what matters, whereas here the exporter's price ceiling is set further down the chain by consumers. Regional yield averages are also aggregates and do not show individual contract outcomes.",
+     "practice": "An exporter should segment its volumes by urgency and value and negotiate block-space or fixed-rate agreements for predictable base volumes, leaving the spot market for the remainder. It should also seek contract terms that share fuel-cost changes with downstream buyers, and widen its carrier and gateway options to reduce dependence on any one supplier."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Organisations depend on others for critical resources, and one party's power over another increases with how important, scarce and concentrated the resource is. Dependent organisations try to reduce dependence through diversification, alternative suppliers, contracts or joint action, while the powerful party may use its position to shape the other's behaviour. Power therefore lies in the structure of dependencies as well as in formal authority.",
+     "link": "Airlines control lift, the critical resource for perishable exporters, and capacity shortages make it scarcer. Growers and forwarders cannot easily switch to sea because harvest timing removes that option, so their dependence on air is high while their ability to pay is low. Cathay's coordination of several carriers and gateways is an attempt to reduce dependence through a network of partners, and the informal communication with forwarders, growers and farmers shows how dependence is managed across organisational boundaries.",
+     "critique": "Resource dependence theory explains where power comes from but says less about how a weaker party's collective action or perceptions can change outcomes, which matters when growers are numerous and fragmented. It also assumes the dependent organisation can search for alternatives, which the seasonal timing here largely prevents.",
+     "practice": "A manager in a dependent position should map which resources are critical and which suppliers control them, then reduce dependence by contracting with several carriers, building relationships with gateways and partners, and where possible negotiating collectively with other growers. This is most effective before the harvest, when options still exist."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A South American fresh-fruit exporter ships cherries by air through several US gateways to Asian markets. Airline yields are rising, rain could delay the harvest so that sea freight is no longer feasible, and the exporter's downstream buyers have signalled they will not accept higher prices. Carrier capacity is short in both the origin region and within Asia.",
+    "question": "Advise the board on whether to continue shipping the harvest by air at current rates, and on how it should organise its carriers, forwarders and growers to protect margins. Critically evaluate the options.",
+    "evidence": [
+     "WorldACD figures cited by Avianca Cargo show Latin American yield increases of about 7 to 8 per cent against 24 to 25 per cent globally.",
+     "Atlas Air warns that sustained cost increases could push some perishable products out of air freight through modal shift.",
+     "Cathay reports that a delayed harvest misses the fast boats, so more cargo has to be flown.",
+     "Cathay reports capacity shortages both from Asia to the US and within Asia."
+    ],
+    "plan": [
+     "Define the decision and the constraint, using modal choice to show that sea is viable only before a cut-off date and that air becomes the default as the harvest slips.",
+     "Assess the value of time by setting the quality loss per day against the air freight premium, recognising that consumers set a price ceiling.",
+     "Analyse dependence using resource dependence theory to show that airlines hold power and that the exporter's alternatives are limited, then use Cox to decide which volumes can be contracted.",
+     "Build responsiveness through an agile or leagile design, with pre-agreed fallback carriers, gateways and sea-air options triggered by harvest forecasts.",
+     "Consider the organisation of coordination, including communication among growers, forwarders and carriers, and whether collective negotiation among growers is feasible.",
+     "Recommend fixed block space for the predictable base volume, pre-agreed fallback options, a fuel-cost pass-through clause, and a priority ranking of lines to fly, with a stated point at which a product should be withdrawn from air."
+    ],
+    "pitfalls": [
+     "Treating the article as a simple cost problem and ignoring the timing constraint that removes sea as an option.",
+     "Assuming agility is free: in a low-margin business, any spare or reserved capacity must be justified against the price ceiling."
+    ]
+   },
+   "alsoConsider": [
+    "Porter's five forces (buyer and supplier power)",
+    "Value-based pricing (marketing)",
+    "Network organisation structures (PWO Unit 6)",
+    "Kraljic's purchasing portfolio matrix"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether resource dependence theory explains the power of dominant suppliers over smaller organisations, using a supply chain in which one party controls scarce capacity.",
+    "outline": [
+     "Define resource dependence and its determinants: the importance, scarcity and concentration of the resource controlled by the other party.",
+     "Apply the theory to airline capacity, the exporter's inability to switch to sea and its limited ability to pass costs on.",
+     "Critique the theory's limits in fragmented or collective settings, and set out ways a dependent organisation can reduce its dependence."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "7ea1fdcbef27",
+   "title": "COP31: New UN framework puts businesses’ net-zero progress on public record",
+   "url": "https://www.edie.net/cop31-new-un-framework-puts-businesses-net-zero-progress-on-public-record/",
+   "source": "edie",
+   "publishedAt": "2026-11-13T11:25:12Z",
+   "addedAt": "2026-11-15T06:20:27Z",
+   "basis": "full_text",
+   "takeaway": "The article reports a new UN tool that lets companies, banks and cities place net-zero targets on a public register, but its scepticism about voluntary disclosure points to a gap between published intentions and delivery that a green logistics student should be able to analyse with carbon accounting and accountability theory.",
+   "summary": "The article, which is a paywalled teaser, describes the Net-Zero Recognition Framework unveiled at COP31. It is a United Nations reporting tool that lets corporations, financial institutions and municipal governments publish their climate targets and transition trajectories on a public register. Eighty signatories have opted in so far. The teaser says that market observers are sceptical of voluntary disclosure because they separate published intentions from actual delivery, and that independent assessments point to persistent blind spots in corporate emissions accounting and uneven adoption across subnational authorities. The full analysis, which is available only to members, is said to examine whether public exposure forces real decarbonisation. The details of that analysis are not in the text provided.",
+   "keyPoints": [
+    "The Net-Zero Recognition Framework is a new UN reporting tool, unveiled at COP31, intended to make net-zero progress easier to share and more transparent.",
+    "Eighty signatories have opted in, and they include corporations, financial institutions and municipal governments.",
+    "Participants can place climate targets and transition trajectories on a public register.",
+    "Market observers are sceptical because voluntary disclosure can reveal intentions without showing delivery.",
+    "Independent assessments reportedly highlight blind spots in corporate emissions accounting and uneven adoption among subnational authorities."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 85,
+     "reading": "This article is about how organisations publish and account for their carbon commitments, which is central to green and sustainable logistics. The teaser's reference to blind spots in emissions accounting directly concerns the carbon footprinting boundaries that determine whether freight and warehousing emissions are fully counted. A green logistics student should care because a target published on a public register is only as credible as the emissions data beneath it, and because voluntary frameworks sit alongside, and may substitute for, regulation and carbon pricing."
+    },
+    {
+     "id": "finance",
+     "relevance": 35,
+     "reading": "In finance terms, the framework is a disclosure mechanism that reduces information gaps between organisations and their external stakeholders, including investors, lenders and citizens. The teaser's scepticism about intentions versus delivery is the classic concern that managers may signal commitment without acting on it. A finance student should note that the framework's value depends on whether published targets are verifiable and linked to outcomes."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "Carbon footprinting and Scope 1, 2 and 3 emissions",
+     "unit": "",
+     "theory": "A carbon footprint measures the greenhouse gas emissions attributable to an organisation or activity. Scope 1 covers direct emissions from owned sources, Scope 2 covers purchased energy, and Scope 3 covers the wider value chain, which often includes most of a logistics operator's upstream and downstream emissions such as subcontracted haulage. A credible net-zero claim requires all three scopes to be defined and measured on a consistent boundary.",
+     "link": "The article says that independent assessments highlight persistent blind spots in corporate emissions accounting, which maps onto the difficulty of capturing Scope 3 emissions in full. A public register of net-zero targets makes these boundaries visible, so a firm that reports only Scope 1 and 2 reductions while outsourcing freight could appear to decarbonise without changing its overall impact. The reference to uneven adoption across subnational authorities suggests that measurement capability varies across the organisations that are supposed to report.",
+     "critique": "Scope 3 is hard to measure and often relies on estimates, so a register that records targets without a common, audited methodology may reward organisations with weaker accounting. The article's teaser does not show whether the framework requires any particular boundary or verification.",
+     "practice": "A logistics manager should map emissions across all three scopes, identify the freight and warehousing activities that fall under Scope 3, and check whether the methodology used matches the framework's reporting requirements. Before publishing a target, the manager should be able to show the baseline and the calculation behind it."
+    },
+    {
+     "moduleId": "green",
+     "concept": "The triple bottom line (Elkington)",
+     "unit": "",
+     "theory": "The triple bottom line holds that organisations should report economic, social and environmental performance together, so that success is judged across people, planet and profit rather than financial returns alone. It treats public reporting as a form of accountability to a wider set of stakeholders.",
+     "link": "The framework puts corporate, financial and municipal targets on a public register, which extends reporting beyond financial results to climate transition. The article's emphasis on transparency across the real economy matches Elkington's idea that organisations answer to the public for environmental performance. Municipal governments in the framework show that the same logic applies to cities, which carry responsibility for local freight and air quality.",
+     "critique": "Elkington's framework is often criticised for treating the three bottom lines as equal and easy to add up, which can hide trade-offs such as a low-carbon investment that reduces profit. Public disclosure of climate targets does not, by itself, show that the social or economic dimensions have been balanced.",
+     "practice": "A manager applying this framework should report environmental targets next to economic and social indicators, such as cost per tonne-kilometre and driver welfare, so that the trade-offs are visible. The report should state where environmental gains have a cost and how that cost is handled."
+    },
+    {
+     "moduleId": "green",
+     "concept": "Externalities and carbon pricing",
+     "unit": "",
+     "theory": "An externality is a cost or benefit that a market transaction imposes on people who are not party to it, and carbon emissions are a classic negative externality. Carbon pricing, through taxes or emissions trading, aims to internalise this cost so that firms reflect the damage they cause in their decisions. Voluntary commitments are one alternative to such pricing, and they are often compared with it.",
+     "link": "The framework is voluntary, and the article's scepticism about published intentions suggests that disclosure alone may not change behaviour in the way a price signal would. Public registers may create reputational pressure that partly stands in for the cost that carbon pricing would impose. The uneven adoption across subnational authorities also suggests that voluntary participation may not cover the firms with the largest emissions.",
+     "critique": "Voluntary disclosure can lower the cost of entry for companies that are already leading, while the laggards who most need to change may not join. Reputational pressure is weaker when there is little regulatory consequence for failing to deliver.",
+     "practice": "A manager should not assume that joining a voluntary register removes the need to plan for carbon costs. Scenario planning should include carbon pricing and regulation, and the firm should build an internal shadow carbon price into freight mode choices and warehouse investment."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Agency theory",
+     "unit": "",
+     "theory": "Agency theory, developed from the work of Jensen and Meckling, describes the relationship between principals, such as shareholders, and agents, such as managers, whose interests may diverge. Information asymmetry lets agents pursue their own goals, so principals rely on monitoring, disclosure and incentives to reduce the problem.",
+     "link": "The framework is a disclosure mechanism that gives external stakeholders, such as investors, lenders and citizens, a public record of what organisations have said about their climate performance. The teaser's concern that observers separate published intentions from delivery reflects the agency problem, because managers may report commitments that they do not follow through on. Public registration is therefore a form of monitoring that can reduce the information gap.",
+     "critique": "Agency theory assumes that disclosure reduces opportunism, but a register of voluntary targets gives little information about delivery unless performance is verified and linked to executive incentives. Stakeholder theory would argue that the relevant principals include communities and the environment, not only shareholders.",
+     "practice": "A finance manager should link climate targets to measurable indicators and tie a share of executive pay to verified progress. The firm should also commission independent assurance so that the public register gives investors and lenders evidence of delivery rather than statements of intent."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national logistics company with warehouses and a large fleet of contracted hauliers has joined a new UN net-zero reporting framework. It has published a target to halve its emissions by 2035, but its published figures cover only its own fleet and buildings. Its largest customers are beginning to ask how the target will be measured across its whole service network.",
+    "question": "Critically evaluate whether joining a voluntary public register of net-zero targets will drive real decarbonisation in the company's logistics operations, and advise the board on what it should do to make its published target credible.",
+    "evidence": [
+     "The framework lets corporations, financial institutions and municipal governments publish climate targets and transition trajectories on a public register.",
+     "Eighty signatories have opted in, and market observers are sceptical that published intentions reflect actual delivery.",
+     "Independent assessments highlight persistent blind spots in corporate emissions accounting.",
+     "Adoption rates are uneven across subnational authorities, which suggests that participation varies."
+    ],
+    "plan": [
+     "Define the three emissions scopes and explain why the company's target covers only Scope 1 and 2 while most logistics emissions sit in Scope 3, using carbon footprinting.",
+     "Assess whether the register creates the reputational and information pressure that agency theory predicts, and identify where the monitoring is weak.",
+     "Use the triple bottom line to show that credible reporting must set economic, social and environmental performance side by side, including the cost of any modal shift.",
+     "Evaluate the voluntary approach against carbon pricing and regulation, noting that a voluntary framework may not change the behaviour of laggards.",
+     "Recommend that the board extend the target to Scope 3, commission independent assurance, link executive incentives to verified progress, and build a shadow carbon price into freight and warehouse decisions."
+    ],
+    "pitfalls": [
+     "Treating the register as proof of decarbonisation, when the article's own teaser raises doubts about delivery.",
+     "Ignoring Scope 3, which is where most freight and warehousing emissions usually sit, and so producing a target that looks ambitious but leaves most of the footprint unmeasured."
+    ]
+   },
+   "alsoConsider": [
+    "Stakeholder theory (Freeman)",
+    "Signalling theory",
+    "Institutional theory and isomorphism (DiMaggio and Powell)",
+    "Cap-and-trade and the Pigouvian tax approach to externalities"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether voluntary, publicly registered net-zero commitments by businesses and cities are likely to deliver substantive decarbonisation of freight and warehousing, and recommend what complementary measures policymakers and firms should adopt.",
+    "outline": [
+     "Explain carbon footprinting across Scope 1, 2 and 3 and why accounting blind spots undermine credible targets.",
+     "Evaluate voluntary disclosure against carbon pricing and regulation, using externalities and agency theory to structure the argument.",
+     "Recommend measures such as independent assurance, Scope 3 coverage and linking incentives to verified progress, and state the limits of each."
+    ]
+   },
+   "readingMinutes": 1
+  },
+  {
+   "id": "9eb5d09fe4a3",
+   "title": "US data centre demand growing ten times faster than grid capacity, research finds",
+   "url": "https://www.edie.net/us-data-centre-demand-growing-ten-times-faster-than-grid-capacity-research-finds/",
+   "source": "edie",
+   "publishedAt": "2026-11-13T20:16:55Z",
+   "addedAt": "2026-11-15T06:20:27Z",
+   "basis": "full_text",
+   "takeaway": "Electricity access has become the binding constraint on data centre growth, and developers' dependence on utilities is pushing them towards on-site generation, which brings its own financial, operational and climate costs.",
+   "summary": "Insurance broker Howden reports that US data centre electricity demand has grown about 19% a year since 2000, while grid capacity has grown about 2% a year, so data centres' share of US grid capacity rose from 0.1% to 5% by 2025. Howden estimates that electricity constraints add 24 to 72 months to construction for the most affected projects, which could mean $800m to $2.4bn in lost revenue for the largest facilities, so operators increasingly turn to behind-the-meter generation using gas, renewables, batteries and, over the longer term, nuclear. Howden judges full self-supply by 2030 unlikely and expects a mix of on-site generation, continued grid reliance and slower expansion, and it also highlights outage losses and insurance exposures from on-site power. A separate BloombergNEF report warns that data centre demand could lock in fossil fuel infrastructure, with 181 GW of proposed gas generation linked to data centres, mostly in the US, and around 152 million tonnes of extra CO2-equivalent a year against supply from the average grid. The figures are estimates from the research and should be cited as Howden's and BNEF's analysis rather than established fact.",
+   "keyPoints": [
+    "US data centre electricity demand has grown about 19% a year since 2000, against about 2% a year for grid capacity, so the grid has fallen far behind.",
+    "Data centres' share of US grid capacity rose from 0.1% in 2000 to 5% in 2025, a fifty-fold increase.",
+    "Grid connection delays of 24 to 72 months are estimated to cost $800m to $2.4bn in lost revenue for the largest affected facilities.",
+    "Full self-supply to hold the 5% share would need up to 58% behind-the-meter generation by 2030 (about 110 GW), which Howden itself considers unlikely.",
+    "Developers are turning to gas, renewables, batteries and longer-term nuclear to secure power without waiting for grid connections."
+   ],
+   "modules": [
+    {
+     "id": "strategy",
+     "relevance": 65,
+     "reading": "In strategy terms, grid access is a critical and scarce input, and the utility's control over it gives suppliers real bargaining power over data centre developers. The response of self-generation, storage and alliances with gas and nuclear suppliers is an attempt to reshape the firm's position and capabilities. A strategy student should see speed to power as a potential source of competitive advantage or disadvantage, and ask whether on-site generation is a capability that can be built and defended."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 60,
+     "reading": "Purchasing treats electricity as a bought-in input that, in most locations, has a single dominant source, which leaves the buyer exposed on availability, timing and terms. Operators who bypass utilities are making a make-or-buy decision, generating power themselves rather than buying it from the grid. A purchasing student should weigh total cost of ownership, including outage risk, insurance and emissions, against the risks of single sourcing from one supplier or one fuel."
+    },
+    {
+     "id": "projects",
+     "relevance": 55,
+     "reading": "Each data centre is a construction project whose completion depends on an external dependency, namely the grid connection. The 24 to 72 month delays estimated by Howden lengthen the schedule and push back revenue, so the connection is effectively a long-lead item that needs early planning, risk registering and stakeholder management. The article's point that on-site generation brings new exposures is a familiar project risk trade-off between schedule speed and operational risk."
+    },
+    {
+     "id": "pwo",
+     "relevance": 40,
+     "reading": "In People, Work and Organisations terms, this is a story about power between organisations: one organisation depends on another for a scarce resource that it cannot easily replace. Developers depend on utilities whose connection timetable they do not control, and that dependence shapes their negotiating position and their choices about self-supply. A PWO student should see how control over a critical resource becomes influence, and how dependent organisations look for ways to reduce that dependence."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "strategy",
+     "concept": "Porter's five forces (bargaining power of suppliers)",
+     "unit": "",
+     "theory": "Porter's five forces framework analyses industry attractiveness through rivalry among existing competitors, the threat of new entrants, the threat of substitutes, and the bargaining power of buyers and suppliers. Supplier power is high when suppliers are few, the input is critical and switching is costly, and it is weakened when credible substitutes exist.",
+     "link": "The grid operates as a near-monopoly supplier of connections in many areas, and the article describes developers facing severe penalties when connections are delayed, which signals high supplier power. Operators are responding in the way the framework anticipates by looking for substitutes in the form of on-site gas, batteries, renewables and nuclear, which weakens the utility's leverage. Howden's 58 per cent self-supply scenario shows how far substitution could go, although Howden judges it unlikely. The BNEF point that power access shapes who can build AI capacity suggests that access to electricity also acts as a barrier to entry for new competitors.",
+     "critique": "The five forces model is largely static and takes industry structure as given, whereas here utility regulation and public policy set supplier power and can change it quickly. The model also says little about the value of speed to the firm, which the article shows is central to the economics.",
+     "practice": "A data centre strategist should map the utility's bargaining power and the feasibility of each substitute site by site, and choose locations where power can be obtained within the investment timeline. They should compare the value of faster power against the cost of self-generation, and consider whether a partnership with a gas or battery supplier is a better route than building in-house capacity."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Make-or-buy decisions and transaction cost economics (Williamson)",
+     "unit": "",
+     "theory": "Transaction cost economics holds that a firm chooses between making an input internally and buying it in the market by comparing the transaction costs of each option. These costs rise with asset specificity, uncertainty and the frequency of exchange, and when a transaction involves specialised assets and high uncertainty, bringing the activity in-house is often the cheaper option.",
+     "link": "A data centre is designed and located around a particular power connection, so its asset specificity is high and switching supplier is costly. Uncertainty is also high, because grid timing is unpredictable and Howden reports delays of 24 to 72 months, which makes on-site generation an attractive internal option. The article shows operators taking that route, while the costs of making include the outage exposure and insurance requirements that Howden identifies, which are the operating costs of self-supply. The partial move to self-supply, with Howden expecting a blend of grid and on-site power, reflects a hybrid governance choice rather than a full make or buy.",
+     "critique": "Transaction cost economics focuses on minimising cost and gives less weight to the value of speed and control over a scarce resource, which may matter more than cost to a developer. It also does not capture the climate externality that BNEF emphasises, because the cost of fossil self-supply falls partly on society.",
+     "practice": "Purchasing should compare the total cost of ownership of grid supply with on-site generation, including delay costs, outage risk, insurance and carbon exposure. Where grid timing is uncertain and the site is highly specific, a hybrid arrangement of on-site generation with grid backup under firm supply contracts is usually a more resilient choice than relying on a single source."
+    },
+    {
+     "moduleId": "projects",
+     "concept": "Critical path method (with PERT)",
+     "unit": "",
+     "theory": "The critical path method identifies the longest sequence of dependent activities in a project, which sets the earliest completion date. A delay to any activity on the critical path delays the whole project, whereas activities off the path have float. PERT extends this approach by using probabilistic time estimates for each activity.",
+     "link": "For a data centre, the grid connection is likely to be a long-lead activity on the critical path, because the building may be ready but the facility cannot operate until power arrives. Howden's estimate of 24 to 72 months of added time reflects the connection activity driving the schedule. Because lost revenue of $800m to $2.4bn is tied to that delay, the critical path analysis translates directly into financial loss and points to the grid connection as the activity that most needs managing. Moving to on-site generation can be understood as shortening the critical path by replacing a dependent activity with one the developer controls.",
+     "critique": "The critical path method assumes that durations and dependencies are known, but grid queue times are uncertain and depend on decisions taken by third parties, so single-point estimates can mislead. In a constrained queue there may be no float at all, so a PERT range of outcomes is more realistic than one date.",
+     "practice": "The project manager should identify the grid connection as a critical-path activity early and begin the application process at once. They should run a schedule risk analysis across a range of connection dates, and prepare a contingency such as phased energisation or temporary on-site generation if the connection slips."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on others for critical resources, and that whoever controls a scarce, critical and hard-to-replace resource gains power over those who need it. Dependent organisations respond by reducing their dependence, for example by diversifying suppliers, building buffers, forming alliances or bringing the resource in-house.",
+     "link": "The utility controls access to grid connection, which data centre developers need, and the article's reference to developers facing penalties for delay shows the dependence in practice. Power lies with the grid owner, and in effect it sets the timetable. The operators' responses, including bypassing utilities and securing gas, batteries, renewables and nuclear, are classic dependence-reducing strategies that aim to restore autonomy. Howden's expectation of a blend of on-site and grid supply shows that complete independence is not achievable, so dependence is managed rather than removed.",
+     "critique": "Resource dependence explains behaviour through external constraints but can understate the agency of dependent organisations, who may choose how far to accept dependence. The balance of power is also set by regulators, who can change the rules that govern utilities, and the theory gives this only limited attention.",
+     "practice": "A data centre leader should map the resources the firm depends on, rate each for criticality and substitutability, and choose dependence-reducing moves such as dual supply contracts, on-site battery buffering, or location choices close to spare capacity. They should also engage the utility and regulators, because influence over the connection queue is itself a source of power."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A US operator plans a large AI data centre, but the regional utility has indicated that a grid connection could take several years. Competitors are opening faster by using gas engines and battery storage on site, and the board is divided on whether to follow. Investors want to know how the power strategy affects both timing and risk.",
+    "question": "Using resource dependence theory, critically evaluate the operator's dependence on the utility and advise the board on whether it should build on-site generation.",
+    "evidence": [
+     "US data centre electricity demand has grown about 19% a year since 2000, against about 2% a year for grid capacity (Howden).",
+     "Electricity constraints are estimated to add 24 to 72 months to construction for the most affected projects, with lost revenue of $800m to $2.4bn (Howden).",
+     "Howden judges full behind-the-meter supply by 2030 unlikely and expects a combination of on-site generation, grid reliance and slower expansion.",
+     "BNEF estimates 181 GW of proposed gas generation linked to data centres, over 90 per cent of it in the US, which could add about 152 million tonnes of CO2-equivalent a year compared with the average grid."
+    ],
+    "plan": [
+     "Define resource dependence and identify the critical resource (grid connection) and its controller (the utility), noting the scarcity implied by the 5 per cent share and the 24 to 72 month delays.",
+     "Assess the degree of dependence by considering how critical the resource is, whether substitutes exist, and how much discretion the utility has over timing, using French and Raven's bases of power to explain where the utility's influence comes from.",
+     "Evaluate the dependence-reducing options (on-site gas, batteries, renewables, nuclear, multiple suppliers, site selection), weighing each against revenue loss, outage risk and insurance exposure.",
+     "Consider the wider stakeholders and the climate consequences, including BNEF's warning that temporary gas may become permanent, and how the utility and regulators are likely to respond.",
+     "Recommend a staged mix of on-site generation to bridge the gap with a defined exit path, continued grid connection, and an insurance and resilience plan, and explain the trade-offs involved."
+    ],
+    "pitfalls": [
+     "Treating Howden's 58 per cent behind-the-meter figure as a forecast when the report itself judges that scenario unlikely.",
+     "Discussing self-generation only in cost terms and ignoring the dependence, outage and emissions consequences that the article highlights."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Mendelow's power-interest matrix",
+    "Scope 1, 2 and 3 carbon footprinting",
+    "Risk management and the risk register"
+   ],
+   "exam": {
+    "question": "Critically evaluate the argument that control over scarce, critical resources is the main source of power between organisations, using a current example of an organisation whose growth depends on an external supplier.",
+    "outline": [
+     "Define resource dependence and set out the conditions under which it creates power, such as criticality, scarcity and the absence of substitutes.",
+     "Apply the theory to a real example, showing how dependent organisations respond by bypassing, diversifying or integrating.",
+     "Critically assess the limits of the theory, including the role of regulation and the other dimensions of power."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "34db8b679124",
+   "title": "U.S. container imports hit record volume in October",
+   "url": "https://www.thescxchange.com/move/u-s-container-imports-hit-record-volume-in-october",
+   "source": "Supply Chain Xchange",
+   "publishedAt": "2026-11-12T17:53:09Z",
+   "addedAt": "2026-11-15T06:20:27Z",
+   "basis": "full_text",
+   "takeaway": "Record US container imports in October show strong volume, but volume alone does not show supply chain resilience; the shift to East and Gulf ports and rising transit delays need testing against cost, risk and bottleneck theory.",
+   "summary": "Descartes Systems Group reports that US container imports reached an all-time high of 2,674,808 TEUs in October. Imports from China rose for a fourth consecutive month to 987,805 TEUs, the highest monthly figure since January 2025. To absorb the surge, the largest East and Gulf Coast ports gained share over West Coast gateways, and port transit delays rose modestly for a third consecutive month, although the report sees no signs of broad-based congestion. Descartes describes US maritime imports as resilient despite an uncertain trade landscape and advises importers to keep reviewing tariff treatment, security risks on key shipping routes and carrier routing decisions, since these add uncertainty to cost and transit planning.",
+   "keyPoints": [
+    "US container imports reached a record of 2,674,808 TEUs in October, according to Descartes.",
+    "Imports from China rose for a fourth consecutive month to 987,805 TEUs, the highest since January 2025, and account for much of the overall increase.",
+    "Largest East and Gulf Coast ports gained share over West Coast gateways to handle the surge.",
+    "Port transit delays increased modestly for a third consecutive month, but no broad-based port congestion has appeared.",
+    "Descartes describes US maritime import resilience as continuing despite uncertain trade conditions."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 75,
+     "reading": "The article is about freight flows through ports, which is the core subject of logistics operations. The shift of volume towards East and Gulf Coast gateways, and the modest rise in transit delays, are changes in the choice of ports, the routing of freight and the performance of carriers. A student of this module should care because port and gateway choice drives inland distance, transit time, service levels and total logistics cost."
+    },
+    {
+     "id": "scm",
+     "relevance": 70,
+     "reading": "The article concerns how a supply chain copes with a demand surge, concentrated sourcing and external shocks such as tariffs and security risks. The report's language of resilience and the advice on routing and carrier decisions link directly to supply chain risk management. Students of this module should see the record volumes as a test of the network's ability to absorb disruption, not as proof that it is robust."
+    },
+    {
+     "id": "strategy",
+     "relevance": 35,
+     "reading": "The article describes an external environment shaped by trade policy, security threats and shifting shipping conditions. These are political, economic and environmental pressures that a firm must analyse when deciding where to source and through which gateways. A strategy student can use the article as a source of external factors for a PESTEL analysis."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck define supply chain risk as the possibility of disruption that affects the flow of goods, and resilience as the ability of a network to withstand disruption and recover, or adapt to a better position. They argue that resilience depends on mapping the network to reveal dependencies, on building flexibility and redundancy, and on visibility and collaboration with partners. Firms should identify their most vulnerable nodes and routes before disruptions occur.",
+     "link": "The article reports that China's share of US container imports is rising and that the largest East and Gulf Coast ports are taking more share, which signals concentration in one source country and a small set of gateways. Descartes names tariff treatment, security risks on key shipping routes and carrier routing decisions as sources of uncertainty, which are the kinds of disruption Christopher and Peck say a firm should map. The report's conclusion of resilience rests on aggregate volume, which measures throughput rather than recovery capacity. The article therefore shows exposure to risk more clearly than it shows a resilient network.",
+     "critique": "Record volumes show that the network is working now, but they say little about how it would perform after a shock, because the theory's measure is recovery rather than throughput. Christopher and Peck focus on the firm's own network, whereas the article reports national aggregates, so it cannot show a particular importer's exposure.",
+     "practice": "A manager should map the import network by country, gateway, carrier and route, and identify which lanes depend on a single source or route. The manager should then add redundancy, such as an alternative gateway or carrier on the critical lanes, and build visibility through early warning on tariffs, security alerts and transit times."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Total logistics cost and the cost-service trade-off",
+     "unit": "",
+     "theory": "Total logistics cost is the sum of transport, inventory, warehousing and service-failure costs across the whole logistics system, not just the freight rate. Choices about ports, routes and modes trade transport cost against transit time and reliability, and a firm should choose the option that minimises total cost at the required service level. Longer or less reliable transit increases inventory and expediting costs.",
+     "link": "The article reports that the largest East and Gulf Coast ports gained share over West Coast gateways to handle the surge, which is a change in port choice driven by capacity. It also reports that transit delays rose modestly for a third consecutive month, which affects the time that goods spend in transit and the stock needed to cover it. Applying total logistics cost theory, a shift of gateway changes inland haulage distance and cost as well as the port charge. The modest rise in delays therefore matters because it raises the safety stock or expediting cost that the firm must carry.",
+     "critique": "The article gives no cost, rate or inventory data, so it cannot show whether the shift to East and Gulf gateways reduces total cost. The theory also assumes that costs can be measured and compared, whereas tariffs and security risk are uncertain and hard to put a price on.",
+     "practice": "A logistics manager should compare the landed cost of goods through each gateway, including the inland leg, expected transit delay and the inventory needed to cover it. The manager should set a service target, such as on-time-in-full delivery, and choose the gateway or carrier mix that meets it at the lowest total cost, reviewing the choice when delays rise."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Theory of constraints (Goldratt)",
+     "unit": "",
+     "theory": "Goldratt's theory of constraints holds that every system has at least one bottleneck that limits its throughput, so improving any other part of the system adds little. The approach uses five focusing steps: identify the constraint, decide how to exploit it, subordinate everything else to it, elevate its capacity, and then repeat the process as the constraint moves. Managers should therefore find the binding constraint before investing elsewhere.",
+     "link": "The article reports that port transit delays rose modestly for a third consecutive month while volumes reached a record, which suggests that port capacity or handling could be the binding point in the import chain. Under the theory, the rising delays are an early signal of where the constraint may be forming. The article also notes that the top ports absorbed extra volume by gaining share, which shows the system moving its constraint across gateways. The theory would direct attention to the port or terminal that is near capacity before the broader network is changed.",
+     "critique": "The article states that there are no signs of broad-based congestion, so the bottleneck may not yet bind and the theory may be applied too early. Goldratt's approach was built for a single production process, and a multi-firm import network with many carriers, ports and inland links may have several constraints that move with demand.",
+     "practice": "A manager should track transit times and dwell times at each gateway to locate the point where delays first accumulate. Once the constraint is identified, the firm should use it fully, for example by scheduling deliveries around port capacity, and align carrier and warehouse schedules to it rather than adding inventory across the whole network."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "PESTEL analysis",
+     "unit": "",
+     "theory": "PESTEL analysis sorts the external environment into political, economic, social, technological, environmental and legal factors that affect a firm's ability to compete. It is used to identify threats and opportunities before choosing a strategy. Its purpose is to make the external drivers explicit, so that a firm can see which of them are most likely to change its strategic options.",
+     "link": "The article points to political factors, namely trade policy and tariff treatment, as a source of uncertainty for importers. It identifies security risks on key shipping routes, which are a political or environmental threat that may affect routing. It reports economic strength through record import volumes and rising Chinese share, which is an economic driver. Together these factors show that the external environment is changing in ways that matter for sourcing and gateway choice.",
+     "critique": "PESTEL lists factors but does not show how they interact or how likely each is, so it can give a long list with little guidance on priorities. In a volatile trade environment, scenario planning may be more useful than a single PESTEL view because it tests how the factors combine.",
+     "practice": "A strategy team should list the political, economic, environmental and other factors from the article and rate each by likelihood and impact on sourcing and gateway choice. It should then build two or three scenarios, such as a tariff increase or a route disruption, and identify the sourcing and routing responses that would be robust across them."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A US importer of consumer goods sources most of its products from China and uses East Coast and Gulf gateways for a growing share of its containers. Record national import volumes have brought modest rises in port transit delays for three consecutive months, although there is no broad congestion. Tariff treatment, security risks on key shipping routes and carrier routing decisions are all changing.",
+    "question": "Advise the board on how the importer should protect cost and service performance over the coming peak season, drawing on supply chain risk and logistics cost theory.",
+    "evidence": [
+     "Descartes reports that US container imports reached a record 2,674,808 TEUs in October.",
+     "Imports from China rose for a fourth consecutive month to 987,805 TEUs, the highest since January 2025.",
+     "East and Gulf Coast ports gained share over West Coast gateways, and transit delays rose modestly for a third consecutive month, with no signs of broad-based congestion.",
+     "Descartes advises importers to review tariff treatment, security risks on key shipping routes and carrier routing decisions, which add uncertainty to cost and transit planning."
+    ],
+    "plan": [
+     "Set out the context: record volume, rising concentration on China and a shift of gateways, and the external drivers of tariffs and security risk, using PESTEL to organise them.",
+     "Assess the firm's exposure using Christopher and Peck, mapping dependence on one source country, one set of gateways and one set of carriers, and identifying which lanes have no alternative.",
+     "Evaluate the port shift using total logistics cost, comparing the landed cost of each gateway including inland haulage, expected delay and the inventory needed to cover it.",
+     "Locate the likely bottleneck with the theory of constraints by tracking transit and dwell times, and explain why the modest rise in delays is an early warning rather than a proven congestion.",
+     "Recommend a set of actions: diversify gateways and carriers on critical lanes, hold targeted safety stock, set on-time-in-full targets and monitor tariff and security alerts, with the trade-off between cost and resilience stated clearly."
+    ],
+    "pitfalls": [
+     "Treating record volume as proof of resilience; the article says the risks are uncertain and delays are rising, and resilience concerns recovery from shocks.",
+     "Claiming that port congestion exists; the article reports only modest rises in delay and explicitly says there are no signs of broad-based congestion."
+    ]
+   },
+   "alsoConsider": [
+    "The bullwhip effect (Lee, Padmanabhan and Whang)",
+    "Lean, agile and leagile supply chains (Christopher; Naylor)",
+    "Porter's five forces"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that record import volumes show a resilient supply chain, and recommend how an importer should manage tariff, security and transit-time risk when it relies on a small number of source countries and gateways.",
+    "outline": [
+     "Distinguish resilience, meaning recovery and adaptation after disruption, from current throughput, using Christopher and Peck and the evidence on record volumes and rising delays.",
+     "Assess the trade-off in port and carrier choice using total logistics cost and service, noting that the article gives no cost data.",
+     "Evaluate the limits of the evidence, including the absence of broad-based congestion, and recommend monitoring, redundancy and contingency plans."
+    ]
+   },
+   "readingMinutes": 1
+  },
   {
    "id": "503b3197f6fb",
    "title": "How AI Erodes People’s Sense of Value at Work",
