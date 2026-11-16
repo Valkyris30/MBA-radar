@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-15T06:20:27Z",
+ "generatedAt": "2026-11-16T07:04:46Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
@@ -72,6 +72,1069 @@
   }
  ],
  "articles": [
+  {
+   "id": "3a3bd0501312",
+   "title": "Why Care Matters in Crisis: Leadership Insights from War",
+   "url": "https://www.ioatwork.com/why-care-matters-in-crisis-leadership-insights-from-war/",
+   "source": "I/O at Work",
+   "publishedAt": "2026-11-15T09:00:33Z",
+   "addedAt": "2026-11-16T07:04:46Z",
+   "basis": "full_text",
+   "takeaway": "Leaders who express care in their language during a crisis are more likely to propose constructive rather than combative measures, so care is a leadership behaviour that can be developed and selected for, not just a personal trait.",
+   "summary": "The article reports a study by Stajkovic and colleagues of how 152 Israeli legislators used language during the Israel-Hamas war. Using text analysis and machine learning on over 5.2 million words, the researchers measured each leader's expression of care, a moral perspective that considers how decisions affect others. They also classified more than 4,000 policy suggestions as constructive (focused on cooperation and long-term solutions) or combative (focused on blame, punishment and escalation). Leaders who expressed more care made more constructive suggestions. Women used more care-based language consistently, and this difference helped explain why they made more constructive suggestions. Care language rose in the most intense periods of the war, and the gender gap narrowed somewhat, though women stayed higher overall. The authors argue that care can move crisis discussions towards better decisions, that the findings may extend to disaster response, humanitarian work and public policymaking, and that care-based leadership can be developed through scenario exercises, feedback and guided moral reflection. They also suggest selecting crisis-ready leaders by looking at their record of caring for vulnerable groups alongside conventional indicators of competence.",
+   "keyPoints": [
+    "Leadership during crises is less studied than everyday leadership, although it may matter most.",
+    "Ethics of care leadership is the extent to which a leader expresses a care-based moral perspective, weighing how decisions affect others.",
+    "The sample was 152 legislators and over 5.2 million words of transcripts from Israel's national legislature during the Israel-Hamas war.",
+    "More than 4,000 policy suggestions were classified as constructive or combative.",
+    "More care in leaders' language went with more constructive suggestions."
+   ],
+   "modules": [
+    {
+     "id": "leadership",
+     "relevance": 85,
+     "reading": "This study is about ethical leadership in a crisis. The leader's moral perspective is measured through the care expressed in their language, and the outcome is the kind of decision they push for. For a leadership student the key point is that ethics is treated not as abstract principle but as an observable signal that shapes group decisions, and that the authors link this to selection and development. It also reminds us that much leadership theory is built on ordinary conditions, and the authors argue that high-strength events need their own evidence."
+    },
+    {
+     "id": "pwo",
+     "relevance": 60,
+     "reading": "From the PWO angle the article touches on individual differences, including gender and the values and attitudes behind expressed care, and on power, politics and conflict, since legislative debate is a contest in which some proposals are combative and others cooperative. The question is how a person's values and framing of a problem shape the conflict dynamics of a group. Students should care because the study treats language and framing as observable markers of how people approach conflict, and suggests that a group's climate can shift from escalation to problem-solving."
+    },
+    {
+     "id": "humanitarian",
+     "relevance": 35,
+     "reading": "The authors explicitly argue that their findings may apply to disaster response and humanitarian work, which is the core of this module. In humanitarian settings the dilemmas concern who receives help and how aid is framed when agencies, donors and governments are under pressure. The article suggests that the tone of leaders' arguments affects whether discussions move towards cooperative, long-term solutions. Students should consider whether care can be applied impartially across all those in need, which is the central test for humanitarian principles."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "leadership",
+     "concept": "Ethical and responsible leadership and the ethics of care",
+     "unit": "",
+     "theory": "Ethical and responsible leadership holds that leaders are accountable for the consequences of their decisions for the people affected by them, not only for results. The ethics of care, associated with Gilligan and Noddings, grounds moral judgement in relationships, attentiveness and responsiveness to others' needs rather than in abstract rules alone. A leader who expresses care shows this orientation in how they frame choices.",
+     "link": "The study operationalises this idea by measuring how much care appears in the language of 152 legislators during the Israel-Hamas war. Across more than 4,000 policy suggestions, leaders with more care-based language were more likely to propose constructive measures aimed at cooperation and long-term solutions rather than blame, punishment and escalation. This maps the theory's concern with consequences for others onto the difference between proposals that consider effects on people and those aimed at retaliation. Care is therefore visible in the content of decisions, not simply declared as a value.",
+     "critique": "The evidence is correlational and rests on language, which may be rhetoric or signalling rather than genuine moral commitment, since a legislator can speak of care while voting for escalation. The study also cannot show that care causes better proposals, because unmeasured factors such as party, constituency or personal experience may drive both.",
+     "practice": "A leader in a crisis should make explicit who is affected by each option, so that consequences for others are part of the debate and the record. Development can use scenario exercises and reflective feedback on how decisions are framed, and leaders should check whether their care extends to all those affected."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Functional and dysfunctional conflict (Pondy) and the Thomas-Kilmann conflict modes",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Pondy argued that conflict can be functional, improving decisions and surfacing problems, or dysfunctional, when it damages relationships and diverts energy from the task. Thomas and Kilmann describe five modes of handling conflict, competing, collaborating, compromising, avoiding and accommodating, based on the balance between assertiveness (concern for one's own goals) and cooperativeness (concern for others' goals). Collaboration seeks solutions that meet the concerns of both parties.",
+     "link": "Combative proposals focused on blame, punishment and escalation resemble the competing mode and a dysfunctional spiral, while constructive proposals aimed at cooperation and long-term solutions resemble collaboration. The article shows that care-based language is associated with the constructive side, suggesting that the way a leader expresses concern for others can move a contested debate from competition towards problem-solving. The rise in care language during the most intense periods may also indicate that conflict pressure can prompt concern for others as well as hostility.",
+     "critique": "Legislative debate is adversarial by design, and some competition is functional because opposition scrutiny holds government to account, so a binary coding of combative versus constructive may oversimplify. The Thomas-Kilmann model concerns how individuals handle disputes, whereas the study measures proposals across a whole chamber, so the mapping is analogical rather than exact.",
+     "practice": "A manager facing a dispute should separate the issue from the people, state their own concern and ask about the other party's, and look for options that serve both sets of interests before choosing between escalation and compromise. They should watch for escalating language and reframe it towards long-term outcomes."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Social role theory (Eagly)",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Social role theory holds that differences in how men and women behave arise largely from the social roles they occupy and the expectations attached to them, rather than from fixed innate traits. Expectations that women should be caring and nurturing are learned and internalised, and they can shape how people speak and act in public settings. Differences tend to shrink where roles and expectations become more similar.",
+     "link": "The article finds that women expressed higher levels of care-based language consistently, and that this difference helped explain their greater tendency to make constructive suggestions. Social role theory would read this as a product of socialised expectations about caring. The narrowing of the gender gap during the most intense periods could be consistent with that reading, since crisis may change which expectations of leaders are salient, although the article does not test this. The study therefore treats gender as an individual difference operating through a mediating variable, care-based language.",
+     "critique": "The study does not measure why men and women differ in care language, so social role explanations are not tested, and innate or personality differences in empathy could also account for the pattern. Treating gender as a group average also risks stereotyping individual legislators, since an average difference says little about any one person.",
+     "practice": "Organisations should not assume that care-based leadership is a women's trait or assign it by gender. Selection and development should assess care in individual leaders through their track record and behaviour, and encourage all leaders to use the framing habits associated with constructive decisions."
+    },
+    {
+     "moduleId": "humanitarian",
+     "concept": "Humanitarian principles (humanity, neutrality and impartiality)",
+     "unit": "",
+     "theory": "The core humanitarian principles are humanity (human suffering must be addressed wherever it is found), neutrality (not taking sides in hostilities or controversies) and impartiality (aid provided according to need alone, without discrimination). They guide how relief organisations operate in conflict and crisis. Care for people in need is the moral basis, but the principles require that care be applied equally to all affected people.",
+     "link": "The article argues that its findings about care in war may extend to humanitarian work and disaster response. The Israel-Hamas war setting shows care-based language operating in a highly polarised environment where proposals were either constructive or combative. The care that underpins humanity corresponds to the ethics of care measure, and the association between care language and constructive proposals suggests that humanitarian actors who frame decisions around those affected may move coordination towards cooperative solutions.",
+     "critique": "The study measured care toward whichever groups legislators referred to, and it does not show whether care was extended impartially to all sides, which the principles require. A care-based discourse that favours one community may be as divisive as a combative one, so neutrality and impartiality may be necessary checks on care.",
+     "practice": "Humanitarian managers in a crisis should frame communications and allocation decisions around need and the people affected, test whether their language is applied to all groups, and select field leaders with a track record of impartial care for vulnerable people. They should also use reflective exercises to check for bias in their own framing."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national legislature is debating its response to an ongoing war, with proposals ranging from punitive measures and escalation to cooperative plans for long-term settlement. Researchers who analysed its transcripts found that legislators using more care-based language were more likely to propose constructive measures, and that care language increased during the most intense periods of the conflict. A government wants to build a pool of leaders for future crises and is considering how to choose and develop them.",
+    "question": "Critically evaluate the claim that ethics of care leadership improves crisis decision making. Advise the government on how it should select and develop crisis-ready leaders.",
+    "evidence": [
+     "152 legislators and over 5.2 million words of transcripts were analysed during the Israel-Hamas war.",
+     "More than 4,000 policy suggestions were classified as constructive or combative, and more care in language was linked to more constructive suggestions.",
+     "Women expressed more care-based language consistently, which helped explain their greater tendency to propose constructive measures.",
+     "Care language increased during the most intense periods of the war, with some narrowing of the gender gap."
+    ],
+    "plan": [
+     "Define ethics of care leadership and ethical and responsible leadership, explaining that care is judged by how decisions consider their effects on others.",
+     "Set out the evidence: the link between care language and constructive proposals, the mediating role of care in the gender difference, and the rise in care during intense periods.",
+     "Evaluate the evidence critically: the study is correlational, relies on language rather than behaviour, and covers one legislature in one war. Use social role theory to interpret the gender findings without assuming innate difference.",
+     "Apply Pondy's functional conflict and the Thomas-Kilmann collaborating mode to explain why constructive proposals are better suited to managing a contested crisis than competition and escalation.",
+     "Advise on selection: weigh a candidate's record of caring for vulnerable groups alongside conventional competence, and do not select on gender.",
+     "Recommend development through scenario-based exercises, structured feedback on how leaders frame decisions and guided moral reflection, with monitoring to check that care is applied impartially to all groups affected."
+    ],
+    "pitfalls": [
+     "Treating the correlation between care language and constructive suggestions as proof that care causes better decisions.",
+     "Explaining the gender finding without considering social role expectations or individual variation, or recommending selection by gender."
+    ]
+   },
+   "alsoConsider": [
+    "Servant leadership (Greenleaf)",
+    "Emotional intelligence (Goleman)",
+    "Psychological safety (Edmondson)"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether ethical leadership grounded in care helps leaders make better decisions in crises, drawing on research into leadership during war and disaster.",
+    "outline": [
+     "Define ethics of care and ethical and responsible leadership, and explain how care can be observed in leaders' language and decisions.",
+     "Evaluate the evidence, weighing the strengths of large-scale text analysis and the gender findings against limits such as correlation, language rather than behaviour, and a single context.",
+     "Conclude with implications for selecting and developing crisis leaders, including the need for impartiality and the risk of stereotyping by gender."
+    ]
+   },
+   "readingMinutes": 1
+  },
+  {
+   "id": "c756adb2aefd",
+   "title": "Job applicants say they are using AI to discover, investigate companies",
+   "url": "https://www.hrdive.com/news/job-applicants-say-using-ai-to-discover-investigate-companies/874628/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-13T20:35:00Z",
+   "addedAt": "2026-11-16T07:04:46Z",
+   "basis": "abstract",
+   "takeaway": "Candidates now research employers with AI tools, and what those tools surface can lead them to withdraw before applying, so an employer's image is shaped partly by what AI presents, not only by its own messages.",
+   "summary": "Based only on the publisher's short abstract, a new study reports that more than half of job candidates declined to apply for a role after learning about the company through artificial intelligence. The headline adds that applicants say they use AI to discover and investigate employers. The abstract does not say which tools were used, what information led candidates to withdraw, or how the study was conducted, so the finding rests on candidates' own reports and should be checked against the full article before it is cited in detail.",
+   "keyPoints": [
+    "More than half of the candidates in the study said they had declined to apply for a job after learning about the company through AI.",
+    "Applicants report using AI both to discover employers and to investigate them.",
+    "The abstract does not say what information led to withdrawal, which AI tools were used, or how many people took part; these details must be checked in the full article.",
+    "The decision described happens before any application, so the employer loses candidates at the attraction stage, before recruitment processes begin."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 75,
+     "reading": "In People, Work and Organisations terms, the article is about how prospective employees form perceptions of an organisation and what those perceptions do to their decisions. It also touches on culture, since candidates appear to judge what working there would be like from the information AI gives them. A student of this module should care because the finding shows that perception, expectations and cultural signals operate before any employment relationship exists, and that the organisation has limited control over the filter through which they are received."
+    },
+    {
+     "id": "marketing",
+     "relevance": 35,
+     "reading": "Viewed from marketing, a company's employer brand works like a product brand in a labour market, and candidates' associations with it determine whether they consider it. The article suggests that information gathered by AI can change those associations and lead to a decision not to buy, in this case not to apply. A marketing student should care because it raises the question of how far a brand owner can manage associations that are now mediated by third-party tools."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Perception and selective perception",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Perception is the process by which people select, organise and interpret information about their environment, and it is shaped by their expectations, experience and needs. Selective perception means that people notice and give weight to information that fits their existing beliefs while filtering out the rest. Both processes mean that two people can receive the same information and form different views of it.",
+     "link": "The abstract shows candidates forming a view of a company from information gathered through AI, and then deciding not to apply, so their perception of the employer, rather than the employer's own account, drives the decision. The AI tool sits between the candidate and the company and selects, summarises and frames what the candidate sees, which means the candidate's perception starts from a filtered input. Because the abstract reports that more than half of candidates withdrew, the filter appears to have a strong effect on the outcome.",
+     "critique": "Perception theory locates distortion mainly in the perceiver, but here a substantial part of the filter sits in the technology, whose selection criteria are usually opaque to both candidate and employer. The theory explains how individuals interpret information but says little about how much the source of that information shapes the picture.",
+     "practice": "HR should check what the AI tools candidates use currently say about the organisation, identify which sources they draw on, and correct inaccurate or outdated material at its origin. It should also ask candidates who withdraw why they did so, so that it can distinguish misperception from genuine concerns."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of culture",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Schein describes culture at three levels: artefacts, which are visible and easily observed, such as physical settings, behaviour and published documents; espoused values, which are the stated beliefs, strategies and goals; and basic underlying assumptions, which are taken-for-granted beliefs that are hardest to see and most powerful in shaping behaviour. Outsiders usually see only the first two levels.",
+     "link": "AI summaries of a company are likely to draw on the visible levels, such as reviews, public statements, reported policies and press coverage. A candidate who decides not to apply may be reacting to signals about what the organisation is like to work in, without ever seeing the underlying assumptions. The abstract's finding that over half of candidates withdrew suggests that these outsider signals are enough to change decisions.",
+     "critique": "Schein's model assumes that culture is revealed to insiders over time, whereas an outsider using AI receives a compressed and secondhand version that may misrepresent the deeper assumptions in either direction. The model does not address how external information intermediaries shape what an outsider takes to be the culture.",
+     "practice": "Employers should make sure that the artefacts and espoused values that AI tools can access, such as careers pages, responses to reviews and leaders' public communications, match actual practice. A gap between stated and lived values is what an outsider is most likely to pick up as a warning sign, so closing it protects the employer brand."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "The psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is an individual's beliefs about the mutual obligations between themselves and their employer, such as what they will give and what they expect in return. It is formed from promises, expectations and perceptions of the relationship rather than from written terms alone. Breaches occur when the individual believes the employer has failed to honour these obligations.",
+     "link": "Candidates who decide not to apply after learning about a company through AI are forming expectations about obligations before any formal contract exists. If what they find suggests that the employer would not meet their expectations on development, workload or fairness, the psychological contract is never formed. This illustrates that the contract begins at the attraction stage, not at hiring.",
+     "critique": "Rousseau's work concerns the contract within an existing employment relationship, so applying it to pre-hire decisions stretches the concept. The abstract gives no evidence about which expectations candidates held or whether they were accurate.",
+     "practice": "HR should treat recruitment messaging as part of the psychological contract by describing development opportunities, workload and flexibility accurately. Mismatched expectations created at recruitment damage trust later, so accurate messaging protects both attraction and retention."
+    },
+    {
+     "moduleId": "marketing",
+     "concept": "Customer-based brand equity (Keller)",
+     "unit": "",
+     "theory": "Keller's customer-based brand equity model holds that brand value comes from what customers know and think about a brand, namely its awareness and its associations. Equity is strongest when associations are favourable, strong and unique, and it can be weakened by negative associations that lead customers to reject the brand.",
+     "link": "An employer brand works like a product brand in a labour market, and a candidate's knowledge of the company, gathered through AI, forms associations that either add to or subtract from its equity. The finding that more than half of candidates declined to apply after this research shows a negative association leading directly to rejection of the offer before it is made.",
+     "critique": "Keller's model assumes the brand owner can shape associations through its own marketing, whereas AI now mediates many associations and the owner has limited control over them. The model was developed for consumer products, and job candidates face different constraints and switching costs.",
+     "practice": "Employers should map the associations that candidates form from the sources AI draws on, define the associations they want, and measure awareness and favourability among candidates rather than relying only on application volumes."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A company in this position has found that many candidates who research it with AI tools go no further in the application process. Its recruitment team does not know what those tools say about the organisation or which sources they use. The company wants to understand why candidates withdraw and what it should change.",
+    "question": "Critically evaluate how an organisation should respond when candidates decline to apply after researching it through AI. Advise the HR director on the actions to take.",
+    "evidence": [
+     "The study reports that more than half of candidates declined to apply for a job after learning about a company through artificial intelligence.",
+     "Applicants say they use AI to discover and investigate companies.",
+     "The abstract does not state which information caused withdrawal, so the answer should treat the causes as a question to investigate, not as established fact."
+    ],
+    "plan": [
+     "Define the problem using perception theory: candidates form a view of the company from an AI-filtered picture, so the employer's own messages are not the only input.",
+     "Use Schein's three levels to explain which signals candidates can see (artefacts and espoused values) and which they cannot (underlying assumptions), and why this gap matters.",
+     "Apply the psychological contract to show that expectations formed at the attraction stage can end the relationship before it starts.",
+     "Use Keller's brand equity model to frame the employer brand and the negative associations that lead to withdrawal.",
+     "Critically assess the limits of these models, including the opacity of AI tools and the lack of detail in the evidence available.",
+     "Recommend an audit of what AI tools say, alignment of stated and lived values, accurate recruitment messaging, and structured feedback from candidates who withdraw."
+    ],
+    "pitfalls": [
+     "Stating which tools, which information or which sectors the study covered, which the abstract does not provide.",
+     "Treating AI as a neutral information source, when the answer should recognise that its selection and framing shape candidates' perceptions."
+    ]
+   },
+   "alsoConsider": [
+    "Attribution theory (Heider; Kelley)",
+    "Cognitive dissonance (Festinger)",
+    "The self-fulfilling prophecy"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that organisations can no longer control how they are perceived by prospective employees, and discuss the implications for managing culture and people at the point of recruitment.",
+    "outline": [
+     "Define perception, selective perception and the psychological contract, and explain how each operates before employment begins.",
+     "Use the finding that over half of candidates declined to apply after AI research, noting that the abstract does not say what candidates learned.",
+     "Evaluate the limits of organisational control over AI-mediated information and recommend actions that align stated and lived culture with accurate recruitment messages."
+    ]
+   }
+  },
+  {
+   "id": "ab52781fe641",
+   "title": "Week in review: Can AI root out manager bias?",
+   "url": "https://www.hrdive.com/news/can-ai-root-out-manager-bias/874657/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-13T20:34:00Z",
+   "addedAt": "2026-11-16T07:04:46Z",
+   "basis": "abstract",
+   "takeaway": "The headline question, whether AI can root out manager bias, is a People, Work and Organisations question about perception, judgement and evaluation. The abstract reports no findings, so treat this as a prompt to read the full stories before using them as evidence.",
+   "summary": "This is a weekly roundup from HR Dive. The publisher's abstract says it covers a single case and its effect on diversity and inclusion programming, and how artificial intelligence is affecting jobs. The headline asks whether AI can root out manager bias. Because only the abstract is available, the note cannot report what the articles conclude. It can, however, show how the headline question maps onto the theory of perception, individual differences and performance management.",
+   "keyPoints": [
+    "The abstract gives no findings, figures or named examples, so nothing about the cases or AI tools can be reported as fact.",
+    "The headline frames AI as a possible remedy for manager bias, which raises the question of whether a tool can correct a human bias it may have learned from human decisions.",
+    "Perceptual biases such as stereotyping, the halo effect and selective perception are the classic mechanisms by which managers' judgements of people become distorted.",
+    "A single case affecting diversity and inclusion programming suggests that how an organisation responds to one incident can shape the wider culture and the credibility of its programmes.",
+    "Any claim that AI removes bias needs checking against what data the tool was trained on and who reviews its outputs."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 60,
+     "reading": "In the language of PWO this is a question about perception and judgement in individual differences, specifically whether the biases managers bring to decisions about people such as hiring, appraisal and promotion can be reduced. The headline suggests the answer may depend on whether AI is used to replace or to check human judgement. A PWO student should care because these biases are a standard part of Unit 2 and a central concern in Unit 3 performance management."
+    },
+    {
+     "id": "leadership",
+     "relevance": 35,
+     "reading": "For leadership, the question concerns decision making and ethical responsibility: if a manager relies on an AI tool, who is accountable for a biased outcome? The single case mentioned in the abstract touches on how leaders respond when diversity commitments are tested. Students of leadership should consider whether delegating judgement to a tool changes the leader's duty to ensure fair treatment."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Perceptual biases: halo effect, stereotyping and selective perception",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Perception is an active process in which people select and interpret information through their existing beliefs and expectations. Biases such as the halo effect (one positive trait colouring the whole judgement), stereotyping (judging people by group membership) and selective perception (attending only to information that fits a view) distort evaluations of individuals.",
+     "link": "The headline asks whether AI can root out manager bias, which places the bias in the manager's perception of people rather than in the process alone. If AI is positioned as a way to strip out these distortions, the test is whether it reduces stereotyping and selective attention in the decisions the article covers. The abstract does not say how the tools are used, so the student should check whether the AI replaces the manager's judgement or simply supplies information the manager still interprets.",
+     "critique": "Perceptual biases are not only in the individual; they can be built into the data and criteria an AI tool learns from, so a tool trained on past decisions can reproduce the bias it is meant to remove. Perception theory alone does not explain how bias is transferred into algorithms.",
+     "practice": "A manager who wants to use AI for people decisions should first identify which biases are most likely in the decision, such as stereotyping in promotion. They should then test the tool's outputs against comparable human decisions and keep a human review step where judgement is still needed."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Performance management and feedback",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Performance management is the continuous process of setting goals, monitoring performance, giving feedback and making decisions about reward and development. Its fairness depends on the accuracy and consistency of the appraisal, and biased ratings undermine both motivation and perceived justice.",
+     "link": "If AI tools are used to assess or rank employees, the headline's concern becomes a performance management issue: whether ratings and decisions about pay or progression are accurate and consistent across groups. The abstract's mention of AI affecting jobs suggests that the same tools may also influence who is hired or retained. The student should look for evidence on whether the tool's assessments are checked against outcomes and whether employees can challenge them.",
+     "critique": "Performance management models assume managers can observe and rate performance accurately, which the bias literature questions. Applying AI without clear performance criteria may simply automate a poorly defined appraisal process.",
+     "practice": "Before deploying a tool, define the performance criteria in observable terms, audit the ratings by group, and give employees feedback on how their assessment was reached. Managers should be trained to question AI outputs rather than accept them as neutral."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Ethical and responsible leadership",
+     "unit": "",
+     "theory": "Ethical and responsible leadership holds that leaders are accountable for the fairness and consequences of decisions they make or delegate, and for setting the moral standards others follow. The leader's responsibility does not transfer to a tool or to subordinates.",
+     "link": "Where AI is used in decisions about people, the headline raises the question of accountability: a biased outcome from an algorithm is still an outcome the organisation must answer for. The single case in the abstract shows that how leaders respond to a diversity failure can determine whether their commitments are believed. The student should identify who is named as responsible for the tool's decisions in the full article.",
+     "critique": "Ethical leadership theory describes what leaders should do but offers little guidance on how accountability works when decisions are distributed between people and systems. Responsibility can become diffuse, which is a practical gap the theory does not close.",
+     "practice": "A leader should name an accountable owner for any AI tool used in people decisions, require regular bias audits, and report the results openly. Where a case damages trust in diversity programmes, the leader should respond with specific actions rather than statements."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large employer introduces an AI tool to support promotion decisions after a single publicised case damaged confidence in its diversity and inclusion programme. Managers still make the final decisions, but the tool ranks candidates and flags concerns. Staff in some groups report that they feel overlooked, and the HR team is unsure whether the tool is reducing or repeating manager bias.",
+    "question": "Critically evaluate whether AI can reduce manager bias in promotion decisions, and advise the HR director on the steps needed before the tool is extended to appraisal.",
+    "evidence": [
+     "The HR Dive roundup headline asks whether AI can root out manager bias.",
+     "The abstract states that a single case has affected diversity and inclusion programming.",
+     "The abstract states that artificial intelligence is affecting jobs, which suggests the tools bear on people decisions.",
+     "These are headlines only; the full articles must be checked before any finding is cited."
+    ],
+    "plan": [
+     "Define the relevant perceptual biases (halo effect, stereotyping, selective perception) and explain how they distort promotion decisions.",
+     "Assess whether the AI tool removes these biases or only moves them into its data and criteria, drawing on the point that tools trained on past decisions can reproduce them.",
+     "Apply performance management theory to ask whether the criteria used for ranking are observable, consistent and fairly measured.",
+     "Apply ethical and responsible leadership to identify who is accountable for biased outcomes and how trust can be rebuilt after the case.",
+     "Recommend a bias audit by group, a human review step and transparent criteria before the tool is extended to appraisal."
+    ],
+    "pitfalls": [
+     "Stating that AI removes bias without testing the tool's data and outputs, which the abstract does not support.",
+     "Presenting the headlines as findings rather than as prompts to be checked against the full articles."
+    ]
+   },
+   "alsoConsider": [
+    "Attribution theory (Heider; Kelley)",
+    "Self-fulfilling prophecy",
+    "Schein's three levels of culture",
+    "Lukes's three dimensions of power"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether artificial intelligence can reduce bias in managers' decisions about people, drawing on theories of perception and individual differences.",
+    "outline": [
+     "Define perceptual biases such as the halo effect, stereotyping and selective perception, and explain how they distort evaluations.",
+     "Assess whether AI tools remove these biases or transfer them through the data and criteria they use, with reference to the accountability of managers.",
+     "Conclude with conditions under which AI can support fairer decisions, such as bias audits, human review and transparent criteria."
+    ]
+   }
+  },
+  {
+   "id": "b89035a5d355",
+   "title": "Many executives say they are worried about leading with empathy",
+   "url": "https://www.hrdive.com/news/many-executives-say-they-are-worried-about-leading-with-empathy/874529/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-12T20:27:00Z",
+   "addedAt": "2026-11-16T07:04:46Z",
+   "basis": "abstract",
+   "takeaway": "When pressure to invest heavily in AI grows, executives may deprioritise employee well-being, culture and retention. Psychological contract, job demands-resources and culture theory from PWO explain why that trade-off can cost the engagement the AI programme depends on.",
+   "summary": "According to the publisher's abstract, which reports Businessolver's findings, C-suite executives facing pressure to make decisive AI investments are pushing employee well-being, organisational culture and retention down their list of priorities. The headline adds that many executives are uneasy about leading with empathy. The abstract gives no figures, sample or method, so the scale of the trend and the reasons behind it cannot be judged from it.",
+   "keyPoints": [
+    "Pressure to commit heavily to AI is leading senior executives to deprioritise employee well-being.",
+    "Culture and retention are also being moved down the agenda, according to the same source.",
+    "The headline reports that many executives are worried about leading with empathy.",
+    "The abstract is brief and gives no sample size, data or method, so the extent of the trend is unclear."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 80,
+     "reading": "In PWO terms this is about how top-level priorities shape the employee experience. Well-being, culture and retention sit at the centre of Unit 3 (engagement and the psychological contract) and Unit 7 (organisational culture), and the abstract suggests they are being traded away for technology investment. A PWO student should care because it shows how strategic choices can change motivation, identity and intention to stay, and it gives material to test theory against."
+    },
+    {
+     "id": "leadership",
+     "relevance": 55,
+     "reading": "This is a leadership question about empathy, responsibility and the choices leaders make under pressure. Emotional intelligence and ethical leadership frameworks suggest that leaders who attend to people's needs will act differently when resources are tight. The headline raises whether leaders feel able to show empathy when competitive pressure is high, which matters for anyone studying leadership practice."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of unwritten beliefs that employees and employers hold about mutual obligations, such as effort in return for support, development and security. When one party seems to fall short of these expectations, employees may perceive a breach, which reduces trust and commitment.",
+     "link": "The abstract says executives are deprioritising well-being, culture and retention while pursuing AI investment. Employees may read reduced attention to their well-being and retention as a sign that the organisation is no longer keeping its side of an implicit deal, so the trend maps onto the mechanism of perceived breach. The abstract does not report employee reactions, so this is an inference rather than a finding.",
+     "critique": "Rousseau's framing focuses on individual perceptions and may underplay structural causes such as investor pressure or cost constraints. It also does not say which expectations matter most to staff, so managers cannot easily tell which breaches will do the most damage.",
+     "practice": "Managers should identify which expectations matter most to their people and explain openly why priorities are shifting. They should also protect the visible parts of the deal, such as development opportunities and well-being support, so that employees can see the organisation still honours its commitments."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job demands-resources model (Bakker and Demerouti)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The job demands-resources model proposes that job demands, such as workload, pressure and change, drain energy and can lead to burnout. Job resources, such as support, autonomy, feedback and recognition, foster engagement and motivation and can buffer the effect of demands.",
+     "link": "AI-driven pressure to win bets increases demands on executives and probably on staff, while the abstract says well-being support and culture, which act as resources, are being deprioritised. On the model, demands rising as resources fall is a risky combination for engagement. The abstract does not measure demands or resources, so the application is a hypothesis to test rather than a conclusion.",
+     "critique": "The model tends to treat resources as relatively stable, whereas in practice they can be cut quickly when budgets tighten. It also does not say how long a resource deficit can be sustained before engagement falls, which limits its use for forecasting.",
+     "practice": "Before cutting people-focused programmes, a manager should audit the main demands created by the AI programme and the resources available to meet them. They should protect the resources that buffer the heaviest demands and monitor indicators of burnout and engagement as the programme proceeds."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of culture",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Schein distinguishes three levels of culture: visible artefacts, espoused values that are stated, and basic underlying assumptions that are taken for granted. Changing culture requires working at the deeper levels, and a gap between espoused values and actual behaviour suggests that the stated culture is not fully held.",
+     "link": "The abstract suggests executives say people and culture matter but deprioritise them when AI pressure arrives. The gap between what leaders espouse and what they fund and give attention to matches the espoused-versus-enacted gap Schein describes. The headline's reference to worry about leading with empathy may point to underlying assumptions about what leadership should look like, though the abstract does not say what those assumptions are.",
+     "critique": "Schein's model describes culture more clearly than it explains why such gaps arise. Competing views, such as the Competing Values Framework or power-based accounts, would put more weight on incentives, politics and whose priorities win budget battles.",
+     "practice": "Leaders should test whether their decisions match their stated values, for example by checking where budget and leadership time actually go. They should also link AI targets to measures of culture and well-being so that the people dimension is tracked alongside technology returns."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Emotional intelligence (Goleman)",
+     "unit": "",
+     "theory": "Goleman argues that emotional intelligence, including self-awareness, self-regulation, motivation, empathy and social skill, is an important leadership capability. He links it to effectiveness, particularly when leaders are guiding people through change.",
+     "link": "The headline's concern with leading with empathy maps onto the empathy dimension of emotional intelligence, and the abstract suggests executives may see empathy as costly under AI pressure. Goleman would frame empathy as a learnable skill that supports change rather than as a soft extra. The abstract does not report what executives actually think or do, so the link rests on the headline alone.",
+     "critique": "Goleman's claims about the predictive power of emotional intelligence have been contested, with some researchers arguing that the evidence is weak or overstated. Empathy on its own also does not guarantee good decisions, so it needs to be combined with commercial judgement.",
+     "practice": "Leaders should build empathy into their decision routines, for example by asking how a proposed change will affect people before approving it. They should develop it through feedback and coaching rather than treating it as optional."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A company in this position has committed heavily to AI and faces board pressure for fast returns. Its executives are considering cuts to well-being, culture and retention spending to fund the programme. Some senior leaders are reported to be uneasy about showing empathy during the transition.",
+    "question": "Advise the executive team on whether to protect spending on employee well-being, culture and retention while pursuing its AI programme. Critically evaluate the trade-offs.",
+    "evidence": [
+     "According to Businessolver, as reported by the publisher, executives under pressure to pursue AI investment are deprioritising employee well-being, culture and retention.",
+     "The headline states that many executives are worried about leading with empathy.",
+     "The abstract gives no figures, sample or method, so any evidence drawn from it should be presented as indicative only."
+    ],
+    "plan": [
+     "Define the problem as a trade-off between short-term AI returns and the people resources that sustain performance, and use the psychological contract (Rousseau) to frame employee expectations.",
+     "Apply the job demands-resources model to show how AI-driven demands could erode engagement if support and development resources are cut.",
+     "Use Schein's levels of culture to test whether the stated values match what the executive team actually funds and prioritises.",
+     "Apply Goleman's emotional intelligence to explain why empathetic leadership supports change, and address executives' concerns about it.",
+     "Assess the options of protecting, cutting or redirecting budgets against the evidence, noting the limits of a brief abstract.",
+     "Recommend a course of action: protect core retention and well-being resources, link AI targets to people measures, and communicate the rationale openly."
+    ],
+    "pitfalls": [
+     "Treating the abstract's findings as established fact; a strong answer says they come from a brief summary with no stated method or data.",
+     "Describing empathy as merely soft; a strong answer shows how it links to engagement, retention and change outcomes through named theory."
+    ]
+   },
+   "alsoConsider": [
+    "Kahn's personal engagement",
+    "Edmondson's psychological safety",
+    "Kotter's eight-step model of change",
+    "Cameron and Quinn's Competing Values Framework"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that organisations which deprioritise employee well-being and culture during technological change will undermine the engagement and retention they need to realise the benefits of that change.",
+    "outline": [
+     "Explain the psychological contract and the job demands-resources model to show how well-being and retention relate to engagement.",
+     "Use Schein's levels of culture to assess the gap between stated values and resource decisions, citing evidence from the article.",
+     "Critically evaluate the claims, noting the limits of a brief source and alternative explanations such as cost and investor pressure, then reach a balanced recommendation."
+    ]
+   }
+  },
+  {
+   "id": "c744db4e51e4",
+   "title": "ISG: Manufacturers in North American are strengthening factory resilience",
+   "url": "https://www.thescxchange.com/move/produce/isg-manufacturers-in-north-american-are-strengthening-factory-resilience",
+   "source": "Supply Chain Xchange",
+   "publishedAt": "2026-11-13T23:56:25Z",
+   "addedAt": "2026-11-16T07:04:46Z",
+   "basis": "full_text",
+   "takeaway": "North American manufacturers are making factory resilience a design problem, restructuring regional production and supply networks while modernising ageing plants without stopping production. For PWO, the same article shows that technology change depends on people: skills, oversight and support in live operations.",
+   "summary": "The article reports on an ISG study, the 2026 ISG Provider Lens Manufacturing Industry Services and Solutions report, which says North American manufacturers are strengthening factory resilience. They are restructuring regional production and supply networks to keep output going despite trade-policy shifts, economic uncertainty and supply disruptions. Manufacturers are also coordinating product, plant and service workflows to protect safety, continuity and traceability. Ageing plants and regional supplier networks make this coordination harder, so firms are pursuing AI deployment and brownfield modernisation while also addressing workforce skills and local support. The article says technology must fit ageing assets, skill shortages and live production, and that AI applications need simulation, human oversight, safety assurance and rollback-tested deployment before they affect physical operations. Supply chain control towers are being given supplier, inventory, transport and plant constraints to improve regional traceability, and aftermarket programmes link connected-asset data, spare-parts planning, field service and reverse logistics. The article gives no quantified results. The headlines listed after the main text are unrelated and have been ignored.",
+   "keyPoints": [
+    "Manufacturers are restructuring regional production and supply networks in response to trade-policy shifts, economic uncertainty and supply disruptions, so resilience is being built into network design.",
+    "Ageing plants and regional supplier networks make coordination of product, plant and service workflows especially important.",
+    "Technology decisions are driven by operational continuity: solutions must fit ageing assets, skill shortages and live production environments.",
+    "Physical AI in plants (machine vision, adaptive process control, autonomous material movement, predictive maintenance) must pass simulation, human oversight, safety assurance and rollback-tested deployment first.",
+    "Control towers are being extended to show supplier, inventory, transport and plant constraints, which supports regional traceability."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 78,
+     "reading": "The article is about supply chain resilience: manufacturers are changing the geography of production and supply networks to absorb trade-policy shocks and supply disruptions. Students of SCM should see this as a shift from pure cost efficiency towards designing for risk, with regional sourcing, better visibility through control towers and tighter coordination across tiers. The question for SCM is whether regionalisation delivers resilience at an acceptable cost, and which risks it reduces and which it creates."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "The article's main concern is technology change in live plants, which is a question of organisational change and of how people take on new work. Workforce skills, local support and the need for human oversight of AI systems make the people side of change central, not secondary. A PWO student should see that the success of brownfield modernisation depends on how people are trained, supported and engaged, as well as on the technical design."
+    },
+    {
+     "id": "logops",
+     "relevance": 35,
+     "reading": "The control tower and aftermarket examples show how inventory, transport capacity and spare-parts planning are linked across a regional network. Reverse logistics and field service are part of the same service lifecycle. For logistics operations students, the article illustrates how visibility of inventory and transport constraints supports decisions about where and how to hold stock."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chain resilience is the ability of a network to withstand disruption and return to a stable or better state. It is built through reducing the vulnerability of the network, using redundancy, flexibility, visibility and collaboration, and through clear risk identification across the chain. Resilience is treated as a design property of the network as well as a response capability.",
+     "link": "The article describes manufacturers restructuring regional production and supply networks in response to trade-policy shifts and supply disruptions, which is a direct move to reduce network vulnerability. Control towers that combine supplier, inventory, transport and plant constraints correspond to the visibility that Christopher and Peck see as essential for early detection of disruption. Preserving continuity and traceability in a regional network reflects the goal of keeping flows secure when parts of the chain fail. The emphasis on ageing plants and regional supplier networks shows that resilience depends on the specific vulnerabilities of each node, not just on the design of the network as a whole.",
+     "critique": "Regionalisation can increase unit costs by losing the scale economies and low-cost sourcing that global networks offer, and the article does not say how these costs are weighed against resilience. Christopher and Peck's framework can be read as a trade-off, not a single goal, and the article gives no evidence of how manufacturers judge that balance.",
+     "practice": "A supply chain manager applying this approach should map the critical supplier and plant nodes in each region, identify where a single disruption would stop production, and decide where to add redundancy, alternative suppliers or buffer inventory. Control tower data should be used to trigger early responses, and the cost of each resilience measure should be compared with the expected cost of disruption."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Lewin's three-step model and force field analysis",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Lewin's three-step model describes change as unfreezing the current state, moving to a new state and refreezing the new behaviours so they become stable. Force field analysis identifies the driving forces pushing for change and the restraining forces resisting it, so that managers can strengthen one or reduce the other before acting. The model assumes that a clear, stable state can be reached.",
+     "link": "The article describes brownfield modernisation in plants that must keep running, which means change cannot stop production for a clean transition. Force field analysis fits the driving forces named in the article, such as trade-policy shifts, supply disruption and the need for traceability, and the restraining forces, including ageing assets, skill shortages and the risk of downtime or cyber exposure. The requirement that AI be simulated, overseen and rollback-tested before it affects physical operations reflects the need to manage the move to a new state carefully, with a route back if it fails.",
+     "critique": "Lewin's model assumes a stable state can be reached and then refrozen, but in continuously running plants with ongoing technology upgrades, change is closer to a continuous process than a single move. Later models such as Kotter's and the continuous change approaches recognise that change is ongoing, so the refreezing stage may not apply.",
+     "practice": "A plant manager should list the drivers and restraints for each deployment, such as skill gaps and downtime limits, and reduce the restraints before introducing the new system. Pilot changes should be run in a controlled area, with rollback plans in place, and operators should be involved so that the new state is accepted and sustained."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job demands-resources model (Bakker and Demerouti)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The job demands-resources model proposes that every job has demands, the physical, mental or organisational aspects that require sustained effort, and resources, the aspects that help people meet demands, reduce their costs and support growth. High demands without enough resources lead to strain and burnout, while adequate resources support engagement and performance. The model applies across occupations and can be used to design jobs and support.",
+     "link": "The article describes new demands on technicians and operators: physical AI, predictive maintenance and automated material movement require people to oversee systems and act when they fail, and the article notes a shortage of skills. Workforce enablement and local support are the resources that could balance these demands. The article's point that human oversight is required before AI affects physical operations places responsibility on operators, which is a demand that resources such as training, clear authority and support must offset.",
+     "critique": "The model describes how demands and resources affect strain and engagement but says little about how a change in technology reshapes roles or who gains control, so it may understate the role of power and skill. The article gives no data on operator wellbeing, so the model's predictions cannot be tested here.",
+     "practice": "Managers introducing automation should assess the new demands each role will face, such as monitoring systems and handling exceptions, and provide the resources to meet them, including training, time to learn, clear escalation routes and local technical support. Engagement should be tracked as the change is introduced, not after it."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A North American manufacturer with several ageing plants and regional supplier networks has faced new tariffs and recent supply shortages. Its leaders want to restructure regional production and supply networks, add AI tools such as predictive maintenance and machine vision to existing plants, and keep output going throughout. Technicians and operators are in short supply, and the company has limited local technical support.",
+    "question": "Critically evaluate how the manufacturer should manage the resilience and technology changes in its plants and supply networks, and advise the board on the people and supply chain issues it must address.",
+    "evidence": [
+     "Manufacturers are restructuring regional production and supply networks to sustain production amid trade-policy shifts, economic uncertainty and supply disruptions.",
+     "Aging plants and regional supplier networks make coordination especially important, and companies must address workforce skills and local support.",
+     "Physical AI applications require simulation, human oversight, safety assurance and rollback-tested deployment before influencing physical operations.",
+     "Supply chain control towers are incorporating supplier, inventory, transport and plant constraints for stronger regional traceability."
+    ],
+    "plan": [
+     "Define the resilience problem using Christopher and Peck: identify the vulnerable nodes in the regional network, the likely disruptions, and the cost of each.",
+     "Assess the proposed network changes against the trade-off between resilience and cost, using the article's evidence on regional sourcing and visibility.",
+     "Apply Lewin's force field analysis to the technology changes, listing drivers (trade pressure, traceability needs) and restraints (ageing assets, skill shortages, downtime risk).",
+     "Use the job demands-resources model to assess the new demands on technicians and operators, and specify the training, support and authority needed to balance them.",
+     "Recommend a phased deployment: pilot in controlled areas, rollback plans, human oversight and local support, with resilience metrics reviewed at each stage.",
+     "Conclude with a clear recommendation to the board on priorities and the trade-offs it must accept."
+    ],
+    "pitfalls": [
+     "Treating resilience as a purely technical or network design problem and ignoring the workforce, which the article explicitly links to continuity.",
+     "Assuming regionalisation is always better, without acknowledging the cost and scale trade-offs or citing any evidence on them."
+    ]
+   },
+   "alsoConsider": [
+    "Dynamic capabilities (Teece)",
+    "Kotter's eight-step model",
+    "Leagile supply chains (Christopher and Naylor)"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether planned change models such as Lewin's three-step model are adequate for managing technology-driven change in ageing, continuously operating manufacturing plants, and explain what role workforce engagement should play.",
+    "outline": [
+     "Explain Lewin's three-step model and force field analysis, and what they assume about the change process.",
+     "Assess the challenges that live production, ageing assets and skill shortages pose to planned change, drawing on the article.",
+     "Evaluate the role of workforce enablement and the job demands-resources model in making technology change succeed, and conclude on the adequacy of planned change models."
+    ]
+   },
+   "readingMinutes": 2
+  },
+  {
+   "id": "b019a2afd421",
+   "title": "Nevoya to Support Meta with 25 BEVs on Southwestern Route",
+   "url": "https://www.supplychainbrain.com/general-scm/green-energy/article/16425622/nevoya-to-support-meta-with-25-bevs-on-southwestern-route",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-16T05:00:00Z",
+   "addedAt": "2026-11-16T07:04:46Z",
+   "basis": "full_text",
+   "takeaway": "This is a green logistics story about decarbonising a diesel freight flow through a carrier contract and environmental attribute certificates. Students should test the carrier's claims about scope 3 emissions and recognise that book-and-claim certificates do not by themselves change the physical trucks on the road.",
+   "summary": "Nevoya, an electric truckload carrier, has signed a multi-year deal with Meta to run 25 Class 8 battery-electric trucks on the I-10 between San Bernardino and Phoenix, a route carrying data centre construction materials. Nevoya says 99% of Meta's emissions footprint is scope 3, because the steel, concrete and equipment for data centre sites mostly still travel by diesel truck. Meta will buy environmental attribute certificates tied to the electric service, which is expected to start in 2027 and cover roughly 4 million freight-miles a year, with the trucks' charging matched 100% with renewable energy certificates. This is Meta's second deal with Nevoya; a Texas deployment of 63 trucks on the Houston to Dallas corridor is supported by a buyers' alliance, and the new agreement gives Meta a framework to add further corridors.",
+   "keyPoints": [
+    "The trucks are Class 8 battery-electric vehicles on a single corridor, with deployment planned for 2027 and about 4 million freight-miles a year.",
+    "Nevoya states that 99% of Meta's footprint is scope 3, driven by diesel trucking of construction materials, so the carrier's figure is a claim rather than a verified Meta disclosure.",
+    "Meta buys environmental attribute certificates, which separate the environmental benefit of the lower-carbon service from the physical transport and allow it to be sold through a book-and-claim mechanism.",
+    "The deal includes new charging infrastructure, with charging matched to renewable energy certificates.",
+    "Google and Microsoft are cited as having made electric freight commitments in the same year, which the carrier presents as a trend."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 90,
+     "reading": "In green logistics terms this is a freight decarbonisation project on one corridor, in which diesel Class 8 trucks are to be replaced by battery-electric ones moving construction materials for a data centre build. The carrier argues that most of the buyer's footprint lies in scope 3, the value-chain emissions produced by suppliers and carriers rather than by the buyer's own operations. Students should care because it shows how a large non-logistics firm tries to tackle a freight footprint it does not operate, using certificates and supplier contracts instead of its own fleet."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 55,
+     "reading": "From a purchasing perspective Meta is buying a sustainable transport service from a supplier under a multi-year contract, and the second agreement and framework for further corridors show the relationship deepening. Sustainability criteria are being built into the purchase, and a buyers' alliance in Texas pools demand to secure volume for a carrier. A purchasing student should consider how the contract shares cost, risk and carbon benefit between buyer and supplier."
+    },
+    {
+     "id": "logops",
+     "relevance": 40,
+     "reading": "Logistics operations students will see a shipper buying a carrier's capacity on a defined lane rather than running its own fleet, with the carrier responsible for trucks, drivers and charging. The operational questions of utilisation, service reliability and charging availability on a 300-mile route all sit with the provider. This makes the article a useful case of logistics outsourcing with an environmental specification added."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "Carbon footprinting and Scope 1, 2 and 3 emissions",
+     "unit": "",
+     "theory": "Carbon footprinting measures the greenhouse gas emissions linked to an organisation's activities. Scope 1 covers direct emissions from owned sources, Scope 2 covers indirect emissions from purchased energy, and Scope 3 covers all other upstream and downstream value-chain emissions, which are usually the largest and the hardest to control.",
+     "link": "The article's central claim is that 99% of Meta's footprint is scope 3 because construction materials for data centres mostly move by diesel truck, so the emissions sit in suppliers' and carriers' operations rather than Meta's own. The Nevoya deal is an attempt to reach these emissions through a carrier, and the charging matched to renewable certificates addresses an electricity input in the same way that a scope 2 approach would. The mapping shows that the firm's reported footprint depends on which activities it chooses to influence and how it allocates them.",
+     "critique": "The 99% figure comes from the carrier rather than from Meta's own published inventory, so its boundaries and method are unclear. Scope 3 categories are partly self-defined, which means the headline share can move with how the boundary is drawn.",
+     "practice": "A manager should map inbound and outbound freight flows by carrier and lane, collect primary data where possible, and set reduction targets for the highest-emitting lanes. Any figure, such as the 99% claim, should be verified against the method before it is published."
+    },
+    {
+     "moduleId": "green",
+     "concept": "McKinnon's green logistics framework for decarbonising freight",
+     "unit": "",
+     "theory": "McKinnon sets out a range of levers for reducing freight emissions, including improving logistics efficiency through fuller loads, fewer empty miles and better routing, shifting freight to lower-carbon modes such as rail or water, switching to cleaner vehicles and fuels, and reducing the amount of freight demanded. A firm should consider these together rather than rely on one lever.",
+     "link": "The deal uses a vehicle technology lever, replacing diesel trucks with battery-electric ones and building charging, on a road corridor that remains road-based, so it is not a modal shift. The 63-truck Texas deployment applies the same lever on a second corridor, which illustrates how a single lever can be scaled across a network. The article says nothing about load factors, backhaul or routing, which are the other levers the framework would ask about.",
+     "critique": "The framework lists levers without showing how fast each one can be delivered or what each costs, and it gives little weight to the charging and grid constraints that determine whether battery-electric heavy trucks can run on a 2027 timetable. Electric trucks also remain exposed to congestion and payload limits, which the framework does not address directly.",
+     "practice": "A manager should ask the carrier for a lever-by-lever plan covering vehicle technology, load efficiency and routing, and check that electric trucks replace diesel vehicles rather than running alongside them. Progress should be measured as emissions per tonne-kilometre, not simply as the number of trucks deployed."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Supplier relationship management and the partnership spectrum",
+     "unit": "",
+     "theory": "Supplier relationship management places buyer-supplier relationships on a spectrum from arm's-length transactional deals to close strategic partnerships. The position on the spectrum should match the value, risk and mutual investment involved, and deeper relationships usually involve shared goals, information exchange and longer contracts.",
+     "link": "The multi-year contract, the second agreement with Nevoya and the framework to unlock additional corridors all suggest movement away from one-off purchasing towards a closer relationship. The contract also includes charging infrastructure, which requires investment from both sides. The Texas buyers' alliance shows buyers pooling demand to give a carrier enough volume to invest, which is a form of collaborative purchasing.",
+     "critique": "The partnership spectrum assumes that both parties invest and share risk in roughly comparable ways. Here the carrier appears to carry the capital and operating risk of the trucks and charging, while Meta's contribution is the purchase of certificates, so the balance of power and risk may be unequal, a point that Cox's work on buyer-supplier power would raise.",
+     "practice": "A purchasing manager should define shared performance measures such as emissions per load and on-time delivery, agree data-sharing and exit terms, and set out a clear pricing and approval framework for any new corridors before extending the relationship."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Logistics outsourcing: third-party logistics",
+     "unit": "",
+     "theory": "Third-party logistics providers perform transport and warehousing activities on behalf of a shipper, which allows the shipper to buy capacity and service rather than own assets. Fourth-party providers go further by coordinating several third parties. The shipper gains flexibility and access to capacity but gives up some direct operational control.",
+     "link": "Meta is buying a freight service on a defined corridor and leaves the trucks, drivers and charging in Nevoya's hands, which is a clear case of buying logistics capacity rather than running a fleet. The Texas alliance adds the idea that several shippers can aggregate demand to secure a provider's capacity. The article's focus on electric trucks suggests that service reliability and charging performance will be central to the contract.",
+     "critique": "Outsourcing separates the shipper from the operations that generate the emissions, and certificate-based accounting can give the buyer credit for a benefit it does not control physically. The buyer also has limited influence over utilisation and service failures unless performance is specified in the contract.",
+     "practice": "A logistics manager should specify service levels such as on-time in-full performance alongside carbon targets, audit the provider's fleet and charging operations, and decide whether a volume commitment is justified before agreeing it."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A technology company is building several large data centres and relies on diesel trucks to bring steel, concrete and equipment to the sites. Its carrier estimates that almost all of the company's footprint lies in indirect value-chain emissions rather than in its own operations. The company has agreed a multi-year contract for battery-electric trucks on one corridor, backed by environmental attribute certificates, and is considering extending the arrangement to other routes.",
+    "question": "Advise the board on whether the company should extend the electric freight contract to further corridors, and evaluate the reliance on environmental attribute certificates as a means of reducing its freight emissions.",
+    "evidence": [
+     "The deal covers 25 Class 8 battery-electric trucks on the I-10 between San Bernardino and Phoenix, with about 4 million freight-miles a year from 2027.",
+     "The carrier states that 99% of the buyer's emissions footprint is scope 3, mostly from diesel trucking of construction materials.",
+     "Environmental attribute certificates separate the environmental benefit from the physical transport and can be sold through a book-and-claim mechanism.",
+     "A second agreement is in place, and a 63-truck Texas deployment is supported by a buyers' alliance, which shows demand being pooled across buyers."
+    ],
+    "plan": [
+     "Set out the company's scope 1, 2 and 3 position, explaining why its freight emissions sit in scope 3 and what the 99% claim does and does not prove, using carbon footprinting.",
+     "Assess the physical decarbonisation achieved by the electric trucks, using McKinnon's levers to check whether the trucks replace diesel on the route and what other levers, such as load efficiency and routing, are unaddressed.",
+     "Evaluate the certificates as an accounting mechanism, noting that they reflect a benefit but do not alter the emissions produced on the road unless the trucks are additional.",
+     "Assess the supplier relationship using the partnership spectrum and the balance of risk and power between the company and the carrier.",
+     "Consider the outsourcing trade-off, covering service levels, charging dependence and the loss of direct operational control.",
+     "Recommend whether to extend the contract, with conditions such as verified emissions data, service and carbon targets, and a clear pricing framework for each new corridor."
+    ],
+    "pitfalls": [
+     "Treating the carrier's 99% scope 3 figure as an established fact rather than a supplier claim that needs testing.",
+     "Presenting certificates as if they cut emissions automatically, without explaining the difference between an accounting benefit and a physical reduction on the road."
+    ]
+   },
+   "alsoConsider": [
+    "The triple bottom line (Elkington)",
+    "Power in buyer-supplier relationships (Cox)",
+    "Make-or-buy and transaction cost economics (Williamson)",
+    "Externalities and carbon pricing"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether environmental attribute certificates and supplier contracts can deliver genuine decarbonisation of freight transport, using an example of a shipper that has contracted electric trucks on a single corridor.",
+    "outline": [
+     "Define carbon footprinting and the scope 1, 2 and 3 categories, and explain why freight is often the largest scope 3 source.",
+     "Apply McKinnon's levers to judge whether a switch to electric trucks is a real physical reduction, and identify the levers left unaddressed.",
+     "Evaluate certificate-based claims and outsourced contracts critically, covering additionality, accounting boundaries and the balance of power between shipper and carrier."
+    ]
+   },
+   "readingMinutes": 1
+  },
+  {
+   "id": "ba00cf930aeb",
+   "title": "Trailer Flexibility Is Becoming a Growth Strategy for Carriers",
+   "url": "https://www.freightwaves.com/news/trailer-flexibility-is-becoming-a-growth-strategy-for-carriers",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-13T20:18:31Z",
+   "addedAt": "2026-11-16T07:04:46Z",
+   "basis": "full_text",
+   "takeaway": "Renting trailers on a shared marketplace lets carriers test capacity before committing capital, converting a fixed asset risk into variable rental cost, while the power-only trade-off shows how dependence on shippers and brokers shapes a carrier's options.",
+   "summary": "The article describes REPOWR, a trailer-sharing marketplace that lets carriers rent trailers for three to 90 days rather than buying or leasing long term. Its chief product officer argues that buying a trailer ties up scarce capital in a depreciating asset before a carrier knows whether the freight will last, and that power-only work, which avoids that commitment, costs carriers control over lanes and rates. The company also offers a repositioning platform, TOP, that balances trailer supply across locations and claims to cut repositioning costs. The figures come from the company and its projections are not independently verified, so the piece is partly promotional and should be read with that in mind.",
+   "keyPoints": [
+    "Growth conventionally means buying a truck and then a trailer, which ties up capital in equipment before demand is proven.",
+    "Renting daily on a shared marketplace lets carriers add or reduce capacity quickly and avoid sunk costs, which the article treats as the main benefit.",
+    "Power-only work removes the capital commitment but, according to the article, leaves carriers with less control, fewer lanes and weaker rates.",
+    "Carriers pay for repositioning empty trailers, often around 3% of the fleet each month at roughly $400 or more per move through brokers, and automated balancing is presented as a way to reduce this.",
+    "The company's own illustrative model projects annual savings of about $197,000 for a 2,500-trailer fleet, but these are projections rather than independent results."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 80,
+     "reading": "In logistics operations terms the article is about trailer capacity and where it sits. Idle equipment and empty repositioning moves are costs that arise from an imbalance between locations rather than from the trailers themselves. REPOWR presents a pooled, automatically balanced network as a way to reduce empty running and broker fees. A logistics student should see the trade-off between the cost of moving equipment and the service needed to meet shipper requirements."
+    },
+    {
+     "id": "finance",
+     "relevance": 70,
+     "reading": "The core financial question is whether to commit capital to trailers or to pay for flexibility through rental. The article compares the purchase price of a new dry van with the daily or 30-day rental charges and argues that renting avoids sunk cost. This is a real options problem: the ability to wait, expand, shrink or abandon has value under uncertainty. A finance student should see how that value is weighed against the higher unit cost of renting."
+    },
+    {
+     "id": "strategy",
+     "relevance": 60,
+     "reading": "Strategically, the article presents flexibility as a source of growth, with carriers reconfiguring their resource base in response to changing shipper needs such as trailer specifications. This matches the idea of dynamic capabilities: sensing change and reshaping resources quickly. It also raises a strategic question about whether access to a shared pool can give lasting advantage when competitors can use the same platform."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "For People, Work and Organisations the article is about power and control between organisations. Carriers depend on shippers for good lanes, on brokers for repositioning and on load boards for work, and the article says power-only work means giving up control. This is a question of how external dependence shapes an organisation's room for manoeuvre, which the power and politics unit addresses through resource dependence. A student should see that the dependence is structural as well as contractual."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "finance",
+     "concept": "Real options",
+     "unit": "",
+     "theory": "Real options treat the ability to delay, expand, contract or abandon an investment as valuable in its own right, in the same way financial options are. Under uncertainty, staging commitment and waiting for information can add value that a simple net present value calculation misses. The right to wait is worth most when the uncertainty is high and the cost of being wrong is large.",
+     "link": "The article describes a 15-truck fleet preparing to buy three trucks and take long-term reefer leases because shippers had promised good lanes, which are not yet proven. Harb's advice to rent first buys the carrier a right to scale up or down without sunk cost, at the price of higher daily or 30-day rental charges. The example of a shipper switching from roll-door to swing-door trailers, leaving a carrier stuck with equipment committed for 12 months, shows the abandonment risk that the option value protects against. Harb's comparison of a new dry van at about $45,000 with short rental periods puts an explicit price on commitment.",
+     "critique": "The article gives no rental rate for a comparable period, so the premium paid for flexibility cannot be measured, and it does not weigh the chance that promised lanes materialise. A conventional calculation of owning a trailer with residual value may still favour purchase for a fleet with secure contracts.",
+     "practice": "A carrier manager should estimate the cost of rental over the likely holding period and compare it with the expected loss from a stranded asset. Rent to test a lane for a defined period, and set trigger points such as sustained utilisation or a signed contract that would justify buying or leasing. Review those triggers regularly rather than deciding once."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Total logistics cost and the cost-service trade-off",
+     "unit": "",
+     "theory": "Total logistics cost is the combined cost of transport, inventory, warehousing and administration, and it should be minimised as a whole rather than element by element. Service levels and cost pull against each other, so network and capacity decisions should be judged on their combined effect. Empty movements and idle equipment are hidden costs that often arise from poor balancing across locations.",
+     "link": "The article reports that fleets typically reposition about 3% of trailers each month at around $400 or more per move, and that brokers charge $500 to $600 for loadout moves. REPOWR's illustrative model for a 2,500-trailer fleet puts repositioning at $225,000 a year without its platform and $135,000 with it, and projects total savings of about $197,000 after coordination costs and marketplace revenue. The shorter rental rate, nearly half the usual cost for rentals under 14 days, shows a price being set to fill idle capacity. These cases show that cost sits in location imbalance as much as in equipment.",
+     "critique": "These savings are the company's projections and depend on assumed move volumes and broker prices. The article notes that broker rates rise when capacity is tight, so the savings may shrink if many fleets pool equipment in the same markets and the balance changes.",
+     "practice": "A logistics manager should map where trailers are idle and where they are needed, count repositioning moves over a representative period such as 90 days, and cost each option on total terms including idle capital, empty moves and missed service. The cost per move alone would understate the case for balancing."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Dynamic capabilities (Teece)",
+     "unit": "",
+     "theory": "Dynamic capabilities are an organisation's capacity to sense opportunities and threats, seize them by reconfiguring resources, and transform its resource base over time. They matter most where the environment changes quickly and the advantage from existing assets erodes. Ordinary capabilities keep operations running, while dynamic capabilities change how the firm operates.",
+     "link": "Harb describes carriers whose shippers change specifications, such as roll-door to swing-door trailers, and who respond by listing the equipment they cannot use and renting what the shipper now wants. This is sensing and reconfiguring in practice, with the resource base shifted from ownership to access. The article's claim that carriers can meet trailer-to-tractor ratios without owning trailers also shows a reconfiguration of resources around flexibility rather than fixed assets.",
+     "critique": "Access to a shared marketplace is not a capability the firm owns. Because competitors can use the same pool, a rental-based fleet may gain little lasting advantage, and it may become dependent on the platform. Dynamic capability theory is also difficult to observe and can be hard to test.",
+     "practice": "Managers should build routines for spotting changes in shipper requirements, for example by reviewing customer specifications and load board filters regularly, and should agree rental or disposal options in advance. The capability lies in the process of detecting and reconfiguring, not in the trailers themselves."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on external actors for resources they cannot produce themselves, and that power lies with those who control resources that are critical, scarce and hard to substitute. Organisations respond by reducing dependence through diversification, alternative sources, or contracts, and by managing the relationships on which they depend. Power in this view is relational and structural rather than a personal attribute.",
+     "link": "The article shows carriers dependent on shippers for good lanes and trailer-to-tractor ratios, on brokers for repositioning at $500 to $600 a move, and on load boards where power-only freight is a fraction of the total. Harb says carriers largely give up control when they take power-only work, which means accepting the shipper's equipment specification and the lanes on offer. Trailer sharing is an attempt to reduce dependence by drawing on a pool of equipment rather than relying on one contract. The platform itself, however, creates a new point of dependence for carriers and suppliers.",
+     "critique": "The theory explains where power comes from but is weak on how dependent actors perceive and manage their position, and it treats the dependent organisation as relatively passive. Carriers can also refuse contracts or switch between shippers, which the theory under-describes. The article suggests dependence can be reduced cheaply, which the theory would only predict if switching costs are low.",
+     "practice": "A carrier manager should map which external actors control critical inputs, such as shippers, brokers and equipment suppliers, and assess how easily each could be replaced. The manager should then reduce critical dependencies by spreading contracts and keeping alternative access, negotiate terms where dependence cannot be avoided, and monitor the relationship."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A 15-truck carrier already rents 10 to 15 trailers a month from a shared marketplace. It is preparing to buy three new trucks and take long-term leases on reefer trailers because shippers have promised good lanes, although these promises are not yet in contracts. The owner worries that relying on power-only work would limit the lanes and rates available, and that the freight depends on a small number of shippers and brokers.",
+    "question": "Advise the owner whether to commit capital now or rent first. Critically evaluate your recommendation using real options and resource dependence theory.",
+    "evidence": [
+     "The fleet rents 10 to 15 trailers a month on the platform, so it already uses rental for part of its capacity.",
+     "A new dry van costs about $45,000, and a used one must be under 10 years old for many shippers.",
+     "Rental is charged daily or in 30-day increments, and rentals shorter than 14 days cost nearly half the usual rate for most trailers.",
+     "Loadout moves through brokers cost $500 to $600, and shippers commonly require trailer-to-tractor ratios of three to one or more."
+    ],
+    "plan": [
+     "Define the decision as a capital commitment against lanes that are promised but not contracted, and identify the key uncertainty.",
+     "Apply real options to value the flexibility of renting and compare the premium paid for short-term rental with the stranded cost of buying or leasing.",
+     "Apply resource dependence to identify which shippers and brokers control critical resources, and whether dependence rises or falls under each option.",
+     "Use total logistics cost to compare repositioning, idle equipment and service costs under each option, using the carrier's own figures and noting that the platform's savings are projections.",
+     "Assess the risks of spec changes, rental fraud and platform dependence, and the quality of the evidence behind the shippers' promises.",
+     "Recommend renting first for a defined test period, set clear triggers for converting to ownership or leasing, and secure written contracts that reduce dependence before any purchase."
+    ],
+    "pitfalls": [
+     "Presenting the platform's projected savings as independent evidence rather than the company's own estimates.",
+     "Discussing the equipment choice without linking it to the carrier's dependence on shippers and brokers, which is the root of the problem."
+    ]
+   },
+   "alsoConsider": [
+    "Transaction cost economics (Williamson)",
+    "Mechanistic and organic organisations (Burns and Stalker)",
+    "Lukes's three dimensions of power"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that organisations can reduce their dependence on external actors by using flexible, shared resources rather than owning them. Use resource dependence theory and one further theory to support your answer.",
+    "outline": [
+     "Explain resource dependence theory, including the conditions under which external actors gain power over an organisation.",
+     "Assess how flexible access to shared resources changes an organisation's dependence, and whether it creates new dependence on a platform or intermediary.",
+     "Critically evaluate the argument with evidence, noting the reliance on company projections and the continuing dependence on shippers' requirements."
+    ]
+   },
+   "readingMinutes": 6
+  },
+  {
+   "id": "62465aa239d9",
+   "title": "UK Government outlines steps for businesses to participate in voluntary carbon markets",
+   "url": "https://www.edie.net/uk-government-outlines-steps-for-businesses-to-participate-in-voluntary-carbon-markets/",
+   "source": "edie",
+   "publishedAt": "2026-11-13T12:19:22Z",
+   "addedAt": "2026-11-16T07:04:46Z",
+   "basis": "full_text",
+   "takeaway": "The UK Government's voluntary carbon market response shows that regulation shapes how firms prove the legitimacy of carbon credits. Students should read it through emissions accounting and carbon pricing, and as an external trigger for organisational change.",
+   "summary": "The article reports the UK Government's response to a 2025 consultation on raising the integrity of voluntary carbon and nature market credits. The Government supports businesses using high-quality credits within their own value chains, says credits should complement rather than replace emission cuts, and relies on international frameworks such as the Integrity Council's Core Carbon Principles and Article 6 of the Paris Agreement rather than UK-only standards. Planned measures include guidance from spring 2027, a greenhouse gas removal standard developed with BSI and aligned with the EU framework, alignment of CORSIA with UK law, integration of removals into the UK ETS, and a regulator forum. An independent oversight mechanism for nature markets is under discussion, with no decision made. The piece notes that the market is largely unregulated, that corporate credibility is in question, and that businesses must weigh additionality, permanence, leakage, verification and co-benefits.",
+   "keyPoints": [
+    "The Government supports companies using high-quality credits within their own value chains, provided credits complement rather than replace emissions reduction.",
+    "Concerns about greenwashing arise because the voluntary market is largely unregulated, so the Government is relying on international frameworks rather than domestic standards.",
+    "A greenhouse gas removal standard is to be developed with BSI and aligned with the EU Carbon Removal Certification Framework.",
+    "Guidance covering every stage of carbon market participation is due in spring 2027.",
+    "CORSIA and the UK ETS are to be linked to credits, with new funds intended to create compliance-driven demand and a durable source of demand for removals."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 85,
+     "reading": "In the language of green logistics and sustainability, this article is about how organisations account for emissions across their value chain and how carbon pricing and offsets are used to address them. Its emphasis on decarbonising value chains and on insetting touches Scope 3 emissions, which are often the largest part of a firm's footprint and the hardest to verify. The references to the UK ETS and CORSIA show regulation attaching a price to carbon, while the warning that credits should complement rather than replace cuts reflects the principle that offsets cannot substitute for real decarbonisation of freight and warehousing. A green logistics student should care because the credibility of any claim depends on how emissions are measured."
+    },
+    {
+     "id": "strategy",
+     "relevance": 40,
+     "reading": "From a strategy perspective, the article concerns how a firm builds a credible environmental position in a market that is changing under regulatory pressure. The focus on value chain decarbonisation points to where a firm's activities create emissions and where its sustainability claims can be tested. Choosing between buying offsets and investing within the chain is a resource allocation decision, and a firm seen to greenwash risks reputational damage. Students should care because the article shows how external regulatory change alters which strategic options remain credible."
+    },
+    {
+     "id": "pwo",
+     "relevance": 40,
+     "reading": "In People, Work and Organisations terms, the Government's response is an external trigger for change, reshaping the rules under which firms buy and report carbon credits and requiring them to rethink established purchasing practices. The article notes that buyers are moving from volume to value, which means changing routines and the judgement of the staff who buy and verify credits. Change theory helps explain why some organisations will adapt quickly while others resist, particularly where uncertainty about use cases persists. Students should care because the article shows external pressure driving organisational change, a question examined in Unit 8."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "Carbon footprinting and Scope 1, 2 and 3 emissions",
+     "unit": "",
+     "theory": "A carbon footprint is the total greenhouse gas emissions attributable to an organisation or activity. It is measured in three scopes: Scope 1 covers direct emissions the firm controls, Scope 2 covers purchased energy, and Scope 3 covers emissions across its upstream and downstream value chain. Scope 3 is usually the largest and hardest to measure, so credible reporting depends on data quality and clear boundary-setting.",
+     "link": "The article's stress on decarbonising value chains and on insetting, meaning credits generated within a firm's own supply chain, places the question squarely in Scope 3 territory. The Government pairs its support for insetting with a commitment to improve environmental data and strengthen supply chain resilience, which points to the measurement problem that Scope 3 creates. The Partnerships for Forests programme and the Food Data-Sharing Infrastructure and Governance project are cited as enabling insetting approaches, which shows that firms depend on supply chain partners for the data they need. The article's list of considerations, including additionality, permanence and leakage, are tests of whether an offset genuinely reduces the emissions counted in a footprint.",
+     "critique": "A footprint framework tells a firm what to measure but not whether an offset is a valid deduction, so it does not settle the credibility question the article raises. The article itself says that how companies will prove the legitimacy of their environmental outlays remains unresolved.",
+     "practice": "A sustainability manager should first build a Scope 1 to 3 baseline using supplier data and identify where reductions within the chain are feasible. Only then should high-quality credits be considered as a complement, with reports distinguishing emissions reduced from credits purchased and documenting the additionality and verification evidence for each credit."
+    },
+    {
+     "moduleId": "green",
+     "concept": "Externalities and carbon pricing",
+     "unit": "",
+     "theory": "An externality is a cost or benefit imposed on third parties that the market price does not reflect, and greenhouse gas emissions are the classic example. Carbon pricing, through taxes or emissions trading, attaches a cost to emissions so that emitters internalise part of the externality. Carbon credits extend this logic by allowing a firm to pay for reductions made elsewhere.",
+     "link": "The article describes the voluntary market as largely unregulated, while the Government plans to link credits to CORSIA and the UK ETS, which are compliance schemes that set a price or cap on emissions. The stated aim of creating a durable source of demand for greenhouse gas removals shows an attempt to build a price signal for removing carbon, which an unpriced externality would not otherwise attract. The distinction between voluntary and compliance-driven demand maps onto the difference between a price firms choose to respond to and one they are obliged to respond to. The article also notes that demand has grown because of corporate targets, regulatory requirements and investor and consumer expectations, showing how external pressures create the value of credits.",
+     "critique": "Carbon pricing theory assumes that prices reach the emitting firm and change its behaviour, but where the voluntary market is thin and uncertain, prices may give a weak signal. Cheap offsets can also reduce the incentive to cut emissions directly, which is why the article's 'complement, not replace' wording matters.",
+     "practice": "A logistics or procurement manager should model an internal carbon price for operational emissions such as freight, so that investment in efficiency can be compared with the cost of credits. The manager should also monitor how UK ETS and CORSIA rules change, since compliance demand will affect credit prices."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Lewin's three-step model and force field analysis",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Lewin's model describes change in three stages: unfreezing existing behaviour, moving to a new state, and refreezing the new behaviour so that it becomes stable. Force field analysis identifies the driving forces pushing towards change and the restraining forces resisting it, so that a manager can strengthen the drivers or weaken the restraints before attempting change.",
+     "link": "The Government's response acts as a driving force because it sets out expectations on high-quality credits, forthcoming guidance and alignment with the UK ETS, which unfreezes habits such as buying credits on price alone. The shift from volume to value in purchasing described in the article is the desired movement to a new state, and the guidance due in 2027 is a means of refreezing the new practice. Restraining forces are also visible in the text: the market is largely unregulated, respondents expressed uncertainty about use cases, and questions about proof of legitimacy remain open. Making these restraints explicit is what allows force field analysis to be applied to this situation.",
+     "critique": "Lewin's model treats change as a movement between stable states, which fits poorly with a regulatory process that is still being shaped, such as the undecided oversight mechanism. Burnes has argued that change is more continuous and less planned than the model suggests. The model also says little about the interests of purchasing staff whose targets are tied to volume.",
+     "practice": "A manager should list the forces for and against moving to value-based carbon purchasing, rate their strength, and reduce the restraints first, for example by setting clear internal criteria for additionality and verification. Once the Government's guidance is published, the manager should embed the new practice in policies and performance measures to refreeze it."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Porter's value chain",
+     "unit": "",
+     "theory": "Porter's value chain divides a firm's activities into primary activities, such as inbound logistics, operations, outbound logistics, marketing and service, and support activities, such as procurement and infrastructure. It is used to identify where value is created, where costs and risks arise, and where competitive advantage can be built.",
+     "link": "The article's focus on value chain decarbonisation shows that environmental impact sits across the whole chain, not just in the firm's own operations, so emissions and credit purchases can be mapped onto particular activities such as inbound logistics and procurement. Insetting, which the Government supports, means investing in reductions within the chain, which sits in the activities a firm controls or influences through suppliers. The article's observation that purchasing is shifting from volume to value shows a change in how a support activity, procurement, creates value. The emphasis on supply chain resilience shows that the value chain also reveals risks the firm must manage.",
+     "critique": "The value chain was designed to analyse cost and differentiation and does not treat emissions or environmental claims as explicit value drivers, so a sustainability-specific extension is needed. It also presents the chain as a sequence, whereas modern supply networks are more interconnected.",
+     "practice": "A strategy team should map where the firm's emissions and credit purchases occur along the chain and identify which activities it can decarbonise directly. It should then assess whether investment in those activities gives a differentiated and defensible claim, rather than a cheap offset, and adopt a policy that prioritises in-chain reduction over credit purchase."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A UK company with net-zero targets has been buying carbon credits to offset emissions from its suppliers and its own delivery fleet. Following a government consultation response, its board learns that the voluntary market will be aligned with international frameworks, that guidance will follow in 2027, and that credit demand will be linked to the UK ETS. Managers in purchasing and sustainability disagree about whether to keep buying credits on price or to change how they buy and report.",
+    "question": "Advise the board on how to move the company from buying carbon credits on price to using high-quality credits within its value chain, using Lewin's three-step model and force field analysis. Critically evaluate whether the Government's approach will overcome resistance from purchasing managers.",
+    "evidence": [
+     "The Government supports companies using high-quality credits within their value chains, provided credits complement rather than replace emission reductions.",
+     "Businesses are shifting purchasing habits from volume to value and must consider additionality, permanence, leakage and verification.",
+     "Respondents said they were uncertain about use cases, and the Government says it will seek to drive demand for high-integrity credits.",
+     "Guidance to support businesses through every stage of carbon market participation is due in spring 2027."
+    ],
+    "plan": [
+     "Identify the external trigger: use PESTLE to show the Government response as a legal and political driver, with the 2027 guidance and UK ETS integration as forthcoming regulatory change (Unit 8, triggers for change).",
+     "Apply Lewin's model: describe the current stable state of volume-based offsetting and explain why it must be unfrozen.",
+     "Run force field analysis: list driving forces (regulation, investor and consumer demand, corporate targets) against restraining forces (market uncertainty, unclear use cases, purchasing targets based on volume, verification costs) and rate their strength.",
+     "Assess resistance using Kotter and Schlesinger's strategies (education and communication, participation and involvement, negotiation) and recommend which suits the purchasing team.",
+     "Recommend a phased plan: pilot in-chain projects with clear additionality criteria, change purchasing targets to value-based measures, and refreeze the new practice in policy once the 2027 guidance is published."
+    ],
+    "pitfalls": [
+     "Treating the Government's response as a finished regulatory regime; the article says the nature market oversight mechanism is undecided and the guidance is not yet due.",
+     "Presenting change as a single event; a strong answer recognises that the change is continuous and that refreezing requires ongoing monitoring of the regulatory process."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter and Schlesinger's strategies for overcoming resistance to change",
+    "Kotter's eight-step model of change",
+    "Mendelow's power-interest matrix"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether voluntary carbon credits can help firms decarbonise their value chains, or whether they risk being used to justify inaction.",
+    "outline": [
+     "Define carbon footprinting and Scope 1 to 3 emissions, and explain why value chain emissions are hard to decarbonise and verify.",
+     "Assess the role of externalities and carbon pricing, comparing voluntary credits with compliance schemes such as the UK ETS and CORSIA.",
+     "Evaluate the credibility risks (additionality, permanence, leakage and greenwashing) and conclude with a recommendation that prioritises in-chain reduction."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "5d5e10bb519f",
+   "title": "Blanked sailings on the rise, with container spot rates on a gentle decline",
+   "url": "https://theloadstar.com/blanked-sailings-on-the-rise-with-container-spot-rates-on-a-gentle-decline/",
+   "source": "The Loadstar",
+   "publishedAt": "2026-11-13T13:06:13Z",
+   "addedAt": "2026-11-16T07:04:46Z",
+   "basis": "full_text",
+   "takeaway": "Falling spot rates alongside more blanked sailings show carriers using capacity cuts to protect prices, which moves the cost of cheap freight onto shippers as reduced schedule reliability. The same dynamic sets the terms for next year's contracts.",
+   "summary": "The article reports gentle weekly declines in container spot rates on the Asia-Europe and transpacific trades as demand eases after peak season. Carriers are responding with more blanked sailings, and the Hapag-Lloyd chief executive expects contracts for 2027 to be priced above 2026 levels. Shippers are pushing for lower rates, while forwarders say discounts are now dictating actual moving rates, with the cheapest space carrying reliability risk.",
+   "keyPoints": [
+    "Drewry's World Container Index shows the Shanghai-Rotterdam spot rate down 3% week on week to $3,504 per 40ft, while Shanghai-Genoa was flat for a third week at $4,168.",
+    "Transpacific rates fell too: Shanghai-Los Angeles dropped 2% to $7,416 and Shanghai-New York fell 3% to $9,020, its lowest since August.",
+    "Blanked sailings are rising: eight Asia-Europe sailings are scheduled for next week against five this week, and eight transpacific voyages against four.",
+    "Forwarders report that widespread discounts mean virtually no cargo is booked at published rates, and that the cheapest spot space may come with poor schedule reliability.",
+    "Carriers want spot rates high enough to guide contract rates, while shippers want them suppressed; Hapag-Lloyd expects a significant net increase in freight rates going into 2027."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "What the article shows is a capacity-management response to falling demand: carriers blank sailings to tighten supply and protect rates, which passes a reliability cost to shippers. For a supply chain student this is a clear case of carrier decisions reaching shippers' lead times, schedule planning and service levels. It also shows dependability being traded against price in the market itself."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 75,
+     "reading": "The article describes live buyer-supplier bargaining: annual Asia-Europe contract talks are starting while spot rates fall, with shippers wanting lower rates and carriers wanting spot levels high enough to anchor contract prices. Outcomes depend on relative supply and demand for container space, surcharges and discounts. A purchasing student should see how index benchmarks and timing shape negotiating positions."
+    },
+    {
+     "id": "logops",
+     "relevance": 65,
+     "reading": "For logistics operations the article concerns ocean carrier rates and service: published rates, discounted moving rates, blanked sailings and sailing reliability. The core logistics question is what combination of cost and service a shipper accepts when choosing carriers and sailings. Cheap capacity can carry hidden costs in schedule uncertainty and the inventory buffers needed to absorb it."
+    },
+    {
+     "id": "pwo",
+     "relevance": 35,
+     "reading": "The article has a secondary connection to the power and dependence material in Unit 5. Shippers depend on carriers for scarce vessel space, and carriers depend on shippers' volume, so bargaining strength shifts as capacity opens up through the year. A PWO student can use resource dependence to explain why carriers signal through blanked sailings and surcharges, and why shippers try to reduce their reliance on any single carrier."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Slack's five performance objectives (quality, speed, dependability, flexibility and cost)",
+     "unit": "",
+     "theory": "Slack and colleagues identify five operations performance objectives: quality, speed, dependability, flexibility and cost. Operations managers often face trade-offs among them, so improving one, such as cost, can reduce another, such as dependability. Choosing an objective emphasis should follow the needs of the customer and the product.",
+     "link": "The article describes spot rates falling while blanked sailings rise, so the cheapest capacity is being bought at the expense of dependability. Forwarders say the lowest price may come with greater schedule uncertainty and that discounts dictate actual rates. Carriers are cutting sailings to hold up prices, which means shippers are offered cost savings but are asked to accept less dependable schedules.",
+     "critique": "Slack's trade-offs are framed at the level of a single operation that chooses its emphasis, whereas in container shipping the dependability cost is set by carriers' collective capacity decisions and the wider market cycle. Shippers have limited ability to choose the trade-off for themselves when space is scarce.",
+     "practice": "A shipper should set a dependability threshold for each cargo category and use the cheapest spot space only for cargo that tolerates schedule slippage. Time-critical goods should be placed on contracted or more reliable services. Track on-time performance by carrier and sailing so that the true cost of cheap bookings is visible."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Cox's power in buyer-supplier relationships",
+     "unit": "",
+     "theory": "Cox argues that power in a buyer-supplier relationship depends on the relative supply and demand conditions for what is being bought. Buyers gain power when supply is plentiful and the item is not critical to the supplier, and suppliers gain power when supply is scarce and the buyer depends on them. Power therefore shifts with market conditions, and a buyer should manage the relationship according to where power lies.",
+     "link": "As space across Asian origin ports opens up and spot rates fall, the article suggests shippers are gaining leverage, with carriers offering discounts and volume-based pricing. Carriers respond by blanking sailings to restrict supply, and their chief executive expects 2027 contracts to be priced higher than 2026. The annual negotiation is therefore a contest over which side the market currently favours, with spot rates acting as the benchmark.",
+     "critique": "Cox's account treats power as a reflection of supply and demand, but in this market carriers' capacity discipline, alliances and surcharges can hold up prices even when space is loose. Power also depends on how well each side understands the other's position, which Cox's framework does not capture.",
+     "practice": "A purchasing manager should negotiate contracts with a clear view of the spot index trend and time the talks when market conditions favour the buyer. Mix contract and spot volumes, and seek reliability commitments and service-level clauses in return for volume. Avoid locking in a long contract at a peak in the cycle."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Modal choice and the trade-off between transport cost and service, using total logistics cost",
+     "unit": "",
+     "theory": "Logistics decisions about carriers, modes and routes involve a trade-off between transport cost and service, such as speed and reliability. The appropriate measure is total logistics cost, which includes the freight rate together with inventory holding, safety stock, expediting and the cost of stockouts. A lower freight rate can raise total cost if it increases the buffer stock needed to absorb service failures.",
+     "link": "The article shows the trade-off in practice: discounted spot space is cheaper but may come with schedule uncertainty, and blanked sailings make arrival dates harder to predict. A shipper who books the cheapest sailing and then holds extra stock or pays for expedited air freight to protect customer deliveries would see the freight saving partly offset. The surcharges due in late November and December add another cost layer to the comparison.",
+     "critique": "A total cost model needs data on inventory carrying costs and stockout penalties, which the article does not provide. In practice many shippers judge freight on the rate per container, which can lead them to underestimate the cost of unreliable schedules.",
+     "practice": "A logistics manager should estimate the total landed cost of each booking option, including the expected cost of late arrival and any extra safety stock. Choose the cheapest option only when the total cost remains lowest, and review carrier choices as blanked sailings increase."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on others for critical resources, and that those who control scarce, critical resources with few alternatives hold power over those who need them. Organisations manage their dependence through strategies such as diversifying suppliers, forming contracts or alliances, and reducing reliance on any one source. Power is therefore relational and shifts as the availability of resources changes.",
+     "link": "Shippers depend on carriers for vessel space, and carriers depend on shippers' volume to fill their ships, so each side holds some power. As capacity opens up and spot rates fall, shippers' dependence on any single carrier appears to decline, which is why carriers are cutting sailings and pushing up spot rates as a guide for contracts. The forwarders' comments on discounts and volume pricing show each side trying to manage its own dependence.",
+     "critique": "Resource dependence explains power through control of scarce resources but gives less weight to the political skill, information and tacit coordination that can shape outcomes. In this market, carriers' shared responses to falling demand may amount to collective behaviour that a single-organisation view does not explain.",
+     "practice": "A shipper seeking to reduce dependence should spread bookings across several carriers and services, and avoid being locked into one carrier's network. A carrier would reduce the shipper's leverage by building long-term volume commitments. Managers on either side should map where scarce capacity sits and plan around it."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized European retailer imports most of its homeware from Asian factories by container ship. Spot rates have fallen for several weeks, but carriers have increased blanked sailings and have announced peak season surcharges ahead of Chinese New Year. The retailer's annual contract talks with carriers begin next month, and its operations team has reported late deliveries to stores this quarter.",
+    "question": "Advise the board on how the retailer should balance cheap spot capacity against reliable contracted space for next year's ocean freight, and critically evaluate the negotiating position it should take with carriers.",
+    "evidence": [
+     "Drewry's index shows the Shanghai-Rotterdam spot rate down 3% week on week to $3,504 per 40ft, with Shanghai-Genoa flat for a third week.",
+     "Blanked Asia-Europe sailings are set to rise from five to eight the following week, according to Drewry's capacity data.",
+     "Forwarders say virtually no cargo is booked at published rates and that the cheapest spot space may come with poor reliability.",
+     "Hapag-Lloyd's chief executive expects contracts for 2027 to be priced above 2026 levels and a significant net increase in freight rates."
+    ],
+    "plan": [
+     "Diagnose the market position: use the falling spot index, rising blanked sailings and the carrier view on 2027 to show that shippers currently hold some leverage but that carriers are trying to restrict supply (Cox; resource dependence).",
+     "Assess the cost-service trade-off for the retailer's products using Slack's performance objectives, and identify which cargo can tolerate schedule slippage and which needs dependability.",
+     "Calculate total logistics cost for the cheapest spot option and the contracted option, including safety stock, expediting and the risk of stockouts.",
+     "Evaluate the negotiating position: decide whether to lock in volume now or wait, weighing the benchmark role of spot rates and the risk of signing at a cyclical peak.",
+     "Assess the power balance critically, noting that carriers' capacity discipline can keep prices up even as spot rates fall.",
+     "Recommend a mixed portfolio of contracted and spot capacity, with reliability clauses in contracts and a clear dependability threshold for each product group."
+    ],
+    "pitfalls": [
+     "Treating the lowest spot rate as the cheapest option without including the cost of late deliveries and buffer stock.",
+     "Assuming falling spot rates mean lower contract rates next year, when the article's carrier view points the other way."
+    ]
+   },
+   "alsoConsider": [
+    "Porter's five forces (buyer power and industry rivalry)",
+    "Kraljic's purchasing portfolio matrix",
+    "Williamson's transaction cost economics",
+    "Christopher and Peck's supply chain risk management and resilience"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether shippers should prioritise the lowest spot freight rates or dependable schedules when carriers are reducing capacity and contract prices are expected to rise.",
+    "outline": [
+     "Explain the trade-off between cost and dependability using Slack's performance objectives and the total logistics cost approach, with examples from blanked sailings and discounted spot space.",
+     "Analyse the buyer-supplier power balance using Cox's framework, showing how falling spot rates and carrier capacity decisions affect the annual contract negotiation.",
+     "Critically evaluate the strategy, distinguishing between shipper and carrier interests, and recommend a mixed contracted and spot approach with reliability safeguards."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "c8fa09a73558",
+   "title": "Humble Robotics: $51M Fuels Autonomous Electric Freight Future",
+   "url": "https://www.freightwaves.com/news/humble-robotics-51m-fuels-autonomous-electric-freight-future",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-13T19:45:23Z",
+   "addedAt": "2026-11-16T07:04:46Z",
+   "basis": "full_text",
+   "takeaway": "Autonomous electric haulers for short, repetitive port and warehouse moves are mainly a logistics story, but their rollout is also a planned organisational change that affects the people who monitor and work alongside them, so PWO's change and job-design theories apply.",
+   "summary": "Humble Robotics has raised a $51 million Series A, taking total funding to $75 million, to pay for customer pilots and early manufacturing of an autonomous electric freight vehicle. The vehicle is a self-propelled flat chassis that combines tractor and trailer, which the company says makes it about 20% lighter than a conventional rig, and it is engineered for a 200-mile range because most US truck-tonnage routes are under 250 miles. Its target uses are short, repetitive moves between ports, transload sites, warehouses and terminals. The company plans to map customer sites first using sensor-equipped conventional trucks, then run a supervised driving phase with human monitors, with commercial operations targeted for Q3 2027. Its stated aims are to close capacity gaps and allow unmanned night shifts without disrupting existing freight workflows.",
+   "keyPoints": [
+    "The Series A is $51 million, added to a $24 million seed round, and the company is just over a year old. Commercial operations are targeted for Q3 2027, after customer pilots.",
+    "The vehicle is a self-propelled flat chassis that carries an intermodal container or a box body. The company claims roughly 20% lower weight than a tractor-trailer, which it says allows higher payloads, and a 200-mile electric range.",
+    "Market entry starts with conventional trucks fitted with sensors that map customer routes and depot operations, so that the autonomous system is built around each site's real conditions.",
+    "The company uses unified autonomy, co-designing sensors, AI and the physical vehicle together rather than retrofitting an existing platform.",
+    "Before commercial use, the vehicle must complete internal validation and a supervised driving phase in which human monitors oversee it on customer routes."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 85,
+     "reading": "Logistics Operations is the module most directly engaged here. The hauler is designed for drayage-style moves between ports, transload sites, warehouses and terminals, and the article's logic rests on matching a vehicle to lane length and move type. A student of this module should consider how a short-haul autonomous electric unit changes the cost-service trade-off, how it links handling points in the network, and what must be true for the economics to work at each site."
+    },
+    {
+     "id": "green",
+     "relevance": 60,
+     "reading": "Green and Sustainable Logistics addresses freight emissions and the levers for decarbonising them. Here the levers are electric powertrains, lighter vehicle design and automated charging, and the CEO explicitly links electric and autonomous technology. A student should test the environmental case against the evidence, which gives a range, a weight saving and a market trend but no emissions figures or information about the electricity source."
+    },
+    {
+     "id": "pwo",
+     "relevance": 50,
+     "reading": "People, Work and Organisations is engaged through the change process and the changing nature of work. Introducing autonomous haulers means moving from driving to monitoring, planning a phased transition through mapping, pilots and supervised operation, and changing depot routines and night-shift staffing. A student should ask how employees and customers would experience and manage this change, including skills, job content, motivation and resistance, which the article barely addresses."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "logops",
+     "concept": "Modal choice and the trade-off between transport cost and service",
+     "unit": "",
+     "theory": "Modal choice weighs the cost of a transport option against the service it provides, such as speed, reliability, frequency and flexibility, and the cheapest option is not always the best one. The vehicle or mode chosen should match the characteristics of the lane, including distance, volume and the handling points at each end.",
+     "link": "The article's argument depends on lane length: the company says 87% of US truck-tonnage routes are under 250 miles, and it chose a 200-mile range to suit port-to-transload, warehouse-to-warehouse and on-terminal moves. The hauler therefore fills a space between conventional trucking and in-terminal automated chassis such as those used at the Port of Long Beach. The claimed 20% weight saving raises payload, which lowers cost per move. The trade-off is that a dedicated short-haul autonomous unit only improves service on predictable, repetitive lanes, and the article gives no service data.",
+     "critique": "The model treats cost and service as the main variables, but the article's cost and payload claims are unquantified. For customers, the real trade-off also includes charging time, uptime and integration with terminal systems, which the article does not measure.",
+     "practice": "A logistics manager should classify their own lanes by distance, frequency and handling points. They should then compare total cost per move and service levels, including reliability, against conventional tractor-trailers and existing terminal equipment before committing to a pilot on any lane."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Lewin's three-step model and force field analysis",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Lewin argued that change involves unfreezing existing behaviour, moving to a new state, and refreezing so that the new way of working becomes stable. Force field analysis identifies the driving forces pushing for change and the restraining forces resisting it, so that managers can strengthen the drivers or reduce the restraints.",
+     "link": "The article describes a staged transition: sensor-equipped trucks map depot operations first, then internal validation, then supervised driving with human monitors, and finally commercial operation. Mapping existing routines makes current practice visible, which fits unfreezing; supervised operation fits moving; and routine unmanned operation fits refreezing. The stated drivers are capacity gaps and unmanned night shifts. Restraints such as worker concerns, disruption to customer workflows and safety approval are only implied by the company's promise of no disruption to existing workflows.",
+     "critique": "Lewin's model is linear and assumes a stable new state will be reached. With a fast-moving technology pilot, change is more likely to be iterative and continuous, which is closer to an emergent view of change, and the three-step language understates this.",
+     "practice": "Managers at a customer site should run a force field analysis with depot staff before the supervised phase. They should identify restraints such as safety concerns and loss of familiar roles, set explicit milestones for moving from supervised to unsupervised operation, and mark a clear refreezing point at which new routines and roles are formally adopted."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model (Hackman and Oldham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The Job Characteristics Model holds that jobs motivate people when they have five core characteristics: skill variety, task identity, task significance, autonomy and feedback. These produce experienced meaningfulness, responsibility for outcomes and knowledge of results, which in turn affect motivation, performance and satisfaction, with the effect moderated by the employee's growth-need strength.",
+     "link": "The autonomous hauler changes the job from driving to monitoring. The article says human monitors will oversee vehicles on customer routes during supervised operation, and the company's aims include unmanned night shifts. On the model, a monitoring role may reduce skill variety and autonomy and remove the feedback that comes from handling a vehicle, while task significance may rise if monitors become responsible for safety. Whether the net effect is a loss or a gain depends on how the role is designed, which the article does not address.",
+     "critique": "The model is designed for stable, human-performed jobs and says little about the wider consequences of automation, such as shrinking headcount, union reactions or career paths. It describes design choices rather than employment outcomes.",
+     "practice": "A manager planning monitor roles should audit the redesigned job against the five characteristics. They should give monitors clear responsibility for interventions and feedback on their decisions, and consider enlarging the role with tasks such as route mapping, maintenance or exception handling to protect motivation."
+    },
+    {
+     "moduleId": "green",
+     "concept": "McKinnon's green logistics framework for decarbonising freight",
+     "unit": "",
+     "theory": "McKinnon's framework treats freight decarbonisation as a set of levers that reduce emissions per unit moved. These include more efficient, lower-carbon vehicles and energy sources, better load factors and network design, and modal shift, so vehicle choice should be judged against the whole freight system rather than the vehicle alone.",
+     "link": "The article's main environmental claim is that electric power suits short, repetitive moves and that automated charging is simpler than automated diesel refuelling. The claimed 20% weight saving would raise payload and reduce the number of trips needed per tonne moved, which is an efficiency lever. However, the article gives no emissions data, does not say where the electricity comes from, and does not compare the haulers with rail or other intermodal options. Because the design carries containers, the environmental case depends on whether the haulers displace diesel trucking or add a new fleet.",
+     "critique": "Judging decarbonisation by vehicle can overstate the benefits. If the electricity is generated from fossil fuels, or if cheap autonomous moves generate extra short trips, total emissions may not fall. The Chinese heavy-truck sales figure says nothing about freight emissions.",
+     "practice": "A sustainability lead should request lifecycle emissions data, including battery manufacture and the carbon intensity of depot electricity. They should compare the haulers with electric conventional trucks and with rail for the same lanes, and then report the results through Scope 1, 2 and 3 emissions accounts."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A container terminal operator and a regional logistics provider are considering a pilot of autonomous electric haulers to move containers between the port and nearby transload and warehouse sites. Most of their moves are under 250 miles and follow fixed routes, and they face capacity gaps and pressure to cut emissions. The vendor proposes a three-phase rollout: sensor-equipped trucks map depot operations first, then a supervised autonomous phase with human monitors, and finally unmanned night operations.",
+    "question": "Advise the board on whether to commit to the pilot. Critically evaluate the operational, environmental and people-related case, and recommend how the transition should be managed.",
+    "evidence": [
+     "The company says 87% of US truck-tonnage routes are under 250 miles, and it chose a 200-mile range on that basis.",
+     "The vehicle is claimed to be about 20% lighter than a conventional tractor-trailer, which the company says allows higher payloads.",
+     "Commercial operations are targeted for Q3 2027, after customer pilots and a supervised driving phase with human monitors.",
+     "The company's stated goals are to address capacity gaps and enable unmanned night shifts without disrupting existing freight workflows."
+    ],
+    "plan": [
+     "Define the lane and move profile (short, repetitive, port-to-warehouse) and assess the fit with the 200-mile range, using the modal choice trade-off between cost and service.",
+     "Test the vendor's performance claims, including the weight saving, charging versus refuelling and uptime, and state that these are the company's own claims that need pilot data to verify.",
+     "Assess the environmental case using McKinnon's levers and Scope 1, 2 and 3 accounting, including the carbon intensity of the electricity used at the depot.",
+     "Use Lewin's force field analysis to set out the drivers (capacity gaps, night-shift coverage, emissions targets) and restraints (safety, staff concerns, customer workflows), and map these onto a three-stage transition.",
+     "Apply the Job Characteristics Model to redesign monitor roles so that motivation is protected, and set out a clear plan for existing drivers affected by the change.",
+     "Recommend a limited, gated pilot on the most repetitive lane, with explicit go or no-go criteria covering cost, service, emissions and people, and state the conditions under which the board should expand the programme."
+    ],
+    "pitfalls": [
+     "Treating the company's figures (20% lighter, 87% of routes, half of Chinese heavy-truck sales electric) as proven. The Chinese figure concerns truck sales in another market, not this product's performance.",
+     "Writing only about technology and economics and omitting the change management and job design implications for drivers and monitors, which is where much of the PWO marking lies."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter and Schlesinger's strategies for overcoming resistance to change",
+    "Kotter's eight-step model",
+    "Bridges's transition model",
+    "Herzberg's two-factor theory"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether the introduction of autonomous technology into repetitive logistics work can be managed as a planned organisational change that protects employee motivation and engagement.",
+    "outline": [
+     "Explain the relevant change model or models and how they apply to a phased rollout from pilot to unmanned operation, using the stages described in the article.",
+     "Analyse the effect on job design and motivation of moving from driving to monitoring, using the Job Characteristics Model and, where useful, Herzberg's two-factor theory.",
+     "Critically evaluate the change models and the company's claims, noting that they assume managerial control and stable outcomes, and conclude with the conditions needed for the transition to succeed."
+    ]
+   },
+   "readingMinutes": 3
+  },
   {
    "id": "45ff0c65b2b3",
    "title": "NVIDIA’s Leadership Crisis Reveals a Bigger Problem",
