@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-16T07:04:46Z",
+ "generatedAt": "2026-11-17T06:28:16Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
@@ -72,6 +72,1079 @@
   }
  ],
  "articles": [
+  {
+   "id": "989ea4c18345",
+   "title": "Why CEOs Wait Too Long to Shake Up Leadership—and Regret It",
+   "url": "https://hbr.org/2026/11/why-ceos-wait-too-long-to-shake-up-leadership-and-regret-it",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-16T13:15:47Z",
+   "addedAt": "2026-11-17T06:28:16Z",
+   "basis": "abstract",
+   "takeaway": "The abstract presents a senior leadership replacement as the right decision and, through its title, argues that CEOs often wait too long to make such changes and then regret it. It gives no detail beyond that, so the analysis rests on theory rather than on claims in the article.",
+   "summary": "The publisher's abstract says that a former dean of Harvard Business School, in a regular column, examines why Netflix's decision to replace longtime content chief Bela Bajaria was the right one. The title frames the wider point as CEOs waiting too long to shake up leadership and regretting it. The abstract does not describe the reasons for the decision, the timing, the process or the outcome, and the full article was not supplied, so none of these can be reported.",
+   "keyPoints": [
+    "The abstract reports one columnist's judgement that Netflix's replacement of a longtime content chief was the right decision.",
+    "The title makes a general claim that CEOs wait too long to change leadership and regret the delay; the abstract does not give evidence for this claim.",
+    "Because the article describes a long-serving leader being replaced, it raises questions of leader fit, organisational change and the power a long-tenured executive can hold.",
+    "The abstract gives no specific findings, figures or named reasons, so the student should read the full piece before using it as evidence."
+   ],
+   "modules": [
+    {
+     "id": "leadership",
+     "relevance": 75,
+     "reading": "What is going on is a decision to remove a long-serving senior leader, which the abstract presents as correct, and the title suggests that delay is the common mistake. In leadership terms this concerns whether the incumbent still fits the demands of the role, and how the timing of a leadership change is judged. A student of this module should care because it links leader fit, succession decisions and the costs of delay to the theories taught here."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "In People, Work and Organisations terms this is a change decided at the top of an organisation, and so a people issue that affects colleagues, reporting lines and the culture around creative decisions. Unit 8 asks what triggers change and why organisations resist it, while Unit 5 asks where power sits when a long-tenured executive is involved. The abstract does not describe the process, so these frameworks can only be applied tentatively and the student should check them against the full article."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "leadership",
+     "concept": "Fiedler's contingency model (Fiedler)",
+     "unit": "",
+     "theory": "Fiedler argues that a leader's effectiveness depends on the match between a relatively stable leadership style, measured through the least-preferred coworker score, and how favourable the situation is. Favourability is defined by leader-member relations, task structure and position power. Where the match is poor, the model suggests changing the situation or replacing the leader, since styles are seen as hard to change.",
+     "link": "The abstract says that replacing a longtime content chief was the right decision, which implies that the demands of the role had moved away from what the incumbent offered. The abstract does not say what changed. Mapped onto Fiedler's model, the question is whether task structure, leader-member relations or position power had shifted so that the existing style no longer suited the situation. Fiedler's logic also suggests that a long-serving leader's style is unlikely to adapt, which makes the choice one between replacement and redesigning the role.",
+     "critique": "The least-preferred coworker measure has been criticised for weak validity, and the model says little about how leaders develop, which matters when the article's title treats waiting as the error. Fiedler's view that style is fixed may therefore be too strong.",
+     "practice": "A board should assess the situation on the three dimensions and judge whether the incumbent's style is likely to adapt. If it is not, the board should either redesign the role or appoint a leader whose style suits the revised situation, and it should act before performance gaps widen."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Lewin's three-step model and force field analysis (Lewin)",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Lewin describes change as unfreezing the existing state, moving to a new state and refreezing the new pattern. Force field analysis identifies driving forces that push toward change and restraining forces that hold the status quo, and change occurs when the driving forces outweigh the restraining ones.",
+     "link": "The title's claim that CEOs wait too long suggests that restraining forces, such as loyalty to a long-serving executive, the disruption of replacement and reluctance to admit an earlier mistake, can outweigh driving forces for a long time. According to the abstract, the Netflix decision is presented as right, which in Lewin's terms marks the point at which the driving forces prevailed. The abstract does not identify these forces, so the student should treat them as hypotheses to be tested against the full article.",
+     "critique": "The model treats change as a discrete event within a fairly stable equilibrium, whereas leadership changes are often a series of decisions and the balance of forces shifts continuously. It also says little about the emotional and political aspects of removing a respected executive.",
+     "practice": "A chief executive should list the driving and restraining forces openly and ask which of the restraining forces are reputational rather than based on performance. A review date should be set before those restraining forces become entrenched, so that the decision is made on evidence."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Pfeffer and Salancik argue that organisations and the people within them depend on those who control scarce and critical resources. The more critical and scarce a resource is, and the fewer alternatives there are, the greater the power of the person who controls it. Dependence can therefore shape which decisions are made and when.",
+     "link": "A longtime content chief in a media company may hold tacit knowledge, creative relationships and programming credibility that are hard to replace. This would be consistent with the title's suggestion that leaders delay because they depend on a senior person. The abstract does not state that Bajaria held such power or that the chief executive felt dependent, so this is an interpretive lens rather than a finding from the article.",
+     "critique": "Resource dependence explains where power comes from but not the timing of decisions, the emotional costs or the ethics of removal. It can also overstate dependence where substitutes exist or where knowledge can be transferred.",
+     "practice": "A chief executive should map which resources each senior executive controls and how replaceable those resources are. Succession planning and knowledge transfer should be arranged before a change is made, so that dependence does not become the reason for delay."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A company in this position has a long-serving senior executive who leads a creative function that is central to its products. The chief executive has been reluctant to make a change for some time. A commentator argues that a similar replacement in a rival firm was the right decision and that leaders who wait too long tend to regret it.",
+    "question": "Critically evaluate the reasons senior leaders delay replacing long-serving executives, and advise the chief executive on whether, when and how to make a change.",
+    "evidence": [
+     "The article is a Leadership Notes piece by a former dean of Harvard Business School.",
+     "It examines Netflix's decision to replace longtime content chief Bela Bajaria and judges that decision to be the right one.",
+     "Its title states that CEOs wait too long to shake up leadership and regret it."
+    ],
+    "plan": [
+     "Frame the problem as one of leader fit and use Fiedler's contingency model to test whether the situation has changed so that the incumbent's style no longer matches it.",
+     "Explain the delay using Lewin's force field analysis, separating driving forces from restraining forces such as loyalty, disruption and reputation.",
+     "Assess the power dynamics with resource dependence theory to see whether the executive controls critical and hard-to-replace resources, and whether that dependence has produced inertia.",
+     "Evaluate critically: note that the article's verdict is one commentator's judgement, that the fit and dependence models are contested, and consider whether redesigning the role or developing the incumbent is a viable alternative.",
+     "Recommend a timed decision, with clear review criteria, a succession plan, knowledge transfer and open communication, acting before performance gaps widen."
+    ],
+    "pitfalls": [
+     "Treating the abstract's verdict that the Netflix decision was right as established evidence, or inventing reasons for Netflix's choice that the abstract does not give.",
+     "Writing about the individual's personal failings without linking the argument to a theory of fit, power or change, which earns little credit."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter's eight-step model of change (Kotter)",
+    "Situational leadership (Hersey and Blanchard)",
+    "Escalation of commitment (Staw)",
+    "Kotter and Schlesinger's strategies for overcoming resistance to change"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that leaders should be replaced when their style no longer fits the situation, rather than being developed or the situation being redesigned.",
+    "outline": [
+     "Explain Fiedler's contingency model and the logic of fit between leader style and situation, and why it implies replacement or redesign.",
+     "Assess the case for and against early change using force field analysis and the costs of delay, drawing on a real leadership change decision.",
+     "Evaluate the limits of the approach, including the contested measurement of leader style and the role of power and dependence in delaying decisions."
+    ]
+   }
+  },
+  {
+   "id": "cba97bd988fe",
+   "title": "The Silent Eldercare Crisis: How Leaders Can Help",
+   "url": "https://sloanreview.mit.edu/article/the-silent-eldercare-crisis-how-leaders-can-help/",
+   "source": "MIT Sloan Management Review",
+   "publishedAt": "2026-11-16T12:46:23Z",
+   "addedAt": "2026-11-17T06:28:16Z",
+   "basis": "full_text",
+   "takeaway": "Eldercare responsibilities are hidden from managers because of a competence tax and benefits systems that only recognise children, so performance dips get misattributed to the person rather than the situation.",
+   "summary": "The article reports that over 38 million Americans gave unpaid care to an older adult in 2024, and that 62% of them were also working, so about 16% of active US workers were combining paid work with eldercare. Caregiving is concentrated among people aged 45 to 64, who are more likely than younger staff to carry it, which means senior managers are heavily affected. Survey evidence cited shows effects on work including late starts, early finishes, reduced hours and early retirement, with a growing number of men leaving work for caring duties. The author argues that most employers cannot see the problem because benefits systems only register dependent children, not a parent's diagnosis, and because employees hide their responsibilities for fear of looking less competent. Research cited by the author shows that people who disclose their situation can face lower performance ratings and higher turnover, and that managers tend to attribute performance changes to disengagement or poor fit. The author recommends five low-cost steps: measuring the challenge through anonymous surveys, breaking the cycle in which stigma prevents honest data, having senior leaders model specific and bounded requests, scoring outcomes rather than presence, and informing staff of the leave and flexibility they already have.",
+   "keyPoints": [
+    "Over 38 million Americans provided unpaid care to an older adult in 2024, and 62% of them were also in paid work, about 16% of all active US workers.",
+    "Caregiving burdens are heaviest for people aged 45 to 64, so senior staff are more likely to be carers than early-career staff.",
+    "Employees report going in late, leaving early, reducing hours or leaving work altogether because of caregiving, and this affects men as well as women.",
+    "Employees hide caregiving from managers because they fear being seen as less competent, a pattern the article calls a competence tax.",
+    "In one study cited, consultants who quietly adjusted their work were rated higher than those who requested formal accommodation, and disclosers left the firm at a higher rate."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 90,
+     "reading": "At its core this is a People, Work and Organisations story about how individuals, managers and systems interact. It turns on perception and attribution, because managers read a sudden fall in performance as a flaw in the person when the cause is a caregiving shock they cannot see. It also raises organisational culture, since silence about eldercare is described as built into both systems and norms, and it touches on status, because disclosure costs different people different amounts. A PWO student should care because the same circumstances produce different outcomes depending on culture, design and the manager's judgement."
+    },
+    {
+     "id": "leadership",
+     "relevance": 55,
+     "reading": "For a Leadership Theory and Practice student the article is about how senior leaders set the conditions under which employees feel able to speak. The author's evidence suggests that a higher-status leader's disclosure carries a status cost, while a specific, bounded request from a leader makes it safer for others to ask for flexibility. This raises questions of ethical and responsible leadership, in particular whether leaders have a duty to remove the career risk attached to family responsibilities. It also tests relationship-based views of leadership, since access to flexibility appears to depend on the supervisor."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Attribution theory (Heider; Kelley)",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Attribution theory explains how people infer the causes of behaviour, distinguishing internal, dispositional causes such as ability or attitude from external, situational causes such as circumstances. Kelley's covariation model suggests observers judge causes by consistency over time, distinctiveness across situations and consensus among others. Observers tend to over-attribute other people's behaviour to dispositional causes, which is known as the fundamental attribution error.",
+     "link": "The article's performance calibration example shows a ten-year performer slipping, and the room reaching for explanations such as disengagement, bad fit or being tapped out, all of which are internal attributions. The dip is consistent over time, which under Kelley's model would normally prompt a search for situational causes, but nobody asks because caregiving is hidden. Nestler's point that employers attribute outcomes to other reasons when they were caused by a sudden caregiving shock is a textbook case of the fundamental attribution error, made worse because the situational information is withheld.",
+     "critique": "Attribution theory assumes that observers have the information needed to weigh situational explanations, but here the information is deliberately suppressed by stigma, so the problem is structural as well as cognitive. The theory also does not explain why the culture makes asking unsafe in the first place.",
+     "practice": "A manager facing an unexplained performance drop should open a private conversation with open questions about circumstances before drawing conclusions. Calibration notes should be required to record situational factors and to avoid trait labels such as disengagement unless evidence supports them."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job demands-resources model (Bakker and Demerouti)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The job demands-resources model holds that every job has demands, which are the aspects requiring sustained physical or psychological effort, and resources, which help people achieve goals, reduce demands or stimulate growth. Sustained high demands lead to strain and burnout, while resources drive engagement and buffer the effect of demands. The model is widely used to design interventions that target the specific demands and resources in a role.",
+     "link": "Eldercare adds a demand that sits outside the job: travelling to a hospitalised parent, visiting weekly, managing bills and appointments. The article's survey evidence, with 56% going in late, leaving early or taking time off and 18% reducing hours, fits the strain and withdrawal the model predicts. The resources the author recommends, including schedule and location flexibility, supervisor support and outcome-based appraisal, are the buffers the model would identify, and the finding that people only use flexibility if they believe they can is a reminder that resources work only when they are perceived as available.",
+     "critique": "The model was built around demands and resources within the job, whereas the main demand here originates at home, and the model says little about the moral or identity pressures or about the stigma that stops employees using available resources. It also describes relationships without giving thresholds at which strain becomes unsustainable.",
+     "practice": "Managers should identify the specific caregiving demands in a one-to-one conversation and then match them with targeted resources, such as schedule changes, redistributed workload or outcome targets. Generic wellbeing programmes are less effective than changes that address the particular demand the employee faces."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of culture (Schein)",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Schein describes organisational culture at three levels: visible artefacts such as policies, structures and rituals; espoused values, which are the stated beliefs of the organisation; and basic underlying assumptions, which are taken for granted and often unspoken. Culture is most powerful where its assumptions go unexamined, and changing behaviour requires changing the assumptions beneath it.",
+     "link": "The article describes eldercare silence as built into organisational systems and U.S. culture. At the artefact level, benefits enrolment is triggered by a child but not by a parent's diagnosis, and only 23% of employees were offered paid adult caregiving leave in the author's cited survey. At the level of assumptions, employees believe that asking for help signals incompetence, and some leaders respond to benchmarks by saying the data does not describe their population. Where policies exist, such as protected leave for dementia diagnoses, staff often do not know they apply, which shows a gap between espoused entitlement and enacted practice.",
+     "critique": "Schein's model is useful for diagnosis but offers limited guidance on how to shift assumptions, and it tends to treat culture as uniform, whereas the article shows variation by rank and by whether a colleague is a peer or a senior. The competence tax also has an individual belief component that cultural change alone may not remove.",
+     "practice": "Leaders should audit artefacts such as benefits triggers, HR data and review forms against stated values, starting with changes that generate evidence, such as adding eldercare events to enrolment records. Senior people should share their own experience to test the assumptions underneath the silence."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Leader-member exchange theory",
+     "unit": "",
+     "theory": "Leader-member exchange theory holds that leaders form different quality of exchange with each follower. High-quality relationships involve mutual trust, respect and reciprocal obligation, and give members greater latitude, support and access to opportunities, while low-quality relationships remain formal and transactional. The quality of the relationship often determines how much a follower benefits from formal policies.",
+     "link": "The article reports that employees use work-family policies when supervisors buffer them from career risk by modelling the request. A specific, dated and bounded request from a leader, such as asking someone to take a client call because of a neurologist appointment, signals that the exchange is safe and reciprocal. Reid's finding that disclosing employees paid a price regardless of behaviour suggests that formal entitlement is not enough without a relationship in which trust makes it usable. The author's observation that managers are more exposed to status loss when they disclose weakness shows how relational position changes the costs of openness.",
+     "critique": "LMX can create in-group and out-group inequity, so that access to flexibility depends on how a manager feels about each person rather than on policy. This risks turning eldercare support into a matter of favour, so formal rules and relationship-building should be combined.",
+     "practice": "Leaders should make their requests explicit and specific, and should offer flexibility on a standard basis rather than through individual negotiation. They should also check whether the quality of exchange is uneven across the team, because uneven access to flexibility is itself a fairness problem."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A professional services firm notices that a long-serving senior manager has been missing deadlines and has moved to fewer hours over six months. Its performance calibration notes describe the manager as disengaged and the firm's benefits system only records dependent children. Colleagues suspect the manager is caring for a parent, but nobody has asked, and the firm has no data on how many staff carry caregiving responsibilities.",
+    "question": "Critically evaluate why the firm's performance system is likely to misread this manager's decline, and advise the HR director on changes that address both the individual and the organisational causes.",
+    "evidence": [
+     "A 2025 AARP survey found that 56% of employed family caregivers go in late, leave early or take time off, and 18% have moved to part-time or reduced hours.",
+     "Reid's study of 115 consultants found that those who quietly adjusted their work averaged 18% higher performance ratings than those who disclosed, and 8 of the 25 disclosers left the firm within a year.",
+     "Nestler notes that employers may attribute outcomes to other reasons when they were caused by a sudden caregiving shock.",
+     "A 2019 survey by Fuller and Raman found that over 80% of caregiving employees said care was hurting their productivity, while only 24% of employers agreed and 52% were not tracking caregiving at all."
+    ],
+    "plan": [
+     "Define the problem by distinguishing the internal and external explanations for the decline and show how the calibration language reflects the fundamental attribution error (attribution theory, Unit 2).",
+     "Explain why the causes are hidden by examining the artefacts and assumptions of the firm's culture, including the benefits trigger and the belief that asking for help signals incompetence (Schein, Unit 7).",
+     "Analyse the manager's demands and resources using the job demands-resources model to show how the caregiving load produces strain and withdrawal (Unit 3).",
+     "Consider the status dynamic, explaining that a senior manager's disclosure carries a higher cost and that peer-level or modelled requests reduce the risk, drawing on the power bases and relational evidence in the article.",
+     "Recommend a private, non-punitive conversation with the manager, an anonymous third-party survey to create a baseline, a change to benefits triggers, and outcome-based appraisal, and conclude that the firm must change the conditions that make silence rational."
+    ],
+    "pitfalls": [
+     "Treating the decline as a personal failing without considering the situational cause the article describes, which loses marks on attribution and on critical evaluation.",
+     "Recommending generic wellbeing initiatives or a formal disclosure process within performance reviews, which the article suggests would reinforce the penalty for disclosure."
+    ]
+   },
+   "alsoConsider": [
+    "Psychological safety (Edmondson)",
+    "Psychological contract (Rousseau)",
+    "Employee engagement (Kahn)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that the main obstacle to supporting employees with family caring responsibilities is individual reluctance to disclose. Use attribution theory and organisational culture in your answer, and consider what leaders can do to change the conditions in which employees decide whether to speak.",
+    "outline": [
+     "Explain the attribution errors that lead managers to misread performance and the competence-related fears that lead employees to conceal caregiving.",
+     "Use Schein's levels of culture and the status dynamics of disclosure to show that silence is a product of systems and norms as well as individual choice.",
+     "Evaluate leadership responses such as modelling specific requests and outcome-based appraisal, and assess their limits, including the risk of inequitable access."
+    ]
+   },
+   "readingMinutes": 10
+  },
+  {
+   "id": "ab5f81d7f0bb",
+   "title": "Want to combat AI brainrot? PwC is piloting a way to do so.",
+   "url": "https://www.hrdive.com/news/pwc-critical-thinking-assessment/874778/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-16T21:03:00Z",
+   "addedAt": "2026-11-17T06:28:16Z",
+   "basis": "abstract",
+   "takeaway": "The abstract reports that workers who are assigned to use AI recognise its negative cognitive effects. Read it through PwC's attitudes, job design and change management, and remember that the abstract gives no detail of the studies or the pilot.",
+   "summary": "The publisher's abstract says that several studies find workers who are assigned to use AI recognise its negative effects on their thinking. The headline adds that PwC is piloting a way to counter what it calls AI brainrot, but the abstract does not describe the pilot, its results or the studies cited, so this note works only from the claim itself.",
+   "keyPoints": [
+    "According to the abstract, several studies find that workers assigned to use AI recognise its negative cognitive effects.",
+    "The finding concerns workers who are assigned AI use, which points to how the use is set up at work rather than to choices people make for themselves.",
+    "The abstract does not name the studies, sample sizes, measures of cognitive effect or the PwC pilot. Check the full article before citing any figures or findings.",
+    "The headline frames the issue as something to be countered, so the organisation's response is part of the story as well as the workers' reactions."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 65,
+     "reading": "In People, Work and Organisations terms, the story is about how individuals respond when a required tool conflicts with what they believe about their own work. It touches attitudes and beliefs, motivation and job design, and the way organisations respond to resistance during change. A PWO student should care because the finding shows that imposed technology can create a gap between what people are asked to do and what they think is good for them, and that gap shapes behaviour and engagement."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Cognitive dissonance (Festinger)",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Cognitive dissonance is the discomfort that arises when a person holds two cognitions that conflict, such as a belief and a behaviour. People tend to reduce the discomfort by changing one of the cognitions, adding justifications, or avoiding information that sharpens the conflict. The strength of the effect depends on how much justification people feel they had for the behaviour.",
+     "link": "The abstract describes workers who are assigned to use AI, which is a required behaviour, while they recognise its negative cognitive effects, which is a belief. That mismatch is the dissonance the theory describes. The abstract does not say how workers resolve it, so the student should not assume they change their attitude to AI or change their behaviour. The link is a plausible explanation of the recognised tension rather than a demonstrated one.",
+     "critique": "Dissonance theory is strongest in explaining attitude change after a person has freely chosen a behaviour, and the workers here were assigned to it, so the mechanism may differ. Their recognition of harm may also reflect accurate experience rather than an unresolved inconsistency that needs reducing.",
+     "practice": "A manager should expect the tension and bring it into the open, for example by asking staff what they notice in their own work. Explaining why the tool is required and giving staff a say in how it is used can supply the justification that reduces the conflict in a healthy way."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Self-determination theory (Deci and Ryan)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Self-determination theory holds that people are most motivated when three basic psychological needs are met: autonomy, competence and relatedness. Behaviour that is imposed from outside is less self-endorsed than behaviour that a person has come to value, and this affects engagement and wellbeing. Satisfying autonomy and competence tends to support more self-determined motivation.",
+     "link": "The word assigned points to externally regulated use of AI, which the theory treats as less self-determined. The negative cognitive effects that workers report could bear on competence, for example if they feel their own skills are weakening, and on autonomy, if they feel they have little control over how they work. The abstract does not state which need the workers feel is threatened, so this mapping is an inference to be tested.",
+     "critique": "Self-determination theory explains motivation and wellbeing more directly than it explains cognition, so it does not on its own predict cognitive effects. It also treats the three needs as universal, while the abstract offers no evidence on how these workers weigh them.",
+     "practice": "A manager should give staff real choice over when and how to use AI and make sure tasks still build their skills. Checking regularly whether people feel more capable or less capable with the tool can show early whether competence is being eroded."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model (Hackman and Oldham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The Job Characteristics Model identifies five core job dimensions: skill variety, task identity, task significance, autonomy and feedback. These shape three psychological states, namely experienced meaningfulness, responsibility for outcomes and knowledge of results, which in turn produce motivation, performance and satisfaction. The model suggests that jobs can be redesigned to strengthen these dimensions.",
+     "link": "If AI takes over the more demanding or varied parts of a task, the job may lose skill variety and task identity, which could be behind the cognitive effects the workers recognise. The abstract does not say which tasks AI affects, so the student should frame this as a diagnostic question rather than a finding. The model shows that the effect may come from how the job is designed, not only from the tool itself.",
+     "critique": "The model was developed with a focus on more traditional jobs and does not explicitly cover cognitive offloading by software. It also assumes that job redesign is within managers' control, which may be limited when a tool is set by a central function.",
+     "practice": "A manager should map which parts of each role AI now performs and check whether the remaining work still has variety, identity and autonomy. Where these have been reduced, the manager can redesign roles, for example by moving staff toward tasks that need judgement and by giving them ownership of outcomes."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resistance to change and Kotter and Schlesinger's strategies",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Kotter and Schlesinger identify sources of resistance to change, including parochial self-interest, misunderstanding, low tolerance for change and differing assessments of the situation. They set out six responses: education and communication, participation and involvement, facilitation and support, negotiation, manipulation and cooptation, and explicit or implicit coercion. Choosing the right response depends on the source of resistance.",
+     "link": "A pilot aimed at countering the negative effects of AI is an intervention in a change process, and the workers' recognition of harm is the kind of evidence that the model treats as a source of resistance, possibly through misunderstanding or differing assessments of the tool. The abstract does not describe the pilot, so the student cannot tell which response PwC chose. The case shows that the response should match the source of concern.",
+     "critique": "The model treats resistance mainly as an obstacle, but here workers' concerns may be well founded and point to a design problem with the tool. Treating the concerns as resistance to be managed could therefore miss their value as evidence.",
+     "practice": "A manager should treat staff observations as data to test rather than as opposition to overcome. Involving staff in designing and evaluating the pilot, sharing evidence openly and changing the tool or its use where concerns are borne out will address the causes rather than only the symptoms."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A company in this position has required its staff to use an AI tool as part of their everyday work. Evidence suggests that staff who are assigned to use such tools recognise their negative effects on their own thinking. Leadership is considering a pilot to address the problem.",
+    "question": "Advise the HR director on how the organisation should respond to employees' recognition of the negative cognitive effects of the AI tool, using theories of individual differences, motivation and organisational change.",
+    "evidence": [
+     "The abstract reports that several studies indicate workers assigned to use AI recognise its negative cognitive effects.",
+     "The finding concerns workers who are assigned to use AI, not workers who chose it.",
+     "The headline states that PwC is piloting a way to counter what it calls AI brainrot, though the abstract gives no details of the pilot."
+    ],
+    "plan": [
+     "Define the finding precisely, noting that the claim concerns assigned use and that the abstract does not give the study details.",
+     "Apply cognitive dissonance to explain the tension between required use and recognised harm, and the ways staff might resolve it.",
+     "Apply self-determination theory to assess whether autonomy and competence are being threatened by assigned use.",
+     "Apply the Job Characteristics Model to diagnose whether job design has lost skill variety, task identity or autonomy.",
+     "Apply Kotter and Schlesinger's resistance strategies to decide whether staff concerns should be treated as evidence or as resistance.",
+     "Recommend that the HR director give staff real choice, redesign roles to keep thinking-intensive work, involve staff in evaluating the pilot, and measure cognitive outcomes before deciding on wider rollout."
+    ],
+    "pitfalls": [
+     "Presenting the abstract's claim as established fact or quoting figures from the full article without having read it.",
+     "Describing the PwC pilot's design or results, which the abstract does not provide, instead of stating that they are unknown."
+    ]
+   },
+   "alsoConsider": [
+    "Bakker and Demerouti's job demands-resources model",
+    "Edmondson's psychological safety",
+    "Rousseau's psychological contract",
+    "Lewin's force field analysis"
+   ],
+   "exam": {
+    "question": "To what extent can job redesign and change management address the negative effects employees report when technology is imposed on their work, rather than relying on changes in individual attitudes?",
+    "outline": [
+     "Define the relevant theories, including cognitive dissonance, self-determination theory, the Job Characteristics Model and Kotter and Schlesinger's resistance strategies, with their course units.",
+     "Apply them to the evidence, distinguishing assigned from chosen use and stating the limits of an abstract-only source.",
+     "Critically evaluate whether structural redesign or individual attitude change is more effective, and recommend an approach."
+    ]
+   }
+  },
+  {
+   "id": "4400552769b5",
+   "title": "AI Decision-Making in Supply Chains: Who Answers When the Algorithm Decides?",
+   "url": "https://www.supplychainbrain.com/blogs/think-tank/blog/15883289/ai-decisionmaking-in-supply-chains-who-answers-when-the-algorithm-decides",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-16T05:00:00Z",
+   "addedAt": "2026-11-17T06:28:16Z",
+   "basis": "full_text",
+   "takeaway": "When AI makes operational decisions, the organisation must be explicit about who owns each outcome, who holds the authority to reverse it, and whether the supervisor's training and power match the job they are now expected to do.",
+   "summary": "The article uses a warehouse example, in which an AI layer holds one order to protect carrier cutoffs and a customer later suffers under contract penalties the site did not know about, to argue that AI decision-making needs governance. It proposes an accountability map that names the owner of each decision class on each shift, records contractual facts the model cannot see, and gives a route for doubts to reach someone who can reverse the decision. It also argues for decision logs that work like flight recorders, for metrics that include override outcomes and customer-facing exceptions, for a mechanism to demote decisions back to advisory mode, and for training that prepares supervisors to evaluate exceptions rather than hunt problems.",
+   "keyPoints": [
+    "An authority matrix defines what the AI may do, while an accountability map defines who answers for the outcome and how doubts reach them.",
+    "Accountability needs records: each autonomous decision should show its inputs, the guardrail that allowed it to act alone, and whether a person later overrode it.",
+    "Acceptance rate alone can mislead, so organisations should track whether overrides were right, how many autonomous decisions were reversed, and which exceptions reached customers first.",
+    "Autonomy should be widened only against pre-agreed evidence, and there must be a named person who can demote a decision class back to advisory mode quickly, especially after changes such as a new carrier agreement or peak season.",
+    "Supervisors' work shifts from finding problems to evaluating exceptions, which needs knowledge of what the system optimises for and ignores, and the confidence to refuse a system that is usually right."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 85,
+     "reading": "This is a case about where authority, expertise and accountability sit when technology takes over part of a supervisor's decisions. The article shows a socio-technical system in which the AI holds the decision, the supervisor holds knowledge the system lacks, and the organisation must decide who is answerable. For a PWO student it connects to power and influence (Unit 5), to job design and the changing content of supervisory work (Unit 3), and to the people side of introducing and reversing a new way of working (Unit 8). It also illustrates the wider influence of technology on the world of work (Unit 1)."
+    },
+    {
+     "id": "logops",
+     "relevance": 60,
+     "reading": "The article is about the trade-off between service level and cost in warehouse execution. The AI improves the day's service measure by holding one order, but the costs of that choice, namely penalties and a failed replenishment, sit outside the metric it optimises. Decision logs, reason codes and override tracking are the operational records a logistics manager would use to control service and cost. A logistics student should see here how a single performance measure can hide total logistics cost."
+    },
+    {
+     "id": "leadership",
+     "relevance": 40,
+     "reading": "The article asks leaders to decide which decisions can be delegated to an algorithm and to make clear who is responsible when things go wrong. This is a question of decision making, ethics and responsibility, and it also involves followership, since a supervisor must have the confidence to say no to the system. The leader's role is to design decision rights, build the capability to challenge the system, and keep accountability visible rather than leaving it vague."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "French and Raven's bases of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "French and Raven identified several bases of power, including legitimate power that comes from formal position, expert power that comes from knowledge and skill, and referent and reward or coercive power. Influence is strongest when a person holds both the right to decide and the knowledge needed to decide well. When these are held by different people or systems, the result is often frustration, passive compliance or poor decisions.",
+     "link": "The article describes a supervisor who has the competence and training to evaluate exceptions and knows what the floor knows, such as a dock door out of service or stale data behind a reason code. Without authority to overrule the system, that supervisor is described as a witness rather than an overseer, which is a clear case of expert power without legitimate power. The accountability map is the proposed fix, because it gives a named role the right to reverse decisions and routes doubts to that role. The flagging of strategic accounts before sequencing also moves the knowledge held by customer service into the decision process.",
+     "critique": "French and Raven treat power as held by people, whereas here part of the decision power is held by software and by a vendor whose configuration choices the site may not control. The framework is also descriptive and does not say how an organisation should redistribute power when a new technology changes who knows what.",
+     "practice": "A site leader should give the supervisor a documented, usable right to demote any decision class to advisory mode, and should record the floor knowledge that supervisors hold in reason codes and flags. Expertise held by customer service and floor staff should be written into the system's rules so that it is used where the authority to act sits."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Hackman and Oldham proposed that five core job characteristics, namely skill variety, task identity, task significance, autonomy and feedback, produce experienced meaningfulness, a sense of responsibility for outcomes and knowledge of results. These psychological states in turn drive motivation, satisfaction and performance, and the effect is stronger for people with high growth-need strength. Job design is therefore a lever for engagement as well as efficiency.",
+     "link": "The article says supervisors move from hunting problems to evaluating exceptions, which changes their skill variety and demands judgement rather than routine checking. Autonomy changes too, because the supervisor now has to decide whether to accept or override a system recommendation. Feedback is provided by override outcomes, reversed decisions and exception counts, which are the knowledge of results the model says people need. The article also notes that most training plans have not caught up, which suggests the job characteristics have changed faster than the support for them.",
+     "critique": "The model was developed for individually designed jobs in manufacturing and office work, and it does not explain how an AI system's default outputs can make autonomy nominal, for example if supervisors tend to accept whatever the system proposes. It also treats feedback as coming from the job itself, whereas here much of the feedback is generated by the system that the supervisor is supposed to check.",
+     "practice": "A manager should redesign the supervisor role explicitly, giving clear decision rights, meaningful feedback from override outcomes and training in evaluating exceptions. They should then check whether the redesigned role actually raises engagement and performance, rather than simply adding oversight tasks."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "ADKAR model",
+     "unit": "Unit 8 Organisational change",
+     "theory": "ADKAR, a model associated with Prosci, sets out five stages that individuals must move through for organisational change to succeed: awareness of the need for change, desire to take part, knowledge of how to change, ability to put it into practice, and reinforcement that sustains the change. It argues that many change programmes fail at the knowledge and ability stages even when awareness and desire are present.",
+     "link": "The article's central governance steps can be read as ADKAR stages. Awareness comes from the account of why an order was held, desire depends on whether supervisors trust the tool, which the article complicates with automation bias, and knowledge and ability depend on training to evaluate exceptions, which the article says has not caught up. Reinforcement is provided by the dashboard and the demotion switch, which keep the new behaviour tied to measured results. The article's test of promotion before peak season is a reinforcement mechanism agreed in advance.",
+     "critique": "ADKAR is individual-focused and assumes a sequence that does not always hold in practice. It does not address the power relations or the vendor dependence that the article identifies as central to who can change a decision, and it says little about how to manage the risk that people defer to the system even when they are well trained.",
+     "practice": "Before promoting any decision class, a site leader should test whether supervisors have the knowledge and ability to evaluate its exceptions, should set out the reinforcement metrics in advance, and should make sure there is a tested route back to advisory mode."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Total logistics cost and the cost-service trade-off",
+     "unit": "",
+     "theory": "Logistics decisions should be judged by total cost, which includes transport, handling, inventory and the costs of poor service, rather than by a single service measure. Improving service in one area can raise costs elsewhere through expediting, penalties or lost customers, so the aim is to find the level of service at which total cost is lowest.",
+     "link": "The AI improves the day's service level by holding one order so that several others meet their carrier cutoffs, which is a cost-service trade-off made inside the system. The cost that falls outside its view is the penalty and the missed replenishment under a customer contract. The article's proposal to flag strategic accounts before the wave is released is a way of building the customer-specific cost into the sequencing decision. The decision logs and exception measures are the records needed to see this total cost.",
+     "critique": "The trade-off framework assumes costs can be measured and compared. Contract penalties are often specific, delayed and hard to attribute to a single decision, and reputational harm is harder still, so a model may underweight them even when they are known.",
+     "practice": "Logistics managers should bring contractual penalty terms and account value into the decision rules, either as cost terms or as constraints, and should report penalties and exceptions alongside on-time in-full performance so that the cost of holding an order is visible."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A regional distribution centre runs an execution system with an AI layer that holds one outbound order so that several others make their carrier cutoffs, raising the day's service level. Two days later a strategic customer complains about a missing replenishment governed by penalty terms the site did not know about. The site leader must decide how to govern AI decision-making in the warehouse before peak season.",
+    "question": "Advise the site leader on how responsibility for AI-driven order-holding decisions should be allocated, and critically evaluate what changes are needed in the supervisors' role and capability.",
+    "evidence": [
+     "The article describes an accountability map that names the owner of each decision class on each shift, records contract facts the model cannot see and gives a route for doubts to reach someone able to reverse the decision.",
+     "The article argues that acceptance rate alone can mislead and proposes tracking override outcomes, reversed decisions and exceptions that reached customers before supervisors.",
+     "The article says supervisors move from hunting problems to evaluating exceptions, and that most training plans have not caught up with this change.",
+     "The article notes that a supervisor with competence and training but no authority to overrule the system is a witness rather than an overseer."
+    ],
+    "plan": [
+     "Diagnose the failure by showing that the system optimised service level while the penalty cost sat outside its view, using total logistics cost and the cost-service trade-off.",
+     "Analyse authority and expertise using French and Raven, showing that the supervisor has expert power but lacks legitimate power to reverse the decision.",
+     "Assign accountability through an accountability map that names owners by shift, flags strategic accounts before release and sets a route for doubts.",
+     "Redesign the supervisor role using the Job Characteristics Model, with clear decision rights, feedback from override outcomes and training that prepares people for exception evaluation.",
+     "Test readiness and governance using ADKAR and decision logs, requiring knowledge and ability to be in place, with promotion and demotion criteria agreed before peak season.",
+     "Recommend keeping cutoff-critical strategic-account holds advisory, allowing autonomy for lower-risk classes, and giving a named supervisor the authority to demote any class immediately."
+    ],
+    "pitfalls": [
+     "Treating the vendor or the AI system as the accountable party, or assuming that a supervisor who is formally in the loop provides real oversight without competence and authority.",
+     "Claiming that the EU AI Act or NIST requirements legally bind every warehouse, when the article itself says that not every warehouse tool is high-risk and that the frameworks are benchmarks."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Galbraith's Star Model",
+    "Kotter and Schlesinger's strategies for overcoming resistance to change"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that introducing AI decision-making into operations is mainly a problem of accountability, power and skills rather than of technology.",
+    "outline": [
+     "Explain how an accountability map and decision rights clarify who answers for AI-driven decisions, drawing on power and authority theory such as French and Raven.",
+     "Assess how changes in supervisors' work, including the shift to evaluating exceptions, affect motivation, job design and the training needed, using the Job Characteristics Model and ADKAR.",
+     "Evaluate the limits of the account by considering automation bias, vendor dependence and the difficulty of measuring hidden costs, and reach a justified conclusion."
+    ]
+   },
+   "readingMinutes": 6
+  },
+  {
+   "id": "16be94c9e7ff",
+   "title": "50% Spike: Spot Rates SOAR Earlier Than Expected",
+   "url": "https://www.freightwaves.com/news/50-spike-spot-rates-soar-earlier-than-expected",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-16T20:41:25Z",
+   "addedAt": "2026-11-17T06:28:16Z",
+   "basis": "full_text",
+   "takeaway": "When road capacity is scarce, carriers rather than shippers set the terms, so shippers who rely on stale contracts and long routing guides pay premiums that a volume-based view of the market would miss.",
+   "summary": "FreightWaves, drawing on Sonar data and an interview with Julie Van de Kamp, reports that US truckload spot rates reached $3.56 per mile on 16 November, more than 50% above a year earlier, and that tender rejections of 12.85% are about double the year-ago level. The article argues the squeeze is driven by capacity rather than demand, since accepted volumes are flat year on year while carriers turn down more freight. Southern California, and Ontario in particular, is the tightest market, with LA port bookings running high as retailers hold holiday orders back. Costs rise with each fallback tender in a routing guide, contract rates are resetting upwards but still sit below spot, and intermodal rail offers partial relief on western lanes.",
+   "keyPoints": [
+    "Spot rates are $3.56 per mile against $2.32 a year earlier, and tender rejections are 12.85%, roughly double the year-ago level.",
+    "Accepted tender volume is flat at 9,566, so the tightening reflects carriers refusing more freight rather than shippers sending more.",
+    "Southern California is the pressure point: LA rejections are 10.9% against a 12-month average of 7.9%, and Ontario van rejections are 10.82% against 4.34% a year ago.",
+    "First-tender acceptance has fallen to 88.9 from about 93; freight reaching the second carrier costs 9.3% more and at the third tender or beyond costs 17.6% more, with surcharges above 35% in July.",
+    "Van contract pricing of $2.86 per mile is about $0.70 below spot, and the Contract Rate Change Differential of 13% compares with a five-year average of 3.5%."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 85,
+     "reading": "Freight transport is the centre of this article: the question is which mode and which carrier a shipper should use when road capacity is scarce. Logistics operations students should read the spot-contract gap, the rejection rates and the intermodal saving as evidence of how modal choice responds to capacity and price. The point that rail can act as a pressure valve is a practical case of modal shift, though it depends on whether service levels hold, and the article does not report them."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 80,
+     "reading": "This is a buyer-supplier market in which carriers are the suppliers and shippers are the buyers. The gap between a $2.86 contract rate and a $3.56 spot rate, along with the 13% contract reset, shows how contract terms transfer or fail to transfer supply risk. Purchasing students should look at how routing guides and contract structures shape a shipper's exposure to the spot market."
+    },
+    {
+     "id": "scm",
+     "relevance": 60,
+     "reading": "The article describes a supply chain under stress at specific nodes, namely the Southern California ports and the Ontario distribution market. Tender rejections and routing guide cascades show how a local capacity bottleneck spreads across a national network, since Ontario carries a meaningful share of national van volume. Students of supply chain risk and resilience can use it to discuss how concentration and late demand timing amplify disruption."
+    },
+    {
+     "id": "pwo",
+     "relevance": 40,
+     "reading": "In organisational behaviour terms the article concerns dependence and power between organisations rather than within one. Carriers hold the scarce resource, which gives them leverage over shippers, and the shippers' responses, such as locking in capacity early and renegotiating contracts, are attempts to reduce that dependence. Students of the power unit can use it to see how resource scarcity turns into bargaining power."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "logops",
+     "concept": "Modal choice and the cost-service trade-off",
+     "unit": "",
+     "theory": "Shippers choose between road, rail and other modes by weighing each mode's cost against the service it delivers, including transit time, reliability and flexibility. The preferred mode is the one that minimises total logistics cost for the service level required. When one mode becomes scarce, its price rises and the relative attractiveness of alternatives shifts.",
+     "link": "The article shows intermodal running about 40% cheaper than van on the LA-to-Chicago and Ontario-to-Joliet lanes, which is the cost side of the trade-off at work. Van spot on those lanes rose about 11% month over month, which narrows the gap if road prices keep climbing. Rail container volume of about 44,600, the highest for the season in four years, shows shippers already switching modes, and Van de Kamp's comment on railcar capacity in Los Angeles shows that the alternative works only where the capacity exists. The article gives no transit-time or reliability figures for rail, so the service side of the trade-off cannot be checked from the text.",
+     "critique": "The simple cost-service model assumes that service can be measured and compared across modes. Intermodal typically adds terminal handling, longer transit and first- and last-mile road legs that the article does not quantify, so a 40% headline saving is not the same as a total cost saving.",
+     "practice": "A logistics manager should model total landed cost and service for road and rail on each lane, including the road legs at either end, and set a switching threshold based on the spot-to-intermodal gap. Where the saving holds and the delivery window is flexible, volume should move to rail early, before the peak. Freight with tight delivery windows should stay on road under a contract that secures capacity."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Power in buyer-supplier relationships (Cox)",
+     "unit": "",
+     "theory": "Cox's approach analyses the power of buyer and supplier according to how scarce and substitutable the supplier's offering is, and how dependent each party is on the other. Where supply is scarce and the buyer has few alternatives, the supplier holds the power. Buyers respond by building alternatives, changing their sourcing strategy or restructuring the relationship.",
+     "link": "Carriers are the suppliers here, and their capacity is scarce: a tender rejection rate of 12.85% means they can refuse most of the freight offered. Shippers relying on routing guides with fallback tenders are effectively paying for the right to be served later, which is why the 9.3% and 17.6% premiums matter. The gap of roughly $0.70 per mile between contract and spot shows that a shipper's contract price no longer reflects what the market will charge, so power has moved to carriers. Van de Kamp's advice to lock in capacity early is a way of buying back some power before the market tightens further.",
+     "critique": "Cox's framework treats power as a fairly stable position, but in freight it is driven largely by short capacity cycles, so a shipper's position can change within weeks. The article also shows that a shipper's own timing, with retailers holding orders to the last minute, weakens its bargaining position, which the model does not capture well.",
+     "practice": "A purchasing manager should segment carrier spend by lane and criticality, and renegotiate contracts first on the lanes where the gap to spot is widest. Where a lane is structurally tight, the manager should secure committed capacity, possibly at a fixed premium, rather than rely on the routing guide. Contract reset triggers should also be reviewed so that rates move closer to market levels."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chains are vulnerable to disruption that spreads through interdependent nodes, and that resilience depends on identifying risks, reducing vulnerability and building the capacity to recover. Lean designs with little slack tend to amplify disruption. Resilience is built through redundancy, visibility and flexibility across the network.",
+     "link": "A capacity bottleneck in Southern California, where LA rejections are 10.9% against a 12-month average of 7.9%, spreads to the wider network because Ontario handles an estimated 2.5% to 3% of national van volume. Late holiday orders pushing the LA port bookings index to 406 show how timing risk compounds capacity risk. The routing guide cascade, with costs rising as freight moves down to later carriers, is a live example of a failed first option pushing cost and delay along the chain. The article's advice to monitor routing guide performance closely is a form of visibility, which is one of the resilience measures.",
+     "critique": "Resilience is costed as redundancy, and redundancy is expensive in a market where shippers have been optimising for the lowest rate. The article shows the price of having been lean, but it does not indicate how much reserve capacity a shipper would have needed, so the trade-off remains unresolved.",
+     "practice": "A supply chain manager should map the lanes and hubs that concentrate volume and identify where a tender failure would delay goods. A resilience plan should include secondary carriers, intermodal fallbacks and earlier booking for the peak. The manager should track tender acceptance and routing guide performance weekly and set triggers for activating alternatives, comparing any resilience spend with the surcharges shown in the article."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on others for critical resources, and whoever controls a scarce, important and hard-to-substitute resource gains power over those who need it. Organisations manage dependence by diversifying sources, building alternatives or forming ties that reduce uncertainty. Power is therefore relational and varies with the scarcity of what is controlled.",
+     "link": "The article shows carriers controlling a scarce resource, road capacity, which every shipper moving freight by road needs. Tender rejections of 12.85%, and first-tender acceptance falling to 88.9 from about 93, show carriers choosing which freight to take, which is where their power lies. Shippers' responses, such as moving volume to intermodal and locking in capacity early, are attempts to reduce dependence by diversifying sources. The article notes that volume is flat while rejections rise, so the power shift comes from a change in scarcity rather than in demand, which is what the theory would predict.",
+     "critique": "Resource dependence explains power through scarcity but says less about the rules and norms that govern how power is used, and it can understate the ability of shippers to limit carrier power through contract design. Here the dependence is a cyclical shortage rather than a structural one, so the theory describes the current position better than it predicts how long that position will last.",
+     "practice": "A manager in this position should first identify which carriers and lanes are critical and how easily they could be replaced. They should then reduce dependence by widening the carrier base, adding intermodal options and securing capacity commitments, rather than relying on one routing guide. Where dependence cannot be removed, the manager should negotiate contract terms that share the cost of scarcity between shipper and carrier."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A consumer goods company imports holiday stock through Los Angeles and distributes it from a warehouse in Ontario, California. Its truckload contract rate is $2.86 per mile, but spot rates have reached $3.56 and first-tender acceptance on its routing guide has fallen. Its logistics director must protect the holiday peak while controlling cost and keeping carrier relationships in good order.",
+    "question": "Advise the logistics director on how the company should respond to the freight market over the next six weeks. Critically evaluate the options of holding the current contract, moving volume to intermodal and renegotiating with carriers.",
+    "evidence": [
+     "Spot rates of $3.56 per mile, up more than 50% from $2.32 a year earlier, with tender rejections at 12.85%, roughly double the year-ago level",
+     "Ontario van rejections at 10.82% against 4.34% a year ago, and LA rejections at 10.9% against a 12-month average of 7.9%",
+     "Second-tender freight costs 9.3% more and third-tender-or-beyond freight costs 17.6% more, with surcharges above 35% at their July peak",
+     "Intermodal saves about 40% against van on the LA-to-Chicago and Ontario-to-Joliet lanes, while van contract rates sit about $0.70 below spot and the contract reset differential is 13%"
+    ],
+    "plan": [
+     "Diagnose the cause: use the article's data to show that the squeeze is capacity-led, since accepted volume is flat while rejections have roughly doubled, so waiting for demand to ease is not a sound plan (Pfeffer and Salancik on dependence).",
+     "Assess exposure: estimate how much of the company's freight passes through the Ontario and LA nodes and how far down the routing guide it is likely to fall, using the 9.3% and 17.6% premiums to size the cost of cascading.",
+     "Evaluate modal options: apply the cost-service trade-off to compare van, intermodal and a mix of the two, noting that the 40% saving holds on specific lanes and that transit time and reliability must be tested before switching.",
+     "Evaluate the contract position: apply Cox's power analysis to show that the $2.86 contract is below spot and that carriers hold the power, then weigh renegotiation and early committed capacity against the cost.",
+     "Assess the wider risk: apply Christopher and Peck's resilience framework to identify redundancy, visibility and timing risks across the holiday peak.",
+     "Recommend: secure committed capacity on critical lanes, move suitable volume to rail, widen the carrier base and monitor tender acceptance weekly, accepting a cost premium only where service is essential."
+    ],
+    "pitfalls": [
+     "Describing the spot-rate rise as a demand surge. The article is explicit that accepted volume is flat and that the squeeze is capacity-led, and a demand-based answer would miss the central point.",
+     "Presenting the 40% intermodal saving as a general figure. It applies to specific western lanes, and the article gives no transit-time or reliability data, so a full answer must test service as well as cost."
+    ]
+   },
+   "alsoConsider": [
+    "Porter's five forces (bargaining power of suppliers)",
+    "Williamson's transaction cost economics (make-or-buy)",
+    "Kraljic's purchasing portfolio matrix",
+    "Total cost of ownership"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that the cost-service trade-off is a sufficient basis for choosing between road and rail freight when road capacity is scarce, drawing on evidence from a recent freight market squeeze.",
+    "outline": [
+     "Define modal choice and the cost-service trade-off, and explain how scarcity in one mode changes its relative price and service level",
+     "Use the evidence on intermodal savings, rail volumes and railcar capacity to show how shippers respond, and note the limits of the data on service",
+     "Critically evaluate by arguing that total logistics cost, transit time, reliability and the road legs at either end must all be included before a switch is justified"
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "431dcdb62dc8",
+   "title": "Q3 2026 Freight Earnings: Rates, Capacity and 2027 Bid Outlook",
+   "url": "https://www.freightwaves.com/news/q3-2026-freight-earnings-rates-capacity-and-2027-bid-outlook",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-16T19:00:00Z",
+   "addedAt": "2026-11-17T06:28:16Z",
+   "basis": "full_text",
+   "takeaway": "Q3 2026 freight earnings show a supply-driven rate recovery in which carriers that could reprice quickly, mainly those with one-way truckload networks, gained most, while dedicated and contract-bound fleets were squeezed by fuel, wage and insurance costs.",
+   "summary": "The article reviews Q3 2026 earnings from 66 of the 71 companies on SONAR's core roster, plus supplemental firms across truckload, LTL, rail, ocean and brokerage. It argues the market is supply-driven: tender rejections averaged 14.5% against 5.3% a year earlier, while tender volume rose only 8.5%, and several carriers shrank their fleets by 4% to 12%. Diesel at $5.56 per gallon (up 48%) was the main cost pressure, and results split by pricing exposure, with one-way truckload fleets such as Knight-Swift widening margins while dedicated and small contract fleets were squeezed. Contract rates are still rising into the 2027 bid season, although ocean carriers expect container capacity growth to outpace demand in 2027.",
+   "keyPoints": [
+    "Tender rejections (STRI) averaged 14.5% in Q3 2026 against 5.3% a year earlier, while tender volume (STVI) rose 8.5%; the author reads this as capacity leaving the market rather than demand growing.",
+    "Knight-Swift, Schneider, Covenant and TFI International reportedly cut their fleets by 4% to 12% and pushed rates up.",
+    "Knight-Swift, with about three-quarters of truckload revenue in one-way freight, raised revenue per mile 12.2% against a 3.8% rise in cost per mile, improving its adjusted truckload operating ratio by 700 basis points to 89.2%.",
+    "J.B. Hunt's dedicated segment saw operating income fall 22%, and Pamt posted a 109.1% truckload operating ratio, its 12th straight truckload loss.",
+    "LTL tonnage turned positive after two years of decline, with ArcBest up about 15%, Saia about 10% and XPO about 6.5%, and shipments are getting heavier."
+   ],
+   "modules": [
+    {
+     "id": "strategy",
+     "relevance": 78,
+     "reading": "In strategy terms this is a story about industry structure and competitive position: a supply shock has changed who holds bargaining power and which business models earn returns. Carriers with one-way networks could reprice quickly and widen margins, while those tied to dedicated contracts and annual index escalators could not keep pace with costs. A strategy student should note that advantage in this market came from pricing flexibility and exposure to spot demand, not from cost leadership alone, and that the advantage may fade when capacity rebuilds."
+    },
+    {
+     "id": "logops",
+     "relevance": 62,
+     "reading": "Logistics operations students will recognise the mode and network issues here: truckload, LTL, intermodal rail and ocean are being compared on cost and availability as tight truck capacity changes which freight moves where. The article reports LTL tonnage recovering with heavier shipments, record intermodal volume at CSX and rising intermodal revenue at Union Pacific, and rail margins shaped by fuel cost. This is a live example of modal choice being driven by capacity scarcity as much as by cost and service."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 55,
+     "reading": "For a purchasing student the article describes the shipper side of a buyer-supplier relationship in a tight market. Tender rejections of 14.5% and rising contract rates mean shippers face weaker bargaining power and less choice of carrier, and they are being asked for double-digit increases at the next bid round. The article is therefore useful evidence on how supply market conditions shape the power balance in carrier contracts and on the risks of relying on a single carrier type."
+    },
+    {
+     "id": "pwo",
+     "relevance": 36,
+     "reading": "From a People, Work and Organisations perspective the article contains a secondary but genuine point about organisational adaptation to external change. External triggers such as fuel prices, tight capacity and forthcoming EPA 2027 rules are pushing carriers to change their fleets and pricing practice, and the speed of response appears to depend on how the firm is structured and how its contracts are set up. The article gives no data on people or behaviour, so the connection is through structure and change rather than individual or team behaviour."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "strategy",
+     "concept": "Porter's five forces",
+     "unit": "",
+     "theory": "Porter's five forces model holds that industry profitability depends on five competitive forces: the threat of new entrants, the threat of substitute products or services, the bargaining power of buyers, the bargaining power of suppliers, and the intensity of rivalry among existing competitors. Strong forces reduce the profits an industry can earn, and a firm's strategy should position it to defend against them or to shape them in its favour.",
+     "link": "The article's central finding is that capacity has left the truckload market, with rejections near 14.5% and carriers cutting fleets by 4% to 12%, which lowers rivalry and gives carriers pricing power over shippers. The rising cost of diesel, wages and insurance strengthens supplier pressure on carriers, which is why dedicated fleets with fixed escalators were squeezed. Substitutes are visible in the shift towards LTL and intermodal rail, where volumes recovered while truckload capacity was tight. New entry is constrained because truck orders trail deliveries ahead of the EPA 2027 rules, so the supply rebuild is slow.",
+     "critique": "Five forces is a static snapshot of structure, whereas this market moved through a sharp supply shock with an external regulatory driver, so the forces change quickly and the model does not say how long a position will last. It also treats rivalry as a structural feature, yet here much of the rivalry changed because weaker operators exited, which points to a resource-based explanation of who survives.",
+     "practice": "A carrier manager should map each force using the article's data, such as STRI, the NTI index, diesel prices and the intermodal share, and set pricing and contract terms to reflect the position in each force. The manager should also track substitution threats from intermodal and LTL and plan for the 2027 capacity rebuild, which would weaken the pricing position."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Cox's power in buyer-supplier relationships",
+     "unit": "",
+     "theory": "Cox argues that power in a buyer-supplier relationship depends on relative dependence: the party that has fewer alternatives and more to lose from the relationship is weaker. Purchasing strategy should therefore match the supply market, using tactics appropriate to whether the buyer or the supplier holds the power in that market.",
+     "link": "The article shows the supply market moving against shippers: rejections of 14.5% mean carriers can refuse contracted loads, and van contract rates have climbed to $2.88 per mile, a 12-month high. Knight-Swift expects low-to-mid double-digit bid increases and Werner expects double-digit gains on its one-way business, which shows carriers using their stronger position at the bid table. Shippers that rely on dedicated or annually escalated contracts are the ones exposed to these increases.",
+     "critique": "Cox's framework usually advises buyers to diversify their supply base to reduce dependence, yet the article shows capacity scarcity across truckload, LTL, rail and ocean at the same time, so the shipper's alternatives are limited across modes and not only within one supplier group. The framework also treats relative power as relatively stable, whereas here the balance shifts with the capacity cycle.",
+     "practice": "A shipper should review its carrier mix and use multi-year agreements with index-linked clauses that share fuel and wage risk fairly. It should also qualify more than one carrier type, including intermodal and LTL options, and start bid preparation early, watching the STRI and VCRPM1 indicators the article recommends."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Modal choice and the cost-service trade-off",
+     "unit": "",
+     "theory": "Modal choice is the decision about which transport mode to use for a flow, weighing transport cost against service factors such as transit time, reliability and flexibility. Shippers shift between modes as relative cost and service levels change, and logistics managers should evaluate total logistics cost rather than freight rates alone.",
+     "link": "The article reports LTL tonnage turning positive and shipments becoming heavier, which the author reads as LTL winning freight that tight truckload capacity no longer moves cheaply. Intermodal rail posted record volume at CSX and a 27% intermodal revenue gain at Union Pacific, which suggests some long-haul freight is moving by rail. Ocean and air movements also changed, with Expeditors citing AI-related air freight from hyperscalers, showing that mode decisions responded to demand in specific sectors as well as to general capacity.",
+     "critique": "The article gives no data on service levels, transit times or reliability, so the cost-service trade-off cannot be tested directly from the text. The model also assumes shippers choose modes freely, while here capacity scarcity may force shifts regardless of their preferences, and rail's own margins were hit by fuel costs.",
+     "practice": "A logistics manager should model total cost, including the rate increases now being negotiated, alongside service risks for each mode, and identify lanes where intermodal could replace truckload. The manager should also secure LTL capacity commitments before volume competition tightens further."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Burns and Stalker's mechanistic and organic structures",
+     "unit": "Unit 6 Designing effective organisations",
+     "theory": "Burns and Stalker distinguished mechanistic structures, with tight hierarchy, formal rules, defined roles and centralised decisions, from organic structures, which are more flexible, network-based and quick to adapt, with decisions made close to the changing market. They argued that mechanistic structures suit stable environments and organic structures suit unstable ones, which is a contingency view of organisation design.",
+     "link": "The article shows carriers responding very differently to the same external shock: those with one-way networks repriced quickly, while fleets tied to dedicated contracts and annual index escalators could not keep up with fuel, wage and insurance costs. The fixed escalators function as formal rules that lock pricing into fixed cycles, which resembles a mechanistic arrangement. Pamt's twelve straight truckload losses and the 22% fall in J.B. Hunt's dedicated operating income suggest the cost of slow adjustment.",
+     "critique": "Burns and Stalker describe a broad dichotomy, and most firms are a mix of the two forms, so the labels are hard to apply precisely. The article gives no information on internal structures or decision rights, so the link is an inference from pricing practice, and contract design may be a commercial choice rather than a structural one. A contingency view such as Lawrence and Lorsch would stress matching structure to environmental uncertainty and integration needs, which the article does not test.",
+     "practice": "A manager of a dedicated carrier should examine who has authority to set prices and escalator terms and consider delegating pricing decisions to teams closer to the market. The manager could also introduce shorter contract review cycles and fuel-linked clauses so the firm can adapt faster while keeping the control and reliability that customers value."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized carrier earns most of its revenue from dedicated contracts with annual index escalators, while a rival runs mainly one-way truckload networks. Tender rejections have roughly tripled year on year, the rival improved its operating ratio by 700 basis points, and the carrier's dedicated operating income has fallen while diesel and wage costs rise. The carrier's next bid round opens in early 2027, and it must decide how to respond.",
+    "question": "Advise the board of the dedicated carrier on how to respond to the 2027 bid season, using Porter's five forces and Burns and Stalker's typology of structures. Critically evaluate whether the firm should restructure its business model or simply reprice its contracts.",
+    "evidence": [
+     "STRI averaged 14.5% in Q3 2026 against 5.3% a year earlier, while STVI rose only 8.5%, indicating capacity leaving the market.",
+     "Knight-Swift lifted revenue per mile 12.2% against a 3.8% rise in cost per mile, improving its adjusted truckload operating ratio by 700 basis points to 89.2%.",
+     "J.B. Hunt's dedicated segment saw operating income fall 22%, while Pamt posted a 109.1% truckload operating ratio.",
+     "Van contract rates reached $2.88 per mile, a 12-month high, and Knight-Swift expects low-to-mid double-digit increases in its 2027 bids."
+    ],
+    "plan": [
+     "Diagnose the market with Porter's five forces: capacity exits have weakened rivalry and buyer power, while diesel, wage and insurance costs have strengthened supplier pressure, using the STRI, NTI and fleet-cut evidence.",
+     "Assess the carrier's own position against the rival's, showing that the dedicated segment's exposure to fixed escalators is what drove the margin gap rather than general market conditions.",
+     "Apply Burns and Stalker to diagnose the structural cause: the carrier's pricing authority and contract cycle behave like a mechanistic system that cannot respond to a fast-changing environment.",
+     "Evaluate the options (renegotiating escalators and fuel clauses, shifting the mix towards more one-way or spot exposure, or redesigning decision rights over pricing) against the risk of losing contracted customers.",
+     "Recommend a phased plan timed to the bid calendar, with explicit triggers, such as a fall in rejections below 12%, that would change the approach, and note that the 2027 capacity rebuild could erode any advantage gained."
+    ],
+    "pitfalls": [
+     "Treating the Q3 results as evidence of demand growth; the article describes a supply-driven market, so the recommendation should reflect capacity tightness rather than rising freight volumes.",
+     "Attributing the rival's margin gain to superior organisational design without evidence; the article shows that pricing exposure and cost control drove the gain, and the structural link should be argued as an inference."
+    ]
+   },
+   "alsoConsider": [
+    "Kraljic's purchasing portfolio matrix",
+    "Resource dependence theory (Pfeffer and Salancik)",
+    "Lawrence and Lorsch's contingency theory",
+    "Teece's dynamic capabilities"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether a supply-driven freight recovery, in which capacity exits the market rather than demand growing, gives carriers a sustainable competitive advantage. Draw on Porter's five forces and the resource-based view in your answer.",
+    "outline": [
+     "Explain how capacity exit changes rivalry, buyer power and supplier power in the freight market, using Porter's five forces and the article's tender and fleet data.",
+     "Assess whether pricing flexibility is a durable resource under VRIO or a cyclical advantage that fades once capacity rebuilds in 2027.",
+     "Conclude by evaluating the implications for dedicated and contract business models, and the limits of the framework given the regulatory and fuel drivers."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "45913e77f899",
+   "title": "Are Critical Industrial Metals in for a Decade-Long Price Rise?",
+   "url": "https://www.supplychainbrain.com/scb-feature/article/16425608/are-critical-industrial-metals-in-for-a-decadelong-price-rise",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-16T05:00:00Z",
+   "addedAt": "2026-11-17T06:28:16Z",
+   "basis": "full_text",
+   "takeaway": "Rising and volatile metal costs are a supply-risk and sourcing problem for buyers, so the response lies in supply structure, contracts and resilience rather than in waiting for prices to fall.",
+   "summary": "Coface, a trade credit insurer, projects that copper and nickel prices could double within a decade, as electrification, clean energy and AI data centres push demand well beyond supply. Supply is held back by higher trade barriers, long lead times for new mines, uncertain output from Chile, Peru and the Democratic Republic of the Congo, and China's dominance of refining. US tariffs on semi-finished copper have led to a stockpile of about one million tonnes, and the possibility of tariffs on refined copper is expected to keep that stockpile high. The article revisits the 1980 Simon-Ehrlich bet, which Simon won by predicting that prices would not rise, and asks whether today's pessimism is justified. Coface's economist argues that even an AI investment slump might not lower metal prices, and advises North American manufacturers to plan for higher long-term metal costs rather than wait for a trade deal.",
+   "keyPoints": [
+    "Coface projects that copper and nickel prices could double over the next decade, with demand far outpacing supply, driven largely by electrification and clean energy.",
+    "Supply is constrained by sharply higher trade barriers, long timelines for developing new mines, and China's control of around 70% of global refining capacity for 19 of 20 key minerals.",
+    "Copper supply could fall short by as much as 17%, a deficit of 1.5 to 6.5 million tonnes by 2035 that the report puts at 11% of projected demand.",
+    "Nickel faces what the report calls the largest imbalance of any metal studied, with a possible supply deficit of 35%, driven by battery manufacturing.",
+    "Aluminium could face a shortfall of 5 to 15 million tonnes, linked to limits on low-cost electricity and smelting capacity."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "In supply chain terms, this is a story about supply risk and resilience. Refining concentrated in China, mining concentrated in a few countries, long lead times for new capacity and trade barriers all threaten the continuity of supply for manufacturers downstream. The copper stockpile shows firms and governments buffering against disruption, which also affects inventory and demand signals along the chain. A student of SCM should care because the constraints described are structural and could last for decades, which shapes how supply chains need to be designed."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 80,
+     "reading": "The article describes buyers in a market where a few suppliers control key stages: China in refining, Indonesia in nickel and a small group of countries in copper mining. For purchasing, this raises questions about the sourcing portfolio, supplier concentration and whether to contract, stockpile or dual-source. Coface's advice to plan for higher costs rather than wait for a trade deal is itself a purchasing judgement about how to manage cost risk over the long term."
+    },
+    {
+     "id": "strategy",
+     "relevance": 55,
+     "reading": "Strategically, the article concerns industry structure. Long mine development times and concentrated reserves create high barriers to entry, and suppliers that control scarce inputs hold bargaining power. Government decisions, such as US tariffs and Indonesia's approach to nickel supply, change the external environment quickly, so political and economic factors dominate the analysis. Strategists would consider how firms position themselves against these forces and whether to move upstream."
+    },
+    {
+     "id": "finance",
+     "relevance": 40,
+     "reading": "Mine development is a decision under uncertainty, with long lead times and volatile prices. Real options theory suggests that investors may prefer to wait, stage their spending or hold exploration rights rather than commit capital at once, which helps explain why many exploration projects never become mines. Commodity price exposure also affects the cost of capital and the value of long-term contracts for both miners and buyers."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chains are vulnerable to disruption from external shocks and internal weaknesses, and that resilience comes from visibility, redundancy, flexibility and collaboration, not from cost efficiency alone. Risk should be identified across the whole chain, including lower-tier suppliers, and assessed by its likelihood and impact. Resilience means recovering quickly and sustaining performance when conditions change.",
+     "link": "The article describes a risk that is structural rather than temporary: refining capacity for most key minerals is concentrated in China, copper mining relies on a few countries, and Indonesia dominates nickel. Coface's point that new mines take 15 to 20 years shows that redundancy cannot be built quickly by adding new supply. The stockpile of around one million tonnes of copper is a visible resilience response, with firms buffering risk through inventory. The forecasts themselves are projections, which matters for how far a firm can rely on them when planning resilience.",
+     "critique": "Resilience built on inventory is costly and can distort demand signals, as the US copper stockpile suggests. Christopher and Peck's framework does not say how much buffer is worth holding when tariffs rather than physical shortage drive the build-up, and the remedies it proposes, such as added redundancy in mining, may not be available in the planning window.",
+     "practice": "A manufacturer applying this theory would map its supply base down to lower tiers, identify metals where a single country controls supply, and maintain a risk register with defined triggers for action. It would combine targeted safety stock for bottleneck metals with contracts, supplier diversification and design changes that reduce metal intensity, and it would monitor tariff and export policy as early warnings."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Kraljic purchasing portfolio matrix (Kraljic)",
+     "unit": "",
+     "theory": "Kraljic's matrix classifies purchases by profit impact and supply risk, producing four categories: strategic, leverage, bottleneck and non-critical items. Strategic items, which are high in both impact and risk, call for long-term partnerships and supply security. Bottleneck items, which are high in risk but lower in value, call for securing supply even at a higher price, while leverage items allow competitive tendering.",
+     "link": "Copper and nickel are used in grid equipment, electrical systems and batteries, so for many manufacturers they combine high profit impact with high supply risk, placing them towards the strategic or bottleneck quadrants. The article's warnings of a possible 35% nickel shortfall and of concentrated refining in China point to high supply risk. Coface's advice to plan for higher metal costs suggests moving these items away from spot buying and towards longer-term arrangements, rather than relying on a trade deal to restore cheaper supply.",
+     "critique": "The matrix is a static snapshot and does not show how quickly supply risk can shift, as the tariff episode shows. It also does not explain how an item should move between categories over time. Metals are traded on exchanges, so the buyer's control over price may be overstated by a model that assumes negotiation leverage.",
+     "practice": "A purchasing director would classify each metal-bearing component on the matrix, assess supply risk by country and by stage of processing, and then agree multi-year volume contracts or indexed pricing for strategic items. For bottleneck items, the director would qualify alternative suppliers in other regions and set a review cycle that tracks tariff decisions and mine output."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Power in buyer-supplier relationships (Cox)",
+     "unit": "",
+     "theory": "Cox argues that the balance of power between buyer and supplier depends on the relative scarcity of what each controls. A buyer with many alternative suppliers and low dependence has power, while a supplier of a scarce, concentrated and critical input holds power over the buyer. Managing power imbalances means reducing dependence, not simply pressing for lower prices.",
+     "link": "China's refining share and Indonesia's control of nickel production give these producers strong supplier power, and the article notes that Indonesia could cap supply to lift prices. North American buyers cannot easily switch, given the 15 to 20 year lead time for new mines and the small share of exploration projects that become working mines, so their bargaining position is weak. The copper stockpile can be read as an attempt to restore leverage by holding a buffer of supply.",
+     "critique": "Cox's model focuses on relationships between firms, whereas the dominant power holders here are states, through tariffs, export policy and production caps. The relevant power is therefore political as well as commercial. Power can also shift as new producers enter or as demand changes, which the model treats only in outline.",
+     "practice": "A buyer applying this would map its dependence on each supplier, measure how long it would take to qualify alternatives, and reduce dependence where possible through dual sourcing or partnerships. Where dependence cannot be reduced, it should negotiate price-review mechanisms and supply guarantees and avoid building its position on a single national source."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Porter's five forces (Porter)",
+     "unit": "",
+     "theory": "Porter's five forces framework assesses industry attractiveness through rivalry among existing firms, the threat of new entrants, the threat of substitutes, and the bargaining power of buyers and suppliers. High entry barriers and strong supplier power tend to reduce profitability for firms positioned between suppliers and customers. Analysts use the framework to decide where a firm should position itself or whether to integrate.",
+     "link": "Mine development taking 15 to 20 years, with fewer than 1% of exploration projects becoming mines, creates very high barriers to entry, so new supply cannot enter quickly to ease prices. Concentration of supply in a few countries strengthens the bargaining power of suppliers. The article does not discuss substitutes, so the analysis is incomplete on that force. Government decisions such as tariffs also affect the forces directly.",
+     "critique": "The five forces model is a structural, relatively static tool that treats government largely as outside the analysis. Here tariffs and state supply management change the forces suddenly, so PESTEL analysis and scenario planning are needed to complement it.",
+     "practice": "A firm in the value chain would score each force, identify where supplier power is strongest, and assess options such as long-term offtake agreements, backward integration or diversification of sources. It would also build scenarios for tariff and export policy outcomes and test its strategy against each."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A North American manufacturer of electric motors and grid equipment depends on copper and nickel-based components from a small number of overseas suppliers. Analysts forecast that metal prices could double within a decade, while US tariffs have already raised the cost of semi-finished copper and new mines take 15 to 20 years to open. The board is divided between waiting for a trade deal to bring prices down and committing now to changes in its sourcing and inventory.",
+    "question": "Advise the board on how the company should manage the risk of rising and volatile copper and nickel costs over the next decade. Critically evaluate whether it should build a stockpile, change its supplier mix or wait for the tariff position to be resolved.",
+    "evidence": [
+     "Coface projects a copper deficit of 1.5 to 6.5 million tonnes by 2035, which the report puts at 11% of projected demand.",
+     "China holds around 70% of global refining capacity for 19 of 20 key minerals.",
+     "Fewer than 1% of exploration projects become working mines, and new mines take 15 to 20 years to come into operation.",
+     "US copper stockpiling of roughly one million metric tonnes reflects tariff uncertainty rather than physical shortage."
+    ],
+    "plan": [
+     "Define the risk, separating price risk from supply-availability risk, and use the article's evidence to show which is structural (Christopher and Peck on supply risk and resilience).",
+     "Classify the company's metal purchases with the Kraljic matrix to identify which are strategic and which are bottleneck items.",
+     "Assess supplier power using Cox's framework, showing the company's dependence on China, Indonesia and the copper-mining countries relative to its own bargaining position.",
+     "Evaluate the options (stockpiling, multi-year contracts or equity in supply, dual sourcing and nearshoring) against cost and risk, using transaction cost economics (Williamson) where vertical integration is considered.",
+     "Use the 15 to 20 year lead time to show that new supply will not ease the risk within the planning horizon, so decisions must rest on a multi-year cost assumption rather than on a trade deal.",
+     "Recommend a phased plan: targeted inventory of bottleneck metals, long-term or indexed contracts for strategic items, qualified alternative suppliers, and a review of tariff scenarios, and state the cost of waiting."
+    ],
+    "pitfalls": [
+     "Treating the 1980 Simon-Ehrlich bet as evidence that prices will fall; the article uses it as an analogy, and the current pressures are argued to be structural.",
+     "Presenting Coface's forecasts as certain; they are projections, and a strong answer states its assumptions and tests the recommendation against more than one scenario."
+    ]
+   },
+   "alsoConsider": [
+    "Total cost of ownership",
+    "Real options theory",
+    "The bullwhip effect (Lee, Padmanabhan and Whang)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that manufacturers can manage long-term raw material cost and supply risk through sourcing strategy and supplier relationships alone, using recent evidence on industrial metals.",
+    "outline": [
+     "Define supply risk and price risk, and show why structural constraints such as 15 to 20 year mine lead times and concentrated refining limit what sourcing responses can achieve.",
+     "Apply the Kraljic matrix and Cox's model to show how a buyer can classify metals and assess its power, and identify where these tools fall short when governments drive the market.",
+     "Evaluate the options (stockpiling, long-term contracts, dual sourcing, nearshoring) against cost and risk, and conclude with a recommendation that does not depend on a trade deal."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "401ac1bdabc0",
+   "title": "New business models could help deploy clean energy technologies at scale",
+   "url": "https://blogs.lse.ac.uk/businessreview/2026/11/16/new-business-models-could-help-deploy-clean-energy-technologies-at-scale/",
+   "source": "LSE Business Review",
+   "publishedAt": "2026-11-16T10:37:19Z",
+   "addedAt": "2026-11-17T06:28:16Z",
+   "basis": "full_text",
+   "takeaway": "Tying clean-energy subsidies to household ownership may steer the market away from energy-as-a-service, whose strongest case may lie in the flexibility it could give the electricity system rather than in widening access.",
+   "summary": "The article, written during COP31, examines energy-as-a-service, in which customers pay for an energy service such as heat or charging without buying the equipment, while the provider installs, owns and maintains it. The largest deals so far involve business customers and are attracting substantial finance, whereas British household offers are mostly finance agreements in which the household owns the heat pump. Evidence from US rooftop solar suggests third-party ownership has reached younger and lower-income households, although rebate design can leave the subsidy with providers rather than buyers. Subsidies paid to owners can shape which business models are tried and improved, and the author argues that the value of service models may lie in the flexibility providers could offer a grid that must expand considerably under the 35 by 35 electrification pledge. She is explicit that evidence on flexibility, subsidy design and contract terms is still thin.",
+   "keyPoints": [
+    "Energy-as-a-service means paying for an energy service with no upfront capital outlay, with the provider owning and maintaining the equipment, unlike the older ESCO model in which the customer usually ends up owning it.",
+    "The largest EaaS deals so far involve businesses, including a World Bank guarantee framework of 495 million dollars for CrossBoundary Energy in Africa and a securitisation backed by EaaS contracts closed in December 2025.",
+    "Residential contracts are harder to design because occupants' behaviour makes savings hard to attribute, and fixed contract costs and credit risk weigh more heavily on a single household than on a firm.",
+    "Subsidies paid to owners may favour ownership: the UK Boiler Upgrade Scheme requires the property owner to own the heat pump, and India's PM Surya Ghar pays its subsidy to households that own their systems.",
+    "In California, the author's cited estimates suggest about 78 per cent of the rebate reached households that bought systems and about 153 per cent reached third-party-owned households, whose price fell by more than the rebate."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 70,
+     "reading": "In the language of green logistics and sustainability, this article is about decarbonising energy demand by electrifying heating and transport, and about how that transition should be financed. The subsidy debate is framed as correcting an unpriced emissions externality, which is the core logic behind carbon pricing and green policy design. Students of this module should care because electric vans, charging hubs and last-mile fleets face the same ownership choice, and the flexibility argument links clean energy to grid resilience. The article is about energy rather than freight, so the link to logistics is indirect and should be drawn with care."
+    },
+    {
+     "id": "finance",
+     "relevance": 55,
+     "reading": "For financial decision making, the article is about how clean technology is financed and who bears the capital cost and risk. EaaS providers raise money against long contracts, the article cites a guarantee framework and a securitisation, and it suggests public guarantees could lower providers' cost of capital and credit risk. The difficulty of attributing savings in household contracts is essentially an information and incentive problem between the party paying for equipment and the party using it. Students should care because the question is how owner, user and funder are aligned across a long contract."
+    },
+    {
+     "id": "marketing",
+     "relevance": 45,
+     "reading": "For strategic marketing, the article describes a shift from selling a product to selling an outcome, since the customer buys heat delivered rather than a heat pump. It reports willingness to pay for leasing offers that protect homeowners against technical risk, which is a value proposition and pricing insight. It also shows that household customers are the hard part, because the contracts are small, long and difficult to enforce, so trust and relationship management carry much of the value. Students should care because the product-to-service shift is a positioning, pricing and customer-loyalty challenge."
+    },
+    {
+     "id": "pwo",
+     "relevance": 35,
+     "reading": "For people, work and organisations, the shift from owning equipment to selling a service would change how installers, utilities and providers organise their work, which makes it an organisational change question. The article shows policy moves, including the US change to tax credits, the UK deferral and the Indian guidelines, acting as external triggers that alter which business model is attractive. Staff in firms whose roles centre on selling equipment may resist a model that changes their roles and revenue, and households are individuals whose attitudes to ownership shape what contracts work. The fit is secondary because the article is mainly about economics and policy design."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "Externalities and carbon pricing (Pigou)",
+     "unit": "",
+     "theory": "An externality is a cost or benefit falling on people outside a transaction, such as the emissions from burning fossil fuel, so the market price does not reflect the full social cost and too much of the harmful activity occurs. Pigouvian taxes and carbon pricing aim to internalise the externality, while subsidies can encourage low-carbon alternatives where the price signal is weak or politically difficult. Subsidies are generally a second-best instrument because they do not correct the externality at its source.",
+     "link": "The author says subsidies are justified where they correct a market failure such as an unpriced emissions externality, which is the rationale for supporting heat pumps and electric vehicles. The electrification target of 35 per cent of final energy consumption by 2035, from around 23 per cent today, depends on households and firms adopting equipment that costs more upfront, so public money is standing in for the missing price signal. The article then shows that the form of subsidy shapes which business models emerge, so the instrument also shapes market structure. The flexibility argument adds a system benefit that the emissions price alone would not capture, since providers controlling batteries and vehicles could shift demand away from peaks.",
+     "critique": "Pigouvian logic assumes the externality can be measured and priced, but the article notes that the value of flexibility has not been measured, and subsidies tied to ownership may distort choices away from service models. Subsidy design is therefore an imperfect substitute for carbon pricing rather than a neutral correction.",
+     "practice": "A policymaker applying this should size the subsidy to the unpriced externality it corrects, prefer ownership-neutral or outcome-based payments, and measure emissions and grid flexibility so the subsidy can be adjusted over time. A fleet manager could apply the same logic when deciding between buying electric vans and paying for a service measured in delivered energy or mileage."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Agency theory (Jensen and Meckling)",
+     "unit": "",
+     "theory": "Agency theory treats the relationship between a principal and an agent acting on the principal's behalf as one in which their interests may diverge and information is unequal, so the agent may act opportunistically. Agency costs arise from monitoring, bonding and the loss that remains when interests diverge, and contracts are designed to align incentives and make outcomes observable. It is used to explain debt covenants, managerial incentives and the allocation of risk in contracts.",
+     "link": "The household energy-as-a-service contract is an agency problem: the occupant controls how the heat pump is used, so savings are hard to attribute, and this is the monitoring difficulty that the article identifies. EaaS helps by charging for a service a meter records directly, such as heat delivered, so the provider's payment and the customer's outcome are linked. The government also acts as a principal paying for outcomes it cannot fully see, and the article warns that a subsidy paid to providers in a concentrated market could end up as profit, which is a rent-capture problem. Securitisation of EaaS contracts shows financiers relying on the contract's cash flows, which depends on the contract being enforceable.",
+     "critique": "Agency theory assumes self-interested opportunism and focuses on formal contracts, so it underplays trust, reputation and the fact that a provider's commercial interest in keeping a customer satisfied may align behaviour better than any contract. It also does not directly address credit risk, which the article identifies as a separate problem for household contracts.",
+     "practice": "A finance manager structuring an EaaS deal should tie payments to metered output, write in performance guarantees and monitoring rights, and consider clawback provisions if subsidy-funded service is not delivered. Where credit risk is high, a public guarantee or repayment through the utility bill can reduce the risk premium that providers must pay."
+    },
+    {
+     "moduleId": "marketing",
+     "concept": "Service-dominant logic (Vargo and Lusch)",
+     "unit": "",
+     "theory": "Service-dominant logic holds that exchange is based on service, meaning the application of knowledge and skills for the benefit of another party, and that goods are a means of delivering that service. Value is co-created with the customer in use rather than embedded in the product at the point of sale. The firm can make only value propositions, and the customer determines value-in-use.",
+     "link": "Energy-as-a-service is a clear shift of this kind: the customer pays for heat delivered or flexibility provided, not for a heat pump or an electric vehicle, and the provider keeps the equipment working. The choice experiment with homeowners in France, Germany and Switzerland found willingness to pay for leasing offers that protect against technical risk, which is a value-in-use benefit. The Octopus electric-vehicle offer bundles a lease with a smart-charging tariff under which Octopus schedules the charging, so the provider co-creates value by managing the asset. The article's point that household contracts are small and hard to enforce shows that trust and relationship management carry much of the value.",
+     "critique": "Service-dominant logic is a philosophy of value rather than a practical pricing or segmentation tool, so it does not tell a firm how to price a household contract or prove that the service works. Many households may still prefer ownership for control or resale, and the article's own evidence shows that many people still buy systems, so the shift may be slower than the logic suggests.",
+     "practice": "A marketer should price on outcomes, such as units of heat or comfort delivered, guarantee performance and make the service visible and measurable. Segmenting by income is worth doing, since third-party ownership was more common among the lowest-income US adopters, and this may show where the offer lands best."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Triggers for change and PESTLE analysis",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Organisational change is prompted by triggers, which can be external, such as changes in law, technology, markets or politics, or internal, such as new leadership or performance problems. PESTLE sorts external forces into political, economic, social, technological, legal and environmental factors. Identifying the trigger helps an organisation judge how urgent and how deep the change needs to be.",
+     "link": "The article describes several external triggers: the US Congress ending a 30 per cent credit for homeowners who buy solar while keeping the lease-based credit until 2027, the UK government deferring a decision on allowing heat pumps that the property owner does not own, and Indian guidelines for provider-led routes issued only in January 2025. Each is a political and legal trigger that changes which business model is financially attractive and so what installers and utilities must do. The industry survey in which 55 per cent of installers named third-party ownership as their most-used financing route shows that a trigger is already changing practice. The electrification target adds an environmental and economic pressure that affects the whole system.",
+     "critique": "Trigger analysis explains what prompts change but says little about how people inside firms respond, and the article suggests the policy environment is unstable, so firms may be adapting to rules that could reverse. Change models often assume a stable end state, which is unlikely while subsidy rules keep shifting.",
+     "practice": "A manager at an installer or utility should map each policy trigger and judge how likely it is to be reversed, separating reversible moves from commitments that are hard to undo. The move towards service models should be staged through pilot contracts, and the firm should plan how staff whose roles centre on selling equipment are supported through the transition."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A regional heat pump installer currently sells systems outright to homeowners, and some of its customers qualify for a government grant that goes only to owners. A new provider offers to install, own and maintain heat pumps for a monthly charge based on heat delivered, and the government is considering whether its grant should also cover such offers. The installer's board must decide whether to launch a service offer of its own.",
+    "question": "Advise the board of the installer on whether to move part of its heat pump business to an energy-as-a-service model, and on how the government's subsidy rules should shape that decision. Critically evaluate the trade-offs and make a recommendation.",
+    "evidence": [
+     "The UK Boiler Upgrade Scheme gives households in England and Wales 7,500 pounds towards replacing a fossil-fuel boiler with a heat pump, but requires the property owner to own the heat pump, and the government deferred a decision in November 2025 on allowing models in which the owner does not own it.",
+     "In a 2026 industry survey, 55 per cent of US installers said third-party ownership had become their most-used financing route.",
+     "The author cites estimates that about 78 per cent of California's rebate for rooftop solar reached households that bought their systems and about 153 per cent reached households whose systems were third-party owned.",
+     "A 108-home trial by Energy Systems Catapult found heat-as-a-service technically feasible but did not show it to be commercially viable."
+    ],
+    "plan": [
+     "Define energy-as-a-service and distinguish it from equipment sales and from the older ESCO model, showing what changes for the customer's upfront cost and the provider's ownership risk (business model theory).",
+     "Use PESTLE to identify the policy shifts as external triggers for change and assess how reversible each one is (Unit 8, Organisational change).",
+     "Apply agency theory to the monitoring and credit-risk problem in household contracts, and explain how metering, guarantees and repayment through the bill could reduce it (finance).",
+     "Use Porter's five forces to test whether a subsidy paid to providers would lead to profit rather than lower prices in a concentrated market (strategy).",
+     "Apply service-dominant logic to the value proposition and pricing, noting the willingness to pay for protection against technical risk (marketing).",
+     "Recommend a staged approach: pilot service offers with business and fleet customers, press for an ownership-neutral or outcome-based subsidy, and build measurement of flexibility before scaling to households."
+    ],
+    "pitfalls": [
+     "Presenting energy-as-a-service as proven to lower household costs or widen access; the article says the strongest case may lie in flexibility and that household evidence is thin, especially for heating.",
+     "Misreading the rebate shares as adoption rates; a share above 100 per cent means the price paid fell by more than the rebate, and the figures describe who received the subsidy value, not who adopted."
+    ]
+   },
+   "alsoConsider": [
+    "Transaction cost economics (Williamson)",
+    "Kotter's eight-step model of change",
+    "Diffusion of innovations (Rogers)",
+    "Porter's generic strategies"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether governments should subsidise the purchase of low-carbon equipment or pay for the carbon reductions and flexibility services that equipment delivers, drawing on the theory of externalities and market failure.",
+    "outline": [
+     "Explain the unpriced externality and why it justifies public intervention, using Pigouvian and carbon-pricing logic.",
+     "Assess how the form of subsidy, owner-linked, ownership-neutral or outcome-based, shapes which business models emerge, citing the UK, Indian and US examples.",
+     "Evaluate the limits of subsidies, including unmeasured flexibility benefits, profit capture in concentrated markets and distributional effects, and reach a justified recommendation."
+    ]
+   },
+   "readingMinutes": 6
+  },
+  {
+   "id": "048f055fdee1",
+   "title": "Macroeconomic effects of rare earth supply disruptions",
+   "url": "https://cepr.org/voxeu/columns/macroeconomic-effects-rare-earth-supply-disruptions",
+   "source": "VoxEU (CEPR)",
+   "publishedAt": "2026-11-14T00:00:00Z",
+   "addedAt": "2026-11-17T06:28:16Z",
+   "basis": "abstract",
+   "takeaway": "Small-value inputs can cause output losses far larger than their market value, so supply chain risk assessment must map production networks and criticality, not just spend.",
+   "summary": "Working only from the publisher's short abstract, this VoxEU column uses a network model to estimate the macroeconomic losses from a large, permanent shortage of rare earth elements. Although the market is small in value, the abstract says such a shortage can cause output losses far out of proportion to that value. For horizons under one year it reports GDP losses of 0.6% for the UK, 1.5% for the US and 1.8% for Japan. The authors argue that supply chain risk assessments should incorporate production networks, and that policymakers should build strategic reserves and develop domestic capacity. The mechanisms and assumptions behind the figures are not given in the abstract.",
+   "keyPoints": [
+    "The rare earths market is small in value, yet shortages can cause output losses much larger than that value suggests.",
+    "A network model is used to estimate GDP losses from a large, permanent shortage over horizons of less than one year.",
+    "The reported short-run losses differ by economy: 0.6% for the UK, 1.5% for the US and 1.8% for Japan.",
+    "Supply chain risk assessments need to incorporate production networks, not only direct supplier relationships.",
+    "The recommended responses are strategic reserves and domestic capacity to withstand short-run losses."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "The article treats rare earths as a supply chain risk in which an input of small value can stop output across connected sectors, because the shortage travels through production networks. For a student of SCM the key idea is that vulnerability lies in the structure of the network, not only in the value of the item. The abstract's recommendations, to map networks and to build reserves and domestic capacity, are standard resilience responses that can be assessed against SCM theory."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 60,
+     "reading": "The article concerns securing supply of a commodity-type input that is cheap relative to total spend but critical to production. For a purchasing student this raises the question of how to classify and source items whose risk is not captured by price. The policy responses named in the abstract, strategic reserves and domestic capacity, are sourcing and supplier-development decisions that can be evaluated with purchasing portfolio tools."
+    },
+    {
+     "id": "logops",
+     "relevance": 35,
+     "reading": "For logistics operations the connection is through inventory control. A strategic reserve is in effect safety stock held at national scale, and the article's argument that value-based thinking misses the true risk bears on how inventory is classified and buffered. The abstract says nothing about transport or warehousing, so this is a secondary connection."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Supply chains are exposed to disruption that spreads through interdependent suppliers, so resilience depends on understanding the whole network rather than only first-tier suppliers. Christopher and Peck argue that firms should map their supply base, identify critical nodes and build redundancy, flexibility and visibility to reduce both the impact of a disruption and the time needed to recover.",
+     "link": "The abstract argues that a shortage of a low-value input can produce output losses far beyond its market value, and that a network model is needed to see this. This matches the idea of hidden exposure beyond the first tier, where a firm may spend little on an input yet depend on it for critical products. The recommendation that risk assessments should incorporate production networks is a macro-level version of Christopher and Peck's call for network mapping. The headline figures, such as a 1.5% short-run GDP loss in the US, show how quickly such disruption can scale across an economy.",
+     "critique": "Christopher and Peck's framework is designed for firms managing their own supply chains and gives little guidance on how a government should weigh the costs of buffers across many firms. The abstract's results are model-based, and the assumptions behind them, such as the scope for substitution, are not described, so the precision of the figures should be treated cautiously.",
+     "practice": "A risk manager applying this theory would map suppliers beyond tier one for inputs with low spend but high criticality, identify single points of failure and estimate recovery times. They would then decide where to hold buffers or qualify alternative sources, giving priority to the nodes whose loss would halt the most output."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "ABC inventory analysis and safety stock",
+     "unit": "",
+     "theory": "ABC analysis ranks inventory items by annual value or usage and concentrates control effort on high-value A items, with lighter control for low-value C items. Safety stock is extra inventory held to absorb variability in demand or supply, and its size depends on the service level required and the uncertainty of lead times.",
+     "link": "The article's opening point is that the rare earths market is small in value, which would place such materials in the C category under a value-based ABC analysis. Yet the abstract says shortages cause disproportionate output losses. The call for strategic reserves is in effect a decision to hold safety stock for an item that value-based classification would under-control. The contrast shows that value measures spend, not the cost of a stockout.",
+     "critique": "Classification by value or volume ignores criticality and substitutability, so it misclassifies low-value but irreplaceable inputs. Criticality-based approaches such as VED analysis address this gap. Large national reserves also carry storage, obsolescence and opportunity costs, which the abstract does not quantify.",
+     "practice": "A logistics manager should classify inventory by criticality as well as value, so that low-value items whose absence would stop production receive higher service levels. For these items, safety stock should be sized to the expected length of an interruption, weighed against holding costs, and reviewed as supply risk changes."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Kraljic's purchasing portfolio matrix",
+     "unit": "",
+     "theory": "Kraljic classifies purchases by profit impact and supply risk. Strategic items score high on both, leverage items are high impact and low risk, bottleneck items are low impact and high risk, and non-critical items are low on both. Each quadrant calls for a different sourcing approach.",
+     "link": "The article describes a market that is small in value but whose shortage causes large output losses, which places rare earths in the bottleneck quadrant: low spend but high supply risk and severe consequences. The abstract's advice to develop domestic capacity is a sourcing response to bottleneck items, aimed at reducing supply risk rather than unit cost. This shows that the matrix's placement of an item depends on the cost of disruption, not only on the price paid.",
+     "critique": "Kraljic's profit impact dimension is usually measured by spend, which is exactly the measure the article suggests can mislead. The matrix is also static and does not show how supply risk changes over time through substitution, new suppliers or policy shifts.",
+     "practice": "A purchasing director should reassess bottleneck items using the consequence of a stockout rather than spend alone. They should develop alternative sources, qualify substitutes and, where supply risk is structural rather than temporary, consider strategic inventory or domestic supply."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national economy relies on imports of a few specialist materials that are small in value relative to total trade. A sustained, permanent shortage of these materials would reduce output in manufacturing and related sectors. Government and industry must decide how to assess the supply chain risk and whether to invest in strategic reserves or domestic capacity.",
+    "question": "Critically evaluate the case for building strategic reserves and domestic capacity as responses to a permanent shortage of a low-value but critical input. Advise the government on its priorities.",
+    "evidence": [
+     "Although the market for these materials is small in value, shortages can cause output losses far out of proportion to it.",
+     "Using a network model, the column estimates short-run GDP losses (under one year) of 0.6% for the UK, 1.5% for the US and 1.8% for Japan from a large, permanent shortage.",
+     "The column argues that supply chain risk assessments need to incorporate production networks.",
+     "It recommends strategic reserves and domestic capacity to help withstand the short-run losses."
+    ],
+    "plan": [
+     "Frame the problem as a gap between spend and criticality: the input is small in value, but its loss halts output, which the bottleneck logic of Kraljic and the limits of value-based ABC analysis both help explain.",
+     "Map the production network to show how the shortage propagates to downstream sectors, applying Christopher and Peck's network mapping and risk identification.",
+     "Use the cross-country figures to show that exposure varies by economy, and explain why differences in production structure matter.",
+     "Evaluate the two responses in turn: strategic reserves as national safety stock, weighing holding and obsolescence costs, and domestic capacity as a sourcing diversification decision, weighing cost, lead time and the trade-off between single and multiple sourcing.",
+     "Critique the model's assumptions and the limits of firm-level frameworks applied at national level, noting that only headline figures are available in the abstract.",
+     "Recommend a sequenced policy: a criticality-based risk assessment across networks first, targeted reserves for the most critical inputs second, and domestic capacity where supply risk is structural, ending with a clear recommendation."
+    ],
+    "pitfalls": [
+     "Treating the small market value as evidence of low importance; the relevant question is the cost of disruption, not the value of spend.",
+     "Presenting the model's GDP figures as definitive or as applying to all shortages; they relate to a large, permanent shortage under the network model's assumptions, which the abstract does not detail."
+    ]
+   },
+   "alsoConsider": [
+    "Goldratt's theory of constraints",
+    "Lee's triple-A supply chain",
+    "Single, dual and multiple sourcing",
+    "Total cost of ownership"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether conventional supply chain risk assessments, which focus on the value of inputs and on first-tier suppliers, are adequate for protecting an economy against disruption to low-value but critical materials.",
+    "outline": [
+     "Explain why value-based approaches such as ABC analysis and spend-based assessment understate the risk from low-value critical inputs, using the abstract's finding that small markets can cause large output losses.",
+     "Discuss the case for network-based risk mapping and resilience measures, such as strategic reserves and dual sourcing, drawing on Christopher and Peck and the abstract's recommendations.",
+     "Evaluate the limits of these responses, including the costs of holding reserves, the uncertainty in model-based estimates and the difficulty of building domestic capacity, and conclude with a prioritised recommendation."
+    ]
+   }
+  },
+  {
+   "id": "4b6f3ddfd19a",
+   "title": "Where climate tech capital still goes and why",
+   "url": "https://trellis.net/article/where-climate-tech-capital-still-goes/",
+   "source": "Trellis",
+   "publishedAt": "2026-11-16T07:00:00Z",
+   "addedAt": "2026-11-17T06:28:16Z",
+   "basis": "full_text",
+   "takeaway": "Climate tech capital is concentrating in a few firm-power and AI-linked companies that have paying buyers, while categories without a paying customer, such as carbon removal and low-carbon fuels, are being starved, so the choice of funding vehicle and customer matters more than the climate theme.",
+   "summary": "The article argues that climate tech funding in 2026 is being resorted rather than recovering. Money is flowing to firm power (fusion, fission, geothermal and storage) because data centre developers linked to AI need reliable electricity quickly and will pay a premium for it. Deal numbers are falling while the sums going to a few large firms rise. The author proposes five tests a funded category must pass: a buyer who must pay, revenue visible before the technology is finished, policy that survived, a visible exit, and a story framed as security or resilience rather than carbon. Carbon removal, low-carbon fuels and direct air capture fail several tests, and equity for carbon removal fell sharply in the first half. Debt shifted towards asset-backed project finance and then partly back to equity. The author says the climate return now sits in growth equity, infrastructure credit and project finance rather than early-stage venture, and that distressed or turnaround capital is a legitimate part of a mature ecosystem.",
+   "keyPoints": [
+    "Firm power took about 6.3 billion dollars across 17 rounds in the third quarter, roughly 40 percent of climate tech equity that quarter, and was driven by demand from hyperscalers that cannot get firm power from the grid on their required schedule.",
+    "Data centre developers reportedly pay up to 150 dollars per megawatt-hour, roughly a 50 percent premium over a conventional new power contract, for clean, firm and quickly available power.",
+    "Equity funding rose in the second quarter while the number of deals fell to its lowest since 2021; in the first half, 10 deals took 42 percent of the money.",
+    "The author's five tests are a buyer who must pay, revenue visibility before the technology is finished, policy that survived, a visible exit, and a security or resilience story rather than a carbon story.",
+    "Carbon removal fails the buyer, revenue and exit tests; its equity fell 61 percent in the first half after Microsoft paused purchases and nature-based deals set a reference price near 20 dollars a ton."
+   ],
+   "modules": [
+    {
+     "id": "finance",
+     "relevance": 85,
+     "reading": "This article is about how a capital-intensive sector is being financed, which is core finance module territory. It shows the trade-off between growth equity, project finance and infrastructure credit, each with different fees, liquidity and failure modes, and how staged funding is tied to offtake contracts. A finance student should see that the article treats funding as a sequence of decisions under uncertainty rather than a single valuation."
+    },
+    {
+     "id": "green",
+     "relevance": 60,
+     "reading": "The article argues that the premium paid for clean firm power is the carbon price that climate tech never received from policy, which is an externality question. It also shows how a low reference price for nature-based carbon removal can leave engineered removal unfunded even when the environmental benefit is real. A green logistics or sustainability student should examine whether market prices are internalising emissions or merely rewarding reliability."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 45,
+     "reading": "The article describes a market in which a small group of large buyers, mainly hyperscalers, holds the purchasing power over firm clean energy and offtake contracts. Their willingness to pay and their ability to anchor investment rounds shape which suppliers survive. A purchasing student should analyse this through buyer-supplier power and supplier dependence on a concentrated set of customers."
+    },
+    {
+     "id": "pwo",
+     "relevance": 35,
+     "reading": "The article is mainly about capital and markets, but it describes organisations whose survival depends on a few external actors: customers, investors and governments. Resource dependence explains why a firm that relies on one buyer or one policy regime is exposed to that actor's decisions. The article also contrasts impact investors' values with market logic, which touches on how attitudes and values shape decisions."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "finance",
+     "concept": "Real options (staged investment under uncertainty)",
+     "unit": "",
+     "theory": "A real option is the right, but not the obligation, to invest, delay, expand or abandon a project as uncertainty is resolved. Because flexibility has value, a static net present value can understate projects whose uncertainty will be reduced over time. Staged funding is one practical form of real options, since each tranche buys the chance to continue once specified risks are cleared.",
+     "link": "The article describes funding that arrives in stages: Nvidia signed a development deal before a valuation was set, and a Series B with an offtake behind it is treated as project finance with a longer runway. In option terms, the customer contract is the trigger that makes the next tranche worth exercising. First-of-a-kind geothermal wells and microreactors are long-dated options whose value depends on whether a buyer appears before the technology is proven. The article's tests can be read as a list of conditions that must be met before an option is exercised.",
+     "critique": "Real options assume that uncertainty resolves over time and that the investor can wait for information; here policy risk, such as the proposed cuts to nuclear and geothermal offices, and the narrowing of exit windows can close options before the uncertainty clears. Option valuation also struggles to price sentiment-driven withdrawal of capital, which the article shows can be as decisive as technical risk.",
+     "practice": "A manager valuing a first-of-a-kind climate project should model the investment as a sequence of tranches and define explicit milestones, such as a signed offtake or confirmed policy support, as triggers for each one. They should avoid committing the full capital requirement before the key uncertainties are resolved, and should test how far the option's value depends on exit conditions."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Power in buyer-supplier relationships (Cox)",
+     "unit": "",
+     "theory": "Cox argues that power in a buyer-supplier relationship depends on relative dependence: which party has more to lose if the relationship ends and which has credible alternatives. Scarce, critical supply gives a supplier power, while concentrated demand and few alternative sources give a buyer power. Managers can therefore analyse power by comparing the resources each side controls and how easily each could replace the other.",
+     "link": "Data centre developers can pay a premium because they cannot obtain firm power from the grid on their schedule, which gives firm clean suppliers real leverage in that segment. However, the article notes that capital is concentrating in fewer companies, nearly all selling to the AI buildout, so suppliers depend heavily on a small number of large buyers. The Nvidia and National Grid examples show the buyer also becoming an investor, which strengthens the buyer's hold on the supplier's future.",
+     "critique": "Cox's framework treats dependence as relatively fixed at a point in time, while in this market the balance shifts with each new round, each policy change and each new entrant. It also does not handle cases where the buyer's investment gives it control over the supplier's capital as well as its supply, which makes the relationship more than a purchasing one.",
+     "practice": "A climate supplier should diversify its buyers and avoid a dependence on one customer that cannot be replaced, using offtake contracts with clear pricing and step-in or exit terms. A buyer should weigh the security of firm supply against the fragility of a supplier that relies on it, and should consider whether taking an equity stake helps or harms its long-term sourcing position."
+    },
+    {
+     "moduleId": "green",
+     "concept": "Externalities and carbon pricing",
+     "unit": "",
+     "theory": "An externality is a cost or benefit that falls on third parties and is not reflected in market prices. Carbon pricing, through a tax or a trading scheme, attempts to internalise the cost of emissions so that low-carbon options can compete on price. Without such a price, low-carbon activity depends on subsidies, voluntary purchases or the willingness of buyers to pay for other attributes.",
+     "link": "The article claims that the data centre premium for clean firm power functions as a carbon price that climate tech never received from policy, but the buyer is paying mainly for reliability and speed. Carbon removal shows the opposite problem: a reference price near 20 dollars a ton from nature-based deals is a fraction of the cost of engineered removal, so the environmental benefit is priced low. The article also notes that gas turbines bought as a bridge are being financed to run for decades, which illustrates how a market signal can reward a different attribute than the one a carbon price would target.",
+     "critique": "A premium for firm power is not a carbon price: it does not reflect the full emissions cost across the system and may reward fossil bridge capacity. Voluntary purchases also vary with corporate reputation and budgets, so they are an unreliable substitute for policy that applies to all emitters.",
+     "practice": "A sustainability manager should separate payments for reliability from payments for emissions reduction, measuring Scope 1, 2 and 3 emissions for each sourcing decision. They should not treat a premium for firm power as evidence that carbon is priced, and should check whether any bridge capacity has a credible plan for retirement."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on external actors for critical resources, and the power of those actors is greater when the resource is scarce, important and controlled by few holders. Organisations respond by managing their dependence through diversification, buffering, contracts, or closer ties such as board seats or shared ownership. The theory explains why organisations often adapt to the demands of the actors they rely on.",
+     "link": "Climate tech firms depend on hyperscalers for revenue and on a small pool of investors for capital, and the article shows that concentration is growing: 10 deals took 42 percent of the money in the first half. The author notes that customers now appear in the capitalisation of companies, which turns dependence into ownership. Dependence on government is also visible, since nuclear and geothermal kept their tax credits through the rollbacks and the proposed budget still cuts their offices, so policy is another resource controlled by others.",
+     "critique": "Resource dependence explains why organisations accept external power but says less about how firms can also gain leverage, for example when scarce firm power gives suppliers bargaining strength. It is also largely structural and gives limited attention to the political tactics and coalitions that actors use to shape policy.",
+     "practice": "Managers of dependent organisations should map their critical resources and the actors who control them, then reduce dependence by finding alternative customers, investors or policy supporters. In the article's setting, a firm should seek a second customer or a second class of investor before accepting terms that bind its future to one actor."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A geothermal start-up has a working pilot and a letter of intent from one large data centre developer that will pay a premium for firm power. Its venture round is nearly spent, and public markets for comparable listings have fallen well below their highs. The board must decide whether to accept the anchor customer's terms, raise debt against future project cash flows, or take a discounted round from a turnaround investor.",
+    "question": "Advise the board on its funding and customer strategy, and critically evaluate whether it should accept the anchor customer's terms.",
+    "evidence": [
+     "Data centre developers are reported to pay up to 150 dollars per megawatt-hour, roughly a 50 percent premium over a conventional new power contract, for clean, firm and quickly available power.",
+     "In the first half, 10 deals took 42 percent of climate funding, and low-carbon data centre developers alone took a third, up from 3 percent a year earlier.",
+     "Debt was roughly a quarter of climate funding in the first half, and asset-backed debt halved in the third quarter while equity rose.",
+     "Carbon removal equity fell 61 percent in the first half after Microsoft paused new purchases, and Fervo and X-energy shares are well off their highs."
+    ],
+    "plan": [
+     "Diagnose the firm's position using the article's five tests: identify whether a buyer must pay, whether revenue is visible before the technology is finished, whether its policy support is secure, whether an exit exists, and whether its story is one of security or resilience.",
+     "Apply real options to show that the anchor contract is an option to be exercised in tranches, and recommend setting milestones for each tranche rather than committing all capital at once.",
+     "Apply resource dependence theory to assess how far the firm depends on one customer and a small group of investors, and identify how it could reduce that dependence.",
+     "Apply Cox's model of buyer-supplier power to negotiate terms that protect pricing, exit rights and supply commitments, and assess whether the buyer's equity stake would strengthen or weaken its bargaining position.",
+     "Compare debt secured on project cash flows with growth equity and a discounted turnaround round, weighing fees, control, liquidity and failure modes.",
+     "Recommend a staged funding plan with a second customer or investor layer, and state the conditions under which the firm should accept the discounted round."
+    ],
+    "pitfalls": [
+     "Treating the data centre premium as proof that carbon is being priced, when the buyer is mainly paying for reliability and speed.",
+     "Assuming a discounted round signals failure; the article argues that a lower price for sound technology is the mechanism by which new capital enters."
+    ]
+   },
+   "alsoConsider": [
+    "Capital structure theory (Modigliani and Miller; trade-off and pecking order theories)",
+    "Porter's five forces, particularly buyer power",
+    "Agency theory, for the divergence between investors' and managers' interests in staged funding"
+   ],
+   "exam": {
+    "question": "Critically evaluate the claim that, for climate technology investment, the choice of funding vehicle matters more than the choice of sector or technology. Use real options and capital structure theory to support your answer.",
+    "outline": [
+     "Define the funding vehicles (growth equity, infrastructure credit, project finance and venture equity) and explain how their risk, return, liquidity and failure modes differ, using the article's evidence.",
+     "Apply real options to explain why staged funding linked to offtake contracts changes the value of an early-stage climate project, and assess where the framework fails under policy and exit risk.",
+     "Reach a judgement on whether vehicle choice or sector matters more, weighing the article's finding that capital concentrates in a few firm-power companies against the view that the appropriate vehicle depends on the stage and customer position of each firm."
+    ]
+   },
+   "readingMinutes": 6
+  },
   {
    "id": "3a3bd0501312",
    "title": "Why Care Matters in Crisis: Leadership Insights from War",
