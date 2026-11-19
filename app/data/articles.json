@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-19T06:26:34Z",
+ "generatedAt": "2026-11-19T12:23:04Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
@@ -72,6 +72,1076 @@
   }
  ],
  "articles": [
+  {
+   "id": "f5c271100088",
+   "title": "Leaders need to confront organisational reality. Here’s how",
+   "url": "https://hrzone.com/leaders-need-to-confront-organisational-reality-heres-how/",
+   "source": "HRZone",
+   "publishedAt": "2026-11-19T08:00:00Z",
+   "addedAt": "2026-11-19T12:23:04Z",
+   "basis": "full_text",
+   "takeaway": "Senior leaders often fail to see the real organisational problems because of their own assumptions, the hidden embedded systems, and a fear-driven drive to preserve the status quo, so diagnosing these before choosing fixes is a core leadership and change task.",
+   "summary": "The article argues that leaders are under pressure from economic, technological, political and societal change and from internal complexity, so they rarely have the time, opportunity or permission to see the whole picture. They break problems into manageable parts and adopt quick fixes that address symptoms, letting hidden costs build up. The author proposes organisation effectiveness (OE) as a discipline of deliberately confronting organisational reality. Three obstacles block this: frames of reference (assumptions and beliefs that filter perception), an unexamined system in which problems are embedded and hard to see, and the status quo, which protects people from threat and loss of face. Leaders need to be both willing and able to confront these issues, and the article ends with three practical steps: diagnose a long-sensed issue, widen your frame of reference by listening to someone who disagrees, and question repeated fixes.",
+   "keyPoints": [
+    "Leaders often lack the time, opportunity or permission to examine the whole organisation, so they fragment problems into parts they can influence.",
+    "Quick, simplistic solutions often address symptoms and give an illusion of progress while underlying OE issues persist and costs compound.",
+    "Three obstacles stop leaders seeing organisational reality: frames of reference, an unexamined system, and the status quo.",
+    "Frames of reference are the assumptions, values, experiences and beliefs through which people perceive, often unconsciously, and they can distort or hide problems.",
+    "OE issues are embedded throughout the system, present as something else and are hard to dislodge once established."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 90,
+     "reading": "In PWO terms this article is about how perception, attitudes and values shape what managers see in an organisation, and how embedded culture and fear of threat keep problems hidden and resist change. Frames of reference map onto individual differences in perception and beliefs, the unexamined system maps onto organisational culture and informal ways of working, and the status quo maps onto resistance to change. A student should care because it links individual cognition, culture and change into one argument about why organisations fail to diagnose their own problems."
+    },
+    {
+     "id": "leadership",
+     "relevance": 40,
+     "reading": "The article treats leadership as a matter of decision making under pressure, where leaders jump to simplistic solutions and lack the time and permission to see the full picture. Its willing-and-able framing sets out leadership capabilities that depend on motivation, resources and support. A leadership student can use it to discuss how leaders' own assumptions and fear of loss affect their decisions and whether they create the conditions for others to speak up about problems."
+    },
+    {
+     "id": "strategy",
+     "relevance": 35,
+     "reading": "The article presents organisation effectiveness as a source of distinctive competitive advantage, which links it to resource-based and capability arguments about what competitors find hard to copy. It also describes strategic initiatives that have multiplied and layers of structure that no longer serve strategy, which is a misalignment problem. A strategy student should note that the claim of advantage is asserted rather than evidenced, and that alignment diagnostics such as the 7S framework could test it."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Selective perception and perceptual biases (halo effect, stereotyping, selective perception)",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Perception is the process by which people select, organise and interpret information, and it is shaped by their expectations, experiences and beliefs. Selective perception means individuals attend to information that fits their existing views and screen out what does not, while biases such as stereotyping and the halo effect simplify judgements. These processes are largely unconscious, so people believe their view of a situation is accurate.",
+     "link": "The article's frames of reference are defined as the assumptions, values, experiences and beliefs through which leaders perceive unconsciously, which is the same mechanism as selective perception. The author says these frames can distort OE issues or prevent leaders from seeing them at all, which corresponds to screening out information that does not fit. The claim that OE problems are hidden in plain sight, and that leaders avoid them because they are complex and ambiguous, shows how selective attention keeps familiar explanations in place. The suggestion to have a coffee with someone who disagrees is a deliberate attempt to break this filter by exposing the leader to different information.",
+     "critique": "Perceptual bias research mostly examines individual judgements in controlled settings, whereas the article suggests that perception is shaped by organisational permission, incentives and power, which individual-level theory underplays. The article's idea that frames of reference can widen is more optimistic than the evidence on how persistent biases are.",
+     "practice": "A manager applying this theory should deliberately test their framing by writing down the problem as they see it and then listing evidence that would contradict it. They should seek out colleagues with different experiences and ask them to describe the issue, not to agree with the manager's view. Before choosing a solution, the manager should check whether the problem definition was shaped by a preferred fix."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of culture (artefacts, espoused values and basic underlying assumptions)",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Edgar Schein describes organisational culture at three levels: visible artefacts such as structures, processes and behaviour, espoused values that people state, and basic underlying assumptions that are taken for granted and largely unconscious. Surface solutions tend to change artefacts or stated values, while the deeper assumptions shape how people interpret events and resist change. Culture is therefore most powerful when it is least visible.",
+     "link": "The article's unexamined system, in which OE issues permeate every nook and cranny, present as something different and are hidden in plain sight, is a description of problems that sit in the deeper layers of culture. The author's warning that expedient solutions skim the surface and mask what is really going on matches Schein's point that changing artefacts or espoused values leaves basic assumptions intact. The idea that issues are hard to dislodge once embedded explains why the same problem can be solved repeatedly, as the article's third action point suggests.",
+     "critique": "Schein's model is descriptive and does not give a reliable method for surfacing assumptions, which the article also leaves unexplained. It also assumes a degree of shared culture, whereas the article describes issues fragmented across the organisation, which suggests several subcultures may hold different assumptions that a single model would miss.",
+     "practice": "A manager could map the visible artefacts of a problem, such as the process or structure, and then the stated values, and ask what must be assumed for these to make sense. Facilitated sessions with people across the affected groups can surface these assumptions. The manager should judge any fix by whether it changes the behaviour the assumptions produce, not only the artefacts."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resistance to change and Kotter and Schlesinger's strategies for dealing with it",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Kotter and Schlesinger argue that resistance to change arises from parochial self-interest, misunderstanding, low tolerance for change and different assessments of the situation. They propose six approaches to deal with it: education and communication, participation and involvement, facilitation and support, negotiation and agreement, manipulation and co-optation, and explicit or implicit coercion. Managers should choose an approach according to the source and strength of resistance.",
+     "link": "The article's status quo is maintained because it protects leaders from threat, and the unconscious fear of losing face, status or admitting mistakes is a form of self-interested resistance. Behaviours such as reluctance, resistance and blame, which the author says prevent reality from being confronted, are the overt signs that Kotter and Schlesinger describe. Because the article places this fear within leaders themselves, it shows that resistance to diagnosing organisational reality can come from those expected to drive change, not only from those affected by it.",
+     "critique": "The model treats resistance mainly as an obstacle that managers must overcome, and the article suggests that the threat being resisted is often a legitimate fear about status and blame that deserves a response in its own right. The model's manipulation and coercion options also risk damaging the trust that candid diagnosis depends on.",
+     "practice": "A manager facing this kind of resistance should first identify what loss is being feared, such as status or credibility, and address it directly by making it safe to admit mistakes. Participation and negotiation work better than manipulation or coercion when the aim is honest diagnosis. The manager should begin with a small, low-threat diagnostic so that people can see the process is about understanding problems rather than apportioning blame."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "The McKinsey 7S framework",
+     "unit": "",
+     "theory": "The McKinsey 7S framework identifies seven interdependent elements of an organisation: three hard elements (strategy, structure and systems) and four soft elements (shared values, style, staff and skills). Its central claim is that effective organisations align all seven, so a change to one element affects the others. It is used as a diagnostic to find misalignment and to check that change is not limited to the hard elements.",
+     "link": "The article describes a whole-system view of OE that includes layers of structure and process, proliferating initiatives, embedded culture and ways of working, and the people involved, which corresponds closely to the seven elements. The author's point that leaders fragment problems and jump to partial solutions is a warning against changing one element, such as strategy or systems, without examining the soft elements that determine whether it works. The idea that OE is an outcome of deliberately confronting reality parallels the 7S use of alignment as a test.",
+     "critique": "The 7S framework is a static snapshot that does not explain causes or show how misalignment should be prioritised, so it can become a checklist. It also gives limited guidance on how to uncover the hidden assumptions the article identifies, which would need a deeper diagnostic.",
+     "practice": "A manager could use 7S to map the current state of each element and identify where they are out of line, for example where stated values conflict with the systems that reward behaviour. They should prioritise the misalignments that carry the greatest hidden cost, and check that any proposed fix addresses soft as well as hard elements before committing resources."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A professional services firm has introduced three restructuring programmes and a new performance system in five years, yet customer complaints and staff turnover remain high. Senior managers attribute the problems to the market and recommend a further reorganisation. Several middle managers privately believe the real issue lies in how decisions are made and in a culture that punishes people who raise bad news.",
+    "question": "Critically evaluate why senior leaders in this firm may fail to diagnose the real causes of its performance problems, and advise the board on how it should confront the underlying issues before committing to another reorganisation.",
+    "evidence": [
+     "Leaders often lack the time, opportunity or permission to consider the whole picture, so they fragment problems into parts they can influence and adopt simplistic solutions.",
+     "Frames of reference, meaning the assumptions and beliefs through which leaders perceive, can distort or prevent them from seeing OE issues.",
+     "Organisation issues are embedded in the system and hidden in plain sight, so expedient solutions can give the illusion of progress without addressing the core problem.",
+     "Resistance, reluctance and blame are signs of an unconscious fear of losing face, status or admitting mistakes that keeps the status quo in place."
+    ],
+    "plan": [
+     "Summarise the symptoms and the repeated recourse to restructuring, and explain why this pattern suggests that the underlying issue has not been diagnosed.",
+     "Apply selective perception to explain why senior managers may frame the problem as market conditions, using the article's concept of frames of reference.",
+     "Use Schein's three levels of culture to argue that the punishment of bad news reflects basic underlying assumptions that restructuring leaves intact.",
+     "Apply Kotter and Schlesinger's account of resistance to explain how fear of losing face may block honest diagnosis, and identify the appropriate response to it.",
+     "Use the 7S framework to show the misalignment between structure, systems, shared values and style, and assess the likely effect of a further reorganisation.",
+     "Recommend that the board commission an independent, evidence-based diagnostic that includes the middle managers, changes how bad news is handled, and tests any proposed structural change against the soft elements before approval."
+    ],
+    "pitfalls": [
+     "Treating the article's claim that OE creates competitive advantage as proven, rather than as the author's assertion without supporting data.",
+     "Blaming individual senior managers personally, when the article presents frames of reference and fear as universal human tendencies that organisations can counteract through process and culture."
+    ]
+   },
+   "alsoConsider": [
+    "Lewin's force field analysis",
+    "Argyris's defensive routines and double-loop learning",
+    "Festinger's cognitive dissonance",
+    "Staw's escalation of commitment"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that individual perception and embedded organisational culture, rather than structural design, are the main barriers to effective organisational change.",
+    "outline": [
+     "Define perception, frames of reference and the basic underlying assumptions of culture, and explain how each can keep problems hidden from managers.",
+     "Assess the role of fear of loss and resistance in maintaining the status quo, drawing on Kotter and Schlesinger and evaluating their limits.",
+     "Compare structural redesign with cultural and perceptual change, using the 7S framework or Schein's model to evaluate which is more likely to address underlying issues."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "c2dfe10a9649",
+   "title": "Your Long-Term Succession Plan Won’t Save You in a Crisis",
+   "url": "https://hbr.org/2026/11/your-long-term-succession-plan-wont-save-you-in-a-crisis",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-17T13:05:46Z",
+   "addedAt": "2026-11-19T12:23:04Z",
+   "basis": "abstract",
+   "takeaway": "Boards need a separate emergency succession plan that clarifies who can decide, who could step in, and how key people are kept, because a long-term plan does not cover a sudden vacancy.",
+   "summary": "According to the publisher's short abstract, which is all that was supplied, boards should keep an emergency succession plan alongside their long-term one. The emergency plan is meant to bring clarity on decision rights, candidate qualifications and talent retention. The full article was not available, so this note relies only on that brief statement and applies the PWO and leadership theory to it.",
+   "keyPoints": [
+    "Boards are advised to have an emergency succession plan as well as a long-term one.",
+    "The emergency plan should clarify decision rights.",
+    "It should set out candidate qualifications.",
+    "It should address talent retention.",
+    "The title indicates that a long-term succession plan alone will not protect a company in a crisis."
+   ],
+   "modules": [
+    {
+     "id": "leadership",
+     "relevance": 70,
+     "reading": "The article concerns who takes over leadership when a crisis removes the person at the top, which places it within leadership succession and the developing of leaders. In leadership terms the key question is whether leadership capability is a fixed set of qualifications or something that depends on the situation and on shared authority. A student should care because the abstract names candidate qualifications and decision rights, two issues that leadership theory treats as central in practice. The abstract is brief, so any wider claims about boards should be treated as provisional."
+    },
+    {
+     "id": "pwo",
+     "relevance": 40,
+     "reading": "From the PWO perspective the abstract is about formal authority: who holds decision rights and how the organisation is designed to pass them on under pressure. This connects to Unit 6 on formal and informal organisations and to Unit 5 on power, since decision rights are a source of legitimate power that can be contested in a crisis. Informal networks often determine what happens when formal rules are stretched, so the article invites students to test formal arrangements against how people actually behave."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "leadership",
+     "concept": "Distributed leadership and followership",
+     "unit": "",
+     "theory": "Distributed leadership holds that leadership is a practice spread across several people in an organisation rather than concentrated in one individual at the top. Followership treats those who are led as active contributors whose skill and judgement shape outcomes. On this view, the capacity to lead is built across a group, not held by a single successor.",
+     "link": "The abstract argues that a board needs an emergency plan that sets decision rights and candidate qualifications, which implies that authority should be assigned in advance rather than improvised. Mapped onto distributed leadership, clear decision rights would mean several executives know beforehand what they may decide if the chief executive is unavailable. Talent retention matters here too, since a spread of capable people is what allows shared leadership to work in a crisis. The abstract does not say whether the board intends this distribution, so the mapping is an interpretation.",
+     "critique": "Distributed leadership can blur accountability in a crisis, when speed and a single clear decision-maker may matter more, and the abstract does not address whether shared authority is the intended model.",
+     "practice": "A board applying this would name the people who hold each category of decision in an emergency and test that they can act together. It would retain a small group of potential successors who have practised shared authority. It should also make sure the wider leadership team understands the arrangement, so that followers know whom to follow."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Fiedler's contingency model",
+     "unit": "",
+     "theory": "Fiedler's contingency model argues that leader effectiveness depends on whether a leader's style fits the favourability of the situation, which is shaped by leader-member relations, task structure and position power. Fiedler regarded leadership style as relatively stable, so a good fit is achieved by changing the leader or changing the situation.",
+     "link": "A crisis changes the situation a successor faces, so a candidate suited to a calm, planned transition may not suit an emergency. The abstract's emphasis on candidate qualifications suggests the board should specify which qualifications matter under crisis conditions, not only under ordinary succession. Fiedler's logic implies that candidates should be assessed against likely crisis conditions rather than general merit. This is an extension of the model, since the abstract does not refer to it.",
+     "critique": "The model has been criticised for treating style as fixed and for the difficulty of measuring its situational variables, and it does not explain how a successor develops capability over time.",
+     "practice": "A board applying the model would describe the likely crisis scenarios, assess each candidate's fit to them, and decide whether to appoint a particular successor, provide more support around them, or adjust the authority of the role to suit the situation."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Formal and informal organisation",
+     "unit": "Unit 6 Designing effective organisations",
+     "theory": "The formal organisation is the designed structure of roles, reporting lines, rules and decision rights. The informal organisation is the network of relationships, unofficial communication and shared norms that operates alongside it. Both shape how work is actually done, and they often diverge most under stress.",
+     "link": "The abstract's call for clarity over decision rights is a request to formalise who decides what in an emergency. Formal rules can only do so much, because in a crisis people rely on informal relationships to obtain information and agree action quickly. A plan that specifies decision rights on paper will therefore be tested by whether the informal network recognises and supports those decision-makers. The abstract does not describe current board practice, so these points are implications rather than findings.",
+     "critique": "Formalising decision rights too rigidly can slow response in a fast-moving crisis, while leaving them informal invites confusion. The right balance between the two is contested in the literature.",
+     "practice": "A manager would write down the emergency decision rights and then test them in a simulation, observing whether the informal network accepts them. They would also identify informal influencers whose support is needed for the plan to work and involve them in its design."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "French and Raven's bases of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "French and Raven identified five bases of power: legitimate, reward, coercive, expert and referent. Legitimate power comes from formal position, expert power from knowledge, and referent power from being admired or identified with. Power depends on how influence is perceived, not only on job title.",
+     "link": "The decision rights in the abstract amount to legitimate power, conferred in advance by the emergency plan. Candidate qualifications point to expert power, since a successor's credibility in a crisis may depend on knowledge the organisation values. Talent retention relates to referent power, because staff who identify with a leader may stay with them and follow them through difficulty. The abstract does not say which base the board relies on, so this mapping is analytical.",
+     "critique": "The framework is static and does not show how power is contested in a crisis, where authority granted in a plan may be challenged by people with stronger expert or referent power.",
+     "practice": "A board would check whether its emergency arrangements rest on legitimate power alone. It would then build the expert and referent power of likely successors, for example through exposure to crisis decisions, so that the authority given on paper is also recognised by the people they will lead."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "An organisation has a well-developed long-term succession plan for its top executive but no arrangement for a sudden vacancy. When the leader becomes unavailable during a crisis, it is unclear who may take decisions and whether the people nearest to the role are suitable to lead through the emergency. Key managers begin to weigh their options.",
+    "question": "Advise the board on how to design an emergency succession plan that gives clear decision rights and retains key talent, drawing on theories of organisation design and power.",
+    "evidence": [
+     "The publisher's abstract states that boards need an emergency succession plan in addition to a long-term one.",
+     "The abstract identifies clarity over decision rights, candidate qualifications and talent retention as components of that plan.",
+     "The title argues that a long-term succession plan will not, on its own, protect a company in a crisis."
+    ],
+    "plan": [
+     "Define the problem: a long-term succession plan assumes an orderly transition, whereas a crisis requires immediate authority. Use the distinction between formal and informal organisation to explain why a paper plan may fail.",
+     "Analyse the sources of power available to interim decision-makers using French and Raven, showing that the plan presently relies on legitimate power and identifying where expert and referent power are also needed.",
+     "Assess the candidate pool against likely crisis conditions, using the logic of Fiedler's contingency model, and identify gaps in qualifications.",
+     "Consider talent retention through the informal organisation and referent power, noting that uncertainty during a crisis can drive departures of people the organisation cannot easily replace.",
+     "Recommend pre-specifying decision rights for named roles, defining the conditions that trigger emergency authority, developing the expert and referent power of likely successors, and testing the plan in simulation with informal leaders involved."
+    ],
+    "pitfalls": [
+     "Treating the emergency plan as a copy of the long-term plan rather than explaining why a crisis requires different authority and selection criteria.",
+     "Presenting the abstract as evidence of what boards actually do; it only states what they should have, so any claims about current practice must be marked as assumptions."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Pfeffer and Salancik's resource dependence theory",
+    "Mintzberg's organisational configurations",
+    "House's path-goal theory"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether formal decision rights and organisation structures can be relied upon to keep an organisation functioning when its leader is suddenly lost.",
+    "outline": [
+     "Define formal and informal organisation and explain how each shapes decision-making under stress.",
+     "Apply French and Raven's bases of power to explain why pre-assigned authority may not be recognised in practice.",
+     "Evaluate the tension between clear, rigid decision rights and the speed and adaptability a crisis requires, reaching a reasoned conclusion."
+    ]
+   }
+  },
+  {
+   "id": "b65ef5174b7a",
+   "title": "Five steps: Build a better employer brand on LinkedIn",
+   "url": "https://hrzone.com/five-steps-build-a-better-employer-brand-on-linkedin/",
+   "source": "HRZone",
+   "publishedAt": "2026-11-18T08:00:00Z",
+   "addedAt": "2026-11-19T12:23:04Z",
+   "basis": "full_text",
+   "takeaway": "An employer brand is shaped less by the careers page than by what employees visibly say online, and what HR's policies, promotions and praise allow them to say. Visible employee voice is therefore a diagnostic of the culture's underlying assumptions.",
+   "summary": "The article, an HRZone opinion piece by an HR practitioner, argues that a candidate researching an interviewer on LinkedIn forms a more credible picture of the employer than the careers page does. Managers' reposting habits, employees' engagement with competitors and a leaver's measured account of why they left all feed that picture. The author links this to a flood of AI-generated content, which makes authentic, slightly unpolished personal voices more persuasive, and to research suggesting employees trust their own employer more than business in general. HR, rather than marketing, is said to own most of what shapes employees' online voice through social media policy, promotion, onboarding, praise and whether people feel safe to post. The five recommendations are to audit the company's LinkedIn footprint as a candidate would, turn restrictive social media policies into permission with a few clear red lines, start with senior team members, prompt rather than script posts, and treat low participation as a possible sign of wider culture problems.",
+   "keyPoints": [
+    "Candidates research the people who will interview them, and a personal profile carries more weight than an anonymous review or a corporate careers page.",
+    "The article cites US research (Glassdoor and The Harris Poll) that 83 per cent of job seekers are likely to consult reviews and ratings when deciding where to apply.",
+    "Originality.ai reportedly classified 81 per cent of 5,000 public LinkedIn posts of 100 words or more from July 2026 as likely AI-generated, making authentic personal voice stand out.",
+    "Edelman's 2026 Trust Barometer, as cited, found 78 per cent of employees trust their own employer, against 64 per cent who trust business in general.",
+    "The author argues that marketing owns the company page but nobody owns employee voice, and that HR shapes that voice through policy, promotion, onboarding, praise and psychological safety."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 82,
+     "reading": "Through the PWO lens, the article is about organisational culture showing itself outside the organisation: the gap between what the careers page espouses and what employees' visible behaviour suggests about underlying assumptions. It also concerns whether people feel safe to speak, which connects to team dynamics and engagement. A student should care because the author locates the employer brand in HR-controlled features of work, such as policy, promotion, onboarding and praise, rather than in the brand message alone."
+    },
+    {
+     "id": "marketing",
+     "relevance": 45,
+     "reading": "Employer branding applies brand management ideas to recruitment. The article challenges the assumption that the company page is the brand, arguing that the brand is assembled from employee voice that marketing does not control. Students should see how brand associations form across many touchpoints and how credibility depends on who the source is."
+    },
+    {
+     "id": "leadership",
+     "relevance": 35,
+     "reading": "The author advises senior team members to post about their team's work and to explain the why behind it, so leaders' visible behaviour is set up as a norm others may follow. Leadership modules on role modelling and authentic leadership apply here, since an open, unpolished voice is presented as building trust. The advice is practitioner opinion rather than tested leadership research, which a critical answer should note."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of organisational culture (Schein)",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Schein distinguishes three levels of culture: visible artefacts, espoused values and basic underlying assumptions. Espoused values are what an organisation says it believes, while underlying assumptions are taken-for-granted beliefs that drive behaviour and are often revealed only through artefacts and conduct.",
+     "link": "The careers page is an espoused-values layer, with its people-first culture and flexible working claims. The LinkedIn activity the article describes, such as unenthusiastic reposting, engagement with competitors and a leaver's sober account, works as artefacts that a candidate reads as evidence of deeper assumptions. The author's point that a policy of prohibitions produces silence suggests an underlying assumption that speaking out is risky, which contradicts the espoused values. The article's claim that candidates believe the person doing the job over the brand advertising it shows artefacts outweighing espoused values in the candidate's judgement.",
+     "critique": "Schein's model assumes a coherent set of underlying assumptions across the organisation, whereas large firms contain subcultures, and an individual's LinkedIn behaviour may reflect personal disposition as much as culture. The article's evidence is anecdotal and drawn from one practitioner's experience, so it cannot establish that these artefacts reliably reveal culture.",
+     "practice": "HR should run the candidate's-eye audit as a structured review of artefacts and compare what it shows with the stated values. The priority is to change the features that shape underlying assumptions, namely the social media policy, promotion decisions, onboarding and praise, rather than rewriting the careers page."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological safety (Edmondson)",
+     "unit": "Unit 4 Team dynamics",
+     "theory": "Psychological safety is a shared belief that a team is safe for interpersonal risk-taking, such as admitting mistakes, asking questions or raising concerns without fear of embarrassment or punishment. It is associated with learning behaviour and is higher where leaders invite participation and frame contributions as useful.",
+     "link": "The article asks whether anyone feels safe enough to post at all, and it treats a restrictive policy as producing silence. The author's prompts, such as what the team fixed this month or what a new starter taught someone, invite contributions in the way Edmondson's leaders invite input. The fifth recommendation, that low participation may reveal wider culture problems, parallels the view that silence in a group is often a symptom of a safety deficit rather than a lack of things to say.",
+     "critique": "Edmondson developed psychological safety to explain learning and voice within teams. Public posting to an external audience carries reputational and career risks that the team construct does not capture, and the article's proposed remedy of more explicit permission is not tested in the text.",
+     "practice": "A manager should replace a list of prohibitions with a short statement of the real red lines and an explicit invitation to share work. Senior leaders should model open, specific sharing and respond to contributions without penalising candour. Participation rates should be monitored as a diagnostic of the safety climate, not as a target to be pushed."
+    },
+    {
+     "moduleId": "marketing",
+     "concept": "Customer-based brand equity (Keller)",
+     "unit": "",
+     "theory": "Keller's customer-based brand equity holds that brand value rests on what audiences know and feel about a brand. It depends on brand awareness and on brand image, meaning a set of associations that are strong, favourable and unique enough to produce preferential responses.",
+     "link": "The article describes candidates assembling the employer brand from fragments such as reposts, a manager's profile and a leaver's account, rather than from the careers page. This is brand knowledge built from many touchpoints, many outside the company's control. The author's observation that marketing owns the company page but nobody owns employee voice suggests that associations are formed in channels the marketing function does not manage, and that candidates weigh employees' voices more heavily than the brand's own advertising.",
+     "critique": "Keller's model was developed for consumer and product markets, so applying it to candidates is an analogy rather than a validated use. The article's support for the influence of reviews comes from a survey about where candidates look, not from any measurement of brand equity.",
+     "practice": "Marketing and HR should jointly map the touchpoints where candidates form associations with the employer and assess how favourable and consistent those associations are. They should agree shared ownership of employee-generated content, so that the brand's image is managed through the people who create it rather than through the company page alone."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A professional services firm's careers page promises a people-first culture and flexible working. Candidates researching interviewers on LinkedIn find managers reposting job adverts with little enthusiasm, employees engaging mainly with competitors' content, and a recent leaver explaining their departure in measured terms. The firm's social media policy consists mainly of prohibitions, and its senior staff rarely post about their work.",
+    "question": "Advise the HR director on how to close the gap between the firm's espoused culture and the employer brand candidates see on LinkedIn. Critically evaluate your recommendations, drawing on organisational behaviour theory.",
+    "evidence": [
+     "Glassdoor and The Harris Poll (US research, as cited) found 83 per cent of job seekers are likely to look at company reviews and ratings when deciding where to apply.",
+     "Originality.ai reportedly classified 81 per cent of 5,000 public LinkedIn posts of 100 words or more from July 2026 as likely AI-generated, which the author uses to argue that authentic personal voice stands out.",
+     "Edelman's 2026 Trust Barometer, as cited, found 78 per cent of employees trust their own employer against 64 per cent who trust business in general.",
+     "The author states that HR owns most of what shapes employees' online voice, including policy, promotion, onboarding, praise and whether people feel safe to post."
+    ],
+    "plan": [
+     "Diagnose the gap using Schein's levels of culture, identifying the careers page as espoused values and the LinkedIn activity as artefacts that may reveal underlying assumptions.",
+     "Explain why candidates weigh peer and employee voice more heavily than corporate messages, drawing on the trust evidence and on the idea that brand associations depend on the source.",
+     "Assess the climate for employee voice using Edmondson's concept of psychological safety, showing how a policy of prohibitions produces silence.",
+     "Analyse the role of senior team members as visible leaders whose behaviour sets norms, and recognise that low participation may point to deeper culture problems.",
+     "Evaluate the employer brand as a set of associations using Keller's customer-based brand equity, and propose joint ownership of employee-generated content between HR and marketing.",
+     "Recommend a sequenced plan: audit the footprint, replace the policy with a permission-based statement, prompt senior leaders, monitor participation, and address underlying assumptions in promotion and praise."
+    ],
+    "pitfalls": [
+     "Treating the 81 per cent AI-generated figure as a measure of candidates' reactions or of the employer brand; it is a classifier result on one sample and says nothing directly about hiring decisions.",
+     "Recommending that employees be required or pressured to post, which contradicts the article's emphasis on authenticity and would itself undermine psychological safety."
+    ]
+   },
+   "alsoConsider": [
+    "Kahn's three psychological conditions of engagement (meaningfulness, safety and availability)",
+    "Johnson and Scholes's cultural web",
+    "Rousseau's psychological contract",
+    "Smircich's view of culture as something an organisation has versus something it is"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that an organisation's culture is best managed through its employees' everyday communication rather than through its formal espoused values.",
+    "outline": [
+     "Define espoused values and underlying assumptions using Schein, and explain how artefacts such as employees' online activity can reveal them.",
+     "Assess how policy design, psychological safety and senior role modelling shape whether employees speak openly about their work.",
+     "Evaluate the limits of the view, including subcultures, the influence of managers' choices and the weakness of anecdotal practitioner evidence."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "1f3233342b39",
+   "title": "Employer benefits hold steady despite unstable macroeconomic conditions",
+   "url": "https://www.hrdive.com/news/employer-benefits-hold-steady-despite-unstable-macroeconomic-conditions/874945/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-17T20:54:00Z",
+   "addedAt": "2026-11-19T12:23:04Z",
+   "basis": "abstract",
+   "takeaway": "Employers keeping benefits steady despite rising costs is a motivation and retention decision: benefits work as hygiene factors and as part of the psychological contract, so cutting them risks attrition, while protecting them may prevent dissatisfaction without necessarily building engagement.",
+   "summary": "According to the publisher's abstract, a new study finds that employers are continuing to protect employee benefits even though costs are rising, partly to guard against worker attrition (people leaving). The abstract gives no figures, sample, methodology or named employers, so the note relies only on its headline claim and draws on theory to explain why the decision matters.",
+   "keyPoints": [
+    "Employers face rising benefit costs but are choosing to maintain benefits rather than cut them.",
+    "A stated motive is protecting against worker attrition, so benefits are being treated as a retention tool.",
+    "The decision reflects a trade-off between short-term cost pressure and the longer-term cost of losing staff.",
+    "The abstract does not show whether protecting benefits improves engagement, productivity or only prevents departures; this needs the full study.",
+    "Under macroeconomic uncertainty, benefits signal to employees how the organisation values them."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 70,
+     "reading": "In People, Work and Organisations this is a question about motivation and the employment relationship. Benefits such as health cover, pensions and leave are the kind of rewards that Herzberg would call hygiene factors, and the psychological contract explains why employees read cuts as a breach of trust. The student should care because the article shows the link between reward decisions and retention, which is a core engagement and motivation issue."
+    },
+    {
+     "id": "finance",
+     "relevance": 30,
+     "reading": "From a financial decision-making perspective, rising benefit costs are a budgeting problem: the organisation must decide whether to accept cost overruns against plan. The choice to protect benefits is effectively an investment in retention, and the student should consider how such a decision is justified by comparing the cost of benefits with the estimated cost of replacing staff."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Herzberg's two-factor theory",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Herzberg argued that hygiene factors, such as pay, working conditions, security and relationships, prevent dissatisfaction when they are adequate but do not in themselves motivate. Motivators, such as achievement, recognition, responsibility and the work itself, produce satisfaction and effort. Removing hygiene factors causes dissatisfaction even if motivation is otherwise intact.",
+     "link": "The article describes employers protecting benefits despite rising costs, which fits Herzberg's hygiene category, since benefits are a standard part of the package rather than a source of achievement. Protecting them can prevent the dissatisfaction that would drive people to leave, which matches the stated aim of guarding against attrition. The abstract does not suggest that benefits raise engagement, so on Herzberg's account they would stop people leaving rather than make them work harder.",
+     "critique": "Herzberg's evidence base was small and relied on self-reports, and later research shows that some hygiene factors, such as pay, can motivate under certain conditions. Benefits may also matter to motivation through fairness and security rather than only as a hygiene issue.",
+     "practice": "A manager applying Herzberg would keep core benefits at adequate levels to avoid dissatisfaction and attrition, then invest separately in motivators such as recognition, autonomy and development. They would measure whether benefit protection actually reduces leaving rates and whether engagement improves beyond that."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "The psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of beliefs individuals hold about the mutual obligations between themselves and their employer, including what each side promises and expects. Transactional contracts focus on specific exchanges such as pay for effort, while relational contracts involve longer-term loyalty, support and development. A perceived breach occurs when the employer is seen to have failed to meet its side, and this can reduce trust and commitment.",
+     "link": "When costs rise, employers who cut benefits risk being seen as breaking implicit promises about security and care, which is the relational element of the contract. Protecting benefits can be read as the employer keeping its side of the bargain, supporting the stated aim of retaining workers. The article's focus on attrition suggests employers recognise that these beliefs, not only formal terms, drive whether people stay.",
+     "critique": "The contract is subjective, so the same benefit decision may be read differently by different employees, and the abstract does not say how workers perceived the changes. Holding benefits steady does not guarantee the contract is intact if other promises, such as pay progression, are not met.",
+     "practice": "A manager should communicate clearly why benefits are being protected and what this signals about the employer's commitment. They should also check whether employees perceive the wider deal as fair, for example through pulse surveys, and act on any gaps they find."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Equity theory (Adams)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Equity theory proposes that people judge fairness by comparing the ratio of their inputs, such as effort and skills, to their outcomes, such as pay and benefits, against a referent person or group. Perceived inequity creates tension that people try to resolve, for example by changing their effort, altering their comparisons or leaving the organisation.",
+     "link": "Benefits are part of the outcomes side of the equity calculation, so a reduction in benefits during rising costs could increase perceived inequity, particularly if other organisations keep theirs. Protecting benefits helps keep the outcome ratio stable, which fits the article's focus on reducing attrition. The article's framing implies employers are responding to the same comparison processes that equity theory describes.",
+     "critique": "Equity theory does not say which referents people will choose, and in an economic downturn comparisons may shift towards survival, making benefits less salient than job security. It also does not explain why benefits matter more than pay in some contexts.",
+     "practice": "A manager applying equity theory would benchmark benefits against comparable employers and against internal groups to see where perceived inequity might arise. They would then prioritise maintaining benefits where comparisons are most likely to produce dissatisfaction."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Budgeting and variance analysis",
+     "unit": "",
+     "theory": "Budgeting sets planned costs for a period, and variance analysis compares actual costs with budget to identify the size and causes of differences. Adverse variances arise when costs exceed plan, and managers must decide whether to correct them or accept them as justified. Good practice includes assessing the financial consequences of spending choices, not only the immediate cost.",
+     "link": "Rising benefit costs create an adverse variance against plan, and the article suggests employers are choosing to accept this rather than cut. The decision implicitly weighs the cost of maintaining benefits against the cost of attrition, which is a variance judged against a wider economic objective. The abstract gives no figures, so the student should not assume the size of the variance or the net saving from retention.",
+     "critique": "The cost of attrition, including recruitment, training and lost productivity, is hard to quantify and often omitted from budgets, which biases decisions towards cutting visible costs. Annual budgets may also fail to capture the longer-term retention benefit of protecting benefits.",
+     "practice": "A finance manager should build an estimate of the cost of replacing staff and include it in the variance analysis. They should then present the benefit protection decision as a trade-off with explicit assumptions, so the board can review it against the budget."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized services firm faces rising costs for employee benefits in an uncertain economy. Its leadership is considering whether to cut benefits to protect margins or keep them steady to limit staff turnover. Staff turnover is already a concern in several departments.",
+    "question": "Advise the board on whether the firm should protect its employee benefits during the current period of cost pressure. Justify your recommendation using theories of motivation and the employment relationship, and assess the financial implications.",
+    "evidence": [
+     "Employers are trying to protect benefits despite rising costs, according to a new study.",
+     "The stated motivation for protecting benefits is safeguarding against worker attrition.",
+     "The study is described as covering employer decisions during unstable macroeconomic conditions."
+    ],
+    "plan": [
+     "Define the decision and the trade-off between cost control and retention, citing the study's finding that employers are protecting benefits.",
+     "Apply Herzberg's two-factor theory to classify benefits as hygiene factors that prevent dissatisfaction, and explain why cutting them could increase attrition.",
+     "Apply the psychological contract (Rousseau) to show how benefit cuts may be read as a breach of trust, reducing commitment.",
+     "Apply equity theory (Adams) to assess how employees will compare the firm's benefits with those of other employers.",
+     "Use budgeting and variance analysis to estimate the cost of benefits against the cost of replacing staff, stating assumptions clearly.",
+     "Recommend maintaining core benefits while investing in motivators and communicating the decision, and set measures to review its effect on turnover."
+    ],
+    "pitfalls": [
+     "Treating the abstract as proof that benefit protection improves engagement or performance, when the abstract only reports the employer behaviour and the attrition motive.",
+     "Assuming the cost of attrition without quantifying it or stating assumptions, which weakens the financial analysis."
+    ]
+   },
+   "alsoConsider": [
+    "Maslow's hierarchy of needs",
+    "Alderfer's ERG theory",
+    "Vroom's expectancy theory",
+    "Kahn's model of employee engagement"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether employers should protect employee benefits when costs are rising, drawing on theories of motivation and the psychological contract.",
+    "outline": [
+     "Explain the trade-off between cost control and retention, using the study's finding that employers are protecting benefits to reduce attrition.",
+     "Apply Herzberg's two-factor theory and the psychological contract to explain how benefits affect dissatisfaction, commitment and retention, and where these theories fall short.",
+     "Evaluate the financial and managerial implications, including the difficulty of quantifying attrition costs, and reach a justified recommendation."
+    ]
+   }
+  },
+  {
+   "id": "ea5eeeac7509",
+   "title": "Designing Customization Journeys to Build More Valuable Customer Relationships",
+   "url": "https://sloanreview.mit.edu/article/designing-customization-journeys-to-build-more-valuable-customer-relationships/",
+   "source": "MIT Sloan Management Review",
+   "publishedAt": "2026-11-17T12:00:16Z",
+   "addedAt": "2026-11-19T12:23:04Z",
+   "basis": "full_text",
+   "takeaway": "Customers hesitate to customise even when it is offered, but one customisation experience changes their beliefs about its cost and benefit and makes repeat customisation more likely, so retailers should design the first trial to reduce perceived effort and risk.",
+   "summary": "The article argues that mass customisation is operationally feasible but commercially under-used because customers doubt that the extra effort and possible extra cost will produce a better product. Using transaction data from a clothing retailer and three randomised longitudinal experiments, the authors show that buyers who customise once return more often, buy more and spend more, and that random assignment to customise raises later evaluations and repeat customisation. They recommend five levers for the first trial: social proof, first-time financial incentives, starting solutions with curated options, visualisation and assistance, and remakes instead of refunds. They also note that made-to-order production suits unpredictable demand, costly inventory and perishable products.",
+   "keyPoints": [
+    "Customisation is widely available online, yet uptake is low: a 2015 Deloitte study of British adults found only 16 per cent of those aware of it had bought a customised product, and one fashion retailer saw only 8 per cent of buyers customise over nine years.",
+    "Hesitation stems from expected effort, doubt that the chosen combination will be better than a standard product, and possible extra cost.",
+    "Buyers who customised at least once in the retailer's data returned more often, bought more items and spent more over the following 24 months than those who never customised.",
+    "Randomised experiments suggest the effect is created by the experience itself rather than by pre-existing loyalty: customisers evaluated the product and retailer more favourably and were more than twice as likely to customise again three weeks later.",
+    "Telling participants that previous customers had been more satisfied raised opt-in from 28 per cent to 52 per cent."
+   ],
+   "modules": [
+    {
+     "id": "marketing",
+     "relevance": 85,
+     "reading": "This is squarely a marketing article about customer acquisition, co-creation and retention. The central problem is that a product offer exists but customers do not take it up, and the authors show that a single customisation experience changes later value. Marketing students should see it as a case of building customer lifetime value through the purchase journey and of designing the product experience to reduce perceived risk. It also illustrates customers acting as co-creators of the product rather than passive buyers."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "From the People, Work and Organisations viewpoint, this is a study of how an individual's beliefs and motivation to act change through experience. The people concerned are customers rather than employees, but the same psychology applies: people hesitate to take on a new task when they doubt the effort will pay off, and their attitudes shift once they have acted. A student should care because the article offers a clean experimental demonstration of motivation and attitude change that can be transferred to employees adopting new systems or practices."
+    },
+    {
+     "id": "scm",
+     "relevance": 40,
+     "reading": "From the supply chain perspective, the article touches on mass customisation and made-to-order production, where the operational challenge is to deliver individual specifications without holding large stocks of finished goods. Sweetgreen's assembly system and MTailor's conversion of orders into cut-ready patterns are used as examples of fast, order-driven production. The student should note that the article's main concern is demand-side, so operations is an enabler of customisation rather than the source of the problem."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "marketing",
+     "concept": "Relationship marketing and customer lifetime value",
+     "unit": "",
+     "theory": "Relationship marketing holds that firms gain more by retaining and deepening customer relationships than by treating each sale as a one-off transaction. Customer lifetime value is the net present value of the profit a customer generates over the whole relationship, so behaviour that raises repeat purchase is valuable long after the first sale.",
+     "link": "The retailer's transaction data show that buyers who customised once returned more often, bought more items and spent more over 24 months, which is the pattern that lifetime value logic predicts. The randomised experiments add that the difference was created by the experience rather than selected in advance, since assigned customisers later evaluated the brand more favourably and were more likely to customise again. Sweetgreen's app lets regulars save and reorder custom items in seconds, turning one trial into a repeatable relationship. The authors' claim that the sooner buyers are introduced to customisation the more time both sides have to benefit maps directly onto acquiring a customer early in their lifetime value.",
+     "critique": "Lifetime value models usually treat past purchase as a reliable guide to future purchase, yet the article shows that one trial changes beliefs, which makes future value path-dependent and harder to forecast. The evidence covers only 24 months, so it cannot show whether the advantage persists.",
+     "practice": "A retailer should track the rate of first customisation as a leading indicator of value, target new buyers with a trial incentive, and assess the first trial using expected lifetime value rather than the margin on that single order."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Expectancy theory (Vroom)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Vroom proposes that the motivation to take an action depends on expectancy, the belief that effort will lead to a successful performance; instrumentality, the belief that performance will bring the outcome; and valence, how much the outcome is valued. Motivation is the product of these beliefs, so if any one is close to zero, effort will not be made.",
+     "link": "Customers' reluctance maps closely onto low expectancy, since they doubt that the time spent choosing options will produce a better combination, which the authors identify as a core worry. Instrumentality is weakened when buyers fear a poor outcome or an item they cannot return, and free remakes address that weak link directly. Previews of the final design and starting from curated products raise expectancy by making a good result seem attainable. Valence can shift too: telling customers that previous customers were more satisfied raised opt-in from 28 per cent to 52 per cent.",
+     "critique": "Expectancy theory describes a single decision at a point in time, whereas the article shows that a first experience changes the beliefs themselves, so the model needs a feedback loop. It also treats valence as fixed, although the trial altered how customers valued the product.",
+     "practice": "Managers should make the first step achievable by offering starting points and clear previews, so that customers see a credible link between effort and a good result. They should also guarantee a remedy and use evidence from other customers to strengthen the value of the outcome."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Cognitive dissonance (Festinger)",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Festinger argued that holding inconsistent cognitions, such as a belief and a behaviour that conflicts with it, creates psychological discomfort that people try to reduce, often by changing their attitude to fit what they have done. The more effort or money invested in a choice, the stronger the pressure to justify it by valuing the outcome.",
+     "link": "Customers who customised spent time and sometimes extra money, and three weeks later they evaluated the product and retailer more favourably, which is consistent with justifying a costly investment by valuing what was made. In the experiments, participants used the products before returning, so the ownership and investment were present when they gave their evaluations. Their greater willingness to customise again fits a shift in attitude following behaviour. The article does not test dissonance directly, so this is an interpretation rather than a finding.",
+     "critique": "Dissonance explains post-choice justification but not the initial reluctance, which is the article's main puzzle. The experiments do not measure internal discomfort, so the mechanism is inferred, and behavioural updating based on experience may explain the results equally well.",
+     "practice": "Managers can help customers complete the process so they feel the product is genuinely theirs, which supports positive justification of the investment. They should avoid pressure that makes customers feel manipulated, since that would damage trust and undermine the attitude change they seek."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Postponement and the decoupling point",
+     "unit": "",
+     "theory": "Postponement delays the final differentiation of a product until a customer order is received, so that generic components can be held rather than finished variants. The decoupling point is the stage in the process beyond which activity is driven by actual demand rather than forecasts.",
+     "link": "Sweetgreen's Infinite Kitchen allows staff to assemble bowls and plates quickly to customers' specifications, so the final configuration follows the order. MTailor's app converts each order into a cut-ready apparel pattern, so production starts only after the design is fixed. The article notes that making to order is advantageous when demand is unpredictable, inventory is costly or products lose freshness, such as salads and bowls. Sweetgreen's report that custom orders made up about 25 per cent of its revenue shows how much weight such a model can carry.",
+     "critique": "Postponement reduces inventory risk but can add production complexity and unit cost. The article's main barrier is customer reluctance, which operational flexibility cannot solve on its own.",
+     "practice": "Operations managers should identify the decoupling point for each customisable product line, hold stock of common components, and invest in fast order-to-assembly times so that the wait does not offset the convenience customers were promised."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A menswear and womenswear retailer offers customisation of shirts, trousers, jackets, suits and dresses in most of its categories. Over nine years only 8 per cent of its buyers have ever customised, despite the service being available. The board is considering whether to invest in better configurators, discount first customised orders, or change how customers experience the process.",
+    "question": "Critically evaluate why customers remain reluctant to customise, and advise the board on how to design a first customisation experience that is likely to lead to repeat use. Draw on theories of motivation and attitude change and assess the trade-offs of each intervention.",
+    "evidence": [
+     "Only 8 per cent of the retailer's buyers customised at any point over nine years.",
+     "Buyers who customised at least once returned more often, bought more items and spent more over the following 24 months than buyers who never customised.",
+     "In randomised experiments, assigned customisers evaluated their purchases more favourably and were more than twice as likely to customise again three weeks later.",
+     "Telling participants that previous customers had been more satisfied raised opt-in from 28 per cent to 52 per cent."
+    ],
+    "plan": [
+     "Diagnose the reluctance using expectancy theory (Vroom): customers doubt that effort will produce a better outcome, and doubt that the outcome is worth the extra cost.",
+     "Explain why a first trial matters, using cognitive dissonance (Festinger) and the experimental evidence that experience changes evaluations and later willingness to customise.",
+     "Map each intervention to the diagnosis: social proof and valence, first-time incentives and cost, starting solutions and curated options to expectancy, previews and assistance to reduced fear of poor outcomes, and remakes to instrumentality.",
+     "Assess the limits of each option, such as margin lost to incentives, added cost of remakes, and the risk that too many options erode a premium brand image.",
+     "Recommend a bundled first-customisation offer built on a starting design, with previews, peer evidence and a remake guarantee, and measure its success by first-customisation rate and repeat use over 24 months."
+    ],
+    "pitfalls": [
+     "Presenting the transaction data as proof that customisation causes loyalty; only the randomised experiments separate the effect of the experience from pre-existing differences between customers.",
+     "Recommending discounts or more options without weighing their costs and limits, or treating expectancy theory as a one-off fix when the article shows that beliefs change through experience."
+    ]
+   },
+   "alsoConsider": [
+    "Diffusion of innovations (Rogers)",
+    "Self-determination theory (Deci and Ryan)",
+    "Service-dominant logic (Vargo and Lusch)"
+   ],
+   "exam": {
+    "question": "To what extent can theories of motivation and attitude change explain why people hesitate to adopt new practices, and how far can managers design a first experience that changes their minds?",
+    "outline": [
+     "Explain expectancy theory and its three beliefs, showing how hesitation can be understood as low expectancy and instrumentality.",
+     "Use cognitive dissonance and experience-based attitude change to explain why a first trial can alter evaluations, and critique the limits of these explanations.",
+     "Evaluate practical design levers such as starting points, previews, peer evidence and remedies, weighing their trade-offs and concluding on when first experiences do and do not change behaviour."
+    ]
+   },
+   "readingMinutes": 9
+  },
+  {
+   "id": "189c2c1d457c",
+   "title": "Position Your Product So Regulators Say Yes Faster",
+   "url": "https://hbr.org/2026/11/position-your-product-so-regulators-say-yes-faster",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-18T13:15:13Z",
+   "addedAt": "2026-11-19T12:23:04Z",
+   "basis": "abstract",
+   "takeaway": "When regulators are stretched thin, how a product is framed may speed its approval, so framing is a strategic input to regulatory work and not only a presentation choice.",
+   "summary": "The publisher's abstract reports new research suggesting that when regulators are overwhelmed, the right framing of a product can accelerate the approval process. Only the abstract was supplied, so the sample, method, the specific framings tested and the size of the effect cannot be checked. The claim is conditional: framing appears to matter most when the reviewer's capacity is limited.",
+   "keyPoints": [
+    "The central claim is that under heavy workload, regulators may respond more to how a product is presented.",
+    "The reported benefit concerns the speed of approval, not necessarily the merits of the product.",
+    "The abstract gives no detail on method, sample, or which framings worked, so the findings should be cited only as a headline.",
+    "For a firm, this suggests the regulatory submission is also a positioning exercise aimed at a specific audience.",
+    "Framing that obscures risk raises ethical and legal concerns and could undermine trust with the regulator."
+   ],
+   "modules": [
+    {
+     "id": "marketing",
+     "relevance": 60,
+     "reading": "The article treats the regulator as the target audience and framing as a way of positioning a product in that audience's mind. Regulators are not customers, but the logic of segmentation, targeting and positioning still applies: the firm must understand what this audience needs and how it weighs alternatives. A marketing student should see that non-customer audiences can be analysed with the same tools."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "The abstract points to how overloaded people process information: when attention is scarce, the cues that are presented first and most clearly tend to shape judgement. This connects to perception, selective perception and perceptual biases in Unit 2, and to the way power over information can shape decisions in Unit 5. A PWO student should care because it shows how individual cognition and organisational position interact in a decision process."
+    },
+    {
+     "id": "projects",
+     "relevance": 35,
+     "reading": "A regulator is a key stakeholder whose decisions set the timeline and the risk of delay for a product launch. Understanding its power, interest and capacity, and engaging it at the right time, is a stakeholder management task that can be mapped on Mendelow's power-interest matrix. A projects student can use the article to show how stakeholder engagement affects the schedule."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "marketing",
+     "concept": "Segmentation, targeting and positioning (STP)",
+     "unit": "",
+     "theory": "STP is the process of dividing a market into groups with shared needs, choosing which groups to serve, and positioning the offer so that it occupies a distinct place in the target's mind relative to alternatives. Positioning depends on understanding the target's decision criteria and what it sees as the important differences between options.",
+     "link": "The abstract treats the regulator as the audience for a product message, and it says the right framing matters most when the audience is overwhelmed. This maps onto STP: the regulator is the target, and the firm must know which criteria the reviewer uses to decide. Framing then acts as the positioning device, deciding which attributes of the product are foregrounded. The point is strongest when the reviewer has limited time to find those attributes unaided.",
+     "critique": "Positioning theory assumes a buyer choosing between alternatives, whereas a regulator applies statutory criteria and cannot be persuaded by messaging alone. Framing that goes beyond clarity risks breaching the duty of candour and damaging the firm's credibility with the regulator.",
+     "practice": "A manager should first establish the reviewer's decision criteria and information needs, then frame the dossier around the evidence those criteria require. The team should test the summary by reading it as a reviewer would, and keep every claim verifiable."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Perceptual biases and selective perception",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Perception is the process by which people select, organise and interpret information. Selective perception means attending to information that fits existing expectations, and perceptual biases such as the halo effect and stereotyping can distort judgement, with these shortcuts becoming more influential when people are under pressure.",
+     "link": "The abstract's finding that framing matters most when regulators are overwhelmed is consistent with selective perception: a reviewer with little time attends to the cues presented first and draws conclusions from them. A halo effect may operate if a favourable framing colours the reading of the rest of the file. The abstract does not say which frames worked, so this mechanism is an inference from the theory, not a finding reported in the text.",
+     "critique": "The theory describes individual judgement, but regulatory decisions are made under procedures, checklists and sometimes two-person review, which limit personal discretion. The perception account may therefore transfer poorly from individuals to institutions.",
+     "practice": "A manager should present the most material evidence early and clearly, anticipate where a reviewer might misread the file, and avoid framing that creates a halo around weak evidence. The aim is to make the strongest evidence easy to find and check."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Organisations depend on others for critical resources, and power rests with the party that controls resources others need and cannot easily obtain elsewhere. Organisations seek to reduce their own dependence and may use the dependence of others as leverage.",
+     "link": "A regulator depends on the firm for the information needed to assess a product. When the regulator is overwhelmed, its reliance on a clear and usable submission grows, so the firm's presentation gains influence over the timing and outcome. This is a direct reading of the article's claim that framing can speed approval when the regulator's capacity is stretched.",
+     "critique": "Resource dependence explains power through control of resources but says little about formal authority and statutory duties, which limit how far dependence can be exploited. Using dependence to steer decisions also raises questions of regulatory capture and public accountability.",
+     "practice": "A manager should recognise that the regulator's need for usable information is a source of leverage. The firm should invest in complete, well-structured submissions and engage transparently within the rules, rather than trying to exploit the regulator's workload."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A firm has a new product that needs approval from a regulator whose staff are handling a heavy backlog of applications. The firm's competitors are also waiting for decisions from the same body. The firm's team must decide how to structure its submission and what to emphasise in the covering summary.",
+    "question": "Advise the board on how the firm should frame its submission to the regulator, and critically evaluate whether framing can ethically accelerate approval.",
+    "evidence": [
+     "The publisher's abstract reports new research that the right framing can accelerate approval when regulators are overwhelmed.",
+     "The finding is conditional on the regulator being overwhelmed, so it applies most clearly to stretched review bodies.",
+     "The abstract refers to framing, which points to how the product is presented rather than to changes in the product itself.",
+     "The abstract gives no detail on method or sample, so it should be cited as a headline finding and not as established evidence of effect size."
+    ],
+    "plan": [
+     "Identify the regulator as the target audience and set out its decision criteria, using segmentation, targeting and positioning.",
+     "Diagnose the regulator's capacity and explain how an overloaded reviewer relies on cues, applying selective perception and the halo effect.",
+     "Assess the firm's leverage by applying resource dependence theory: the regulator depends on the firm's information, and this gives the firm influence.",
+     "Map the regulator and other stakeholders on Mendelow's power-interest matrix to plan the timing and intensity of engagement.",
+     "Evaluate the limits and ethics of framing, including the risk of obscuring risk and the danger of regulatory capture.",
+     "Recommend that the firm front-load verifiable evidence, engage early, and frame the submission for clarity and checkability rather than persuasion."
+    ],
+    "pitfalls": [
+     "Treating the abstract's finding as proven in general, or inventing figures, framings or study details that the abstract does not give.",
+     "Recommending misleading framing without addressing the regulator's duty of candour and the ethical and legal risks of obscuring information."
+    ]
+   },
+   "alsoConsider": [
+    "Bounded rationality (Simon)",
+    "Mendelow's power-interest matrix",
+    "Pfeffer's political tactics in organisational politics"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that individuals and organisations can influence decisions by managing how information is framed, drawing on theories of perception and power.",
+    "outline": [
+     "Explain perception, selective perception and perceptual biases, and why they may matter more when decision makers are overloaded.",
+     "Explain resource dependence and political influence, showing how control over information can shift power in a decision process.",
+     "Critique the view by distinguishing clarity from manipulation, noting the constraints of formal procedures and institutional accountability, and conclude."
+    ]
+   }
+  },
+  {
+   "id": "abcf008149ca",
+   "title": "How Agilent is educating its procurement team about climate goals",
+   "url": "https://trellis.net/article/how-agilent-educates-procurement-team-climate-goals/",
+   "source": "Trellis",
+   "publishedAt": "2026-11-19T10:09:00Z",
+   "addedAt": "2026-11-19T12:23:04Z",
+   "basis": "full_text",
+   "takeaway": "Agilent's training shows that the hard part of supply chain decarbonisation is getting people to act on it, and that progress on Scope 3 is only as credible as its measurement.",
+   "summary": "Agilent has trained close to 250 staff, mostly in procurement, through a voluntary, self-paced online course of about 90 minutes on Scope 3 emissions and supplier engagement. The aim is to let buyers raise decarbonisation during contract negotiations, judge supplier maturity and know when to escalate technical questions, without overwhelming them with jargon. The training sits alongside dialogue with more than 100 strategic suppliers, assessment of over 200 suppliers, and a supplier code of conduct now covering net-zero goals, reduction progress and reporting. Scope 3 makes up 90 per cent of Agilent's footprint and its validated target is a 30 per cent cut by 2030. The company reports a 43.4 per cent cut, but only for upstream transport and distribution, business travel and employee commuting. Its Scope 3 disclosures have been inconsistent for three years, its baseline has been restated higher, and no decision has been taken on making the training mandatory.",
+   "keyPoints": [
+    "The training is voluntary, online and takes about 90 minutes, though it can be split into shorter sessions; most participants are from procurement.",
+    "Its purpose is to give buyers foundational Scope 3 knowledge, so they can discuss targets with suppliers, gauge supplier maturity and escalate technical matters.",
+    "Scope 3 accounts for 90 per cent of Agilent's greenhouse gas emissions, and the target is a 30 per cent cut by 2030.",
+    "The reported 43.4 per cent reduction covers only a small slice of Scope 3, namely upstream transport, business travel and commuting.",
+    "Scope 3 disclosures have been inconsistent for three years and the baseline was restated higher, which complicates comparisons over time."
+   ],
+   "modules": [
+    {
+     "id": "purchasing",
+     "relevance": 85,
+     "reading": "The article is squarely about how a buyer manages sustainability within supplier relationships, which is the core of this module. Agilent uses contract negotiation as its lever, trains buyers to assess supplier maturity and has updated its code of conduct to set expectations. For a purchasing student the interest lies in how a large buyer tries to shift supplier behaviour on emissions it does not directly control, and in the data and power questions that follow."
+    },
+    {
+     "id": "green",
+     "relevance": 75,
+     "reading": "The article is about Scope 3 emissions, the category that makes up most of Agilent's footprint, and the difficulty of reporting progress on it. It gives a concrete example of reductions reported for transport, business travel and commuting while the larger part of the footprint remains unverified. Green logistics students should note that upstream transport is only one slice of the problem, and why consistent baselines and assured data matter for credible decarbonisation."
+    },
+    {
+     "id": "pwo",
+     "relevance": 55,
+     "reading": "From a People, Work and Organisations standpoint this is a change programme: Agilent is trying to alter how procurement staff think and act, and the training is one tool alongside governance and process changes. The decision to keep the course voluntary, and the open question of whether it becomes mandatory, raises issues of motivation, ability and accountability. Students should see the article as a case of capability building and embedding change in roles, rather than simply a sustainability policy story."
+    },
+    {
+     "id": "scm",
+     "relevance": 40,
+     "reading": "Supply chain integration matters because Agilent needs supplier data, product-level carbon footprints and supplier targets to flow upstream if it is to meet its Scope 3 goal. The article describes direct dialogue with strategic suppliers and systematic assessment, which is a more collaborative form of buying than arm's-length purchasing. SCM students can use it to test how far the company's supplier relationships go beyond routine information exchange."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "purchasing",
+     "concept": "Power in buyer-supplier relationships (Cox)",
+     "unit": "",
+     "theory": "Cox holds that power in a buyer-supplier relationship depends on the resources each party controls and on how dependent each is on the other. A buyer's leverage therefore reflects its position in the supply market, and buyers can choose approaches ranging from arm's-length control to closer collaboration depending on that position. Power is a property of the relationship, not simply of the size of the buyer.",
+     "link": "Agilent is a large buyer that has assessed more than 200 strategic and preferred suppliers and holds direct dialogue with over 100 of them, so it has the leverage to set expectations. Updating the supplier code of conduct to include net-zero goals, reduction progress and reporting is an attempt to use its buying position to set terms. However, Agilent's own Scope 3 reporting depends on product-level carbon data from suppliers, so the company is also dependent on those suppliers for the information it needs to meet its target.",
+     "critique": "Cox's framework explains leverage mainly in terms of who depends on whom in a market, which does not fully account for why a powerful buyer still needs its suppliers to share data and cooperate. The article's emphasis on dialogue and capability suggests that collaborative approaches may work better than coercive ones in this context.",
+     "practice": "A procurement manager applying this would map which suppliers depend on Agilent and which dependencies run the other way, particularly for product-level carbon data. Firm expectations would be set where Agilent's leverage is high, and joint target-setting and data sharing where dependence is mutual. Negotiating teams should be given the escalation route the training describes, so they know when a technical question needs specialist input."
+    },
+    {
+     "moduleId": "green",
+     "concept": "Carbon footprinting and Scope 1, 2 and 3 emissions",
+     "unit": "",
+     "theory": "Scope 1 covers direct emissions from sources an organisation owns or controls, Scope 2 covers indirect emissions from purchased energy, and Scope 3 covers the other indirect emissions across the value chain, both upstream and downstream. Carbon footprinting measures these emissions so that organisations can set, track and report reduction targets. Scope 3 is usually the largest and hardest category to measure because it relies on data from suppliers and customers.",
+     "link": "The article states that Scope 3 represents 90 per cent of Agilent's greenhouse gas emissions, and that its validated target is a 30 per cent cut by 2030. The reported 43.4 per cent reduction applies only to upstream transport and distribution, business travel and employee commuting, which are a small slice of the Scope 3 total. Inconsistent disclosures over three years and a restated baseline make progress hard to compare, and assured data for capital goods and purchased goods and services is still to come.",
+     "critique": "Scope 3 accounting relies on estimates and supplier data of uneven quality, so a company can report strong percentage reductions in categories that are easier to influence while the larger, harder categories remain unverified. Changing the baseline also changes the apparent scale of progress, which is why the restatement matters.",
+     "practice": "A sustainability team applying this should report emissions by Scope and by category against a consistent baseline, and disclose any restatements clearly. It should prioritise assured data for the categories that dominate the footprint, such as purchased goods and capital goods, and set procurement targets against those categories rather than only those already showing reductions."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "ADKAR model (Hiatt)",
+     "unit": "Unit 8 Organisational change",
+     "theory": "ADKAR is an individual-level change model with five building blocks: awareness of the need for change, desire to take part, knowledge of how to change, ability to put new behaviour into practice, and reinforcement that sustains it. Change tends to stall at whichever block is missing, so managers should diagnose which one is weakest. It is used to plan the people side of organisational change.",
+     "link": "The training addresses the knowledge block directly by giving procurement staff foundational Scope 3 concepts and guidance on supplier target-setting, and the escalation path supports ability when conversations become technical. Awareness is implied by the company's emphasis on its 30 per cent target and its updated code of conduct. Desire is less certain because the course is voluntary and no decision has been made on mandatory participation, and reinforcement is still being built through governance, accountability and the next reporting cycle.",
+     "critique": "ADKAR assumes a reasonably sequential progression and focuses on the individual, whereas procurement behaviour is shaped by commercial targets, supplier pressure and team norms that the model does not address explicitly. Reinforcement is often the hardest block in practice, and the article reports training uptake rather than any evidence yet of changed negotiating behaviour.",
+     "practice": "A manager using ADKAR would test where the gap lies, for example by checking whether buyers can apply the knowledge in negotiations (ability) and whether they are motivated to do so (desire). Reinforcement should follow: link decarbonisation to objectives and performance reviews for procurement staff, build the supplier code into routine contract steps, and decide deliberately whether the course should be mandatory."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain integration and the arcs of integration (Frohlich and Westbrook)",
+     "unit": "",
+     "theory": "Frohlich and Westbrook describe how firms integrate with their suppliers and customers along arcs, and they link the breadth of these arcs to performance. Integration involves sharing information, plans and processes with partners, so a broader arc signals a more collaborative relationship. Greater integration generally requires investment in relationships and data systems, and it is not free.",
+     "link": "Agilent describes direct dialogue with over 100 strategic suppliers and a systematic assessment of more than 200, which are forms of upstream integration around sustainability information. The company says product-level carbon data has to go back up to its suppliers, so information must be shared between firms rather than collected at arm's length. The article also shows that integration is still developing, since the data needed for capital goods and purchased goods and services is not yet ready.",
+     "critique": "The arcs model was developed to explain operational performance, and it does not address the risk that sharing sustainability data exposes suppliers to scrutiny, which may make them reluctant. Broader integration also depends on common standards and methods, and the article does not describe Agilent as having agreed these with its suppliers.",
+     "practice": "A supply chain manager would widen integration step by step, starting with data-sharing agreements and common emissions templates for the most significant suppliers, then moving to joint targets and shared improvement plans. Contracts should set clear data requirements, and the parties should agree who bears the cost of collecting supplier data."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A lab equipment company has trained close to 250 staff, most of them in procurement, using a voluntary online course of about 90 minutes on Scope 3 emissions. Scope 3 makes up 90 per cent of its footprint and its target is a 30 per cent cut by 2030, but the reported reductions cover only a small part of that footprint. The head of sustainability has not yet decided whether the training should become mandatory.",
+    "question": "Critically evaluate whether voluntary training is enough to change the behaviour of procurement staff in pursuing supply chain decarbonisation, and advise the head of sustainability on what should happen next.",
+    "evidence": [
+     "Close to 250 employees have been trained, most from procurement, on a voluntary basis.",
+     "The course is available on demand, takes about 90 minutes and can be taken in shorter sessions.",
+     "No decision has yet been made on making the training mandatory in the next wave.",
+     "Scope 3 is 90 per cent of emissions, yet the reported 43.4 per cent reduction covers only upstream transport, business travel and employee commuting."
+    ],
+    "plan": [
+     "Define the change being attempted: embedding decarbonisation into procurement roles and supplier negotiations, and recognise it as a people-side change rather than only a policy change.",
+     "Apply ADKAR to diagnose the weakest block. The course appears to address awareness and knowledge, the escalation path partly supports ability, and desire and reinforcement are uncertain because participation is voluntary.",
+     "Assess the evidence critically. Completion figures show exposure to the material, not changed negotiating behaviour, and the reported reductions do not show progress in the largest Scope 3 categories.",
+     "Consider whether the wider system reinforces the change, including the supplier code of conduct, governance arrangements and how procurement performance is measured.",
+     "Recommend that decarbonisation be linked to procurement objectives and reviews, that supplier expectations be built into routine contract steps, that the mandatory question be decided on the basis of the diagnosis, and that behaviour rather than course completion be measured."
+    ],
+    "pitfalls": [
+     "Treating completion of training by about 250 staff as evidence that procurement behaviour has changed, which the article does not show.",
+     "Using the 43.4 per cent reduction as evidence of overall Scope 3 progress, when it covers only three categories that are a small share of the total."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter's eight-step model of change",
+    "Lewin's force field analysis",
+    "Vroom's expectancy theory"
+   ],
+   "exam": {
+    "question": "To what extent can formal training change the behaviour of employees during organisational change? Discuss with reference to the people aspects of change, and to the roles of motivation, ability and reinforcement.",
+    "outline": [
+     "Define the change and its people aspects, and use a change model such as ADKAR to identify where the change is most likely to stall.",
+     "Assess the role of motivation, voluntary participation and accountability in determining whether training leads to lasting behaviour change, using the mandatory-status question as evidence.",
+     "Evaluate the limits of training on its own, and conclude with reinforcement measures such as objectives, governance and measurement of behaviour."
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "19d888babe87",
+   "title": "Amazon sets new carbon intensity goal",
+   "url": "https://trellis.net/article/amazon-carbon-intensity-electricity-goall/",
+   "source": "Trellis",
+   "publishedAt": "2026-11-18T07:00:00Z",
+   "addedAt": "2026-11-19T12:23:04Z",
+   "basis": "full_text",
+   "takeaway": "Amazon's new target is a carbon intensity goal for purchased electricity, and its choice of measure makes progress look different from total emissions, which is a question of goal design, measurement and power that PWO theory can test.",
+   "summary": "Amazon has set a goal to cut the greenhouse gas intensity of its purchased electricity by 65 percent by 2030, measured against 2019 and expressed as CO2e per megawatt-hour. It had not disclosed this metric before, and the 2019 baseline has not been published, so outside observers cannot yet judge how it is performing. The target is set against sharply rising power demand from cloud and AI data centres, although it covers the company's whole global operations. Amazon's total carbon footprint rose 16 percent in 2025 and is up 58 percent since 2019, and Scope 2 is about 5 percent of its inventory. A New Climate Institute analyst argues that the target measures emissions per unit of electricity rather than absolute reduction, and that Amazon has lobbied for looser accounting rules. Amazon says the goal follows the International Energy Agency's net-zero power roadmap and that it will report the metric annually alongside absolute figures.",
+   "keyPoints": [
+    "The new goal is a 65 percent cut in Scope 2 carbon intensity by 2030 against 2019, measured as CO2e per megawatt-hour of electricity consumed.",
+    "The 2019 baseline has not been disclosed, so performance against the target cannot yet be assessed, though Amazon has published its methodology.",
+    "Total carbon footprint rose 16 percent in 2025 and is up 58 percent since 2019, while Scope 2 is about 5 percent of total inventory.",
+    "Scope 2 intensity per dollar of revenue fell 32 percent since 2019 but rose 34 percent between 2024 and 2025, showing how the choice of denominator changes the picture.",
+    "Amazon's previous goal to match electricity use with renewable energy by 2025 has been met since 2023."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 90,
+     "reading": "This is squarely a green logistics and sustainability story about how a large firm counts and reports emissions from electricity. The central issue is whether intensity (emissions per unit of electricity) or absolute emissions should be the measure of decarbonisation, and the article shows that the two can point in opposite directions. Students of this module should care because the target covers only Scope 2 while the company's total footprint is growing, which raises questions about boundaries and carbon accounting that they will need to define precisely in an answer."
+    },
+    {
+     "id": "pwo",
+     "relevance": 55,
+     "reading": "In PWO terms, the article is about how an organisation sets a performance target, how that target is measured and how influence shapes what counts as progress. The Chief Sustainability Officer argues that a measurable near-term goal keeps the organisation focused, which invites goal-setting theory, while the analyst's claim about lobbying invites an analysis of power and politics. Students should care because the case shows how the choice of metric can influence the behaviour of the people responsible for delivering it."
+    },
+    {
+     "id": "strategy",
+     "relevance": 40,
+     "reading": "The article touches on strategic performance measurement, since Amazon uses several linked metrics (intensity per megawatt-hour, intensity per dollar of revenue and absolute inventories) to show progress on a strategic commitment. The tension between a growing cloud business and a falling emissions metric is a strategic trade-off that a strategy student would need to explain. The strategy module is a secondary connection because the article focuses on sustainability reporting rather than on competitive positioning."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "Carbon footprinting and Scope 1, 2 and 3 emissions (Greenhouse Gas Protocol)",
+     "unit": "",
+     "theory": "A carbon footprint is the total greenhouse gas emissions attributable to an organisation or activity, and the Greenhouse Gas Protocol divides them into Scope 1 (direct emissions), Scope 2 (emissions from purchased energy) and Scope 3 (emissions across the value chain). Organisations can report absolute emissions or intensity, which relates emissions to a unit of output or input, and a fall in intensity can coexist with a rise in absolute emissions when output grows faster.",
+     "link": "Amazon's new goal applies to electricity, which falls within Scope 2, and the article notes that Scope 2 is about 5 percent of its inventory, so the headline target covers a small part of the total footprint. The metric is CO2e per megawatt-hour, and the article reports that the total footprint rose 16 percent in 2025 and 58 percent since 2019, while Scope 2 intensity per dollar of revenue fell 32 percent over the same period before spiking 34 percent between 2024 and 2025. This shows how the same emissions data can support different stories depending on the denominator and the scope chosen.",
+     "critique": "The protocol classifies emissions by source and does not itself say which metric should drive decarbonisation, so an organisation can select a favourable scope and denominator while leaving the larger part of its footprint unaddressed. Defenders of intensity metrics argue that they tie emissions to the physical commodity being decarbonised, which is the rationale Amazon gives, so the critique depends on whether absolute reduction is treated as the real test.",
+     "practice": "A manager applying this would report intensity and absolute emissions side by side, publish the baseline and methodology, and show the trajectory for Scope 3 as well as Scope 2. The manager would also state which measure is the primary target so that stakeholders do not judge progress on a single favourable denominator."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Goal-setting theory (Locke and Latham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Locke and Latham argue that specific and challenging goals lead to higher performance than vague goals or 'do your best' instructions, provided that people accept the goal, have feedback on their progress and have the ability and resources to achieve it. Commitment and feedback are the key conditions that link goals to performance, and the effect is strongest when progress can be observed and corrected.",
+     "link": "Amazon's Chief Sustainability Officer says a near-term measurable goal keeps the company focused and gives customers a trajectory to track, which reflects the specificity Locke and Latham stress. The goal is set for 2030 and Amazon has promised annual reporting and a published methodology, which would provide feedback. However, because the 2019 baseline has not been disclosed, employees and outside observers cannot yet tell whether the goal is challenging or easy, which weakens the feedback loop that the theory treats as essential.",
+     "critique": "Goal-setting research is mainly based on individual and task-level studies, so applying it to an organisation-wide sustainability target with a long horizon involves a large leap. The theory also gives little guidance on conflicting goals, such as cloud growth and emissions reduction, and on how people respond when the measured goal is easier to meet than the underlying aim.",
+     "practice": "A manager would cascade the target into interim milestones for the data-centre and energy-procurement teams, publish the baseline so progress can be checked, and give regular feedback on both intensity and absolute emissions. The manager would also align team objectives and incentives so that teams are not rewarded for improving the intensity figure while total emissions rise."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Lukes's three dimensions of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Lukes distinguishes three dimensions of power: the first is overt decision-making power, the second is the power to set the agenda and keep issues off it, and the third is the power to shape people's perceptions and preferences so that they do not recognise a conflict of interest. The third dimension is the most subtle because it concerns what people come to regard as the natural or legitimate way to define a problem.",
+     "link": "The analyst argues that Amazon has used its influence to advocate for looser emissions accounting rules and that the new intensity target continues this pattern. Under the third dimension, the power lies less in a single decision than in deciding which measure counts as progress, because a metric shapes what managers and customers see as success. The article also presents the goal as a response to rising AI and cloud demand, which shows how the framing of a target can itself be a form of influence.",
+     "critique": "The lobbying claim comes from one analyst and the article gives no evidence of the lobbying itself, so the argument should be presented as an assessment rather than a fact. Amazon's supporting reasons, including its reliance on the International Energy Agency roadmap and external experts, suggest that intensity may be a legitimate measure, and Pfeffer would see such influence as an ordinary part of organisational life rather than manipulation.",
+     "practice": "A manager facing this situation should separate the technical choice of metric from any lobbying, document the rationale for the metric and invite independent scrutiny of the methodology. The manager should also check whether the teams' own preferences are being shaped by what is measured, and whether they would notice a rise in absolute emissions."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "The balanced scorecard (Kaplan and Norton)",
+     "unit": "",
+     "theory": "The balanced scorecard is a performance measurement system that translates strategy into a set of linked measures across four perspectives: financial, customer, internal business process, and learning and growth. Its purpose is to give managers a balanced view of performance rather than relying on financial measures alone, with each measure linked to a cause-and-effect chain that supports the strategy.",
+     "link": "Amazon reports several metrics at once, including absolute emissions inventories, intensity per megawatt-hour and intensity per dollar of revenue, and the new metric will be reported alongside the others. This resembles a scorecard approach, but the article shows the measures pointing in different directions, with intensity falling over the period while absolute emissions rose 58 percent. A scorecard would need to explain how these measures relate to the strategic aim of growth with lower impact.",
+     "critique": "The balanced scorecard assumes that the measures are chosen to reflect strategy and that the cause-and-effect links are clear, but in this case the measures were partly chosen for sustainability reporting and the scorecard does not resolve the trade-off between growth and emissions. Too many measures can also dilute focus, so a scorecard can become a list of figures without a clear priority.",
+     "practice": "A manager applying this would select a small set of linked measures, state which one is the primary target and explain how each measure connects to the strategy of growing the cloud business responsibly. The manager would also review whether the measures are consistent with each other before presenting them to the board."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large technology company with a growing cloud and AI business has announced a target to cut the carbon intensity of its purchased electricity by 65 percent by 2030, measured per megawatt-hour against a 2019 baseline it has not yet published. Its absolute emissions have risen sharply over the same period as data-centre demand has grown, and an external analyst argues that the target was shaped by lobbying for looser accounting rules. The board has asked the people and operations director to ensure that the teams responsible for data centres and energy procurement deliver the target.",
+    "question": "Advise the board on how to make the new carbon intensity target motivate the teams responsible for data centres and energy procurement, and critically evaluate the risk that the target reflects the influence of particular interests rather than sound evidence.",
+    "evidence": [
+     "The intensity target is 65 percent by 2030 against 2019, measured as CO2e per megawatt-hour, and the 2019 baseline has not been disclosed.",
+     "Total carbon footprint rose 16 percent in 2025 and is up 58 percent since 2019, while Scope 2 is about 5 percent of total inventory.",
+     "Scope 2 intensity per dollar of revenue fell 32 percent since 2019 but rose 34 percent between 2024 and 2025.",
+     "An analyst at New Climate Institute says the company has used its influence to advocate for looser emissions accounting rules and that the new target targets lower emissions per unit rather than absolute reduction."
+    ],
+    "plan": [
+     "Set out the target and its measurement position, noting that the undisclosed baseline limits feedback, and apply goal-setting theory (Locke and Latham, Unit 3) to test whether the goal is specific, challenging, accepted and supported by feedback.",
+     "Recommend publishing the baseline and setting quarterly or annual milestones so that teams can see whether the goal is challenging and can adjust their behaviour.",
+     "Apply Lukes's three dimensions of power (Unit 5) to examine whose definition of progress the metric reflects and to assess the lobbying claim as an analyst's assessment rather than established fact.",
+     "Examine the trade-off between intensity and absolute reduction, showing how team incentives tied only to intensity could allow the metric to improve while total emissions rise, and link this to a balanced set of measures.",
+     "Conclude with a recommendation to cascade both intensity and absolute measures into team objectives and rewards, and to invite independent review of the methodology."
+    ],
+    "pitfalls": [
+     "Treating the lobbying claim as established fact rather than as one analyst's assessment, which the article does not substantiate.",
+     "Treating Scope 2, at about 5 percent of inventory, as the whole footprint, or assuming that a falling intensity figure means the company's emissions are falling."
+    ]
+   },
+   "alsoConsider": [
+    "Resource dependence (Pfeffer and Salancik)",
+    "Triple bottom line (Elkington)",
+    "Mintzberg's political games",
+    "Self-determination theory (Deci and Ryan)"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether specific and measurable organisational targets motivate people to change their behaviour, or whether they encourage people to optimise the measured metric at the expense of the underlying aim, drawing on a current example.",
+    "outline": [
+     "Explain goal-setting theory (Locke and Latham) and the conditions under which goals motivate: specificity, difficulty, acceptance and feedback.",
+     "Assess how the choice of metric and the influence of powerful actors shape which goals are set, using Lukes's three dimensions and an example such as Amazon's intensity target.",
+     "Evaluate the risk of goal displacement and conclude with practical design features for organisational targets, such as a published baseline, linked absolute and intensity measures and aligned incentives."
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "56d9c8afcf54",
+   "title": "The Five Barriers Keeping AI Agents Out of Supply Chain Planning",
+   "url": "https://www.supplychainbrain.com/technology/artificial-intelligence/article/16425619/the-five-barriers-keeping-ai-agents-out-of-supply-chain-planning",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-19T08:49:00Z",
+   "addedAt": "2026-11-19T12:23:04Z",
+   "basis": "full_text",
+   "takeaway": "The five barriers to AI agents in supply chain planning are mostly about trust, data, governance and human-paced processes, so the real test is how authority is handed to people and systems in stages, which makes this a question of organisational behaviour as much as of technology.",
+   "summary": "A short piece by Mike Landry, CEO of ketteQ, argues that AI agents can recommend orders, flag shipments and contact suppliers, but that planners should extend their authority gradually. He sets out five barriers. Planners must be able to inspect the data, assumptions and reasoning behind a recommendation. Company data is often scattered, incomplete or contradictory, and AI can be used to diagnose this. Firms with several ERP systems and vendor agents need rules for how information moves and how conflicting recommendations are settled. Governance must say what an agent may do and who approves, reviews and intervenes, because people remain responsible. Approval and handoff processes designed for human speed can stretch a short task over several days. Landry recommends pilots that keep existing checks in place, that expand permissions step by step for familiar tasks under defined conditions, and that keep human review where judgement is needed. The article is written by a vendor describing its own product, Quintus, and it offers no outcome data.",
+   "keyPoints": [
+    "Trust depends on planners being able to examine the data, assumptions and logic behind a recommendation, and on keeping their usual checking tools during a pilot.",
+    "AI can be used to find where records disagree, what evidence supports each finding and what needs correcting, so a pilot can test data readiness before the agent is allowed to act.",
+    "Several ERP systems and several vendors' agents require explicit rules for how information passes between them and how conflicts are resolved.",
+    "Accountability stays with people, so firms must name approvers, reviewers and intervention points even where a governance board exists.",
+    "Authority can grow in steps, for example from a planner approving each supplier email to the agent sending similar emails automatically with a daily report."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "This is squarely about supply chain planning and execution. The article concerns how planning decisions, supplier messages and transaction data held in several ERP systems must be joined up across suppliers, manufacturers and customers. A supply chain student should read the fragmented data and the delays between messages as the core integration problem. The article also links the value of an agent to how quickly it can respond to late deliveries and changed customer orders, which is a resilience issue."
+    },
+    {
+     "id": "pwo",
+     "relevance": 65,
+     "reading": "For People, Work and Organisations the article concerns how people come to accept and delegate authority to a non-human actor. It touches job design, because automating routine exchanges changes what planners do all day. It touches change management, because adoption is presented as a staged, pilot-based process that depends on trust. It also raises questions of accountability and approval structures, which are formal organisational matters. The vendor frames these as technical barriers, but the behavioural ones are at least as important."
+    },
+    {
+     "id": "projects",
+     "relevance": 35,
+     "reading": "The article describes adoption as a pilot that is widened in stages once there is evidence that it works. This is close to stage-gate governance in project management, where work moves forward only when defined criteria are met. The point that a pilot should follow a task across systems and handoffs to find where it breaks down is also a useful lesson on why projects fail at their interfaces."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Frohlich and Westbrook's arcs of integration",
+     "unit": "",
+     "theory": "Frohlich and Westbrook describe the extent of supply chain integration as arcs running from suppliers to customers, which a firm can widen by linking its information and processes outwards and upwards. Wider integration, meaning shared information and joined-up processes, is associated with better performance, while integration limited to one side or one function leaves gaps. Integration therefore concerns information flows as well as physical flows.",
+     "link": "Landry's point that an agent must draw on information across several ERP systems and vendor platforms corresponds to the internal part of the arc, where records must be consolidated before they can be shared outwards. His account of a supplier question delayed across time zones shows the gap between information moving and decisions being made. The article's description of coordinating actions among suppliers, manufacturers and customers is the outward arc, where delays between messages slow execution. Frohlich and Westbrook's framework would ask whether the agent really widens integration or simply adds another silo.",
+     "critique": "The arcs model assumes that wider integration is always beneficial and measures it mainly by the breadth of links. The article suggests that faster information yields faster action only if the decision process changes too, and the model says little about internal approval practices.",
+     "practice": "A planning director should map which records and decisions cross each boundary and test whether the pilot follows a real order from customer request to supplier response. Gaps found should be fixed in data and process before the agent is given authority to act across them."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Hackman and Oldham's Job Characteristics Model",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The Job Characteristics Model holds that five core job dimensions, namely skill variety, task identity, task significance, autonomy and feedback, shape three psychological states. These states in turn produce internal work motivation, satisfaction and performance. Autonomy and feedback from the work itself are the dimensions most affected when jobs are redesigned, and the strength of a person's growth need moderates how strongly they respond.",
+     "link": "Landry's example of a planner who first approves each supplier email and later lets the agent send similar messages with a daily report describes a shift in autonomy, with the planner moving from doing and checking to supervising by exception. The model predicts that this raises perceived responsibility, provided the planner still receives feedback on outcomes through the daily report. The article's point that routine exchanges can be automated while judgement is preserved suggests that task significance may rise, because planners concentrate on the exceptions that matter.",
+     "critique": "The model was developed for individually designed jobs and assumes the job holder can shape the work. In an agent-based process, autonomy may be formally granted while discretion is removed by the system, and the model does not deal with surveillance, deskilling or loss of control. Its link to satisfaction is also more contested than the model implies.",
+     "practice": "A manager should redesign planner roles on purpose, moving people from routine approvals towards exception handling and judgement, and should give clear feedback on what the agent did and why. The manager should then check whether skill variety and task significance have actually increased. Extending authority in steps, as the article describes, gives time to test whether the redesign works."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Kotter and Schlesinger's approaches to overcoming resistance to change",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Kotter and Schlesinger identify several ways of dealing with resistance to change, including education and communication, participation and involvement, facilitation and support, negotiation, manipulation and coercion. The right approach depends on whether people lack information, have legitimate concerns or hold the power to block the change. Participation tends to work best when people hold relevant information and the change needs their commitment.",
+     "link": "Landry's advice that planners should compare the agent's answers with their own work, investigate discrepancies and extend trust gradually reflects participation and involvement combined with education. Letting planners identify where records disagree also draws them into diagnosing the problem rather than receiving a finished tool. The article implies that trust develops from visible evidence of how recommendations are reached, which points to reducing resistance through transparency rather than persuasion alone.",
+     "critique": "The framework treats resistance as an obstacle to be managed. Planners' scepticism may be a rational check on an agent that is wrong in places, so overcoming resistance could mean accepting poor recommendations. The article also says little about job security, which is often the strongest source of resistance to automation.",
+     "practice": "The change lead should involve planners early, including in setting the test cases and the conditions for verification, and should provide training in how the agent reasons. Concerns about changing roles and job security should be addressed openly. Resistance that reflects genuine errors should be recorded and acted on rather than managed away."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Dimensions of organisational structure: formalisation and chain of command",
+     "unit": "Unit 6 Designing effective organisations",
+     "theory": "Organisation structure can be described along dimensions such as formalisation, the extent to which written rules and procedures govern work, and chain of command, the line of authority through which decisions pass. High formalisation and long approval chains give consistency and clear accountability, but they slow responses to change. Structural design involves deciding where each dimension should sit given the environment and the kind of work being done.",
+     "link": "Landry's example of a question arriving while colleagues in another time zone are asleep, followed by a wait for the right person to review and reply, shows how a chain of approval stretches a short task over days. His call to examine waiting periods and to automate routine exchanges, while keeping human review where judgement is needed, amounts to reducing formalisation for routine matters and keeping the chain of command for exceptions. The governance rules he describes, naming who approves and who intervenes, are a formal structure that the pilot must define.",
+     "critique": "Structural dimensions describe formal arrangements but not the informal practices that actually speed or slow work. The article's claim that delay is a process problem may depend on informal norms, which these dimensions do not capture. Burns and Stalker's distinction between mechanistic and organic organisations suggests that a shift towards responsiveness may be needed, not simply automating the existing chain.",
+     "practice": "A manager should map the approval chain for each recurring planning task and classify tasks as routine or judgement-based. Approval layers can then be removed for routine tasks within clear limits, while authority for exceptions stays with named people. The change should be judged against cycle time as well as output quality."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A consumer goods manufacturer with three separate ERP systems and suppliers in Asia plans to introduce AI agents into its planning department. The agents will recommend order changes, flag shipments at risk and email suppliers. Senior managers say the tool will save time, but several planners are worried about their roles and about the reliability of the underlying data.",
+    "question": "Critically evaluate how the planning director should introduce the AI agents so that planners trust and use them, drawing on theories of job design and organisational change, and recommend an approach for the first six months.",
+    "evidence": [
+     "Planners need to examine the data, assumptions and logic behind a recommendation, and a pilot should keep their existing checking tools in place.",
+     "Permission can be extended in steps, from a planner approving each supplier email to the agent sending similar emails automatically with a daily report.",
+     "A task that might take five minutes can take two or three days when it passes through approvals and time zones.",
+     "Companies with several ERP systems must join up their records and agree how agents pass information on and resolve conflicting recommendations."
+    ],
+    "plan": [
+     "Define the problem by showing that the barriers in the article are behavioural and structural as well as technical, and name the five barriers of trust, data, fragmentation, governance and speed.",
+     "Apply Kotter and Schlesinger to plan participation, involving planners in designing the pilot tests and verification and addressing their concerns openly.",
+     "Apply Hackman and Oldham to redesign planner jobs, moving them from routine approvals to exception handling, and check whether autonomy, feedback and task significance have improved.",
+     "Apply the structural dimensions of formalisation and chain of command to map approvals, remove unnecessary layers for routine tasks and keep named human accountability for exceptions.",
+     "Use Frohlich and Westbrook's arcs of integration to decide which data and supplier links must be joined before the agents are given authority across them.",
+     "Recommend a staged plan: diagnose data first, run a verified pilot, extend authority through review gates and measure cycle time and planner engagement at each gate."
+    ],
+    "pitfalls": [
+     "Treating the article as proof that AI agents improve performance, when it is a vendor's account with no outcome data. A strong answer should say so and suggest what evidence the company would need to collect.",
+     "Writing as if the agent could be accountable. The article says people remain responsible, so an answer should specify who approves, who reviews and who intervenes."
+    ]
+   },
+   "alsoConsider": [
+    "Rousseau's psychological contract (Unit 3)",
+    "Edmondson's psychological safety (Unit 4)",
+    "Lewin's force field analysis (Unit 8)",
+    "Kotter's eight-step model of change (Unit 8)"
+   ],
+   "exam": {
+    "question": "To what extent are the barriers to introducing AI tools into organisational decision making behavioural rather than technical? Critically evaluate your answer using theories of job design and organisational change.",
+    "outline": [
+     "Identify the technical barriers in the article, such as data quality and fragmented systems, and explain why they still shape how people behave towards the tools.",
+     "Apply job design (Hackman and Oldham) and resistance to change (Kotter and Schlesinger) to the human barriers of trust, autonomy and accountability, and note the limits of each theory.",
+     "Critically evaluate the vendor's framing of the barriers and reach a balanced conclusion supported by evidence, recommending how the balance should be tested in practice."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "d2d636179d5a",
+   "title": "Report: Asia-North America Trade Lane Presents High Risk Level",
+   "url": "https://www.supplychainbrain.com/logistics/ocean-transportation/article/16542062/report-asianorth-america-trade-lane-presents-high-risk-level",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-19T09:59:00Z",
+   "addedAt": "2026-11-19T12:23:04Z",
+   "basis": "full_text",
+   "takeaway": "When carriers cut planned capacity rather than demand rising, shippers lose booking security and schedule reliability at the same time, so the risk is on the supply side and has to be managed through resilience, contracting and lead-time planning rather than through demand forecasts alone.",
+   "summary": "WiseTech Global's Trade Lane Outlook, released on 10 November, rates the Asia to North America ocean freight lane as high risk across capacity, booking acceptance, on-time performance and transit time, giving an overall high rating. The report attributes the expected tightening of capacity in the second half of November to carriers planning less capacity, not to stronger demand. Booking security risk is well above its historical average and rises towards the end of the four-week outlook, which means shippers may struggle to secure space on preferred sailings. Reliability is weak: monthly on-time performance slipped from 26.9% in September to 25.6% in October, a latest weekly figure of 27.3% is only a small improvement, and delays of eight days or more remain the most common late arrival outcome. Asia to Europe is rated high overall because of on-time and transit time risk, while Europe to North America is rated medium. The signals are built from carrier schedules, forecast supply and demand, booking acceptance rates, arrival performance and port operating indicators.",
+   "keyPoints": [
+    "The four-week outlook rates Asia to North America ocean freight as high risk for capacity, booking acceptance, on-time performance and transit time, and therefore overall.",
+    "Capacity is expected to tighten in the second half of November because carriers are planning less capacity, not because demand is stronger.",
+    "Booking security risk is well above its historical average and increases towards the end of the outlook, threatening access to preferred sailings.",
+    "Monthly on-time performance fell from 26.9% in September to 25.6% in October; the latest weekly figure of 27.3% is only a modest recovery.",
+    "Delays of eight days or more are the largest arrival outcome, so prolonged lateness, not small slippage, is the main threat to lead times."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "In supply chain terms, this is a supply-side disruption to an inbound lane, with capacity, booking security and lead-time variability all moving against the buyer at once. The risk is structural to the network rather than a single shock, so it calls for resilience measures such as buffers, alternative routes and early-warning visibility. A student of this module should care because the report is effectively an early-warning signal that can be fed into risk registers, safety stock decisions and sourcing plans."
+    },
+    {
+     "id": "logops",
+     "relevance": 72,
+     "reading": "Ocean freight on this lane is a transport mode and network question: carriers, sailings, ports and transit times determine whether freight arrives when planned. The article's measures of on-time performance and delay length are service measures that logistics managers use to judge carriers and to trade off cost against service. The student should see that the low reliability figures directly affect inventory, warehouse scheduling and service levels downstream."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 55,
+     "reading": "For a buyer, ocean freight is a purchased service whose supply is concentrated in carriers, and when capacity tightens the balance of power shifts towards suppliers. Booking security risk describes the buyer's difficulty in obtaining the service it needs on acceptable terms. Purchasing students should consider how this affects contract structure, supplier mix and the choice between committed and spot capacity."
+    },
+    {
+     "id": "strategy",
+     "relevance": 38,
+     "reading": "The report describes conditions in an industry in which suppliers of shipping capacity appear to be restricting supply. That raises questions about supplier bargaining power and whether a shift in capacity is cyclical or structural. Strategy students can use the article to test how far industry structure, rather than a single firm's choices, shapes the buyer's options."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Christopher and Peck's supply chain risk management and resilience framework",
+     "unit": "",
+     "theory": "Supply chain resilience is the ability of a supply chain to recover from disruption and return to its original state or a better one. The framework runs from identifying supply chain risks and their sources of vulnerability, through assessing their impact, to building resilience through measures such as redundancy, flexibility, visibility and collaboration. Vulnerability is greatest where the chain is long, lean and dependent on a few sources.",
+     "link": "The report describes a disruption that originates with carriers reducing planned capacity, which is a supply-side source of risk that a buyer does not control. Booking security risk above its historical average shows the vulnerability is already visible in the system, not just forecast. The persistent low on-time performance and the prevalence of delays of eight days or more show that the risk affects lead times across the whole lane, so it is systemic rather than isolated. The outlook's signals function as the visibility element of the framework, allowing a buyer to see risk building before it reaches the warehouse.",
+     "critique": "The framework assumes the focal firm can afford to buy redundancy, but a shipper with limited volume cannot easily secure spare vessel capacity, and extra buffers conflict with the lean efficiency many firms are trying to protect. Visibility also depends on data that is often only available to the carrier or the forwarder.",
+     "practice": "A manager should map which products and customers depend on the Asia to North America lane and how long a stock-out would take to recover. They should then combine safety stock or earlier ordering for the most critical lines with a second carrier or routing option, and use the four-week signals as triggers to review those positions."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Logistics service measures and the cost-service trade-off (on-time in-full and total logistics cost)",
+     "unit": "",
+     "theory": "Logistics performance is usually judged on service measures such as on-time in-full delivery, alongside total logistics cost, which includes transport, inventory and the cost of poor service. Managers trade cost against service by choosing modes, carriers and inventory levels, and they should aim for the combination that minimises total cost for the required service level rather than minimising transport cost alone.",
+     "link": "The article reports on-time performance of about a quarter of arrivals in recent months, which means the large majority of shipments on this lane arrive late against plan. The fact that delays of eight days or more are the most common late outcome matters because the cost of a late delivery depends on how long it is, not only whether it is late. A low on-time rate therefore pushes shippers towards holding more inventory or paying for faster alternatives, which increases total logistics cost even if the freight rate itself is unchanged.",
+     "critique": "On-time performance based on carrier schedules can hide differences between carriers, ports and product types, and a single weekly figure can mislead. Total cost models also depend on estimates of the cost of a stock-out, which are hard to measure, so the apparent trade-off can be imprecise.",
+     "practice": "A logistics manager should track on-time in-full by carrier, port and product, rather than relying on the headline lane figure. Where the cost of delay is high, they should compare the total cost of extra safety stock, air or alternative port routings with the expected cost of late arrival, and choose the option that meets the required service level at least cost."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Cox's power in buyer-supplier relationships",
+     "unit": "",
+     "theory": "Cox argues that the balance of power between buyer and supplier depends on the relative dependence each has on the other, which is shaped by the scarcity of what is supplied, the switching costs and the number of alternatives available. Where the supplier has the advantage, the buyer has to accept worse terms or manage the relationship more carefully. The buyer's power is greatest where the supply is plentiful and easy to switch.",
+     "link": "The report suggests that the balance has moved towards carriers, since capacity is tightening because planned supply falls, and booking acceptance is weak, so buyers find it harder to secure preferred sailings. The emphasis on securing space on preferred sailings shows that the buyer's need for specific capacity gives the carrier leverage. The fact that the shortage is driven by carrier decisions rather than demand means the buyer cannot simply wait for demand to fall to restore its position.",
+     "critique": "Cox's analysis is largely relational and assumes a fairly stable set of suppliers, whereas ocean freight has many carriers and a spot market in which volume can be moved quickly. The buyer's power may therefore be greater than the report implies if it can spread volume across carriers, although that depends on how much capacity is actually available elsewhere.",
+     "practice": "Purchasing managers should reassess ocean freight as a supply market where capacity is constrained, and look to reduce their dependence by negotiating capacity commitments, spreading volume across carriers and developing a spot-market fallback. They should also use the outlook to time contract renewals so they do not negotiate during the tightest period."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Porter's five forces",
+     "unit": "",
+     "theory": "Porter's five forces model describes the competitive structure of an industry through five pressures: rivalry among existing firms, the threat of new entrants, the threat of substitutes, and the bargaining power of buyers and suppliers. Industries are more profitable and their firms have more control where suppliers and buyers are weak and entry and substitution are limited.",
+     "link": "In this case the relevant pressure is the bargaining power of suppliers, here carriers that provide shipping capacity. The report indicates that carriers are reducing planned capacity, which strengthens their position relative to buyers whose booking security is falling. Capacity cuts can also be read as a sign of rivalry being moderated among carriers, since the reduction in supply supports pricing and the carriers' own position.",
+     "critique": "The five forces model is a static, industry-level analysis and does not explain why carriers have reduced capacity or whether they will keep doing so. The report describes a short-term outlook, so a five forces view could overstate a cyclical shift as a permanent change in industry structure.",
+     "practice": "A strategy team should test whether the change in capacity is cyclical or structural by looking at how long carrier capacity restraint has persisted and how it compares with historical patterns. If it appears structural, the firm should consider longer-term responses such as partnering with carriers, diversifying its supplier base or changing its sourcing footprint, rather than relying on short-term fixes."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized US retailer imports most of its consumer goods from Asia by ocean freight and holds relatively lean inventory. In November a trade outlook warns that carriers are cutting planned capacity, booking acceptance is weak and on-time performance on the lane is around one arrival in four. Management must decide how to protect product availability over the coming months without losing its cost advantage.",
+    "question": "Advise the board on how the retailer should manage the risk of constrained ocean capacity and unreliable arrivals on its Asia to North America lane, and critically evaluate whether the response should be temporary or permanent.",
+    "evidence": [
+     "Capacity is expected to tighten because carriers are planning less capacity, not because demand is rising.",
+     "Booking security risk is well above its historical average and increases towards the end of the outlook.",
+     "Monthly on-time performance fell from 26.9% in September to 25.6% in October, with the latest weekly figure at 27.3%.",
+     "Delays of eight days or more are the largest arrival outcome on the lane."
+    ],
+    "plan": [
+     "Diagnose the risk as a supply-side disruption, citing the reduction in planned carrier capacity and the rising booking security risk, and explain why it is not a demand problem.",
+     "Use Christopher and Peck's framework to identify the products and customers most exposed, and assess the cost of a stock-out against the cost of holding extra inventory.",
+     "Apply Cox's power analysis and Porter's bargaining power of suppliers to show why carriers currently hold leverage and why the retailer's dependence on preferred sailings weakens its position.",
+     "Evaluate the response options, including safety stock for critical lines, dual carrier or routing arrangements, and alternative modes or ports, using the cost-service trade-off to compare their total cost.",
+     "Judge from the outlook and the wider history whether the constraint is temporary or structural, and set out the implications for contract terms and supplier base.",
+     "Recommend a tiered resilience plan with specific triggers, such as booking acceptance or delay length, that would move the retailer between response levels."
+    ],
+    "pitfalls": [
+     "Treating a single weekly on-time figure as a stable trend rather than noting the month-to-month movement and the tail of very long delays.",
+     "Recommending lean inventory reductions or simple price negotiation without considering that the constraint is on carrier capacity and reliability, which buying more cheaply does not solve."
+    ]
+   },
+   "alsoConsider": [
+    "Goldratt's theory of constraints",
+    "Fisher's supply chain matrix",
+    "Lee's triple-A supply chain",
+    "Kraljic's purchasing portfolio matrix"
+   ],
+   "exam": {
+    "question": "Critically evaluate how a global supply chain manager should build resilience against constrained ocean freight capacity, drawing on supply chain risk management theory and the trade-off between cost and service.",
+    "outline": [
+     "Identify the supply-side source of the risk, using the evidence on planned capacity, booking security and on-time performance, and explain it with a resilience framework such as Christopher and Peck's.",
+     "Evaluate the main response options, including buffers, dual sourcing and alternative modes or ports, using the cost-service trade-off to compare their total cost and service effects.",
+     "Critique these responses, consider whether the constraint is temporary or structural, and recommend a resilience plan with clear triggers for action."
+    ]
+   },
+   "readingMinutes": 1
+  },
   {
    "id": "17b808015e88",
    "title": "Nearly half of employees fear being judged for not using AI enough at work",
