@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-18T06:31:29Z",
+ "generatedAt": "2026-11-19T06:26:34Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
@@ -72,6 +72,1063 @@
   }
  ],
  "articles": [
+  {
+   "id": "17b808015e88",
+   "title": "Nearly half of employees fear being judged for not using AI enough at work",
+   "url": "https://workplaceinsight.net/nearly-half-of-employees-fear-being-judged-for-not-using-ai-enough-at-work/?utm_source=rss&utm_medium=rss&utm_campaign=nearly-half-of-employees-fear-being-judged-for-not-using-ai-enough-at-work",
+   "source": "Workplace Insight",
+   "publishedAt": "2026-11-18T11:28:02Z",
+   "addedAt": "2026-11-19T06:26:34Z",
+   "basis": "full_text",
+   "takeaway": "AI is raising productivity, but the time it frees is being absorbed into more work and higher expectations. For PWO, this is a question of motivation, the psychological contract and culture, not only of technology.",
+   "summary": "A survey of 3,001 professional employees worldwide, run by LSE and Protiviti, finds that 48 percent of employees worry about being judged for not using AI enough, against 20 percent who worry about being judged for using it. The share of respondents using AI at work rose from 29 percent in 2024 to 74 percent. Users report saving about 19 percent of their working week, but say they reinvest 72 percent of that time in other work. The authors call this 'workload creep': extra capacity is absorbed into existing duties or used to take on new responsibilities. Users also report real benefits, including faster task completion, less mental effort and better output quality. Dr Grace Lordan argues that leaders must direct where AI adds value and how saved time should be used, otherwise efficiency simply raises the baseline. The researchers recommend deliberate choices about reinvesting time in innovation, development, higher-value work and wellbeing.",
+   "keyPoints": [
+    "48 percent of employees fear being judged for not using AI enough, compared with 20 percent who fear judgement for using it.",
+    "AI use at work rose from 29 percent in 2024 to 74 percent in the 2026 survey.",
+    "Users save an average of 19 percent of their working week but reinvest 72 percent of that time in other work.",
+    "Half of those who saved time used some of it to take on new responsibilities or projects, and 65 percent spend more time on higher-value activities.",
+    "Users report faster task completion (82 percent), less mental effort (70 percent), automation of manual tasks (63 percent) and better output quality (62 percent)."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 88,
+     "reading": "This is a People, Work and Organisations story about how a technology change reshapes motivation, expectations and the unwritten relationship between employees and employers. The key question is whether the efficiency gained from AI is experienced as meaningful, rewarded or simply absorbed into heavier demands. Students should care because the article links motivation and engagement, job design, the psychological contract and organisational culture to current survey evidence."
+    },
+    {
+     "id": "leadership",
+     "relevance": 50,
+     "reading": "From a leadership perspective, the article places responsibility on leaders to set direction about where AI adds value and how freed time should be used. The findings suggest that without clear direction, employees' expectations rise by default. This connects to leaders' role in clarifying the path to performance and to ethical and responsible leadership in how productivity gains are shared."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Job Demands-Resources model (Bakker and Demerouti)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Job demands are the aspects of work that require sustained effort and can produce strain, while job resources are aspects that help people achieve goals, reduce demands or support growth. The model holds that demands and resources together predict wellbeing and engagement, and that high demands combined with low resources lead to burnout. Resources drive engagement mainly when they are not consumed by new demands.",
+     "link": "The article shows AI acting as a resource: 70 percent of users report less mental effort and 82 percent complete tasks faster. However, the 72 percent of saved time that is reinvested in other work, and the half who took on new responsibilities, show that the freed capacity is being converted into fresh demands. The researchers call this workload creep, meaning the resource is being used up by demand. The net gain in engagement that the model would predict may therefore be far smaller than the productivity figures suggest.",
+     "critique": "The model treats demands and resources as fairly stable features of a job, whereas here a single tool changes both at once and the employer's decisions about reinvestment determine the balance. It also says little about social demands such as the expectation to show AI use, which the 48 percent figure suggests is significant.",
+     "practice": "A manager applying this model should track workload as well as output and ask where time savings are going and whether employees are accumulating demands without more control. Deliberately reallocating some saved time to development or recovery would rebalance resources against demands."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of unwritten beliefs that employees and employers hold about mutual obligations, such as the effort expected in return for rewards, security and development. It is shaped by promises, perceived norms and how people are treated. A perceived breach, where one party believes the other has failed to deliver, can reduce trust, commitment and engagement even when the formal contract has not changed.",
+     "link": "The article suggests the implicit bargain is shifting. Employees are expected to keep pace with AI and take on more, yet time saved is largely reinvested rather than returned as flexibility or reduced hours. Lordan's point that leaders must say where time savings go is effectively a call to make the implicit deal explicit. The 48 percent who fear judgement for not using AI enough suggest employees are reading an unwritten expectation that may not match what the organisation has actually promised.",
+     "critique": "The psychological contract is difficult to observe and measure. The article gives no evidence of what employers have promised or how employees' trust or commitment has changed. Fear of judgement may reflect anxiety about the technology rather than a belief that a formal or informal obligation has been breached.",
+     "practice": "A manager should make expectations explicit: state what AI use is expected, what counts as good performance and what happens to time saved. Revisiting these terms openly reduces the risk that employees experience an unacknowledged change in the deal."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of culture (Schein)",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Schein describes organisational culture at three levels: visible artefacts and behaviours, espoused values that people say they hold, and basic underlying assumptions that are taken for granted and largely unconscious. Shared norms about what is expected sit across these levels, and the deepest assumptions are the hardest to change. A gap between espoused values and observed behaviour signals cultural tension.",
+     "link": "AI use is becoming a visible artefact of working life, and the fear of being judged for not using it suggests a new norm is forming around it. The espoused values appear to be efficiency and better output, yet the assumption operating in practice seems to be that any freed time will be filled with more work. The article's call for deliberate decisions about the use of capacity amounts to a request to surface that assumption and examine it.",
+     "critique": "Schein's model is mainly a diagnostic framework and does not explain how a norm of technology use spread so quickly, from 29 percent to 74 percent in two years. The article also provides no direct evidence about the basic assumptions held by employers, so any reading of hidden assumptions is an inference.",
+     "practice": "A leader should compare what the organisation says about AI, such as valuing wellbeing and innovation, with what it actually rewards and measures. Where rewards favour output alone, changing performance measures and recognition is more likely to change the behaviour employees see as expected."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Path-goal theory (House)",
+     "unit": "",
+     "theory": "Path-goal theory holds that a leader's role is to help followers reach their goals by clarifying the path to desired outcomes, removing obstacles and providing support or rewards. The appropriate style depends on follower characteristics and task conditions, so directive leadership suits ambiguous tasks and supportive leadership suits high-stress situations. Leaders increase motivation by making clear the link between effort and valued outcomes.",
+     "link": "Lordan's advice that leaders be clear about where AI adds value and how freed time should be used is a direct example of path clarification. The article shows what happens without it: efficiency raises the baseline rather than delivering outcomes employees value. Employees who feel pressure to keep pace while their workloads rise are in the kind of situation where supportive behaviour is needed alongside directive clarity.",
+     "critique": "Path-goal theory assumes that clearer paths will motivate followers, but the article suggests that clarity alone is not enough. Leaders may lack control over budgets, headcount or performance targets, which determine how time savings are used. The theory also gives little attention to who has the power to decide how surplus capacity is allocated.",
+     "practice": "A leader should set out a clear purpose for AI use, specify the outcomes employees will be judged on and agree in advance how time savings will be allocated between new work, development and recovery. They should check periodically whether the path is supporting employees or simply raising expectations."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A professional services firm introduces AI tools across its consulting teams. Within two years most staff use them daily and managers report faster delivery of client work. Staff say they now complete more work in the same hours, and many feel they must show they are using the tools as much as colleagues, or risk being seen as behind.",
+    "question": "Critically evaluate the claim that AI-driven efficiency gains will improve employee engagement. Advise the leadership team on how to manage the expectations that come with adoption.",
+    "evidence": [
+     "48 percent of employees fear being judged for not using AI enough, compared with 20 percent who fear judgement for using it.",
+     "Users save an average of 19 percent of their working week but reinvest 72 percent of that time in other work.",
+     "Half of those who saved time took on new responsibilities or projects, and 65 percent spend more time on higher-value activities.",
+     "70 percent of users report reduced mental effort, and 82 percent say AI helps them complete tasks more quickly."
+    ],
+    "plan": [
+     "Define engagement, workload creep and the psychological contract, and separate the efficiency gain from the way employees experience it.",
+     "Apply the Job Demands-Resources model to show AI as a resource that is being consumed by new demands, so engagement depends on the balance between the two.",
+     "Use the psychological contract to explain the fear of judgement and the unwritten expectation to keep pace, identifying where the implicit deal may be breached.",
+     "Use Schein's three levels of culture to compare espoused values such as wellbeing and innovation with what the firm actually rewards and measures.",
+     "Evaluate the evidence: the survey reports perceptions and self-reported gains rather than measured engagement, and the benefits described are real.",
+     "Recommend that leaders agree explicitly how time saved will be used, reinvest some of it in development and recovery, revise performance expectations and set a clear path for AI use."
+    ],
+    "pitfalls": [
+     "Treating the 82 percent who complete tasks faster as proof that engagement has improved, when the article reports efficiency and effort rather than engagement.",
+     "Presenting the 48 percent figure as evidence of actual unfair judgement, when it measures worry about judgement rather than recorded incidents."
+    ]
+   },
+   "alsoConsider": [
+    "Job Characteristics Model (Hackman and Oldham)",
+    "Equity theory (Adams)",
+    "Employee engagement (Kahn)"
+   ],
+   "exam": {
+    "question": "To what extent does technology that increases productivity improve motivation and engagement at work? Use theories of job design and the psychological contract in your answer.",
+    "outline": [
+     "Define motivation and engagement and explain how job design and the Job Demands-Resources model predict the effects of reduced effort and added responsibility.",
+     "Use the psychological contract and Schein's levels of culture to assess whether employees' expectations and workloads are balanced when productivity gains are reinvested.",
+     "Critically evaluate the evidence, noting that survey data capture perceptions and self-reported gains rather than measured engagement, and recommend how managers should allocate saved time."
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "41a8d21fe7c0",
+   "title": "Why AI skill-building is only one part of the puzzle",
+   "url": "https://www.hrdive.com/news/ai-adoption-skillbuilding-tailored-training/874885/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-17T16:54:00Z",
+   "addedAt": "2026-11-19T06:26:34Z",
+   "basis": "abstract",
+   "takeaway": "Treating AI adoption as only a skills or technology problem misses the people, workplace and cultural side of change, which is where many adoption efforts succeed or fail.",
+   "summary": "The abstract, summarising a Hogan Assessments report reported by HR Dive, says AI adoption is not just a technology challenge but also a people and workplace challenge. The title adds that AI skill-building is only one part of the solution. The abstract gives no figures, sample, method or detailed findings, so the note works from that framing alone and does not assume what the full report says.",
+   "keyPoints": [
+    "The report frames AI adoption as a people and workplace challenge as well as a technological one.",
+    "The title argues that building AI skills is necessary but insufficient on its own.",
+    "The abstract gives no data, sample size or named findings, so claims about specific results should not be made from it.",
+    "The framing points to the wider organisational conditions (people, work design, culture, leadership) that shape whether AI tools are used well."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 85,
+     "reading": "In People, Work and Organisations terms, the article is about the gap between installing a new technology and changing how people behave at work. Skill-building addresses ability, but adoption also depends on motivation, attitudes towards AI, job design, group norms and culture. A student of this module should see the piece as an argument that AI is an organisational change, not just a training exercise, and should be able to explain which people-related factors sit outside the skills agenda."
+    },
+    {
+     "id": "leadership",
+     "relevance": 40,
+     "reading": "The leadership dimension is that someone has to set the direction for AI adoption, shape how employees understand it and make the case for changing working practices. The abstract's framing suggests that leaders who treat AI as only a technical project may miss the human side. A leadership student could use the article to discuss how leaders manage the people aspects of technological change."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "ADKAR model (Hiatt)",
+     "unit": "Unit 8 Organisational change",
+     "theory": "ADKAR is a change model that sets out five outcomes an individual needs for change to succeed: awareness of the need for change, desire to take part, knowledge of how to change, ability to implement new behaviours, and reinforcement to sustain them. It is used to diagnose where individual change is stalling. Each stage is a precondition for the next, so the model is about people's progress through change rather than the change project itself.",
+     "link": "The article's point that AI adoption is a people challenge fits ADKAR's view that individuals must move through several stages. Skill-building maps mainly onto the knowledge and ability stages, but the abstract's wider framing implies that awareness, desire and reinforcement also matter. A manager could use the model to check whether a skills programme is being asked to do work that belongs to motivation, communication or workplace support. The abstract does not say which stages the Hogan report addresses, so the link is interpretive.",
+     "critique": "ADKAR is a practitioner model with limited independent empirical testing, and it presents the stages in a fixed order, which does not always match how people actually adapt. It also focuses on individuals and may underplay group and structural barriers.",
+     "practice": "A manager applying ADKAR would first assess employees' awareness and desire regarding AI before investing heavily in training. They would then match training to knowledge and ability gaps and set up reinforcement, such as feedback and performance expectations, to sustain new AI-enabled practices."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of organisational culture",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Schein describes culture at three levels: visible artefacts (such as tools, routines and physical settings), espoused values (stated beliefs and goals), and basic underlying assumptions (taken-for-granted beliefs that shape behaviour). Change is hardest at the deepest level. Introducing a new tool changes artefacts without necessarily changing assumptions about how work should be done.",
+     "link": "AI tools are artefacts that can be introduced quickly, but the article's framing suggests that adoption depends on people and workplace conditions that sit deeper in the organisation. If employees hold assumptions that expertise is personal and that automation threatens their status, skill-building alone will not change how they work. Schein's model helps a student explain why the people side of AI adoption is harder than the technology side.",
+     "critique": "Schein's levels are a diagnostic framework rather than a predictive one, so they can be hard to apply precisely to a specific organisation. Culture is also not always the main barrier, since structure, incentives and resources may matter more.",
+     "practice": "A manager would map the current AI-related artefacts, the stated values about AI, and the unspoken assumptions people hold about work and expertise. Interventions would then address the assumptions through leadership behaviour and shared norms, not just the tools and training."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job demands-resources model (Bakker and Demerouti)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The job demands-resources model argues that every job has demands (physical, psychological, organisational) that create strain when they are high, and resources (autonomy, support, feedback, development) that help people meet demands and stay engaged. Strain and engagement follow from the balance between the two, and resources can buffer the effects of high demands.",
+     "link": "AI adoption can add new demands, such as learning unfamiliar systems, checking AI outputs and adjusting workflows, while changing the resources available to staff. The abstract's emphasis on workplace conditions suggests that whether AI helps or strains employees depends on the resources around the training, such as time, support and a clear role. The model gives the student a way to explain why a skills programme alone may not reduce strain if demands rise faster than resources.",
+     "critique": "The model is broad and can be used to explain almost any workplace outcome, which makes it harder to test. It also tends to treat demands and resources as additive, while AI may change the nature of the job rather than simply adding to it.",
+     "practice": "A manager would audit the new demands AI creates for each role and check whether the resources (time, feedback, decision authority, support) are sufficient. Where demands exceed resources, they would reduce workload or add support before expecting full engagement with AI tools."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Transformational leadership (Burns; Bass)",
+     "unit": "",
+     "theory": "Transformational leadership, developed from Burns and extended by Bass, describes leaders who motivate followers to go beyond self-interest by articulating a compelling vision, providing individual consideration and stimulating intellectual engagement. It contrasts with transactional leadership, which relies on exchanges of rewards for performance. Transformational leaders are associated with higher commitment and change readiness.",
+     "link": "Because the article frames AI adoption as a people and workplace challenge, it implies that employees need more than instruction in new tools. A transformational leader could articulate why AI matters for the organisation, address concerns about the future of work and engage staff in shaping how it is used. The abstract does not describe leadership behaviour, so this is an application of the theory to the problem the article raises, rather than a finding from the report.",
+     "critique": "Transformational leadership is criticised for being hard to separate from charisma and for drifting towards a heroic view of leaders, which can neglect the structural and collective conditions the article points to. Its effects are also context dependent.",
+     "practice": "A leader applying this theory would set a clear, credible vision for AI that ties adoption to organisational goals and employee interests. They would involve staff in designing how AI is used and give individual support, rather than issuing mandates or relying only on training."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized professional services firm has rolled out a generative AI tool to all staff and run a series of training sessions. Uptake is uneven, with some teams using it daily and others avoiding it, and managers report concern about job security and unclear rules on accountability for AI-assisted work. The board wants to know why the investment in skills has not produced consistent results.",
+    "question": "Critically evaluate the view that AI adoption is primarily a skills problem, and advise the board on what else the firm should address to achieve consistent adoption.",
+    "evidence": [
+     "The Hogan Assessments report, as summarised in the abstract, describes AI adoption as a people and workplace challenge and not only a technology challenge.",
+     "The article's title argues that AI skill-building is only one part of the puzzle.",
+     "The abstract gives no figures or detailed findings, so any firm-specific evidence in an answer must come from the case itself, not from the article."
+    ],
+    "plan": [
+     "Define the problem using ADKAR to show which stages (awareness, desire, knowledge, ability, reinforcement) the training addresses and which it does not.",
+     "Use Schein's three levels of culture to explain why introducing the tool has changed artefacts but not the assumptions about expertise and job security.",
+     "Apply the job demands-resources model to identify new demands AI creates and the resources (time, feedback, clear accountability) that are missing.",
+     "Use transformational leadership to assess whether managers have articulated a credible vision and involved staff in shaping how AI is used.",
+     "Evaluate the limits of the case, noting that the abstract provides no data on the report's findings and that the firm's own data should be checked.",
+     "Recommend a combined package: clarify job-security concerns and accountability rules, redesign workloads to free time for learning, train managers as change leaders, and set up feedback and reinforcement."
+    ],
+    "pitfalls": [
+     "Treating the abstract's framing as proven research results, or attributing specific statistics to the Hogan report that the abstract does not contain.",
+     "Recommending more training as the main fix without showing why the people and workplace factors make training insufficient."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter's eight-step model of change",
+    "Bridges's transition model",
+    "Herzberg's two-factor theory",
+    "Goleman's emotional intelligence"
+   ],
+   "exam": {
+    "question": "Critically evaluate the claim that technological change such as AI adoption is primarily a people and workplace challenge rather than a technical one. Use at least two models of organisational change or behaviour to support your argument.",
+    "outline": [
+     "Define AI adoption as organisational change and explain why the people and workplace dimensions matter, drawing on ADKAR or Kotter's model of change.",
+     "Use Schein's levels of culture and the job demands-resources model to show how assumptions, demands and resources shape whether skills training leads to adoption.",
+     "Critically evaluate the claim, noting the limits of the abstract and the risks of overstating the people side while neglecting technology design, structure and resourcing."
+    ]
+   }
+  },
+  {
+   "id": "761a1c13cc27",
+   "title": "RTO policies that prioritize employees work better",
+   "url": "https://www.hrdive.com/news/rto-policies-that-prioritize-employees-work-better/874760/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-17T20:53:00Z",
+   "addedAt": "2026-11-19T06:26:34Z",
+   "basis": "abstract",
+   "takeaway": "Requiring staff to come into the workplace only works if being there is worth more to them than staying away, so a return-to-office policy should be judged by what it gives people.",
+   "summary": "The HR Dive piece, as far as the abstract shows, is a short commentary by Darlene Engoglia of Park Place Technologies. Its central point is that when an employer asks staff to come into the workplace, it should make sure that being there is valuable. The headline goes further and asserts that return-to-office policies which prioritise employees work better. The abstract gives no data, sample or measured outcomes, so the effectiveness claim should be treated as the author's position rather than a research finding. The full article may contain more, but this note works only from the abstract.",
+   "keyPoints": [
+    "The abstract argues that an employer requiring attendance has a responsibility to make the time in the workplace worthwhile.",
+    "The headline claims that return-to-office policies which prioritise employees produce better results, but the abstract does not say what results or how they were measured.",
+    "The piece is an identified author's commentary from a technology services firm, not a report of research or of company data.",
+    "The argument is conditional: it accepts that employers may ask for attendance and focuses on the value of attending rather than on whether to require it."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 70,
+     "reading": "In the language of People, Work and Organisations, the abstract is about how a demand for attendance affects motivation, engagement and the employment relationship, and about how a change to working arrangements is introduced. The author's point that attendance must be valuable rests on the idea that people comply more willingly when they can see a benefit, which connects to motivation theory and to the job demands and resources model. A PWO student should care because return-to-office disputes are a live case of organisational change, and the module's theories give structure to an exam or assignment answer. This reading is based only on the headline and one sentence of abstract, so the link is to the theory, not to any evidence in the article."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Job demands-resources model (Bakker and Demerouti)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The model holds that every job has job demands, which are aspects requiring sustained effort or cost, and job resources, which help people meet goals, reduce demands or encourage growth. Demands tend to produce strain, while resources drive a motivational process that leads to engagement. The balance between the two determines how people experience their work.",
+     "link": "The abstract's requirement that office attendance be valuable can be read as a demand to supply resources. A required commute, set hours and loss of flexibility are demands that the employer imposes, and the office is only a resource if it provides things such as collaboration, coaching, social connection or access to equipment. The abstract does not name any such resources, so the mapping is an inference from its central claim. If attendance adds demands without matching resources, the model predicts strain rather than engagement, which is the outcome the headline seems to be warning against.",
+     "critique": "The model is largely a framework for organising variables and is mainly supported by correlational studies, so it cannot show that a given attendance policy will tip the balance either way. It also treats demands and resources as the employer's to adjust, whereas many commuting and caring constraints sit outside the workplace.",
+     "practice": "A manager applying this model should list the demands that attendance creates, such as travel time, cost and loss of flexibility, and the resources the office can offer that remote work cannot. Investment should then go into those resources, for example by scheduling in-person work that needs collaboration. Strain and engagement indicators should be tracked after any change so the balance can be checked."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Expectancy theory (Vroom)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Vroom's expectancy theory proposes that motivation depends on three beliefs multiplied together: expectancy, the belief that effort will lead to performance; instrumentality, the belief that performance will lead to outcomes; and valence, how much the outcomes are valued. If any one of these is zero, motivation falls away. Because the factors multiply, a weak link in any of them undermines the whole.",
+     "link": "The abstract's insistence that attendance be valuable maps closely onto instrumentality and valence. If the office is seen as the route to outcomes people want, such as better collaboration, faster decisions or career access, then attending is instrumental and valued. If staff see nothing they want at the office, the valence of attending is low, and a mandate adds compliance pressure without motivation. The abstract does not say which outcomes the author has in mind, so this application relies on reading its main claim through the theory.",
+     "critique": "Expectancy theory assumes people weigh outcomes rationally and individually, but attendance decisions are also shaped by fairness, caring responsibilities and cost, which the model handles poorly. It also does not explain how people respond when they feel coerced, as opposed to choosing to attend.",
+     "practice": "A manager should identify the outcomes that in-office work actually produces for each team and make those links visible, for example by scheduling in-person sessions for work that needs them. The manager should also ask staff which outcomes they value rather than assume, and adjust office days to match."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of unwritten beliefs about the mutual obligations between employer and employee, which sit alongside the formal contract. A perceived breach occurs when the employer is seen to have failed to deliver something it implicitly promised, and this tends to reduce trust, commitment and effort. Changes to working conditions can alter these beliefs even where the formal contract stays the same.",
+     "link": "A return-to-office requirement changes what employees believe they owe and are owed, even if their formal contract is unchanged. The abstract's stress on prioritising employees suggests the author sees the mandate as a signal about what the employer values. If staff read the requirement as an imposition without reciprocal benefits, they may perceive a breach. The abstract does not report how employees actually reacted, so the breach reading is a possibility that the theory identifies rather than a finding from the article.",
+     "critique": "Rousseau's account concentrates on individual perceptions, which are hard to measure and can differ widely within one workforce. It also gives little guidance on how an employer should rebuild a contract once trust has been damaged.",
+     "practice": "A manager should make the implicit deal explicit by stating what the office is for, what the employer will provide in return, such as equipment, support or flexibility on other days, and by consulting staff before terms change. Where the contract is strained, the manager should look for early signs of withdrawn effort or lower trust and respond to them."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Kotter and Schlesinger's approaches to resistance to change",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Kotter and Schlesinger identified six broad approaches to overcoming resistance to change: education and communication, participation and involvement, facilitation and support, negotiation and agreement, manipulation and co-optation, and explicit or implicit coercion. Each has trade-offs in time, commitment and the risk of later resentment. Managers are advised to choose an approach according to the source and degree of resistance.",
+     "link": "A return-to-office policy is a change to established working patterns, and the abstract's requirement that attendance be valuable points towards participation and facilitation rather than coercion. Simply mandating attendance corresponds to the coercive end of the spectrum, which the abstract implies will not work well by itself. The article does not describe how its policies were introduced, so the link is between the author's stated principle and the range of approaches the model offers.",
+     "critique": "The model treats change as a discrete programme with identifiable resistors, whereas hybrid working is an ongoing arrangement in which resistance can shift over time. It also gives limited guidance on how to handle a workforce that is divided by location, role or caring responsibilities.",
+     "practice": "A manager should diagnose the likely sources of resistance, such as commuting costs, caring duties or loss of autonomy, before deciding on an approach. Teams should be involved in deciding which days and activities suit the office, and negotiation should be used where particular groups have real constraints. Coercion should be a last resort because it tends to shift resistance rather than remove it."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "An employer is considering requiring its staff to attend the workplace more often than they currently do. The HR director has been asked to advise the board on whether the policy will improve performance and engagement and on how it should be introduced. Staff views on the change are not yet known, and the business case rests largely on assumptions about collaboration.",
+    "question": "Advise the board on whether a return-to-office policy is likely to improve performance and engagement, and recommend how the policy should be designed and introduced.",
+    "evidence": [
+     "The abstract states that an employer asking staff to come in should make sure that being there is valuable.",
+     "The headline asserts that return-to-office policies which prioritise employees work better.",
+     "The piece is a short commentary by a named author from Park Place Technologies, not a report of research findings.",
+     "The abstract gives no data on performance, engagement, sample size or method, so the effectiveness claim is unsupported within the text provided."
+    ],
+    "plan": [
+     "Define the decision, identify the stakeholder groups affected and state that the evidence available is limited to opinion and assumption.",
+     "Use the job demands-resources model to set out the demands that attendance creates and the resources the office would need to provide to offset them.",
+     "Apply expectancy theory to test whether staff will see attendance as instrumental to outcomes they value, and identify which outcomes would need to be made explicit.",
+     "Use the psychological contract to assess how a mandate may be interpreted, and what reciprocal commitments the employer would need to make to avoid a perceived breach.",
+     "Use Kotter and Schlesinger's approaches to choose how the policy should be introduced, favouring participation and negotiation over coercion where constraints are real.",
+     "Recommend a phased approach: define the purpose of office days, consult and pilot with selected teams, then evaluate against agreed measures of performance and engagement before extending the policy."
+    ],
+    "pitfalls": [
+     "Treating the headline claim that employee-focused policies work better as proven, when the abstract provides no evidence for it.",
+     "Arguing only for or against return to office without addressing the author's actual condition that attendance must be valuable, which is the central point of the abstract."
+    ]
+   },
+   "alsoConsider": [
+    "Adams's equity theory (Unit 3 Motivation and engagement), for perceived fairness between office and remote staff",
+    "Hackman and Oldham's Job Characteristics Model (Unit 3 Motivation and engagement), for how office work is designed",
+    "Kahn's model of employee engagement (Unit 3 Motivation and engagement), for the conditions that make people willing to i",
+    "Lewin's three-step model and force field analysis (Unit 8 Organisational change), for the forces pushing for and against"
+   ],
+   "exam": {
+    "question": "Critically evaluate the claim that requiring employees to attend the workplace improves their motivation, engagement and performance.",
+    "outline": [
+     "Explain the mechanisms that could link attendance to motivation and engagement, using the job demands-resources model, expectancy theory and the psychological contract.",
+     "Assess the strength of the evidence for the claim and the conditions under which it may fail, including individual differences, perceived fairness and the possibility that the claim rests on opinion.",
+     "Recommend how an employer should design and introduce an attendance policy, drawing on change management approaches and on consultation with staff."
+    ]
+   }
+  },
+  {
+   "id": "d25eec5c87d1",
+   "title": "AI, rising costs top list of 2027 talent concerns, per Gartner",
+   "url": "https://www.hrdive.com/news/ai-transformation-workplace-talent-strategy-2027/874988/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-18T16:00:00Z",
+   "addedAt": "2026-11-19T06:26:34Z",
+   "basis": "abstract",
+   "takeaway": "Gartner's talent research, as summarised here, flags AI as a pressure on entry-level roles, which matters for PWO because it shows how an external technological trigger can reshape jobs, careers and the implicit deal between employer and newcomer. Only a one-line abstract was supplied, so the analysis rests on the theory rather than on findings from the full report.",
+   "summary": "The source is HR Dive's report of Gartner research on talent concerns for 2027, under a headline that places AI and rising costs at the top of the list. The only text supplied is a single sentence saying that Gartner researchers stressed the importance of entry-level workers, who are increasingly at risk because of AI. The abstract gives no figures, sample, method or recommendations, so this note does not supply any.",
+   "keyPoints": [
+    "The headline identifies AI and rising costs as the leading talent concerns Gartner reports for 2027.",
+    "The abstract says Gartner researchers emphasised the importance of entry-level workers.",
+    "According to the abstract, entry-level workers are increasingly at risk because of AI.",
+    "The abstract provides no figures, methodology or specific examples, so claims about scale or mechanism cannot be made from it alone.",
+    "For PWO, the key questions are how AI changes job design for junior roles, what this does to the psychological contract with new joiners, and how learning and socialisation may shift when routine entry tasks are automated."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 60,
+     "reading": "In PWO terms, AI is an external trigger for organisational change, and the article points to a specific effect: the roles most exposed are entry-level ones. Entry jobs are where people learn norms, build skills and begin careers, so reducing them affects both individual motivation and the organisation's future talent pipeline. A PWO student should read the headline as a question about how job design, psychological contracts and informal learning respond to technological change, not only as a labour-cost story."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Triggers for change: internal and external triggers, using PESTLE as a diagnostic",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Organisational change is usually prompted by triggers, which can be external (such as technological, economic or legal shifts) or internal (such as performance problems or new leadership). PESTLE analysis is used to classify external forces so that managers can see which pressures require a response. Triggers differ in how urgent and how foreseeable they are, and that affects how change should be planned.",
+     "link": "The headline places AI and rising costs at the top of Gartner's 2027 talent concerns, which makes AI an external technological trigger alongside an economic one. The abstract's point that entry-level workers are increasingly at risk shows how a technological trigger can work through a specific group rather than the whole workforce. Mapping the article onto PESTLE, the technological factor drives the change and the economic factor shapes how firms will afford and justify it.",
+     "critique": "Triggers models tend to treat change as a response to a discrete event, whereas AI adoption is gradual and uneven across firms, so an organisation may not recognise the trigger until its effects are already embedded. Some sceptics would also argue that cost pressure rather than technology is the real driver, and the abstract does not settle which is more important.",
+     "practice": "A manager facing this trigger should separate the parts of the organisation that AI will change quickly from those it will change slowly, and should involve HR early in workforce planning. They should also test whether the entry-level roles being automated are the ones that still carry training and socialisation value, before deciding how to redesign them."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "The psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of beliefs each party holds about the mutual obligations between them, including those that are not written down. It covers expectations such as development, fair treatment and job security in exchange for effort and loyalty. Breaches or perceived breaches of these expectations reduce commitment and engagement.",
+     "link": "If entry-level work is increasingly exposed to AI, graduates and junior staff may reasonably expect that their early roles will lead to skill development and a career path, yet the organisation may be automating the tasks that provided that route. The abstract's emphasis on the importance of entry-level workers suggests that the employer's own researchers see this group as strategically significant, which heightens the risk of a perceived breach if it is treated as expendable.",
+     "critique": "Rousseau's concept is largely about individual beliefs, so it can underplay collective or labour-market factors such as sector-wide reductions in graduate hiring, where individuals cannot negotiate the terms of the deal. The abstract also does not say how employers are actually responding, so any conclusion about breach is an inference.",
+     "practice": "A manager should identify which implicit promises junior staff currently rely on, such as training, progression and mentoring, and state explicitly how these will be preserved as tasks change. They should monitor engagement and intention to stay among early-career employees during the transition rather than assuming that a stable headcount means the contract still holds."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Formal and informal organisation",
+     "unit": "Unit 6 Designing effective organisations",
+     "theory": "Every organisation has a formal structure of roles, reporting lines and procedures, and an informal organisation of networks, relationships and unwritten norms. The informal organisation often carries much of the real learning, communication and socialisation, and changes to the formal structure can disrupt it in ways that are not visible on an organisation chart.",
+     "link": "Entry-level roles are a conventional route through which newcomers learn the informal norms and networks of an organisation by working alongside more experienced colleagues. If AI reduces the number of such roles, the formal structure may look more efficient while the informal channels through which junior staff learn and integrate are weakened. This illustrates how a change to formal job design can have effects on the informal organisation that are not captured by headcount or cost measures.",
+     "critique": "The distinction is useful but somewhat static, and the informal organisation is not always a positive force; it can also perpetuate exclusion or resistance. The abstract does not describe how the roles are changing, so the argument that informal learning will suffer is a reasoned expectation rather than a finding.",
+     "practice": "A manager redesigning roles should map where informal learning currently happens, for example through peer networks and shadowing, and decide how those channels will be preserved if formal entry tasks are automated. Structural changes should be evaluated against both formal measures such as cost per output and informal ones such as knowledge transfer and integration."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large professional services firm plans to introduce AI tools across its operations over the next two years. Much of the routine analysis and document work once given to graduate recruits can now be automated, and the firm is considering reducing its intake of entry-level staff. Senior managers believe the change is necessary to control costs, but the HR function is concerned about the effect on early-career development and retention.",
+    "question": "Critically evaluate the people and organisational implications of the firm's plan to reduce its entry-level intake in response to AI, and advise the board on how the change should be managed.",
+    "evidence": [
+     "The headline reports that Gartner places AI and rising costs at the top of its 2027 talent concerns.",
+     "The abstract states that Gartner researchers highlighted the importance of entry-level workers.",
+     "The abstract states that entry-level workers are increasingly at risk due to AI.",
+     "The abstract contains no figures, so any quantitative claim about the scale of the effect must be sourced elsewhere."
+    ],
+    "plan": [
+     "Diagnose the trigger using PESTLE, identifying AI as the technological driver and cost pressure as the economic one, and assess how foreseeable and urgent each is (Unit 8).",
+     "Analyse the psychological contract with early-career staff, identifying the implicit promises of development and progression that the change may breach (Unit 3, Rousseau).",
+     "Examine how the formal redesign of junior roles affects informal learning and socialisation, drawing on the formal and informal organisation (Unit 6).",
+     "Evaluate the options available, such as redesigning rather than removing entry roles, and weigh cost savings against talent pipeline risk and reputational effects.",
+     "Recommend a phased approach that involves HR and staff in redesign, sets measures for engagement and retention among early-career employees, and reviews the decision as evidence accumulates."
+    ],
+    "pitfalls": [
+     "Treating the abstract as evidence of how many entry-level roles will be lost, when it provides no such figure.",
+     "Presenting the change as purely a cost decision without considering the people, contract and informal-learning consequences that the PWO theory is designed to expose."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter's eight-step model of change (Unit 8)",
+    "Bridges's transition model (Unit 8)",
+    "Job Characteristics Model (Hackman and Oldham) (Unit 3)",
+    "Kahn's employee engagement (Unit 3)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that technological change such as AI should be managed primarily as a question of job design rather than as a question of organisational change.",
+    "outline": [
+     "Define triggers for change and the contrast between technological and economic triggers, illustrating with AI and cost pressure.",
+     "Explain how changes to job design affect the psychological contract and the formal and informal organisation, especially for entry-level roles.",
+     "Evaluate whether a job design lens is sufficient, or whether it needs to be combined with change management models that address people's transitions and resistance."
+    ]
+   }
+  },
+  {
+   "id": "06de6371a80d",
+   "title": "AI for Logistics: Why 81% of AI Projects Fail",
+   "url": "https://www.freightwaves.com/news/ai-for-logistics-why-81-of-ai-projects-fail",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-18T19:34:09Z",
+   "addedAt": "2026-11-19T06:26:34Z",
+   "basis": "full_text",
+   "takeaway": "Logistics firms are adding AI faster than they redesign the work around it, so returns depend on organisational readiness. Repeatable back-office tasks show clear gains, while customer-facing judgement work should stay human-led. The evidence comes from a vendor-sponsored study, so the figures need careful handling.",
+   "summary": "The article reports research by Lean Solutions Group and Everest Group, based on interviews with about 200 logistics leaders, which finds that many firms have moved beyond isolated AI pilots but few have redesigned their workflows. The CEO of Lean Solutions Group argues that firms should first decide which functions and tasks suit AI, and which still need human judgement and relationships, before automating. He cites back-office gains in invoice processing, track-and-trace, proof of delivery and email handling, and says carrier and customer sales should be augmented rather than replaced. The piece also promotes his company's expert-in-the-loop product, so its evidence is partly promotional.",
+   "keyPoints": [
+    "69% of firms have moved past isolated AI use, but only 19% have redesigned their workflows, which the article presents as the main reason for underperformance.",
+    "The headline says 81% of AI projects fail, but the body text says 81% of firms neglect the organisational transformation needed. These are different claims and should not be conflated.",
+    "30% of respondents reported below-expectation returns on AI investment, in a sector where freight brokerage margins are around 5%.",
+    "Firms without internal consulting capacity cycle through three or four technology vendors without a clear gain.",
+    "The article divides tasks into those needing human judgement and relationships and those that are repeatable, lower value and can be automated at low risk."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 88,
+     "reading": "In the language of organisational behaviour and change, this article describes a technology-led change that stalls because the organisation has not been redesigned around it. The gap between 69% moving past pilots and only 19% redesigning workflows is a diagnosis of missing alignment between structure, processes, skills and people, rather than a technical failure. It bears on Unit 8 (change management and its people aspects), Unit 3 (job design, since the article sorts tasks into human and automated) and the staffing consequences of headcount reduction. Students should care because the article offers a current case for arguing that change fails through people and design rather than technology."
+    },
+    {
+     "id": "projects",
+     "relevance": 42,
+     "reading": "In project terms, the AI investments described are initiatives launched and then switched between vendors without a clear benefits plan. Firms cycling through three or four vendors while 30% report below-expectation returns points to weak benefits realisation and possible escalation of commitment. Students of Delivering Successful Projects should see it as an example of a technology project scoped around the tool rather than the business outcome."
+    },
+    {
+     "id": "logops",
+     "relevance": 38,
+     "reading": "For logistics operations, the article concerns freight brokerage, track-and-trace, invoice processing, route-deviation monitoring and proof of delivery, which are measurable operational processes. Its argument about which tasks to automate and which to keep human parallels decisions about automation and outsourcing in warehouses and transport networks. The thin brokerage margin shows why the balance between operating cost and service level matters in practice."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "McKinsey 7S framework (Peters and Waterman)",
+     "unit": "Unit 8 Organisational change",
+     "theory": "The 7S model holds that organisational effectiveness depends on the alignment of seven interdependent elements: strategy, structure and systems, plus shared values, style, staff and skills. A change to one element is likely to fail unless the others are brought into line with it. Managers should therefore diagnose fit before implementing change.",
+     "link": "The article says firms have applied technology without examining the fit and readiness of the organisation, including which functions suit AI and which tasks need human judgement. Mapped onto 7S, AI changes systems and the skills needed, but without redesigned processes (structure and systems), staff roles (staff and skills) and the relationship-based values in carrier and customer sales (shared values), the tool underperforms. The gap between 69% who have moved past isolated use and 19% who have redesigned workflows is exactly this kind of misalignment. Repeated vendor switching suggests the systems element changed while strategy and style did not.",
+     "critique": "7S is a diagnostic checklist rather than a change process, so it does not say how to sequence actions or set priorities, and it offers limited evidence of a causal link to performance. A competing view, such as Kotter's emphasis on urgency and leadership, would suggest that the failures reflect weak sponsorship rather than poor fit.",
+     "practice": "Before buying more tools, a manager should run a fit audit across all seven elements: map which workflows and roles change, check the skills and values needed for expert-in-the-loop roles, and decide explicitly which functions are automated and which are augmented. Pilot first where fit is strongest, such as invoice processing, and review the other elements before scaling."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model (Hackman and Oldham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The Job Characteristics Model proposes that five core job characteristics (skill variety, task identity, task significance, autonomy and feedback) produce experienced meaningfulness, responsibility for outcomes and knowledge of results. These psychological states drive motivation, performance and satisfaction, with the effect stronger for employees with high growth-need strength. Job design should therefore be judged by these characteristics.",
+     "link": "Freker separates repeatable, low-value tasks suited to automation from judgement and relationship work that should stay human and be augmented. Automating rote tasks may reduce skill variety in some roles, but redeploying 640 hours to higher-value work and giving agents tools to handle more customer and carrier contacts could raise task significance and autonomy. The article does not report staff motivation or satisfaction, so the model's predictions remain untested in this case.",
+     "critique": "The model assumes job designers control the core characteristics and that employees respond predictably to them, which may not hold when technology reshapes feedback loops, monitoring and workload. It also does not address job loss, and the reported removal of 15 to 20 roles in one function shows that redesign can eliminate jobs rather than enrich them.",
+     "practice": "Before automating, a manager should assess each role's current five characteristics and decide which tasks move to automation. They should check whether the remaining work offers more variety, meaning, autonomy and feedback, and involve staff in redesign through job crafting. Engagement should be tracked after the change so that enrichment is confirmed rather than assumed."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Total logistics cost and the cost-service trade-off",
+     "unit": "",
+     "theory": "Logistics decisions balance the total cost of operations, including labour, systems, inventory and transport, against the service delivered in terms of speed, accuracy and reliability. Higher service usually costs more, so good design lowers the cost of delivering a given service through process change, not just through cheaper tools. Decisions should be judged on total cost, not on the cost of one component.",
+     "link": "The article's examples measure both sides of the trade-off: 71% of invoices completed by AI saves 640 hours, and a 77% cut in route-deviation response time was achieved with fewer people monitoring high-value loads. Automating routine transactions lowers labour cost and improves responsiveness, which is a service gain. Freker's decision to keep carrier and customer sales human-led reflects the judgement that automating these relationship-based services would damage service quality.",
+     "critique": "The article reports time saved and headcount reduced, but not the platform, integration, exception-handling or vendor-switching costs, nor the cost of errors. With margins of around 5%, failed automations could easily outweigh the savings, so the evidence does not yet show a net cost benefit.",
+     "practice": "A logistics manager should build a total cost model covering licences, integration, exception handling, error recovery and retraining, and set service measures such as response time, on-time delivery and customer contact quality. Automation should be scaled only where both cost and service improve over the full process."
+    },
+    {
+     "moduleId": "projects",
+     "concept": "Escalation of commitment (Staw)",
+     "unit": "",
+     "theory": "Escalation of commitment is the tendency to keep investing in a course of action that is failing, because of sunk costs, reluctance to admit error or a wish to justify earlier decisions. It is one explanation for projects that overrun or underdeliver. Good governance uses predefined review points and benefit criteria to reduce the pull to continue.",
+     "link": "The article says many firms with below-expectation returns lack internal consulting capacity and keep cycling through three or four technology vendors with little to show. Rather than stopping to re-examine the business case or the readiness gap, they switch tools, which keeps spending high while the workflow problem remains. This matches the escalation pattern: the decision to continue is repeatedly re-justified without redesigning the process.",
+     "critique": "Escalation is only one explanation. Switching vendors may be rational learning if buyers are gathering information about what works, and the article's deeper issue is a capability and organisation-design gap rather than an irrational commitment. The 30% figure also reveals nothing about how decisions were actually made.",
+     "practice": "A project sponsor should set stop-or-continue review gates with pre-agreed benefit measures, and test whether the problem lies with the tool or with organisational readiness. Where the readiness gap is the cause, funding the workflow redesign should come before buying another tool."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A third-party logistics provider with thin brokerage margins has adopted AI tools across its back office, customer contact and monitoring functions. Progress has been uneven, and the firm has changed technology vendors several times without redesigning how its work is organised. Some staff are worried that automation will reduce their roles, and the board must decide how to spend the next phase of investment.",
+    "question": "Advise the board on how the firm should proceed with its AI programme, using theories of organisational change and job design to justify which functions should be automated, augmented or kept human-led.",
+    "evidence": [
+     "Only 19% of firms in the study have redesigned workflows, though 69% have moved past isolated AI use.",
+     "30% of respondents report below-expectation returns on AI investment, in a sector with brokerage margins of around 5%.",
+     "One client moved 71% of invoices to full AI completion, saving 640 hours redeployed to higher-value work, and cut route-deviation response times by 77% after layering AI onto a team of roughly 50.",
+     "Freker argues that carrier and customer sales should be augmented rather than replaced because of relationships and judgement, and that 72% of logistics decisions remain human-led."
+    ],
+    "plan": [
+     "Diagnose the gap using the McKinsey 7S framework (Unit 8), showing that technology has changed systems while strategy, structure, skills and shared values have not been aligned.",
+     "Segment the work into repeatable, lower-value tasks suited to automation and judgement or relationship work that should be augmented, using the total logistics cost and service trade-off to justify each choice.",
+     "Redesign the roles affected using the Job Characteristics Model (Unit 3), testing whether the remaining work gains variety, significance, autonomy and feedback, or whether staff are de-skilled.",
+     "Address the people side by setting out clearly what the firm will and will not do for affected staff, including redeployment and retraining, and drawing on the psychological contract and a structured change model such as Kotter's.",
+     "Stop the pattern of vendor switching by applying escalation of commitment logic: set review gates and benefit measures before any further technology purchase.",
+     "Recommend that the firm fund workflow redesign and readiness first, automate proven back-office processes such as invoice matching and proof of delivery, keep carrier and customer sales augmented, and track benefits and engagement."
+    ],
+    "pitfalls": [
+     "Presenting the 81% or 30% figures as independent evidence without noting that the study and product are promoted by Lean Solutions Group, which sells the solution, or confusing the headline claim that 81% of AI projects fail with the body text, which says 81% of firms neglect organisational transformation.",
+     "Asserting that staff will be more motivated or engaged by the changes, when the article reports no staff attitude or engagement data, rather than applying the job design theory as a testable prediction."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter's eight-step model of change",
+    "Burns and Stalker's mechanistic and organic organisations",
+    "Rousseau's psychological contract",
+    "Bridges's transition model"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that failures in technology investment in organisations are primarily problems of people and organisation design rather than of the technology itself.",
+    "outline": [
+     "Define the people and design aspects of change, using the McKinsey 7S framework to distinguish hard and soft elements and show how misalignment causes failure.",
+     "Use the evidence of automation with uneven redesign, including the job design implications of task reallocation and headcount reduction, to illustrate the argument.",
+     "Critically evaluate the view by considering vendor bias, the absence of staff-outcome data and alternative explanations such as weak business cases or escalation of commitment."
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "9778a147d982",
+   "title": "AI could make a quarter of warehouse decisions autonomously by 2028: study",
+   "url": "https://www.logisticsmanager.com/ai-warehouse-decisions-autonomously-2028-study/",
+   "source": "Logistics Manager",
+   "publishedAt": "2026-11-18T08:58:23Z",
+   "addedAt": "2026-11-19T06:26:34Z",
+   "basis": "full_text",
+   "takeaway": "Survey evidence suggests warehouses are rapidly delegating routine operational decisions to AI, but documented gains are far less common than reported improvements, and the people side of the change (roles, skills, trust in autonomous systems) and the integration of systems will decide the outcome.",
+   "summary": "A study by the MIT Center for Transportation & Logistics Intelligent Logistics Systems Lab and the warehouse automation firm Mecalux surveyed nearly 2,000 supply chain and warehousing professionals in 21 countries. Most expect AI to make or execute more than a quarter of operational warehouse decisions autonomously by 2028, and the share is higher among firms that have fully integrated the technology. Adoption is widespread but recent, with about three-quarters of applications under a year old. Most described use cases showed at least moderate improvement, but only about a third had achieved significant, quantified and documented gains. AI agents are already allowed to make inventory and data-correction decisions without human approval far more often than financial ones. The main barrier is integration with legacy systems, warehouse management systems and ERP. Organisations report that AI is reshaping roles, with upskilling and new technical roles more common than headcount reductions. All of these findings are self-reported by respondents.",
+   "keyPoints": [
+    "57% of organisations expect AI to make or execute over 25% of operational warehouse decisions autonomously by 2028, rising to 70% among fully integrated companies.",
+    "61% report large-scale deployment or full integration of generative AI, against 56% for agentic AI, but around 75% of applications have been at their current stage for under 12 months.",
+    "87% of generative AI and 81% of agentic AI use cases showed at least moderate improvement in target metrics, yet only 39% and 36% respectively had significant, quantified and documented gains.",
+    "AI agents are authorised to act without human approval mainly for inventory movements (51% of agentic use cases) and data corrections (42%), while only 12% are authorised for financial decisions.",
+    "Legacy-system integration is the biggest obstacle to scaling generative AI for 40% of respondents, and 54% say better WMS and ERP integration would speed deployment."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 85,
+     "reading": "Logistics Operations covers warehouse management systems, automation, inventory control and performance measurement, all of which the article addresses directly. The article's central development is that AI agents are taking over inventory movements and data corrections, which are tasks a warehouse management system normally carries out against fixed rules, so control logic is shifting to software. The integration barrier with WMS and ERP and the thin evidence of documented gains are the points a logistics student should assess when judging whether automation delivers value."
+    },
+    {
+     "id": "pwo",
+     "relevance": 60,
+     "reading": "People, Work and Organisations is concerned with how work is designed, how people are motivated and skilled, and how change is managed. The article reports that most organisations see AI moving staff towards higher-value tasks, that many are upskilling floor staff and creating technical roles, and that few have cut headcount. These are questions of job design, motivation and the people side of change. A student should ask whether the reported redesign actually enriches jobs or only relabels them, since the figures come from managers' own accounts."
+    },
+    {
+     "id": "scm",
+     "relevance": 55,
+     "reading": "Supply Chain Management examines integration, demand and inventory management, and performance measurement. The article's emphasis on connecting AI tools with warehouse, ERP and legacy systems raises the integration question that supply chain theory treats as central to information sharing and collaboration. Inventory decisions taken without human approval also affect how the wider chain responds to demand. The difficulty of quantifying gains reflects the broader problem of measuring supply chain performance."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "logops",
+     "concept": "Warehouse automation and warehouse management systems",
+     "unit": "",
+     "theory": "A warehouse management system directs the physical flow of stock by recording locations, orders and inventory movements and issuing instructions to staff and equipment. Automation replaces manual handling or control with machines and software, and the key design question is how much control to hand to the system and how tightly it is linked to wider business systems. Performance gains depend as much on data quality and integration as on the technology itself.",
+     "link": "The article reports that AI agents are already authorised to make inventory movement decisions in just over half of agentic use cases, and that data corrections are delegated in over 40%. These are decisions a warehouse management system normally executes against rules, so the AI is in effect taking over part of the control logic of the warehouse. The finding that 40% of respondents name legacy-system integration as the biggest obstacle, and that 54% want better WMS and ERP integration, shows that the constraint lies in the connections between systems as much as in the algorithms. With most applications under a year old and only about a third of described cases documenting significant gains, the evidence base for these systems is still thin.",
+     "critique": "Automation literature often assumes that benefits follow from the technology itself, whereas the article suggests that data quality and integration determine whether value is captured. The figures are self-reported survey responses, so moderate improvement may not have been measured against a clear baseline.",
+     "practice": "A warehouse manager should map which decisions the AI makes independently, set limits and override rules, and audit a sample of its inventory movements and data corrections against physical counts. Before extending autonomy, they should invest in integration with the WMS and ERP and document baseline performance so that gains can be demonstrated rather than assumed."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model (Hackman and Oldham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The Job Characteristics Model proposes that five core job dimensions (skill variety, task identity, task significance, autonomy and feedback) produce three psychological states: experienced meaningfulness, felt responsibility for outcomes and knowledge of results. These states raise internal motivation, performance and satisfaction, and the effect is stronger where employees have a high growth need strength. Job enrichment is the deliberate redesign of work along these dimensions.",
+     "link": "The article reports that 56% of organisations say AI has mainly moved employees towards higher-value tasks, and 73% are upskilling warehouse-floor staff. If this is accurate, it describes job enrichment, with routine picking and checking giving way to exception handling, supervising systems and analysis, which raises skill variety and autonomy. The model predicts higher motivation where workers have the growth needs it assumes. The 11% of organisations reporting headcount reductions show that the same technology can shrink the number of roles to be enriched, so the model describes a design choice rather than an automatic outcome.",
+     "critique": "The model was developed for individual jobs in relatively stable settings and says little about how algorithmic monitoring and automated decisions can reduce autonomy even as tasks become more varied. The article's claims about higher-value work are managers' own reports and may overstate enrichment.",
+     "practice": "A manager applying the model should assess each warehouse role before and after AI deployment against the five core dimensions, redesign roles so that workers keep decision authority over exceptions, and give staff feedback on the outcomes of their decisions. Training should be linked to the new tasks rather than offered as general upskilling."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain integration and the arcs of integration (Frohlich and Westbrook)",
+     "unit": "",
+     "theory": "Frohlich and Westbrook treat integration as a set of arcs linking a firm with its suppliers and customers, and their study found that firms integrating more widely across both sides of the chain tended to perform better. Integration rests on sharing information and aligning processes and systems across organisational boundaries. Wider arcs are more demanding, so the breadth of integration is a strategic choice rather than a default.",
+     "link": "The article's main barrier is the failure of AI tools to connect with legacy systems, warehouse management and ERP. In supply chain terms, an AI agent making inventory decisions in one warehouse depends on accurate information from purchasing and demand data across the chain. The 54% who want better WMS and ERP integration are effectively asking for the internal connections to be completed before external sharing can add value. As autonomous decisions spread, the quality of shared data matters more, because a flawed input is acted on without a human check (this inference goes beyond the survey itself).",
+     "critique": "The arcs framework was developed before AI and focuses on information sharing and process alignment between firms. It does not address whether software-made decisions can be trusted, and its performance evidence is correlational.",
+     "practice": "A supply chain manager should map the data flows the AI agent relies on, both internal and with key suppliers and customers, and prioritise integration of inventory and order data before widening its decision authority. They should track integration measures alongside service performance to show whether each additional connection adds value."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "ADKAR change model (Hiatt)",
+     "unit": "Unit 8 Organisational change",
+     "theory": "ADKAR is an individual-focused change model which holds that successful organisational change depends on five outcomes for each person, in turn: awareness of the need for change, desire to take part, knowledge of how to change, ability to implement new behaviours and reinforcement to sustain them. Failure at any stage blocks progress, so change managers should diagnose which stage is weakest.",
+     "link": "The article reports that 73% of organisations are upskilling warehouse-floor staff and 61% are creating new technical roles, which maps onto the knowledge and ability stages. The claim that AI is reshaping roles rather than replacing them is a message about the change that bears on awareness, and the 11% reporting headcount reductions suggests that desire to take part may be undermined for some staff. The 40% who name legacy-system integration as the main obstacle point to a barrier that ADKAR treats only lightly, since it is a structural and technical problem rather than an individual one.",
+     "critique": "ADKAR is a practical, individual-level model with limited independent evidence of its effectiveness and little attention to power, politics or the technical system. In warehouse AI the change is driven by systems and data as much as by people, so the model underplays the integration barrier that the article highlights.",
+     "practice": "A manager should check each ADKAR stage for warehouse teams, starting with whether staff understand why autonomous decisions are being introduced. They should then provide training in supervising and overriding the AI, and reinforce new roles through performance measures and recognition, while being transparent about any job reductions."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized third-party logistics provider operates three regional warehouses and is considering letting AI agents make inventory movement and data-correction decisions without human approval, with the aim of automating more than a quarter of operational decisions by 2028. Its warehouse management system and ERP were installed in different decades and do not share data cleanly. Floor staff are uncertain about their roles, and the board wants evidence that the investment will pay back.",
+    "question": "Advise the board on whether, and how, to extend autonomous AI decision-making across the warehouse network, critically evaluating the systems, people and performance issues.",
+    "evidence": [
+     "57% of organisations expect AI to make or execute more than 25% of operational warehouse decisions autonomously by 2028, rising to 70% among fully integrated companies.",
+     "Only 39% of generative AI and 36% of agentic AI use cases achieved significant, quantified and documented gains, although 87% and 81% showed at least moderate improvement.",
+     "40% of respondents named legacy-system integration as the biggest obstacle, and 54% said better WMS and ERP integration would accelerate deployment.",
+     "56% reported that AI had mainly shifted staff to higher-value tasks, 11% reported headcount reductions, and 73% are upskilling floor staff."
+    ],
+    "plan": [
+     "Set out the decision rights question: identify which warehouse decisions can be delegated to the AI, starting with inventory movements and data corrections and treating financial decisions with more caution, noting that the survey shows most organisations take this path, and apply warehouse management system logic to define override thresholds.",
+     "Diagnose integration as the binding constraint using the arcs of integration (Frohlich and Westbrook), arguing that internal connections between the WMS and ERP must be completed before external data sharing and wider autonomy can add value.",
+     "Test the job design effects with the Job Characteristics Model, showing that upskilling and moving staff to exception handling can enrich work and motivation, but that algorithmic monitoring and the 11% of headcount reductions could reduce autonomy and meaning.",
+     "Plan the change with ADKAR, sequencing awareness, desire, knowledge, ability and reinforcement for floor staff, and identify where resistance is most likely given the risk to roles.",
+     "Recommend a phased rollout: integrate systems and document baselines, pilot autonomy for inventory movements with audit and override rules, then widen decision rights only where quantified gains are shown, linking further investment to the board's payback test."
+    ],
+    "pitfalls": [
+     "Treating the survey's moderate-improvement figures as proof of financial return, when the case needs documented, quantified gains against a baseline.",
+     "Assuming AI automatically enriches jobs, when the 11% of headcount reductions and the risk of monitoring show that job design is a managerial choice."
+    ]
+   },
+   "alsoConsider": [
+    "Lewin's three-step model and force field analysis",
+    "Herzberg's two-factor theory",
+    "Kotter's eight-step change model",
+    "Lee's triple-A supply chain"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether the adoption of AI in warehouse operations will enrich or deskill the work of warehouse employees, and what managers must do to ensure the change delivers both operational and human benefits.",
+    "outline": [
+     "Define job enrichment and deskilling using the Job Characteristics Model, and explain how AI can change skill variety, autonomy and feedback in warehouse roles.",
+     "Evaluate the evidence on higher-value tasks, upskilling and headcount change, and assess its limits as self-reported management data.",
+     "Set out a change plan using ADKAR or Kotter's model, and recommend how managers should sequence training, role redesign and performance measures."
+    ]
+   },
+   "readingMinutes": 2
+  },
+  {
+   "id": "644703d0a9fe",
+   "title": "Port of LA Crushes Records: 5M Containers in 5 Months!",
+   "url": "https://www.freightwaves.com/news/port-of-la-crushes-records-5m-containers-in-5-months",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-18T19:34:42Z",
+   "addedAt": "2026-11-19T06:26:34Z",
+   "basis": "full_text",
+   "takeaway": "Record Los Angeles volumes come mainly from tariff-driven front-loading and strong China-linked imports, and they expose a structural imbalance: imports far outrun exports and empty repositioning, so rail capacity is stretched and return loads are thin.",
+   "summary": "The Port of Los Angeles moved about 5 million container units over five months, its strongest such stretch in 118 years, with October the second-busiest month on record. Executive Director Gene Seroka attributes the surge to a resilient American consumer, strong factory imports and greater tariff clarity. After a February Supreme Court decision on a temporary 150-day tariff basis, importers brought stock forward, and volumes rose again once Section 301 tariffs returned on a steadier footing. China has gained most, helped by short transit times and frequent rail services. The strain falls on rail, where about 9,500 containers have waited nine days or more because export and empty-container flows have not kept pace with imports. Seroka links this to weak US farm exports, which would otherwise supply return loads, and argues that unstable trade policy and short planning horizons make the industry react rather than plan. The source is a transcribed interview summary, so the figures are the speaker's account and have not been independently checked.",
+   "keyPoints": [
+    "About 5 million container units moved in five months, a record for the port in its 118-year history, and October alone topped 1 million.",
+    "Tariff clarity as well as demand drove the surge: importers front-loaded before a temporary tariff window closed, and volumes recovered once tariffs returned on a steadier basis.",
+    "China's volumes have risen sharply since the Supreme Court ruling, helped by long-refined supply chains, 13-day Shanghai to Los Angeles transits and frequent rail services.",
+    "Import-heavy flows leave about 9,500 containers waiting nine days or more on the BNSF and Phoenix Marine Terminal corridor, because export and empty repositioning lag behind.",
+    "Weak farm exports since 2016 remove the return loads that would balance rail use, and Seroka argues that short policy planning horizons leave firms reacting to repeated swings."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 85,
+     "reading": "This is a freight-network story in which a port handling record imports is limited by the rail links that carry containers inland and by the empty return legs that waste capacity. The central problem is directional imbalance: import months far outnumber export and empty repositioning movements, so railroads run short of engine power, crews and wagons. A logistics operations student should see the port, terminals and rail as one connected network whose utilisation depends on loads in both directions, with service levels set by these capacity limits."
+    },
+    {
+     "id": "scm",
+     "relevance": 70,
+     "reading": "The article describes a supply chain reacting to policy shocks: importers pulled inventory forward before a tariff window closed, then volumes recovered once the rules steadied. In supply chain terms, demand arrives in waves and passes through the chain with amplified swings that affect the port, rail and suppliers. Seroka's remark about a very short planning horizon points to the forecasting and inventory decisions that determine how much these swings are magnified. A student should treat the episode as evidence about demand variability and resilience."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 50,
+     "reading": "From a purchasing standpoint the article is about landed cost and the sourcing location decisions that follow from it. Tariffs, transit times and rail access change the total cost of buying from China compared with other producers, and the point that stable policy gives shippers a clearer view of landed costs is about cost visibility. The report that domestic metal producers raised prices after tariffs shows how duties can move prices across a buyer's whole supply base. A purchasing student should use it to examine how sourcing decisions respond to policy risk."
+    },
+    {
+     "id": "pwo",
+     "relevance": 35,
+     "reading": "The article is mainly about trade and logistics, but it describes an organisational response to an external trigger. Importers and carriers changed their behaviour quickly in response to tariff rules, and the speaker argues that short policy horizons leave firms reacting rather than planning. For a student of organisational change this is an example of how external triggers produce abrupt, unplanned adjustment, and how stable conditions would allow more deliberate planning. It is a secondary connection, used here for one application."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "logops",
+     "concept": "Vehicle routing and load planning",
+     "unit": "",
+     "theory": "Vehicle routing and load planning decide which vehicles serve which destinations, in what order and with what loads, so that distance, time and capacity are used efficiently. A central aim is to avoid running empty, which is done by pairing outbound loads with return loads on the same route, a practice known as backhauling.",
+     "link": "The article describes a network where imports arrive in large volumes but export and empty repositioning lag, so each rail round trip is only partly loaded on the return. Seroka says farm exports, which would supply the return loads, have been eroding since 2016 as buyers turn to Brazilian soybeans and Australian almonds. That maps directly onto the planning goal of pairing outbound and return legs, because scarce engines, crews and wagons are tied up on legs that carry little back. The roughly 9,500 containers waiting nine days or more show the cost of a schedule that cannot absorb the imbalance.",
+     "critique": "Routing models assume the operator can work within a given demand pattern, yet here the imbalance is set by trade policy and foreign buyers' choices, which planning cannot control. The shortage is also physical capacity in engines, crews and cars, so better routing alone cannot clear the backlog.",
+     "practice": "A rail operator or terminal in this position should look for return flows, for example by offering pricing or scheduling incentives for export loads and by repositioning empty containers to where they are needed. It should also model the effect of losing a backhaul market before committing to additional train frequencies."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "The bullwhip effect (Lee, Padmanabhan and Whang)",
+     "unit": "",
+     "theory": "Small variations in end-customer demand grow as they pass upstream through a supply chain, so orders to suppliers swing far more than sales to customers. Lee, Padmanabhan and Whang attribute this to demand signal processing such as forecast updating, order batching, price fluctuations and rationing or shortage gaming.",
+     "link": "The article shows clear swings: importers front-loaded inventory before the temporary tariff window closed, and volumes climbed again once Section 301 tariffs returned with more stability. These sharp changes in orders at the port and on rail do not match an underlying consumer demand that Seroka describes as resilient. His view that the industry is largely reacting to repeated ebbs and flows describes the amplification the bullwhip effect predicts, because each firm responds to a policy signal rather than to end demand.",
+     "critique": "The bullwhip literature locates the causes inside the chain, such as batching and forecasting, whereas here the swings are triggered by external policy that every firm sees at the same time. The article also gives port-level volumes rather than firm inventory data, so the amplification is an inference from the speaker's account.",
+     "practice": "Supply chain managers should share point-of-sale and policy-scenario data with suppliers and carriers, reduce order batching around known tariff dates, and consider vendor-managed inventory or collaborative planning to smooth orders. They should also hold steadier safety stock so that a temporary policy window does not force a stock surge."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Total cost of ownership",
+     "unit": "",
+     "theory": "Total cost of ownership evaluates a purchase over all the costs it creates across its life, not just the supplier's price. These costs include transport, duties, inventory holding, quality, delay and risk, and the aim is to compare sourcing options on landed or lifecycle cost.",
+     "link": "The article says importers gained a clearer view of landed costs once tariffs were stable, which is exactly the variable a total cost model needs. Tariffs can change the landed cost of Chinese goods more than the factory price does, while the 13-day Shanghai to Los Angeles transit and rail access reduce other costs that the model would count. The 50% tariffs on metals show a further hidden cost: domestic producers used them to raise prices by 48%, so buyers buying from home suppliers also faced increases that a simple price comparison would miss.",
+     "critique": "Total cost of ownership assumes cost drivers can be estimated with reasonable confidence, but this article describes tariff windows of around 150 days, so estimates can become obsolete quickly. The approach also does not capture the political risk of depending on one country, which is the main concern of the article.",
+     "practice": "Buyers should build tariff scenarios into their total cost models and treat duties as variable costs with a range rather than a single figure. They should compare the result with nearshoring or dual sourcing options, and review the model whenever policy changes rather than treating one estimate as settled."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Planned versus emergent change, with Lewin's three-step model",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Planned change is a deliberate, managed move from one state to another, often set out in stages such as Lewin's unfreeze, change and refreeze. Emergent change arises through continuous adaptation as circumstances unfold, and it is often needed when external triggers such as politics or markets move too fast for a fixed plan.",
+     "link": "The port's experience shows an external trigger, tariff policy, producing repeated adaptation by importers and carriers that was not planned in advance: they front-loaded inventory and then adjusted as the rules changed. Seroka argues that a longer planning horizon and stable policy would allow more deliberate choices, which is the logic of the planned model. His point that the planning horizon has been short for almost two years suggests that the sector is in an emergent mode because the triggers keep recurring.",
+     "critique": "Lewin's model assumes there is a stable new state to refreeze into, yet the article describes continuing policy changes with no settled end point, so the final stage may never arrive. Emergent change theorists would argue that organisations should expect this and build adaptive capacity rather than aim for stability.",
+     "practice": "Managers facing repeated external triggers should separate one-off triggers that justify a planned programme from recurring ones that need adaptive routines. They could set up scenario reviews and early-warning indicators, and tell staff clearly what is likely to change and what will stay fixed."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A container port records its busiest five-month period after a temporary tariff window encouraged importers to bring stock forward. Imports now far outpace exports and empty repositioning, leaving about 9,500 containers waiting on the rail corridor. Farm exporters have lost overseas markets over several years, so return loads are thin, and port management argues that short policy horizons make planning difficult.",
+    "question": "Advise the port authority on how to reduce the import-export imbalance on its rail corridor, and critically evaluate whether unstable trade policy should be treated as a planning constraint or as a trigger for organisational change.",
+    "evidence": [
+     "Roughly 5 million container units moved in five months, the strongest such stretch in the port's 118-year history.",
+     "About 9,500 containers have waited nine days or longer on the BNSF and Phoenix Marine Terminal rail corridor.",
+     "The port has recorded 500,000-TEU import months 11 times, but export and empty repositioning have not kept pace.",
+     "Farm commodities have been depressed since 2016, and American farmers export two-thirds of their harvest, which weakens return loads."
+    ],
+    "plan": [
+     "Diagnose the problem with the bullwhip effect, explaining why tariff-driven surges arrive in waves and strain the rail corridor at peaks.",
+     "Analyse the return-load problem with vehicle routing and load planning, showing how the loss of export backhaul leaves rail capacity underused on return legs.",
+     "Use total cost of ownership to explain why importers' decisions respond to changes in landed cost and why cost visibility matters to shippers.",
+     "Apply planned versus emergent change, with Lewin's model, to classify the policy shocks as recurring triggers, and assess whether a planned programme or adaptive routines suit the port.",
+     "Recommend a combined approach of incentives for export and empty repositioning, smoothed order flows with shared forecasts and scenario-based planning, and evaluate its limits under continuing policy uncertainty."
+    ],
+    "pitfalls": [
+     "Treating the record volumes as straightforward success without examining the directional imbalance that the article identifies.",
+     "Attributing the surge entirely to tariffs, when the article also credits a resilient American consumer, strong factory imports and China's structural advantages such as short transit times."
+    ]
+   },
+   "alsoConsider": [
+    "Mintzberg's deliberate and emergent strategy",
+    "Fisher's supply chain matrix",
+    "Kotter's eight-step model"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether organisations facing recurring external shocks, such as changes in trade policy, are better served by planned change or by emergent adaptation.",
+    "outline": [
+     "Define planned and emergent change, linking each to Lewin's three-step model and to the idea of triggers for change.",
+     "Use the port example to show how repeated policy shocks produce reactive adjustment, such as front-loading and short planning horizons.",
+     "Evaluate the limits of each approach, including whether a stable end state exists, and conclude with a justified position."
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "0365a8aa7cb5",
+   "title": "Southern California Port Employers Say No Movement on Watchmen Contract Talks as Strike Risk Grows",
+   "url": "https://www.supplychainbrain.com/general-scm/hr-labor-management/article/16542029/southern-california-port-employers-say-no-movement-on-watchmen-contract-talks-as-strike-risk-grows",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-18T20:12:33Z",
+   "addedAt": "2026-11-19T06:26:34Z",
+   "basis": "full_text",
+   "takeaway": "A stalled pay and benefits negotiation over a small but security-critical group of port workers shows how power, conflict and contrasting frames of reference shape bargaining, and how a dispute at a single node can threaten a wider supply chain.",
+   "summary": "The Pacific Maritime Association, which represents employers at the Los Angeles and Long Beach ports, says talks with 250 ILWU Local 26 watchmen ended with little movement by the union, and that the union will not extend the contract past its expiry. The watchmen, about 2% of union workers at the complex, have voted to authorise a strike, and they did not immediately comment. The PMA's account is the only side reported, and it describes an offer that includes a one-time bonus, a wage rise and retained healthcare and pension benefits. The talks have run for more than a year and a federal mediator has recently become involved.",
+   "keyPoints": [
+    "The employers' group says talks ended with little movement by the union on its proposals, and that the union's demands have not materially changed since talks began. This is the employer's account; the union had not commented.",
+    "The watchmen verify identification and credentials at terminal access points, conduct security patrols and report safety issues, so a small group controls a critical point in port operations.",
+    "The PMA offer includes a one-time bonus of $3,200 per member, a rise in average full-time earnings from over $170,000 to $198,000, retained employer-paid healthcare and higher pension benefits for long-tenure workers.",
+    "The strike risk arises at a time when volumes at the port complex are at record levels, so any stoppage would be costly.",
+    "The article places the dispute in context: a 2023 six-year deal averted a West Coast port strike, and a three-day 2024 East and Gulf Coast strike was the biggest of its kind in nearly half a century."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 75,
+     "reading": "This is a dispute about power, conflict and the employment relationship. The watchmen hold leverage out of proportion to their numbers because they control access and security at terminals, while the employers' group frames the union as inflexible and the union's perspective is not yet on record. A student of People, Work and Organisations should see it as a case of structured conflict between parties with different interests, handled through collective bargaining and mediation, and should ask how each side justifies its position."
+    },
+    {
+     "id": "scm",
+     "relevance": 45,
+     "reading": "For supply chain management the article is about the risk that labour disputes pose to a critical node in a global network. The port handles very large container volumes and a stoppage would cascade into delayed shipments and inventory problems for importers. The question for a supply chain student is how firms and ports build resilience against predictable but hard-to-control disruptions such as labour action."
+    },
+    {
+     "id": "logops",
+     "relevance": 35,
+     "reading": "Logistics operations at ports depend on access control, security checks and safety monitoring, which the watchmen provide. A contract expiry that threatens these functions shows why terminal operations depend on the staffing and continuity of support roles, not only on cranes and vessels. A logistics student can use the case to discuss the operational effect of labour disruption on port throughput."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Fox's unitarist, pluralist and radical perspectives on conflict",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Alan Fox distinguished three frames of reference for employment relations. A unitarist view sees the organisation as a single team with shared goals, so conflict is a malfunction. A pluralist view sees a coalition of groups with different interests, so conflict is normal and is managed through bargaining. A radical view sees conflict as rooted in structural inequality between capital and labour.",
+     "link": "The article shows parties with different and opposed interests: the employers' group wants to hold costs and secure operations, while the watchmen want higher pay and retained benefits. The employers' statement that the union has shown little movement, and the mediator's involvement, fits a pluralist frame in which conflict is expressed through bargaining and third-party assistance. The fact that the union has voted to authorise a strike shows that the bargaining relationship is adversarial but still operates within recognised procedures.",
+     "critique": "The pluralist frame risks treating the dispute as a bargaining problem between equals, which overlooks the fact that the employer's reporting of the talks is the only account available here. A radical reading would ask whether the scale of profits at a record-volume port and the exposure of a small group of workers reflect deeper structural inequality.",
+     "practice": "A manager working within a pluralist frame should set out the employer's interests clearly, bargain with the union on the substance of the claims and use the mediator to narrow the gap. They should also recognise that the union's position may reflect legitimate concerns that the employer has not yet addressed."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that power in a relationship comes from control over resources that the other party needs and cannot easily obtain elsewhere. The more critical and irreplaceable the resource, and the fewer the alternatives, the greater the power of the party that controls it. Organisations manage dependence by diversifying sources of supply or by reducing reliance on any single party.",
+     "link": "The watchmen are about 2% of union workers, yet they verify credentials at terminal access points and run the security and safety functions the complex depends on. Their power comes from the fact that their work is critical at a time of record volumes, not from their numbers. The employers in turn depend on these workers to keep the complex running, so the dependence runs in both directions, which makes the strike threat credible.",
+     "critique": "Resource dependence explains where power lies but says less about how it is used or constrained. Employers may be able to plan for temporary cover or automation to reduce their dependence, and the article gives no detail on whether such alternatives exist, so the strength of the watchmen's leverage cannot be judged from the text alone.",
+     "practice": "A manager applying this theory should map which parts of operations depend on the watchmen and how quickly the gap could be filled through cover, redeployment or contingency planning. That analysis tells the employer how much its bargaining position depends on the timing of the strike."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Thomas-Kilmann conflict modes",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Thomas and Kilmann describe five ways of handling conflict, arranged by the degree of assertiveness and cooperativeness: competing, collaborating, compromising, avoiding and accommodating. Each mode suits different circumstances, and effective managers choose between them depending on the importance of the issue and the relationship.",
+     "link": "The public statement that the union has shown little movement and that the contract will not be extended reads as a competing stance, in which each party presses its position. The employers' long set of proposals, including a bonus, wage increases and retained benefits, suggests an attempt at compromise, but the messages to the public are more competitive. The year-long talks and the use of the mediator indicate that neither side has yet moved to a collaborative solution.",
+     "critique": "Thomas-Kilmann describes styles of behaviour rather than structural causes, so it may suggest that a change of tone would resolve the dispute. Here the constraints on each side, including the expiry date and the watchmen's strike mandate, limit what either can concede, and a change of style alone may not be enough.",
+     "practice": "A manager should move from competing rhetoric towards collaborative problem solving, such as identifying shared interests in safety and continuity of operations and testing options with the mediator. Such a shift can reduce escalation while still protecting the employer's cost position."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chain resilience is the ability of a network to withstand disruption and recover to its original or an improved state. Managing risk involves identifying vulnerabilities, reducing the likelihood and impact of disruption, and building redundancy, visibility and flexibility into the network.",
+     "link": "The article describes a potential strike at a port handling a large share of US container imports, at a time of record volumes, which makes the port a vulnerability in the wider network. The watchmen's role in access and security means a stoppage would hold up cargo flows across many importers. The fact that a 2024 East and Gulf Coast strike shut down shipping for three days shows how labour disruption at a gateway can spread through the supply chain.",
+     "critique": "Resilience thinking focuses on the firm or network, but a labour dispute at a shared public gateway is largely outside any one company's control. Individual importers may have little influence over the dispute, so their resilience depends on diversifying gateways and holding buffer stock, which can be costly.",
+     "practice": "A supply chain manager should map exposure to this port, identify alternative gateways and carriers, and agree contingency plans with forwarders and customers before the deadline. They should also monitor the dispute so that inventory and transport decisions can be adjusted quickly."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large container port complex is approaching the expiry of a contract covering a small group of security staff who check credentials, patrol the site and report safety issues. Talks have run for more than a year, a federal mediator has become involved, and the employers' group says the union has shown little movement. The workers have voted to authorise a strike ahead of the deadline, at a time when cargo volumes are at record levels.",
+    "question": "Advise the employers' group on how to manage this dispute. Critically evaluate the sources of power each side holds and the supply chain risks that a strike would create.",
+    "evidence": [
+     "The employers' group says talks ended with little movement by the union, and that the union's demands have not changed materially since negotiations began.",
+     "The watchmen, about 2% of union workers, verify credentials at terminal access points, conduct security patrols and report safety issues.",
+     "The employers' offer includes a one-time bonus of $3,200 per member, a rise in average full-time earnings from over $170,000 to $198,000, and retained employer-paid healthcare.",
+     "The port complex handles around 40% of US container imports through the West Coast ports, and a 2024 strike on the East and Gulf Coast was the biggest of its kind in nearly half a century."
+    ],
+    "plan": [
+     "Identify the frame of reference used by each party with Fox's unitarist, pluralist and radical perspectives, and explain why a pluralist frame fits the bargaining relationship.",
+     "Map the sources of power on each side using resource dependence theory, showing how the watchmen's control of critical access points gives leverage out of proportion to their numbers.",
+     "Diagnose the conflict style each party is using with the Thomas-Kilmann modes, and assess whether the public statements harden positions and reduce the chance of agreement.",
+     "Assess the supply chain exposure to a stoppage using Christopher and Peck's approach to risk and resilience, identifying which importers and gateways would be affected.",
+     "Recommend that the employers move from competing rhetoric to collaborative problem solving with the mediator, prepare contingency cover for critical functions, and reconsider the package in light of the union's stated position, ending with a clear recommendation."
+    ],
+    "pitfalls": [
+     "Treating the employers' account as neutral fact, when the union had not commented and the article reports only one side of the talks.",
+     "Asserting that a strike will happen or that it will cause a specific level of disruption, when the article only reports a risk and a strike mandate."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Pondy's functional and dysfunctional conflict",
+    "Rousseau's psychological contract"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether conflict between employers and trade unions is best understood as a pluralist or a radical phenomenon, using a recent dispute to support your argument.",
+    "outline": [
+     "Define Fox's unitarist, pluralist and radical frames and show how each interprets conflict between employers and employees.",
+     "Apply the pluralist frame to a current dispute, showing how bargaining, mediation and the balance of power shape the outcome, and test the limits of this reading.",
+     "Assess the radical critique, considering structural inequality and whether the dispute reflects deeper imbalances, and reach a reasoned conclusion."
+    ]
+   },
+   "readingMinutes": 2
+  },
+  {
+   "id": "3b6e044e5d13",
+   "title": "Digital Passports Set the Stage for the Future of Battery Recycling",
+   "url": "https://www.supplychainbrain.com/technology/data-management-big-data-iot-blockchain/blog/16170255/digital-passports-set-the-stage-for-the-future-of-battery-recycling",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-18T08:00:00Z",
+   "addedAt": "2026-11-19T06:26:34Z",
+   "basis": "full_text",
+   "takeaway": "The EU Battery Passport is a digital record that follows a battery through its life. Its real value is the trusted visibility it gives across the supply chain, which can cut the risk that currently makes second-life batteries hard to value. Firms that only treat it as a compliance cost will not gain that advantage.",
+   "summary": "The article, by Michelle Blakeley of Perficient, argues that EU Battery Passport requirements, applying from 18 February 2027 to electric-vehicle batteries and some other categories, should be seen as more than a regulatory hurdle. A passport is a digital record that travels with a battery and gives manufacturers, suppliers, logistics providers and recyclers trusted access to data on materials, production, performance and ownership. The author says the main obstacle today is a lack of transparency: without verified information, supply chain participants cannot judge a battery's remaining useful life, so they become cautious, which creates financial risk. The passport could combine health data, warranty status, sourcing, facility and lot numbers, and chain of custody into a verified history, similar to a vehicle history report. The author also points to traceability of critical minerals, supplier accountability, faster recall management and more accurate carbon footprint reporting. Artificial intelligence is presented as a layer that cleans telemetry and forecasts degradation. The article concludes that early movers who build data infrastructure now will gain advantage, and that second-life batteries may become a distinct asset class. It is an opinion piece by a consultancy executive and reports no measured results.",
+   "keyPoints": [
+    "The EU Battery Passport applies from 18 February 2027 to electric-vehicle batteries and certain other categories, but the author argues its significance goes well beyond compliance.",
+    "A battery passport is a digital record that travels with the battery and gives trusted access to material, production, performance and ownership data.",
+    "The central problem identified is lack of transparency, which makes supply chain participants conservative about second-life batteries and so creates financial risk.",
+    "No single data point describes a battery's condition, so the passport is meant to combine health, warranty, sourcing, facility, lot and custody data into one verified history.",
+    "Benefits named include end-to-end traceability of critical minerals, supplier accountability, faster recall management and more accurate carbon footprint reporting."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 80,
+     "reading": "In green logistics terms the article describes a battery whose value flows through several lives, from vehicle use to second-life storage to recovery, and an information system that decides where each unit goes next. That is the logic of the circular economy and of closed-loop supply chains, where returned products re-enter the chain through reverse logistics. The article also links the passport to carbon footprint reporting, which connects to Scope 1, 2 and 3 emissions accounting. A green logistics student should see that the claimed benefits depend on collection and routing, not on data alone."
+    },
+    {
+     "id": "scm",
+     "relevance": 75,
+     "reading": "The article is largely about supply chain visibility: knowing which supplier made a cell, which facility assembled a module, which lots were involved and whether sanctioned regions were involved. That is a problem of tracing beyond the first tier, and the passport is proposed as the tool for it. Recall management and supplier accountability are classic supply chain risk and resilience concerns. A supply chain student should examine whether the passport actually improves resilience or simply makes the network more visible."
+    },
+    {
+     "id": "strategy",
+     "relevance": 45,
+     "reading": "The author separates compliance, which gets a firm into the market, from competitive advantage, which comes from visibility across the battery chain. This is a resource-based argument: the question is whether battery data and the analytical capability to use it are valuable, rare, hard to imitate and organised to be exploited. The article also proposes new value streams, such as second-life markets and customer propositions, which are strategic choices about growth. A strategy student should test whether the standardisation the author recommends makes the data a common good rather than a source of advantage."
+    },
+    {
+     "id": "pwo",
+     "relevance": 40,
+     "reading": "From the PWO perspective the EU mandate is an external trigger for change, a legal factor in a PESTLE sense, with a fixed date that forces organisations to act. The article reports a common reaction from leaders who dismiss the regulation as having nothing to do with them, which is a form of resistance to change rooted in how people perceive the situation. The author's advice to see the passport as an opportunity is an attempt to reframe attitudes, which is central to managing organisational change. A PWO student should look at how managers can move people from compliance thinking to shared ownership of the change."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "Circular economy and closed-loop supply chains",
+     "unit": "",
+     "theory": "The circular economy seeks to keep products, components and materials in use for as long as possible through reuse, repair, remanufacture and recycling, rather than a linear take-make-dispose flow. Closed-loop supply chains manage the return of used products into the chain, which depends on reverse logistics to collect, sort and route them. Value is recovered at each stage of the product's life.",
+     "link": "The article describes a battery that will not have one economic life, and argues that the passport must carry information from one life into the next. This maps onto closed-loop flows: a battery leaving EV use can be routed to second-life storage or to recovery, depending on its verified condition. The passport answers the question of where the battery can go from here, which is the routing decision in a reverse logistics network. The author's point that second-life batteries could become an asset class shows the economic value of keeping materials in use.",
+     "critique": "Circular economy research warns that information alone does not close material loops, because collection rates, reverse logistics costs and recycling economics decide what is actually recovered. The article gives no figures on collection, yields or recycling costs, so its claims about second-life value rest on assumption.",
+     "practice": "A manager should map the return flows from vehicle owners, dealers and scrap operators and identify where batteries are collected. Passport health thresholds can then be used to sort batteries into reuse, repurposing or recycling routes. Targets for recovery and reuse rates should be set and measured so that the claimed circular benefits can be tested."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chain resilience depends on understanding the structure of the network beyond the first tier, reducing vulnerabilities and building the capacity to recover from disruption. Visibility of suppliers and their dependencies is the starting point, followed by designing redundancy, flexibility and rapid response. Resilience is the ability to recover and continue after disruption, not merely to avoid it.",
+     "link": "The article's list of questions, including which supplier produced the cell, which lot numbers were involved and which vehicles contain affected batteries, is exactly the visibility problem that resilience theory addresses. The passport is proposed to answer these questions quickly, which would speed up recall management and isolate affected batches. The article's concern about sanctioned regions and critical minerals also points to upstream dependency risk that lies beyond the first tier.",
+     "critique": "Visibility is costly to build and is only as good as the data that suppliers are willing and able to provide. A passport holding inaccurate or incomplete entries could create false confidence, and visibility alone does not create redundancy or flexibility. The article does not discuss how smaller suppliers would be brought into the data system.",
+     "practice": "A manager should map critical mineral and cell suppliers down to at least the third tier and define the data fields the passport must carry. Recall protocols should use lot and facility data to isolate affected batches quickly, and should be tested through simulation. Supplier agreements should require data sharing, and alternative sources should be qualified for critical materials."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Kotter and Schlesinger's strategies for overcoming resistance to change",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Kotter and Schlesinger identify six approaches to resistance to change: education and communication, participation and involvement, facilitation and support, negotiation and agreement, manipulation and co-optation, and explicit or implicit coercion. Each has different costs and benefits, and the choice depends on the source of resistance and the urgency of the change. Resistance is often a rational response to perceived loss or misunderstanding.",
+     "link": "The article reports a leader who dismisses the mandate with the view that it is a regulation with no bearing on the company, which signals misunderstanding of how the change affects the business. The author responds with education, arguing that the passport offers a competitive opportunity and that early adoption reduces the cost of later compliance. The mandate is an external trigger with a fixed date, which gives the change urgency. Matching the strategy to the source of resistance, which here is perceived irrelevance and perceived cost, is the key analytical step.",
+     "critique": "Kotter and Schlesinger's strategies assume the change agent controls the process, whereas here much depends on suppliers and competitors outside the firm. Education may not be enough if the costs of data systems fall on parts of the organisation that gain no benefit. The model also says little about how external regulation changes the balance of power between firms and their partners.",
+     "practice": "A manager should first identify who resists and why, separating those who misunderstand the regulation from those who fear the cost. Education can be combined with participation, bringing operations, purchasing and sales into designing the data processes. The business case should show early benefits, such as recall speed and second-life revenue, so that support is built before the 2027 deadline."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Resource-based view and VRIO (Barney)",
+     "unit": "",
+     "theory": "The resource-based view holds that sustained competitive advantage comes from resources and capabilities that are valuable, rare, inimitable and organised to be exploited, tested through the VRIO framework. Resources that meet all four criteria can sustain above-average returns. Resources that are common or easily copied yield only parity or temporary advantage.",
+     "link": "The author argues that compliance gets companies into the game, but competitive advantage comes from visibility across the battery supply chain. Applying VRIO, the passport itself is a standard and therefore widely available, so it is not rare or inimitable. The potential source of advantage lies in the proprietary capability to interpret telemetry across large fleets, which the article links to AI analytics. Whether that analytical capability is valuable, rare, hard to imitate and well organised is the question the article raises but does not answer.",
+     "critique": "VRIO is largely static and does not say how advantage survives when a common standard is adopted by everyone. The article's support for standardisation works against rarity, and dynamic capabilities (Teece) may explain better how firms keep adapting as the standard and the data evolve.",
+     "practice": "A manager should treat the passport as a basic requirement and then assess whether the firm's battery analytics meet the four VRIO tests. Investment should go into proprietary analytics, data partnerships and the customer propositions that use them. Progress should be reviewed as the standard matures, because advantage based on a common standard will erode unless the firm keeps building new capability."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A battery manufacturer supplies cells and modules to several car makers and has a supply base spread across different countries and tiers. Its senior managers disagree about the EU Battery Passport, with some seeing it as a cost to be minimised and others seeing a chance to improve recalls and second-life sales. The company must be ready for the EU requirements from February 2027 while protecting its position with customers.",
+    "question": "Advise the board on how the company should respond to the EU Battery Passport requirements. Critically evaluate whether treating the passport as a compliance obligation is sufficient to protect its competitive position.",
+    "evidence": [
+     "The requirements begin applying to electric-vehicle batteries and certain other categories from 18 February 2027.",
+     "The article identifies lack of transparency as the main reason supply chain participants are cautious about second-life batteries, and links this to financial risk.",
+     "The passport would let firms answer questions such as which supplier produced a cell, which lot numbers were involved and which vehicles contain affected batteries if a supplier issue emerges.",
+     "The author argues that compliance gets companies into the game, while competitive advantage comes from visibility across an increasingly complex battery supply chain."
+    ],
+    "plan": [
+     "Identify the EU mandate as an external legal trigger for change with a fixed date, and use Lewin's force field analysis to set out the drivers and restraints on the company's response.",
+     "Assess the visibility gap using supply chain risk and resilience theory, mapping suppliers below the first tier and listing the data needed for recall and sourcing questions.",
+     "Apply the resource-based view and VRIO to decide whether battery data and analytics can be a lasting source of advantage, noting that the standard itself is shared.",
+     "Use Kotter and Schlesinger's strategies to plan for resistance from leaders who see the passport as a cost, and choose education together with participation to bring them into the design.",
+     "Apply circular economy and closed-loop thinking to show how the passport could route batteries into second-life markets or recycling.",
+     "Recommend building the data infrastructure now, piloting it with a second-life or energy storage partner, and setting clear governance and measurable targets for recall speed and recovery."
+    ],
+    "pitfalls": [
+     "Presenting the article's forecasts about second-life markets, AI and investor behaviour as proven outcomes, when the article is an opinion piece with no measured results.",
+     "Treating the passport as a technology solution in itself and ignoring the supplier cooperation, costs and change management needed to make the data reliable."
+    ]
+   },
+   "alsoConsider": [
+    "Dynamic capabilities (Teece)",
+    "Lewin's three-step model and force field analysis",
+    "Frohlich and Westbrook's arcs of integration",
+    "Williamson's transaction cost economics"
+   ],
+   "exam": {
+    "question": "Critically discuss how managers can overcome resistance to change when an external regulation is seen as a cost rather than an opportunity, using a current example to support your answer.",
+    "outline": [
+     "Explain the external trigger for change, such as a legal requirement with a fixed deadline, and how it creates urgency within the organisation.",
+     "Analyse the sources of resistance, including misunderstanding and perceived cost, and apply Kotter and Schlesinger's strategies to choose responses that match them.",
+     "Evaluate the limits of the approach, including the influence of external partners and the risk that change initiatives are reduced to compliance."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "e9b49c7992fd",
+   "title": "You Need More Than Geography to Measure Supplier Risk",
+   "url": "https://www.supplychainbrain.com/general-scm/regulation-compliance/blog/16170254/you-need-more-than-geography-to-measure-supplier-risk",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-18T08:00:00Z",
+   "addedAt": "2026-11-19T06:26:34Z",
+   "basis": "full_text",
+   "takeaway": "Country-level risk scores are a cheap shortcut that can misdirect supplier due diligence, so procurement should assess each supplier on evidence tied to its actual activities and exposure, and record the reasoning.",
+   "summary": "The article argues that country-based supplier risk scores, long used to screen large supplier bases cheaply, no longer work for modern multi-tier supply chains. A country label says little about a specific supplier's production, sourcing or labour practices, and it can burden well-run suppliers while letting risky ones through. The author, from Avetta, proposes a multi-factor model using proxy indicators such as type of work, materials and criticality to operations, alongside continuous monitoring of adverse media, filings, legal proceedings, sanctions and shipping data. She stresses that AI helps with sorting but needs clean supplier data, explainable scores and human judgement, and that organisations need not abandon country scores altogether. A documented record of why decisions were made is presented as essential for accountability to customers, auditors and boards.",
+   "keyPoints": [
+    "Country-level risk scores were a cheap way to screen thousands of suppliers, but they cannot show whether a particular supplier has been affected by a documented risk.",
+    "In multi-tier supply chains, a supplier's headquarters says little about where production happens, how materials are sourced or who recruits workers.",
+    "Geographic labels can impose heavy questionnaires and audits on well-run suppliers, while forced labour can appear in countries a geography-first model would treat as low risk.",
+    "In a survey of 500 US leaders, only 44 per cent reported fully centralised, real-time visibility of third-party workforce, safety and compliance risk.",
+    "Supplier-specific assessment should draw on adverse media, financial filings, legal proceedings, sanctions lists, shipping records and facility-level location data, with AI used to sort large volumes of information."
+   ],
+   "modules": [
+    {
+     "id": "purchasing",
+     "relevance": 85,
+     "reading": "This is squarely a purchasing question: how a buyer should assess and manage risk across its supplier base. The critique of country-based screening goes to the heart of supplier selection and evaluation, and the call for multi-factor, evidence-based due diligence connects directly to ethical and sustainable procurement. A student should see the trade-off between efficient screening at scale and the accuracy and fairness of supplier-specific assessment."
+    },
+    {
+     "id": "scm",
+     "relevance": 55,
+     "reading": "The article describes supply chains with several tiers, heavy subcontracting and limited visibility beyond tier 1, which are structural sources of risk. Supply chain risk management is about locating vulnerabilities across the whole network, not only at its first tier. The risk discussed is mainly labour, reputational and legal rather than disruption, but the logic of mapping and monitoring the network carries over."
+    },
+    {
+     "id": "pwo",
+     "relevance": 40,
+     "reading": "A country label works as a stereotype: a whole category of suppliers is judged by group membership rather than by each supplier's own evidence. The article shows how this categorical shortcut distorts decisions, burdening some good performers while missing risk elsewhere. Students of Unit 2 can use it to illustrate how perceptual biases operate at organisational level, and how procedures can entrench them."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "purchasing",
+     "concept": "Kraljic's purchasing portfolio matrix",
+     "unit": "",
+     "theory": "Kraljic plots purchases on two axes, profit impact and supply risk. Supply risk reflects factors such as market complexity, supplier availability and how easily a supplier can be replaced. Items fall into strategic, leverage, bottleneck and non-critical categories, each implying a different approach to buying and to risk management.",
+     "link": "The article's proposed indicators, including type of work, materials involved and how critical the supplier is to operations, correspond to the factors that place a supplier on the supply risk and profit impact axes. A supplier providing a critical input in a bottleneck position warrants the deeper evidence-based review the article recommends, while a readily replaceable supplier of low-impact goods does not, whatever its country. The article's point that a supplier in a high-risk country may perform well shows that the risk sits in the specific position rather than the location.",
+     "critique": "Kraljic's axes were designed around commercial supply and cost exposure, so the matrix does not by itself capture ethical or human rights risk, which the article emphasises. A supplier can be non-critical commercially yet still expose the firm to forced labour allegations that cause serious reputational damage.",
+     "practice": "A category manager should plot the supplier base on the matrix and set due diligence intensity by quadrant, with the deepest evidence-based review for strategic and bottleneck suppliers and lighter screening for leverage and non-critical ones. A separate ethical trigger should force review of any supplier with a documented labour or legal concern, regardless of its quadrant."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Supplier selection and evaluation criteria, within ethical and sustainable procurement",
+     "unit": "",
+     "theory": "Supplier evaluation uses defined criteria, weighted and assessed over the life of the relationship. These cover cost, quality, delivery, financial stability and ethical and environmental performance, and ethical procurement extends them to labour standards and human rights, verified through evidence rather than declarations.",
+     "link": "The article's multi-factor model replaces a single geographic criterion with several evidence-based ones. Its sources, including adverse media, financial filings, legal proceedings, sanctions and watchlists, shipping records and facility-level data, give the evaluation something concrete to be checked against. The continuous monitoring it describes means evaluation is not a one-off gate at onboarding, but flags a new lawsuit or labour dispute when it happens.",
+     "critique": "Scorecards can give false precision, since weights are often set by judgement and can quietly reintroduce the same shortcuts. The article's warning about poor data applies here, and data-heavy monitoring raises questions about supplier burden and fairness that the article only partly addresses.",
+     "practice": "Define the criteria and weights in advance, document the evidence behind each score and agree triggers for re-review. Share findings with suppliers and give them a route to respond, so that the process develops suppliers rather than simply screening them out."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Stereotyping as a perceptual bias",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Stereotyping attributes characteristics to individuals on the basis of the group they belong to. Together with selective perception, it leads people to filter information so that it confirms an initial categorisation, and judgements formed this way are quick and hard to revise without deliberate checking.",
+     "link": "The country label works as a group category applied to every supplier within it. Procurement staff then attribute the category's characteristics to each supplier regardless of its track record, which is what the article describes when well-run suppliers are buried in paperwork because of where they are. The way a low-risk country can lead staff to discount warning signs is a form of selective perception, the article's example being a supplier in a low-risk country showing signs of trouble. The call for evidence-based review is in effect a call to replace category-based judgement with individual evidence.",
+     "critique": "Group base rates are not irrational: the article itself says geographic trends should not be ignored, and forced labour does concentrate in some places. The problem lies in using a category as the sole basis for a decision about an individual supplier rather than as a starting prior. The bias is also built into procedures, so change requires process design as well as individual awareness.",
+     "practice": "A manager should require that any country-driven rating be justified by supplier-level evidence, and should review a sample of decisions to check whether ratings track evidence or simply location. Training in recognising categorical shortcuts, combined with a checklist asking which supplier-specific facts support each decision, reduces the influence of the stereotype."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chain risk should be managed across the whole network, identifying vulnerabilities in the structure and relationships of the chain. Resilience is built through visibility, collaboration, flexibility and redundancy, which requires managers to map their supply base beyond the first tier.",
+     "link": "The article's observation that subcontracting and lack of visibility beyond tier 1 can hide material risk maps directly onto the mapping task. A product may pass through several manufacturers and logistics providers before arrival, so the buyer's direct relationship reveals little. The survey finding that only 44 per cent of leaders have centralised, real-time visibility shows the gap in practice, and the suggestion to use facility-level data is one way of seeing deeper into the network.",
+     "critique": "The framework was developed mainly around operational and disruption risk, such as delays and shortages, whereas the article focuses on labour, reputational and legal exposure. Extending it to ethical risk means adding criteria that visibility tools cannot always provide, and mapping deep tiers across thousands of suppliers is costly.",
+     "practice": "Prioritise tier visibility for the supply chains that matter most, starting with critical components and labour-intensive processes. Ask tier 1 suppliers to disclose their key subcontractors, and maintain a single supplier record that procurement and sustainability teams can both use."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A consumer goods company buys components from several thousand suppliers across many countries. Its procurement team screens them using country risk scores, sending lengthy questionnaires to suppliers in high-scoring countries, while several tier 2 subcontractors remain largely invisible to it. After a media report on labour abuse at a subcontractor of a supplier based in a low-risk country, the board asks how the risk was assessed.",
+    "question": "Advise the board on how the company should reassess its supplier risk, critically evaluating the role of country-level scores and of AI-enabled monitoring.",
+    "evidence": [
+     "Only 44 per cent of 500 surveyed US leaders reported fully centralised, real-time visibility of third-party workforce, safety and compliance risk.",
+     "The International Labor Organization estimates forced labour in the private economy generates 236 billion dollars in illegal profits every year, and it is not confined to high-risk countries.",
+     "The article says a supplier's headquarters says little about where production occurs or who recruits workers, and subcontracting can hide material risk beyond tier 1.",
+     "Only 19 per cent of supply chain leaders report deploying AI tools at scale, according to a McKinsey survey."
+    ],
+    "plan": [
+     "Diagnose the exposure using Kraljic's matrix, classifying categories by supply risk and profit impact to identify where deeper due diligence matters most.",
+     "Identify the blind spots: the lack of tier visibility, and the stereotyping effect of country labels that burdens some suppliers and excuses others (Unit 2 perception and Christopher and Peck on mapping the network).",
+     "Propose a multi-factor model using proxy indicators such as type of work, materials and criticality, with weights and evidence documented so that each rating can be explained.",
+     "Set out the data and governance prerequisites: clean supplier master data, human review of AI outputs, and a documented decision trail.",
+     "Recommend continuous monitoring of adverse media, filings, sanctions and facility data, with triggers for re-review, piloted first in strategic and bottleneck categories.",
+     "Conclude by recommending that country scores remain as a screening input, but that the board require supplier-specific evidence before any major decision."
+    ],
+    "pitfalls": [
+     "Treating AI as a substitute for data cleansing and human judgement, when the article warns that poor data produces confident but wrong scores.",
+     "Recommending that country scores be abandoned altogether, when the article says geography remains a useful starting point and regional trends still matter."
+    ]
+   },
+   "alsoConsider": [
+    "Tversky and Kahneman's representativeness heuristic",
+    "Cox's power in buyer-supplier relationships",
+    "Total cost of ownership"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether purchasing functions should replace country-based supplier risk assessment with supplier-specific, multi-factor due diligence, and discuss the trade-offs involved.",
+    "outline": [
+     "Explain the limitations of country-level screening in multi-tier supply chains, with reference to limited visibility and categorical stereotyping.",
+     "Set out a multi-factor approach that uses criticality-based segmentation, supplier evidence and continuous monitoring, and identify the data and governance it requires.",
+     "Critically evaluate the trade-offs between cost, speed, data quality, reliance on AI and human judgement, and the risk of over-correcting."
+    ]
+   },
+   "readingMinutes": 6
+  },
   {
    "id": "a85a4941d9f7",
    "title": "Is Your Company Ready for Decentralization?",
