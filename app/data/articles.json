@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-19T12:23:04Z",
+ "generatedAt": "2026-11-20T06:28:50Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
@@ -72,6 +72,1082 @@
   }
  ],
  "articles": [
+  {
+   "id": "00beab32522a",
+   "title": "Stefan Latuski on transforming public sector services at scale",
+   "url": "https://www.mckinsey.com/industries/public-sector/our-insights/stefan-latuski-on-transforming-public-sector-services-at-scale",
+   "source": "McKinsey Insights",
+   "publishedAt": "2026-11-19T00:00:00Z",
+   "addedAt": "2026-11-20T06:28:50Z",
+   "basis": "abstract",
+   "takeaway": "Transformation in a large public agency can rest on redesigning processes and structure, not just installing new technology, which makes it a case of organisational change and design rather than an IT project.",
+   "summary": "The publisher's abstract says that the chief information officer of Germany's Federal Employment Agency describes how the organisation reimagined its customer communication. According to the abstract, the approach relied on simplifying and standardising processes rather than only replacing technology. The full interview was not available, so details of the methods, timescale, results and people involved are unknown.",
+   "keyPoints": [
+    "The change is described as a reimagining of customer communication at a large public body, led by its chief information officer.",
+    "The abstract places emphasis on simplifying and standardising processes, and explicitly says this was more than replacing technology.",
+    "Because only the abstract was available, the note does not assume any figures, outcomes or specific initiatives beyond this."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 78,
+     "reading": "The article is about deliberate change in a large public organisation, which is the subject of Unit 8 (Organisational change). It also touches Unit 6 (Designing effective organisations), because standardising processes changes how work is structured and coordinated. The abstract's point that technology alone was not the answer is a useful entry point for the view that change succeeds or fails on people, structure and routines as well as systems. A PWO student should care because it offers a real-world case for testing change models and structural theories."
+    },
+    {
+     "id": "leadership",
+     "relevance": 35,
+     "reading": "The interview is with a senior technology executive who appears to be driving the change, so it bears on leadership of change at scale. The abstract does not say how leadership was exercised, so the leadership angle can only be considered as a secondary question about who sponsors and sustains transformation in a public body."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "McKinsey 7S framework (Peters and Waterman, with Pascale and Athos)",
+     "unit": "Unit 8 Organisational change",
+     "theory": "The 7S framework holds that seven interdependent elements determine organisational effectiveness: strategy, structure and systems (the hard elements), and shared values, style, staff and skills (the soft elements). Change is effective when these elements are aligned, so altering one element, such as technology, without the others is unlikely to produce lasting change. The framework is used diagnostically to see where misalignment lies before a change programme is designed.",
+     "link": "The abstract says the agency reimagined customer communication by simplifying and standardising processes, not just replacing its technology. This maps directly onto the 7S logic: technology sits within systems, while process simplification and standardisation touch structure, the way work is done and the skills and routines of staff. The emphasis on going beyond technology suggests the agency treated the hard systems as one part of a wider set of elements to be aligned. The article's framing therefore gives a concrete example of the 7S claim that systems alone do not change an organisation.",
+     "critique": "The 7S framework is diagnostic rather than prescriptive, so it does not explain how to sequence changes or resolve conflicts between elements. It also does not say how a large public agency with statutory obligations and political accountability should weigh competing priorities.",
+     "practice": "A manager applying 7S would map the current state of each element before choosing a change, asking whether new technology would be supported by a clear strategy, a fitting structure, suitable skills and shared values. They would then align the process redesign with the other elements so that the new system is not undermined by old routines and reporting lines."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Standardisation and formalisation as dimensions of structure; Weber's bureaucracy",
+     "unit": "Unit 6 Designing effective organisations",
+     "theory": "Standardisation, together with formalisation, specialisation and centralisation, describes how an organisation coordinates work through written rules, fixed procedures and uniform outputs. Weber's model of bureaucracy treats such impersonal, rule-based processes as the basis of predictable and fair administration, which suits large public bodies serving many customers. Mintzberg extends this by linking standardisation of work processes to the machine bureaucracy configuration.",
+     "link": "The abstract's stress on standardising processes is an example of increasing formalisation and standardisation in a large service organisation. Weber's model would see this as a way of making customer communication consistent and fair across a very large caseload, which is central to a public employment service. The article's claim that the change was about simplifying as well as standardising also suggests the agency was trying to reduce unnecessary complexity rather than simply adding rules, which is a more nuanced position than classic bureaucracy.",
+     "critique": "Standardisation can reduce responsiveness to individual circumstances, and Burns and Stalker's contrast between mechanistic and organic structures would suggest that rigid processes may struggle in changing conditions. The abstract does not show whether standardisation was accompanied by room for judgement where customers' needs differ.",
+     "practice": "A manager would standardise where consistency and fairness matter most, such as core customer communications, and keep discretion where cases vary widely. They would simplify rules before standardising them, so that the new process is easier for staff to follow and for customers to understand."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Lewin's three-step model and force field analysis",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Lewin's model describes change in three stages: unfreezing existing attitudes and behaviours, moving to a new state, and refreezing the new behaviours so that they become stable. Force field analysis identifies the driving forces pushing for change and the restraining forces resisting it, so that managers can strengthen the former and weaken the latter. The model emphasises that behaviour, not just procedure, must change for the change to hold.",
+     "link": "Simplifying and standardising processes in customer communication implies changing how staff and customers behave, not only what systems they use. In Lewin's terms, the agency would need to unfreeze habits built around old processes, move to the new standard, and refreeze it through routines and measures. The abstract's point that technology alone was insufficient fits the idea that refreezing requires changed behaviour that persists, which an IT replacement by itself would not guarantee.",
+     "critique": "Lewin's model is a simple, stage-based view that assumes change can be neatly sequenced, whereas large public bodies often run several changes at once and experience continuous adjustment. Force field analysis also depends on a manager's judgement about which forces matter, which the abstract does not reveal.",
+     "practice": "A manager would start with a force field analysis of the customer communication process, identifying pressures for change such as customer complaints or regulatory demands alongside resistance from staff used to existing procedures. They would then plan actions to reduce restraints, such as training and clear rules, and embed the new standards in routines and performance measures so that the change is refrozen."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Transformational leadership (Burns; Bass)",
+     "unit": "",
+     "theory": "Transformational leadership, developed by Burns and extended by Bass, describes leaders who inspire followers to adopt a shared vision, challenge existing assumptions and develop people's capabilities. It is contrasted with transactional leadership, which relies on rewards and exchanges. Transformational leaders are expected to change how an organisation thinks about its work, not just manage its routines.",
+     "link": "The abstract describes a senior executive reimagining customer communication across an organisation, which suggests a vision-led rather than purely managerial approach. The emphasis on simplifying processes rather than only replacing technology implies that the leader needed to persuade people to rethink how work is done. The abstract does not reveal how the vision was communicated or how staff were involved, so the link to Bass's dimensions can only be tentative.",
+     "critique": "Transformational leadership theory is strongly associated with charismatic individuals and can underplay the structural and political constraints in public bodies. The abstract's focus on process and technology suggests that structural change may have mattered as much as the leader's personal influence.",
+     "practice": "A leader applying this theory would set a clear, shared vision for the improved customer experience, involve front-line staff in redesigning processes, and build capability so that the change does not depend on one champion. They would also track whether the new standards are being adopted in practice."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large national public employment agency wants to improve how it communicates with the people it serves. Its leaders have been advised that replacing the technology alone will not solve the problem. The agency's chief information officer has been asked to lead a programme that changes how customer communication works across the organisation.",
+    "question": "Critically evaluate whether simplifying and standardising processes, rather than replacing technology, is the more effective route to transforming customer communication in a large public service. Advise the board on the approach to adopt.",
+    "evidence": [
+     "The chief information officer of Germany's Federal Employment Agency describes how the organisation reimagined customer communication.",
+     "The approach is described as simplifying and standardising processes, not just replacing technology.",
+     "The transformation is presented as one that operates at scale across a large public service."
+    ],
+    "plan": [
+     "Define the problem using the 7S framework: identify whether the issue lies in strategy, structure, systems, shared values, style, staff or skills, and note that technology is only one of these elements.",
+     "Apply standardisation and formalisation from Unit 6 to show how standard processes can improve consistency and fairness in a large public service, and weigh this against Burns and Stalker's warning about rigidity.",
+     "Use Lewin's three-step model and force field analysis to identify the drivers and resistors of change, and explain how the new process must be refrozen in behaviour and routines.",
+     "Discuss the leadership required to sponsor and sustain the change, drawing on transformational leadership and the need to involve staff.",
+     "Recommend a sequenced approach that simplifies processes first, standardises the core customer communications, then invests in technology that supports the new processes, and tracks adoption."
+    ],
+    "pitfalls": [
+     "Treating the abstract's point as a claim that technology is irrelevant; the answer should argue that technology is one element to align with processes and people.",
+     "Inventing details about the Federal Employment Agency's methods, results or timescales, which the abstract does not provide."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter's eight-step model of change",
+    "Mintzberg's configurations of organisations",
+    "Bridges's transition model",
+    "Burns and Stalker's mechanistic and organic structures"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that large-scale organisational change in public services succeeds mainly through process and structural redesign rather than through the introduction of new technology.",
+    "outline": [
+     "Define organisational change and the distinction between hard and soft elements, using the 7S framework to show that technology is only one element.",
+     "Assess the role of standardisation and simplification in structure and in change, drawing on Weber, Mintzberg and Lewin, and weighing rigidity against consistency.",
+     "Conclude with a critical judgement on the conditions under which process redesign and technology should be sequenced, including the role of leadership and people."
+    ]
+   }
+  },
+  {
+   "id": "5420da213b05",
+   "title": "The New Profile of the Successful Global Leader",
+   "url": "https://cmr.berkeley.edu/2026/11/the-new-profile-of-the-successful-global-leader/",
+   "source": "California Management Review",
+   "publishedAt": "2026-11-19T11:06:00Z",
+   "addedAt": "2026-11-20T06:28:50Z",
+   "basis": "full_text",
+   "takeaway": "People anchored in neither their origin nor their destination culture can be effective global leaders, and leaders sent abroad gain the most authority by deferring to local teams. Selection systems that screen for destination fit risk rejecting them, so firms should judge candidates on depth of international experience, identity and deferential behaviour.",
+   "summary": "The article argues that the long-held ideal of integration, feeling at home in two cultures, is not the only route to success abroad. A study of 172 professionals in 30 multicultural teams found that cultural marginals were rated as culturally intelligent and leader-like as fully integrated peers, and both groups outperformed people settled in a single culture. A study of 115 senior executives at a US technology firm found that just over 40 per cent practised downward deference, reducing social distance and yielding to local expertise, and these leaders received performance ratings almost 20 per cent higher and were promoted more often. Deference was predicted by depth of international experience rather than age, gender, tenure or nationality. The authors recommend that firms select for depth, build deferential behaviour into promotion and appraisal, and help mobile leaders anchor their identity in a global community rather than a place.",
+   "keyPoints": [
+    "Berry's acculturation model treats integration as healthiest and marginalisation as least functional, but it was built mainly on immigrants who had little choice of destination, unlike highly skilled mobile professionals.",
+    "Cultural marginals were judged as culturally intelligent and leader-like as integrated peers, with no statistically significant difference, and both groups outperformed those tied to one dominant culture.",
+    "Leaders sent abroad often hold more formal title than real authority, lacking local expertise, networks and influence, and teams may see them as headquarters' emissaries.",
+    "Downward deference involves personal connection with local staff, behaving appropriately with clients, working alongside teams, transferring real influence and adjusting to local hierarchy norms, and it increased rather than reduced the leader's standing.",
+    "Depth of international experience, meaning long stays in culturally distant settings, predicted deference, whereas breadth of markets and demographic factors did not."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 88,
+     "reading": "This article is squarely about culture, identity, individual differences and power in organisations. The debate over whether marginals or integrated people are better at working abroad is an individual differences question (Unit 2), and the finding that selection systems screen out capable candidates is a point about fit. The downward deference finding concerns how leaders gain and use power (Unit 5), and the adjustment to local hierarchy norms connects to Unit 7 on culture. A PWO student should care because the article supplies evidence usable across several units in an exam answer."
+    },
+    {
+     "id": "leadership",
+     "relevance": 80,
+     "reading": "Leadership Theory and Practice is concerned with how leaders influence others and which behaviours work in which contexts. The article's central finding, that leaders who reduce social distance and yield to local expertise are rated higher and promoted more, is a claim about leadership style, influence and relationships with followers. It also raises questions about followership and about context, since the same behaviour was judged differently across cultures. A leadership student should weigh the study design, which draws on one US technology firm and on ratings, when judging how far the claim generalises."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "French and Raven's bases of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "French and Raven identify several bases of power: legitimate power from formal position, reward and coercive power, and expert and referent power based on knowledge and personal attraction or respect. Formal authority is only one source, and a leader who lacks the others depends on building them. Influence therefore depends on which bases a person can develop, not only on the title held.",
+     "link": "The article describes leaders sent abroad who hold a senior title but lack local expertise, networks and influence, so their legitimate power is weak and teams see them as emissaries of headquarters. The leaders who practised downward deference built personal connection with local staff, worked alongside them and gave them real decision-making influence, which builds referent and expert power. The article reports that these leaders gained standing rather than losing it, and their performance ratings were almost 20 per cent higher.",
+     "critique": "The typology treats power as something a leader possesses and accumulates, which struggles to explain how giving decision rights away can increase power. The evidence is correlational and drawn from one firm, so the direction of influence between deference and standing is not established. Lukes's third dimension, which concerns shaping what people want, would add that local acceptance may reflect norms the newcomer cannot see.",
+     "practice": "A manager sent to lead a foreign unit should map which power bases they hold and which they lack, then build expert and referent power early by asking local staff for their judgement and delegating real decisions. Performance reviews should check whether these bases are growing, not only whether targets are met."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Leader-member exchange (LMX) theory, Graen and Uhl-Bien",
+     "unit": "",
+     "theory": "LMX holds that leaders develop a different quality of exchange with each follower. High-quality relationships are built on trust, respect and mutual obligation, with the leader offering support, influence and latitude in return for loyalty and effort. Followers in high-quality exchanges tend to perform better and be more likely to advance.",
+     "link": "Downward deference can be read as a way of building high-quality exchanges across cultural distance. The deferential leaders sought personal connection with local staff, worked side by side with them and transferred real influence, which are the latitude-giving behaviours LMX describes. The article's finding that these leaders later moved into executive ranks more often fits the idea that quality relationships support advancement. Traditional leaders, who sought compliance and repeated instructions until they were followed, offered the low-latitude exchange that LMX associates with weaker outcomes.",
+     "critique": "LMX is dyadic and has mostly been studied within one culture and one organisation, whereas the article shows that the relationship sits within a whole team and within hierarchy norms that vary by country. The performance and promotion findings are correlations from a single firm, so the link between deference and advancement may run through other factors.",
+     "practice": "A leader entering a new country should spend time in one-to-one conversations with local staff, identify where they can give real latitude, and measure relationship quality alongside output. They should also check whether the deference is seen as sincere and fits local expectations about hierarchy, because a gesture read as weakness will not build trust."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Person-job fit",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Person-job fit holds that outcomes such as performance, satisfaction and retention depend on how well a person's abilities, values and preferences match the demands and rewards of a role. Selection systems try to identify candidates whose profiles fit the job, and misfit tends to lower satisfaction and performance. Fit is judged against whatever criteria the organisation regards as important.",
+     "link": "The article says selection systems are typically designed to screen for destination country fit, which rejects people with no cultural home even though they have the capability the role needs. The authors argue that fit should be judged on depth of international experience and on identity configuration rather than on the number of markets or passport. They also show that matching roles to identity patterns matters: origin-oriented people suit headquarters ambassador roles, balanced patterns suit multicultural teams, and quick adopters suit careers of repeated moves.",
+     "critique": "Person-job fit assumes the criteria are correct and that the organisation knows which attributes matter. The article suggests the criterion itself, a settled cultural attachment, is the mistake, so a fit model built on it will reject good candidates. Fit models also tend to treat attributes as static, whereas the article shows identity and capability develop through experience.",
+     "practice": "An HR team should review its international selection criteria, asking candidates about a time their instincts were wrong abroad and what they did next, and weighting depth of experience above number of postings. It should also match people to roles by identity pattern and track whether screening rejects candidates who later perform well."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Hofstede's cultural dimensions (power distance)",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Hofstede describes national cultures along several dimensions, including power distance, the degree to which less powerful members accept and expect unequal distribution of power. In high power distance settings, hierarchy and deference to senior people are expected, while in low ones leaders are expected to consult and reduce distance. Managers can use these dimensions to predict how their style should adjust when working in another country.",
+     "link": "The deferential leaders conformed to local expectations about hierarchy, even giving up habits that had worked at home, which is the adjustment a power distance reading would predict. The article's finding that nationality did not predict deference challenges a simple national-culture reading: the factor that mattered was depth of international experience. This suggests that cultural dimensions describe the context a leader enters, while the leader's own experience and identity shape how they respond to it.",
+     "critique": "Hofstede's scores are national averages and treat culture as a stable property of countries, which is hard to reconcile with the article's evidence that people vary widely within a nationality and that identity changes over time. The dimensions were also derived from survey data gathered within a single multinational, which limits their generalisability. They are best used as a starting point rather than a script.",
+     "practice": "A manager moving to a higher power distance country should learn the local norms about hierarchy before arriving, observe how decisions are made in meetings, and adjust the level of consultation visibly rather than assuming the home style will be accepted. They should test the national profile against what they see in their own team and avoid applying it as a stereotype."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A European engineering group has completed a cross-border acquisition and must appoint leaders for its new operations in three countries. Its selection system screens candidates for fit with the destination market, which has excluded several people with long international careers but no settled home. Early reports suggest that expatriates who applied head-office instructions are struggling to win the trust of local managers, while a few who listened and deferred to local judgement are performing well.",
+    "question": "Critically evaluate the claim that the group should select and develop its international leaders for depth of cross-cultural experience and deferential behaviour rather than for destination fit. Advise the board on a revised approach to selection, development and appraisal.",
+    "evidence": [
+     "Among 172 professionals in 30 multicultural teams, cultural marginals were rated as culturally intelligent and leader-like as fully integrated peers, and both groups outperformed those anchored in a single culture.",
+     "Just over 40 per cent of 115 senior executives at a US technology company practised downward deference; their performance ratings were almost 20 per cent higher and they moved into executive ranks more often.",
+     "Age, tenure, gender and nationality did not predict deference, whereas depth of international experience did.",
+     "The article argues that selection systems typically screen for destination fit and that depth of experience predicts deference better than breadth of markets."
+    ],
+    "plan": [
+     "Frame the problem using person-job fit (Unit 2): show that destination-fit screening uses the wrong criterion and rejects capable candidates.",
+     "Diagnose the authority gap with French and Raven's bases of power: expatriates who rely on headquarters instructions hold legitimate power but lack expert and referent power.",
+     "Explain the effect of deference using leader-member exchange theory: high-quality exchanges with local staff are built through latitude, personal connection and shared decisions.",
+     "Apply Hofstede's power distance dimension to show that deference must match local hierarchy norms, and test that national assumption against the individual evidence on depth of experience.",
+     "Evaluate the evidence critically, noting that the findings are correlational, come from one firm and a team study, and that each theory has limits.",
+     "Recommend revising selection to weigh depth of experience and ask about past mistakes abroad, building deferential behaviours into promotion and appraisal, and offering identity coaching and peer cohorts, and set out the trade-offs."
+    ],
+    "pitfalls": [
+     "Presenting the marginality finding as proof that rootlessness causes good leadership; the evidence shows an association with depth of experience, and the team study found no significant difference between marginals and integrated peers.",
+     "Describing deference as giving up authority; the evidence is that these leaders gained standing, and an answer that reverses this loses the central point."
+    ]
+   },
+   "alsoConsider": [
+    "Berry's acculturation model (integration, assimilation, separation and marginalisation)",
+    "Transformational leadership (Burns; Bass)",
+    "Mezirow's transformative learning theory",
+    "Social identity theory (Tajfel and Turner)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the claim that individuals who do not identify strongly with any one culture make more effective leaders in multicultural teams. Discuss the implications for selection, power and development in organisations.",
+    "outline": [
+     "Explain Berry's distinction between acculturation modes and why the integration ideal may not hold for highly mobile professionals, drawing on person-job fit and individual differences in identity.",
+     "Analyse how downward deference changes a leader's bases of power using French and Raven, relate it to leader-member exchange, and consider how cultural norms such as power distance shape its effectiveness.",
+     "Evaluate the evidence, noting its correlational nature and the limits of national-culture models, and recommend practical changes to selection, promotion and appraisal."
+    ]
+   },
+   "readingMinutes": 9
+  },
+  {
+   "id": "b89f0a9b58e2",
+   "title": "Worker runs: How compensation design can curb contagious departures like that at Weil, Gotschal & Manges",
+   "url": "https://cepr.org/voxeu/columns/worker-runs-how-compensation-design-can-curb-contagious-departures-weil-gotschal",
+   "source": "VoxEU (CEPR)",
+   "publishedAt": "2026-11-20T00:00:00Z",
+   "addedAt": "2026-11-20T06:28:50Z",
+   "basis": "abstract",
+   "takeaway": "Departures of key people can trigger further exits even in a profitable firm, so compensation should be designed to keep skilled teams together, not only to reward individuals.",
+   "summary": "The column uses the proposed dissolution of Weil, Gotshal & Manges, after prominent partners left, to argue that departures by key employees can encourage others to leave even when the firm is still profitable. It explains why such departures can become self-reinforcing and suggests that compensation design can reduce the problem. The abstract proposes deferred fixed pay, dilutable compensation and different compensation structures for different employees as ways to retain skilled teams at lower cost. The full argument and evidence are not available in the abstract, so this note relies only on the abstract's claims.",
+   "keyPoints": [
+    "The proposed dissolution of Weil, Gotshal & Manges followed the departure of prominent partners from one of America's largest law firms.",
+    "The firm's rapid decline is used to illustrate how departures by key employees can prompt others to leave.",
+    "This happened even though the firm remained profitable, so profitability alone does not protect against departures.",
+    "The column argues that such departures can become self-reinforcing.",
+    "Firms may limit the problem through compensation design."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 75,
+     "reading": "In People, Work and Organisations terms, the article is about how the motivation and attachment of individuals and groups hold together a team, and how the employment deal shapes whether people stay. A key partner's exit changes others' expectations about the firm's future, the fairness of their own pay and the norms that bind the group. Deferred pay and dilutable compensation are attempts to build commitment over time, which makes the article a good case for studying motivation, the psychological contract and team cohesion."
+    },
+    {
+     "id": "finance",
+     "relevance": 55,
+     "reading": "From a finance perspective, the article is about how pay structures align the interests of individual partners with the long-term value of the firm. Deferred and dilutable compensation are forms of incentive that reduce the gap between what an individual gains by leaving and what the firm needs them to stay for. This is a classic agency problem, and the column's proposals can be assessed as bonding mechanisms that reduce agency costs."
+    },
+    {
+     "id": "strategy",
+     "relevance": 40,
+     "reading": "From a strategy perspective, the article treats skilled people as a resource on which the firm's competitive position depends. If departures weaken that resource, the firm can lose value even while its current accounts are healthy. The article therefore raises the question of whether human capital is valuable, rare and hard to imitate, and how a firm can protect it through its own systems, including pay."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of unwritten beliefs an employee holds about what they owe the organisation and what it owes them in return. It can be transactional, based on short-term exchange, or relational, based on long-term commitment and mutual obligation. Breaches or changes to these expectations can reduce commitment and lead to departure.",
+     "link": "The column's proposal of deferred fixed pay suggests that pay is being used to create a relational contract in which the partner's reward depends on staying over time. The abstract says that departures spread, which implies that partners read a senior colleague's exit as a signal about the firm's commitment to them and about the value of staying. Dilutable compensation changes what partners expect to receive over the long term, which may affect how they judge the deal. The abstract does not report how partners interpreted the exits, so this link depends on the mechanism the column claims.",
+     "critique": "Rousseau's model is mainly about individual perceptions, but the abstract describes group-level contagion, which the individual contract alone does not explain. A deferred pay scheme may also be read as a constraint rather than a promise if partners feel the terms have been changed unfairly.",
+     "practice": "A managing partner applying this theory should make the long-term terms explicit, explain how deferred and dilutable pay will work, and avoid changes that partners could see as breaking the deal. Communication matters as much as the pay structure, because people judge the contract by what they believe it means."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Equity theory (Adams)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Equity theory holds that people judge their rewards by comparing their inputs and outcomes with those of comparable others. If they perceive their ratio to be lower than others', they experience inequity and may reduce effort, seek redress or leave. Perceived fairness therefore depends on comparison as well as on absolute pay.",
+     "link": "The abstract proposes different compensation structures across employees, which means that individuals in the same firm will receive different terms. If key partners are offered arrangements that others cannot see or match, the comparisons that equity theory describes may encourage those left behind to reassess their own position and leave. The column's claim that departures spread suggests that comparison may be part of this process, although the abstract does not explain it.",
+     "critique": "Equity theory treats fairness as a perception shaped by reference groups, and the abstract does not say how transparent the structures would be. Critics may also argue that in elite professional firms people accept large pay differences for status, so fairness may be less important than the abstract suggests.",
+     "practice": "A manager using equity theory should design differentiated pay with clear, justifiable criteria, such as market value, scarcity of skills and contribution to the team. The rationale should be communicated so that differences are seen as earned rather than arbitrary, which reduces the risk that comparison triggers further departures."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Agency theory",
+     "unit": "",
+     "theory": "Agency theory addresses the problem that managers or agents may act in their own interest rather than in that of the owners or principals. It proposes incentive contracts, monitoring and bonding mechanisms to align interests. Deferred pay and equity-linked rewards are typical ways of making the agent's welfare depend on long-term firm value.",
+     "link": "In the article, deferred fixed pay and dilutable compensation can be read as mechanisms that tie partners' rewards to the firm's continuing success. A partner who leaves early forfeits deferred amounts, which changes the calculation of whether leaving is worthwhile. The column's aim of retaining skilled teams at lower cost suggests that these arrangements are presented as a cheaper alternative to ad hoc retention payments. The abstract does not give figures, so the cost claim cannot be tested from the text.",
+     "critique": "Agency theory assumes that the principal can specify and enforce the contract, but in partnerships the partners are both owners and agents, which blurs the model. Deferred pay may also encourage risk-taking or make partners reluctant to leave even when it is in the firm's interest.",
+     "practice": "A finance manager applying agency theory should model how deferred and dilutable awards change the incentive to stay, including the cost of forfeiture and the value transferred to remaining partners. The design should be tested against scenarios in which key people depart, so the firm can see whether the cost of the scheme is justified."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Resource-based view and VRIO (Barney)",
+     "unit": "",
+     "theory": "The resource-based view argues that sustained competitive advantage comes from resources that are valuable, rare, costly to imitate and organised to be exploited, which is the VRIO framework. Human capital, such as skilled teams and key individuals, can be such a resource. Its value depends on how well the firm retains and combines these people.",
+     "link": "The article describes skilled people as the means by which firms retain value, and the decline of a profitable firm after key departures shows that the resource can be lost quickly. Using VRIO, a team of key partners may be valuable and rare, but its advantage depends on the firm's ability to keep it together, which the column links to compensation design. The abstract does not describe the firm's competitive position, so the analysis rests on the general point that human resources can be lost.",
+     "critique": "The resource-based view is static in its basic form and does not fully explain how people, as opposed to assets, can be retained. Dynamic capabilities (Teece) may offer a better account of how a firm rebuilds its capability after departures.",
+     "practice": "A strategic manager should audit which people and teams are truly valuable, rare and hard to replace, and design retention plans for those groups first. The plan should be linked to the firm's strategy so that retention is treated as a source of advantage rather than as a cost to be minimised."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large, profitable professional services partnership has seen several senior partners leave within a short period, and some client teams are now following them. The managing partner must decide how to keep the remaining skilled teams together without paying excessive retention costs. The board is considering deferred fixed pay, dilutable compensation and different terms for different groups of partners.",
+    "question": "Advise the managing partner on how the firm should design its compensation to retain key teams and prevent further departures. Critically evaluate the risks of the proposed design, drawing on theories of motivation, the psychological contract and team dynamics.",
+    "evidence": [
+     "The column states that departures by key employees can encourage others to leave, even when the firm remains profitable.",
+     "The column argues that such departures can become self-reinforcing.",
+     "The abstract proposes deferred fixed pay, dilutable compensation and different compensation structures across employees as retention tools.",
+     "The abstract claims that these tools can help firms retain skilled teams at lower cost."
+    ],
+    "plan": [
+     "Define the problem using the abstract's claim that departures can be self-reinforcing even in a profitable firm.",
+     "Apply the psychological contract (Rousseau) to explain how deferred pay can shift partners towards relational commitment, and state what the firm must communicate to make the contract credible.",
+     "Apply equity theory (Adams) to assess the risks of differentiated structures, and recommend transparent, justifiable criteria.",
+     "Use agency theory to evaluate whether deferred and dilutable pay align individual and firm interests, and note the cost of forfeiture.",
+     "Consider team cohesion and group norms as a way of explaining the contagion effect, and identify which teams are most exposed.",
+     "Recommend a phased scheme that is tested against departure scenarios, with clear communication to partners."
+    ],
+    "pitfalls": [
+     "Treating the column's claims about lower cost or effectiveness as proven, when the abstract gives no evidence for them.",
+     "Describing compensation tools without explaining the mechanism by which they change behaviour, such as expectations, fairness or incentives."
+    ]
+   },
+   "alsoConsider": [
+    "Expectancy theory (Vroom)",
+    "Kahn's employee engagement",
+    "Lukes's three dimensions of power"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that firms can prevent contagious departures of key employees by redesigning compensation, drawing on theories of motivation, the psychological contract and team dynamics.",
+    "outline": [
+     "Explain why departures by key people can become self-reinforcing, using team cohesion and perceptions of the employment deal.",
+     "Evaluate deferred and dilutable pay using the psychological contract and equity theory, including the risks of differentiated structures.",
+     "Assess the limits of compensation as a retention tool and recommend how managers should combine pay with communication and wider organisational measures."
+    ]
+   }
+  },
+  {
+   "id": "dd2076bcb642",
+   "title": "Half of Europe backs climate policy – only Germany acts on it",
+   "url": "https://blogs.lse.ac.uk/businessreview/2026/11/19/half-of-europe-backs-climate-policy-only-germany-acts-on-it/",
+   "source": "LSE Business Review",
+   "publishedAt": "2026-11-19T15:03:15Z",
+   "addedAt": "2026-11-20T06:28:50Z",
+   "basis": "full_text",
+   "takeaway": "The gap between European climate attitudes and behaviour looks less like a shortfall in conviction or information and more like a shortfall in the infrastructure that makes action routine, so behaviour-change communication alone is unlikely to close it.",
+   "summary": "Hamzaoğlu uses the 2024 Special Eurobarometer 550 (26,332 respondents across all 27 Member States) and a latent class analysis of sixteen indicators to show that the EU public falls into five segments rather than one average citizen. The largest, at 47.1 per cent, combines high environmental concern and strong support for EU environmental regulation with only moderate observed behaviour; the author calls them Concerned Policy Supporters. Comprehensive Eco-Citizens (20.8 per cent) are highly engaged across all domains, Chemically Concerned Pragmatists (14.2 per cent) focus on chemical hazards and health, Disengaged respondents make up 12.9 per cent, and a residual 4.9 per cent show strong waste-reduction behaviour with only moderate attitudes. The author argues the attitude-behaviour gap is concentrated in nearly half the population and is not explained by household money problems, since severe bill-paying difficulty is linked to higher, not lower, Eco-Citizen membership. In Germany the largest segment shows about 94 per cent high concern and about 95 per cent high observed behaviour, so the gap is effectively zero. The author attributes this to decades of waste-management investment, deposit-return systems, visible municipal recycling and extended producer responsibility, which make pro-environmental behaviour the easy option. The recommendation is that climate finance for infr",
+   "keyPoints": [
+    "Five latent classes describe the EU27 public; the largest (47.1 per cent) has high concern and policy support but only moderate behaviour, so the attitude-behaviour gap affects nearly half of Europeans.",
+    "The author argues the gap is one of infrastructure and institutions that turn conviction into routine action, not of conviction or information.",
+    "Germany's largest segment has about 94 per cent high concern and about 95 per cent high observed behaviour, so the gap is effectively closed there, while Italy, France and Spain show smaller but visible gaps.",
+    "Cost-of-living pressure does not explain class membership: severe bill difficulty is associated with more Comprehensive Eco-Citizen membership, while education and political views are stronger correlates.",
+    "Because the segments differ in kind rather than intensity, a single communication campaign aimed at the average citizen will misfire against several of them."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 85,
+     "reading": "This is squarely a green logistics and sustainability topic. The article treats waste-management systems, deposit-return schemes and extended producer responsibility as the infrastructure that turns pro-environmental attitudes into behaviour, which is the material flow side of the circular economy. It also raises questions about who funds such infrastructure and how regulation shapes behaviour. Green students should treat the claim that infrastructure beats communication as a hypothesis to test against the reverse logistics and circular economy literature."
+    },
+    {
+     "id": "pwo",
+     "relevance": 55,
+     "reading": "In PWO terms the article is about the attitude-behaviour gap, which sits within Unit 2's study of attitudes, beliefs and values and of individual differences. The author shows a large group who hold pro-environment attitudes yet do not act, and argues that the cause lies in the situation rather than in a deficit of conviction or knowledge. This is a population study rather than a workplace one, so it works best as an analogy for why people's stated attitudes do not predict behaviour without enabling conditions. It also shows why grouping people by their profiles matters when designing change."
+    },
+    {
+     "id": "marketing",
+     "relevance": 35,
+     "reading": "The article's segmentation and its critique of single-message communication map onto the marketing module's segmentation, targeting and positioning. A campaign aimed at an average customer misfires across qualitatively different groups, which is the central logic of segmentation. The target here is citizens and policy outcomes rather than purchases, but the article's scepticism about promotional communication when the desired behaviour is hard to adopt is useful for marketing students."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "The circular economy and reverse logistics",
+     "unit": "",
+     "theory": "The circular economy keeps materials and products in use for as long as possible through reuse, repair, recycling and recovery, so that waste becomes a resource. Reverse logistics manages the flow of products and materials back from consumers and users, and closed-loop supply chains use that flow to feed production again. Both depend on collection, sorting and processing systems as well as on the willingness of people to return materials.",
+     "link": "The article's German case is a description of a reverse-flow system that works at scale: deposit-return systems for beverage packaging, visible municipal recycling logistics and extended producer responsibility regimes. These are the collection and recovery channels through which individual waste-reduction behaviour becomes a closed loop, and the author argues they make the right action the default. The German segment that combines high concern with high observed behaviour shows what happens when the collection infrastructure is dense and convenient. The contrast with segments where concern is high but behaviour is moderate suggests that the bottleneck sits in the return channel rather than in the consumer's motivation.",
+     "critique": "The article's attribution of the German result to infrastructure rests on descriptive, cross-sectional data and does not isolate the effect of infrastructure from cultural, educational or historical factors that also vary between countries. Circular economy analysis also needs to show the economic and environmental performance of recovery systems, which the article does not address.",
+     "practice": "A policy maker applying this theory would map where collection and return points are missing for the segments that already hold pro-environment attitudes, and prioritise investment in those channels. Extended producer responsibility and deposit-return schemes should be assessed for cost, recovery rates and convenience, not just for the reach of communication campaigns. Evaluation should track collection rates per household as well as survey measures of attitude."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Theory of planned behaviour (Ajzen)",
+     "unit": "Unit 2 Individual differences",
+     "theory": "The theory of planned behaviour holds that intention is the main predictor of behaviour, and that intention is shaped by attitude towards the behaviour, subjective norms and perceived behavioural control. Perceived behavioural control is the person's belief about how easy or difficult it is to carry out the behaviour, given the resources and obstacles present. When perceived control is low, strong attitudes and intentions often fail to become action.",
+     "link": "The article describes almost half of Europeans as convinced yet not acting, which is the pattern the theory predicts when perceived behavioural control is weak. The author argues that the missing element is physical and institutional facilitation, which is what perceived control measures in practice. The German case, where concern and behaviour are both about 94 to 95 per cent high, shows the gap closing once the behaviour is easy to perform. The finding that severe bill difficulty is associated with more Eco-Citizen membership cuts against a simple resource-constraint explanation, which is a useful complication.",
+     "critique": "The theory measures perceived control through self-report, and the article's data on behaviour are also self-reported, so the measure of the gap may be biased. The theory also treats attitudes as an input to intention, whereas the article suggests attitudes are already present and the constraint is elsewhere, which the theory handles less directly.",
+     "practice": "A manager applying this theory would first measure perceived behavioural control alongside attitudes, for example by asking how easy people find recycling or returning packaging. Where perceived control is low, the intervention should change the behaviour's ease, such as collection points, cost and convenience, rather than adding more information. Attitudes and norms should be tracked as well, since they are the basis for the intention the new infrastructure is meant to convert."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Cognitive dissonance (Festinger)",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Cognitive dissonance is the discomfort people feel when their beliefs and behaviour conflict, and it motivates them to restore consistency. They may change their behaviour, change their beliefs, or add justifications that reduce the conflict. The theory predicts that people who hold strong values but act against them will feel tension and look for ways to resolve it.",
+     "link": "Citizens who want EU-level regulation and back the polluter-pays principle but do not change their own waste-reduction practices are in the state of tension that dissonance theory describes. The article's finding that this group is large suggests that the tension is common and is not being resolved through behaviour in most countries. Germany's near-zero gap is consistent with dissonance being resolved in the direction of behaviour, which is easier when the behaviour is convenient. The author's argument that the constraint is infrastructural explains why the cheapest route to resolution, changing behaviour, is blocked for many people.",
+     "critique": "Dissonance theory is an account of individual psychology and says little about how the external environment shapes which resolution people choose. The article locates the cause in infrastructure, so the theory is better used to explain the psychological state than to explain why the gap persists. It also does not predict how large or durable the tension will be.",
+     "practice": "A manager using this theory would avoid messages that make people feel guilty about a gap they cannot close, since this can produce rationalisation rather than action. A better approach is to remove the practical barrier so that the behaviour matching the attitude becomes possible, and then communicate the new option. Progress should be monitored through the proportion of people who act, not only through reported concern."
+    },
+    {
+     "moduleId": "marketing",
+     "concept": "Segmentation, targeting and positioning",
+     "unit": "",
+     "theory": "Segmentation divides a market into groups of people with distinct needs, characteristics or behaviours, so that each group can be addressed separately. Targeting selects which segments to serve, and positioning defines how the offer should be perceived relative to alternatives. The approach assumes that a single message aimed at an average customer will be less effective than messages matched to the segments that matter most.",
+     "link": "The article's five-class solution is a segmentation of the EU public that the author uses to argue against a single average citizen. The segments differ in profile rather than just in intensity, which is the basis on which segmentation is justified in marketing. The Concerned Policy Supporters, at 47.1 per cent, are the largest target, and the article argues they need infrastructure rather than information. The smaller segments need different mixes of regulation, targeted information and affordability policy, which is a targeting and positioning decision.",
+     "critique": "Latent classes are built from the same attitude and behaviour indicators that the segments are then used to explain, so the segments may partly reflect the measures chosen. Marketing segmentation also requires segments to be measurable, accessible and actionable, and the article gives limited evidence on how easily each segment can be reached by policy.",
+     "practice": "A marketing or policy team applying this approach would profile each segment on size, needs and barriers, then select targets and decide which lever suits each one. For the largest segment, the lever is the infrastructure and its availability rather than messaging, while for smaller segments it may be targeted information or affordability support. Each segment's response should be measured so that the segmentation can be revised over time."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national government in an EU member state finds that most citizens in opinion polls support strict climate regulation, yet household reuse and recycling rates lag well behind those attitudes. Ministers are considering a national information campaign against funding for deposit-return schemes, extended producer responsibility and better municipal collection. The budget can support only one of these packages in the short term.",
+    "question": "Advise the government on whether to prioritise communication campaigns or infrastructure investment to close the gap between public support for climate policy and observed behaviour. Justify your recommendation using segmentation, the theory of planned behaviour and the circular economy.",
+    "evidence": [
+     "A latent class analysis of Special Eurobarometer 550 (26,332 respondents, March to April 2024) found that 47.1 per cent of EU citizens are Concerned Policy Supporters, with high concern and policy support but only moderate behaviour.",
+     "Germany's largest segment shows about 94 per cent high environmental concern and about 95 per cent high observed behaviour, so the attitude-behaviour gap is effectively zero there.",
+     "Severe bill-paying difficulty is associated with higher, not lower, membership of the Comprehensive Eco-Citizen segment, so cost of living does not explain the gap.",
+     "The author attributes Germany's result to decades of waste-management investment, deposit-return systems, municipal recycling logistics and extended producer responsibility."
+    ],
+    "plan": [
+     "Define the attitude-behaviour gap and use the 47.1 per cent figure to show that it affects a large share of the population, not a niche group.",
+     "Apply segmentation and targeting to show that the largest segment is the priority target and that a single message will misfire across the five segments.",
+     "Apply the theory of planned behaviour to argue that the gap reflects low perceived behavioural control, so the constraint is the ease of action rather than attitudes or information.",
+     "Use the circular economy and reverse logistics to explain why deposit-return and collection infrastructure create closed loops, and cite the German case as evidence of what such infrastructure can achieve, while noting its cost and timescale.",
+     "Use cognitive dissonance to show that information campaigns may create tension without resolving it, and that the sustainable resolution is to make the desired behaviour convenient.",
+     "Recommend infrastructure investment for the largest segment, with targeted information and affordability measures for the smaller segments, and set out how the government would evaluate collection rates as well as attitudes."
+    ],
+    "pitfalls": [
+     "Treating the cross-sectional, country-level association between German infrastructure and the closed gap as proof of causation, when the article itself describes the segmentation as descriptive and the German explanation as interpretation.",
+     "Dismissing communication altogether; the article accepts that the smaller segments need targeted information and that the recommendation is for a segment-aware mix, not a choice that excludes all messaging."
+    ]
+   },
+   "alsoConsider": [
+    "Nudge theory (Thaler and Sunstein)",
+    "Attribution theory (Heider; Kelley), including the tendency to attribute others' inaction to disposition rather than sit",
+    "Externalities and carbon pricing (Pigou)",
+    "Diffusion of innovations (Rogers)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the claim that closing the gap between public support for climate policy and everyday behaviour depends more on investment in circular economy infrastructure than on behaviour-change communication.",
+    "outline": [
+     "Define the attitude-behaviour gap and explain, using the theory of planned behaviour, why perceived behavioural control matters alongside attitudes and information.",
+     "Assess the evidence from segmentation and the German case, including its descriptive limits and the risk of treating infrastructure as the sole cause.",
+     "Evaluate the trade-offs between infrastructure, targeted information and affordability policy, and recommend a segment-aware approach with measures of success."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "31a869504cf5",
+   "title": "Supply chain software has an 18-month go-live problem",
+   "url": "https://www.freightwaves.com/news/vantage-9-supply-chain-software-go-live",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-19T18:06:55Z",
+   "addedAt": "2026-11-20T06:28:50Z",
+   "basis": "full_text",
+   "takeaway": "Long, fixed-specification system projects can be overtaken by change before go-live, so the project's timing, scope and people plan matter as much as its technology.",
+   "summary": "This is a FreightWaves interview with Nate Watson, chief commercial officer of Vantage 9, a company selling a composable supply chain platform. He argues that an 18 to 24 month system project is too slow: after months of writing down processes and requirements, operations and partners have changed by go-live, and such projects are expensive, often late and draw staff away from their jobs. He presents the alternatives as customising a system, which he calls slow and costly, or buying a second product that does not integrate well. His preferred approach is to keep the systems that work, add missing capabilities as prebuilt components, roll them out in small steps, and test one warehouse type in one region first. He also argues that a single cutover is disruptive and can cost customer trust for months, and that access, governance and permissions should sit in a layer that is not tied to any one system. The figures on 90-day payback, savings of more than $6 million for an unnamed retailer, and reduced gate and unload times are the vendor's own claims and are not independently verified in the piece.",
+   "keyPoints": [
+    "Watson argues that an 18 to 24 month specification-then-build approach runs late, costs a lot and pulls staff away from day-to-day work.",
+    "He says that after a long planning period the operations and partners the system was designed for will have changed by go-live.",
+    "He presents customisation as slow and expensive, and running a second vendor's product as a poor fit because the two do not communicate well.",
+    "Vantage 9 breaks large systems into prebuilt components that sit on top of existing ERP, warehouse and transport systems, so a company keeps what works and adds the missing 5 to 10 percent.",
+    "Capability is added in small steps, which spreads training and change management and limits disruption to customers, in contrast to a single weekend-style cutover."
+   ],
+   "modules": [
+    {
+     "id": "projects",
+     "relevance": 85,
+     "reading": "The article is about a large system implementation that is slow, late, costly and draws on staff, which is central to Delivering Successful Projects. The 18 to 24 month plan is a sequential, specification-first approach in which requirements are fixed before delivery, and Watson's objection is that the requirements have expired by go-live. A student should note the claim that value should arrive in months through phased releases and benefits realisation, and should treat the vendor's percentages as claims rather than evidence."
+    },
+    {
+     "id": "pwo",
+     "relevance": 65,
+     "reading": "From the People, Work and Organisations perspective, this is about organisational change and its human side: staff are pulled from their day jobs, adoption is the real obstacle, and a single cutover disrupts operations and customer trust. The piece suggests that spreading change over time, with training and local testing, may reduce resistance, which is the kind of argument Unit 8 asks students to evaluate. It also reflects contemporary pressures described in Unit 1, namely AI and software disruption moving faster than planning cycles."
+    },
+    {
+     "id": "scm",
+     "relevance": 45,
+     "reading": "For supply chain management the article concerns the design of the systems that run warehousing, inventory, yard and transport, and how they connect to suppliers, carriers and retail partners. Watson's point is that the network being designed for changes during a long implementation, so the integration design becomes out of date. A student should link this to supply chain integration, to designing for a changing network, and to the trade-off between a single integrated system and several linked specialist systems."
+    },
+    {
+     "id": "strategy",
+     "relevance": 40,
+     "reading": "In the strategy module the article can be read as a debate about how firms build and reconfigure capabilities rather than buy fixed systems. Watson's argument is that the valuable ability is to recombine existing resources and add missing pieces quickly as the environment changes. A student should test whether this flexibility is a source of sustained advantage, given that competitors could buy the same modular components."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "projects",
+     "concept": "Agile and Scrum versus waterfall",
+     "unit": "",
+     "theory": "Waterfall plans and specifies all requirements in sequential phases before any delivery, so changes late in the programme are costly. Agile delivers working increments in short iterations, reviews them with stakeholders and reprioritises the backlog as learning accumulates.",
+     "link": "Watson describes an 18 to 24 month programme in which requirements are written down up front and the system arrives in one go-live, which is a waterfall pattern. He argues that by the time the system is delivered the operations and partners it was designed for have changed. His alternative of adding capabilities in small pieces, starting with one warehouse type in one region, maps onto agile increments with early feedback. The article also notes that agile ideas have been discussed for years, and that the missing element is the systems that allow incremental delivery.",
+     "critique": "Agile does not remove the need for an overall architecture, and small increments can fragment integration and make budgets harder to control. The article presents the approach from a vendor that benefits from it, and gives no evidence on outcomes across a range of projects.",
+     "practice": "A manager should split the scope into releases that each deliver usable capability, tie each release to a measurable benefit and a go/no-go gate, and avoid specifying every screen before work starts. Governance should track budget and benefits release by release, not only against the original baseline."
+    },
+    {
+     "moduleId": "projects",
+     "concept": "The planning fallacy (Kahneman and Tversky) and reference class forecasting (Flyvbjerg)",
+     "unit": "",
+     "theory": "The planning fallacy is the tendency to underestimate the time and cost of a project by focusing on its own plan rather than on the actual outcomes of similar projects. Reference class forecasting corrects this by taking the track record of comparable projects as the base rate and adjusting the estimate from that starting point.",
+     "link": "Watson's remark that projects of 18 to 24 months often run late, and that 18 months in a supply chain is a lifetime, suggests a plan built on assumptions that were reasonable at the start but did not hold. A reference class of comparable system implementations would show how often such projects overrun and by how much. The article's point that the environment changes during the project is an example of a planning assumption failing, not merely of a slow team.",
+     "critique": "The article gives no data on overrun rates, so the claim rests on one speaker's experience. Choosing the reference class is a judgement, and a vendor's own benchmarks may flatter the comparison.",
+     "practice": "Before approving the budget, a manager should collect data on how long and how costly comparable implementations have been, set the baseline from that data, and include an explicit contingency. The plan should be reviewed at fixed points against changes in operations and partners."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Bridges's transition model",
+     "unit": "Unit 8 Organisational change",
+     "theory": "William Bridges distinguishes change, which is the external event, from transition, which is the psychological process people go through to adapt to it. Transition has three phases: an ending, in which people let go of the old way of working; a neutral zone, in which they are uncertain and less productive; and a new beginning, in which they commit to the new way.",
+     "link": "Watson's example of a single cutover, in which staff 'leave work Friday, work in one way, and show up Monday', skips the neutral zone entirely and asks people to change in one step. Spreading capability in smaller steps, with training over time, gives staff room to move through the endings and the neutral zone. The article's warning that a disruptive go-live can cost customer trust for months shows the cost of mishandling the transition for people outside the organisation as well.",
+     "critique": "Bridges's model is largely practitioner-based and has limited empirical testing. It also assumes that people need a transition, whereas in some warehouse settings a fast, clean cutover may be the least risky option.",
+     "practice": "A manager should identify which old routines people will have to give up, plan training and support for the neutral zone, and protect staff time from day jobs so that they can learn the new system. Piloting one warehouse type first lets the team learn before the change reaches the whole network."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Dynamic capabilities (Teece)",
+     "unit": "",
+     "theory": "Dynamic capabilities are an organisation's abilities to sense opportunities and threats, to seize them, and to reconfigure its resources and routines as the environment changes. They build on the resource-based view, in which advantage comes from resources that are valuable, rare, hard to imitate and well organised.",
+     "link": "Watson's approach of keeping the systems that work, adding the missing capability in components, and placing data and permissions in a separate governance layer is a form of reconfiguration. He argues that new tools can be brought in as they appear, which describes the ability to reconfigure resources as the environment changes. The argument that the advantage lies in the speed of this reconfiguration, not in one fixed system, matches the dynamic capabilities view.",
+     "critique": "Dynamic capabilities are hard to measure and can be defined so broadly that almost any adaptive behaviour counts. If the components are sold to many firms, the reconfiguration ability may be shared and therefore not a source of differentiation.",
+     "practice": "A manager should identify which systems and data are valuable and distinctive, retain them, and build the governance layer that allows components to be swapped. The success of the approach should be measured by how quickly the firm can reconfigure a process, not only by cost savings."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized retailer runs its warehouses on a legacy management system alongside its ERP, and its leadership has approved an 18-month programme to replace both with one integrated platform. During planning the company is adding a temperature-controlled zone and two new carriers, and warehouse staff are already stretched. The programme sponsor fears that the system will not reflect how the operation works by the time it goes live.",
+    "question": "Critically evaluate whether the board should proceed with the 18-month replacement programme or adopt a phased, modular approach, and advise on how to manage the people side of the change.",
+    "evidence": [
+     "Watson argues that an 18 or 24 month system project is slow, often runs late, is expensive and pulls staff away from their day jobs.",
+     "He says that after 18 months of specification, operations and partners will have changed by go-live.",
+     "He describes testing one warehouse type in one region without changing the system that manages the rest of the network.",
+     "Vantage 9 claims that deployments reach measurable return on investment within 90 days and cites an unnamed retailer that saved more than $6 million in its first fiscal year; these are the vendor's own claims."
+    ],
+    "plan": [
+     "Diagnose the timing problem using the planning fallacy, comparing the 18-month baseline with reference-class evidence from comparable implementations.",
+     "Compare the options using agile and waterfall reasoning, showing how phased releases give earlier benefits and allow requirements to be revised.",
+     "Test the vendor's claims critically, noting that the source has a commercial interest and that the savings are unverified, and identify what evidence would confirm them.",
+     "Plan the people side using Bridges's transition model, covering endings, the neutral zone and new beginnings, and protecting staff time from day-to-day work.",
+     "Use dynamic capabilities to decide what to keep and what to add, retaining systems that work and building a data and governance layer.",
+     "Recommend a pilot in one warehouse type with go/no-go gates tied to benefits, followed by a staged roll-out."
+    ],
+    "pitfalls": [
+     "Treating the vendor's percentages and savings as proven rather than as marketing claims from one interested source.",
+     "Arguing that agile is always better; the answer must address integration risk, governance and budget control as well as speed."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter's eight-step model of change",
+    "Escalation of commitment (Staw)",
+    "The Kübler-Ross change curve"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether phased, agile delivery can solve the problem of long and costly enterprise system implementations, and discuss what governance and change management are needed for it to succeed.",
+    "outline": [
+     "Explain why long, specification-first plans struggle when the operating environment changes, drawing on the planning fallacy and the example of an 18 to 24 month programme.",
+     "Evaluate phased and modular delivery against its risks, including integration, control of budget and benefits, and the tension with fixed contracts.",
+     "Conclude with the people and change dimension, covering adoption, disruption and customer trust, and assess whether vendor claims can be relied on as evidence."
+    ]
+   },
+   "readingMinutes": 6
+  },
+  {
+   "id": "8d54d79f5884",
+   "title": "Survey: Profound Gap Between Knowing Supply Chain Risks and Acting on Them",
+   "url": "https://www.supplychainbrain.com/general-scm/sc-security-risk-mgmt/article/16542171/survey-profound-gap-between-knowing-supply-chain-risks-and-acting-on-them",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-19T18:16:24Z",
+   "addedAt": "2026-11-20T06:28:50Z",
+   "basis": "full_text",
+   "takeaway": "Spotting supply chain risk is no longer the hard part. Firms that can quickly reallocate resources, and keep viable alternatives open while they decide, outperform firms that only monitor risk well.",
+   "summary": "Efficio, a supply chain consultancy, surveyed 400 business leaders. 82% of senior executives said their organisations monitor critical risks, but only 52% said they could rapidly reallocate resources when disruption hits. The same gap separates stronger and weaker performers: 69% of stronger performers can reallocate resources, against 40% of weaker ones. The accompanying report, Built for Volatility, found that higher performers more often use scenario planning, early-warning indicators and the capacity to move resources quickly. The authors argue that managing volatility is about developing viable alternatives, resolving competing priorities and making decisions while those alternatives remain available, not simply about seeing risks sooner. Matt Lekstutis of Efficio urges firms to secure critical materials, components and capabilities rather than rely on traditional ideas of resilience. The article is a short summary of survey findings, so it gives no detail on sample composition, how performance was measured or what the reallocation practices involve.",
+   "keyPoints": [
+    "82% of senior executives say their organisations monitor critical risks, but only 52% say they can rapidly reallocate resources when disruption hits.",
+    "69% of stronger performers can reallocate resources, compared with 40% of weaker performers.",
+    "Higher performers more often report scenario planning, early-warning indicators and the capacity to move resources quickly.",
+    "The authors argue that navigating volatility depends on developing alternatives, resolving competing priorities and deciding while alternatives remain available, as well as on seeing risks early.",
+    "Lekstutis recommends securing critical materials, components and capabilities rather than clinging to traditional resilience thinking."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "In supply chain terms, this is a gap between risk identification and risk response, which lies at the core of supply chain risk management and resilience. The advice to secure critical materials, components and capabilities points to redundancy and flexibility as resilience levers, rather than to better monitoring alone. Students should care because the survey gives performance differences that an examiner could expect them to use in a risk management answer."
+    },
+    {
+     "id": "strategy",
+     "relevance": 55,
+     "reading": "Strategically, the article concerns the capacity to reconfigure resources as conditions change, which is what the dynamic capabilities view describes. Scenario planning and early-warning indicators correspond to scanning the environment, and fast reallocation corresponds to acting on what is found. Students should care because the article shows a measurable gap in these capabilities between stronger and weaker performers."
+    },
+    {
+     "id": "pwo",
+     "relevance": 40,
+     "reading": "In organisational behaviour terms, the gap is partly about structure and decision-making. Whether an organisation can move people and resources quickly depends on how rigid its structure is and how it resolves competing priorities. Burns and Stalker's distinction between mechanistic and organic organisations gives a way to analyse this. Students of PWO should care because the article's point about deciding while alternatives remain open is a point about speed of decision-making and organisation design."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Resilience is a supply chain's ability to withstand disruption and recover, and it is built through deliberate design rather than monitoring alone. Christopher and Peck emphasise redundancy, flexibility, visibility and collaboration, with risk identification as only the first step. The organisation must be able to switch sources, routes or capacity when a disruption occurs.",
+     "link": "The gap between 82% monitoring risks and 52% able to reallocate resources is the gap between identifying risk and having resilience capacity. Lekstutis's call to secure critical materials, components and capabilities maps onto redundancy and sourcing flexibility in the Christopher and Peck model. The higher performers' reliance on viable alternatives supports the view that flexibility, not visibility alone, drives resilience. The 69% versus 40% split suggests that resilience is a capability that differs between firms and can therefore be built.",
+     "critique": "The model is largely about building buffers and redundancy, which carries inventory and cost penalties that lean thinking would question. The article does not discuss these trade-offs. The survey is self-reported, and better-resourced firms may both monitor risk more thoroughly and reallocate more easily, so the association need not be causal.",
+     "practice": "A supply chain director should map critical parts and capabilities, qualify alternative suppliers before a disruption, and link early-warning triggers to pre-agreed reallocation rules. These should be tested in scenario exercises. The cost of holding alternatives should be weighed against the cost of a stock-out or production halt."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Dynamic capabilities (Teece)",
+     "unit": "",
+     "theory": "Dynamic capabilities are a firm's ability to sense opportunities and threats, to seize them by mobilising resources, and to reconfigure assets and processes as the environment changes. Teece treats these as three distinct but connected capabilities. They explain why firms in the same market can perform differently under turbulence.",
+     "link": "Scenario planning and early-warning indicators correspond to sensing, while the capacity to move resources quickly corresponds to seizing and reconfiguring. The article's remark that seeing disruption is no longer the hard part suggests that sensing alone does not secure advantage. The 69% versus 40% gap in reallocation can be read as a gap in seizing and reconfiguring capability, which is the part of the model the article emphasises.",
+     "critique": "Dynamic capabilities has been criticised for being hard to observe and close to tautological, since successful firms are assumed to have them. The survey measures self-reported reallocation rather than actual response speed, and the theory does not explain how such capabilities are built.",
+     "practice": "Managers should hold regular sensing reviews and also pre-authorise budgets and decision rights for reallocation, so that seizing does not wait for approval. They should test reconfiguration in disruption drills and measure how long a real switch of supplier or production actually takes."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Mechanistic and organic organisations (Burns and Stalker)",
+     "unit": "Unit 6 Designing effective organisations",
+     "theory": "Burns and Stalker described mechanistic structures, with tight hierarchy, specialised roles, formal procedures and centralised decisions, which suit stable conditions. Organic structures have flatter hierarchy, flexible roles, lateral communication and decisions taken where knowledge sits, which suit unstable and uncertain conditions. The fit between structure and environment is the core of their argument.",
+     "link": "The article argues that firms must decide while alternatives remain available, which is a demand for fast, lateral decision-making. A firm in which only 52% can reallocate resources rapidly may have approval chains that behave mechanistically, so that switching a supplier needs several sign-offs. The higher performers' use of scenario planning and early-warning indicators implies more lateral information flow, which is an organic feature.",
+     "critique": "The mechanistic and organic dichotomy is too binary, because most firms are hybrids. Organic structures also bring coordination and control costs that the article does not consider. The survey shows an association and does not establish that structure is the cause, since leadership or culture may explain the difference.",
+     "practice": "A manager should identify which reallocation decisions need central approval and which are time-critical. Time-critical decisions should be delegated to cross-functional teams with clear authority and limits, while central oversight of cost and strategic risk is retained."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A manufacturer's risk team has identified its dependence on a single overseas supplier for a critical component and reports the exposure to the board each quarter. When a disruption occurs, moving volume to another supplier requires approvals from three functions, and no alternative has been qualified in advance. Production is halted while the firm works through these steps.",
+    "question": "Advise the board on how the manufacturer can close the gap between identifying supply chain risks and acting on them. Critically evaluate whether further investment in risk monitoring will improve the firm's resilience.",
+    "evidence": [
+     "82% of senior executives say their organisations monitor critical risks, but only 52% say they can rapidly reallocate resources when disruption hits.",
+     "69% of stronger performers reallocate resources, compared with 40% of weaker performers.",
+     "Higher performers more often report scenario planning, early-warning indicators and the capacity to move resources quickly.",
+     "Efficio urges firms to secure critical materials, components and capabilities rather than rely on traditional resilience thinking."
+    ],
+    "plan": [
+     "Diagnose the gap: argue that monitoring is not the bottleneck, using the 82% and 52% figures and the Christopher and Peck view that resilience requires redundancy and flexibility as well as visibility.",
+     "Apply dynamic capabilities (Teece): classify the monitoring as sensing, and the reallocation step as seizing and reconfiguring, and show that the manufacturer's weakness lies in the second pair.",
+     "Diagnose the structural cause with Burns and Stalker: show that multi-function approvals make the structure mechanistic and slow, and propose delegated decision rights for time-critical choices.",
+     "Recommend securing the critical component and qualifying an alternative supplier in advance, weighing the holding cost of alternatives against the cost of a production halt.",
+     "Evaluate the case for further monitoring investment: note that the survey shows association rather than causation, and that monitoring alone has limited value unless response capacity is tested.",
+     "Conclude with a prioritised recommendation for the board, covering pre-qualification, decision rights and disruption drills."
+    ],
+    "pitfalls": [
+     "Treating the survey as proof that better monitoring causes better performance. The article reports associations from self-reported data.",
+     "Recommending more inventory or more monitoring without discussing the cost trade-offs and the need to test whether the firm can actually switch suppliers."
+    ]
+   },
+   "alsoConsider": [
+    "Lean, agile and leagile supply chains (Christopher; Naylor)",
+    "Real options",
+    "Contingency theory (Lawrence and Lorsch)",
+    "Pluralist perspective on conflict (Fox)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that supply chain resilience depends more on the capacity to act on identified risks than on the ability to identify them.",
+    "outline": [
+     "Define supply chain resilience and risk management (Christopher and Peck), distinguishing risk identification from response built on redundancy and flexibility.",
+     "Use the survey evidence (82% monitor, 52% reallocate; 69% versus 40%) and assess what it does and does not show, including the limits of self-reported association.",
+     "Weigh the costs of holding alternatives and buffers against the costs of disruption, and reach a justified conclusion."
+    ]
+   },
+   "readingMinutes": 1
+  },
+  {
+   "id": "4be5dd10273c",
+   "title": "Meta contemplates net-zero timeline reset as emissions spike",
+   "url": "https://trellis.net/article/meta-2026-sustainability-report/",
+   "source": "Trellis",
+   "publishedAt": "2026-11-19T17:58:28Z",
+   "addedAt": "2026-11-20T06:28:50Z",
+   "basis": "full_text",
+   "takeaway": "Meta's emissions have risen sharply because AI data-centre growth has outpaced the assumptions behind its 2030 targets, and it is the first large cloud company to consider resetting its net-zero timeline. For PWO, this is a clear case of an external trigger prompting a change to goals, and of the motivational and credibility risks that a goal revision carries.",
+   "summary": "Meta's greenhouse gas emissions rose by double digits in 2025 as it expanded data centres for AI. Its executives say the operating assumptions behind its 2030 targets, such as steady growth and falling clean energy costs, no longer hold, because AI expansion has been faster than expected and clean energy deployment has stalled on grid connection queues, permitting and slow low-carbon supply chains. They are re-evaluating the net-zero timeline and interim milestones but have not said when they will disclose the outcome. Peers Amazon, Google and Microsoft also reported rising emissions, but have so far kept their pledges, with Amazon setting a new 2030 carbon-intensity target for electricity use.",
+   "keyPoints": [
+    "Meta's net carbon footprint rose 45 percent in 2025 to 11.9 million mtCO2e, while its location-based inventory was 21.7 million mtCO2e, so the accounting method changes the headline figure considerably.",
+    "Scope 3 emissions are more than 105 percent above 2021 levels, driven by purchased goods and services (up 36 percent) and capital goods (up 58 percent) linked to data-centre construction.",
+    "Electricity-related emissions rose almost 38 percent while power consumption rose 35 percent, even though operational emissions have fallen steadily since 2021.",
+    "Meta attributes the gap to AI expansion outpacing its 2020-era assumptions and to delays in clean energy deployment from interconnection queues, permitting and immature low-carbon supply chains.",
+    "Meta has not given a date for disclosing its revised timelines, and it has said it will keep progress transparent year over year."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 90,
+     "reading": "This article is a direct case of corporate carbon accounting under growth pressure. Meta's headline figures depend on which method is used, with a net footprint of 11.9 million tonnes against a location-based figure of 21.7 million, and the increase sits mainly in Scope 3 categories tied to construction. A green logistics or sustainability student should see why an organisation's decarbonisation pathway depends on what it measures, which emissions it controls, and how far its targets are linked to the drivers of its footprint."
+    },
+    {
+     "id": "pwo",
+     "relevance": 60,
+     "reading": "From a people, work and organisations perspective, the article shows an organisation responding to an external trigger by questioning goals it set earlier, and it raises questions about how the people who must deliver those goals will react. The executives frame the revision as a matter of reflecting operating realities, which is a classic change narrative, but they have not yet said when or how the new timelines will be communicated. A PWO student should see the link to goal-setting, to how change is triggered and managed, and to the risk that a loosened target weakens commitment."
+    },
+    {
+     "id": "strategy",
+     "relevance": 40,
+     "reading": "The 2030 targets were a deliberate strategic intention set at the start of the decade, on assumptions about the environment that did not hold. AI-driven data-centre growth has produced a pattern of action that the original plan did not anticipate, and Meta is now trying to bring its intentions back into line with that pattern. A strategy student should use the article to test the difference between planned and realised strategy and to examine how far a company's long-term commitments can absorb shifts in its environment."
+    },
+    {
+     "id": "projects",
+     "relevance": 35,
+     "reading": "The 2030 timeline was a plan built on assumptions about growth and costs, and reality has diverged from it on infrastructure delivery, including grid connections and permitting. This is the kind of optimism about timescales that the planning fallacy describes, and a projects student can ask whether base rates from comparable programmes would have produced a more cautious timeline. The article also raises the opposite risk of escalation of commitment, where an organisation keeps to an unachievable plan because it has already committed to it."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Triggers for change, with external triggers and PESTLE analysis",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Organisational change is usually prompted by a trigger, either internal or external. External triggers come from the environment, such as technological, economic, political, legal, social and environmental forces, and are often mapped with PESTLE analysis. How a trigger is recognised and interpreted by managers shapes whether, and how quickly, the organisation responds.",
+     "link": "The article points to several external triggers: AI expansion has outpaced expectations, grid interconnection and permitting queues have slowed clean energy deployment, and supply chains for low-carbon materials are slow to develop. These map onto technological, political and economic factors in a PESTLE scan, and they undermine the assumptions of steady growth and falling clean energy costs on which the 2030 targets were built. Meta's executives treat these as operating realities that change what is feasible, which is the way a trigger is meant to prompt reassessment rather than a shift in values.",
+     "critique": "PESTLE identifies triggers but does not explain why organisations respond differently to the same trigger, and the article shows Amazon, Google and Microsoft facing similar pressures while keeping their pledges. Managerial interpretation, the organisation's priorities and its exposure to stakeholder scrutiny all affect the response, and these are not captured by a list of triggers.",
+     "practice": "A manager applying this approach should separate triggers that are structural and likely to persist from those that are temporary, and record the assumptions behind the original targets so that the change can be justified transparently. The manager should then decide which assumptions to revise and which commitments to keep, and communicate that reasoning to staff and external stakeholders."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Goal-setting theory",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Locke and Latham argue that specific and challenging goals lead to higher performance than vague or easy goals, provided people accept them, have the ability to reach them and receive feedback on progress. Commitment to the goal is central, and it can be weakened when goals are seen as unrealistic or are changed without good reason.",
+     "link": "Meta's targets are specific and time-bound, including net-zero emissions across the value chain by 2030 and a 42 percent cut in Scope 1 and 2 emissions. The executives' commitment to keeping progress transparent year over year, with interim milestones, is an attempt to provide feedback, while postponing any decision on the timeline without a date risks leaving the teams that must deliver unclear about what is now expected. The article's own data, showing Scope 3 emissions more than 105 percent above 2021 levels, illustrates the gap between the goal and current performance that goal-setting theory expects people to try to close.",
+     "critique": "Goal-setting theory was developed mostly in individual and small-group settings, and it does not explain how external stakeholders such as investors, regulators and customers respond when an organisation revises a public target. Revising a goal can also reduce commitment and credibility, and the theory has little to say about whether a goal that is now seen as unattainable should be softened or kept.",
+     "practice": "If Meta revises its timeline, the new goals should be specific and challenging, with a clear explanation of why the change was made and which parts of the original ambition remain. Interim milestones should be linked to the teams and suppliers who must deliver them, with regular feedback, so that the revision supports commitment rather than signalling that the organisation has given up."
+    },
+    {
+     "moduleId": "green",
+     "concept": "Carbon footprinting and Scope 1, 2 and 3 emissions",
+     "unit": "",
+     "theory": "An organisation's carbon footprint is divided into Scope 1 emissions from its own sources, Scope 2 emissions from purchased energy, and Scope 3 emissions from its wider value chain. Electricity-related emissions can be reported with a location-based method, using the average grid mix, or with a market-based method, which counts contractual instruments such as renewable energy purchases.",
+     "link": "The article shows two figures for the same year: a net footprint of 11.9 million mtCO2e that includes contractual instruments, and a location-based inventory of 21.7 million mtCO2e. Scope 3 emissions rose sharply, driven by purchased goods and services and by capital goods linked to data-centre construction. The electricity footprint increased by almost 38 percent while consumption rose by 35 percent, even though operational emissions have fallen since 2021, so the growth is concentrated in the categories that a data-centre build-out is most likely to drive.",
+     "critique": "Market-based figures depend on contractual instruments, and a claim of matched renewable electricity does not necessarily mean that the grid supplying a data centre has become cleaner. Capital goods emissions are lumpy and tied to building programmes, so an annual increase may overstate the long-run operational picture, and a single headline figure can therefore mislead readers.",
+     "practice": "A manager applying this framework should report both location-based and market-based electricity emissions, break Scope 3 into its main categories, and set targets for the drivers that the company can influence, such as the embodied carbon of construction materials and supplier decarbonisation. The company should also explain how the two figures differ and why."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Deliberate and emergent strategy (Mintzberg)",
+     "unit": "",
+     "theory": "Mintzberg distinguishes deliberate strategy, which is planned and realised as intended, from emergent strategy, which develops as a pattern in actions where unrealised intentions meet adaptive responses. Most real strategies combine both, and an organisation can learn from emergent patterns to revise its intentions.",
+     "link": "Meta's 2030 targets were a deliberate intention formed on assumptions about growth and clean energy costs. The expansion of data centres for AI has produced an emergent pattern of action, with rising emissions as a consequence, and the executives are now reassessing their intentions in light of that pattern. Amazon's decision to set a new 2030 carbon-intensity target for electricity use is an example of the same shift toward an adapted, more realistic target, which the article presents as a way of reflecting what is currently possible.",
+     "critique": "Emergent strategy can be used to rationalise drift, where an organisation lets its actions diverge from its stated commitments and then calls the result a learned pattern. The article suggests that Meta's emissions growth is driven by its own choices to expand data centres, so the case also raises the question of how far the outcome was genuinely unintended.",
+     "practice": "A manager applying this approach should separate the parts of the strategy that remain deliberate, such as the ultimate ambition, from the parts that should be adapted, such as interim milestones and the means of achieving them. Regular review points should be set so that emergent patterns are recognised, assessed and fed back into the plan rather than absorbed silently."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A global technology company set a net-zero target for 2030 at the start of the decade, assuming steady growth and falling clean energy costs. Its expansion of data centres for AI has since pushed its emissions up by double digits, while clean energy projects have stalled on grid queues and permitting delays. Its main rivals have kept their pledges, and the board is now considering whether to revise the timeline.",
+    "question": "Advise the board on whether the company should revise its net-zero timeline and interim milestones, and how it should manage the change with its staff and stakeholders. Critically evaluate the risks of both revising and maintaining the original targets.",
+    "evidence": [
+     "The company's net carbon footprint rose 45 percent to 11.9 million mtCO2e, while its location-based inventory was 21.7 million mtCO2e.",
+     "Scope 3 emissions are more than 105 percent above 2021 levels, with purchased goods up 36 percent and capital goods up 58 percent.",
+     "Microsoft's footprint rose 25 percent, Google's 18 percent and Amazon's 16 percent, but those companies have not yet changed their pledges, while Amazon has set a new 2030 carbon-intensity target.",
+     "The company's executives said the operating environment in which the goals were set has been overtaken by AI expansion and slower clean energy deployment, and they gave no date for disclosing revised timelines."
+    ],
+    "plan": [
+     "Diagnose the triggers for change using PESTLE, separating technological, political and economic factors, and judge which are structural and which are temporary.",
+     "Use Mintzberg's distinction between deliberate and emergent strategy to show which parts of the original plan remain valid and which have been overtaken by events.",
+     "Apply goal-setting theory to assess how revising the timeline could affect the commitment and effort of staff and suppliers, and what specific and challenging interim goals would maintain it.",
+     "Test the original 2030 assumptions against the planning fallacy and reference class forecasting, asking what comparable infrastructure programmes would have suggested about timescales.",
+     "Set out a change plan that explains the reasons for revision, names owners for each milestone, and gives a firm date for disclosure, and recognise the likely resistance from teams that have worked to the original targets.",
+     "Recommend a specific course of action, such as revising interim milestones and reporting both location-based and market-based figures while keeping a credible long-term ambition, and state the conditions under which the board should revisit the decision."
+    ],
+    "pitfalls": [
+     "Treating the peers' decision to keep their pledges as proof that the original timeline is correct, without examining their different circumstances and targets.",
+     "Quoting only one emissions figure, which hides the difference between the market-based and location-based methods and can make the scale of the growth look different."
+    ]
+   },
+   "alsoConsider": [
+    "Escalation of commitment (Staw)",
+    "Planning fallacy and reference class forecasting (Kahneman; Flyvbjerg)",
+    "Lewin's three-step model and force field analysis",
+    "Kotter's eight-step model of change"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether an organisation should revise its long-term goals when its operating environment changes, drawing on theories of goal setting and organisational change.",
+    "outline": [
+     "Explain how external triggers, such as technological and regulatory change, prompt organisations to reassess their goals, using PESTLE and the triggers for change.",
+     "Assess how revising a goal may affect motivation and commitment, using goal-setting theory, and set out the conditions under which revision is justified.",
+     "Evaluate the risks of both revising and maintaining an unattainable goal, referring to escalation of commitment and to the need for transparent measurement and feedback."
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "60b3cf8d495d",
+   "title": "Project44 survey: shoppers care more about on-time delivery than speed",
+   "url": "https://www.thescxchange.com/move/project44-survey-shoppers-care-more-about-on-time-delivery-than-speed",
+   "source": "Supply Chain Xchange",
+   "publishedAt": "2026-11-20T01:57:23Z",
+   "addedAt": "2026-11-20T06:28:50Z",
+   "basis": "full_text",
+   "takeaway": "Online shoppers rate on-time arrival above fast delivery and want to track parcels in transit, so for retailers reliability and visibility are the service levers to manage, not speed alone.",
+   "summary": "The article reports a survey of 2,470 consumers worldwide, published by supply chain visibility provider Project44 in its annual holiday shopping report. Asked to rate five factors in choosing an online retailer, 73% said a package arriving on time was very important or absolutely essential, the highest of any factor. Slow delivery came last among six holiday concerns, with 46% placing it at the bottom, while higher shipping costs were ranked first by 32%. Shoppers also want to follow their parcels: 72% rated real-time updates on a package in transit very or extremely important, and 25% said they would not shop with a retailer that did not offer them. Most respondents plan to use home delivery (76%), with lockers or pickup points (33%) and buy online, pick up in store (29%) also used. The article argues this cuts against the retail industry's long-standing emphasis on speed. The CEO of Project44 advises retailers to promise only the dates the data supports and to act on exceptions before customers feel them.",
+   "keyPoints": [
+    "73% rated on-time arrival very important or absolutely essential, the highest of five factors in choosing an online vendor.",
+    "Slow delivery was the smallest holiday worry: 46% ranked it last among six concerns, while 32% ranked higher shipping costs first.",
+    "72% rated real-time in-transit updates very or extremely important, and 25% would not shop with a retailer that lacked them.",
+    "Home delivery is planned by 76% of respondents, lockers or pickup locations by 33%, and buy online, pick up in store by 29%.",
+    "The survey was an online questionnaire of 2,470 adults aged 18 and over worldwide, closing on 3 November, and was published by a supply chain visibility vendor."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 85,
+     "reading": "This is a supply chain performance story seen from the customer end. The survey suggests that dependability, meaning deliveries arriving when promised, outranks speed as a priority, and that visibility of goods in transit is now treated as part of the service. For an SCM student the key point is that performance objectives are set by what customers value, and a retailer's promised date becomes a commitment that the network must be designed to keep. Exceptions, carrier performance and risk decide whether that promise holds."
+    },
+    {
+     "id": "logops",
+     "relevance": 65,
+     "reading": "The article touches on last-mile and channel choice. Home delivery dominates stated preferences, while lockers, pickup points and store collection attract a substantial minority, and each option changes the cost and service profile of the network. Shipping cost was also the top concern for a third of respondents. A logistics student should read the article as evidence that service and cost must be traded off against customer preferences that do not always match what is cheapest to run."
+    },
+    {
+     "id": "marketing",
+     "relevance": 55,
+     "reading": "The article is about what shoppers value when choosing a retailer, which is core consumer decision-making and service quality territory. Delivery reliability is a dimension of service quality, and the survey suggests it is the attribute customers weigh most heavily, even though the industry has promoted speed. A marketing student should note the gap between what firms promote and what customers say they need, and the role of real-time information in shaping perceived service."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Slack's five performance objectives (Slack and colleagues)",
+     "unit": "",
+     "theory": "Operations performance is judged against five objectives: quality, speed, dependability, flexibility and cost. Dependability means delivering what was promised at the promised time, while speed is the time taken from order to delivery. Organisations choose their priorities according to what customers in their market value.",
+     "link": "The headline finding is that 73% place on-time arrival among the most important factors, above speed, which reverses the emphasis the industry has used. Slack's dependability objective maps directly onto on-time arrival, and the 46% who ranked slow delivery last suggest speed matters least to this sample. The vendor's advice to promise only dates the data supports ties dependability to what is promised, not only to what is performed. Real-time updates add an information dimension that the five-objective list does not separately capture.",
+     "critique": "The framework is designed for choosing priorities, not for measuring what customers actually pay for, and stated preference in a questionnaire is not the same as purchase behaviour. Price and convenience can override delivery preferences at checkout, as the 32% who ranked shipping cost first illustrate.",
+     "practice": "A retailer applying this would measure dependability as the share of orders delivered in full by the promised date, and set delivery promises from that measure rather than from carriers' headline transit times. It would then decide whether faster delivery is worth its extra cost only in the segments where customers value it."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Supply chain risk management identifies the sources of disruption, assesses their likelihood and impact, and builds the capacity to detect and recover from them quickly. Resilience comes from visibility, redundancy and flexibility, and from designing the chain so that early warnings reach decision makers before a disruption reaches the customer.",
+     "link": "The vendor's CEO describes seeing the exception, the carrier running behind and the condition of the order before the customer does, which is a direct statement of early-warning visibility. The survey shows the cost of not doing this, since 25% would not shop with a retailer lacking real-time tracking, making visibility part of the service offer. The stress on the order's condition also points to product-level risk beyond delay.",
+     "critique": "Resilience thinking often relies on buffers such as safety stock or spare capacity, which cost money, and shoppers ranking shipping cost first may not fund full redundancy. The article does not show that visibility tools reduce late deliveries in practice, and the source sells such tools.",
+     "practice": "A manager would map the carriers and hubs that matter most at peak, set exception triggers such as scan gaps or missed cut-offs, and route alerts to a team able to rebook or reroute before the customer is notified. The promised date would be reset when the data shows rising risk."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Total logistics cost and the cost-service trade-off",
+     "unit": "",
+     "theory": "The total cost of logistics covers transport, warehousing, inventory and administration, and it generally rises as service level rises. Faster or more frequent delivery usually costs more, so the aim is to find the service level that best balances cost and service. Channel choices such as home delivery, lockers and store pickup shift costs between carrier, retailer and customer.",
+     "link": "Home delivery is the preferred option for 76% of respondents, and it is typically the most expensive last-mile method, while lockers (33%) and buy online, pick up in store (29%) can consolidate drops and lower cost per parcel. The 32% who ranked shipping cost first show that cost is a real constraint even though service is valued more highly. Together the figures show shoppers want both a low-cost option and a reliable one, and a retailer must price and route them differently.",
+     "critique": "The trade-off model treats service as one dimension, whereas the article shows that reliability, visibility and location matter separately. Stated channel preferences may not hold when a price difference is introduced, so a network designed around the survey percentages could be over-built for home delivery.",
+     "practice": "A retailer would model cost per order by channel, offer locker and pickup options at a lower price point to steer demand, and reserve paid fast home delivery for segments willing to pay for it. It should test channel take-up against price rather than rely on the survey percentages."
+    },
+    {
+     "moduleId": "marketing",
+     "concept": "SERVQUAL service quality model (Parasuraman, Zeithaml and Berry)",
+     "unit": "",
+     "theory": "SERVQUAL measures service quality as the gap between customers' expectations and their perceptions of performance, across five dimensions: reliability, responsiveness, assurance, empathy and tangibles. Reliability is the ability to perform the promised service dependably and accurately. Gaps arise when firms misjudge what customers expect, which the model calls the management perception gap.",
+     "link": "On-time arrival is reliability in SERVQUAL terms, and it is the factor shoppers rate highest, which suggests that retailers' emphasis on speed reflects a management perception gap about what customers expect. Real-time tracking connects to responsiveness and to the communication of service, and the 25% who would not shop without it show that a missing feature can cost a sale. The article therefore implies that firms have misread customer expectations rather than failed to deliver them.",
+     "critique": "SERVQUAL's gap scores have been criticised for measuring expectations and perceptions with overlapping questions, and its five dimensions were developed for services with human contact rather than parcel delivery. The article reports stated importance, not performance against expectations, so it cannot show which retailers have a gap.",
+     "practice": "A marketing manager would survey customers on delivery reliability and communication, compare their expectations with actual on-time performance by carrier, and close any gap by changing delivery promises and messages rather than investing only in speed advertising."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized online retailer of household goods has run speed-led messages in its holiday campaigns and sends most orders by home delivery. Its carrier data show a rising share of late parcels, and its customer service team reports many enquiries about where orders are. The board must decide what delivery promises, tracking and channel options to offer in the coming peak season.",
+    "question": "Advise the board on whether to compete on delivery speed or delivery reliability for the coming peak season, and recommend how it should set its promises, visibility and delivery options. Critically evaluate the evidence on which your recommendation rests.",
+    "evidence": [
+     "73% of consumers rated on-time arrival very important or absolutely essential, the highest of five factors in choosing an online vendor.",
+     "Slow delivery ranked last among six holiday concerns for 46%, while 32% ranked higher shipping costs first.",
+     "72% rated real-time in-transit updates very or extremely important, and 25% would not shop with a retailer that did not offer them.",
+     "76% plan to use home delivery, 33% a locker or pickup location, and 29% buy online, pick up in store."
+    ],
+    "plan": [
+     "Define the objectives using Slack's five performance objectives, identify dependability as the priority and speed as secondary, and explain why the survey supports that ordering for this market.",
+     "Use the SERVQUAL reliability dimension to show that on-time arrival is what customers expect, and that the speed-led campaigns may reflect a management perception gap.",
+     "Apply Christopher and Peck's resilience thinking by setting up visibility and exception triggers so late parcels are found and rebooked before the customer has to call.",
+     "Analyse the channel mix using total logistics cost and the cost-service trade-off, showing that home delivery is preferred but expensive, and that lockers and pickup points can lower cost per parcel while still meeting service needs.",
+     "Critically evaluate the evidence: it is a vendor-sponsored online survey of stated preferences rather than purchase data, and shipping cost was the top ranked concern in a separate question.",
+     "Recommend that promises be set from historical on-time data, that real-time tracking and exception alerts be funded, that lower-cost pickup options be offered, and that fast delivery be charged for only where customers value it."
+    ],
+    "pitfalls": [
+     "Treating the survey as proof of buying behaviour, when it reports stated preferences from an online questionnaire that should be tested against price and cost data.",
+     "Equating dependability with speed, or ignoring that shipping cost was the top concern for 32%, which weakens a pure reliability recommendation."
+    ]
+   },
+   "alsoConsider": [
+    "Fisher's supply chain matrix",
+    "Lee's triple-A supply chain",
+    "The SCOR model",
+    "Service-dominant logic (Vargo and Lusch)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that, for online customers, the reliability and visibility of deliveries matter more than their speed, and discuss the implications for supply chain design and performance measurement.",
+    "outline": [
+     "Define dependability and speed as performance objectives using Slack's framework, and use the 73% and 46% findings to show the priority ordering.",
+     "Explain how visibility and exception management protect the delivery promise, drawing on supply chain risk and resilience theory and the 25% who require real-time tracking.",
+     "Evaluate the limits of the evidence and the trade-off with cost, including the 32% who ranked shipping cost first, and recommend a balanced design."
+    ]
+   },
+   "readingMinutes": 2
+  },
+  {
+   "id": "7f3fc3a2cfe3",
+   "title": "Why embattled boards hire SHREK firms to fill big C-suite seats",
+   "url": "https://www.cfodive.com/news/why-embattled-boards-hire-shrek-firms-fill-big-c-suite-seats/875114/",
+   "source": "CFO Dive",
+   "publishedAt": "2026-11-18T20:41:13Z",
+   "addedAt": "2026-11-20T06:28:50Z",
+   "basis": "abstract",
+   "takeaway": "The abstract describes a board replacing a departed chief executive by hiring an executive search firm, a common response when a board is under pressure. Leadership succession is the main subject, but the story also raises questions of power, resource dependence and board oversight that the People, Work and Organisations module examines.",
+   "summary": "According to the abstract, Nvidia's chief executive, Jensen Huang, has resigned, and the company followed a familiar pattern by hiring Heidrick & Struggles to find his successor. The title frames this as a practice of embattled boards, which turn to firms of the kind it calls SHREK firms to fill major C-suite roles. The abstract does not expand the acronym, give details of the search, or describe the board's reasons beyond that framing, so the analysis below rests on the general pattern rather than on findings the text does not report.",
+   "keyPoints": [
+    "The abstract reports that Nvidia's chief executive has resigned and that the company hired Heidrick & Struggles to find his successor.",
+    "The hiring is described as following a familiar head-hunting script, suggesting a standard practice rather than an unusual decision.",
+    "The title presents the use of these search firms as a response by embattled boards to fill major C-suite seats.",
+    "Because only the abstract is available, the note does not know the candidate criteria, the board's reasoning or the search's outcome."
+   ],
+   "modules": [
+    {
+     "id": "leadership",
+     "relevance": 72,
+     "reading": "In leadership terms, the story is about how a board selects the person who will lead the organisation after a change at the top. Selection decisions reflect a view about what the situation needs, which links to contingency thinking about leader fit. A student of leadership should look at whether the board is choosing a leader for a particular set of circumstances, and at how the choice of an external search firm shapes who is considered."
+    },
+    {
+     "id": "pwo",
+     "relevance": 48,
+     "reading": "For People, Work and Organisations, the story touches on power and governance, namely how a board holding authority over the chief executive acts when that authority is contested or the firm is under pressure. It also shows an organisation drawing on an outside actor to secure a scarce resource, which connects to resource dependence. Students should consider how formal authority and the search firm's influence interact in the appointment."
+    },
+    {
+     "id": "finance",
+     "relevance": 32,
+     "reading": "From a finance standpoint, the replacement of a chief executive is a governance event, and agency theory explains why boards exist to oversee managers acting on behalf of shareholders. A new appointment is one way a board tries to reduce the gap between what shareholders want and what managers do. Students should weigh whether the appointment process reassures investors and how it relates to the cost of the search."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "leadership",
+     "concept": "Fiedler's contingency model of leadership effectiveness",
+     "unit": "",
+     "theory": "Fiedler argued that a leader's effectiveness depends on the match between the leader's style, usually measured by how they regard their least preferred co-worker, and the favourableness of the situation. Situational favourableness depends on leader-member relations, task structure and the leader's positional power. On this view, the way to improve performance is often to change the leader to fit the situation rather than to change the situation to suit the leader.",
+     "link": "The abstract describes a board that is embattled and has lost its chief executive, which is a situation with weak positional continuity and uncertain leader-member relations. Hiring a search firm to find a successor is a way of choosing a leader to fit that situation, in line with Fiedler's argument that selection can be the lever. The reference to a familiar script suggests the board is following a process rather than tailoring the criteria to the specific circumstances, which Fiedler's model would encourage it to consider. The abstract does not say what the board looked for, so the link to a particular leader style is an inference rather than a reported fact.",
+     "critique": "Fiedler's model treats leadership style as fixed and hard to change, which is questionable when executives can develop and adapt their approach. The model also gives little guidance on how boards should assess the fit between a candidate and a complex, changing business environment.",
+     "practice": "A board applying Fiedler would first assess the situation: how far the leadership relationship is strained, how clearly the strategic task is defined, and how much formal authority the new leader will have. It would then brief the search firm on the leadership style that fits that profile, instead of relying on a generic candidate profile. The board should check afterwards whether the appointed leader's style matches the situation as it has developed."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on external resources they do not fully control, and that the external parties who supply those resources gain power over them. Organisations reduce this dependence through strategies such as building alternative sources, forming alliances or bringing in outside expertise. Power in this view comes from control over scarce and critical resources rather than from formal position alone.",
+     "link": "Hiring a specialist search firm to find a chief executive shows a firm drawing on an outside resource, namely the firm's networks and assessment capability, to fill a critical role it cannot easily fill from within. The abstract's description of a familiar script suggests that this dependence is routine for large companies. The search firm's knowledge of candidates gives it influence over which options the board sees, which is the kind of power resource dependence describes. The abstract, however, gives no detail on how much the firm shaped the outcome.",
+     "critique": "Resource dependence focuses on external dependence and says less about internal politics, so it may understate how board members with their own agendas shape the appointment. The theory also assumes that organisations can choose among suppliers, which may not be true for a search firm that has built a reputation in a small market.",
+     "practice": "A board that recognises its dependence on a search firm should set clear terms, including a broad longlist, independent references and its own selection criteria, to keep control of the decision. It should also consider whether its dependence on one firm is an opportunity to compare alternatives. Keeping the choice in its own hands reduces the risk that the firm's influence becomes the board's decision."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "French and Raven's bases of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "French and Raven identified five bases of social power: legitimate, reward, coercive, expert and referent power. Each base gives a person influence over others in different ways, and the bases can be combined. A person who holds several bases of power is generally more influential than one who holds only a single base.",
+     "link": "The board's power to replace the chief executive draws mainly on legitimate power, because the board has formal authority over senior appointments. The search firm draws on expert power, since its knowledge of candidates and the market shapes the options the board considers. The abstract's account of a board under pressure suggests that the board's referent power, or its credibility with investors, may be weaker than its formal authority. Together these bases show that the appointment depends on more than the formal chain of command.",
+     "critique": "French and Raven describe the sources of power but say little about how power is used or resisted in practice, which matters in a contested board decision. The categories can also blur together, since legitimacy and expertise often reinforce each other in such settings.",
+     "practice": "A board that wants to use its power legitimately should make the appointment process transparent, so that its legitimate authority is not undermined by suspicion of outside influence. It should also be clear about where its expert knowledge comes from, whether from directors, the search firm or others. Recognising which bases of power are in play helps the board check whether the decision reflects its own judgement."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Agency theory",
+     "unit": "",
+     "theory": "Agency theory, associated with Jensen and Meckling, describes the relationship in which principals, such as shareholders, delegate work to agents, such as managers, whose interests may differ. Agency costs arise from monitoring, bonding and the residual loss when agents do not act fully in the principal's interest. Boards are one mechanism for reducing these costs by overseeing managers and appointing or removing them.",
+     "link": "The replacement of a chief executive is a central governance act within agency theory, because the board, acting for shareholders, decides who will manage the company. The abstract describes boards that are embattled, which suggests shareholders or others have pressed the board to respond. The use of a search firm can be read as an attempt to reduce the risk of appointing an agent whose interests diverge from shareholders, although the abstract does not state the board's aims. The timing of the resignation also raises the question of whether the board was acting to reassure investors.",
+     "critique": "Agency theory assumes a clear split between owners and managers and focuses on financial incentives, which may not capture the wider role of boards in strategy and culture. It also says little about how search firms may have their own incentives, such as earning fees, that could affect advice.",
+     "practice": "A board applying agency theory should set the new chief executive's incentives so that they align with long-term shareholder value, and should specify how performance will be measured. It should also manage the risk that the search firm's fee structure shapes its recommendations. Clear reporting to shareholders on the appointment process helps reduce the information gap that agency theory identifies."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large listed company has seen its chief executive resign, and its share price has fallen amid investor concern about strategy. The board has decided to use an external executive search firm to find a successor for the top role. Several directors want a candidate from outside the business, while others favour an internal promotion.",
+    "question": "Advise the board on how to appoint a new chief executive after an unexpected resignation, critically evaluating the role of an external executive search firm in the process.",
+    "evidence": [
+     "The abstract reports that Nvidia's chief executive has resigned and that the company hired Heidrick & Struggles to find his successor.",
+     "The hiring is described as following a familiar head-hunting script, which suggests the approach is standard practice for large companies.",
+     "The title says embattled boards hire these firms to fill major C-suite seats, which indicates the practice is linked to boards under pressure."
+    ],
+    "plan": [
+     "Set out the situation and the board's position, using the fact that the resignation came in a period of pressure, and identify the leadership needs of the firm in that context, applying Fiedler's contingency model to define the leadership fit required.",
+     "Assess the board's dependence on the search firm using resource dependence theory, and explain how the firm's networks and assessment capability give it influence over the candidate pool.",
+     "Analyse the sources of power within the board and between the board and the firm using French and Raven's bases, identifying where legitimate, expert and referent power lie.",
+     "Consider the governance implications using agency theory, examining whether the appointment will reassure shareholders and how incentives should be set.",
+     "Weigh the internal and external options against the criteria, and give a clear recommendation on the appointment process, including how far the board should rely on the search firm."
+    ],
+    "pitfalls": [
+     "Treating the abstract as evidence of how the search was run or what candidates were considered, when the abstract reports neither.",
+     "Presenting the search firm as either wholly neutral or wholly self-interested without showing the reasoning, rather than weighing its influence against the board's own control of the decision."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Pfeffer's political tactics in organisations",
+    "Fox's unitarist and pluralist perspectives",
+    "House's path-goal theory of leadership"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether boards that use external executive search firms to replace a chief executive are better placed to make a sound appointment than boards that rely on internal processes.",
+    "outline": [
+     "Define the main theories of leader fit and power, including Fiedler's contingency model and resource dependence, and show how each applies to a board appointment.",
+     "Assess the benefits and risks of using an external search firm, including its influence over the candidate pool and the board's dependence on it.",
+     "Conclude with a reasoned judgement on when external search is likely to improve the appointment and when the board's own processes should lead."
+    ]
+   }
+  },
+  {
+   "id": "023cd41bc05d",
+   "title": "Why Tariffs Aren’t Bringing Factories Back to the U.S.",
+   "url": "https://hbr.org/2026/11/why-tariffs-arent-bringing-factories-back-to-the-u-s",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-19T13:05:55Z",
+   "addedAt": "2026-11-20T06:28:50Z",
+   "basis": "abstract",
+   "takeaway": "Tariffs change only one input to a reshoring decision. The abstract, using the auto industry as its example, says the full cost comparison still often fails to favour domestic production, so a tariff alone is unlikely to move manufacturing back.",
+   "summary": "Working only from the publisher's abstract, the article asks why tariffs have not brought factories back to the United States. It uses the auto industry as its example and says that the economics of reshoring still do not add up for many manufacturers. The abstract gives no figures, firm names or mechanisms, so this note does not report any. The theory below is there to help you analyse the question.",
+   "keyPoints": [
+    "The headline claim is that tariffs have not, on their own, brought manufacturing back to the US.",
+    "The auto industry is the illustration the abstract uses.",
+    "For many manufacturers the economics of reshoring still do not stack up, so the decision is not settled by trade policy alone.",
+    "The abstract does not say which costs drive the result, so any explanation you give must be argued from theory and labelled as your own reasoning."
+   ],
+   "modules": [
+    {
+     "id": "purchasing",
+     "relevance": 75,
+     "reading": "In purchasing terms this is a question about where to source, and whether to make or buy domestically or overseas. The decision is judged on total cost of ownership rather than unit price, and a tariff changes only one element of that total. A student of purchasing should care because the abstract suggests that a simple price change does not settle the make-or-buy and sourcing location choice."
+    },
+    {
+     "id": "scm",
+     "relevance": 60,
+     "reading": "From a supply chain design standpoint, reshoring is a decision to relocate production and reshape the network. It involves lead times, inventory, supplier capability and resilience as well as cost. A student of supply chain management should care because a location change affects the whole network, not just the factory line."
+    },
+    {
+     "id": "strategy",
+     "relevance": 35,
+     "reading": "Strategically, the location of manufacturing is one of the configuration choices within a firm's value chain. Whether a firm should move production home is a question about where it can create or protect competitive advantage at acceptable cost. A student of strategy should note that the abstract frames reshoring as a judgement about economics rather than a political gesture."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "purchasing",
+     "concept": "Total cost of ownership",
+     "unit": "",
+     "theory": "Total cost of ownership counts all the costs of acquiring, owning and using a purchase across its life, not just the supplier's price. These include transport, duties and tariffs, inventory, quality, administration, risk and the cost of managing the supplier relationship. The aim is to compare options on a like-for-like basis.",
+     "link": "The abstract says the economics of reshoring still do not add up for many manufacturers even though tariffs raise the cost of imports. This suggests that the tariff changes one line in the total cost comparison but does not outweigh the other costs of domestic production. Using the auto industry as the example, the article implies that the full comparison, rather than the import price alone, is what decides whether a factory returns. A student should map the tariff onto the duties element of TCO and then ask what else sits on each side of the comparison.",
+     "critique": "TCO is hard to apply in practice because many elements, such as quality risk, supplier capability and policy volatility, are difficult to measure, and managers may weight them inconsistently. Tariff rates set by government can change quickly, so a TCO calculation that is correct today may not hold for the life of a plant.",
+     "practice": "A purchasing manager should build a TCO model for each sourcing option covering landed cost, duties, inventory, quality and risk, and run it under several tariff scenarios. The manager should not decide on the basis of the tariff alone. Results should be reviewed as policy changes."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Make-or-buy and transaction cost economics (Williamson)",
+     "unit": "",
+     "theory": "Transaction cost economics holds that firms decide whether to make a product in-house or buy it from the market by comparing the transaction costs of each. Those costs rise with asset specificity, uncertainty and the frequency of dealings, and the lowest-cost governance form is chosen. Location is part of this choice as well as ownership.",
+     "link": "Reshoring moves the make-or-buy boundary, because a firm that has been buying overseas must decide whether to make the product at home or buy it from a domestic supplier. The abstract's claim that the economics still do not add up suggests that domestic production carries transaction and production costs that offset the tariff incentive. Tariffs add uncertainty to the comparison, which Williamson's framework would treat as a factor that raises the cost of relying on any single market arrangement.",
+     "critique": "Transaction cost economics is a comparative framework that does not give a precise number for the costs it describes, and it assumes managers can judge asset specificity and uncertainty accurately. It also gives less attention to strategic reasons for location, such as capability building or political access, which may matter more than transaction costs in some industries.",
+     "practice": "A manager should identify the asset specificity and uncertainty of each component, then decide whether to make it at home, buy it from a domestic supplier or keep it offshore. The choice should be tested for how far it would change if tariffs were removed or raised. Where the costs are close, a contract structure that shares tariff risk may be preferable to full relocation."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck describe resilience as the ability of a supply chain to reduce its vulnerability to disruption and to recover quickly when a disruption occurs. Resilience often requires some redundancy, such as multiple sources, buffer stocks or regional diversification, and this carries cost, so firms must balance efficiency against resilience.",
+     "link": "Tariffs are a policy-driven disruption to a supply chain, and reshoring is one response to it. The abstract suggests that moving production home does not automatically pay for itself, which implies that the resilience gain must be weighed against the cost of domestic production. The auto industry example illustrates how a long supply network built around cost may not be easy to reshape, which is a supply chain design problem as much as a tariff problem.",
+     "critique": "Resilience is often treated as a good in itself, but the theory gives limited guidance on how much resilience is worth paying for. Reshoring is also only one way to reduce exposure, and nearshoring, dual sourcing or tariff engineering may achieve more at lower cost, which the abstract does not address.",
+     "practice": "A supply chain manager should map which parts of the network are exposed to tariffs and other policy risks, and estimate the cost of each option for reducing that exposure. The manager should compare reshoring with dual sourcing and nearshoring before deciding. The result should be a resilience plan with explicit cost limits."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Porter's value chain",
+     "unit": "",
+     "theory": "Porter's value chain divides a firm's activities into primary activities such as inbound logistics, operations and outbound logistics, and support activities such as procurement and infrastructure. Competitive advantage comes from performing these activities more cheaply or better than rivals, and from configuring them in a way that fits the firm's strategy. Where each activity is located is a configuration choice.",
+     "link": "Manufacturing is a primary activity in the value chain, and the decision to reshore is a decision about where that activity is configured. The abstract's point that the economics do not add up for many manufacturers suggests that the cost position of home production is weaker than the tariff-adjusted import price would imply. The auto industry example shows that the configuration of a whole sector is difficult to change quickly.",
+     "critique": "The value chain is a firm-level tool and is static, so it does not easily capture how an industry's cost base, supplier networks or policy regime shape what is feasible. Its focus on the firm's own activities can understate the constraints that come from suppliers and industry structure.",
+     "practice": "A strategy team should map its value chain and mark which activities are located where, with their cost and differentiation effects. It should then test whether relocating any activity changes the firm's cost or differentiation position. The team should recommend relocation only where the change strengthens an activity the firm can sustain."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized automotive component manufacturer has relied on overseas factories for several key parts for many years. New tariffs have raised the cost of importing them, and the board is considering moving production back to its home market. The company's supply base is closely integrated with its customers, and its suppliers are concentrated in a few regions.",
+    "question": "Critically evaluate whether tariffs alone are likely to justify moving this manufacturer's production home, and advise the board on the decision.",
+    "evidence": [
+     "The article's title states that tariffs have not, on their own, brought factories back to the United States.",
+     "The abstract says the economics of reshoring still do not add up for many manufacturers.",
+     "The abstract uses the auto industry as its illustrative case.",
+     "The abstract gives no figures or firm-level results, so any claim about the scale of the effect must be presented as an assumption."
+    ],
+    "plan": [
+     "Define the decision clearly and state the limits of the evidence, noting that the abstract gives only a headline finding.",
+     "Apply total cost of ownership to compare home and overseas options, listing duties, inventory, quality, administration and risk for each.",
+     "Use make-or-buy and transaction cost economics to decide whether to make at home, buy domestically or keep sourcing overseas, given asset specificity and uncertainty.",
+     "Apply supply chain resilience to weigh the reduction in exposure against the cost of domestic production, and compare reshoring with nearshoring and dual sourcing.",
+     "Use Porter's value chain to judge whether relocating manufacturing strengthens or weakens the firm's competitive position.",
+     "Recommend a course of action, such as a phased or partial move under stated conditions, with the tariff scenarios and cost thresholds that would trigger a further decision."
+    ],
+    "pitfalls": [
+     "Treating the tariff as the only cost change, and ignoring the other elements of total cost of ownership and the effect on the wider network.",
+     "Presenting the abstract's headline as proven across all industries, when it is based on a single example in the auto sector and no figures are given."
+    ]
+   },
+   "alsoConsider": [
+    "Kraljic's purchasing portfolio matrix",
+    "Real options (investment under uncertainty)",
+    "Power in buyer-supplier relationships (Cox)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that tariffs alone are sufficient to bring manufacturing back to the home market. Use total cost of ownership and make-or-buy analysis in your answer.",
+    "outline": [
+     "Explain why the tariff changes only one element of the total cost of sourcing, and identify the other costs that determine the location decision.",
+     "Apply transaction cost economics and TCO to show how the make-or-buy and location choice depends on uncertainty and specificity, and how policy risk affects it.",
+     "Evaluate the limits of the argument, including the single-sector evidence, the volatility of tariffs and the alternatives to reshoring such as nearshoring and dual sourcing."
+    ]
+   }
+  },
   {
    "id": "f5c271100088",
    "title": "Leaders need to confront organisational reality. Here’s how",
