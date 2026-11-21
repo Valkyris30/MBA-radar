@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-20T06:28:50Z",
+ "generatedAt": "2026-11-21T06:24:25Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
@@ -72,6 +72,1028 @@
   }
  ],
  "articles": [
+  {
+   "id": "d37b2fac2549",
+   "title": "A Better Way to Foster Rigorous Debate in the Boardroom",
+   "url": "https://hbr.org/2026/11/a-better-way-to-foster-rigorous-debate-in-the-boardroom",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-20T13:15:19Z",
+   "addedAt": "2026-11-21T06:24:25Z",
+   "basis": "abstract",
+   "takeaway": "The abstract presents a named technique, the 'Cartesian voice', for making boardroom debate more rigorous. Its aims are disciplined inquiry, scepticism and discussion, which map onto the PWO teams and power topics on groupthink, psychological safety and functional conflict. Only the abstract was supplied, so the technique's mechanics and any evidence for it are unknown.",
+   "summary": "The source is HBR's short abstract for an article titled 'A Better Way to Foster Rigorous Debate in the Boardroom'. It says that a practice called the 'Cartesian voice' can encourage disciplined inquiry, scepticism and discussion. The abstract does not explain how the voice works, who uses it, or what evidence supports it, so the note relates the stated aim to established theory rather than to findings from the article.",
+   "keyPoints": [
+    "The abstract proposes a named practice, the 'Cartesian voice', as a better way to foster rigorous debate in the boardroom.",
+    "The stated goals are disciplined inquiry, scepticism and discussion, all of which concern how a board tests proposals rather than simply approving them.",
+    "The name suggests a method of systematic doubt, but the abstract does not say how this is applied, so students should not attribute specific mechanics to the article.",
+    "The topic links to well-known team-process problems: groupthink, the suppression of dissent and the conditions needed for candid challenge.",
+    "Because only the abstract was supplied, any answer should cite the aim of the practice and link it to theory, not describe results."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 78,
+     "reading": "In PWO terms this is about how a small decision-making group behaves under pressure. Boards are teams, and the question is whether their norms, cohesiveness and power relations let members voice doubt or push them towards quick consensus. The abstract's aims of disciplined inquiry and scepticism are the opposite of groupthink, so a PWO student should see the article as a practical attempt to counter known team dysfunctions. The mechanism is not described in the abstract, so the link to theory is interpretive."
+    },
+    {
+     "id": "leadership",
+     "relevance": 55,
+     "reading": "For a leadership student, the interesting question is who structures debate at the top of an organisation and how. A chair or chief executive decides who speaks, how dissent is invited and when a decision is closed, which is a form of leadership and decision making. The abstract suggests that a deliberate device can shape that process. A leadership student should therefore see the article as being about how leaders create the conditions for good decisions, not only about the decisions themselves."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Groupthink (Janis)",
+     "unit": "Unit 4 Team dynamics",
+     "theory": "Groupthink is a pattern in which cohesive groups under pressure seek concurrence at the expense of critical evaluation of alternatives. Symptoms include an illusion of unanimity, self-censorship and pressure on dissenters, and they tend to produce poor decisions. Janis proposed remedies such as assigning a critical evaluator role and having the leader stay impartial early in discussion.",
+     "link": "The abstract's stated aims of disciplined inquiry, scepticism and discussion are directly aimed at the conditions that allow groupthink to develop. A boardroom, which is a small and cohesive group, is precisely where Janis expected the pattern to appear. A practice that deliberately creates a questioning role would fit Janis's remedy of a designated critical evaluator. The abstract does not say whether the 'Cartesian voice' works in this way, so the match is to the aim rather than to demonstrated effect.",
+     "critique": "Later research has found the link between cohesion and groupthink to be conditional and the outcomes to be mixed, so a structured voice may not prevent poor decisions on its own. Critics also argue that a designated critic can become a ritual that directors discount.",
+     "practice": "A chair applying this idea should make the purpose of challenge explicit before a decision, invite dissent from each director in turn, and record reasons for and against. They should also check whether dissent changes outcomes, since an unused challenge process reinforces groupthink."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological safety (Edmondson)",
+     "unit": "Unit 4 Team dynamics",
+     "theory": "Psychological safety is a shared belief that a team is safe for interpersonal risk-taking, such as admitting errors, asking questions or challenging the majority. Edmondson showed that it enables team learning and is distinct from simply being nice to one another. Leaders shape it through their responses to challenge and through how they frame mistakes.",
+     "link": "Rigorous debate depends on directors being willing to voice scepticism in front of senior colleagues, which is exactly the interpersonal risk Edmondson describes. A structured practice that legitimises questioning can be read as an attempt to build that safety on purpose, not leaving it to chance. The abstract's emphasis on discussion matches the learning orientation that psychological safety is meant to produce.",
+     "critique": "Psychological safety is usually studied in teams with peer relationships, whereas boards involve hierarchy, fiduciary duties and formal votes. Safety may be hard to build when a chief executive or powerful chair controls careers and information.",
+     "practice": "A board that wants candid challenge should separate the question of who proposed a plan from the question of whether it is sound, and should respond to dissent with curiosity. The chair should model admitting uncertainty first and track how often members speak up, not only whether they agree."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Functional and dysfunctional conflict (Pondy)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Pondy distinguished functional conflict, which improves performance by exposing problems and generating alternatives, from dysfunctional conflict, which diverts energy into personal antagonism. The task for managers is to keep disagreement focused on ideas rather than people. Conflict is therefore not inherently harmful and may be deliberately managed.",
+     "link": "The article's language of rigorous debate and disciplined inquiry describes functional conflict in a boardroom setting. Scepticism directed at proposals, combined with discussion, is the kind of disagreement Pondy saw as productive. The abstract implies that the difficulty is channelling conflict rather than removing it, which matches Pondy's view.",
+     "critique": "Pondy's distinction is useful but hard to apply in practice, because the same disagreement can be functional to one director and dysfunctional to another. Political motives in boardrooms can also disguise personal agendas as principled challenge.",
+     "practice": "A board chair should set ground rules that separate challenge to a proposal from criticism of the proposer, and should intervene when debate turns personal. They should also watch for conflict that is avoided altogether, since too little conflict is itself a warning sign."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Distributed leadership and followership",
+     "unit": "",
+     "theory": "Distributed leadership holds that leadership is spread across a group rather than concentrated in one person, and followership theory treats followers as active contributors whose challenge improves leaders' decisions. Both reject the idea that influence flows only from the top. Effective groups depend on members who can challenge and support each other.",
+     "link": "A boardroom that encourages rigorous debate is trying to turn directors into active participants rather than passive ratifiers, which is a distributed view of leadership. The abstract's focus on discussion suggests that influence in the boardroom should not rest solely on the chair or chief executive. The link is to the aim stated in the abstract, not to any particular finding.",
+     "critique": "Distributed leadership can be hard to reconcile with formal accountability, because the board's legal responsibility rests with named directors. Followership can also be performed rather than real if the culture still penalises dissent.",
+     "practice": "A chair should be explicit about which decisions are shared and which rest with the chair or the full board. They should also develop directors' capacity to challenge, for example by briefing them before meetings and asking them to test key assumptions."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A board is considering a major investment proposed by its chief executive. Some directors have doubts about the assumptions, but they rarely raise them in meetings, and discussion usually ends quickly in agreement. The chair wants a more rigorous debate before the vote.",
+    "question": "Advise the chair on how to build rigorous debate on the board, drawing on theories of team dynamics and power. Critically evaluate the risks of a structured approach to challenge.",
+    "evidence": [
+     "The abstract states that the 'Cartesian voice' is intended to encourage disciplined inquiry, scepticism and discussion in the boardroom.",
+     "The article is presented as a better way to foster rigorous debate, which implies that current board practice falls short of it.",
+     "Only the abstract was supplied, so any evidence beyond these stated aims must come from the scenario, not the article."
+    ],
+    "plan": [
+     "Diagnose the problem using Janis's groupthink: identify signs of an illusion of unanimity and self-censorship in the scenario.",
+     "Apply Edmondson's psychological safety to explain why directors may stay silent, and identify what the chair can do to lower the interpersonal risk.",
+     "Use Pondy's distinction to show that the aim is functional conflict focused on the proposal, and set ground rules that keep disagreement away from personalities.",
+     "Consider the power dimension: the chief executive's influence over information and careers may suppress challenge, so the chair should make it safe for directors to question the proposer.",
+     "Evaluate the risks of a structured voice, including ritualised dissent and the limits of groupthink research, and recommend pilot testing with measures of whether challenge changes decisions.",
+     "Conclude with a recommendation to adopt a structured challenge process, supported by psychological safety and clear ground rules, and to review its effects after the vote."
+    ],
+    "pitfalls": [
+     "Describing the 'Cartesian voice' in detail as if the article's mechanics were known, when only the abstract was available.",
+     "Treating groupthink as a settled finding without noting that the evidence is conditional and mixed."
+    ]
+   },
+   "alsoConsider": [
+    "Lencioni's five dysfunctions of a team, especially absence of trust and fear of conflict",
+    "Asch's conformity experiments",
+    "Lukes's three dimensions of power"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that deliberately institutionalising dissent in a board improves the quality of strategic decisions. Refer to theories of team dynamics and power in your answer.",
+    "outline": [
+     "Define groupthink and psychological safety, and explain how each affects the willingness of directors to challenge proposals.",
+     "Evaluate structured approaches to dissent, such as a designated critic, drawing on Pondy's distinction between functional and dysfunctional conflict.",
+     "Assess the limits of such approaches, including power asymmetries, ritualised challenge and mixed research evidence, and conclude with a recommendation."
+    ]
+   }
+  },
+  {
+   "id": "0bad60cf055f",
+   "title": "At RIS, Veterans and Recruiters Confront the Hiring Gap",
+   "url": "https://www.ere.net/articles/at-ris-veterans-and-recruiters-confront-the-hiring-gap",
+   "source": "TLNT",
+   "publishedAt": "2026-11-18T16:25:43Z",
+   "addedAt": "2026-11-21T06:24:25Z",
+   "basis": "full_text",
+   "takeaway": "Veteran hiring fails less through what companies say than through how recruiters read resumes, how job requirements are written and how culture treats people who do not fit the expected profile, which PWO theories of perception, person-job fit and organisational culture explain well.",
+   "summary": "The article reports a panel at the ERE Recruiting Innovation Summit in San Diego, held over Veterans Day, where two veteran leaders explained where veteran hiring breaks down. Recruiters often cannot translate military experience on resumes, job descriptions screen out capable candidates through narrow or meaningless requirements, and many veterans now hide their service. The panel urged firms to pair recruiters with veterans, to measure veteran hiring and report it to executives, and to use SkillBridge as a trial route into permanent roles. It cites a RAND finding that nearly 80% of S&P 500 companies describe a veteran programme on their websites, while veterans made up just 2.4% of new hires at S&P 500 federal contractors, below a 5.1% planning benchmark.",
+   "keyPoints": [
+    "Most organisations claim to support veteran hiring, but few know the share of new hires who are veterans, and almost none report veteran promotion or progression into management.",
+    "Military job titles and experience are read by civilian recruiters as unfamiliar, so relevant skills such as planning, logistics and security coordination go unrecognised.",
+    "Job descriptions act as an early filter: vague or narrow requirements, and clearance demands that do not match what candidates hold, exclude people who could do the job.",
+    "Pairing recruiters with veterans through resource groups or mentoring turns an unfamiliar resume line into a question rather than a rejection.",
+    "Measuring veteran hiring and presenting the data to executives is credited with raising General Atomics' veteran share of hires."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 85,
+     "reading": "The article is essentially about perception and selection: recruiters interpret military titles through the lens of their own civilian expectations, and job descriptions encode assumptions about what counts as relevant experience. It also shows a gap between espoused values (we support veterans) and organisational practice, which is a core PWO theme in culture and change. A PWO student should see the talent problem as one of individual differences, perception and organisational systems working together, not simply as a goodwill issue."
+    },
+    {
+     "id": "strategy",
+     "relevance": 35,
+     "reading": "Strategy students can read the article as a question about whether a firm's access to scarce talent is a source of advantage. Veterans with specialised skills and clearances are a limited pool, and the panel expects competition for them to intensify. The link to strategy is secondary, because the article is about recruitment practice rather than competitive positioning."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Perception: stereotyping, selective perception and the halo effect",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Perception is the process by which people select, organise and interpret information, and it is shaped by their expectations and prior experience. Stereotyping attributes traits to individuals on the basis of group membership, while selective perception attends to information that confirms existing expectations and discounts the rest. The halo effect lets one salient feature colour the whole judgement of a person.",
+     "link": "The recruiter who reads 'assistant operations officer' and sees no event management experience is applying a stereotype about what a military role means, and the one detail in the resume that does not fit is filtered out. Garner's example of a DoD SAP clearance excluding people with intelligence clearances shows selective reading of labels rather than of capability. The veteran who removes service from a resume is responding to the expectation that service will be read negatively, a pattern close to a self-fulfilling prophecy in which the candidate's own signalling shapes the outcome.",
+     "critique": "Perception theory explains individual errors well, but the article suggests the filter sits as much in the process as in the person, since job descriptions and automated screens act before a human reads the resume. Locating the problem in recruiters' perceptions risks underplaying the need to change requirements and selection systems.",
+     "practice": "A manager would train recruiters to translate military experience into competency language and would pair them with veteran colleagues to test their readings of unfamiliar titles. Shortlisting could also be structured against defined competencies so that a single unfamiliar label cannot decide the outcome."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Person-job fit",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Person-job fit is the degree of match between an individual's abilities, skills, values and needs and the demands and rewards of a job. Good fit is associated with higher performance, satisfaction and retention, and poor fit is associated with turnover. It can be assessed in terms of demands-abilities fit (can the person do the job) and needs-supplies fit (does the job meet the person's needs).",
+     "link": "Garner's point that 'corporate experience required' often means familiarity with one software product shows a demands-abilities mismatch created by the job specification rather than by the candidate. Overly narrow requirements exclude people whose abilities would fit the real demands of the role, so the measured fit is about labels rather than capability. Mulrooney's experience of planning security and evacuation routes for a presidential visit is a clear example of transferable abilities that a poorly written specification fails to capture.",
+     "critique": "Person-job fit assumes the job demands are known and accurately stated, yet the article indicates that many descriptions are inaccurate or inherited without thought. Fit approaches can also drift towards homogeneity, where candidates who look like existing staff are judged to fit, which works against the diversity the panel promoted.",
+     "practice": "A manager would rewrite requirements as outcomes and abilities, asking for each one what it means and whether it is necessary, and would remove any that cannot be justified. Skills-based assessment would then test whether candidates can do the work, rather than whether their history matches a template."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of organisational culture",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Schein describes culture at three levels: visible artefacts such as policies, buildings and job descriptions; espoused values, which are the stated beliefs and goals; and basic underlying assumptions, which are taken for granted and shape behaviour without being discussed. Tension between levels, particularly between espoused values and underlying assumptions, is a common source of change problems.",
+     "link": "The show of hands at the start of the session shows the espoused value of supporting veterans, while RAND's finding that nearly 80% of S&P 500 companies describe a veteran programme is an artefact. Low veteran share of new hires and unreported promotion rates reveal the underlying assumptions in practice, and the requirement to show civilian experience reflects an assumption that only civilian experience is valid. Veterans hiding their service is a cultural signal about what the organisation actually rewards.",
+     "critique": "Schein's model describes culture well but says little about how to change the underlying assumptions. A website programme may also be genuine progress rather than window dressing, and culture may differ across subgroups, so a single three-level diagnosis can oversimplify.",
+     "practice": "A manager would audit each level: list the programmes and job documents (artefacts), compare them with stated values, and surface the assumptions by asking recruiters what they believe veterans cannot do. Tracking hires, promotions and retention for veterans would reveal whether the assumptions have actually changed."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Resource-based view and VRIO (Barney)",
+     "unit": "",
+     "theory": "The resource-based view holds that sustained competitive advantage comes from firm resources that are valuable, rare, inimitable and organised to be exploited, which is the VRIO framework. Human capital, including specialised skills and experience, can meet these tests when it is hard for rivals to replicate. The framework asks whether a resource can be exploited through the organisation's systems, not just whether it exists.",
+     "link": "Garner expects competition for veteran talent to intensify, which suggests that veterans with specialised skills and clearances are a scarce resource. General Atomics' rise above 15% veteran hires shows an organisation exploiting this pool through measurement and executive attention. The article also suggests the advantage depends on the firm's capability to recognise the value of these candidates, which is itself an organisational resource.",
+     "critique": "VRIO assumes the resource is firm-specific, yet the article shows that veterans' skills are transferable and that rivals can copy hiring pipelines such as SkillBridge. The article does not discuss inimitability directly, so the strategic claim rests more on the firm's processes than on the talent itself.",
+     "practice": "A manager treating veteran hiring as a strategic capability would build translation processes, SkillBridge pipelines and measurement systems that are embedded in routine practice, making the capability harder to copy. Progress would be reported to executives so that the capability is maintained rather than allowed to lapse."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large engineering firm publishes a veterans programme on its website and states that it supports veteran hiring. Its recruiters find that veterans rarely reach shortlists, and its job specifications require software experience that few managers can define. Veterans who apply are increasingly leaving their service history off their resumes, and the firm does not report promotion rates for veterans.",
+    "question": "Critically evaluate why a company that publicly supports veteran hiring may still fail to recruit and progress veterans. Advise the HR director on the changes needed to close the gap.",
+    "evidence": [
+     "Nearly 80% of S&P 500 companies describe a veteran programme on their websites, yet veterans were 2.4% of new hires at S&P 500 federal contractors, under half the government's 5.1% planning benchmark.",
+     "Almost no companies report whether veterans are promoted or reach management.",
+     "Job descriptions screen out candidates through requirements such as 'corporate experience required' and clearance demands that do not match what candidates hold.",
+     "General Atomics reports more than 15% veteran hires after measuring the figure and presenting it to executives, and a SkillBridge programme gives employers three to six months to test transitioning service members."
+    ],
+    "plan": [
+     "Set out the gap between espoused values and practice using Schein's three levels of culture, identifying the artefacts, stated values and underlying assumptions.",
+     "Diagnose perception problems using stereotyping and selective perception, showing how recruiters read unfamiliar military titles and labels as lacking relevance.",
+     "Diagnose the job design and selection problem using person-job fit, distinguishing narrow or meaningless requirements from the abilities the role actually needs.",
+     "Assess the strategic stakes using the VRIO framework, arguing that specialised veteran talent is scarce and valuable if the firm has the capability to recognise and use it.",
+     "Recommend pairing recruiters with veterans, auditing and rewriting job requirements, using SkillBridge as a structured route, and measuring veteran hires and promotions reported to the board."
+    ],
+    "pitfalls": [
+     "Treating a website programme or a stated value as evidence of commitment without examining hiring outcomes, requirements and promotion data.",
+     "Blaming individual recruiters for bias while ignoring the role of job descriptions, automated screening and the absence of measurement."
+    ]
+   },
+   "alsoConsider": [
+    "Goffman's stigma and identity management, to explain why veterans conceal their service",
+    "Attribution theory (Heider; Kelley), to analyse how hiring managers explain a veteran candidate's gaps or unfamiliar exp",
+    "Lewin's force field analysis, to weigh the drivers and resistors of changing veteran hiring practice"
+   ],
+   "exam": {
+    "question": "Critically assess the view that organisations fail to attract and progress under-represented groups mainly because of individual biases, rather than because of the design of their selection systems and cultures.",
+    "outline": [
+     "Explain how perception, stereotyping and selective perception shape individual judgements in recruitment, and evaluate how far these account for the problem.",
+     "Analyse how job design, requirements and person-job fit can exclude capable candidates regardless of individual intent, drawing on the article's examples.",
+     "Evaluate the role of culture, using Schein's levels to show how espoused values can differ from underlying assumptions and measured outcomes, and conclude on which level needs the most attention."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "02b1848a5951",
+   "title": "Inventory That Keeps Your Options Open: Five Ways to Protect Service Without Committing Too Soon",
+   "url": "https://www.supplychainbrain.com/special-report/article/16425617/inventory-that-keeps-your-options-open-five-ways-to-protect-service-without-committing-too-soon",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-20T08:58:00Z",
+   "addedAt": "2026-11-21T06:24:25Z",
+   "basis": "full_text",
+   "takeaway": "Hold inventory in uncommitted, generic form where demand is uncertain, but convert it to a customer-specific form at the point the delivery promise requires, and only when the business can actually convert what it holds.",
+   "summary": "The article, a SupplyChainBrain piece with a Kinaxis sponsor section, argues that inventory should be positioned along a spectrum from ready-to-adapt (common materials and components) to ready-to-deliver (configured or finished goods), so that companies keep options open while protecting customer service. It sets out five decisions: secure long-lead or shared items early; choose the form of stock as well as its quantity; convert flexible stock to readiness before the deadline; test whether secured stock can really be converted given capacity and approved alternatives; and build planner trust in automated recommendations through explainability. The closing section reports a vendor pilot in which optimised inventory mixes resembled planners' manual choices, with a lower override rate for safety stock recommendations.",
+   "keyPoints": [
+    "The value of inventory depends on its quantity, form, location and the point at which it becomes committed to a product, market or customer.",
+    "Common components can be redirected between products, whereas finished goods allow faster delivery but are hard to repurpose if the forecast changes.",
+    "Flexibility has a deadline: planners should work back from delivery dates, allowing for configuration, testing, quality checks, transport and, in regulated sectors, approval of substitute components.",
+    "Secured stock is useful only if downstream constraints such as capacity, labour, equipment and transport allow it to be converted; a shared subassembly does not help if final assembly capacity is committed elsewhere.",
+    "Explainable recommendations let planners see the assumptions and trade-offs behind a decision, so they can challenge it rather than simply accept or reject it."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 90,
+     "reading": "This is a supply chain strategy article about where stock should sit in the chain and when it should be committed. The spectrum from ready-to-adapt to ready-to-deliver is essentially the decoupling point idea, in which upstream stock stays generic and is differentiated later as demand becomes clear. The article's tests on lead times, shared components and alternate qualification are the kind of risk and resilience analysis the module teaches. Students should read it as a worked example of postponement and resilience, not just as inventory control."
+    },
+    {
+     "id": "logops",
+     "relevance": 55,
+     "reading": "Logops covers inventory control, safety stock and the trade-off between cost and service, and the article is about the same questions from a planning angle. It asks where protective stock should be positioned in the network, not just how much to hold. Its references to conversion capacity, transport time and delivery deadlines connect to the logistics service side of the module. The article contains no formulae, so a logops answer would need to add classical calculations such as safety stock and economic order quantity."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "In People, Work and Organisations terms, the article's fifth point concerns how people work with automated systems. Planners who cannot see why a recommendation was made must reconstruct the logic, and the stated aim is to reduce repetitive checking while preserving their judgement. That is a question of job design, autonomy and meaningful work, and of how contemporary technology changes work. The connection is real but secondary to the supply chain content."
+    },
+    {
+     "id": "finance",
+     "relevance": 40,
+     "reading": "The article's central logic is that flexibility has value but that the option expires, which is a real options argument expressed in operational terms. Finance students can connect it to the value of waiting under uncertainty and to the cost of committing too early. The article gives no valuation, so the finance reading is conceptual, but it offers a useful way to frame inventory as capital allocation under uncertainty."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Postponement and the decoupling point",
+     "unit": "",
+     "theory": "Postponement delays the final configuration or differentiation of a product until customer demand is clearer, holding generic stock upstream in the meantime. The decoupling point is the stage at which a forecast-driven, make-to-stock process gives way to a demand-driven, make-to-order process. Moving the point later reduces forecast risk but usually requires faster downstream conversion.",
+     "link": "The appliance example is a textbook postponement case: the same motor and control board serve several models, so these components are secured and held in generic form while the model mix stays open. Common subassemblies are completed in advance, which places the decoupling point between subassembly and model-specific assembly, while final assembly and finishing wait for confirmed orders. The advice to work backward from delivery dates identifies the moment at which generic stock must become configured stock. The article also treats the spectrum from ready-to-adapt to ready-to-deliver as a continuum rather than a binary choice, which matches postponement thinking.",
+     "critique": "Postponement assumes that late-stage differentiation is cheap and quick, and the article's own warning about regulated substitutes shows that conversion can be slow; where it is, the saving disappears. The article also does not quantify the trade-off between the holding cost of generic stock and the lost sales from slower delivery.",
+     "practice": "A planner should map each product's bill of materials, identify components shared across products and the stage at which the models diverge, and then set the decoupling point where forecast risk outweighs delivery lead time. They should review that point as lead times and demand data change."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck describe resilience as the ability of a supply chain to withstand disruption and recover from it. It is built by identifying vulnerabilities, reducing exposure and maintaining flexibility, with buffers and alternative sources used where the risk justifies their cost.",
+     "link": "The article's first decision, securing long-lead items before demand is clear, is a buffering measure against supply risk, and its distinction between commitments that protect supply and those that narrow what inventory can serve shows how to avoid buffers that reduce flexibility. The requirement that substitutes in regulated industries be tested and approved shows that an alternative supplier or component is not a resilience measure until it is qualified. The test of whether the business can convert secured stock reflects a capacity dimension of vulnerability, since an upstream buffer is worth little if a downstream bottleneck remains. The pilot's concentration of protection in raw materials, with little in subassemblies, is a placement choice that resilience theory would want to examine.",
+     "critique": "Resilience theory tends to treat buffers as costs that must be justified by risk, and the article offers no way to price the protection it recommends, so the balance between holding stock and keeping flexibility remains a matter of judgement. It also focuses on planning and inventory and says little about supplier relationships, which determine whether alternatives are really available.",
+     "practice": "A manager should identify inputs with the longest lead times or single sources, secure those that serve several products early, and qualify at least one alternative before it is needed. They should test each buffer against downstream capacity and reassess its placement as the risk profile changes."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Real options (Myers; Trigeorgis)",
+     "unit": "",
+     "theory": "A real option is the right, but not the obligation, to take a decision about a real asset, such as deferring, expanding or abandoning an investment, once uncertainty has been resolved. Options have value because flexibility lets managers avoid bad outcomes, and that value is greatest when uncertainty is high and the decision can be deferred. The value falls as the window for exercising the option closes.",
+     "link": "The article describes inventory as a set of options: securing common components keeps the choice of final product open until demand becomes clear. Its warning that flexibility is valuable only while it preserves a viable response matches the idea that an option expires, so waiting too long destroys value. The point that finished goods may be hard to repurpose if the forecast changes is the equivalent of an irreversible commitment that removes future options. The advice to test whether the business can act on its options is a check that the option is actually exercisable, not just nominally held.",
+     "critique": "Real options analysis is usually applied to investments with observable values and explicit costs of exercise, and inventory decisions rarely have a clean market value to price. Managers can therefore use it as a framing device rather than a calculation, and the article supplies none of the numbers needed. Options logic can also encourage excessive deferral, which the article itself warns against.",
+     "practice": "A finance partner should frame the inventory decision as a choice between committing now at a known cost and holding an option at a premium, identify the date by which the option must be used, and agree a rule for when to exercise it. Holding a buffer is justified only when its premium is below the expected cost of a lost sale or a late delivery."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model (Hackman and Oldham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Hackman and Oldham propose that five core job characteristics (skill variety, task identity, task significance, autonomy and feedback) lead to experienced meaningfulness, responsibility for outcomes and knowledge of results. These psychological states, in turn, drive motivation, satisfaction and performance. The effects are stronger when employees have a high growth need.",
+     "link": "The article's fifth decision describes planners who, when a recommendation cannot be understood, must reconstruct its logic, so their work becomes checking rather than deciding. Explainability is presented as restoring their ability to challenge assumptions and compare alternatives, which maps onto autonomy and feedback, since planners can see how their choices play out. Reducing repetitive checking while keeping judgement over inventory and risk is a job redesign that gives planners more significant work. The pilot's lower override rate is a behavioural indicator, although the article does not link it to motivation or engagement.",
+     "critique": "The model is individual-level and was developed on jobs studied in the 1970s, so it does not capture how automation can shift the balance between skill and oversight. It also risks overlooking the possibility that planners become passive monitors of a system they cannot fully inspect. The article reports a vendor's pilot, so its claim that planners are more engaged is an assertion rather than a measured outcome.",
+     "practice": "A planning manager should audit which tasks are routine checks and which are genuine judgement calls, automate the former, and give planners authority over the latter together with visible feedback, such as tracking how often their overrides prove correct. They should also confirm that planners understand the logic of the tool before relying on it."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "An appliance manufacturer uses the same motor and control board across several models, and its final model mix stays uncertain until orders are confirmed. Customers expect short delivery times, and some alternative components require regulatory testing before they can be used. Its planners rely on an automated inventory tool that recommends safety stock positions, but they often cannot see why a recommendation has been made.",
+    "question": "Advise the operations director on where the manufacturer should hold its inventory, and on how planners should work with the automated recommendations. Critically evaluate your recommendations.",
+    "evidence": [
+     "The same motor and control board are used across several models, so these components can be secured while the final model mix remains undecided.",
+     "Planning should work backward from delivery dates, allowing for configuration, testing, quality checks and transport, and for qualification of alternative components in regulated industries.",
+     "A vendor-reported pilot found that the optimised inventory mix closely matched planners' manual overrides, with protection concentrated in raw materials and little allocated to subassemblies.",
+     "The vendor reports a lower override rate for safety stock recommendations in the pilot, but gives no cost or service figures."
+    ],
+    "plan": [
+     "Map the bill of materials to identify shared components and the stage at which the models diverge, then use postponement and the decoupling point to decide where generic stock should become configured stock.",
+     "Apply Christopher and Peck's resilience logic to decide which long-lead or single-source items to secure early, and qualify at least one alternative for regulated components before it is needed.",
+     "Use real options thinking to test each commitment: identify when the option to keep flexibility expires and weigh the premium of holding stock against the cost of a lost sale or late delivery.",
+     "Check that the option is exercisable by testing final assembly and transport capacity, since an upstream buffer is worthless if a downstream bottleneck is already committed to other orders.",
+     "Apply the Job Characteristics Model to the planners' role by requiring the tool to show its assumptions so that planners can challenge them, automating routine checks, and using override outcomes as feedback.",
+     "Recommend a staged policy with review points, and state the evidence gap: the pilot is vendor-reported and gives no cost data, so the manufacturer should run its own trial before scaling up."
+    ],
+    "pitfalls": [
+     "Treating the vendor pilot as independent proof that automation improves outcomes; a strong answer flags the source and the absence of cost and service data.",
+     "Recommending a larger holding of finished goods as a default safe option without discussing how it reduces flexibility and raises the risk of obsolescence if the forecast changes."
+    ]
+   },
+   "alsoConsider": [
+    "Lean, agile and leagile supply chains (Christopher; Naylor)",
+    "Goldratt's theory of constraints",
+    "Kraljic's purchasing portfolio matrix",
+    "Lee and See's model of trust in automation"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that holding inventory in a generic, uncommitted form is the most effective way for a manufacturer to protect customer service under demand uncertainty.",
+    "outline": [
+     "Define postponement and the decoupling point, and explain how the spectrum from ready-to-adapt to ready-to-deliver applies, using the shared-component example.",
+     "Assess the costs and risks of uncommitted stock, including the need for downstream conversion capacity and qualified alternatives, drawing on risk and resilience theory.",
+     "Critically evaluate the article's claims, noting its vendor source and the absence of cost or outcome data, and reach a reasoned conclusion."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "7da48694ea25",
+   "title": "Seven in ten supply chain emissions projects are profitable, finds CDP",
+   "url": "https://www.edie.net/seven-in-ten-supply-chain-emissions-projects-are-profitable-finds-cdp/",
+   "source": "edie",
+   "publishedAt": "2026-11-20T12:02:00Z",
+   "addedAt": "2026-11-21T06:24:25Z",
+   "basis": "full_text",
+   "takeaway": "Most supplier decarbonisation projects pay back, yet they stall inside buyers' organisations, so the barrier is as much about power, perception and capability as about the financial numbers.",
+   "summary": "A CDP analysis of 2025 disclosures finds that about 69% of supply chain emissions reduction initiatives are profitable, with a median return on investment of 142% and a median payback of three years. Energy efficiency measures in production perform best, with a median ROI of 264%. The article argues that boards and finance directors still treat environmental spending as a compliance cost, so viable projects remain unfunded. Only 15% of companies have set an upstream carbon target, and most sectors report only about 22% or less of their supply chain emissions. Many companies cite a lack of internal resources, capabilities and expertise as the main barrier. CDP argues that buyers can use their influence through the expectations they set, the data they request and the support they provide.",
+   "keyPoints": [
+    "About 69% of supply chain emissions reduction initiatives reported to CDP are profitable, with a median ROI of 142% and a median payback of three years.",
+    "Energy efficiency measures in production show the strongest returns, with a median ROI of 264%.",
+    "Only 15% of companies have set an upstream carbon reduction target, even though Scope 3 is described as the largest part of most footprints.",
+    "Most sectors report only about 22% or less of their supply chain emissions, partly because primary data is hard to collect and emissions factors are weak.",
+    "5,277 companies reported cutting a collective 127.6 million tonnes of CO2e through initiatives run with CDP Supply Chain members, and about 2,900 others identified a further potential reduction of 711 million tonnes."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 85,
+     "reading": "This is squarely about the environmental side of supply chains: Scope 3 emissions from suppliers, the gap in disclosure, and the case for upstream decarbonisation. The article's central claim is that supplier-side reductions are commercially viable, which matters for any strategy aimed at emissions from production, freight and warehousing. It also raises data quality, since most sectors report only a small fraction of their supply chain emissions. Students should be able to explain Scope 1, 2 and 3 and why Scope 3 is hard to measure."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 70,
+     "reading": "The article describes a buyer-supplier problem in which buyers are expected to drive supplier decarbonisation. CDP argues that buyers influence suppliers through the expectations, data requests and support they provide, which raises questions of power, supplier relationship management and whether the relationship is adversarial or collaborative. The return figures are useful evidence when negotiating who pays for abatement. The article also notes that chief procurement officers face a disconnect between the commercial case and their approved pipeline of initiatives."
+    },
+    {
+     "id": "finance",
+     "relevance": 60,
+     "reading": "The article is about returns and payback, the measures a finance director would use to judge a project. The median figures suggest that many emissions projects clear a sensible hurdle, but payback and ROI are weaker decision tools than net present value. The article gives no detail on discount rates, cash-flow timing or whether carbon-price savings are counted. Finance students should see the gap between how sustainability projects are presented and how boards appraise capital spending."
+    },
+    {
+     "id": "pwo",
+     "relevance": 55,
+     "reading": "This is about the people and politics behind an investment decision. Finance directors and procurement officers hold different frames, and the article suggests that the board's refusal to fund viable projects reflects how decision-makers perceive environmental spending, not only the economics. Buyers' ability to shape supplier behaviour is a question of power and influence, and the shortage of internal expertise is a capability problem that calls for organisational change. Students should see it as an example of how structure, culture and perception determine whether good evidence changes behaviour."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "Scope 1, 2 and 3 emissions and carbon footprinting (GHG Protocol)",
+     "unit": "",
+     "theory": "Scope 1 covers direct emissions from sources a firm owns or controls, and Scope 2 covers emissions from purchased energy. Scope 3 covers all other indirect emissions across the value chain, including suppliers' operations and the use of products. A carbon footprint sums these scopes, and the boundary determines what a company must measure and report.",
+     "link": "The article says Scope 3 typically accounts for around 80-90% of a business's total footprint and is typically 26 times greater than Scope 1 and 2 emissions, figures that do not fully reconcile with each other. Only 15% of companies have an upstream target, and most sectors report about 22% or less of their supply chain emissions. This means the largest share of emissions is also the least measured, so programmes stall before they begin. Supplier-level projects, such as energy efficiency in production, are what move the Scope 3 figure.",
+     "critique": "Scope 3 figures depend on supplier data and emissions factors that are often estimates, so a low disclosure rate may reflect weak measurement as much as inaction. Reported reductions can also be hard to verify, and the same reduction may be claimed by both buyer and supplier.",
+     "practice": "A logistics or procurement manager should first identify which Scope 3 categories matter most, then ask key suppliers for primary activity data rather than rough estimates. They should prioritise reductions where the data shows high abatement and clear returns, such as production energy efficiency."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Cox's power in buyer-supplier relationships",
+     "unit": "",
+     "theory": "Cox argues that power in buyer-supplier relationships comes from relative dependence: the party that controls resources the other values, and is less dependent on the other, holds the advantage. Buyers can use this power to shape supplier behaviour, but how they use it determines whether the relationship is adversarial or collaborative. The key task for purchasing is to manage power deliberately rather than assume the relationship is balanced.",
+     "link": "CDP says buyers have significant influence through the expectations they set, the data they request and the support they provide. Here the buyer's power is used to request emissions data and reductions, while offering support to suppliers. The article notes that thousands of suppliers already plan to act, suggesting that the buyer's position is being used to create joint action rather than to pass costs down. The request is credible because suppliers depend on large customers for orders.",
+     "critique": "Cox's approach focuses on asymmetry, whereas the article's evidence concerns returns and collaboration, which may suggest a shared interest rather than a power relationship. The figures come from companies that already engaged with CDP, so the sample may over-represent willing suppliers.",
+     "practice": "A buyer should separate demands from support, for example by offering shared data tools, and set expectations that suppliers can realistically meet. It should check whether supplier projects deliver the returns claimed, and use those returns to justify shared investment rather than simply passing on the cost."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Net present value compared with payback and return on investment",
+     "unit": "",
+     "theory": "Net present value discounts a project's future cash flows at the cost of capital, and a positive value means the project adds to the firm's worth. Payback measures how long it takes to recover the initial outlay, ignoring cash flows after that point, while ROI is a simple ratio of gain to cost that ignores timing. A sound appraisal uses NPV or IRR as the decision rule and treats payback as a supplementary test of liquidity.",
+     "link": "The article reports a median payback of three years and a median ROI of 142%, with about 69% of initiatives profitable. Payback is the measure most visible to boards, and a short payback suggests cash is returned quickly, which helps when capital is scarce. However, the article does not say whether these figures use discounted cash flows, what discount rate applies, or whether avoided carbon costs are counted. The median also hides the roughly 30% of projects that were not profitable.",
+     "critique": "Simple measures such as payback can understate long-lived efficiency investments, but they can also overstate returns if savings are not discounted. A median says little about risk or the spread of outcomes, and the results are self-reported by companies.",
+     "practice": "A finance director should ask suppliers to submit project cash flows with a clear baseline and value energy and carbon savings in an NPV at the firm's cost of capital. Payback should be a secondary test, and where NPV is positive but payback is long, the board should test sensitivity to energy prices and carbon costs."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "French and Raven's bases of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "French and Raven identify five bases of social power: legitimate, reward, coercive, expert and referent. Power is a relationship, so its effect depends on how others perceive the source and how far they depend on it. Managers who recognise which bases they hold can influence others without relying only on formal authority.",
+     "link": "CDP's argument that buyers influence suppliers through the expectations they set, the data they request and the support they offer maps onto several bases. Legitimate power comes from the formal purchasing role, reward power from supporting suppliers, and expert power from data and know-how. The article suggests that procurement's influence over suppliers does not automatically translate into authority over capital approval at board level, which is where the disconnect with the approved pipeline arises.",
+     "critique": "French and Raven treat power as something an individual holds, whereas the article's problem is structural, because budgets and approvals sit with other functions. Lukes's third dimension would add that the finance directors' framing of environmental spend as compliance cost may shape what options the board sees at all.",
+     "practice": "A chief procurement officer should build coalitions with finance by using expert power, presenting the payback and cash flows of specific supplier projects in a form the finance team can test. The approved pipeline should be used as evidence, and the case should be framed in the board's own decision criteria rather than in carbon arguments alone."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A manufacturer's procurement team has identified several supplier projects that would cut Scope 3 emissions, including energy efficiency upgrades at key suppliers. Some of these projects appear to pay back within about three years, but none has reached the board's approved investment pipeline. The finance director sees environmental spending as a compliance cost, and the company has not set an upstream carbon target.",
+    "question": "Critically evaluate why profitable supplier decarbonisation projects remain unfunded, and advise the chief procurement officer on how to secure board approval for them.",
+    "evidence": [
+     "About 69% of supply chain emissions reduction initiatives reported to CDP are profitable, with a median payback of three years and a median ROI of 142%.",
+     "Energy efficiency measures in production show a median ROI of 264%.",
+     "Only 15% of companies have set an upstream carbon reduction target, and most sectors report about 22% or less of their supply chain emissions.",
+     "Many companies cite a lack of internal resources, capabilities and expertise as the biggest barrier, and over 12,000 companies had not yet started an initiative with a CDP Supply Chain member."
+    ],
+    "plan": [
+     "Define Scope 1, 2 and 3 and show that upstream emissions are the largest share of most footprints but the least measured, citing the disclosure gap.",
+     "Diagnose the framing problem using selective perception (Unit 2): the finance director sees environmental spending as compliance cost, and the board's criteria may filter out supplier evidence.",
+     "Analyse the power structure using French and Raven and Cox: procurement holds expert and reward power over suppliers but lacks legitimate authority over capital approval.",
+     "Evaluate the financial case using NPV, IRR and payback, noting that the median figures are self-reported and recommending sensitivity tests on energy prices and carbon costs.",
+     "Identify the capability barrier using Kotter's urgency and Kotter and Schlesinger's tactics for overcoming resistance to change (Unit 8), and recommend building internal expertise.",
+     "Recommend a staged approach: fund a small set of high-return supplier projects, measure the results, and use that evidence to build the case for the wider pipeline."
+    ],
+    "pitfalls": [
+     "Treating the 69% profitability figure as a guarantee for any project, when it is a median across self-reported initiatives and roughly 30% were not profitable.",
+     "Using the 80-90% share and the 26 times multiple together as if they agree, or confusing Scope 3 with Scope 1 and 2 when describing where the emissions sit."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power (pwo, Unit 5)",
+    "Kotter and Schlesinger's strategies for resistance to change (pwo, Unit 8)",
+    "Kraljic's purchasing portfolio matrix (purchasing)",
+    "Elkington's triple bottom line (green)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that organisations fail to act on profitable sustainability projects mainly because the financial case is weak, rather than because of how power, perception and capability operate inside them.",
+    "outline": [
+     "Explain the difference between the financial case for an investment and the way decision-makers perceive and frame it, using selective perception and the bases of power.",
+     "Assess the evidence on returns critically, noting that the median figures are self-reported and that payback is a weaker decision measure than NPV.",
+     "Conclude by evaluating which barriers, whether data, capability or perception, are most amenable to organisational change and why."
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "6c37002e8873",
+   "title": "Analysis: IMO Net-Zero: now-or-never time draws near",
+   "url": "https://theloadstar.com/analysis-imo-net-zero-now-or-never-time-draws-near/",
+   "source": "The Loadstar",
+   "publishedAt": "2026-11-20T12:43:46Z",
+   "addedAt": "2026-11-21T06:24:25Z",
+   "basis": "full_text",
+   "takeaway": "The IMO Net-Zero Framework is stalled less by the carbon price itself than by unresolved rules for who controls and spends the money, and that dispute is a question of power and organisational politics as much as of environmental policy.",
+   "summary": "The article, an analysis for The Loadstar, examines the second attempt to agree a global carbon price for shipping under the IMO Net-Zero Framework. The framework was approved in April 2025 but its adoption was adjourned by a year in October, after US cabinet members threatened visa penalties, port fees and sanctions against supporters. The author argues the weak point is the money: the draft does not say whether proceeds go to an IMO fund or to governments, nor how they would be distributed, and the reward method and post-2030 price path are still unwritten. The author draws on two European precedents. The EU ETS shows that a levy's proceeds are not protected by a spending rule, since member states put only around 5% of 2024 revenues into industrial decarbonisation across all sectors. FuelEU keeps money inside shipping, but its surplus price collapsed when cheap supply appeared. The author concludes that a framework without fund rules risks becoming a global levy layered on top of regional ones, with carriers having no say over the fund, since states vote and industry only has consultative status.",
+   "keyPoints": [
+    "The draft framework was approved in April 2025 but its adoption was adjourned by a year in October, by 57 votes to 49 with 21 abstentions, after US threats of visa penalties, port fees and sanctions.",
+    "The draft does not specify whether the money sits in an IMO fund or with governments, or how it would be distributed; the reward method is due by March 2027 and the post-2030 mechanism by January 2028.",
+    "The author argues that delegates would be voting on a price signal before deciding the rules for its proceeds, which is the central weakness.",
+    "The EU ETS directive does not oblige member states to return any fixed share of revenues to shipping, and the Carbon Market Report found around 5% of 2024 revenues went to industrial decarbonisation across all sectors.",
+    "FuelEU keeps penalty money within shipping, but the OceanScore pooling price fell from €180–230 a tonne in autumn 2025 to €80.45 on 2 November as surplus outpaced demand."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 90,
+     "reading": "The article is about putting a price on greenhouse gas emissions from shipping, which is the core green logistics question of how to make the externality of emissions visible in costs. It shows that the price is only one part of the design, because the use of revenues determines whether the price changes behaviour and where the burden falls. Students of green logistics should care because the article sets out how regional schemes, a global levy and the cost of alternative fuels interact, and how a carbon-linked price can collapse when supply exceeds demand."
+    },
+    {
+     "id": "pwo",
+     "relevance": 60,
+     "reading": "Within People, Work and Organisations, the article is a study of power, politics and conflict between states, industry bodies and regulators. Decisions were postponed after threats from one state, and the carriers' influence depends on their dependence on governments that control votes and access to ports and markets. It also describes a change in regulatory regime that is being resisted by some actors, which connects to change management. Students should care because it shows how formal rules, informal pressure and the timing of decisions shape outcomes for organisations that have no vote."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "Externalities and carbon pricing",
+     "unit": "",
+     "theory": "An externality is a cost or benefit of an activity that falls on people who do not take part in the transaction, so markets tend to underprice it. Carbon pricing aims to internalise the externality by placing a charge on emissions so that polluters face the social cost of their activity. The revenue raised is a second design decision, since how it is spent affects whether the price changes behaviour and who bears its burden.",
+     "link": "The draft framework's remedial unit prices of $100 and $380 are an attempt to internalise shipping's emissions, and the article's estimate of an ETS bill of about €9bn a year at €100 a tonne shows the scale of the cost. The article's central point is that the price signal is only half the design, because the draft does not yet say whether proceeds sit in an IMO fund or with governments, or how they would be distributed. The ETS evidence that member states put around 5% of 2024 revenues into industrial decarbonisation, despite a legal requirement, shows that revenue can drift away from the activity that created the externality. FuelEU is designed differently, as penalties flow between ships so the money stays in shipping and rewards cleaner fuel, but its surplus price fell sharply when cheap supply appeared.",
+     "critique": "The theory assumes a well-set price that is credible over time, whereas the article shows that political timetables, adjournments and weak spending rules can undermine it. It also says little about leakage, such as shifts to regional schemes or routes that avoid a levy, which the article hints at through the debate over Asia-Europe network design.",
+     "practice": "A carrier or shipper applying this would model its carbon cost under several regimes at once, namely the IMO levy, the ETS and FuelEU, rather than a single price path. It would build carbon costs into pricing and contract terms, including how levies are passed on to customers. It would also track the deadlines for fund rules and the post-2030 price path, which the draft leaves open."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Organisations depend on external actors that control resources they need, and power accrues to those who control scarce and critical resources. A dependent organisation can reduce its dependence by diversifying its sources, buffering itself against shocks, or negotiating with the controlling actors. Power is therefore relational, and it depends on how critical and how concentrated the resource is.",
+     "link": "Carriers depend on states for the rules that will bind them, because states vote and industry holds consultative status without a vote, so the decisive resource is voting rights. The US exercises power through control of resources carriers need, namely port fees, visa penalties and sanctions that affect market and port access. The carriers' main argument rests on the existing EU precedents, which shows them leaning on the controllers of resources rather than building their own leverage. The adjournment by 57 votes to 49 with 21 abstentions is a visible example of dependence turned into delay.",
+     "critique": "Resource dependence explains power through control of resources but says less about the shared interests and ideologies of states, which the article suggests matter, such as the level playing field argument. It also underplays the way dependence can run both ways, since the EU's own rules create costs that give some states an interest in a global agreement.",
+     "practice": "An industry association applying this would map which states control which critical resources, such as votes, port access and market access, and then reduce its exposure by diversifying routes and lobbying through the consultative channel. It would also build coalitions with states that would lose from a fragmented regime, and make the case for written fund rules, since a rule that protects the money protects the carriers' position."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Lewin's three-step model and force field analysis",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Lewin saw change as a balance between driving forces that push towards a new state and restraining forces that resist it. Change requires unfreezing the current equilibrium, moving to a new state, and refreezing so the new behaviour is sustained. Strengthening the driving forces can provoke stronger resistance, so it is often more effective to reduce the restraining forces.",
+     "link": "The framework was approved in April 2025 but its adoption was then adjourned, so the driving forces, which include the EU's own rules, the deadlines for finishing the detail and the level playing field argument, are competing with restraining forces such as US visa penalties, port fees and sanctions. Fuel price shifts and the cost of a new charge add to the restraining side, and the article notes that negotiators are mostly officials who do not face voters, which weakens the drive to accept costs. Ministers entered the debate in October 2025 with a retaliation statement, which suggests the restraining forces strengthened as pressure rose. Lewin's logic would point to reducing the restraining forces, for example by fixing fund rules and a reward method before the vote, which the author proposes.",
+     "critique": "Force field analysis is a static snapshot and does not show the relative power of the actors behind each force. In this case the restraining forces are backed by coercive threats, which the model does not analyse, and so it may understate how hard the balance is to shift.",
+     "practice": "A negotiator applying this would list the driving and restraining forces on each side, rate their strength, and identify which restraining forces are reducible. In this case the most useful step would be to remove uncertainty about the fund and the reward method, since that addresses the concerns of carriers and some states at once. The negotiator would avoid simply pressing harder for adoption, which the adjournment shows can increase resistance."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "An industry association is preparing for a vote on a global levy on ship emissions. The draft sets unit prices for a few years, but it leaves the rules for spending the money and the post-2030 price path unwritten. Some governments have threatened retaliation, carriers hold consultative status without a vote, and regional schemes already add cost to their trade.",
+    "question": "Critically evaluate the power of the shipping industry to shape the outcome of the global levy, and advise the association on how it should use its influence before the vote.",
+    "evidence": [
+     "The draft was adjourned by a year in October, by 57 votes to 49 with 21 abstentions, after US cabinet members threatened visa penalties, port fees and sanctions.",
+     "Industry has consultative status at the IMO but no vote, and the draft does not say whether the money sits in an IMO fund or with governments.",
+     "The ETS directive does not fix any share of revenue returned to shipping, and member states put around 5% of 2024 revenues into industrial decarbonisation across all sectors.",
+     "FuelEU's OceanScore pooling price fell from €180–230 a tonne in autumn 2025 to €80.45 on 2 November as cheap surplus outpaced demand."
+    ],
+    "plan": [
+     "Map the actors and the critical resources each controls, such as votes, port access and market access, using resource dependence theory to show where the carriers are dependent.",
+     "Use Lukes's three dimensions of power to analyse the outcome: the adjournment is an example of decision-making power, the deferral of fund rules shows control of the agenda, and the reliance on the level playing field argument shows how preferences are shaped.",
+     "Apply Lewin's force field analysis to list the driving forces, such as EU rules, deadlines and the level playing field, and the restraining forces, such as retaliation threats, fuel prices and officials who do not face voters.",
+     "Evaluate the options of accepting the draft as it stands, rejecting it, or demanding written rules, weighing the risk that a global levy is layered on top of the regional ones with no say over the proceeds.",
+     "Assess the association's leverage, noting that it has no vote but can influence the states that do, and that the level playing field argument gives some states an interest in agreement.",
+     "Recommend that the association prioritise written fund rules, a reward method and a post-2030 price path agreed before the vote, and build coalitions with states that would lose from a fragmented regime."
+    ],
+    "pitfalls": [
+     "Treating the FMC's $53bn to $265bn cost estimate as reliable, when the article says it is hard to support and the method cannot be traced.",
+     "Presenting the 5% ETS spending figure as shipping-specific, when it covers all sectors, or describing power only as coercion while ignoring the consultative role and the carriers' dependence on EU rules."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Mintzberg's political games in organisations",
+    "Kotter and Schlesinger's strategies for overcoming resistance to change"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that power, rather than rational argument, determines the outcome when organisations and states negotiate rules that will bind them, using a current example from international shipping regulation.",
+    "outline": [
+     "Define power and politics in organisations, and distinguish formal authority from resource dependence and the ability to set agendas.",
+     "Analyse the example, showing how control of votes, port access and the timing of decisions shaped the adjournment and the deferral of fund rules.",
+     "Evaluate the limits of the power-based view, considering the role of shared interests, the level playing field argument and the risk that a poorly designed rule fails whoever holds power."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "ebaeee85fafd",
+   "title": "What AI regulation could learn from the most hazardous industries in the world",
+   "url": "https://theconversation.com/what-ai-regulation-could-learn-from-the-most-hazardous-industries-in-the-world-295475",
+   "source": "The Conversation",
+   "publishedAt": "2026-11-17T16:25:49Z",
+   "addedAt": "2026-11-21T06:24:25Z",
+   "basis": "full_text",
+   "takeaway": "Safety in high-hazard systems is an organisational achievement built through culture, practice and assurance, so AI governance should ask what a high-reliability organisation would look like with AI embedded in it, not only which rules to write.",
+   "summary": "Darren Jones MP has called for a multinational treaty on the safe development of superintelligence and suggested that Britain's reputation for AI safety could make it a useful partner in that work. The author, a business scholar, argues that the real question underneath is organisational: whether systems of governance can keep pace with AI whose complexity, speed and autonomy are growing faster than our capacity to understand it. Drawing on normal accident theory (Perrow), which holds that accidents in tightly interacting complex systems can arise from interactions rather than individual failure, and high reliability theory (LaPorte), which describes organisations such as nuclear plants and aircraft carriers that achieve very low failure rates, the author argues that AI safety cannot be reduced to a one-off technical test before deployment. Governments cannot inspect every model, so they need assurance: credible evidence that systems stay within defined boundaries, that risks are monitored and that someone is accountable when boundaries are breached. The article points to aviation, nuclear power and finance as examples of mature assurance, and notes that AI's assurance infrastructure remains comparatively immature. It also reports that some tech leaders and employees put the chance of AI killing all humans within a decade above 10%, which the author separates from current risks",
+   "keyPoints": [
+    "Accidents in complex, interdependent systems can come from interactions between components, so a component that meets its quality threshold does not guarantee a safe system.",
+    "Adding AI agents to complex systems increases the number of interactions, and the article reports agents behaving in ways their developers did not expect.",
+    "As systems become more autonomous, interconnected and fast, the conventional safeguard of a human correcting major errors may become harder to rely on.",
+    "High reliability organisations assume they are not yet safe, watch for weak signals, do not dismiss anomalies, learn from near misses and build redundancy such as backup systems and kill switches.",
+    "These organisations rehearse failure, follow certification and professional standards, have independent oversight and give experts authority to challenge decisions."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 80,
+     "reading": "This is an organisational behaviour question about how structure, culture and collective practice produce safety in complex, high-hazard settings. Normal accident theory treats accidents as a property of system design, which connects to Unit 6 on organisation structures and interdependence. High reliability theory is essentially a claim about culture: the shared assumptions and daily practices that keep people attentive, and the voice given to experts, which links to Unit 7 and to team psychological safety in Unit 4. A PWO student should care because the article turns a governance debate into a question about how people and structures actually behave."
+    },
+    {
+     "id": "leadership",
+     "relevance": 40,
+     "reading": "The article's concern with who is accountable when assurance fails, and its call for a professional safety culture rather than simply more rules, makes this a question of ethical and responsible leadership. Leaders of high-reliability organisations must sustain attention to small signals and empower experts to challenge decisions, which is a leadership task as much as a design one. The student should note how the article shifts attention from individual blame to the responsibility of the wider system."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of culture (Schein)",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Schein describes organisational culture at three levels: visible artefacts and practices, espoused values and beliefs, and deeper basic assumptions that members take for granted and that shape how they perceive and act. Basic assumptions are the hardest to change and the most powerful influence on behaviour. A culture is strong and consistent when the three levels reinforce one another.",
+     "link": "The article's central insight is that high reliability organisations work from the basic assumption that they are not yet safe, which is a deep, taken-for-granted belief rather than a statement on a wall. Their visible artefacts, such as rehearsing failure, operational processes, redundancy, kill switches, certification and independent oversight, are the expression of that assumption. The author's call for a professional safety culture is an appeal to change the basic assumptions of AI developers and regulators, not just to add compliance requirements. On Schein's model, rules imposed on top of an unchanged culture would produce the artefacts of safety without the attentiveness that makes them work.",
+     "critique": "Schein's model describes the culture of a single organisation and does not explain how a shared safety culture can be built across independent firms and nations, which is the article's real problem. It also gives limited guidance on how far deep assumptions can be observed or changed from outside.",
+     "practice": "A regulator or AI laboratory leader applying this would audit both the artefacts (testing, incident logs, redundancy) and the basic assumptions, for example by checking whether staff raise concerns without fear and whether near misses are treated as learning. They would build the stance of assuming the organisation is not yet safe into hiring, reward and review systems so that it becomes taken for granted rather than a box-ticking exercise."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Normal accident theory (Perrow), within systems approaches",
+     "unit": "Unit 1 Understanding behaviour in organisations",
+     "theory": "Perrow argues that systems with high interactive complexity, where components interact in unexpected or hard-to-see ways, and tight coupling, where processes are linked with little slack or time to intervene, are prone to accidents that are normal in the sense of being inherent in the design. Failures can cascade because operators cannot easily see or isolate them. The implication is that design choices, not only individual error, determine the risk.",
+     "link": "The article applies this logic to AI agents: each component may meet quality thresholds, yet the interactions between financial systems, software development tools, laboratory databases and networks of agents create risks that are hard to anticipate. The example of the Three Mile Island partial meltdown, which combined mechanical malfunction, instrument faults and human factors, illustrates how a cascade needs several small failures rather than one. The author notes that agents have behaved unexpectedly and that human correction may fail when systems are faster and more autonomous, which is Perrow's point about speed and tight coupling.",
+     "critique": "Perrow's account is largely pessimistic and gives limited practical guidance on managing risk once complexity is accepted. It also does not explain why some complex organisations, the subject of high reliability research, operate with very low failure rates. Applying it to AI is an extrapolation, since AI systems have a short record of failures to draw on.",
+     "practice": "A manager responsible for deploying AI agents would map the interdependencies between agents and the systems they touch, and identify tightly coupled processes where errors could spread faster than people can respond. They would reduce coupling by adding buffers, time for intervention and clear points where a subsystem can be isolated, and would avoid connecting agents to critical systems without a reliable means of stopping them."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological safety (Edmondson)",
+     "unit": "Unit 4 Team dynamics",
+     "theory": "Psychological safety is a shared belief within a team that it is safe to take interpersonal risks, such as admitting mistakes, asking questions or raising concerns. It enables learning behaviour and matters most where expert knowledge is distributed and hierarchy may suppress dissent. Teams with high psychological safety are more likely to surface problems early.",
+     "link": "The article notes that high reliability organisations give experts the authority to challenge decisions, do not dismiss anomalies and learn from near misses. These behaviours depend on people feeling able to speak up about weak signals, not only on formal permission to do so. In an AI development team under commercial pressure, a junior engineer who notices unexpected agent behaviour must feel able to raise it. The article's emphasis on independent oversight and challenge is the structural counterpart to that climate.",
+     "critique": "Edmondson's concept is a team-level perception, whereas the article describes formal authority and independent oversight at organisational level. Psychological safety cannot replace formal challenge routes, and a team can feel safe while sharing blind spots, which is the risk of groupthink (Janis).",
+     "practice": "A leader in an AI laboratory would set up explicit routes for raising concerns about system behaviour, respond to flagged anomalies without blame and report how many concerns led to changes. They would combine this informal climate with independent review so that challenge does not depend only on individuals feeling confident enough to speak."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Ethical and responsible leadership",
+     "unit": "",
+     "theory": "Ethical and responsible leadership concerns how leaders take responsibility for the consequences of their decisions and for the stakeholders those decisions affect. It asks leaders to build systems that make ethical conduct and accountability visible, not only to behave correctly themselves. Responsibility is shared across a chain of decision makers, so it has to be explicitly assigned.",
+     "link": "The article defines assurance partly as whether someone is accountable when boundaries are breached, and argues that governance must span organisations, governments and laboratories rather than a single firm. Leaders of frontier AI companies, who have the greatest visibility of risk, carry a responsibility that goes beyond legal compliance. The call for a professional safety culture asks those leaders to build responsibility into everyday decisions. Because governments cannot inspect every model, firms that accept assurance obligations voluntarily become part of the governance system itself.",
+     "critique": "Ethical leadership theory usually assumes identifiable individual leaders, whereas the article describes diffuse responsibility across many organisations and states, where accountability can dissolve. The theory also says little about what a leader should do when commercial incentives and safety pull in opposite directions.",
+     "practice": "A leader would define who is accountable for each assurance boundary, document who has authority to pause or stop a system, and report breaches and near misses to an independent body. This makes responsibility visible and open to testing rather than assumed."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A firm has connected several AI agents to its trading, software release and data systems, testing each agent individually before deployment. Engineers have seen agents behave in ways the developers did not expect, and operators would have little time to intervene if an error spread between systems. The board must decide whether a one-off testing regime is enough or whether a wider safety culture and independent assurance are needed.",
+    "question": "Critically evaluate whether the board should rely on normal accident theory's warning or on high reliability theory's approach when designing governance for its AI agents, and advise on the organisational changes required.",
+    "evidence": [
+     "The Three Mile Island partial meltdown resulted from a combination of mechanical malfunction, instrument faults and human factors rather than a single failure.",
+     "The article reports that AI agents have behaved in ways their developers did not expect, and that human correction may become harder as systems speed up.",
+     "High reliability organisations assume they are not yet safe, learn from near misses, build redundancy and give experts authority to challenge decisions.",
+     "Aviation has engineering standards, certification regimes, independent inspection, incident reporting and regulatory oversight, which the article presents as a model for assurance."
+    ],
+    "plan": [
+     "Diagnose the system using normal accident theory (Perrow): map interactive complexity and tight coupling among the agents and the systems they touch, and identify where errors could cascade faster than people can respond.",
+     "Explain why passing individual component tests does not establish system safety, drawing on the article's point that interactions drive risk.",
+     "Apply Schein's levels of culture to test whether the firm's artefacts, such as testing and logs, are backed by a basic assumption that it is not yet safe.",
+     "Use psychological safety (Edmondson) and high reliability practices to design routes for experts to challenge decisions and for near misses to be reported without blame.",
+     "Apply ethical and responsible leadership to assign accountability for each assurance boundary, with clear authority to stop systems and independent review.",
+     "Recommend a combined package: reduce coupling and add redundancy in the system design, change the culture, and secure external assurance, weighing the trade-off with speed and cost."
+    ],
+    "pitfalls": [
+     "Treating normal accident theory as a counsel of despair; a strong answer shows how high reliability theory offers ways of managing the same complexity.",
+     "Arguing that culture alone will ensure safety while ignoring structure, testing and accountability, or the reverse, assuming that new rules are sufficient."
+    ]
+   },
+   "alsoConsider": [
+    "Groupthink (Janis)",
+    "Lukes's three dimensions of power",
+    "Burns and Stalker's mechanistic and organic organisations"
+   ],
+   "exam": {
+    "question": "To what extent can organisational culture and everyday practice, rather than external regulation, make complex high-hazard systems safe? Discuss with reference to normal accident theory and high reliability theory.",
+    "outline": [
+     "Explain normal accident theory and why interaction, complexity and tight coupling make accidents hard to prevent through control of individual components.",
+     "Explain high reliability theory and the cultural and structural practices that lower failure rates, linking them to a theory of organisational culture such as Schein's.",
+     "Evaluate the limits of both, including whether regulation and assurance can substitute for an internalised safety culture, and reach a reasoned judgement."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "a25d28809c2c",
+   "title": "Global Unions Target Amazon’s Poor Labor History",
+   "url": "https://www.supplychainbrain.com/general-scm/hr-labor-management/article/16542232/global-unions-target-amazons-poor-labor-history",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-20T09:38:00Z",
+   "addedAt": "2026-11-21T06:24:25Z",
+   "basis": "full_text",
+   "takeaway": "A dispute over union recognition becomes a question about who holds power in a procurement relationship, and whether governments can use their buying power to enforce workers' rights.",
+   "summary": "More than thirty union leaders from nineteen countries have written an open letter urging governments to stop awarding public contracts to Amazon and Amazon Web Services. They argue that Amazon's record on workers' fundamental rights, including its handling of union organising, collective bargaining and retaliation against staff, is incompatible with democratic values. They want governments to review existing contracts and to make respect for workers' rights a mandatory condition of eligibility in public procurement. The allegations are the unions' own claims, and the article reports them without independent verification or any response from Amazon.",
+   "keyPoints": [
+    "Union leaders from 19 countries, including the US Teamsters, signed an open letter published on 19 November.",
+    "The letter says Amazon's conduct is inconsistent with shared democratic values and should disqualify it from public contracts.",
+    "Allegations include refusal to recognise lawfully formed unions, rejection of collective bargaining despite more than a decade of strikes in Germany, closure of Quebec operations after workers organised, and retaliation against Australian workers who raised grievances.",
+    "The letter also says Amazon has challenged the constitutionality of labour law in the United States and Canada to avoid collective bargaining.",
+    "Governments are asked to review all contracts with Amazon and to reform procurement rules so that respect for workers' fundamental rights becomes a mandatory eligibility condition."
+   ],
+   "modules": [
+    {
+     "id": "purchasing",
+     "relevance": 75,
+     "reading": "The article concerns the ethics of buying: governments are the customer, and the question is whether respect for workers' rights should be a supplier selection criterion alongside price, capability and reliability. It also describes a buyer heavily dependent on one supplier for cloud services underpinning public infrastructure, which shapes who holds bargaining power in the relationship. Students of purchasing should see the letter as a call to widen supplier evaluation beyond cost and service to social and ethical criteria."
+    },
+    {
+     "id": "pwo",
+     "relevance": 70,
+     "reading": "This is an employment relations dispute at its core: unions contest managerial control over whether and how workers organise, and they are trying to move the conflict into the arena of public procurement. Collective bargaining and union recognition are channels through which workers exercise power, and the alleged refusals show a management that treats union voice as illegitimate. Students should note that the article presents one side's allegations, which makes it useful for analysing how power is contested through external levers such as government contracts."
+    },
+    {
+     "id": "scm",
+     "relevance": 35,
+     "reading": "The letter warns that dependence on a single major provider for critical public systems creates risks for public services. In supply chain terms this is concentration or single-source exposure, which affects resilience. The article does not describe any operational disruption to public services, so the link is secondary and rests on the letter's own warning."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "purchasing",
+     "concept": "Power in buyer-supplier relationships (Cox)",
+     "unit": "",
+     "theory": "Cox argues that power in a buyer-supplier relationship depends on the relative dependence of each party, which is shaped by the structure of the supply market and the costs of switching. The party that is more dependent on the other has less power, whatever the formal contract says. Buyers can change the balance by reducing their dependence, for example by developing alternative sources.",
+     "link": "The governments in the letter depend on AWS for cloud computing that underpins critical public infrastructure, and the letter describes this dependence as growing. On Cox's logic, this dependence gives Amazon leverage over the buyer, which helps explain why contracts continue to be awarded despite the record described. The unions are trying to shift the balance by changing the buyer's criteria and encouraging it to reduce its reliance, which is the lever Cox says buyers hold. The article's observation that governments keep awarding billions despite these concerns fits the view that dependence can override stated values.",
+     "critique": "Cox's framework is largely descriptive and concentrates on commercial dependence, so it says little about democratic accountability or political constraints. Governments may be locked into proprietary cloud platforms for reasons of security and cost that the framework does not weigh. The article gives the unions' reading of the dependence, and no government view is reported.",
+     "practice": "A public procurement manager applying Cox would first map the department's dependence on the supplier, including switching costs and the availability of alternative providers. They would then decide whether workers' rights should be a pass-or-fail criterion in tender documents, and draw up a plan to reduce lock-in, such as multi-supplier arrangements and contractual exit provisions."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Frames of reference: unitarist, pluralist and radical perspectives on conflict (Fox)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Alan Fox distinguished three ways of seeing employment relations. Unitarism treats the organisation as a single team with shared goals, so trade unions are seen as an unnecessary intrusion. Pluralism sees the organisation as a coalition of groups with legitimate but different interests, so conflict is normal and unions are a legitimate route to bargaining. The radical view sees conflict as built into the unequal relationship between capital and labour.",
+     "link": "Amazon's alleged refusal to recognise certified unions, its rejection of collective bargaining and its closure of the Quebec operations after organising are consistent with a unitarist stance in which union organising is treated as disloyal to the team. The unions' demands for recognised bargaining and protection against retaliation reflect a pluralist view that workers' interests are legitimate and need institutional channels. Their appeal to democratic values and to public purchasers also shows them seeking allies beyond the employment relationship, which a pluralist would read as normal interest-group activity and a radical as an attempt to reshape power more widely.",
+     "critique": "Fox's categories are ideal types, and real organisations often combine them, so a company may use pluralist language publicly while acting in a unitarist way. The article gives only the unions' account, and the company's position is not reported, so the classification depends on allegations. A radical reading could be argued, but the letter does not frame the issue in those terms.",
+     "practice": "A manager working within a pluralist frame would negotiate with recognised unions, share relevant information and treat disputes as matters for bargaining rather than contesting certification in the courts. Where the organisation's stance is closer to unitarist, managers should examine whether their communication and HR practices are perceived by staff as excluding collective voice, since that perception tends to fuel the conflict described."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on external actors for critical resources, and that those who control scarce and important resources hold power over those who need them. Power therefore lies in the structure of dependence as well as in formal authority. Organisations try to reduce their own dependence and increase the dependence of others, for example through diversification, long-term contracts or lobbying.",
+     "link": "Amazon supplies cloud computing that the letter says underpins critical public infrastructure, while governments depend on it, so the provider holds leverage. The article also implies that Amazon depends on public contract revenue, since governments continue to award it billions. This two-way dependence is what the unions are exploiting: by asking governments to review contracts and change procurement rules, they aim to make the public buyer, which controls a resource Amazon needs, use its own power over the supplier.",
+     "critique": "Resource dependence explains power through control of resources but says little about legitimacy or values, and the letter's argument is ethical as much as strategic. The theory cannot tell us whether dependence should be used to enforce rights. It also assumes that organisations act rationally to manage dependence, whereas the article suggests governments may not be using their leverage at all.",
+     "practice": "A government buyer should map both its own dependence on the supplier and the supplier's dependence on public contracts. It should then identify which forms of leverage are legitimate to use and set specific conditions, such as compliance with recognised labour standards, rather than relying on general statements of principle."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chains are increasingly exposed to disruption because of complexity, dependence on a small number of sources and lean practices that leave little slack. Resilience requires identifying vulnerabilities, reducing single points of failure and building the capacity to recover quickly. Risk should be managed across the whole network rather than only at the level of individual suppliers.",
+     "link": "The letter warns that depending on one provider for cloud services underpinning critical public infrastructure creates unnecessary risks for public services. Its concern is a concentration risk: if the provider's operations are disrupted, the services it supports are affected. The strikes in Germany and the closure of the Quebec operations described in the article show that labour disputes can interrupt a provider's operations, which means labour relations are themselves a supply risk that buyers should monitor.",
+     "critique": "The article does not describe any disruption to public systems, so the risk is asserted rather than evidenced. Christopher and Peck's framework focuses mainly on physical and operational disruption and says less about the democratic and reputational risks the letter emphasises. Dual sourcing adds cost and complexity, which buyers must weigh against the resilience gained.",
+     "practice": "A public sector supply chain manager should map which services depend on a single cloud provider and assess the impact of a disruption to each. They should then consider multi-provider or exit arrangements for the most critical systems, and treat labour-relations risk as part of the supplier risk assessment."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national government's digital services agency is renewing a large cloud computing contract that supports critical public services. The incumbent supplier is the subject of an open letter from union leaders in nineteen countries alleging refusal to recognise certified unions, retaliation against workers who raised concerns, and the closure of a site after workers organised. The agency's tender criteria currently score bids on price, technical capability and security, and make no reference to workers' rights.",
+    "question": "Advise the agency's board on whether the contract should be renewed and how workers' fundamental rights should be treated in public procurement criteria. Critically evaluate the power relationship between the agency and the supplier in reaching that advice.",
+    "evidence": [
+     "The letter, from more than thirty union leaders in nineteen countries, was published on 19 November.",
+     "The unions allege refusal to recognise lawfully certified unions in the United States, and a challenge to labour law in the United States and Canada.",
+     "The unions allege that Amazon shut down its Quebec operations after workers organised, putting thousands out of work.",
+     "The letter notes that governments continue to award billions in public contracts for cloud computing underpinning critical public infrastructure."
+    ],
+    "plan": [
+     "Set out the situation using Fox's frames of reference, identifying whether the supplier's approach is unitarist, pluralist or mixed, and state clearly that the evidence consists of the unions' allegations.",
+     "Analyse the power relationship using Cox, mapping the agency's dependence on the supplier, the switching costs involved and the supplier's dependence on public contract revenue.",
+     "Apply resource dependence theory (Pfeffer and Salancik) to show where leverage lies on both sides and whether the agency is using the leverage it has.",
+     "Assess supply risk using Christopher and Peck, considering single-provider concentration and the effect of labour disputes on service continuity.",
+     "Weigh the options (renew unchanged, renew with workers' rights conditions, re-tender with social criteria, or a phased exit) against legitimacy, cost and resilience, using Mendelow's power-interest matrix to identify stakeholders such as unions, staff and ministers.",
+     "Recommend a course of action, for example renewal only on verifiable conditions such as recognised bargaining and labour standards, with steps to reduce dependence over time and a fixed review date."
+    ],
+    "pitfalls": [
+     "Treating the union allegations as established facts rather than as claims the company may contest.",
+     "Recommending immediate exit without assessing switching costs and service continuity, or ignoring that the letter itself asks for contract reviews and rule reform rather than outright cancellation."
+    ]
+   },
+   "alsoConsider": [
+    "Kraljic's purchasing portfolio matrix",
+    "Mendelow's power-interest matrix",
+    "Lukes's three dimensions of power",
+    "Ethical and responsible leadership"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that public procurement is an effective lever for enforcing workers' rights in multinational organisations, drawing on theories of power and conflict in employment relations.",
+    "outline": [
+     "Define power and conflict using Fox's frames of reference and Pfeffer and Salancik's resource dependence theory, and identify whether the case is best read as unitarist, pluralist or radical.",
+     "Evaluate procurement as a lever using Cox's account of buyer-supplier power, noting the buyer's dependence on the supplier and the leverage this gives the unions to exploit.",
+     "Assess the limits of the approach, including the gap between allegations and evidence, the tension between legitimacy and commercial logic, and the risk of unintended disruption to public services."
+    ]
+   },
+   "readingMinutes": 2
+  },
+  {
+   "id": "2235fac887d9",
+   "title": "Career development is the top reason people apply for and leave jobs",
+   "url": "https://www.hrdive.com/news/career-development-top-reason-people-apply-for-and-leave-jobs/875351/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-20T21:08:00Z",
+   "addedAt": "2026-11-21T06:24:25Z",
+   "basis": "abstract",
+   "takeaway": "The abstract reports that new hires and departing staff both point to career growth as a widespread priority, which matters for motivation and retention in PWO. It gives no figures or method, so the headline claim that career development is the top reason people apply and leave cannot be verified from this text.",
+   "summary": "Studies from McLean & Co. found that feedback from new employees matched the responses of workers who were leaving, and that both groups treated career growth as a widespread priority. The abstract does not report sample sizes, survey methods or how career growth ranked against other reasons, so the headline's claim that it is the top reason is not supported by the text we have. Read it as evidence that career development matters to people at both ends of the employment relationship, not as proof of its rank.",
+   "keyPoints": [
+    "Feedback from new employees matched responses from departing workers.",
+    "Career growth is presented as a widespread priority across these groups.",
+    "The abstract gives no sample size, method or ranking against other reasons, so 'top reason' is not confirmed here.",
+    "Career development appears to relate to both attracting people and keeping them, which makes it relevant to recruitment and retention."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 78,
+     "reading": "In PWO terms, this is about what motivates people to join and stay in an organisation, and the link between individual needs for growth and organisational retention. Career development can be read as a motivator that affects engagement and attachment, and the fact that the same concern appears in both arriving and leaving employees suggests it shapes the employment relationship as a whole. A student should care because it lets them test motivation theories against evidence from real workforce feedback, while noticing the limits of a short abstract."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Herzberg's two-factor theory",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Herzberg proposed that hygiene factors, such as pay, working conditions and supervision, prevent dissatisfaction but do not create satisfaction on their own. Motivators, such as achievement, recognition, the work itself and advancement, are what produce satisfaction and effort. Remove the hygiene factors and people become dissatisfied, while improving motivators is what builds commitment.",
+     "link": "Career growth is a classic motivator in Herzberg's terms because it concerns advancement and the development of the individual rather than pay or conditions. The abstract's finding that it features in both the reasons people apply and the reasons they leave fits the idea that growth opportunities matter to satisfaction and commitment. However, Herzberg would predict that motivators raise satisfaction rather than directly driving people out, so the leaving data needs a further explanation that his model does not supply on its own.",
+     "critique": "Herzberg's theory rests on a small original sample of professional workers and on critical incident reporting, and later researchers found the separation of factors is sensitive to method. The abstract does not show whether employees perceived growth as missing or simply wanted more of it, which the theory cannot easily distinguish.",
+     "practice": "A manager applying Herzberg would check that development is built into jobs through stretch assignments, recognition and clear advancement routes, rather than relying on pay alone. They would also treat the absence of visible growth as a possible source of dissatisfaction that can drive exits. Exit interviews and onboarding surveys would be used to test whether growth is a motivator or a hygiene concern for their own staff."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "The psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of unwritten beliefs an employee holds about the mutual obligations between themselves and their employer, going beyond the formal written terms. When employees believe the employer has failed to deliver on these expectations, they experience breach, which lowers trust, engagement and commitment and can lead to exit. The contract is perceptual, so it depends on what each party understood, not only on what was stated.",
+     "link": "The abstract suggests that new employees and leavers share an expectation that careers will develop, and that this expectation is widely held. New starters bring that expectation in at the point of hire, and leavers may be reporting its breach over time, which is the pattern Rousseau's model would predict. The alignment between the two groups is consistent with a shared, unwritten understanding about development rather than an idiosyncratic preference.",
+     "critique": "The psychological contract is hard to measure because it is perceptual and can differ between employee and employer, and the abstract does not reveal whether development was actually promised or merely assumed. Attributing exit to breach may also overlook pay, workload or personal circumstances that the text does not address.",
+     "practice": "A manager applying this model would make development commitments explicit during recruitment and onboarding, so that expectations are aligned from the start. They would track whether promised development happens, discuss progress in regular reviews, and use stay interviews to catch any perceived breach early."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Expectancy theory (Vroom)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Vroom's expectancy theory holds that motivation equals expectancy multiplied by instrumentality multiplied by valence. Expectancy is the belief that effort will produce performance, instrumentality is the belief that performance will bring a reward, and valence is how much the individual values that reward. If any one element is near zero, motivation falls, whatever the others are.",
+     "link": "Career growth has high valence for many employees, as the abstract indicates it is a widespread priority. Whether it motivates them depends on whether they believe their effort will lead to development and promotion, which is the instrumentality link. An employee who sees growth as unlikely in their organisation could reasonably decide to apply elsewhere or leave, which is consistent with the pattern described.",
+     "critique": "The model assumes people calculate outcomes rationally, and it is difficult to measure its three components in practice. The abstract does not say whether the perceived obstacle is lack of opportunity, lack of transparency or lack of trust in the process, so the theory cannot identify which element is failing.",
+     "practice": "A manager would make the link between effort and progression visible by publishing clear promotion criteria and development pathways, which strengthens instrumentality. They would also ask staff what development they value, to ensure the rewards on offer match their valence. Regular conversations would then check whether employees believe their efforts will lead to growth."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A company in this position receives feedback from new hires and from people leaving the organisation, and both groups stress career growth as a priority. The HR director must decide whether to respond with changes to development, pay or recruitment, and has limited resources for a single programme. The board wants a recommendation that will reduce turnover without weakening performance.",
+    "question": "Critically evaluate whether career development should be the main lever for reducing turnover, using theories of motivation and the psychological contract to support your answer.",
+    "evidence": [
+     "Feedback from new employees aligned with responses from departing workers, according to studies from McLean & Co.",
+     "The studies indicate that career growth is a widespread priority, not one held by a minority of staff.",
+     "The reported finding concerns both attraction (applying for jobs) and retention (leaving jobs)."
+    ],
+    "plan": [
+     "Define the problem: turnover linked to a shared expectation of career growth, with the abstract's evidence stated accurately and its limits acknowledged.",
+     "Apply Herzberg's two-factor theory to classify career growth as a motivator and explain why its absence may drive dissatisfaction even when pay is adequate.",
+     "Apply the psychological contract (Rousseau) to show how unmet expectations of development can be experienced as breach, and why new hires and leavers may share this view.",
+     "Use expectancy theory (Vroom) to assess whether employees believe effort leads to growth, and identify which element of motivation is most likely to be failing.",
+     "Critically evaluate the claim that development is the main lever, noting that the abstract gives no ranking and that pay, workload and management quality may also matter.",
+     "Recommend a targeted package: explicit development commitments at hire, transparent progression routes, and stay and exit interviews to test the diagnosis."
+    ],
+    "pitfalls": [
+     "Stating that the research proves career development is the top reason people leave, when the abstract only reports it as a widespread priority with no ranking.",
+     "Treating the findings as generalisable to all sectors or countries without evidence, since the abstract gives no details on the sample."
+    ]
+   },
+   "alsoConsider": [
+    "Maslow's hierarchy of needs",
+    "Alderfer's ERG theory",
+    "The Job Characteristics Model (Hackman and Oldham)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that career development is the main reason people apply for and leave jobs. Discuss the implications for managers seeking to improve retention.",
+    "outline": [
+     "Explain the motivational role of career growth using Herzberg's two-factor theory or Vroom's expectancy theory, and say how it would affect applying and leaving.",
+     "Discuss the psychological contract as a way of understanding why new hires and leavers share expectations about development, and how breach may lead to exit.",
+     "Critically evaluate the strength of the evidence, noting the absence of a ranking or method in the abstract, and recommend managerial actions with their limitations."
+    ]
+   }
+  },
+  {
+   "id": "8f41770791ff",
+   "title": "Executives get more AI training than other workers, hurting adoption, report finds",
+   "url": "https://www.hrdive.com/news/executives-get-more-ai-training-than-other-workers-hurting-adoption/875395/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-20T21:07:00Z",
+   "addedAt": "2026-11-21T06:24:25Z",
+   "basis": "abstract",
+   "takeaway": "Training concentrated at the top of an organisation can leave the people who must use new tools unprepared, so an AI transformation may stall. The abstract presents this disparity as a possible explanation, not a demonstrated cause.",
+   "summary": "According to the publisher's abstract of a Marsh report, executives receive more AI training than other workers, and researchers at Marsh suggest this gap may help explain why some employers describe their transformation as stalled. The abstract is very brief and gives no figures, sample, method or detail on how the training is delivered, so the strength of the link between unequal training and slower adoption cannot be judged from it alone.",
+   "keyPoints": [
+    "Executives receive more AI training than other employees, according to the report's headline finding.",
+    "Researchers at Marsh suggest this disparity may explain the stalled transformation that some employers report.",
+    "The article connects unequal training with slower AI adoption, but the abstract frames this as a possibility rather than a proven cause.",
+    "The abstract gives no numbers, sample or methodology, so the size and direction of any effect are unknown."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 78,
+     "reading": "This is a change and people question: whether an organisation can transform depends on whether the people who must adopt a new technology understand it and can use it. If those who decide about AI are better prepared than those who apply it, organisation theory would expect resistance, uneven adoption or stalled change. A PWO student should care because it turns an apparently technical problem into one about knowledge, ability and how change is designed and resourced."
+    },
+    {
+     "id": "leadership",
+     "relevance": 55,
+     "reading": "The leadership lens asks who receives development and what happens to that learning afterwards. If leaders are the group being trained, the question is whether they pass on their understanding and share responsibility for change, or keep it at the top. This bears on developing leaders and leading change, since leadership development that stops at senior level may leave a change without the distributed leadership it needs."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Kotter and Schlesinger's strategies for overcoming resistance to change",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Kotter and Schlesinger identified six approaches to dealing with resistance to change, including education and communication, participation and involvement, and coercion. Education and communication is recommended where resistance comes from lack of information or understanding. The choice of approach should match the source of the resistance.",
+     "link": "The abstract suggests that AI adoption has stalled and that executives have had more training than other workers. If the wider workforce lacks the knowledge to use AI tools, their hesitation is a reasonable response to missing information rather than unwillingness. Kotter and Schlesinger would point to education and communication as the first remedy, and the training gap described in the abstract suggests this remedy has been applied unevenly.",
+     "critique": "The model assumes resistance is a problem to be overcome, whereas staff may have legitimate concerns about job security, quality or ethics that training alone will not address. The abstract does not show that lack of training is the main cause of the stall.",
+     "practice": "A manager applying this theory would first find out whether non-executives are holding back because they lack knowledge or for other reasons. Where knowledge is the barrier, the manager should extend training to all levels and pair it with two-way communication so staff can raise concerns about the tools."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Kotter's eight-step model of change",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Kotter's eight-step model sets out a sequence for transformational change: create urgency, build a guiding coalition, develop a vision, communicate it, empower broad-based action, generate short-term wins, consolidate gains and anchor the changes in culture. The model argues that many change efforts fail because one of these steps is skipped or handled poorly. Step five, empowering broad-based action, requires that people across the organisation have the means to act.",
+     "link": "A coalition formed only from executives, who have had the most AI training, fits the early steps of Kotter's model but leaves step five incomplete. The abstract's description of a stalled transformation matches the failure Kotter warns of when those with power and knowledge are not matched by people able to act across the organisation. Extending training would address the empowerment step directly.",
+     "critique": "Kotter's model is a sequence of steps drawn largely from practitioner experience and case examples, and its claims are not strongly tested. Real change is often iterative and messy, so the linear order may not match what happens in practice.",
+     "practice": "A manager using this model would widen the guiding coalition to include line managers and frontline staff who will use the tools, and would set short-term wins that show the benefit of adoption at team level. Training should be designed to enable action, not only understanding."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Distributed leadership and followership",
+     "unit": "",
+     "theory": "Distributed leadership holds that leadership is spread across an organisation rather than held by a single leader or a small senior group, with influence flowing through many people. Followership theory treats the people being led as active contributors whose engagement shapes whether leadership succeeds. Both approaches suggest that leadership capability must be developed well beyond the top team.",
+     "link": "The abstract points to a gap in who receives AI training, with executives ahead of other workers. Under a distributed view, the transformation needs leadership at every level to champion and apply the tools, so the gap restricts the capacity for leadership across the business. Stalled adoption can then be read as a shortage of distributed leadership rather than a failure of senior intent.",
+     "critique": "Distributed leadership is sometimes used as a broad concept with unclear boundaries, and it can obscure formal authority and accountability. The abstract does not say how training is actually organised, so it is unclear whether the gap reflects deliberate choices or simply uneven access.",
+     "practice": "A leader applying this approach would identify informal leaders in each team, give them AI training and a role in showing colleagues how to use the tools, and create channels for frontline staff to feed back on what works. Development should be measured by how far capability spreads, not only by how many senior leaders complete courses."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A company has introduced AI tools as part of a wider transformation programme. Its executives have received more AI training than other employees, and leaders report that adoption across the business has stalled. The board wants to understand why the programme is not delivering and what should be done.",
+    "question": "Advise the board on why the AI transformation has stalled and recommend how to restart it, drawing on theories of organisational change and leadership.",
+    "evidence": [
+     "Executives get more AI training than other workers, according to the report.",
+     "Researchers at Marsh suggest the disparity may explain a stalled transformation within some enterprises.",
+     "The report links the unequal training to lower AI adoption, though the abstract does not give figures.",
+     "The abstract describes the stalled transformation as something some employers see, not as a measured result across the market."
+    ],
+    "plan": [
+     "Define the problem: a gap between executive and staff AI training is associated with stalled adoption, and the link should be presented as plausible rather than proven. Use Lewin's force field idea to set driving forces (executive mandate and investment) against restraining forces (lack of skills and understanding).",
+     "Apply Kotter and Schlesinger's resistance strategies to show that where resistance stems from lack of knowledge, education and communication are the appropriate response, and identify whether that is the source here.",
+     "Apply Kotter's eight-step model to show that a guiding coalition limited to executives leaves the step of empowering broad-based action incomplete, and explain why this could stall the change.",
+     "Apply distributed leadership and followership to argue that line managers and frontline staff need development so that leadership and adoption spread through the organisation.",
+     "Recommend an equitable AI training plan that starts with a skills needs assessment at every level, creates short-term wins at team level and tracks adoption by team, ending with a clear recommendation to the board."
+    ],
+    "pitfalls": [
+     "Stating that unequal training has caused the stall, when the abstract only says the disparity may explain it.",
+     "Recommending training for everyone without first diagnosing whether lack of knowledge is actually the barrier, and ignoring other causes such as incentives, job security or the design of the tools."
+    ]
+   },
+   "alsoConsider": [
+    "Bridges's transition model",
+    "Schein's three levels of culture",
+    "Edmondson's psychological safety",
+    "Lewin's three-step model and force field analysis"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that leadership development focused on senior managers is a major obstacle to successful organisational change, drawing on theories of change management and distributed leadership.",
+    "outline": [
+     "Define the problem of unequal development and explain how Kotter and Schlesinger and Lewin's force field analysis account for resistance and stalled change.",
+     "Evaluate the mechanism by which senior-focused development could hold back change, using distributed leadership and followership, and note the limits of the evidence available in the abstract.",
+     "Conclude with a balanced judgement on the causal claim and practical recommendations for spreading capability across the organisation."
+    ]
+   }
+  },
+  {
+   "id": "1ec716b6a0cb",
+   "title": "How to tackle employee pay cynicism",
+   "url": "https://www.hrdive.com/news/how-to-tackle-employee-pay-cynicism/875126/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-19T16:26:00Z",
+   "addedAt": "2026-11-21T06:24:25Z",
+   "basis": "abstract",
+   "takeaway": "Pay cynicism is a motivation and attitude problem at work, and this brief abstract suggests that clear, credible communication about pay may help, but only where the employer has a sound rationale to explain.",
+   "summary": "The publisher's abstract, which is all that is available, says that enhanced transparency is part of the answer to employee pay cynicism, but only where the employer has a good story to tell. The point is attributed to a global rewards solution leader. The abstract gives no survey data, no examples and no detail on what transparency involves, so the note works from that single claim and the theory that bears on it.",
+   "keyPoints": [
+    "The abstract presents pay cynicism as a problem employers need to tackle.",
+    "Enhanced transparency about pay is offered as part of the solution.",
+    "The benefit depends on the employer having a good story to tell, so openness alone is not presented as sufficient.",
+    "The source is a rewards practitioner, so the view reflects an industry perspective rather than independent research.",
+    "The abstract does not say what transparency should cover, how employees respond to it, or what happens when the story is not a good one."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 72,
+     "reading": "In People, Work and Organisations terms, pay cynicism is an attitude: employees have come to believe that pay is unfair, arbitrary or misrepresented, and this shapes their motivation and engagement. The abstract's remedy, transparency, works by changing what employees know and therefore how they compare themselves with others and judge the employer's promises. A student of this module should care because the article links pay, which is often treated as a simple incentive, to perceptions of fairness, trust and the psychological contract."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Equity theory (Adams)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Equity theory holds that people judge fairness by comparing the ratio of their inputs, such as effort and skill, to their outcomes, such as pay and recognition, with those of relevant others. Perceived inequity creates tension, and people try to restore balance by changing their inputs, seeking different outcomes, altering their comparison, or leaving.",
+     "link": "The abstract treats pay cynicism as the problem and transparency as the response, which fits equity theory closely. Cynicism can be read as a belief that the ratio is unfair, and transparency alters the information people use for comparison. The qualifier about a good story implies that employees will test whether published pay decisions are justifiable against their own inputs. Where the story holds up, the perceived inequity may fall; where it does not, the comparison may simply become more visible.",
+     "critique": "Equity theory assumes people judge fairness accurately and that the relevant comparison is clear, but transparency can reveal differences that employees see as unfair even when the employer considers them justified. The abstract does not show whether employees accept the employer's rationale.",
+     "practice": "A manager applying this theory should publish the criteria used for pay decisions, explain how roles and performance are graded, and make the reasoning for differences visible. The manager should also check whether employees consider the comparison groups the employer has chosen to be the relevant ones."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Two-factor theory (Herzberg)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Herzberg argued that hygiene factors, including pay, working conditions and company policy, prevent dissatisfaction when adequate but do not motivate when improved. Motivators, including achievement, recognition, responsibility and the work itself, are what create satisfaction and effort. Poor hygiene factors cause dissatisfaction, which can spread into cynicism.",
+     "link": "The abstract's focus on pay cynicism, rather than on pay motivating people, fits Herzberg's distinction. Transparency is presented as a way to address the concern, which corresponds to removing a source of dissatisfaction. Its conditional nature, a good story to tell, suggests the employer must give a credible explanation for pay outcomes, which is an example of managing a hygiene factor. The article does not suggest that transparency will create engagement by itself.",
+     "critique": "The two-factor theory has been criticised for relying on self-reported data, for treating pay as purely a hygiene factor when it can motivate some people, and for ignoring individual differences. The distinction is therefore contested and should not be presented as settled.",
+     "practice": "A manager should treat transparency as a way of reducing dissatisfaction and should not expect it to raise motivation on its own. Alongside clear pay communication, the manager should invest in motivators such as meaningful work, recognition and development."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of unwritten beliefs held by employees and employers about mutual obligations, such as effort in exchange for fair pay and career prospects. A perceived breach occurs when one party is seen to have failed to deliver what it implied it would, and this can produce distrust and withdrawal.",
+     "link": "Pay cynicism can be understood as a belief that the employer is not honouring implicit promises about fair reward. The abstract's emphasis on transparency suggests that clarity about what the employer offers and why can reshape those expectations. The condition of having a good story to tell implies that the employer must be able to show that it is meeting its side of the contract.",
+     "critique": "The psychological contract is a perception that is difficult to observe and measure, and the abstract does not indicate whether employees hold these expectations or how they are formed. Transparency may also expose a breach more clearly, which could increase cynicism rather than reduce it.",
+     "practice": "A manager should identify what employees believe they have been promised about pay progression and fairness, compare these beliefs with what the organisation intends, and communicate openly where there are gaps. Where a breach has occurred, the manager should acknowledge it and set out a clear plan for correcting it."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Expectancy theory (Vroom)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Expectancy theory proposes that motivation depends on three beliefs: expectancy, that effort will lead to performance; instrumentality, that performance will lead to a reward; and valence, how much the reward is valued. Motivation is strongest when all three are high, and weak belief in any one of them reduces effort.",
+     "link": "Pay cynicism weakens the instrumentality link in expectancy theory, because employees no longer believe that good performance will be rewarded fairly. The abstract's proposed remedy, transparency about pay, aims to restore that link by showing how pay is linked to performance and other criteria. The conditional wording suggests that the link will be restored only where the employer can make the connection credibly.",
+     "critique": "Expectancy theory is largely a cognitive model that assumes rational calculation of effort and reward, whereas pay cynicism may reflect emotion, organisational history or distrust that goes beyond calculation. The abstract does not show how transparency affects these beliefs.",
+     "practice": "A manager should show employees explicitly how performance is assessed and how it affects pay, so that the instrumentality belief is credible. The manager should also check whether the rewards on offer are valued by the people concerned, since a transparent scheme that is not valued will not motivate."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized professional services firm has seen a rise in complaints that pay is set without explanation and that promotions seem to favour some groups. Staff survey comments increasingly describe pay as arbitrary, and several high performers have begun to look for jobs elsewhere. The HR director proposes publishing pay bands and the criteria used for pay reviews.",
+    "question": "Critically evaluate whether greater pay transparency will reduce employee pay cynicism in this firm, and advise the HR director on how the proposal should be designed and implemented.",
+    "evidence": [
+     "The source describes enhanced transparency as part of the solution to employee pay cynicism.",
+     "The source attaches a condition to transparency: it works when the employer has a good story to tell.",
+     "The source is a global rewards solution leader, so the claim reflects practitioner advice rather than reported research findings.",
+     "The abstract does not report data on how employees respond to pay transparency, so any claim about its effects must be treated as a hypothesis for this firm."
+    ],
+    "plan": [
+     "Define pay cynicism as an attitude shaped by perceptions of unfairness and broken expectations, and distinguish it from simple dissatisfaction with pay levels.",
+     "Apply equity theory to explain why publishing pay criteria could change how staff compare their inputs and outcomes with others, and identify which comparison groups matter most.",
+     "Use Herzberg's two-factor theory to argue that transparency addresses a hygiene concern and is unlikely to motivate by itself, and recommend complementary motivators.",
+     "Apply the psychological contract to examine whether employees believe promises have been broken, and explain how transparency could clarify or expose these gaps.",
+     "Evaluate the risks of transparency, including exposing real pay differences that cannot be justified, and set out the conditions under which the approach will work.",
+     "Recommend a phased approach: audit the current pay decisions, build a credible rationale, communicate it clearly, and measure changes in trust and retention."
+    ],
+    "pitfalls": [
+     "Treating the abstract as evidence that transparency works; the abstract makes a conditional claim and reports no findings.",
+     "Ignoring the condition that transparency only helps when the employer has a good story to tell, and failing to discuss what happens when it does not."
+    ]
+   },
+   "alsoConsider": [
+    "Organisational justice (Greenberg)",
+    "Self-determination theory (Deci and Ryan)",
+    "Attribution theory (Heider; Kelley)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that pay transparency is an effective response to employee pay cynicism. Use theories of motivation and the psychological contract to support your answer.",
+    "outline": [
+     "Define pay cynicism and explain how it differs from dissatisfaction with pay levels, drawing on perceptions of fairness and broken expectations.",
+     "Apply equity theory, expectancy theory and Herzberg's two-factor theory to explain how transparency could reduce cynicism, and where each theory shows its limits.",
+     "Evaluate the conditions under which transparency works, including the risk of exposing unjustifiable differences, and conclude with a recommendation for managers."
+    ]
+   }
+  },
   {
    "id": "00beab32522a",
    "title": "Stefan Latuski on transforming public sector services at scale",
