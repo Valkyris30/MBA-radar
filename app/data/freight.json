@@ -1,0 +1,576 @@
+{
+ "version": 1,
+ "generatedAt": "2026-11-22T23:44:52Z",
+ "model": null,
+ "fx": {
+  "base": "USD",
+  "date": "Sun, 22 Nov 2026 00:02:32 +0000",
+  "rates": {
+   "USD": 1,
+   "AED": 3.6725,
+   "AFN": 66.118191,
+   "ALL": 82.126238,
+   "AMD": 360.594676,
+   "ANG": 1.79,
+   "AOA": 921.903624,
+   "ARS": 1575.9572,
+   "AUD": 1.507035,
+   "AWG": 1.79,
+   "AZN": 1.700099,
+   "BAM": 1.78226,
+   "BBD": 2,
+   "BDT": 124.388033,
+   "BGN": 1.78226,
+   "BHD": 0.376,
+   "BIF": 3009.807176,
+   "BMD": 1,
+   "BND": 1.289577,
+   "BOB": 11.728666,
+   "BRL": 5.937879,
+   "BSD": 1,
+   "BTN": 92.888729,
+   "BWP": 14.687019,
+   "BYN": 2.995302,
+   "BZD": 2,
+   "CAD": 1.433441,
+   "CDF": 2294.467623,
+   "CHF": 0.840341,
+   "CLF": 0.025656,
+   "CLP": 1014.084257,
+   "CNH": 6.675662,
+   "CNY": 6.693346,
+   "COP": 3341.891148,
+   "CRC": 445.321099,
+   "CUP": 24,
+   "CVE": 100.47955,
+   "CZK": 22.291402,
+   "DJF": 177.721,
+   "DKK": 6.805787,
+   "DOP": 60.388212,
+   "DZD": 137.105812,
+   "EGP": 53.813894,
+   "ERN": 15,
+   "ETB": 161.27438,
+   "EUR": 0.911256,
+   "FJD": 2.293687,
+   "FKP": 0.7636,
+   "FOK": 6.805783,
+   "GBP": 0.763601,
+   "GEL": 2.592167,
+   "GGP": 0.7636,
+   "GHS": 11.804993,
+   "GIP": 0.7636,
+   "GMD": 74.781126,
+   "GNF": 8855.182692,
+   "GTQ": 7.639035,
+   "GYD": 209.044216,
+   "HKD": 7.838737,
+   "HNL": 26.862428,
+   "HRK": 6.865852,
+   "HTG": 131.18476,
+   "HUF": 340.052586,
+   "IDR": 18291.407129,
+   "ILS": 3.346289,
+   "IMP": 0.7636,
+   "INR": 92.889095,
+   "IQD": 1514.155021,
+   "IRR": 1757351.912857,
+   "ISK": 124.934687,
+   "JEP": 0.7636,
+   "JMD": 158.25047,
+   "JOD": 0.709,
+   "JPY": 158.747474,
+   "KES": 129.963338,
+   "KGS": 87.451126,
+   "KHR": 4066.613386,
+   "KID": 1.507023,
+   "KMF": 448.308151,
+   "KRW": 1343.330639,
+   "KWD": 0.3112,
+   "KYD": 0.833333,
+   "KZT": 449.946365,
+   "LAK": 22309.317427,
+   "LBP": 89500,
+   "LKR": 332.626031,
+   "LRD": 168.303744,
+   "LSL": 17.532275,
+   "LYD": 6.46128,
+   "MAD": 9.97726,
+   "MDL": 18.311132,
+   "MGA": 4574.447571,
+   "MKD": 55.881655,
+   "MMK": 2099.717479,
+   "MNT": 3630.287886,
+   "MOP": 8.073899,
+   "MRU": 40.543168,
+   "MUR": 46.850335,
+   "MVR": 15.438684,
+   "MWK": 1744.367737,
+   "MXN": 19.123957,
+   "MYR": 4.112786,
+   "MZN": 63.686226,
+   "NAD": 17.532275,
+   "NGN": 1376.736792,
+   "NIO": 36.774014,
+   "NOK": 9.768265,
+   "NPR": 148.621966,
+   "NZD": 1.824946,
+   "OMR": 0.384497,
+   "PAB": 1,
+   "PEN": 3.441274,
+   "PGK": 4.493406,
+   "PHP": 63.984688,
+   "PKR": 276.595853,
+   "PLN": 4.059578,
+   "PYG": 6271.058356,
+   "QAR": 3.64,
+   "RON": 4.871523,
+   "RSD": 107.140235,
+   "RUB": 82.062616,
+   "RWF": 1479.858242,
+   "SAR": 3.75,
+   "SBD": 8.02641,
+   "SCR": 14.02805,
+   "SDG": 509.124016,
+   "SEK": 10.219547,
+   "SGD": 1.289578,
+   "SHP": 0.7636,
+   "SLE": 22.929351,
+   "SLL": 22929.350553,
+   "SOS": 570.912234,
+   "SRD": 37.459981,
+   "SSP": 5789.935695,
+   "STN": 22.325751,
+   "SYP": 121.805247,
+   "SZL": 17.532275,
+   "THB": 33.918378,
+   "TJS": 9.207343,
+   "TMT": 3.499304,
+   "TND": 3.0646,
+   "TOP": 2.398757,
+   "TRY": 50.602045,
+   "TTD": 6.749037,
+   "TVD": 1.507023,
+   "TWD": 32.980334,
+   "TZS": 2648.996851,
+   "UAH": 45.004434,
+   "UGX": 4048.218994,
+   "UYU": 40.585199,
+   "UZS": 11987.908877,
+   "VES": 919.8227,
+   "VND": 25783.122794,
+   "VUV": 120.564769,
+   "WST": 2.785111,
+   "XAF": 597.744201,
+   "XCD": 2.7,
+   "XCG": 1.79,
+   "XDR": 0.744757,
+   "XOF": 597.744201,
+   "XPF": 108.741901,
+   "YER": 236.347131,
+   "ZAR": 17.529792,
+   "ZMW": 20.629023,
+   "ZWG": 26.5872,
+   "ZWL": 26.5872
+  },
+  "source": "https://www.exchangerate-api.com"
+ },
+ "indices": [
+  {
+   "from": "FE",
+   "to": "USWC",
+   "source": "Freightos Baltic Index FBX01",
+   "value": 7985.0,
+   "unit": "FEU",
+   "change": -5.6,
+   "changePeriod": "vs previous release",
+   "date": "22 Nov 2026",
+   "url": "https://fbx.freightos.com/"
+  },
+  {
+   "from": "USWC",
+   "to": "FE",
+   "source": "Freightos Baltic Index FBX02",
+   "value": 322.0,
+   "unit": "FEU",
+   "change": 4.61,
+   "changePeriod": "vs previous release",
+   "date": "22 Nov 2026",
+   "url": "https://fbx.freightos.com/"
+  },
+  {
+   "from": "FE",
+   "to": "USEC",
+   "source": "Freightos Baltic Index FBX03",
+   "value": 9854.0,
+   "unit": "FEU",
+   "change": 0.06,
+   "changePeriod": "vs previous release",
+   "date": "22 Nov 2026",
+   "url": "https://fbx.freightos.com/"
+  },
+  {
+   "from": "USEC",
+   "to": "FE",
+   "source": "Freightos Baltic Index FBX04",
+   "value": 564.0,
+   "unit": "FEU",
+   "change": 1.77,
+   "changePeriod": "vs previous release",
+   "date": "22 Nov 2026",
+   "url": "https://fbx.freightos.com/"
+  },
+  {
+   "from": "FE",
+   "to": "NEU",
+   "source": "Freightos Baltic Index FBX11",
+   "value": 3374.0,
+   "unit": "FEU",
+   "change": -0.96,
+   "changePeriod": "vs previous release",
+   "date": "22 Nov 2026",
+   "url": "https://fbx.freightos.com/"
+  },
+  {
+   "from": "NEU",
+   "to": "FE",
+   "source": "Freightos Baltic Index FBX12",
+   "value": 595.0,
+   "unit": "FEU",
+   "change": 3.01,
+   "changePeriod": "vs previous release",
+   "date": "22 Nov 2026",
+   "url": "https://fbx.freightos.com/"
+  },
+  {
+   "from": "FE",
+   "to": "MED",
+   "source": "Freightos Baltic Index FBX13",
+   "value": 5162.0,
+   "unit": "FEU",
+   "change": 20.2,
+   "changePeriod": "vs previous release",
+   "date": "22 Nov 2026",
+   "url": "https://fbx.freightos.com/"
+  },
+  {
+   "from": "MED",
+   "to": "FE",
+   "source": "Freightos Baltic Index FBX14",
+   "value": 170.0,
+   "unit": "FEU",
+   "change": 0.0,
+   "changePeriod": "vs previous release",
+   "date": "22 Nov 2026",
+   "url": "https://fbx.freightos.com/"
+  },
+  {
+   "from": "USEC",
+   "to": "NEU",
+   "source": "Freightos Baltic Index FBX21",
+   "value": 982.0,
+   "unit": "FEU",
+   "change": 3.39,
+   "changePeriod": "vs previous release",
+   "date": "22 Nov 2026",
+   "url": "https://fbx.freightos.com/"
+  },
+  {
+   "from": "NEU",
+   "to": "USEC",
+   "source": "Freightos Baltic Index FBX22",
+   "value": 2664.0,
+   "unit": "FEU",
+   "change": -3.08,
+   "changePeriod": "vs previous release",
+   "date": "22 Nov 2026",
+   "url": "https://fbx.freightos.com/"
+  },
+  {
+   "from": "NEU",
+   "to": "SAEC",
+   "source": "Freightos Baltic Index FBX24",
+   "value": 1307.0,
+   "unit": "FEU",
+   "change": -4.29,
+   "changePeriod": "vs previous release",
+   "date": "22 Nov 2026",
+   "url": "https://fbx.freightos.com/"
+  },
+  {
+   "from": "FE",
+   "to": "NEU",
+   "source": "Xeneta XSI-C Far East → N. Europe",
+   "value": 3383.0,
+   "unit": "FEU",
+   "change": -4.08,
+   "changePeriod": "7 days",
+   "date": "20 Nov 2026",
+   "url": "https://www.xeneta.com/xsi"
+  },
+  {
+   "from": "NEU",
+   "to": "FE",
+   "source": "Xeneta XSI-C N. Europe → Far East",
+   "value": 246.0,
+   "unit": "FEU",
+   "change": -3.15,
+   "changePeriod": "7 days",
+   "date": "20 Nov 2026",
+   "url": "https://www.xeneta.com/xsi"
+  },
+  {
+   "from": "FE",
+   "to": "USWC",
+   "source": "Xeneta XSI-C Far East → US West Coast",
+   "value": 8092.0,
+   "unit": "FEU",
+   "change": -3.02,
+   "changePeriod": "7 days",
+   "date": "20 Nov 2026",
+   "url": "https://www.xeneta.com/xsi"
+  },
+  {
+   "from": "USWC",
+   "to": "FE",
+   "source": "Xeneta XSI-C US West Coast → Far East",
+   "value": 698.0,
+   "unit": "FEU",
+   "change": -1.41,
+   "changePeriod": "7 days",
+   "date": "20 Nov 2026",
+   "url": "https://www.xeneta.com/xsi"
+  },
+  {
+   "from": "NEU",
+   "to": "USEC",
+   "source": "Xeneta XSI-C N. Europe → US East Coast",
+   "value": 2953.0,
+   "unit": "FEU",
+   "change": 1.51,
+   "changePeriod": "7 days",
+   "date": "20 Nov 2026",
+   "url": "https://www.xeneta.com/xsi"
+  },
+  {
+   "from": "USEC",
+   "to": "NEU",
+   "source": "Xeneta XSI-C US East Coast → N. Europe",
+   "value": 703.0,
+   "unit": "FEU",
+   "change": -2.36,
+   "changePeriod": "7 days",
+   "date": "20 Nov 2026",
+   "url": "https://www.xeneta.com/xsi"
+  },
+  {
+   "from": "FE",
+   "to": "SAEC",
+   "source": "Xeneta XSI-C Far East → S. America East Coast",
+   "value": 3688.0,
+   "unit": "FEU",
+   "change": -11.56,
+   "changePeriod": "7 days",
+   "date": "20 Nov 2026",
+   "url": "https://www.xeneta.com/xsi"
+  },
+  {
+   "from": "NEU",
+   "to": "SAEC",
+   "source": "Xeneta XSI-C N. Europe → S. America East Coast",
+   "value": 789.0,
+   "unit": "FEU",
+   "change": -0.13,
+   "changePeriod": "7 days",
+   "date": "20 Nov 2026",
+   "url": "https://www.xeneta.com/xsi"
+  }
+ ],
+ "wci": null,
+ "containers": [
+  {
+   "id": "20DV",
+   "name": "20' dry",
+   "size": "20",
+   "factor": [
+    0.5,
+    0.62
+   ],
+   "teuFactor": [
+    1,
+    1
+   ]
+  },
+  {
+   "id": "40DV",
+   "name": "40' dry",
+   "size": "40",
+   "factor": [
+    1,
+    1
+   ],
+   "teuFactor": [
+    1.6,
+    2
+   ]
+  },
+  {
+   "id": "40HC",
+   "name": "40' high cube",
+   "size": "40",
+   "factor": [
+    1,
+    1.06
+   ],
+   "teuFactor": [
+    1.6,
+    2.1
+   ]
+  },
+  {
+   "id": "20RF",
+   "name": "20' reefer",
+   "size": "20",
+   "factor": [
+    1.1,
+    1.6
+   ],
+   "teuFactor": [
+    1.8,
+    2.8
+   ],
+   "reefer": true
+  },
+  {
+   "id": "40RH",
+   "name": "40' reefer high cube",
+   "size": "40",
+   "factor": [
+    1.7,
+    2.6
+   ],
+   "teuFactor": [
+    2.8,
+    4.6
+   ],
+   "reefer": true
+  }
+ ],
+ "carriers": [
+  {
+   "id": "MSC",
+   "name": "MSC",
+   "group": "Standalone",
+   "site": "https://www.msc.com/"
+  },
+  {
+   "id": "MAERSK",
+   "name": "Maersk",
+   "group": "Gemini Cooperation (with Hapag-Lloyd)",
+   "site": "https://www.maersk.com/"
+  },
+  {
+   "id": "CMA",
+   "name": "CMA CGM",
+   "group": "Ocean Alliance",
+   "site": "https://www.cma-cgm.com/"
+  },
+  {
+   "id": "COSCO",
+   "name": "COSCO Shipping / OOCL",
+   "group": "Ocean Alliance",
+   "site": "https://lines.coscoshipping.com/"
+  },
+  {
+   "id": "HAPAG",
+   "name": "Hapag-Lloyd",
+   "group": "Gemini Cooperation (with Maersk)",
+   "site": "https://www.hapag-lloyd.com/"
+  },
+  {
+   "id": "ONE",
+   "name": "ONE (Ocean Network Express)",
+   "group": "Premier Alliance",
+   "site": "https://www.one-line.com/"
+  },
+  {
+   "id": "EMC",
+   "name": "Evergreen",
+   "group": "Ocean Alliance",
+   "site": "https://www.evergreen-line.com/"
+  },
+  {
+   "id": "HMM",
+   "name": "HMM",
+   "group": "Premier Alliance",
+   "site": "https://www.hmm21.com/"
+  },
+  {
+   "id": "YML",
+   "name": "Yang Ming",
+   "group": "Premier Alliance",
+   "site": "https://www.yangming.com/"
+  },
+  {
+   "id": "ZIM",
+   "name": "ZIM",
+   "group": "Standalone",
+   "site": "https://www.zim.com/"
+  }
+ ],
+ "researchLanes": [
+  {
+   "from": "FE",
+   "to": "MEG"
+  },
+  {
+   "from": "NEU",
+   "to": "MEG"
+  },
+  {
+   "from": "MED",
+   "to": "MEG"
+  },
+  {
+   "from": "MEG",
+   "to": "NEU"
+  },
+  {
+   "from": "MA",
+   "to": "NEU"
+  },
+  {
+   "from": "NEU",
+   "to": "MA"
+  },
+  {
+   "from": "MA",
+   "to": "MED"
+  },
+  {
+   "from": "NEU",
+   "to": "MED"
+  },
+  {
+   "from": "MED",
+   "to": "NEU"
+  },
+  {
+   "from": "FE",
+   "to": "WAF"
+  },
+  {
+   "from": "FE",
+   "to": "ISC"
+  },
+  {
+   "from": "NEU",
+   "to": "WAF"
+  }
+ ],
+ "research": {
+  "lanes": {},
+  "ports": {},
+  "carriers": {}
+ }
+}

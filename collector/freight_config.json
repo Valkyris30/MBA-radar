@@ -1,0 +1,121 @@
+{
+  "regions": {
+    "FE":   { "name": "Far East and Southeast Asia" },
+    "NEU":  { "name": "North Europe" },
+    "MED":  { "name": "Mediterranean" },
+    "MA":   { "name": "Morocco", "parent": "MED" },
+    "MEG":  { "name": "Middle East Gulf and Red Sea" },
+    "ISC":  { "name": "Indian Subcontinent" },
+    "USWC": { "name": "US West Coast" },
+    "USEC": { "name": "US East and Gulf Coast" },
+    "SAEC": { "name": "South America East Coast" },
+    "WAF":  { "name": "West Africa" },
+    "SAF":  { "name": "South Africa" }
+  },
+
+  "ports": [
+    { "code": "MAPTM", "name": "Tanger Med", "country": "MA", "flag": "🇲🇦", "region": "MA", "focus": true, "lon": -5.505, "lat": 35.885, "research": true },
+    { "code": "MACAS", "name": "Casablanca", "country": "MA", "flag": "🇲🇦", "region": "MA", "focus": true, "lon": -7.6245, "lat": 33.5785, "research": true },
+    { "code": "MAAGA", "name": "Agadir", "country": "MA", "flag": "🇲🇦", "region": "MA", "focus": true, "lon": -9.5564, "lat": 30.4356, "research": true },
+    { "code": "MANDR", "name": "Nador West Med", "country": "MA", "flag": "🇲🇦", "region": "MA", "focus": true, "lon": -2.9196, "lat": 35.2038 },
+
+    { "code": "GBFXT", "name": "Felixstowe", "country": "GB", "flag": "🇬🇧", "region": "NEU", "focus": true, "lon": 1.3445, "lat": 51.9579, "research": true },
+    { "code": "GBSOU", "name": "Southampton", "country": "GB", "flag": "🇬🇧", "region": "NEU", "focus": true, "lon": -1.3753, "lat": 50.8939, "research": true },
+    { "code": "GBLGP", "name": "London Gateway", "country": "GB", "flag": "🇬🇧", "region": "NEU", "focus": true, "lon": 0.4816, "lat": 51.5129, "research": true },
+    { "code": "GBLIV", "name": "Liverpool", "country": "GB", "flag": "🇬🇧", "region": "NEU", "focus": true, "lon": -2.9924, "lat": 53.41 },
+
+    { "code": "ESALG", "name": "Algeciras", "country": "ES", "flag": "🇪🇸", "region": "MED", "focus": true, "lon": -5.4381, "lat": 36.1411, "research": true },
+    { "code": "ESVLC", "name": "Valencia", "country": "ES", "flag": "🇪🇸", "region": "MED", "focus": true, "lon": -0.3303, "lat": 39.4511, "research": true },
+    { "code": "ESBCN", "name": "Barcelona", "country": "ES", "flag": "🇪🇸", "region": "MED", "focus": true, "lon": 2.1667, "lat": 41.35, "research": true },
+    { "code": "ESBIO", "name": "Bilbao", "country": "ES", "flag": "🇪🇸", "region": "NEU", "focus": true, "lon": -3.047, "lat": 43.34 },
+
+    { "code": "FRLEH", "name": "Le Havre", "country": "FR", "flag": "🇫🇷", "region": "NEU", "focus": true, "lon": 0.1071, "lat": 49.486, "research": true },
+    { "code": "FRFOS", "name": "Marseille-Fos", "country": "FR", "flag": "🇫🇷", "region": "MED", "focus": true, "lon": 4.8877, "lat": 43.413, "research": true },
+    { "code": "FRDKK", "name": "Dunkirk", "country": "FR", "flag": "🇫🇷", "region": "NEU", "focus": true, "lon": 2.3761, "lat": 51.0448 },
+
+    { "code": "NLRTM", "name": "Rotterdam", "country": "NL", "flag": "🇳🇱", "region": "NEU", "focus": true, "lon": 4.0500, "lat": 51.9500, "research": true },
+    { "code": "NLAMS", "name": "Amsterdam", "country": "NL", "flag": "🇳🇱", "region": "NEU", "focus": true, "lon": 4.9041, "lat": 52.3755 },
+
+    { "code": "BEANR", "name": "Antwerp-Bruges", "country": "BE", "flag": "🇧🇪", "region": "NEU", "lon": 4.3829, "lat": 51.2024, "research": true },
+    { "code": "DEHAM", "name": "Hamburg", "country": "DE", "flag": "🇩🇪", "region": "NEU", "lon": 9.9694, "lat": 53.5477, "research": true },
+    { "code": "DEBRV", "name": "Bremerhaven", "country": "DE", "flag": "🇩🇪", "region": "NEU", "lon": 8.5755, "lat": 53.5428 },
+    { "code": "ITGOA", "name": "Genoa", "country": "IT", "flag": "🇮🇹", "region": "MED", "lon": 8.9153, "lat": 44.4147 },
+    { "code": "GRPIR", "name": "Piraeus", "country": "GR", "flag": "🇬🇷", "region": "MED", "lon": 23.6381, "lat": 37.9503 },
+    { "code": "EGPSD", "name": "Port Said", "country": "EG", "flag": "🇪🇬", "region": "MED", "lon": 32.2861, "lat": 31.2653 },
+
+    { "code": "AEJEA", "name": "Jebel Ali", "country": "AE", "flag": "🇦🇪", "region": "MEG", "lon": 55.0518, "lat": 25.0195, "research": true },
+    { "code": "AEKHL", "name": "Khalifa Port", "country": "AE", "flag": "🇦🇪", "region": "MEG", "lon": 54.64, "lat": 24.81 },
+    { "code": "SADMM", "name": "Dammam", "country": "SA", "flag": "🇸🇦", "region": "MEG", "lon": 50.21, "lat": 26.5, "research": true },
+    { "code": "SAJED", "name": "Jeddah", "country": "SA", "flag": "🇸🇦", "region": "MEG", "lon": 39.1886, "lat": 21.4922, "research": true },
+    { "code": "QAHMD", "name": "Hamad Port", "country": "QA", "flag": "🇶🇦", "region": "MEG", "lon": 51.6079, "lat": 25.0258, "research": true },
+    { "code": "OMSLL", "name": "Salalah", "country": "OM", "flag": "🇴🇲", "region": "MEG", "lon": 54.1, "lat": 16.9988 },
+    { "code": "OMSOH", "name": "Sohar", "country": "OM", "flag": "🇴🇲", "region": "MEG", "lon": 56.75, "lat": 24.3333 },
+
+    { "code": "CNSHA", "name": "Shanghai", "country": "CN", "flag": "🇨🇳", "region": "FE", "lon": 121.8, "lat": 30.63, "research": true },
+    { "code": "CNNGB", "name": "Ningbo-Zhoushan", "country": "CN", "flag": "🇨🇳", "region": "FE", "lon": 121.5594, "lat": 29.8719, "research": true },
+    { "code": "CNYTN", "name": "Shenzhen (Yantian)", "country": "CN", "flag": "🇨🇳", "region": "FE", "lon": 114.2921, "lat": 22.5835, "research": true },
+    { "code": "CNTAO", "name": "Qingdao", "country": "CN", "flag": "🇨🇳", "region": "FE", "lon": 120.3853, "lat": 36.065 },
+    { "code": "HKHKG", "name": "Hong Kong", "country": "HK", "flag": "🇭🇰", "region": "FE", "lon": 114.1701, "lat": 22.2948 },
+    { "code": "KRPUS", "name": "Busan", "country": "KR", "flag": "🇰🇷", "region": "FE", "lon": 129.0358, "lat": 35.0982 },
+    { "code": "SGSIN", "name": "Singapore", "country": "SG", "flag": "🇸🇬", "region": "FE", "lon": 103.8325, "lat": 1.2392, "research": true },
+    { "code": "MYPKG", "name": "Port Klang", "country": "MY", "flag": "🇲🇾", "region": "FE", "lon": 101.3826, "lat": 3.0034 },
+    { "code": "MYTPP", "name": "Tanjung Pelepas", "country": "MY", "flag": "🇲🇾", "region": "FE", "lon": 103.5484, "lat": 1.3559 },
+
+    { "code": "INNSA", "name": "Nhava Sheva", "country": "IN", "flag": "🇮🇳", "region": "ISC", "lon": 72.93, "lat": 18.97 },
+    { "code": "LKCMB", "name": "Colombo", "country": "LK", "flag": "🇱🇰", "region": "ISC", "lon": 79.8486, "lat": 6.9308 },
+
+    { "code": "USLAX", "name": "Los Angeles", "country": "US", "flag": "🇺🇸", "region": "USWC", "lon": -118.2833, "lat": 33.7167 },
+    { "code": "USLGB", "name": "Long Beach", "country": "US", "flag": "🇺🇸", "region": "USWC", "lon": -118.1933, "lat": 33.7386 },
+    { "code": "USNYC", "name": "New York-New Jersey", "country": "US", "flag": "🇺🇸", "region": "USEC", "lon": -74.0177, "lat": 40.7055 },
+    { "code": "USSAV", "name": "Savannah", "country": "US", "flag": "🇺🇸", "region": "USEC", "lon": -81.0997, "lat": 32.0866 },
+    { "code": "USHOU", "name": "Houston", "country": "US", "flag": "🇺🇸", "region": "USEC", "lon": -95.2872, "lat": 29.7458 },
+
+    { "code": "BRSSZ", "name": "Santos", "country": "BR", "flag": "🇧🇷", "region": "SAEC", "lon": -46.3208, "lat": -23.9738 },
+    { "code": "NGAPP", "name": "Lagos (Apapa)", "country": "NG", "flag": "🇳🇬", "region": "WAF", "lon": 3.3924, "lat": 6.4486 },
+    { "code": "CIABJ", "name": "Abidjan", "country": "CI", "flag": "🇨🇮", "region": "WAF", "lon": -3.978, "lat": 5.2562 },
+    { "code": "SNDKR", "name": "Dakar", "country": "SN", "flag": "🇸🇳", "region": "WAF", "lon": -17.4408, "lat": 14.6824 },
+    { "code": "ZADUR", "name": "Durban", "country": "ZA", "flag": "🇿🇦", "region": "SAF", "lon": 31.0167, "lat": -29.8667 }
+  ],
+
+  "containers": [
+    { "id": "20DV", "name": "20' dry", "size": "20", "factor": [0.5, 0.62], "teuFactor": [1, 1] },
+    { "id": "40DV", "name": "40' dry", "size": "40", "factor": [1, 1], "teuFactor": [1.6, 2] },
+    { "id": "40HC", "name": "40' high cube", "size": "40", "factor": [1, 1.06], "teuFactor": [1.6, 2.1] },
+    { "id": "20RF", "name": "20' reefer", "size": "20", "factor": [1.1, 1.6], "teuFactor": [1.8, 2.8], "reefer": true },
+    { "id": "40RH", "name": "40' reefer high cube", "size": "40", "factor": [1.7, 2.6], "teuFactor": [2.8, 4.6], "reefer": true }
+  ],
+
+  "carriers": [
+    { "id": "MSC", "name": "MSC", "group": "Standalone", "site": "https://www.msc.com/" },
+    { "id": "MAERSK", "name": "Maersk", "group": "Gemini Cooperation (with Hapag-Lloyd)", "site": "https://www.maersk.com/" },
+    { "id": "CMA", "name": "CMA CGM", "group": "Ocean Alliance", "site": "https://www.cma-cgm.com/" },
+    { "id": "COSCO", "name": "COSCO Shipping / OOCL", "group": "Ocean Alliance", "site": "https://lines.coscoshipping.com/" },
+    { "id": "HAPAG", "name": "Hapag-Lloyd", "group": "Gemini Cooperation (with Maersk)", "site": "https://www.hapag-lloyd.com/" },
+    { "id": "ONE", "name": "ONE (Ocean Network Express)", "group": "Premier Alliance", "site": "https://www.one-line.com/" },
+    { "id": "EMC", "name": "Evergreen", "group": "Ocean Alliance", "site": "https://www.evergreen-line.com/" },
+    { "id": "HMM", "name": "HMM", "group": "Premier Alliance", "site": "https://www.hmm21.com/" },
+    { "id": "YML", "name": "Yang Ming", "group": "Premier Alliance", "site": "https://www.yangming.com/" },
+    { "id": "ZIM", "name": "ZIM", "group": "Standalone", "site": "https://www.zim.com/" }
+  ],
+
+  "index_lanes": {
+    "FBX01": ["FE", "USWC"], "FBX02": ["USWC", "FE"], "FBX03": ["FE", "USEC"], "FBX04": ["USEC", "FE"],
+    "FBX11": ["FE", "NEU"], "FBX12": ["NEU", "FE"], "FBX13": ["FE", "MED"], "FBX14": ["MED", "FE"],
+    "FBX21": ["USEC", "NEU"], "FBX22": ["NEU", "USEC"], "FBX24": ["NEU", "SAEC"]
+  },
+
+  "research_lanes": [
+    { "from": "FE", "to": "MEG", "hint": "Asia to the Arabian Gulf, for example Shanghai to Jebel Ali; the SCFI 'Persian Gulf and Red Sea (Dubai)' lane" },
+    { "from": "NEU", "to": "MEG", "hint": "North Europe to the Arabian Gulf, for example Rotterdam to Jebel Ali" },
+    { "from": "MED", "to": "MEG", "hint": "West Mediterranean to the Arabian Gulf, for example Valencia or Tanger Med to Jebel Ali" },
+    { "from": "MEG", "to": "NEU", "hint": "Arabian Gulf to North Europe, for example Jebel Ali to Rotterdam" },
+    { "from": "MA", "to": "NEU", "hint": "Morocco to North Europe short sea, for example Casablanca or Tanger Med to Rotterdam, Antwerp or Felixstowe" },
+    { "from": "NEU", "to": "MA", "hint": "North Europe to Morocco short sea, for example Rotterdam or Antwerp to Casablanca or Tanger Med" },
+    { "from": "MA", "to": "MED", "hint": "Morocco to the West Mediterranean, for example Casablanca or Tanger Med to Valencia, Barcelona or Marseille-Fos" },
+    { "from": "NEU", "to": "MED", "hint": "intra-Europe, North Europe to the Mediterranean, for example Rotterdam to Valencia or Genoa" },
+    { "from": "MED", "to": "NEU", "hint": "intra-Europe, the Mediterranean to North Europe, for example Valencia to Rotterdam" },
+    { "from": "FE", "to": "WAF", "hint": "Asia to West Africa, for example Shanghai to Lagos; the SCFI 'West Africa (Lagos)' lane" },
+    { "from": "FE", "to": "ISC", "hint": "Asia to India, for example Shanghai to Nhava Sheva; the SCFI 'India and Pakistan (Nhava Sheva)' lane" },
+    { "from": "NEU", "to": "WAF", "hint": "North Europe to West Africa, for example Antwerp to Lagos or Abidjan" }
+  ]
+}

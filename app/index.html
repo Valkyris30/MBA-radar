@@ -71,6 +71,14 @@
 
   <article class="detail" id="detail"></article>
 
+  <section class="freight" id="freight" aria-label="Freight rates and sea routes">
+    <div class="fr-globe"><div id="globe"></div></div>
+    <div class="fr-panel">
+      <form class="fr-form" id="frForm" onsubmit="return false"></form>
+      <div class="fr-results" id="frResults"></div>
+    </div>
+  </section>
+
   <nav class="desks" aria-label="Desks">
     <button type="button" data-desk="study" aria-pressed="true">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9L12 4.5 21.5 9 12 13.5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M6.5 11v4.6c0 1.3 2.5 2.9 5.5 2.9s5.5-1.6 5.5-2.9V11M21.5 9v5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
@@ -80,10 +88,15 @@
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v13M8 10.5h8M4.5 13.5c0 3.8 3.4 6.5 7.5 6.5s7.5-2.7 7.5-6.5M3 15l1.5-1.5L6 15M18 15l1.5-1.5L21 15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <span>Maritime</span><b></b>
     </button>
+    <button type="button" data-desk="freight" aria-pressed="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5h18v8.5H3zM6.5 9.5V18M10 9.5V18M14 9.5V18M17.5 9.5V18M7 9.5l2-4h6l2 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      <span>Freight</span><b></b>
+    </button>
   </nav>
 
 </div>
 <div class="toast" id="toast" role="status" hidden></div>
+<script src="freight.js" defer></script>
 <script src="app.js" defer></script>
 </body>
 </html>

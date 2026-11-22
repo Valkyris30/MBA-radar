@@ -1,0 +1,601 @@
+{
+ "ports": [
+  {
+   "code": "MAPTM",
+   "name": "Tanger Med",
+   "country": "MA",
+   "flag": "🇲🇦",
+   "region": "MA",
+   "lon": -5.505,
+   "lat": 35.885,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "MACAS",
+   "name": "Casablanca",
+   "country": "MA",
+   "flag": "🇲🇦",
+   "region": "MA",
+   "lon": -7.6245,
+   "lat": 33.5785,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "MAAGA",
+   "name": "Agadir",
+   "country": "MA",
+   "flag": "🇲🇦",
+   "region": "MA",
+   "lon": -9.5564,
+   "lat": 30.4356,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "MANDR",
+   "name": "Nador West Med",
+   "country": "MA",
+   "flag": "🇲🇦",
+   "region": "MA",
+   "lon": -2.9196,
+   "lat": 35.2038,
+   "focus": true,
+   "research": false
+  },
+  {
+   "code": "GBFXT",
+   "name": "Felixstowe",
+   "country": "GB",
+   "flag": "🇬🇧",
+   "region": "NEU",
+   "lon": 1.3445,
+   "lat": 51.9579,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "GBSOU",
+   "name": "Southampton",
+   "country": "GB",
+   "flag": "🇬🇧",
+   "region": "NEU",
+   "lon": -1.3753,
+   "lat": 50.8939,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "GBLGP",
+   "name": "London Gateway",
+   "country": "GB",
+   "flag": "🇬🇧",
+   "region": "NEU",
+   "lon": 0.4816,
+   "lat": 51.5129,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "GBLIV",
+   "name": "Liverpool",
+   "country": "GB",
+   "flag": "🇬🇧",
+   "region": "NEU",
+   "lon": -2.9924,
+   "lat": 53.41,
+   "focus": true,
+   "research": false
+  },
+  {
+   "code": "ESALG",
+   "name": "Algeciras",
+   "country": "ES",
+   "flag": "🇪🇸",
+   "region": "MED",
+   "lon": -5.4381,
+   "lat": 36.1411,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "ESVLC",
+   "name": "Valencia",
+   "country": "ES",
+   "flag": "🇪🇸",
+   "region": "MED",
+   "lon": -0.3303,
+   "lat": 39.4511,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "ESBCN",
+   "name": "Barcelona",
+   "country": "ES",
+   "flag": "🇪🇸",
+   "region": "MED",
+   "lon": 2.1667,
+   "lat": 41.35,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "ESBIO",
+   "name": "Bilbao",
+   "country": "ES",
+   "flag": "🇪🇸",
+   "region": "NEU",
+   "lon": -3.047,
+   "lat": 43.34,
+   "focus": true,
+   "research": false
+  },
+  {
+   "code": "FRLEH",
+   "name": "Le Havre",
+   "country": "FR",
+   "flag": "🇫🇷",
+   "region": "NEU",
+   "lon": 0.1071,
+   "lat": 49.486,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "FRFOS",
+   "name": "Marseille-Fos",
+   "country": "FR",
+   "flag": "🇫🇷",
+   "region": "MED",
+   "lon": 4.8877,
+   "lat": 43.413,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "FRDKK",
+   "name": "Dunkirk",
+   "country": "FR",
+   "flag": "🇫🇷",
+   "region": "NEU",
+   "lon": 2.3761,
+   "lat": 51.0448,
+   "focus": true,
+   "research": false
+  },
+  {
+   "code": "NLRTM",
+   "name": "Rotterdam",
+   "country": "NL",
+   "flag": "🇳🇱",
+   "region": "NEU",
+   "lon": 4.05,
+   "lat": 51.95,
+   "focus": true,
+   "research": true
+  },
+  {
+   "code": "NLAMS",
+   "name": "Amsterdam",
+   "country": "NL",
+   "flag": "🇳🇱",
+   "region": "NEU",
+   "lon": 4.9041,
+   "lat": 52.3755,
+   "focus": true,
+   "research": false
+  },
+  {
+   "code": "BEANR",
+   "name": "Antwerp-Bruges",
+   "country": "BE",
+   "flag": "🇧🇪",
+   "region": "NEU",
+   "lon": 4.3829,
+   "lat": 51.2024,
+   "focus": false,
+   "research": true
+  },
+  {
+   "code": "DEHAM",
+   "name": "Hamburg",
+   "country": "DE",
+   "flag": "🇩🇪",
+   "region": "NEU",
+   "lon": 9.9694,
+   "lat": 53.5477,
+   "focus": false,
+   "research": true
+  },
+  {
+   "code": "DEBRV",
+   "name": "Bremerhaven",
+   "country": "DE",
+   "flag": "🇩🇪",
+   "region": "NEU",
+   "lon": 8.5755,
+   "lat": 53.5428,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "ITGOA",
+   "name": "Genoa",
+   "country": "IT",
+   "flag": "🇮🇹",
+   "region": "MED",
+   "lon": 8.9153,
+   "lat": 44.4147,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "GRPIR",
+   "name": "Piraeus",
+   "country": "GR",
+   "flag": "🇬🇷",
+   "region": "MED",
+   "lon": 23.6381,
+   "lat": 37.9503,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "EGPSD",
+   "name": "Port Said",
+   "country": "EG",
+   "flag": "🇪🇬",
+   "region": "MED",
+   "lon": 32.2861,
+   "lat": 31.2653,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "AEJEA",
+   "name": "Jebel Ali",
+   "country": "AE",
+   "flag": "🇦🇪",
+   "region": "MEG",
+   "lon": 55.0518,
+   "lat": 25.0195,
+   "focus": false,
+   "research": true
+  },
+  {
+   "code": "AEKHL",
+   "name": "Khalifa Port",
+   "country": "AE",
+   "flag": "🇦🇪",
+   "region": "MEG",
+   "lon": 54.64,
+   "lat": 24.81,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "SADMM",
+   "name": "Dammam",
+   "country": "SA",
+   "flag": "🇸🇦",
+   "region": "MEG",
+   "lon": 50.21,
+   "lat": 26.5,
+   "focus": false,
+   "research": true
+  },
+  {
+   "code": "SAJED",
+   "name": "Jeddah",
+   "country": "SA",
+   "flag": "🇸🇦",
+   "region": "MEG",
+   "lon": 39.1886,
+   "lat": 21.4922,
+   "focus": false,
+   "research": true
+  },
+  {
+   "code": "QAHMD",
+   "name": "Hamad Port",
+   "country": "QA",
+   "flag": "🇶🇦",
+   "region": "MEG",
+   "lon": 51.6079,
+   "lat": 25.0258,
+   "focus": false,
+   "research": true
+  },
+  {
+   "code": "OMSLL",
+   "name": "Salalah",
+   "country": "OM",
+   "flag": "🇴🇲",
+   "region": "MEG",
+   "lon": 54.1,
+   "lat": 16.9988,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "OMSOH",
+   "name": "Sohar",
+   "country": "OM",
+   "flag": "🇴🇲",
+   "region": "MEG",
+   "lon": 56.75,
+   "lat": 24.3333,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "CNSHA",
+   "name": "Shanghai",
+   "country": "CN",
+   "flag": "🇨🇳",
+   "region": "FE",
+   "lon": 121.8,
+   "lat": 30.63,
+   "focus": false,
+   "research": true
+  },
+  {
+   "code": "CNNGB",
+   "name": "Ningbo-Zhoushan",
+   "country": "CN",
+   "flag": "🇨🇳",
+   "region": "FE",
+   "lon": 121.5594,
+   "lat": 29.8719,
+   "focus": false,
+   "research": true
+  },
+  {
+   "code": "CNYTN",
+   "name": "Shenzhen (Yantian)",
+   "country": "CN",
+   "flag": "🇨🇳",
+   "region": "FE",
+   "lon": 114.2921,
+   "lat": 22.5835,
+   "focus": false,
+   "research": true
+  },
+  {
+   "code": "CNTAO",
+   "name": "Qingdao",
+   "country": "CN",
+   "flag": "🇨🇳",
+   "region": "FE",
+   "lon": 120.3853,
+   "lat": 36.065,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "HKHKG",
+   "name": "Hong Kong",
+   "country": "HK",
+   "flag": "🇭🇰",
+   "region": "FE",
+   "lon": 114.1701,
+   "lat": 22.2948,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "KRPUS",
+   "name": "Busan",
+   "country": "KR",
+   "flag": "🇰🇷",
+   "region": "FE",
+   "lon": 129.0358,
+   "lat": 35.0982,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "SGSIN",
+   "name": "Singapore",
+   "country": "SG",
+   "flag": "🇸🇬",
+   "region": "FE",
+   "lon": 103.8325,
+   "lat": 1.2392,
+   "focus": false,
+   "research": true
+  },
+  {
+   "code": "MYPKG",
+   "name": "Port Klang",
+   "country": "MY",
+   "flag": "🇲🇾",
+   "region": "FE",
+   "lon": 101.3826,
+   "lat": 3.0034,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "MYTPP",
+   "name": "Tanjung Pelepas",
+   "country": "MY",
+   "flag": "🇲🇾",
+   "region": "FE",
+   "lon": 103.5484,
+   "lat": 1.3559,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "INNSA",
+   "name": "Nhava Sheva",
+   "country": "IN",
+   "flag": "🇮🇳",
+   "region": "ISC",
+   "lon": 72.93,
+   "lat": 18.97,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "LKCMB",
+   "name": "Colombo",
+   "country": "LK",
+   "flag": "🇱🇰",
+   "region": "ISC",
+   "lon": 79.8486,
+   "lat": 6.9308,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "USLAX",
+   "name": "Los Angeles",
+   "country": "US",
+   "flag": "🇺🇸",
+   "region": "USWC",
+   "lon": -118.2833,
+   "lat": 33.7167,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "USLGB",
+   "name": "Long Beach",
+   "country": "US",
+   "flag": "🇺🇸",
+   "region": "USWC",
+   "lon": -118.1933,
+   "lat": 33.7386,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "USNYC",
+   "name": "New York-New Jersey",
+   "country": "US",
+   "flag": "🇺🇸",
+   "region": "USEC",
+   "lon": -74.0177,
+   "lat": 40.7055,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "USSAV",
+   "name": "Savannah",
+   "country": "US",
+   "flag": "🇺🇸",
+   "region": "USEC",
+   "lon": -81.0997,
+   "lat": 32.0866,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "USHOU",
+   "name": "Houston",
+   "country": "US",
+   "flag": "🇺🇸",
+   "region": "USEC",
+   "lon": -95.2872,
+   "lat": 29.7458,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "BRSSZ",
+   "name": "Santos",
+   "country": "BR",
+   "flag": "🇧🇷",
+   "region": "SAEC",
+   "lon": -46.3208,
+   "lat": -23.9738,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "NGAPP",
+   "name": "Lagos (Apapa)",
+   "country": "NG",
+   "flag": "🇳🇬",
+   "region": "WAF",
+   "lon": 3.3924,
+   "lat": 6.4486,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "CIABJ",
+   "name": "Abidjan",
+   "country": "CI",
+   "flag": "🇨🇮",
+   "region": "WAF",
+   "lon": -3.978,
+   "lat": 5.2562,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "SNDKR",
+   "name": "Dakar",
+   "country": "SN",
+   "flag": "🇸🇳",
+   "region": "WAF",
+   "lon": -17.4408,
+   "lat": 14.6824,
+   "focus": false,
+   "research": false
+  },
+  {
+   "code": "ZADUR",
+   "name": "Durban",
+   "country": "ZA",
+   "flag": "🇿🇦",
+   "region": "SAF",
+   "lon": 31.0167,
+   "lat": -29.8667,
+   "focus": false,
+   "research": false
+  }
+ ],
+ "regions": {
+  "FE": {
+   "name": "Far East and Southeast Asia"
+  },
+  "NEU": {
+   "name": "North Europe"
+  },
+  "MED": {
+   "name": "Mediterranean"
+  },
+  "MA": {
+   "name": "Morocco",
+   "parent": "MED"
+  },
+  "MEG": {
+   "name": "Middle East Gulf and Red Sea"
+  },
+  "ISC": {
+   "name": "Indian Subcontinent"
+  },
+  "USWC": {
+   "name": "US West Coast"
+  },
+  "USEC": {
+   "name": "US East and Gulf Coast"
+  },
+  "SAEC": {
+   "name": "South America East Coast"
+  },
+  "WAF": {
+   "name": "West Africa"
+  },
+  "SAF": {
+   "name": "South Africa"
+  }
+ }
+}

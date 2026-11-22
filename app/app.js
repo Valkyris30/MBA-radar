@@ -335,8 +335,9 @@ Object.keys(DESKS).forEach((id) => {
   };
 });
 
+const isDesk = (id) => !!DESKS[id] || id === 'freight';
 const state = {
-  desk: DESKS[store.get('mr.desk', 'study')] ? store.get('mr.desk', 'study') : 'study',
+  desk: isDesk(store.get('mr.desk', 'study')) ? store.get('mr.desk', 'study') : 'study',
   selected: null,      // an article id, or 'brief' for the maritime morning brief
 };
 let geom = null;       // last radar geometry, reused for hover links
@@ -429,7 +430,28 @@ function visible({ view, ignoreNode = false } = {}) {
 
 /* ── Header, desk switch, chips, feed ───────────────────── */
 
+function deskButtons() {
+  document.querySelectorAll('.desks button').forEach((b) => {
+    const on = b.dataset.desk === state.desk;
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-pressed', String(on));
+    const D = DESK_STATE[b.dataset.desk];
+    const unread = D ? D.today.filter((a) => !read.has(a.id)).length : 0;
+    b.querySelector('b').textContent = unread ? String(unread) : '';
+  });
+}
+
+function renderFreightHeader() {
+  const date = new Date().toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
+  $('#title').textContent = 'Freight Rates';
+  document.title = 'Freight Rates · MBA Radar';
+  $('#brief').textContent = `${date} · ${window.Freight ? window.Freight.briefLine() : ''}`;
+  $('#updated').textContent = window.Freight && window.Freight.updated ? `Updated ${ago(window.Freight.updated)}` : '';
+  deskButtons();
+}
+
 function renderHeader() {
+  if (state.desk === 'freight') { renderFreightHeader(); return; }
   const spec = def();
   const D = cur();
   $('#title').textContent = spec.title;
@@ -439,14 +461,8 @@ function renderHeader() {
   $('#updated').textContent = D.meta.generatedAt ? `Updated ${ago(D.meta.generatedAt)}` : '';
   const banner = D.loaded ? spec.banner(D) : '';
   $('#banner').innerHTML = banner ? `<div class="banner">${esc(banner)}</div>` : '';
-  document.querySelectorAll('.desks button').forEach((b) => {
-    const on = b.dataset.desk === state.desk;
-    b.classList.toggle('on', on);
-    b.setAttribute('aria-pressed', String(on));
-    const unread = DESK_STATE[b.dataset.desk].today.filter((a) => !read.has(a.id)).length;
-    b.querySelector('b').textContent = unread ? String(unread) : '';
-  });
-  document.querySelectorAll('.seg button').forEach((b) => {
+  deskButtons();
+  document.querySelectorAll('.side .seg button').forEach((b) => {
     const on = b.dataset.view === D.view;
     b.classList.toggle('on', on);
     b.setAttribute('aria-pressed', String(on));
@@ -460,6 +476,7 @@ function renderHeader() {
 }
 
 function renderChips() {
+  if (state.desk === 'freight') return;
   const spec = def();
   const D = cur();
   const all = visible({ ignoreNode: true });
@@ -511,6 +528,7 @@ function briefCard() {
 }
 
 function renderFeed() {
+  if (state.desk === 'freight') return;
   const D = cur();
   if (!D.loaded) {
     $('#feed').innerHTML = D.failed
@@ -547,6 +565,7 @@ function renderFeed() {
 /* ── Radar (always today's edition) ─────────────────────── */
 
 function renderRadar() {
+  if (state.desk === 'freight') return;
   const wrap = $('#radarWrap');
   const W = wrap.clientWidth;
   const H = wrap.clientHeight;
@@ -710,6 +729,7 @@ function showTip(id) {
 /* ── Detail ─────────────────────────────────────────────── */
 
 function renderDetail() {
+  if (state.desk === 'freight') return;
   const el = $('#detail');
   const spec = def();
   const D = cur();
@@ -750,8 +770,18 @@ function parseHash() {
   return { desk: m[1] === 'm' ? 'maritime' : 'study', id: decodeURIComponent(m[2]) };
 }
 
+function showFreight() {
+  document.body.classList.remove('detail-open');
+  document.body.dataset.desk = 'freight';
+  state.selected = null;
+  renderFreightHeader();
+  if (window.Freight) window.Freight.show().then(renderFreightHeader);
+}
+
 function route() {
   const h = parseHash();
+  if (!h && state.desk === 'freight') { showFreight(); return; }
+  if (window.Freight) window.Freight.hide();
   if (h && h.desk !== state.desk) { state.desk = h.desk; store.set('mr.desk', state.desk); renderChips(); }
   const D = cur();
   state.selected = h && (h.id === 'brief' ? (state.desk === 'maritime' && D.brief ? 'brief' : null) : (D.byId[h.id] ? h.id : null));
@@ -774,6 +804,7 @@ function renderAll() {
 }
 
 function refreshLists() {
+  if (state.desk === 'freight') return;
   renderHeader();
   renderChips();
   renderFeed();
@@ -794,7 +825,7 @@ function setFilter(id) {
 }
 
 function setDesk(id) {
-  if (!DESKS[id]) return;
+  if (!isDesk(id)) return;
   if (id === state.desk && !state.selected) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
   state.desk = id;
   store.set('mr.desk', id);
@@ -836,7 +867,7 @@ function toggleSaved(id) {
 function bind() {
   window.addEventListener('hashchange', route);
   window.addEventListener('popstate', route);
-  $('#refresh').addEventListener('click', () => load(true));
+  $('#refresh').addEventListener('click', () => { load(true); if (state.desk === 'freight' && window.Freight) window.Freight.refresh(); });
 
   document.querySelectorAll('.desks button').forEach((b) => b.addEventListener('click', () => setDesk(b.dataset.desk)));
 
@@ -861,7 +892,7 @@ function bind() {
     refreshLists();
   });
 
-  document.querySelectorAll('.seg button').forEach((b) => b.addEventListener('click', () => {
+  document.querySelectorAll('.side .seg button').forEach((b) => b.addEventListener('click', () => {
     cur().view = b.dataset.view;
     refreshLists();
   }));
@@ -905,11 +936,11 @@ function bind() {
   });
 
   let raf;
-  new ResizeObserver(() => { cancelAnimationFrame(raf); raf = requestAnimationFrame(renderRadar); }).observe(radar);
+  new ResizeObserver(() => { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => { if (state.desk !== 'freight') renderRadar(); }); }).observe(radar);
 
   // Pick up a fresh edition when the app comes back to the foreground.
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'visible') load(false);
+    if (document.visibilityState === 'visible') { load(false); if (state.desk === 'freight' && window.Freight) window.Freight.refresh(); }
   });
 }
 

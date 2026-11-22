@@ -14,7 +14,15 @@ relevant module applied to it, and an exam-style question.
   (focus markets: Morocco, the UK, Spain, France and the Netherlands get 60% of the 20 daily notes). The 101 sources are in
   `collector/maritime_sources.json`; `"filter": true` keeps only items about ports, shipping, customs or
   trade from general news sites. Output: `app/data/maritime.json` and `app/data/maritime-archive.json`.
-- `.github/workflows/daily.yml` runs both collectors each morning and publishes the app to GitHub Pages.
+- `collector/freight.py` feeds the Freight desk (`app/freight.js`): a 3D globe with the sea route and a ship
+  sailing it, and an indicative cost per container. Each morning it reads the public indices (Freightos FBX,
+  Xeneta XSI-C, Drewry WCI) and exchange rates, then has Claude search the web, on a rotation, for what no
+  free index covers: other lanes, terminal handling charges at the main ports, and carriers' announced
+  surcharges. Every figure keeps its source. Ports, lanes, carriers and container factors are in
+  `collector/freight_config.json`; sea routes are built once with `collector/build_routes.py` (needs
+  `pip install searoute`). Research volume: repository variables `FREIGHT_LANES_PER_DAY`,
+  `FREIGHT_PORTS_PER_DAY`, `FREIGHT_CARRIERS_PER_DAY` (about $0.01 per web search).
+- `.github/workflows/daily.yml` runs the three collectors each morning and publishes the app to GitHub Pages.
 
 ## Change what the app covers
 

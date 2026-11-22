@@ -1,7 +1,7 @@
 /* Offline support: always try the network first so the edition is fresh,
    and fall back to the last copy we saw when there is no connection. */
-const CACHE = 'mba-radar-v3';
-const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png', 'data/articles.json', 'data/archive.json', 'data/maritime.json', 'data/maritime-archive.json'];
+const CACHE = 'mba-radar-v4';
+const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'freight.js', 'data/ports.json', 'data/freight.json', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png', 'data/articles.json', 'data/archive.json', 'data/maritime.json', 'data/maritime-archive.json'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
