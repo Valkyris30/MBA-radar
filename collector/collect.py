@@ -67,7 +67,7 @@ def log(msg: str) -> None:
 
 # ── Fetching ────────────────────────────────────────────────────────────────
 
-def http_get(url: str, limit: int = 4_000_000) -> tuple[int, bytes, str]:
+def http_get(url: str, limit: int = 4_000_000, hops: int = 3) -> tuple[int, bytes, str]:
     """Return (status, body, charset). Never raises for HTTP or network errors: status 0 means no answer."""
     req = urllib.request.Request(url, headers={
         "User-Agent": USER_AGENT,
@@ -78,6 +78,9 @@ def http_get(url: str, limit: int = 4_000_000) -> tuple[int, bytes, str]:
         with urllib.request.urlopen(req, timeout=25) as res:
             return res.status, res.read(limit), res.headers.get_content_charset() or "utf-8"
     except urllib.error.HTTPError as err:
+        location = err.headers.get("Location") if err.headers else None
+        if err.code in (307, 308) and location and hops > 0:
+            return http_get(urllib.parse.urljoin(url, location), limit, hops - 1)
         return err.code, b"", "utf-8"
     except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as err:
         log(f"    network error for {url}: {err}")
@@ -218,19 +221,12 @@ def local(tag: str) -> str:
     return tag.rsplit("}", 1)[-1].lower() if isinstance(tag, str) else ""
 
 
-def read_feed(source: dict) -> list[dict]:
-    """Parse an RSS or Atom feed, whatever namespaces it uses."""
-    status, body, _ = http_get(source["feed"])
-    if status != 200 or not body:
-        log(f"  {source['name']}: feed returned {status}, skipped")
-        return []
-    try:
-        root = ET.fromstring(body)
-    except ET.ParseError as err:
-        log(f"  {source['name']}: feed is not valid XML ({err}), skipped")
-        return []
+FIELDS = ("title", "description", "summary", "encoded", "content", "pubdate", "published", "updated", "date")
 
-    items = []
+
+def strict_entries(root) -> list[tuple[dict, str]]:
+    """Entries from a well-formed RSS or Atom document, whatever namespaces it uses."""
+    entries = []
     for node in root.iter():
         if local(node.tag) not in ("item", "entry"):
             continue
@@ -244,10 +240,58 @@ def read_feed(source: dict) -> list[dict]:
                     link = link or href
                 elif child.text and child.text.strip():
                     link = link or child.text.strip()
-            elif name in ("title", "description", "summary", "encoded", "content", "pubdate", "published", "updated", "date"):
+            elif name in FIELDS:
                 text = "".join(child.itertext()).strip()
                 if text and name not in fields:
                     fields[name] = text
+        entries.append((fields, link))
+    return entries
+
+
+_ENTRY = re.compile(r"<(item|entry)\b[^>]*>(.*?)</\1\s*>", re.S | re.I)
+_CDATA = re.compile(r"<!\[CDATA\[(.*?)\]\]>", re.S)
+
+
+def loose_entries(text: str) -> list[tuple[dict, str]]:
+    """Fallback for broken feeds: pull each entry's fields out with patterns instead of an XML parser."""
+    entries = []
+    for _, block in _ENTRY.findall(text):
+        fields: dict[str, str] = {}
+        for name, tag in (("title", "title"), ("description", "description"), ("summary", "summary"),
+                          ("encoded", r"content:encoded"), ("content", "content"), ("pubdate", "pubDate"),
+                          ("published", "published"), ("updated", "updated"), ("date", r"dc:date")):
+            m = re.search(rf"<{tag}\b[^>]*>(.*?)</{tag}\s*>", block, re.S | re.I)
+            if m:
+                value = _CDATA.sub(lambda c: c.group(1), m.group(1)).strip()
+                if value:
+                    fields[name] = html.unescape(value) if name in ("title", "pubdate", "published", "updated", "date") else value
+        link = ""
+        m = re.search(r"<link\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>", block, re.I) or re.search(r"<link\b[^>]*>(.*?)</link\s*>", block, re.S | re.I)
+        if m:
+            link = html.unescape(_CDATA.sub(lambda c: c.group(1), m.group(1)).strip())
+        if not link:
+            m = re.search(r"<guid\b[^>]*>(https?://[^<]+)</guid>", block, re.I)
+            link = m.group(1).strip() if m else ""
+        entries.append((fields, link))
+    return entries
+
+
+def read_feed(source: dict) -> list[dict]:
+    """Parse an RSS or Atom feed, whatever namespaces it uses."""
+    status, body, _ = http_get(source["feed"])
+    if status != 200 or not body:
+        log(f"  {source['name']}: feed returned {status}, skipped")
+        return []
+    try:
+        entries = strict_entries(ET.fromstring(body))
+    except ET.ParseError:
+        entries = loose_entries(body.decode("utf-8", "replace"))
+        if not entries:
+            log(f"  {source['name']}: feed could not be read, skipped")
+            return []
+
+    items = []
+    for fields, link in entries:
         title = strip_html(fields.get("title")).replace("\n", " ")
         if not title or not link:
             continue

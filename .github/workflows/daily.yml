@@ -54,7 +54,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MBA_RADAR_MODEL: ${{ vars.MBA_RADAR_MODEL || 'claude-haiku-5-5' }}
-          MARITIME_MAX_NEW: ${{ vars.MARITIME_MAX_NEW || '12' }}
+          MARITIME_MAX_NEW: ${{ vars.MARITIME_MAX_NEW || '20' }}
         run: python collector/maritime.py
 
       - name: Save the edition

@@ -11,7 +11,7 @@ places it on the countries in maritime_config.json, and adds a morning brief for
 
 Settings (environment variables, all optional):
     MBA_RADAR_MODEL            Claude model id                         (default claude-haiku-5-5)
-    MARITIME_MAX_NEW           briefing notes written per run          (default 12)
+    MARITIME_MAX_NEW           briefing notes written per run          (default 20)
     MARITIME_FOCUS_SHARE       share kept for the focus countries      (default 0.6)
 """
 from __future__ import annotations
@@ -30,13 +30,13 @@ HERE = Path(__file__).resolve().parent
 OUTPUT = HERE.parent / "app" / "data" / "maritime.json"
 ARCHIVE = HERE.parent / "app" / "data" / "maritime-archive.json"
 
-MAX_NEW = int(os.environ.get("MARITIME_MAX_NEW", "12"))
+MAX_NEW = int(os.environ.get("MARITIME_MAX_NEW", "20"))
 FOCUS_SHARE = float(os.environ.get("MARITIME_FOCUS_SHARE", "0.6"))
-MAX_ABSTRACT = 5          # news briefs often work from a short public summary
+MAX_ABSTRACT = 8          # news briefs often work from a short public summary
 SHORTLIST = MAX_NEW * 3
 MAX_AGE_DAYS = 3          # news goes stale fast
 PER_SOURCE = 15
-MAX_CANDIDATES = 320
+MAX_CANDIDATES = 650
 NOTE_DAYS = 7
 ARCHIVE_DAYS = 365
 ARCHIVE_MAX = 5000
@@ -57,7 +57,10 @@ KEYWORDS = re.compile(r"""\b(
     free\ zones?|zone\ franche|douanes?|douanier|portuaires?|fret|navires?|conteneurs?|transitaires?|
     importations?|exportations?|commerce\ ext[ée]rieur|logistique|armateurs?|tanger\ med|nador|marsa\ maroc|
     puertos?|aduanas?|aranceles?|arancel|navieras?|mercanc[ií]as|contenedores?|buques?|exportaci[oó]n|importaci[oó]n|
-    comercio\ exterior|log[ií]stica|havens?|scheepvaart|vracht|invoer|uitvoer|douane
+    comercio\ exterior|log[ií]stica|havens?|scheepvaart|vracht|invoer|uitvoer|douane|
+    mer\ rouge|mar\ rojo|canal\ de\ suez|d[ée]troit|droits?\ de\ douane|libre[-\ ][ée]change|maritimes?|
+    portuari[oa]s?|mar[ií]tim[oa]s?|transitarios?|comercio|exportaciones|importaciones|tarifas?|
+    zeehavens?|zeevaart|handel|tarieven|accijns|freight\ rates?|teu
 )\b""", re.I | re.X)
 
 
@@ -220,7 +223,7 @@ def focus_names(config: dict) -> str:
 
 def choose(claude: base.Claude, candidates: list[dict], config: dict) -> tuple[list[dict], list[dict]]:
     listing = "\n".join(
-        f"{n}. [{c['source']}] {c['title']} — {c['abstract'][:240]}" for n, c in enumerate(candidates, 1))
+        f"{n}. [{c['source']}] {c['title']} — {c['abstract'][:170]}" for n, c in enumerate(candidates, 1))
     answer = claude.ask(
         SELECT_SYSTEM.format(audience=AUDIENCE, countries=country_block(config), focus=focus_names(config)),
         f"Pick up to {SHORTLIST} of these {len(candidates)} items in total.\n\n{listing}",

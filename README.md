@@ -11,7 +11,7 @@ relevant module applied to it, and an exam-style question.
   and rewrites `app/data/articles.json`.
 - `collector/maritime.py` writes the Maritime desk: a morning brief for forwarders, shipping agents and
   importers, and a briefing note per story, placed on the countries in `collector/maritime_config.json`
-  (focus markets: Morocco, the UK, Spain, France and the Netherlands). Sources are in
+  (focus markets: Morocco, the UK, Spain, France and the Netherlands get 60% of the 20 daily notes). The 101 sources are in
   `collector/maritime_sources.json`; `"filter": true` keeps only items about ports, shipping, customs or
   trade from general news sites. Output: `app/data/maritime.json` and `app/data/maritime-archive.json`.
 - `.github/workflows/daily.yml` runs both collectors each morning and publishes the app to GitHub Pages.
