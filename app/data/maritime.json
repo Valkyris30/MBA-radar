@@ -1,0 +1,180 @@
+{
+ "version": 1,
+ "generatedAt": null,
+ "model": null,
+ "countries": [
+  {
+   "id": "GB",
+   "name": "United Kingdom",
+   "short": "UK",
+   "flag": "🇬🇧",
+   "color": "#7fb4ff",
+   "focus": true
+  },
+  {
+   "id": "NL",
+   "name": "Netherlands",
+   "short": "Netherlands",
+   "flag": "🇳🇱",
+   "color": "#7fb4ff",
+   "focus": true
+  },
+  {
+   "id": "BE",
+   "name": "Belgium",
+   "short": "Belgium",
+   "flag": "🇧🇪",
+   "color": "#7fb4ff",
+   "focus": false
+  },
+  {
+   "id": "DE",
+   "name": "Germany",
+   "short": "Germany",
+   "flag": "🇩🇪",
+   "color": "#7fb4ff",
+   "focus": false
+  },
+  {
+   "id": "EU",
+   "name": "European Union",
+   "short": "EU",
+   "flag": "🇪🇺",
+   "color": "#3b82f6",
+   "focus": false
+  },
+  {
+   "id": "FR",
+   "name": "France",
+   "short": "France",
+   "flag": "🇫🇷",
+   "color": "#7fb4ff",
+   "focus": true
+  },
+  {
+   "id": "ES",
+   "name": "Spain",
+   "short": "Spain",
+   "flag": "🇪🇸",
+   "color": "#7fb4ff",
+   "focus": true
+  },
+  {
+   "id": "MA",
+   "name": "Morocco",
+   "short": "Morocco",
+   "flag": "🇲🇦",
+   "color": "#ff8a4c",
+   "focus": true
+  },
+  {
+   "id": "SA",
+   "name": "Saudi Arabia",
+   "short": "Saudi",
+   "flag": "🇸🇦",
+   "color": "#ffd166",
+   "focus": false
+  },
+  {
+   "id": "QA",
+   "name": "Qatar",
+   "short": "Qatar",
+   "flag": "🇶🇦",
+   "color": "#ffd166",
+   "focus": false
+  },
+  {
+   "id": "AE",
+   "name": "United Arab Emirates",
+   "short": "UAE",
+   "flag": "🇦🇪",
+   "color": "#ffd166",
+   "focus": false
+  },
+  {
+   "id": "OM",
+   "name": "Oman",
+   "short": "Oman",
+   "flag": "🇴🇲",
+   "color": "#ffd166",
+   "focus": false
+  },
+  {
+   "id": "MY",
+   "name": "Malaysia",
+   "short": "Malaysia",
+   "flag": "🇲🇾",
+   "color": "#f06bd6",
+   "focus": false
+  },
+  {
+   "id": "SG",
+   "name": "Singapore",
+   "short": "Singapore",
+   "flag": "🇸🇬",
+   "color": "#f06bd6",
+   "focus": false
+  },
+  {
+   "id": "CN",
+   "name": "China",
+   "short": "China",
+   "flag": "🇨🇳",
+   "color": "#f06bd6",
+   "focus": false
+  },
+  {
+   "id": "KR",
+   "name": "South Korea",
+   "short": "Korea",
+   "flag": "🇰🇷",
+   "color": "#f06bd6",
+   "focus": false
+  },
+  {
+   "id": "US",
+   "name": "United States",
+   "short": "USA",
+   "flag": "🇺🇸",
+   "color": "#c6f04f",
+   "focus": false
+  },
+  {
+   "id": "GLOBAL",
+   "name": "Global",
+   "short": "Global",
+   "flag": "🌐",
+   "color": "#d9dee9",
+   "focus": false
+  }
+ ],
+ "categories": [
+  {
+   "id": "port",
+   "name": "Ports",
+   "color": "#2de2e6"
+  },
+  {
+   "id": "customs",
+   "name": "Customs",
+   "color": "#ffb454"
+  },
+  {
+   "id": "regulation",
+   "name": "Regulation",
+   "color": "#a78bfa"
+  },
+  {
+   "id": "freight",
+   "name": "Freight market",
+   "color": "#4ff0a8"
+  },
+  {
+   "id": "trade",
+   "name": "Trade and routes",
+   "color": "#ff6b8b"
+  }
+ ],
+ "brief": null,
+ "items": []
+}

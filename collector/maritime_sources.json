@@ -1,0 +1,53 @@
+[
+  { "name": "Lloyd's List", "feed": "https://www.lloydslist.com/rss/lloyds-list", "site": "https://www.lloydslist.com/", "read_page": false },
+  { "name": "Splash247", "feed": "https://splash247.com/feed/", "site": "https://splash247.com/" },
+  { "name": "gCaptain", "feed": "https://gcaptain.com/feed/", "site": "https://gcaptain.com/" },
+  { "name": "The Maritime Executive", "feed": "https://maritime-executive.com/articles.rss", "site": "https://maritime-executive.com/" },
+  { "name": "Container News", "feed": "https://container-news.com/feed/", "site": "https://container-news.com/" },
+  { "name": "Hellenic Shipping News", "feed": "https://www.hellenicshippingnews.com/feed/", "site": "https://www.hellenicshippingnews.com/" },
+  { "name": "Port Strategy", "feed": "https://www.portstrategy.com/rss", "site": "https://www.portstrategy.com/" },
+  { "name": "PortSEurope", "feed": "https://www.portseurope.com/feed/", "site": "https://www.portseurope.com/" },
+  { "name": "World Cargo News", "feed": "https://www.worldcargonews.com/rss", "site": "https://www.worldcargonews.com/" },
+  { "name": "Marine Insight", "feed": "https://www.marineinsight.com/feed/", "site": "https://www.marineinsight.com/" },
+  { "name": "FreightWaves Maritime", "feed": "https://www.freightwaves.com/news/category/news/maritime/feed", "site": "https://www.freightwaves.com/" },
+  { "name": "The Loadstar", "feed": "https://theloadstar.com/feed/", "site": "https://theloadstar.com/" },
+  { "name": "Freightos", "feed": "https://www.freightos.com/feed/", "site": "https://www.freightos.com/" },
+  { "name": "Xeneta", "feed": "https://www.xeneta.com/blog/rss.xml", "site": "https://www.xeneta.com/" },
+
+  { "name": "HMRC", "feed": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=hm-revenue-customs", "site": "https://www.gov.uk/", "filter": true },
+  { "name": "HMRC guidance", "feed": "https://www.gov.uk/search/guidance-and-regulation.atom?organisations%5B%5D=hm-revenue-customs", "site": "https://www.gov.uk/", "filter": true },
+  { "name": "UK Department for Transport", "feed": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=department-for-transport&topics%5B%5D=maritime-and-shipping", "site": "https://www.gov.uk/" },
+  { "name": "UK Department for Business and Trade", "feed": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=department-for-business-and-trade", "site": "https://www.gov.uk/", "filter": true },
+  { "name": "British Ports Association", "feed": "https://www.britishports.org.uk/feed/", "site": "https://www.britishports.org.uk/" },
+
+  { "name": "EU Taxation and Customs Union", "feed": "https://taxation-customs.ec.europa.eu/node/2/rss_en", "site": "https://taxation-customs.ec.europa.eu/" },
+  { "name": "EU Mobility and Transport", "feed": "https://transport.ec.europa.eu/node/2/rss_en", "site": "https://transport.ec.europa.eu/", "filter": true },
+
+  { "name": "French Customs (Douane)", "feed": "https://www.douane.gouv.fr/rss.xml", "site": "https://www.douane.gouv.fr/" },
+  { "name": "WK Transport Logistique", "feed": "https://www.wk-transport-logistique.fr/rss", "site": "https://www.wk-transport-logistique.fr/", "filter": true },
+
+  { "name": "Valenciaport", "feed": "https://www.valenciaport.com/en/feed/", "site": "https://www.valenciaport.com/" },
+  { "name": "Cadena de Suministro", "feed": "https://www.cadenadesuministro.es/uploads/feeds/feed_cadena-de-suministro_es.xml", "site": "https://www.cadenadesuministro.es/", "filter": true },
+  { "name": "Expansión", "feed": "https://e00-expansion.uecdn.es/rss/economia.xml", "site": "https://www.expansion.com/", "filter": true },
+
+  { "name": "Port of Rotterdam", "feed": "https://www.portofrotterdam.com/en/rss.xml", "site": "https://www.portofrotterdam.com/" },
+  { "name": "Schuttevaer", "feed": "https://www.schuttevaer.nl/feed/", "site": "https://www.schuttevaer.nl/", "filter": true },
+  { "name": "DutchNews", "feed": "https://www.dutchnews.nl/feed/", "site": "https://www.dutchnews.nl/", "filter": true },
+
+  { "name": "Tanger Med", "feed": "https://www.tangermedport.com/en/feed/", "site": "https://www.tangermedport.com/" },
+  { "name": "Hespress English", "feed": "https://en.hespress.com/feed", "site": "https://en.hespress.com/", "filter": true },
+  { "name": "Médias24", "feed": "https://medias24.com/feed/", "site": "https://medias24.com/", "filter": true },
+  { "name": "LesEco.ma", "feed": "https://leseco.ma/feed/", "site": "https://leseco.ma/", "filter": true },
+  { "name": "Challenge.ma", "feed": "https://www.challenge.ma/feed/", "site": "https://www.challenge.ma/", "filter": true },
+  { "name": "Infomédiaire", "feed": "https://www.infomediaire.net/feed/", "site": "https://www.infomediaire.net/", "filter": true },
+  { "name": "Maroc Diplomatique", "feed": "https://maroc-diplomatique.net/feed/", "site": "https://maroc-diplomatique.net/", "filter": true },
+
+  { "name": "Logistics Middle East", "feed": "https://www.logisticsmiddleeast.com/feed", "site": "https://www.logisticsmiddleeast.com/" },
+  { "name": "The National", "feed": "https://www.thenationalnews.com/arc/outboundfeeds/rss/category/business/?outputType=xml", "site": "https://www.thenationalnews.com/", "filter": true },
+  { "name": "Arabian Business", "feed": "https://www.arabianbusiness.com/feed", "site": "https://www.arabianbusiness.com/", "filter": true },
+  { "name": "Arab News", "feed": "https://www.arabnews.com/rss.xml", "site": "https://www.arabnews.com/", "filter": true },
+  { "name": "Saudi Gazette", "feed": "https://saudigazette.com.sa/rssFeed/74", "site": "https://saudigazette.com.sa/", "filter": true },
+
+  { "name": "The Business Times", "feed": "https://www.businesstimes.com.sg/rss/transport-logistics", "site": "https://www.businesstimes.com.sg/" },
+  { "name": "South China Morning Post", "feed": "https://www.scmp.com/rss/92/feed", "site": "https://www.scmp.com/", "filter": true }
+]

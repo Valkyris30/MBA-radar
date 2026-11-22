@@ -117,6 +117,24 @@ a { color: inherit; }
   animation: spin 10s linear infinite;
   pointer-events: none;
 }
+.radar-foot { padding: 2px 12px 8px; }
+.legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-bottom: 6px; }
+.leg {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  font-size: 12px;
+  font-weight: 550;
+  color: var(--mu);
+  transition: opacity 0.2s, border-color 0.2s, color 0.2s;
+}
+.leg i { width: 8px; height: 8px; border-radius: 50%; background: var(--c); box-shadow: 0 0 8px var(--c); }
+.leg:hover, .leg.on { color: var(--tx); border-color: var(--c); }
+.leg.off { opacity: 0.45; }
 .radar-hint {
   text-align: center;
   font-size: 12px;
@@ -132,6 +150,8 @@ svg .core-label { fill: var(--dim); font: 10px var(--mono); text-anchor: middle;
 svg .mod { cursor: pointer; }
 svg .mod circle.node { fill: var(--bg); stroke: var(--c); stroke-width: 2; transition: r 0.2s; }
 svg .mod circle.glow { fill: var(--c); opacity: 0.16; }
+svg text.flagonly { font-size: 17px; }
+svg .mod.focus text { fill: var(--tx); }
 svg .mod circle.now { fill: none; stroke: var(--c); stroke-width: 1.4; stroke-dasharray: 3 3; }
 svg .mod text { fill: var(--mu); font: 600 11.5px var(--sans); letter-spacing: 0.02em; transition: fill 0.2s; }
 svg .mod text .n { fill: var(--dim); font: 10.5px var(--mono); }
@@ -342,6 +362,33 @@ svg .link { stroke-linecap: round; stroke-dasharray: 4 6; animation: flow 1.2s l
 .tag em { font: normal 10px var(--mono); opacity: 0.8; }
 
 .tag.plain { --c: #9aa6c4; }
+.tag.flagtag { --c: #9aa6c4; color: var(--tx); }
+.chip .flag { font-size: 14px; line-height: 1; }
+.urgent {
+  margin-left: 4px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: rgba(255, 92, 120, 0.16);
+  border: 1px solid rgba(255, 92, 120, 0.55);
+  color: #ff9aae;
+  font: 600 10px var(--mono);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Maritime: the morning brief at the top of the feed. */
+.brief-card {
+  --c: #2de2e6;
+  border-color: rgba(45, 226, 230, 0.45);
+  background:
+    radial-gradient(120% 140% at 100% 0%, rgba(139, 124, 255, 0.16), transparent 60%),
+    linear-gradient(180deg, rgba(45, 226, 230, 0.08), transparent 70%),
+    var(--panel);
+}
+.brief-card::before { background: linear-gradient(180deg, var(--ac), var(--ac-2)); opacity: 1; }
+.brief-card .card-top .src { color: var(--ac); text-transform: uppercase; letter-spacing: 0.12em; }
+.brief-card h3 { font-size: 16.5px; }
+.brief-card .take { -webkit-line-clamp: 3; }
 
 /* Archive: one light row per article, with the link to the original. */
 .arow {
@@ -533,6 +580,75 @@ body.detail-open .detail { transform: none; visibility: visible; transition: tra
 .basis.abs { border-color: rgba(255, 180, 84, 0.5); color: #ffcf8f; }
 
 .overview { padding: 28px 22px; }
+.d-body .overview { padding: 0; }
+.brief-view .eyebrow span { color: var(--ac); text-transform: uppercase; letter-spacing: 0.12em; }
+.brief-view h2 { margin-top: 10px; }
+.overview .takeaway { margin-top: 4px; }
+.linkish { all: unset; cursor: pointer; color: #cfd7ee; border-bottom: 1px dashed rgba(150, 180, 255, 0.35); }
+.linkish:hover { color: var(--tx); border-bottom-color: var(--ac); }
+.deadlines { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.deadlines li { display: grid; grid-template-columns: 112px 1fr; gap: 12px; padding: 9px 12px; border-radius: 12px; border: 1px solid rgba(255, 180, 84, 0.35); background: rgba(255, 180, 84, 0.06); }
+.dl-date { font: 600 12px var(--mono); color: #ffcf8f; }
+.dl-text { color: #e6ecfa; font-size: 14px; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.prio { padding: 2px 9px; border-radius: 999px; font: 600 10.5px var(--mono); letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--line-2); color: var(--mu); }
+.prio.high { color: #ff9aae; border-color: rgba(255, 92, 120, 0.55); background: rgba(255, 92, 120, 0.12); }
+.prio.medium { color: #ffcf8f; border-color: rgba(255, 180, 84, 0.5); }
+.orig { margin-top: -6px; margin-bottom: 14px; font-size: 12.5px; color: var(--dim); font-style: italic; }
+.action { padding: 14px 16px; border-radius: var(--r); border: 1px solid rgba(79, 240, 168, 0.35); background: rgba(79, 240, 168, 0.06); }
+.action > h3 { color: #4ff0a8; }
+.facts .when b { color: #ffcf8f; font-weight: 600; margin-right: 6px; }
+
+/* Desk switch: a tab bar at the bottom on a phone, a segmented control in the top bar on a computer. */
+.desks {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 7px calc(16px + var(--sr)) calc(7px + var(--sb)) calc(16px + var(--sl));
+  background: rgba(5, 7, 13, 0.86);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+  backdrop-filter: blur(18px) saturate(1.4);
+  border-top: 1px solid var(--line);
+}
+.desks button {
+  position: relative;
+  flex: 1;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 5px 8px;
+  border: 0;
+  border-radius: 12px;
+  background: none;
+  color: var(--dim);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: color 0.2s, background 0.2s;
+}
+.desks button svg { width: 24px; height: 24px; }
+.desks button.on { color: var(--ac); background: rgba(45, 226, 230, 0.08); }
+.desks button b {
+  position: absolute;
+  top: 2px;
+  left: calc(50% + 8px);
+  min-width: 16px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--ac-2);
+  color: #fff;
+  font: 600 10px/16px var(--mono);
+  text-align: center;
+}
+.desks button b:empty { display: none; }
+.app { padding-bottom: calc(66px + var(--sb)); }
 .overview h2 { font-size: 20px; margin: 0 0 6px; }
 .overview > p { color: var(--mu); font-size: 14px; }
 .overview .fit { margin-top: 22px; }
@@ -540,7 +656,7 @@ body.detail-open .detail { transform: none; visibility: visible; transition: tra
 .toast {
   position: fixed;
   left: 50%;
-  bottom: calc(22px + var(--sb));
+  bottom: calc(84px + var(--sb));
   z-index: 40;
   transform: translateX(-50%);
   padding: 10px 16px;
@@ -560,9 +676,33 @@ body.detail-open .detail { transform: none; visibility: visible; transition: tra
     grid-template-rows: auto minmax(0, 1fr);
     height: 100dvh;
   }
-  .topbar { grid-column: 1 / -1; position: static; padding: 12px 22px; }
+  .topbar { grid-column: 1 / -1; grid-row: 1; position: static; padding: 12px 22px; }
+  .app { padding-bottom: 0; }
+  .desks {
+    position: relative;
+    inset: auto;
+    grid-column: 1 / -1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    z-index: 11;
+    gap: 3px;
+    padding: 3px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--panel);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+  .desks button { flex-direction: row; gap: 7px; padding: 6px 16px; font-size: 13px; border-radius: 9px; }
+  .desks button svg { width: 17px; height: 17px; }
+  .desks button.on { background: rgba(45, 226, 230, 0.16); color: var(--tx); }
+  .desks button.on svg { color: var(--ac); }
+  .desks button b { position: static; }
+  .toast { bottom: calc(22px + var(--sb)); }
   .updated { display: inline; }
   .brand h1 { font-size: 19px; }
+  .brand { flex: 0 1 auto; max-width: calc(50% - 150px); }
   .side { grid-column: 1; grid-row: 2; overflow-y: auto; padding: 8px 14px 28px 22px; border-right: 1px solid var(--line); }
   .chips { flex-wrap: wrap; overflow: visible; }
   .radar-panel { grid-column: 2; grid-row: 2; display: flex; flex-direction: column; padding: 8px 18px 6px; min-height: 0; }

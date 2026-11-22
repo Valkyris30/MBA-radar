@@ -9,7 +9,12 @@ relevant module applied to it, and an exam-style question.
 - `collector/collect.py` runs once a day on GitHub Actions. It reads the feeds in `collector/sources.json`,
   asks Claude to choose and analyse the best articles for the modules in `collector/modules.json`,
   and rewrites `app/data/articles.json`.
-- `.github/workflows/daily.yml` schedules the collector and publishes the app to GitHub Pages.
+- `collector/maritime.py` writes the Maritime desk: a morning brief for forwarders, shipping agents and
+  importers, and a briefing note per story, placed on the countries in `collector/maritime_config.json`
+  (focus markets: Morocco, the UK, Spain, France and the Netherlands). Sources are in
+  `collector/maritime_sources.json`; `"filter": true` keeps only items about ports, shipping, customs or
+  trade from general news sites. Output: `app/data/maritime.json` and `app/data/maritime-archive.json`.
+- `.github/workflows/daily.yml` runs both collectors each morning and publishes the app to GitHub Pages.
 
 ## Change what the app covers
 

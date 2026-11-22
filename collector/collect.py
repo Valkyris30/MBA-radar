@@ -550,7 +550,8 @@ def fallback_choice(candidates: list[dict], modules: list[dict]) -> tuple[list[d
     return round_robin(leaning, SHORTLIST), round_robin(rest, SHORTLIST)
 
 
-def build_edition(focus: list[dict], other: list[dict], write) -> int:
+def build_edition(focus: list[dict], other: list[dict], write, max_new: int | None = None,
+                  share: float | None = None, max_abstract: int | None = None) -> int:
     """Decide which shortlisted articles get a study note, and call write(item, text, basis) for each.
 
     The module being studied now gets its share of the edition first, then the other modules fill the
@@ -558,6 +559,9 @@ def build_edition(focus: list[dict], other: list[dict], write) -> int:
     only MAX_ABSTRACT notes may rest on an abstract alone, unless the edition would otherwise be short.
     write() returns True when a note was produced.
     """
+    MAX_NEW = max_new if max_new is not None else globals()["MAX_NEW"]
+    FOCUS_SHARE = share if share is not None else globals()["FOCUS_SHARE"]
+    MAX_ABSTRACT = max_abstract if max_abstract is not None else globals()["MAX_ABSTRACT"]
     made = abstracts = 0
     unread: list[dict] = []
     held: list[tuple[dict, str, str]] = []
