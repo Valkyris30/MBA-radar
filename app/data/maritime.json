@@ -1,7 +1,7 @@
 {
  "version": 1,
- "generatedAt": null,
- "model": null,
+ "generatedAt": "2026-11-22T18:57:12Z",
+ "model": "claude-haiku-5-5",
  "countries": [
   {
    "id": "GB",
@@ -175,6 +175,694 @@
    "color": "#ff6b8b"
   }
  ],
- "brief": null,
- "items": []
+ "brief": {
+  "date": "2026-11-22T18:57:12Z",
+  "headline": "The EU and UK have concluded talks to link their emissions trading systems from 2028, while the EU's ban on clean plastic waste exports to Morocco takes effect from 21 November until May 2029.",
+  "overview": "The United Kingdom and European Union have concluded talks to link their Emissions Trading Systems, with the agreement committed to apply from 2028 and a possible mutual exemption from each side's carbon border mechanism. For Morocco, an EU ban on clean non-hazardous plastic waste exports to non-OECD countries takes effect from 21 November, while the draft 2027 Finance Bill would cut feed duties and exempt live animals and meat from import duties. Ports and trade flows in Morocco continued to grow, with port traffic up 3.1% to 202.7 million tonnes to the end of September. On freight, transpacific container rates fell for a seventh week while Far East to Mediterranean spot rates rose sharply.",
+  "highlights": [
+   {
+    "text": "The EU and UK have concluded talks to link their emissions trading systems, with application committed from 2028, subject to ratification.",
+    "id": "m-7ba210f66ecd"
+   },
+   {
+    "text": "The EU bans exports of clean plastic waste for recycling to Morocco and other non-OECD countries until 21 May 2029.",
+    "id": "m-c99510118382"
+   },
+   {
+    "text": "The draft 2027 Moroccan Finance Bill would cut feed raw material duties to 2.5% and exempt live animals and meat from import duties.",
+    "id": "m-0b383a0f7596"
+   },
+   {
+    "text": "The Drewry World Container Index fell 3% to $4,176 per 40ft as Transpacific rates continued to drop.",
+    "id": "m-3c25d89f4193"
+   },
+   {
+    "text": "Far East to Mediterranean spot rates rose 6.8% to USD 4,989 per FEU while other Far East routes softened.",
+    "id": "m-c410a5f9f3bb"
+   },
+   {
+    "text": "Moroccan port traffic rose 3.1%, with transhipment now accounting for 51.9% of total traffic.",
+    "id": "m-bb0d9afc137a"
+   }
+  ],
+  "deadlines": [
+   {
+    "date": "21 November 2025",
+    "text": "EU ban on clean non-hazardous plastic waste exports to Morocco and other non-OECD countries takes effect, lasting until 21 May 2029.",
+    "country": "MA"
+   },
+   {
+    "date": "23 November to 4 December 2026",
+    "text": "IMO governments meet to decide whether to adopt the Net-Zero Framework and global shipping carbon pricing.",
+    "country": "GLOBAL"
+   },
+   {
+    "date": "23 to 27 November 2026",
+    "text": "ISWG-GHG 23 working group meets in London on the IMO Net-Zero Framework.",
+    "country": "GLOBAL"
+   },
+   {
+    "date": "30 November 2026",
+    "text": "MEPC 85 begins in London.",
+    "country": "GLOBAL"
+   },
+   {
+    "date": "1 December 2026",
+    "text": "Asia-Med notified FAK increases and pre-Chinese New Year peak season surcharges of $1,000 to $1,600 per 40ft take effect.",
+    "country": "GLOBAL"
+   },
+   {
+    "date": "1 October 2026",
+    "text": "Updated HMRC customs declaration document codes take effect for UK and Northern Ireland imports and exports.",
+    "country": "GB"
+   },
+   {
+    "date": "10 December 2026",
+    "text": "EU keeps Tanger Med on the transhipment port list and adds Abu Qir and Damietta under new implementing regulations for emissions trading and FuelEU Maritime.",
+    "country": "EU"
+   },
+   {
+    "date": "December 2026",
+    "text": "Carriers expected to push peak season surcharges on Asia-Europe routes ahead of the new contract season.",
+    "country": "GLOBAL"
+   }
+  ],
+  "market": "Far East to Mediterranean spot rates rose 6.8% to USD 4,989 per FEU on 19 November, while Shanghai to Genoa was up 6% to $4,436 per 40ft and transpacific rates fell, with Shanghai to New York down 9% to $8,194. Forwarders expect transpacific costs to ease further as new capacity arrives and blank sailings continue, while carriers are likely to push peak season surcharges on Asia-Europe routes in December. Xeneta expects rates to trend downwards into 2027, but not smoothly, and Mediterranean-bound budgets should allow for a premium over North Europe lanes."
+ },
+ "items": [
+  {
+   "id": "m-c99510118382",
+   "title": "EU bans plastic waste exports to Morocco and other non-OECD countries until May 2029",
+   "originalTitle": "L’Union européenne interdit l’exportation de déchets plastiques vers le Maroc jusqu’en mai 2029 au minimum",
+   "url": "https://barlamane.com/fr/lunion-europeenne-interdit-lexportation-de-dechets-plastiques-vers-le-maroc-jusquen-mai-2029-au-minimum/",
+   "source": "Barlamane",
+   "publishedAt": "2026-11-22T11:18:55Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "high",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 85
+    },
+    {
+     "id": "EU",
+     "relevance": 80
+    }
+   ],
+   "summary": "From 21 November, the EU prohibits exports of clean, non-hazardous plastic waste destined for recycling (basel code B3011) to non-OECD countries, including Morocco, for at least thirty months until 21 May 2029. The ban applies under EU Regulation 2024/1157 regardless of recycler capacity or the material's market value. Morocco had requested continued imports of European plastic waste, but the Commission removed plastics from its review of the Moroccan file.",
+   "impact": "Recyclers in Morocco can no longer receive clean plastic waste shipments from EU companies, which removes a supply that totalled about 3,342 tonnes from EU origins in 2024. Forwarders must classify consignments carefully, since the line between waste for recycling and a secondary raw material is now a customs and environmental compliance question decided by authorities. Imports of polymers and recycled granules outside the waste category are not affected.",
+   "action": "Review any consignments of plastic scrap or recyclable plastics from the EU to Morocco and confirm their waste classification with customs before shipping. Watch for the EU's May 2027 extension to other non-hazardous waste and the first list of admissible countries due before year end.",
+   "effectiveDate": "21 November 2025",
+   "keyFigures": [
+    "Ban runs until 21 May 2029, at least thirty months",
+    "EU exported about 1.4 million tonnes of plastic waste in 2025, roughly half to non-OECD countries",
+    "Morocco imported 7,567 tonnes of plastic waste in 2024, 3,342 tonnes of it from EU members",
+    "Turkey absorbed 510,000 tonnes of EU plastic waste in 2025"
+   ]
+  },
+  {
+   "id": "m-97e7216538db",
+   "title": "IMO decides on Net-Zero Framework and global shipping carbon pricing in December",
+   "originalTitle": "Decision time on carbon pricing for global shipping at the UN",
+   "url": "https://www.hellenicshippingnews.com/decision-time-on-carbon-pricing-for-global-shipping-at-the-un/",
+   "source": "Hellenic Shipping News: international",
+   "publishedAt": "2026-11-20T11:00:57Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "high",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 90
+    },
+    {
+     "id": "EU",
+     "relevance": 35
+    }
+   ],
+   "summary": "Governments meet at the IMO from 23 November to 4 December 2026 to decide whether to adopt the Net-Zero Framework, which would introduce the world's first global carbon pricing for an industry. The framework combines progressively stricter carbon intensity targets with carbon pricing, and adoption was delayed in October 2025 by a close vote of 57 in favour and 49 against. Industry and NGO voices are split over whether any compromise will weaken fuel standards or allow fossil LNG and crop biofuels to count as transitional fuels.",
+   "impact": "If adopted, the framework would add a carbon price to global shipping, which would feed into freight costs and surcharges on international routes. Delay or a weakened text could lead to regional and national rules, such as those already emerging in Africa and Europe, creating a regulatory patchwork for shippers and carriers. Investment decisions on fuels and fleet electrification are likely to hinge on the outcome.",
+   "action": "Monitor the outcome of the ISWG-GHG-23 talks and MEPC 85 closely, and review exposure to carbon-linked surcharges on your main trade lanes before the decision on 4 December.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Global shipping represents about 5% of global oil demand",
+    "Adoption vote delayed in October 2025: 57 in favour, 49 against",
+    "Over 110 maritime companies and industry associations urged adoption this year",
+    "Over 30 maritime organisations committed to electricity reaching at least 20% of shipping energy use by 2035"
+   ]
+  },
+  {
+   "id": "m-2dd74f6ad686",
+   "title": "Moroccan exports to China can enter duty-free under new Chinese scheme for African countries",
+   "originalTitle": "Commerce extérieur : Les exportations marocaines vers la Chine exemptes de droits de douane",
+   "url": "https://www.lavieeco.com/affaires/commerce-exterieur-les-exportations-marocaines-vers-la-chine-exemptes-de-droits-de-douane/",
+   "source": "La Vie Éco",
+   "publishedAt": "2026-11-22T17:26:06Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "customs",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 85
+    },
+    {
+     "id": "CN",
+     "relevance": 75
+    }
+   ],
+   "summary": "Morocco's Ministry of Industry, Trade, Investment and Inclusive Economy has told exporters that goods shipped to the People's Republic of China may benefit from a 0% customs duty rate under a new Chinese trade measure for African countries. The ministry's circular urges exporters to study the rules of origin, which are attached, to confirm eligibility for preferential treatment.",
+   "impact": "Eligible Moroccan products entering China should face no import duty, which could improve price competitiveness and open new export volumes. Exporters must meet the notified rules of origin to qualify, so product classification and supply chains need checking before shipments are booked. Certificates of origin for export are issued by the Administration des Douanes et Impôts Indirects, so paperwork must follow the current procedures.",
+   "action": "Exporters should download the rules of origin attached to the circular, check product eligibility against them, and arrange certificates of origin with Moroccan Customs (ADII) before shipping to China.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "0% customs duty rate for eligible products exported to China"
+   ]
+  },
+  {
+   "id": "m-0b383a0f7596",
+   "title": "Morocco's 2027 budget bill cuts feed duties and exempts livestock and meat imports",
+   "originalTitle": "PLF 2027: droits de douane réduits sur les aliments pour animaux et exonération sur les viandes",
+   "url": "https://fr.le360.ma/economie/plf-2027-droits-de-douane-reduits-sur-les-aliments-pour-animaux-et-exoneration-sur-les-viandes_XX6Q4GL7KBA7JGJZYF63BD2PB4/",
+   "source": "Le360 Économie",
+   "publishedAt": "2026-11-22T18:32:22Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "customs",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 95
+    }
+   ],
+   "summary": "Morocco's draft 2027 Finance Bill, as amended by the Chamber of Representatives, would cut import duties on animal feed raw materials from 40%, 30% and 10% to 2.5%. It would also exempt live bovine, ovine, caprine and camelid animals, and their fresh, chilled or frozen meat and offal, from import duties, subject to administrative procedures. The bill also introduces a 3% tax advance on duties for importers of goods for resale, reported by L'Economiste.",
+   "impact": "Feed manufacturers should see lower input costs, which may ease livestock producers' costs over time. Importers of live animals and meat will face lower duty costs but must follow procedures set by the administration. Commercial importers of goods for resale will pay a 3% tax advance on customs duty value for 36 months from their first import, unless they hold a recent tax compliance certificate afterwards.",
+   "action": "Monitor the final adopted text of the PLF 2027 for the actual rates, procedures and start dates, as the figures here are from a draft. Commercial importers should check their tax compliance status and prepare for the 3% advance payment.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Feed input duties cut from 40%, 30% and 10% to 2.5%",
+    "Tax advance of 3% of customs value for the first 36 months after first import",
+    "Tax compliance certificate valid for 30 days to avoid the advance after 36 months",
+    "Live animal and meat imports exempted from import duties"
+   ]
+  },
+  {
+   "id": "m-c927511e1002",
+   "title": "HMRC updates customs declaration document codes for UK and Northern Ireland imports and exports",
+   "originalTitle": "Guidance: Data Element 2/3: Documents and Other Reference Codes (Union) of the Customs Declaration Service (CDS)",
+   "url": "https://www.gov.uk/government/publications/data-element-23-documents-and-other-reference-codes-union-of-the-customs-declaration-service-cds",
+   "source": "HMRC",
+   "publishedAt": "2026-11-20T14:09:52Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "customs",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GB",
+     "relevance": 85
+    },
+    {
+     "id": "EU",
+     "relevance": 30
+    }
+   ],
+   "summary": "HMRC has published a large update to Appendix 5A of the Customs Declaration Service guidance, which lists the document codes, status codes and details (such as licences and certificates) to declare in Data Element 2/3. Changes add, remove and amend many codes, including new codes for steel melt and pour requirements in Northern Ireland, EU Deforestation Regulation preparation, Russia and Belarus sanctions, and UK-India Free Trade Agreement preference claims.",
+   "impact": "Declarants must use the correct document code, status code and document ID or reason for each licence, certificate or exemption, or declarations may be rejected or delayed. Several codes now require a document ID rather than a reason, and some status codes such as XW and XB have been withdrawn for certain codes. Northern Ireland declarations face new EU-aligned validation and requirements for steel, deforestation-related goods and sanctions, so paperwork and checks will increase for affected cargo.",
+   "action": "Review the Appendix 5A entries for your commodity codes and update your declaration software and templates now, especially for Northern Ireland steel and deforestation-related goods. Check the Online Tariff for the conditions attached to each commodity code, since HMRC asks users to rely on those for associated document codes.",
+   "effectiveDate": "1 October 2026",
+   "keyFigures": [
+    "1 October 2026: steel melt and pour requirements apply in Northern Ireland",
+    "30 December 2026: EU Deforestation Regulation introduced in Northern Ireland",
+    "15 July 2026: document code N954 used under the UK-India Free Trade Agreement",
+    "Document code C715 requires the FR5 prefix with the IOSS VAT number"
+   ]
+  },
+  {
+   "id": "m-ff9cd31bee04",
+   "title": "UK proposes higher anti-dumping duties on Chinese tracked excavators after absorption review",
+   "originalTitle": "TRA proposes increasing anti-dumping measure on excavators",
+   "url": "https://www.gov.uk/government/news/tra-proposes-increasing-anti-dumping-measure-on-excavators",
+   "source": "UK Trade Remedies Authority",
+   "publishedAt": "2026-11-20T13:54:50Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GB",
+     "relevance": 85
+    },
+    {
+     "id": "CN",
+     "relevance": 85
+    }
+   ],
+   "summary": "The Trade Remedies Authority has published initial findings in an absorption review of the anti-dumping measure on tracked excavators from China, finding that exporters have absorbed the duty so it is not protecting UK producers. It proposes increasing the duties for all exporters except Caterpillar Group, whose duty would be maintained at its current level because it has no current exports to the UK from China.",
+   "impact": "Importers of tracked excavators from China, covering 360-degree revolving models between 11 and 80 tonnes, would face substantially higher anti-dumping duties if the proposal is adopted. Costs on affected machinery imports would rise, and forwarders and importers should expect shipments to be re-costed and entries to carry the new duty rates. Caterpillar Group goods would be unaffected by the change.",
+   "action": "Importers and agents handling Chinese excavators should review their supplier duty rates now and consider submitting comments on the TRA public file before 7 December 2026 if affected.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Proposed anti-dumping duties of 40.18% to 80.16%",
+    "Measure imposed May 2025",
+    "Excavators of 11,000 kg to under 80,000 kg operating weight",
+    "Comments due before 7 December 2026"
+   ]
+  },
+  {
+   "id": "m-facfe49930bf",
+   "title": "Morocco weighs 30% duty on polyester fibre, alarming bedding and textile manufacturers",
+   "originalTitle": "Fibre de polyester : une hausse douanière qui inquiète les industriels de la literie",
+   "url": "https://telquel.ma/2026/11/20/fibre-de-polyester-une-hausse-douaniere-qui-inquiete-les-industriels-de-la-literie_2019269",
+   "source": "TelQuel",
+   "publishedAt": "2026-11-20T17:33:03Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "customs",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 85
+    }
+   ],
+   "summary": "A possible 30% customs duty on polyester staple fibre, used to fill mattresses, duvets and cushions, is worrying Moroccan textile and bedding manufacturers, who import most of this fibre. The article is truncated, so it does not confirm whether the duty has been adopted or when it would apply. Manufacturers fear higher prices would push consumers towards imported finished goods, hurting the sector and its jobs.",
+   "impact": "If adopted, the duty would raise the landed cost of imported polyester fibre for Moroccan bedding and textile producers, which could feed through to higher prices for mattresses, duvets and cushions. Forwarders and importers handling fibre or related textile inputs may see changes in declared values and duty calculations. The article suggests the measure is still a scenario rather than a settled rule.",
+   "action": "Monitor official announcements from Moroccan Customs (ADII) and the finance law for the final tariff decision, its scope and its effective date, and check whether any of your fibre or textile shipments fall under the affected tariff lines.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Proposed customs duty of 30% on polyester staple fibre",
+    "Industry fears higher consumer prices and job losses in the sector"
+   ]
+  },
+  {
+   "id": "m-c03bef87deae",
+   "title": "EU keeps Tanger Med on transhipment lists for emissions trading and FuelEU Maritime",
+   "originalTitle": "Tanger Med conserve sa qualification maritime européenne dans deux règlements sur les quotas d’émission et les carburants des porte-conteneurs",
+   "url": "https://barlamane.com/fr/tanger-med-conserve-sa-qualification-maritime-europeenne-dans-deux-reglements-sur-les-quotas-demission-et-les-carburants-des-porte-conteneurs/",
+   "source": "Barlamane",
+   "publishedAt": "2026-11-22T11:30:33Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "EU",
+     "relevance": 85
+    },
+    {
+     "id": "MA",
+     "relevance": 75
+    }
+   ],
+   "summary": "The European Commission has kept Tanger Med on its list of non-EU transhipment ports, where a container ship call does not break the voyage calculation for EU climate obligations. Two implementing regulations, 2026/2562 and 2026/2563, also add the Egyptian ports of Abu Qir and Damietta, making four ports in total with East Port Said, and apply from 10 December.",
+   "impact": "For container services transhipping at Tanger Med, the voyage is counted from the last legally recognised port, so emissions from the earlier leg stay in the EU calculation. The obligations fall on carriers rather than Moroccan terminals, but the cost of surrendering allowances under the EU ETS and of FuelEU Maritime compliance may feed into surcharges and routing decisions. Ships calling at intermediate ports with transhipment shares above 65% within 300 nautical miles of an EU port are now treated the same way.",
+   "action": "Forwarders and agents using Tanger Med transhipment should ask carriers how the 10 December change affects their EU voyage calculations and any related surcharges. Monitor the list review, which must take place at least every two years.",
+   "effectiveDate": "10 December 2026",
+   "keyFigures": [
+    "Four listed ports: Abu Qir, Damietta, East Port Said and Tanger Med",
+    "Transhipment share above 65% of TEU and a distance below 300 nautical miles from an EU port",
+    "ETS surrender rate 70% for 2025 emissions and 100% for 2026 emissions",
+    "FuelEU Maritime reduction of 2% versus 2020, rising to 6% in 2030"
+   ]
+  },
+  {
+   "id": "m-6c37002e8873",
+   "title": "IMO Net-Zero Framework stalls again as fund rules remain unwritten ahead of London talks",
+   "originalTitle": "Analysis: IMO Net-Zero: now-or-never time draws near",
+   "url": "https://theloadstar.com/analysis-imo-net-zero-now-or-never-time-draws-near/",
+   "source": "The Loadstar",
+   "publishedAt": "2026-11-20T12:43:46Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 90
+    },
+    {
+     "id": "US",
+     "relevance": 60
+    },
+    {
+     "id": "EU",
+     "relevance": 50
+    }
+   ],
+   "summary": "The IMO Net-Zero Framework was adjourned by a year in October 2025 after US threats, and the draft still does not say who holds the proposed fund or how its money is distributed. ISWG-GHG 23 opens in London on Monday, with the working group meeting 23 to 27 November and MEPC 85 following from 30 November. The article argues that the fund's proceeds, the reward method and a post-2030 price path must be settled before any vote.",
+   "impact": "If adopted, the framework would add a global levy on top of the EU ETS and FuelEU, and carriers would have no vote over the fund. The US opposes it and has threatened visa penalties, port fees and sanctions, so adoption remains uncertain. Existing EU carbon costs continue regardless of the IMO outcome.",
+   "action": "Watch the outcome of ISWG-GHG 23 and MEPC 85 for written fund rules, the reward method and the post-2030 price path. Check freight contracts for how ETS and FuelEU costs are passed through to shippers.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Adoption adjourned by a year in October 2025, by 57 votes to 49 with 21 abstentions",
+    "Remedial unit prices of $100 and $380 fixed only to 2030",
+    "Reward method due by 1 March 2027; post-2030 mechanism due by 1 January 2028",
+    "Shipping's annual EU ETS bill estimated at about €9bn at €100 a tonne"
+   ]
+  },
+  {
+   "id": "m-c410a5f9f3bb",
+   "title": "Mediterranean spot rates rise 6.8% as Red Sea container return stalls",
+   "originalTitle": "Xeneta Weekly Ocean Container Shipping Market Update: Mediterranean spot rates move in mysterious ways as Red Sea return stalls",
+   "url": "https://www.hellenicshippingnews.com/xeneta-weekly-ocean-container-shipping-market-update-mediterranean-spot-rates-move-in-mysterious-ways-as-red-sea-return-stalls/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-20T22:00:55Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 85
+    },
+    {
+     "id": "CN",
+     "relevance": 40
+    },
+    {
+     "id": "EU",
+     "relevance": 35
+    }
+   ],
+   "summary": "Far East to Mediterranean spot rates rose 6.8% in the past week to USD 4,989 per FEU on 19 November 2026, while rates on other Far East fronthaul routes continued to soften. Xeneta links the divergence to a November slowdown in container ship transits through the Bab el-Mandeb Strait, which fell 28% from a peak of 16.6 per day on 25 October to 11.9 on 19 November.",
+   "impact": "Mediterranean-bound cargo from the Far East now costs USD 1,551 per FEU more than North Europe-bound cargo, so budgets for Mediterranean lanes need adjusting. Far East to Mediterranean trades are the most exposed to Red Sea disruption, which can cause sudden rate spikes. Xeneta expects rates to trend downwards into 2027, but not smoothly.",
+   "action": "Monitor Bab el-Mandeb transit counts and Mediterranean spot rates over the coming weeks, and build flexibility and rate contingency into bookings for Far East to Mediterranean cargo.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Far East to Mediterranean spot rate USD 4,989 per FEU, up 6.8% week on week",
+    "Mediterranean premium over North Europe USD 1,551 per FEU",
+    "Bab el-Mandeb container transits fell 28% from 16.6 per day peak to 11.9 on 19 November",
+    "Far East to North Europe spot rate USD 3,438 per FEU"
+   ]
+  },
+  {
+   "id": "m-42bac15c4c69",
+   "title": "Transpacific container spot rates fall while Asia-Med rates unexpectedly spike",
+   "originalTitle": "Transpac spots finally on the slide, but Asia-Med spike a surprise",
+   "url": "https://theloadstar.com/transpac-spots-finally-on-the-slide-but-asia-med-spike-a-surprise/",
+   "source": "The Loadstar",
+   "publishedAt": "2026-11-20T13:27:40Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "CN",
+     "relevance": 70
+    },
+    {
+     "id": "US",
+     "relevance": 60
+    },
+    {
+     "id": "EU",
+     "relevance": 50
+    }
+   ],
+   "summary": "Container spot rates on the transpacific fell for a seventh consecutive week, with Shanghai-New York down 9% to $8,194 per 40ft and Shanghai-Los Angeles down 5% to $7,026. Asia-Mediterranean rates rose instead: Shanghai-Genoa was up 6% to $4,436 per 40ft after three weeks of flat rates, while Shanghai-Rotterdam was unchanged at $3,496. European forwarders said the Asia-Med rise did not match demand or space conditions.",
+   "impact": "Forwarders and importers may see transpacific costs ease in early December, although the US west coast forwarder Freight Right expects rates to stay largely stable and carriers to hold baseline pricing ahead of January. Asia-Med shippers face notified increases of new FAK levels and pre-Chinese New Year peak season surcharges of $1,000 to $1,600 per 40ft, but forwarders doubt these will fully stick. New capacity arriving on the transpacific over the next two to three weeks, including Zim's ZX3 and MSC's Mustang service, adds further downward pressure.",
+   "action": "Watch whether the first-half December Asia-Med increases and the peak season surcharges hold, and look for vessel-specific transpacific promotional rates in early December before committing to bookings.",
+   "effectiveDate": "1 December",
+   "keyFigures": [
+    "Shanghai-Genoa spot rate up 6% to $4,436 per 40ft",
+    "Shanghai-New York down 9% to $8,194 per 40ft",
+    "Pre-Chinese New Year peak season surcharges of $1,000-$1,600 per 40ft",
+    "Drewry expects 10 blank sailings next week, compared with four this week"
+   ]
+  },
+  {
+   "id": "m-91d437363ff6",
+   "title": "Shippers criticise carriers' peak season surcharges and capacity limits amid weak oversight",
+   "originalTitle": "Container shipping rate tactics draw competition criticism",
+   "url": "https://www.seatrade-maritime.com/containers/container-shipping-rate-tactics-draw-competition-criticism",
+   "source": "Seatrade Maritime",
+   "publishedAt": "2026-11-20T16:26:06Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "abstract",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 85
+    }
+   ],
+   "summary": "Shippers complain about a lack of regulatory oversight in container shipping, as carriers seek to raise earnings through peak season surcharges while restricting capacity. The publisher's summary gives no further detail on specific carriers, routes or amounts.",
+   "impact": "Forwarders and importers may face higher peak season surcharges and tighter space availability on container services. Without clear regulatory oversight, shippers have limited recourse against surcharge levels.",
+   "action": "Check surcharge schedules with carriers and forwarders before booking peak season cargo, and secure space early where possible. Monitor for any regulatory response on surcharges and capacity.",
+   "effectiveDate": "",
+   "keyFigures": []
+  },
+  {
+   "id": "m-3c25d89f4193",
+   "title": "Drewry World Container Index falls 3% to $4,176 as Transpacific rates keep dropping",
+   "originalTitle": "Drewry: World Container Index Down 3% Last Week",
+   "url": "https://www.hellenicshippingnews.com/drewry-world-container-index-down-3-last-week-8/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-20T22:00:53Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 80
+    },
+    {
+     "id": "US",
+     "relevance": 60
+    },
+    {
+     "id": "EU",
+     "relevance": 50
+    }
+   ],
+   "summary": "The Drewry World Container Index fell 3% to $4,176 per 40ft container in the week to 19 November 2026, driven by lower Transpacific rates, though it remains 126% higher year on year. Shanghai to New York rates dropped 9% to $8,194 and Shanghai to Los Angeles fell 5% to $7,026, both continuing a seven-week downward trend. On Asia-Europe/Med, Shanghai to Genoa rose 6% to $4,436 while Shanghai to Rotterdam held at $3,496.",
+   "impact": "Transpacific shippers should see continued rate softening as carriers cut capacity through blank sailings, with ten announced for next week. Asia-Europe costs are likely to rise in December as carriers push peak season surcharges of $1,000 to $1,600 per 40ft ahead of the new contract season. North Europe port congestion is delaying empty container returns to Asia, raising risk of equipment shortages.",
+   "action": "Monitor Transpacific rates, which Drewry expects to fall further next week, and consider timing bookings accordingly. For Asia-Europe, budget for the proposed PSS surcharges effective December and watch for equipment availability given the North Europe congestion.",
+   "effectiveDate": "December 2026",
+   "keyFigures": [
+    "WCI composite $4,176 per 40ft, down 3% week on week, up 126% year on year",
+    "Shanghai to New York $8,194 per 40ft, down 9%, lowest in 15 weeks",
+    "Shanghai to Genoa $4,436 per 40ft, up 6%; PSS of $1,000-1,600 on Asia-Europe/Med",
+    "Suez Canal transits rose to 57 vessels last week; only four vessels crossed the Strait of Hormuz"
+   ]
+  },
+  {
+   "id": "m-7ba210f66ecd",
+   "title": "EU and UK conclude talks to link their emissions trading systems",
+   "originalTitle": "EU and UK agree to link Emission Trading Systems (ETS)",
+   "url": "https://taxation-customs.ec.europa.eu/news/eu-and-uk-agree-link-emission-trading-systems-ets-2026-11-20_en",
+   "source": "EU Taxation and Customs Union",
+   "publishedAt": "2026-11-19T23:00:00Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "GB",
+     "relevance": 90
+    },
+    {
+     "id": "EU",
+     "relevance": 90
+    }
+   ],
+   "summary": "The EU and UK have concluded negotiations to link their Emissions Trading Systems, announced at the EU-UK summit on 20 November. The linking agreement is committed to apply from 2028, subject to ratification and entry into force in both jurisdictions. It paves the way for a possible mutual exemption from each side's Carbon Border Adjustment Mechanism.",
+   "impact": "Once the linking agreement is in force, UK-origin goods would be exempt from the EU CBAM after the EU amends Annex III through a delegated act, and a corresponding UK approach is expected. This would remove double carbon charges and reduce paperwork and costs for businesses trading across the Channel. The exemption is not yet in place and depends on ratification and legal steps in both jurisdictions.",
+   "action": "Monitor ratification progress and the Commission's delegated act amending Annex III, and keep current CBAM declaration processes for UK-origin goods until any exemption takes effect.",
+   "effectiveDate": "2028",
+   "keyFigures": [
+    "Linking agreement committed to apply as of 2028",
+    "Summit announcement made on 20 November 2026"
+   ]
+  },
+  {
+   "id": "m-134a0fe475ba",
+   "title": "UK-EU carbon market link to extend UK ETS to international shipping from 2028",
+   "originalTitle": "UK-EU carbon market link brings international shipping into UK ETS",
+   "url": "https://www.lloydslist.com/LL1159252/UK-EU%20carbon%20market%20link%20brings%20international%20shipping%20into%20UK%20ETS?utm_source=search&amp;utm_medium=RSS&amp;utm_term=&amp;utm_campaign=search_rss",
+   "source": "Lloyd's List",
+   "publishedAt": "2026-11-20T16:54:20Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "abstract",
+   "category": "regulation",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "GB",
+     "relevance": 85
+    },
+    {
+     "id": "EU",
+     "relevance": 70
+    }
+   ],
+   "summary": "The linkage of the UK and EU carbon markets will extend the UK Emissions Trading Scheme to international shipping from 2028. The publisher's summary also notes a separate FuelEU-style regime that may create further obligations, though the article text is truncated.",
+   "impact": "Shipping lines and agents calling at UK ports would face carbon costs on international voyages from 2028, which may feed into surcharges and freight pricing. A parallel FuelEU-style regime could add separate fuel-intensity compliance requirements. Forwarders should expect cost pass-through once the rules take effect.",
+   "action": "Monitor the detailed UK-EU linkage text and carrier surcharge announcements, and ask carriers how they plan to handle UK ETS and FuelEU-style costs on 2028 sailings.",
+   "effectiveDate": "2028",
+   "keyFigures": []
+  },
+  {
+   "id": "m-ff22f0161f77",
+   "title": "UK Chamber of Shipping urges UK-EU reset to cut ETS and trade costs",
+   "originalTitle": "UK-EU reset must reduce costs for trade and shipping",
+   "url": "https://www.hellenicshippingnews.com/uk-eu-reset-must-reduce-costs-for-trade-and-shipping/",
+   "source": "Hellenic Shipping News: international",
+   "publishedAt": "2026-11-20T11:00:53Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "GB",
+     "relevance": 75
+    },
+    {
+     "id": "EU",
+     "relevance": 70
+    }
+   ],
+   "summary": "The UK Chamber of Shipping is asking the UK and EU to use reset talks on 20 November to reduce trade barriers, cut regulatory costs and support shipping's net zero transition. It urges closer alignment on ETS monitoring, reporting and verification, and wants ETS revenues returned to shipping's decarbonisation. It also calls for protection of ferry, short-sea and lifeline services and progress towards a UK-EU SPS agreement.",
+   "impact": "These are recommendations from industry rather than adopted rules, so no immediate change to costs, paperwork or transit times is confirmed. If the UK extends its ETS internationally or the two sides align emissions monitoring, costs could flow through to UK imports, exports and consumers. Ferry and short-sea operators could also face changes to derogations and border controls.",
+   "action": "No action is needed yet. Monitor the outcome of the reset talks, any UK ETS expansion proposals and changes to SPS or border control arrangements affecting Northern Ireland and ferry routes.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "UK-EU reset talks held on 20 November",
+    "Chamber calls for an economic impact assessment before any international UK ETS extension"
+   ]
+  },
+  {
+   "id": "m-bb0d9afc137a",
+   "title": "Moroccan port traffic rises 3.1% to 202.7 million tonnes by end September",
+   "originalTitle": "Maroc: le trafic portuaire augmente de 3,1% à fin septembre 2026",
+   "url": "https://www.challenge.ma/maroc-le-trafic-portuaire-augmente-de-31-a-fin-septembre-2026-327024/",
+   "source": "Challenge.ma",
+   "publishedAt": "2026-11-21T16:39:32Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 90
+    }
+   ],
+   "summary": "Morocco's ports handled 202.7 million tonnes of commercial traffic to the end of September, up 3.1% on the same period last year, according to the Ministry of Equipment and Water. Transhipment grew 7.4% to 105.2 million tonnes and now accounts for 51.9% of total traffic, while domestic traffic fell 1.3% and exports fell 2.4%. Container volumes rose 2.5% to 9.6 million TEU, and phosphate traffic dropped 15.7%.",
+   "impact": "Growth is driven by transhipment, so Moroccan ports are increasingly serving vessels passing through the Strait of Gibraltar rather than cargo for the domestic market. Forwarders may see continued strength in container capacity, but exporters and phosphate shippers face weaker volumes. Cabotage and bunkering declines suggest reduced domestic coastal and fuel activity.",
+   "action": "Monitor berth congestion and container availability at Tanger Med and other Moroccan hubs as transhipment volumes keep rising, and check phosphate and cereal shipment plans against the reported declines.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Total traffic 202.7 million tonnes, up 3.1%",
+    "Transhipment 105.2 million tonnes, up 7.4%",
+    "Containers 9.6 million TEU, up 2.5%",
+    "Phosphates 21.7 million tonnes, down 15.7%"
+   ]
+  },
+  {
+   "id": "m-4d3404c7d22c",
+   "title": "EU Customs Authority holds first management board meeting in Lille, elects chairperson",
+   "originalTitle": "EU Customs Authority holds first management board meeting in Lille",
+   "url": "https://taxation-customs.ec.europa.eu/news/eu-customs-authority-holds-first-management-board-meeting-lille-2026-11-20_en",
+   "source": "EU Taxation and Customs Union",
+   "publishedAt": "2026-11-19T23:00:00Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "customs",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "EU",
+     "relevance": 85
+    },
+    {
+     "id": "FR",
+     "relevance": 30
+    }
+   ],
+   "summary": "The European Union Customs Authority (EUCA) held its first management board meeting in Lille, electing Malgorzata Krok of Poland as Chairperson and adopting core governance and administrative procedures. The agency is a key part of the EU Customs Reform, which entered into force in September, and will coordinate national customs administrations and support EU-level risk analysis. Its activities are scheduled to begin as soon as possible in 2027, with full capacity foreseen after 2030.",
+   "impact": "For forwarders and importers, the EUCA will gradually shift customs risk analysis and controls towards common EU priorities, and it will develop the EU Customs Data Hub to replace over 100 national customs systems. Near-term effects on declarations and clearance are unlikely, as the agency only begins operating in 2027 and reaches full capacity after 2030. Longer term, expect more harmonised controls across Member States.",
+   "action": "No immediate action is required. Monitor EUCA setup milestones and EU Customs Data Hub timelines, and plan for changes to national systems as they migrate.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Around 300 staff at full capacity",
+    "Data Hub will replace over 100 national systems",
+    "Activities to begin as soon as possible in 2027",
+    "Full capacity foreseen after 2030"
+   ]
+  },
+  {
+   "id": "m-5270932738ef",
+   "title": "IMO's MEPC 85 faces divide over Net-Zero Framework adoption",
+   "originalTitle": "MEPC 85 to confront net-zero divide",
+   "url": "https://www.hellenicshippingnews.com/mepc-85-to-confront-net-zero-divide/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-20T22:00:58Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 85
+    },
+    {
+     "id": "EU",
+     "relevance": 45
+    }
+   ],
+   "summary": "The IMO's Marine Environment Protection Committee (MEPC 85) meets in London to resolve differences over draft MARPOL Annex VI amendments and mid-term greenhouse gas measures under the 2023 IMO strategy. The Clean Shipping Coalition urges adoption of the Net-Zero Framework 'as is' before the end of the year, while the Union of Greek Shipowners criticises the EU's negotiating stance and calls for a broader, more flexible approach.",
+   "impact": "The outcome could set a global fuel standard and economic mechanism for international shipping, affecting future fuel and operating costs. Continued delay keeps uncertainty over the sector's decarbonisation pathway, making long-term cost planning harder for forwarders, agents and importers.",
+   "action": "No immediate action is required; monitor the MEPC 85 outcome and any decision on adopting the Net-Zero Framework before year end.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Net-Zero Framework first approved at MEPC 83 in April 2025",
+    "Adoption blocked in October 2025, with the adjournment set for one year"
+   ]
+  },
+  {
+   "id": "m-5f8b97725c87",
+   "title": "Höegh Autoliners says China's green fuel dominance grows as IMO paralysis persists",
+   "originalTitle": "IMO paralysis is accelerating China’s green fuel dominance, warns Höegh Autoliners",
+   "url": "https://www.lloydslist.com/LL1159235/IMO%20paralysis%20is%20accelerating%20Chinas%20green%20fuel%20dominance%20warns%20Hegh%20Autoliners?utm_source=search&amp;utm_medium=RSS&amp;utm_term=&amp;utm_campaign=search_rss",
+   "source": "Lloyd's List",
+   "publishedAt": "2026-11-20T14:27:44Z",
+   "addedAt": "2026-11-22T18:57:12Z",
+   "basis": "abstract",
+   "category": "regulation",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 70
+    },
+    {
+     "id": "CN",
+     "relevance": 60
+    }
+   ],
+   "summary": "Höegh Autoliners chief executive Andreas Enger says China's rapidly improving green fuel economics are increasingly shaping investment decisions. The publisher's summary is cut off, but the headline links this trend to IMO paralysis on decarbonisation rules.",
+   "impact": "The summary gives no detail on specific rules, prices or dates. The direction is that investment in green fuels for shipping may increasingly follow Chinese economics while global IMO action stalls, which could shape future fuel supply and vessel investment choices.",
+   "action": "No immediate action needed. Monitor IMO decisions on shipping emissions and Chinese green fuel supply developments, and read the full article for detail.",
+   "effectiveDate": "",
+   "keyFigures": []
+  }
+ ]
 }
