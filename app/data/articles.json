@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-23T00:49:04Z",
+ "generatedAt": "2026-11-23T06:38:02Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
@@ -72,6 +72,1080 @@
   }
  ],
  "articles": [
+  {
+   "id": "661bd01efe7f",
+   "title": "DOL flips independent contractor switch back with new final rule",
+   "url": "https://www.hrdive.com/news/dol-flips-independent-contractor-switch-back-with-new-final-rule/875183/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-19T15:57:00Z",
+   "addedAt": "2026-11-23T06:38:02Z",
+   "basis": "abstract",
+   "takeaway": "A regulatory change that redefines who counts as an independent contractor changes the formal terms of the employment relationship, and PWO theory helps explain how workers and firms experience that change.",
+   "summary": "The US Department of Labor has issued a final rule that brings back its 'economic reality' test for deciding whether a worker is an independent contractor. The Secretary of Labor, Keith Sonderling, says the test will give workers and employers greater clarity. The abstract gives no detail of the test's criteria, the rule's scope or any evidence of its effects, so the analysis below rests on the stated aim and on the general employment issue it raises.",
+   "keyPoints": [
+    "The Department of Labor has issued a final rule that restores its 'economic reality' test for independent contractor status.",
+    "The Secretary of Labor states that the test will give greater clarity to both workers and employers.",
+    "The abstract does not set out the test's criteria, so the specific factors used to classify workers cannot be discussed from this source alone.",
+    "Classification decides which employment rights and obligations apply, so it shapes the relationship between a worker and an organisation."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 50,
+     "reading": "In PWO terms this is about the employment relationship itself: whether a person is treated as an employee within an organisation or as a self-employed contractor outside it. The psychological contract explains that the unwritten expectations of reciprocity matter as much as formal terms, and a change in classification alters the formal terms on which those expectations rest. The rule also shifts power, because whoever defines the category shapes what each side can demand. Students of PWO should care because this is a contemporary influence on the world of work and a live example of how formal structures and perceptions interact."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of beliefs each party holds about the mutual obligations between them, beyond what is written in a formal contract. It is breached when one party perceives that the other has failed to deliver what was promised, and this perception affects trust, commitment and effort. Rousseau distinguishes transactional from relational contracts, with the latter involving longer-term loyalty and development.",
+     "link": "The Secretary's stated aim of greater clarity implies that the current position leaves workers and employers uncertain about what they owe each other. If classification is unclear, each side may hold different beliefs about security, pay, control and loyalty, which is exactly where psychological contracts diverge. A contractor who believes they are an employee in all but name, for example, may perceive obligations that the firm does not recognise. A clearer test may therefore align formal terms with expectations, though the abstract does not say whether this has happened.",
+     "critique": "Rousseau's concept concerns perceptions, so a clear legal test does not guarantee shared understanding of obligations. Workers and firms may still hold different beliefs about reciprocity even when classification is settled.",
+     "practice": "A manager should explain in writing what each role entitles the worker to and what the organisation expects in return. The manager should also check, through conversation or surveys, whether contractors and employees share those understandings."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "French and Raven's bases of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "French and Raven identified five bases of social power: reward, coercive, legitimate, expert and referent power. Power derives from the ability to give or withhold rewards, impose sanctions, hold a recognised right to direct, possess knowledge or command loyalty. Understanding which base a party relies on helps explain how influence is exercised and resisted.",
+     "link": "A regulator that restores a test for classifying workers draws on legitimate power, because its authority to define the category is recognised by the firms and workers subject to it. Firms that depend on contractors for labour hold a form of power through their hiring decisions, but a change in the test alters the balance by shifting the terms on which that power can be used. The article's emphasis on the Secretary's role in clarifying the test shows how formal authority is used to reshape the relationship.",
+     "critique": "French and Raven were modelling power between individuals within an organisation, so applying the framework to a state regulator and to firms stretches the model. Pfeffer and Salancik's resource dependence theory may analyse the firm-contractor relationship more directly.",
+     "practice": "A firm should map where its bargaining power lies with contractors, including how far it depends on their skills and how exposed it is to reclassification. It should then decide whether to use its power through reward and expertise or to rely on compliance through legitimate, rule-based processes."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Herzberg's two-factor theory",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Herzberg proposed that job satisfaction and dissatisfaction come from two separate sets of factors. Hygiene factors, such as pay, job security, working conditions and the company's policies, prevent dissatisfaction when adequate but do not motivate when improved. Motivators, such as achievement, recognition, responsibility and the work itself, are the factors that produce satisfaction and motivation.",
+     "link": "Employment status affects hygiene factors such as job security, benefits and formal conditions, so a clearer test may reduce a source of dissatisfaction for workers who were unsure of their position. The rule itself does not touch motivators such as achievement or responsibility, which means it could remove dissatisfaction without necessarily increasing motivation. The abstract does not say how workers themselves experienced the classification, so this remains an inference.",
+     "critique": "Herzberg's sample was small and dated, and the strict division between hygiene and motivator factors has been challenged by later research. Some contractors value the autonomy of self-employment, which Herzberg would class as a motivator, so reclassification could reduce motivation as well as affect hygiene.",
+     "practice": "A manager should separate hygiene issues, such as clear terms and fair treatment, from motivators, such as autonomy, responsibility and development. Making the terms clear removes one source of dissatisfaction, but motivation still depends on the work itself."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A company in this position relies on a mix of employees and independent contractors to deliver its services. A regulator has restored a test for deciding which category each worker falls into, and the firm must decide how to apply it. Workers are unsure how the change will affect their security, pay and day-to-day control.",
+    "question": "Advise the board on how it should respond to the revised classification test, critically evaluating the implications for its workers and for the management of the employment relationship.",
+    "evidence": [
+     "The Secretary of Labor, Keith Sonderling, said the renewed 'economic reality' test would provide greater clarity to both workers and employers.",
+     "The regulator has issued a final rule that changes the independent contractor classification.",
+     "The stated purpose of the rule is clarity for workers and employers, though the abstract gives no outcome data."
+    ],
+    "plan": [
+     "Identify the regulatory change and its stated aim of clarity, drawing only on the facts the source gives.",
+     "Apply Rousseau's psychological contract to assess how workers and the firm may hold different beliefs about obligations under the current classification.",
+     "Apply Herzberg's two-factor theory to separate hygiene factors such as security and status from motivators such as autonomy and responsibility.",
+     "Use French and Raven's bases of power to assess where power sits between the regulator, the firm and its workers.",
+     "Recommend that the firm audit each role against the test, communicate obligations in writing, and redesign roles so that genuine contractor autonomy is preserved where classification allows."
+    ],
+    "pitfalls": [
+     "Treating the Secretary's claim of clarity as evidence that the rule works in practice, when the abstract reports no outcomes.",
+     "Describing the test's criteria in detail without the full article, since the abstract does not set them out."
+    ]
+   },
+   "alsoConsider": [
+    "Hackman and Oldham's Job Characteristics Model",
+    "Kahn's employee engagement",
+    "Pfeffer and Salancik's resource dependence theory"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether clearer legal definitions of employment status can resolve the tensions in the employment relationship in the contemporary world of work.",
+    "outline": [
+     "Define the psychological contract and the bases of power that shape the employment relationship.",
+     "Assess how regulatory clarity affects expectations, motivation and perceived fairness for workers and employers.",
+     "Evaluate the limits of legal clarity, since shared perceptions and autonomy may not follow from a clearer test, and conclude with managerial responses."
+    ]
+   }
+  },
+  {
+   "id": "da6907a9c05e",
+   "title": "DOL sticks with independent contractor proposal, trucking applauds",
+   "url": "https://www.freightwaves.com/news/dol-sticks-with-independent-contractor-proposal-trucking-applauds",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-19T22:47:24Z",
+   "addedAt": "2026-11-23T06:38:02Z",
+   "basis": "full_text",
+   "takeaway": "The DOL's final rule shows that the legal line between employee and independent contractor turns on control and economic dependence, and that carriers can shape that relationship through lease terms, compliance obligations and the expectations they set with drivers.",
+   "summary": "The US Department of Labor issued its final independent contractor rule with almost no changes from the February proposal, replacing the Biden-era standard. It emphasises two core factors of its multi-factor economic realities test, opportunity for profit or loss and control, and says a driver who owns a truck and exercises initiative over how it is run points towards contractor status. Lease-purchase agreements are not treated as carrier control in themselves, especially where they give the driver a future chance to own the vehicle, and complying with legal and safety obligations, even voluntary standards, is not control. The American Trucking Associations celebrated the rule, while the owner-operator association OOIDA gave qualified support, saying it does not create new barriers for owner-operators. A lawyer quoted in the article argues the shift matters less than it seems, because courts may not defer to rules that change with each administration and many claims rest on state tests.",
+   "keyPoints": [
+    "The final rule is almost identical to the February proposal; one commentator counted only three sentences and some examples as changed.",
+    "The rule gives two core factors priority, and treats the other three parts of the test as less probative.",
+    "A driver who owns a truck and manages how it operates points towards independent contractor status under opportunity for profit or loss.",
+    "Lease-purchase examples are added to show that such deals do not indicate carrier control where drivers have a real prospect of owning the vehicle.",
+    "Requiring compliance with legal obligations and health and safety standards, even voluntary ones, is not evidence of control."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 78,
+     "reading": "In organisation behaviour terms, the article is about power and control over work, and about how a formal label can diverge from the lived reality of direction and dependence. The regulator defines the employment relationship through legal tests, while carriers, drivers and trade bodies contest where authority actually sits. A student of PWO should care because it illustrates how structures, contracts and legal categories shape the exercise of power, and how the psychological side of the employment relationship can differ from its formal terms."
+    },
+    {
+     "id": "logops",
+     "relevance": 40,
+     "reading": "From a logistics operations view, carriers depend heavily on owner-operators and lease-purchase drivers to supply freight capacity. Whether those drivers are contractors or employees changes how capacity is contracted, managed, costed and scheduled. Students of freight transport and outsourcing should see the classification question as shaping the make-or-buy choices behind carrier networks and the reliability of service they can offer."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 35,
+     "reading": "The choice between using independent owner-operators and employing drivers directly is a make-or-buy decision about external capacity. Purchasing theory explains such choices through transaction costs, risk and the nature of the relationship with the supplier. The article shows regulatory classification risk entering that calculation, which a purchasing student should be able to analyse."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "French and Raven's bases of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "French and Raven identified bases of social power, including legitimate power from position, reward power, coercive power, expert power and referent power from personal attraction or identification. Each base gives a different way of influencing another person and carries different consequences for compliance and commitment. Students should be able to identify which base an actor relies on in a given relationship.",
+     "link": "The rule turns on whether a carrier controls how a driver works. The article treats compliance with legal, health and safety and even voluntary standards as legitimate constraints rather than control, which maps onto legitimate power tied to an external regulatory authority. A driver who owns a truck and decides how to operate it exercises a form of expert power, which the DOL reads as evidence of contractor status. The footnote on speed limiters shows the regulator separating what federal rules actually require from what carriers might be assumed to demand.",
+     "critique": "The framework describes how power is exercised and experienced, but it offers no test for when legitimate power becomes directive employment control. The legal line drawn by the DOL is a regulatory construct that French and Raven's typology does not resolve, and it can be applied differently under state tests.",
+     "practice": "A fleet manager should document which requirements are regulatory or safety obligations and which are instructions about how, when and for whom work is done. Reward and coercive levers that mirror employee-style supervision should be avoided if contractor status is to be defended."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that power arises from control over resources that others need, and that dependence depends on how critical and how substitutable those resources are. Organisations act to reduce their own dependence and to increase others' dependence on them. Power is therefore relational and can be analysed by mapping who needs what from whom.",
+     "link": "Carriers need drivers to supply capacity, while drivers need carriers for loads, access to shipper contracts and often financing. The lease-purchase model creates a long-term dependence in which the carrier controls finance and the eventual transfer of the vehicle, which the DOL's examples on future ownership make relevant. The ATA's celebration and OOIDA's more cautious response reflect different assessments of who holds the stronger position in this relationship.",
+     "critique": "Resource dependence explains power between organisations more convincingly than power over individual workers, and it assumes actors act rationally to reduce dependence. The legal tests in the article concentrate on formal control and economic risk, which may not reveal the practical imbalance that a driver experiences in negotiating loads or terms.",
+     "practice": "A carrier wanting to keep an owner-operator model should map where each party's dependence lies, especially the financing and load-allocation links. It should avoid structures in which dependence runs one way so strongly that a regulator or court would see the relationship as employment in substance."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of beliefs an individual holds about the mutual obligations between themselves and an employer or organisation. It can be implicit, may differ from the written agreement, and shapes trust, commitment and engagement. Perceived breach occurs when one party believes the other has failed to deliver promised obligations.",
+     "link": "The rule concerns formal classification, but the lease-purchase examples concern what a driver is promised: a future opportunity to own the vehicle. If drivers believe ownership is on offer and it does not materialise, a perceived breach can arise even where the written terms are lawful. OOIDA's remark that the rule does not create new barriers for owner-operators hints at drivers' expectations of independence, which the psychological contract would capture.",
+     "critique": "The psychological contract is subjective and hard to observe, while the DOL test is objective and legal. The two may diverge: a driver can be a contractor in law yet feel closely controlled, and contractor status does not guarantee the autonomy drivers expect.",
+     "practice": "Managers should check that written lease-purchase terms match verbal promises and that drivers understand their obligations and entitlements on both sides. Misalignment damages trust and retention even when the classification itself holds up."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Make-or-buy and transaction cost economics (Williamson)",
+     "unit": "",
+     "theory": "Williamson argues that firms choose between market transactions and internal hierarchy by comparing transaction costs. These costs rise with asset specificity, uncertainty and the frequency of exchange, and internal organisation becomes more attractive when transactions are specific, uncertain and recurring. Legal and contractual safeguards also affect the choice.",
+     "link": "A carrier choosing between owner-operators and employed drivers faces this make-or-buy decision. Lease-purchase arrangements mix the two, shifting capital cost and vehicle risk onto the driver while keeping a market-style relationship. The DOL's clearer rule lowers the legal risk of the contractor option, which changes the balance of costs and so may tilt the decision towards contracting.",
+     "critique": "Transaction cost economics treats the choice mainly as one of efficiency. The article suggests that legal classification risk and regulatory uncertainty, including differing state tests, can dominate the decision, and TCE does not model these well. It also says little about worker welfare or the psychological effects of the chosen arrangement.",
+     "practice": "A purchasing manager should compare total costs, including misclassification exposure, state-level compliance overheads and the cost of driver turnover, rather than only driver pay per mile. This comparison should guide the decision between contracted and employed capacity."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national trucking carrier relies heavily on owner-operators, some working under lease-purchase agreements, to supply its freight capacity. A federal regulator has just finalised a rule that keeps the same core tests and makes contractor status easier to defend. Driver groups welcome the rule with reservations, while the carrier's executives want to keep the existing model.",
+    "question": "Critically evaluate whether the carrier should retain its owner-operator and lease-purchase model under the new rule, and advise the board on how to manage the power and expectations of its drivers.",
+    "evidence": [
+     "The final rule treats opportunity for profit or loss and control as the core factors, and says a driver's ownership of a truck and initiative over its operation point towards contractor status.",
+     "Lease-purchase deals are not treated as carrier control in themselves, and examples were added where drivers can later own the vehicle.",
+     "Compliance with legal and health and safety obligations, even voluntary standards, is not treated as evidence of control.",
+     "A commentator argues courts may not defer to rules that change with each administration, and many misclassification claims are brought under state tests."
+    ],
+    "plan": [
+     "Identify the central issue: classification depends on economic reality and control rather than the label, and the core factors are the starting point.",
+     "Apply French and Raven's bases of power to separate legitimate regulatory requirements from directive control over how drivers work.",
+     "Use resource dependence theory to map where power lies between the carrier and its drivers, including the financing and load-allocation links.",
+     "Apply Rousseau's psychological contract to test whether drivers' expectations of ownership and autonomy match the written terms, and assess the implications for trust and retention.",
+     "Use transaction cost economics to weigh keeping owner-operators against employing drivers, including state-law and misclassification exposure.",
+     "Recommend retaining the model only if written terms, daily practice and expectations are aligned with contractor status across the relevant state tests, with regular audit; otherwise move part of capacity to employment."
+    ],
+    "pitfalls": [
+     "Assuming the federal rule settles classification; the article's lawyer argues that courts and state tests may still decide differently, so the risk is not removed.",
+     "Confusing legal status with lived experience; a driver can be a contractor in law yet feel closely controlled, which affects engagement and should be analysed through the psychological contract."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Hackman and Oldham's Job Characteristics Model",
+    "Fox's unitarist, pluralist and radical perspectives on conflict",
+    "Burns and Stalker's mechanistic and organic organisations"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that the employment relationship is best understood through formal legal classification rather than through the distribution of power and dependence between organisations and individuals.",
+    "outline": [
+     "Define control and dependence using French and Raven's bases of power and resource dependence theory, and explain the role of formal tests such as the economic realities test.",
+     "Assess how the article shows legal classification and lived power diverging, using the lease-purchase and compliance examples.",
+     "Evaluate the limits of legal and power-based explanations, including the psychological contract and variation across state tests, and reach a reasoned conclusion."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "0df4f0c1d0a6",
+   "title": "Einride books $167M in contracted revenue, targets $250M",
+   "url": "https://www.freightwaves.com/news/einride-q3-contracted-revenue-nvidia-alpamayo",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-20T12:30:00Z",
+   "addedAt": "2026-11-23T06:38:02Z",
+   "basis": "full_text",
+   "takeaway": "Einride is betting that adapting a shared AI driving model with data from trucks already earning revenue will give it a cheaper route to highway autonomy, which makes the article a test of where a firm's advantage lies when the core technology becomes widely available.",
+   "summary": "Swedish autonomous and electric freight firm Einride reports rising contracted annual recurring revenue, an outlook for an annualised revenue run rate of about $250 million by the end of 2027, and more than 40 customers. Its longer-term growth depends on highway autonomy, which it plans to reach by adapting Nvidia's Alpamayo driving model using data from its own human-driven electric trucks, which keep earning freight revenue while they collect sensor data. The existing system, called Einride 1.0, remains as a safety layer and is the basis of its public road permits. The company is also building its next-generation driver on Nvidia's Hyperion platform, using standard automotive sensors and computers from Tier 1 suppliers. Financially, cash fell over the quarter, the adjusted EBITDA loss outlook widened, and reported profit was driven by a large fair-value gain on financial instruments. Fleet growth relies on third-party asset-backed financing, and the company targets cash-flow breakeven in 2028.",
+   "keyPoints": [
+    "Contracted annual recurring revenue reached about $167 million as of November, up sharply from the end of June, but the company says it is not a revenue forecast and is subject to termination rights.",
+    "Einride's core AI model will start from a large Nvidia model that is being made available to other firms, including PlusAI, so the model itself is not presented as unique.",
+    "The company argues that data from its existing fleet, collected while trucks keep earning revenue, is the scarce input for training the system for trucks.",
+    "Einride 1.0 stays in place as a safety wrapper around the AI and underpins the public road permits in four countries and five US states for operation without a safety driver.",
+    "Cash fell from SEK 748 million to SEK 533 million over the quarter, and the second-half adjusted EBITDA loss outlook was widened to $39 million to $41 million."
+   ],
+   "modules": [
+    {
+     "id": "strategy",
+     "relevance": 85,
+     "reading": "The article is essentially about where Einride's competitive advantage will come from. The firm is shifting from building its own proprietary driving model to adapting a model that rivals can also access, and it is arguing that its real edge lies in the freight data and permits its fleet generates. A strategy student should examine whether that resource is valuable, rare and hard to imitate, and whether the move reflects a deliberate capability-building choice or a pragmatic response to cost and time pressures. The growth targets and the reliance on fleet financing also show a business model whose economics depend on scaling assets quickly."
+    },
+    {
+     "id": "finance",
+     "relevance": 55,
+     "reading": "The article gives a rich set of financial signals that need careful reading. Cash is falling while the company expands, adjusted EBITDA is a non-IFRS measure that excludes a very large fair-value gain, and the outlook for losses has widened even as contracted revenue grows. Fleet expansion is funded through third-party asset-backed financing rather than equity, which changes the risk profile. A finance student should separate contracted revenue from forecast revenue, compare cash burn with the breakeven target, and consider the staged investment decisions implied by the autonomy roadmap."
+    },
+    {
+     "id": "pwo",
+     "relevance": 35,
+     "reading": "Although the article says little about people, it describes an organisational change in how the company builds its core capability. It moves from an in-house AI model to an adapted external one, keeps the old system running as a safety layer, and collects training data from human-driven trucks while they keep operating. A PWO student should look at the change through the lens of incremental and transformational change, and should notice what the article leaves out, namely the effect on drivers, engineers and the wider workforce, which would be central to any people-focused analysis."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "strategy",
+     "concept": "The resource-based view and VRIO framework (Barney)",
+     "unit": "",
+     "theory": "The resource-based view holds that sustained competitive advantage comes from resources and capabilities that are valuable, rare, costly to imitate and organised to be exploited. VRIO applies these four tests to each resource in turn to judge whether it can give a durable advantage or only parity.",
+     "link": "Einride's claim is that its advantage lies in freight data from trucks already earning revenue, together with the public road permits its safety layer has earned. Applying the value test, this data directly improves the driving system and cuts development time, so it is valuable. The rarity and imitability tests are more contested, because the article says the underlying model is becoming available to others and PlusAI is adapting the same model, so the model cannot be the source of advantage. The permits and the operating record in several countries look harder to imitate, and the organisation test depends on whether Einride can keep converting its fleet into training data while still delivering freight.",
+     "critique": "VRIO is a static test and tends to treat resources as fixed, whereas here the value of the data depends on how quickly the company can keep learning and reconfiguring. It also does not show whether a competitor could buy its way to comparable data through partnerships or acquisitions.",
+     "practice": "A manager applying VRIO here would list the data pipeline, permits, safety record and operating know-how separately, and test each one for rarity and imitability. They would then focus investment on the resources that pass all four tests, rather than on the shared model, which can be licensed by anyone."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Dynamic capabilities (Teece)",
+     "unit": "",
+     "theory": "Dynamic capabilities are a firm's ability to sense opportunities and threats, seize them by mobilising resources, and reconfigure its assets and routines as the environment changes. They explain how firms sustain advantage in fast-moving markets where static resources decay.",
+     "link": "Einride's decision to adapt Alpamayo rather than train its own model is a clear example of sensing, in that the company recognised that large driving models were becoming available, and of seizing, in that it committed to adapting one to its own freight data. The reconfiguration is visible in the plan to run Einride 1.0 as a safety wrapper while the new AI layer is trained and then deployed on up to 80% of the network. The move to Nvidia's Hyperion platform and the use of standard automotive sensors also reconfigure the hardware base to reduce cost.",
+     "critique": "Dynamic capabilities can be hard to observe and risk becoming a label applied after the event. The article's own targets, such as a live road test in 2027 and highway autonomy in 2028, are forecasts, so the capability has not yet been proven.",
+     "practice": "A manager should build routines that repeatedly scan new model releases and partnerships, set criteria for when to adopt or build, and test each adoption in controlled operations before scaling. Reconfiguration should be phased so that safety-critical operations are not disrupted."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Incremental versus transformational change (Unit 8 Organisational change)",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Incremental change makes gradual adjustments within an existing structure, culture and way of working. Transformational change alters the fundamental nature of how an organisation operates, often involving new capabilities, roles and ways of thinking. Organisations often combine the two, and the distinction matters for how people experience and resist change.",
+     "link": "Einride's change is layered. Replacing the core driving intelligence with an adapted model is transformational in what the firm does at its heart, but the way it is introduced is incremental, because human-driven trucks keep operating and earning revenue while they gather data and Einride 1.0 stays in place as the safety layer. This parallel running reduces disruption to customers and to daily operations. The article's reference to cab-less trucks already running in Germany and Ohio shows the change reaching the operational level even though most of the fleet is still conventional.",
+     "critique": "The incremental and transformational categories concentrate on scale and speed and say little about people. The article does not describe what happens to drivers, operators or engineers as the system changes, which is where most resistance and reskilling problems arise.",
+     "practice": "A manager should identify which roles and routines the change touches, including drivers, safety staff and engineers, and communicate the staged plan clearly. They should also decide how long the parallel running will last, set criteria for retiring Einride 1.0, and monitor whether people in affected roles understand and accept the change."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Real options",
+     "unit": "",
+     "theory": "Real options treat investment opportunities as options, with the right but not the obligation to expand, delay or abandon a project as information arrives. Their value rises when uncertainty is high and when the firm can stage its commitment, so it is useful for valuing flexibility that traditional net present value tends to undervalue.",
+     "link": "Einride's plan is naturally staged. It is financing fleet growth through third-party asset-backed arrangements, it has a live road test planned for the second half of 2027, and highway autonomy is targeted for 2028. Each step creates an option to expand the fleet or the autonomous deployment if results are good, or to slow down if they are not. The non-binding joint business plans, worth about $800 million of potential annual recurring revenue, are a reminder that some of the value being assumed has not yet been committed.",
+     "critique": "Real option values depend heavily on volatility estimates that are difficult to make credible for a company at this stage. They also assume management can act flexibly, whereas asset-backed financing and contractual commitments can constrain the ability to slow down.",
+     "practice": "A finance manager should tie each tranche of capital spending to a specific milestone, such as the road test result or the regulatory permit, and should model the cost of delaying each tranche. They should also check the covenants and termination rights in the financing and customer contracts to see how much flexibility the company really has."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A young electric freight company runs a fleet of several hundred electric trucks and a small number of autonomous trucks, and earns revenue from them while it collects sensor data. It plans to adopt a driving model that a large technology firm is making available to others, and it aims to reach highway autonomy within two years. Its cash is falling, its reported profit depends on a large non-cash gain, and its fleet growth is financed by third parties.",
+    "question": "Critically evaluate whether the company's strategy of adapting a widely available AI driving model, trained on data from its revenue-earning fleet, is likely to give it a sustainable competitive advantage. Advise the board on how it should manage the transition and its investment decisions.",
+    "evidence": [
+     "Contracted annual recurring revenue of about $167 million as of November, up 76% from the end of June, with the company stating this is not a revenue forecast.",
+     "The company will adapt Nvidia's Alpamayo model, starting from a 34-billion-parameter version and distilling it to about 1 billion parameters to run in the truck.",
+     "Cash fell from SEK 748 million to SEK 533 million between June and 30 September, and the second-half adjusted EBITDA loss outlook was widened.",
+     "Reported net profit of $95.3 million was driven by a $133.8 million fair-value gain, which is excluded from adjusted EBITDA, and the company's road permits rest on Einride 1.0 in four countries and five US states."
+    ],
+    "plan": [
+     "Define the strategic resource the firm is relying on and apply the VRIO tests, separating the shared model, which fails rarity and imitability, from the fleet data and permits, which may pass.",
+     "Use dynamic capabilities to show how the firm has sensed the availability of the model, seized it, and reconfigured its systems, and assess whether this capability is repeatable.",
+     "Analyse the transition using incremental and transformational change, noting that parallel running limits disruption but leaves the people aspects largely unaddressed.",
+     "Apply real options to the staged investment plan, linking each tranche of fleet expansion to the road test and the permit milestones, and comparing the value of flexibility with the cost of delay.",
+     "Assess the financial risk using the cash decline, the adjusted EBITDA measure and the fair-value gain, and check how much of the revenue base is contracted rather than forecast.",
+     "Recommend that the board invest first in the data pipeline and permits, phase fleet growth against milestones, and report cash and contracted revenue transparently."
+    ],
+    "pitfalls": [
+     "Treating the $167 million contracted annual recurring revenue as a revenue forecast, when the article explicitly says it is subject to termination rights and management assumptions.",
+     "Presenting the $95.3 million reported profit as evidence of financial health without noting that it comes from a non-cash fair-value gain excluded from the adjusted EBITDA measure."
+    ]
+   },
+   "alsoConsider": [
+    "Mintzberg's deliberate and emergent strategy",
+    "Kotter's eight-step model of change",
+    "Blue ocean strategy (Kim and Mauborgne)"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether a firm can sustain competitive advantage in autonomous freight when the core driving technology is available to rivals, and discuss what the firm should prioritise in its investment and capability-building decisions.",
+    "outline": [
+     "Explain why a shared technology platform shifts the source of advantage towards proprietary data, operating permits and organisational routines, using the resource-based view and VRIO.",
+     "Assess whether the firm's ability to adapt and reconfigure its systems constitutes a dynamic capability, and evaluate the evidence for and against it.",
+     "Recommend a staged investment and change strategy, using real options and incremental and transformational change, and identify the financial and people risks the firm must manage."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "dc58f5e10846",
+   "title": "J.B. Hunt broker liability case proceeding after split decision",
+   "url": "https://www.freightwaves.com/news/j-b-hunt-broker-liability-case-proceeding-after-split-decision",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-20T22:09:00Z",
+   "addedAt": "2026-11-23T06:38:02Z",
+   "basis": "full_text",
+   "takeaway": "A brokerage can escape vicarious liability for a carrier's driver where no lease exists, but it cannot escape scrutiny of its own choice of carrier. If it did not check the carrier's safety record before booking, a jury may find it negligent.",
+   "summary": "A federal court in Arizona split its ruling on a summary judgment motion by J.B. Hunt's brokerage arm after a fatal 2023 crash on a two-lane highway. A driver employed by carrier Borderlanders crossed into oncoming traffic and collided with a car carrying two parents and their three children, killing the parents and seriously injuring the children. The load was medical equipment for Lincare, worth $1,350, booked through J.B. Hunt's online platform. The judge accepted J.B. Hunt's argument that no lease existed between it and Borderlanders, which had used its own authority, equipment and driver, so the federal leasing regulations did not apply and vicarious liability failed. He refused to dismiss the negligent hiring claim because the plaintiffs had evidence that J.B. Hunt had not reviewed Borderlanders' accident history, FMCSA safety scores, alerts or inspection violations before selecting it, and a rational jury could find it knew or should have known of the risk. Borderlanders has settled and the driver's action was dismissed, so the case now concerns only J.B. Hunt. The article links the ruling to Montgomery, which removed the federal preemption defence brokers had relied on, and quotes an outside lawyer saying brokers still lack clear guidance on what vetting is sufficient.",
+   "keyPoints": [
+    "The court granted summary judgment on vicarious liability because there was no valid lease, so the federal leasing regulations did not apply.",
+    "The court denied summary judgment on negligent hiring because there were factual disputes about what J.B. Hunt knew or should have known about Borderlanders.",
+    "The plaintiffs cited evidence that J.B. Hunt never reviewed publicly available accident and crash history, FMCSA safety scores, safety alerts or inspection violations before selecting the carrier.",
+    "The carrier's settlement and the dismissal of the driver's action mean the negligent hiring claim is the remaining issue against the broker.",
+    "The earlier preemption defence was undone by Montgomery, pushing brokers towards other arguments."
+   ],
+   "modules": [
+    {
+     "id": "purchasing",
+     "relevance": 75,
+     "reading": "In purchasing terms, the broker is a buyer of transport capacity and the carrier is a supplier that must be selected, qualified and monitored. The central issue is whether the buyer carried out adequate supplier due diligence before awarding the work. The court's focus on the safety data J.B. Hunt did not review makes supplier evaluation a legal duty as well as a commercial one. Purchasing students should care because the case shows that a supplier choice can create liability, not just cost or service risk."
+    },
+    {
+     "id": "logops",
+     "relevance": 68,
+     "reading": "Freight brokerage is a form of third-party logistics, in which a firm arranges transport for a shipper and uses independent carriers to move the goods. The article shows the asset-light model in practice: the carrier used its own authority, truck and driver, and the load was booked through an online platform. Logistics students should see how outsourcing shifts operational control and asset ownership away from the intermediary, while accountability can still attach to the selection decision."
+    },
+    {
+     "id": "scm",
+     "relevance": 45,
+     "reading": "A freight broker's carrier network is its supply base, and the quality of that base determines the broker's exposure. Christopher and Peck treat risk as something to be mapped across the network and reduced through visibility, redundancy and flexibility. Here the risk is a serious safety and legal exposure from a single carrier on a single load rather than delay or shortage. SCM students can use the case to discuss how supply chain risk management extends into safety and compliance."
+    },
+    {
+     "id": "pwo",
+     "relevance": 40,
+     "reading": "Organisation design concerns how formal roles, reporting lines and rules divide responsibility. In this case the formal arrangement, a contractual separation with no lease, was decisive for vicarious liability. The negligent hiring claim, however, turned on what staff knew or should have checked, which sits in the informal side of the organisation. People, Work and Organisations students should note the gap between the formal structure on paper and how risk information actually moves and is used."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "purchasing",
+     "concept": "Supplier selection and evaluation criteria",
+     "unit": "",
+     "theory": "Supplier selection means assessing potential suppliers against defined criteria, such as capability, quality, cost, reliability and risk, before awarding the contract, and then evaluating their performance over time. The buyer is expected to base the decision on evidence rather than convenience. Criteria should be explicit, documented and proportionate to the risk the supplier poses.",
+     "link": "The negligent hiring claim rests on evaluation steps that J.B. Hunt did not take: the judge noted that the company had not reviewed Borderlanders' publicly available accident and crash history, FMCSA safety scores, safety assessment alerts or inspection violation history before choosing it. These are safety criteria that were available to the buyer. The court held that a jury could find J.B. Hunt knew or should have known of the risk, which means a documented evaluation step was the missing control. The plaintiffs' claim that the carrier had a history of hiring inexperienced drivers is the kind of capability evidence a supplier criteria checklist is designed to capture.",
+     "critique": "The criteria are not settled. Reed argues that the industry lacks guidance on what counts as sufficient vetting, and the defence argues that few incidents relative to fleet size give no notice of risk. The Texas verdict against C.H. Robinson, despite a satisfactory FMCSA rating, shows that meeting a regulatory benchmark does not guarantee that a court will accept the buyer's vetting.",
+     "practice": "A manager should write a carrier qualification standard covering safety scores, crash and inspection history, insurance and driver experience, with thresholds that trigger escalation or refusal. Each award should record which checks were made and by whom. The list should be re-reviewed periodically and whenever new safety data appear."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Logistics outsourcing: third-party logistics (3PL) and fourth-party logistics (4PL)",
+     "unit": "",
+     "theory": "A third-party logistics provider performs transport or warehousing for a client using its own or subcontracted resources. A fourth-party provider manages and integrates a network of third parties on the client's behalf without owning the assets. Outsourcing gives the client flexible capacity and avoids fixed asset costs, but it creates dependence on subcontractors whose standards the client must manage.",
+     "link": "The brokerage arm had been hired by Lincare to move its products and then booked the load through its platform to Borderlanders, which carried it under its own authority with its own equipment and driver. This is a subcontracting chain in which the broker holds the customer relationship but not the vehicle. The short Denver to Phoenix route and the modest $1,350 price illustrate the high-volume, transactional nature of brokered freight. The judge's finding that no lease existed shows that the legal position followed the asset arrangement.",
+     "critique": "Outsourcing theory treats subcontracting mainly as a cost and capacity choice. This case shows that the intermediary cannot outsource its own duty of care in selecting the subcontractor. Where the broker controls the booking platform and chooses the carrier, a court may treat it as an active selector, so the asset-light label does not settle liability.",
+     "practice": "A logistics manager should decide deliberately which activities stay in-house, such as carrier qualification and monitoring, and which can be subcontracted. Carrier contracts should require safety data, insurance and driver standards, and performance should be tracked on on-time, in-full and incident measures."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Formal and informal organisation",
+     "unit": "Unit 6 Designing effective organisations",
+     "theory": "The formal organisation is the designed structure of roles, reporting lines, rules and written procedures. The informal organisation is the network of relationships, unwritten norms and practical knowledge through which work actually gets done. Formal structures define accountability on paper, but informal networks often determine what people know and how decisions are made in practice.",
+     "link": "On paper the structure separated J.B. Hunt from Borderlanders, with separate authority, equipment and drivers and no lease, and the court accepted this formal position for vicarious liability. The negligent hiring claim, however, depended on what the brokerage knew and did not check, such as public safety scores and accident histories. Those practical decisions happen in the booking process and in informal exchanges about carriers. The case shows a formal legal boundary being tested against the informal reality of who knew what.",
+     "critique": "The formal and informal distinction is descriptive and does not tell managers how to close a gap. Treating paper arrangements as a shield is risky, because courts look at what the organisation should have known. Weber's rational-legal model would expect written rules to cover information use, but the case suggests written rules alone do not secure knowledge.",
+     "practice": "A manager should map how carrier decisions are actually made, including who sees safety data and who can override a booking. The key checks should then be formalised so they do not depend on individual initiative. Informal concerns about a carrier should have a clear route into the formal selection process."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chains are vulnerable to disruption and that resilience has to be designed in. This means identifying key risks, reducing supply base vulnerabilities, improving visibility across tiers and building redundancy and flexibility. Risk should be assessed across the whole network, not only at the level of the immediate supplier.",
+     "link": "The disruption here is a fatal crash, and the exposure is the broker's reliance on one carrier for one load. The plaintiffs said the carrier had a history of inexperienced drivers, which suggests the risk was visible in available data. The broker's network of independent carriers is its supply base, and it is only as strong as its weakest member. The broker's argument that incidents were few relative to its volume is a probability argument that treats the carrier base as a portfolio.",
+     "critique": "Christopher and Peck focus mainly on operational disruption such as delay, shortage and cost. Legal and safety exposure from a single carrier's misconduct sits outside that framing. Probability reasoning, such as few incidents across many loads, may not persuade a court where the foreseeable harm is catastrophic.",
+     "practice": "The broker should map its carrier base by safety record and by concentration, and identify carriers whose records create high exposure. Higher-risk carriers should face stricter onboarding and monitoring. The broker should also keep backup carriers so that a suspended carrier does not cause service failure, and review its carrier base after any serious incident."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A large freight brokerage arranges transport for healthcare and industrial customers, using independent carriers booked through an online platform, and owns no vehicles itself. One carrier, which plaintiffs allege had a history of inexperienced drivers, was used for a medical equipment load without the broker reviewing its public safety records. A driver from that carrier crossed into oncoming traffic on a rural two-lane road and a family car collided with the truck, killing two adults and seriously injuring their three children. The brokerage has been sued on vicarious liability and negligent hiring grounds.",
+    "question": "Critically evaluate whether an asset-light brokerage can avoid liability for a carrier's driver, and advise the board on changes to its carrier selection process that would reduce its exposure.",
+    "evidence": [
+     "The court accepted that no lease existed, so the federal leasing regulations did not apply and the vicarious liability claim failed.",
+     "The court refused to dismiss the negligent hiring claim because the broker had not reviewed the carrier's accident history, FMCSA safety scores, safety alerts or inspection violations before selecting it.",
+     "A rational jury could find that the broker knew or should have known of the safety risks, and the judge found factual disputes on the claim.",
+     "Commentators say brokers lack clear guidance on what vetting is sufficient, and a separate Texas case against C.H. Robinson produced a verdict of more than $600 million despite a satisfactory FMCSA rating for the carrier."
+    ],
+    "plan": [
+     "Identify the two routes to liability, vicarious liability through a lease or statutory employment and direct negligent hiring. Explain why the first failed and the second survived, using the formal and informal organisation concept.",
+     "Apply the formal and informal organisation distinction to show that the paper separation protected the broker against vicarious claims but not against what its staff knew or should have checked.",
+     "Use supplier selection and evaluation criteria to define the missing due diligence steps. Argue that a documented, risk-proportionate checklist would have revealed the carrier's record.",
+     "Apply logistics outsourcing theory to explain that subcontracting the vehicle does not outsource the duty of care in choosing the subcontractor, and weigh the cost benefit of outsourcing against the loss of control.",
+     "Use Christopher and Peck's supply chain risk management to assess the broker's concentration risk, and the value of tiered controls and backup carriers.",
+     "Recommend a written qualification standard with thresholds and escalation, documented selection decisions, periodic and incident-triggered re-review, and a formal channel for informal safety concerns."
+    ],
+    "pitfalls": [
+     "Treating the lease finding as a general defence. It applies only where there is no valid lease, and a broker that leases equipment or controls the vehicle would not be protected in the same way.",
+     "Assuming that regulatory authorisation or a satisfactory rating ends the inquiry. The court asks what the broker should have known, and the C.H. Robinson verdict shows a satisfactory rating did not prevent a large award."
+    ]
+   },
+   "alsoConsider": [
+    "Transaction cost economics (Williamson)",
+    "Cox's power in buyer-supplier relationships",
+    "Weber's rational-legal bureaucracy"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that outsourcing transport to independent carriers allows a logistics firm to transfer its legal and safety responsibility for their conduct. Use recent evidence to support your answer.",
+    "outline": [
+     "Distinguish the legal and contractual separation between buyer and supplier from the buyer's own duty to select and monitor suppliers with reasonable care.",
+     "Apply supplier selection and evaluation criteria, and explain what evidence the buyer should gather, record and act on.",
+     "Evaluate the limits of risk transfer through outsourcing, noting the absence of clear industry standards and the role of juries in deciding reasonableness."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "07fb8df92efb",
+   "title": "Trucker sentenced in $7.2 million cargo theft scheme involving legitimate freight contracts",
+   "url": "https://www.freightwaves.com/news/trucker-sentenced-in-7-2-million-cargo-theft-scheme-involving-legitimate-freight-contracts",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-20T15:00:48Z",
+   "addedAt": "2026-11-23T06:38:02Z",
+   "basis": "full_text",
+   "takeaway": "Freight fraud exploits legitimate carrier authority and brokered load boards, so logistics controls must verify who physically collects and moves the goods, not just whether the contracted carrier looks valid on paper.",
+   "summary": "A California trucking company owner was sentenced to 30 months in federal prison for his part in a conspiracy that stole about $7.2 million of cargo. The group won freight through brokers and load boards using legitimate carrier registrations, collected goods at warehouses in Southern California, and diverted them, sometimes after buying established carriers and using other people's identities. The sentence came with restitution of about $2.2 million, well below the attributed losses, and the reasons for the gap are not explained in the available filings. Four co-defendants await trial, and the carriers involved held operating authority only briefly before it was revoked.",
+   "keyPoints": [
+    "Singh received 30 months and was ordered to pay about $2.21 million in restitution against attributed losses of about $7.21 million; the filings do not explain the difference.",
+    "The scheme ran from September 2021 to March 2025 and used legitimate transport contracts, brokers, online load boards, purchased carriers and fraudulent identities.",
+    "Drivers arrived at warehouses with tractors, trailers and paperwork naming their assigned carrier, and the goods were then withheld or diverted.",
+    "The carriers linked to the scheme each reported one truck and one driver, and regulators granted and revoked their operating authority within months, sometimes more than once.",
+    "Neither company held active interstate operating authority or primary liability insurance on file."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 75,
+     "reading": "In logistics operations terms, this is a failure in the carrier procurement and pickup process within a brokered freight network. The criminals used load boards and brokers to win loads, then used carriers they had bought or registered to collect goods from warehouses and divert them. Students of logistics should care because it shows how layers of intermediation between shipper and vehicle weaken control over who actually moves the goods, and because the warehouse gate and handover are operational control points."
+    },
+    {
+     "id": "scm",
+     "relevance": 60,
+     "reading": "Viewed through supply chain risk, the article describes deliberate disruption originating at the transport interface rather than from supply or demand shocks. A network that relies on many small, lightly vetted carriers and on paperwork-based pickup creates a vulnerability that stays hidden until goods fail to arrive at their destination. The case is useful for risk identification, vulnerability mapping and resilience design, because it shows that visibility and redundancy must cover security as well as operational risk."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 55,
+     "reading": "Carrier selection here is effectively a procurement failure: shippers and brokers appear to have awarded freight to carriers whose legitimacy was inferred from registrations and paperwork rather than verified in depth. The carriers were short-lived, each had one truck and one driver, had authority granted and revoked repeatedly, and shared contact details, which are the kind of signals a supplier evaluation should pick up. Purchasing students should care because verifying and monitoring a carrier base is a sourcing responsibility, and the case blurs the boundary between supplier risk and crime."
+    },
+    {
+     "id": "pwo",
+     "relevance": 40,
+     "reading": "From the perspective of individual behaviour in organisations, warehouse and dispatch staff are making quick judgements about drivers and carriers from cues such as tractors, trailers, paperwork and registration records. The article shows that a credible surface can make people less likely to look for inconsistencies, which is a perceptual process as much as a control failure. PWO students should care because it links perception, bias and the design of routine work: the question is how organisations stop staff being reassured by appearances."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "logops",
+     "concept": "Logistics outsourcing: third-party and fourth-party logistics",
+     "unit": "",
+     "theory": "Third-party logistics providers carry out transport or warehousing for a shipper under contract, while fourth-party providers manage and integrate several such providers. Brokers add a further layer by matching loads to carriers, so the contracted party is not always the one physically moving the goods. The shipper's control over who collects and transports its cargo depends on how well this chain is governed.",
+     "link": "The article describes shipments secured through brokers and online load boards, and drivers arriving at warehouses with paperwork naming their assigned carrier. The carriers involved each reported one truck and one driver, so the entity contracted and the vehicle actually used could differ. Operating authority was granted and revoked within months, which shows that a registration is a weak proxy for reliable performance. The diversion occurred at the handover between the carrier and the warehouse, which is exactly where outsourcing transfers day-to-day control to a third party.",
+     "critique": "Outsourcing theory mainly treats risk as a matter of performance, cost and service, and gives less attention to deliberate fraud, where the provider or its subcontractors may be the threat. The extra tiers it creates can also hide that threat from the shipper.",
+     "practice": "A shipper should require verified carrier identity and limit subcontracting, then check at pickup that the driver and vehicle match the booking. Its contracts should require the provider to name the actual carrier used for each load and to report exceptions promptly."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chains are vulnerable when they are complex, lean and dependent on external partners, and that resilience comes from identifying risk sources, building visibility across the network, and designing redundancy and flexibility into it. Risk should be assessed at each node and each handover, not only at the level of the whole network.",
+     "link": "The article describes a risk that is malicious rather than accidental, yet it still exploited the network's structure. Losses across several incidents ranged from about $129,000 to over $421,000 each, and one movement carried $5 million in stolen cargo, all caused by people working within the transport interface. Visibility failed because the loss was usually only confirmed when goods did not reach their intended delivery points. The spread of incidents across several warehouses and destinations shows how connectivity can spread a single vulnerability.",
+     "critique": "Christopher and Peck's approach is designed mainly for accidental and environmental disruption. It does not directly tell a firm how to counter insiders or organised criminals, which requires security controls and intelligence alongside resilience planning.",
+     "practice": "A manager should map the freight network to identify each node where custody passes to a third party, then add tracking and proof-of-pickup checkpoints at those points. The team should also run scenario exercises on diversion, so that the response is practised before a real loss occurs."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Transaction cost economics (Williamson)",
+     "unit": "",
+     "theory": "Williamson argues that firms choose between market and hierarchical governance according to transaction costs, which rise with asset specificity, uncertainty and the risk of opportunism, meaning self-interested or deceptive behaviour by the other party. Governance should be matched to these hazards, through closer contracts, monitoring or internal control. Where information about the other party is poor, opportunism is harder to prevent.",
+     "link": "Buyers in this case dealt with a fragmented, fast-moving pool of short-lived carriers, sourced through brokers and load boards, where information about the seller was thin and could be faked. Carrier registrations were granted and revoked, companies were bought and re-registered, and identities were borrowed, which shows opportunism exploiting information asymmetry. Neither company held primary liability insurance on file, so the contractual protection a buyer would expect was absent.",
+     "critique": "Transaction cost economics assumes that opportunism is constrained by contracts and reputation. Criminal networks ignore these constraints, and the theory does not explain fraud involving identity theft as well as it explains opportunistic contract breach.",
+     "practice": "A shipper should move from purely spot buying to a qualified carrier panel with verification, insurance requirements and performance monitoring. For high-value loads it should adopt closer governance, such as dedicated carriers or stricter custody terms, and should weigh the extra cost against the loss exposure."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Perceptual biases: halo effect and selective perception",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Perception is the process by which people select, organise and interpret information, and it is shaped by prior expectations. The halo effect lets one favourable cue dominate an overall judgement, while selective perception leads people to notice information that confirms their expectations and to overlook information that does not.",
+     "link": "Warehouse staff faced drivers with tractors, trailers and paperwork naming a carrier, and a registration that looked valid. These cues fitted expectations, so inconsistencies, such as a carrier that had only recently gained authority or companies sharing an address and email, were easy to miss. The scheme depended on this kind of reassurance, and the Certified Fraud Compliance Officer training noted in the article makes the same point, that a legitimate-looking carrier profile does not remove fraud risk.",
+     "critique": "Perception theory explains individual error, but the article suggests a systemic failure in processes, and possibly insider collusion. Training individuals to perceive better is unlikely to be enough, so checks should not rely on judgement alone.",
+     "practice": "Managers should replace impression-based checks at the gate with a fixed checklist, such as matching driver identity to the booking, confirming load authority and requiring a second check whenever the carrier changes. They should also review near misses without blame, so that cues staff noticed but did not act on can be brought into the process."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A consumer electronics distributor outsources most of its inbound and outbound freight to a broker, which assigns loads to a pool of small carriers. Over several months, high-value shipments collected from regional warehouses failed to reach their destinations, although the carriers had valid registrations and drivers presented matching paperwork. The distributor only noticed the pattern after customers reported missing stock. Its chief operating officer must now respond.",
+    "question": "Critically evaluate how the distributor should redesign its carrier selection, pickup and warehouse controls to prevent diversion, and advise on the trade-offs between security, cost and service.",
+    "evidence": [
+     "Shipments were secured through brokers and online load boards, and drivers arrived at warehouses with paperwork naming their assigned carrier.",
+     "The carriers linked to the scheme each reported one truck and one driver, and their operating authority was granted and revoked several times within months.",
+     "Two companies shared the same address and email, and neither held active operating authority or primary liability insurance on file.",
+     "Individual incident losses ranged from about $129,000 to more than $421,000, and the total attributed to the conspiracy was about $7.2 million."
+    ],
+    "plan": [
+     "Diagnose the risk with Christopher and Peck's supply chain risk framework, identifying the vulnerable nodes such as the broker, the carrier pool and the warehouse handover, and the consequences of diversion at each.",
+     "Apply transaction cost economics to explain why spot buying through load boards exposes the firm to opportunism and information asymmetry, and recommend a qualified carrier panel with governance matched to load value.",
+     "Apply third-party and fourth-party logistics theory to require visibility of the actual carrier, limits on subcontracting, and contractual terms covering custody, insurance and liability.",
+     "Use perceptual bias theory to explain why gate staff may accept appearances, and design a verification checklist that overrides impressions.",
+     "Assess the trade-offs, noting that extra verification adds cost and delay, and weigh these against loss exposure and service levels by load category.",
+     "Recommend a phased plan with measures such as exception rates, share of verified pickups and time to detect diversion, and a review of insider risk."
+    ],
+    "pitfalls": [
+     "Treating the case as a conventional hijacking or road-safety problem rather than as fraud through legitimate channels, which misses the focus on process and governance.",
+     "Assuming that a valid carrier profile or a single onboarding check proves legitimacy, when the article shows that authority can be granted and revoked and that a valid profile can later change."
+    ]
+   },
+   "alsoConsider": [
+    "Agency theory (Jensen and Meckling)",
+    "Kraljic's purchasing portfolio matrix",
+    "Normalisation of deviance (Vaughan)",
+    "Cognitive biases and heuristics (Kahneman and Tversky)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the claim that outsourcing freight movement to third-party logistics providers and brokers reduces an organisation's operational risk in transport.",
+    "outline": [
+     "Explain the layers of intermediation in brokered freight and how each adds efficiency while creating new exposure, illustrated with the cargo theft case.",
+     "Evaluate governance options such as carrier verification, contractual custody and performance monitoring, drawing on transaction cost economics and supply chain risk theory.",
+     "Conclude on whether outsourcing lowers risk overall, noting that cost may fall while control and visibility also fall, and recommend safeguards."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "4050f363c853",
+   "title": "EV Realty breaks ground on Torrance truck charging hub",
+   "url": "https://www.freightwaves.com/news/ev-realty-torrance-truck-charging-hub",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-19T18:33:07Z",
+   "addedAt": "2026-11-23T06:38:02Z",
+   "basis": "full_text",
+   "takeaway": "The Torrance hub shows that freight electrification depends on physical grid access, public incentives and a project whose scope, budget and schedule all shifted during delivery.",
+   "summary": "EV Realty has broken ground in Torrance on a truck charging site near the ports of Los Angeles and Long Beach, due to open to commercial fleets in mid-2027. The layout changed from 60 ports, mostly rated up to 300 kW, to 50 ports with 9 MW of capacity, because the lower-power design needed more room than the site offered, and Caltrans recommended the change. The budget rose to $22.1 million, with a $7.9 million state grant and the developer absorbing the increase, while permitting delays at two outside agencies pushed completion back by about sixteen months. The article names no fleet customers for Torrance and reports that only a small share of port drayage trucks made zero-emission calls in July.",
+   "keyPoints": [
+    "The design moved from 60 mostly lower-power ports (7.6 MW) to 50 ports with 9 MW, including 20 megawatt-class ports, because the original layout did not fit the plot.",
+    "The budget rose from $18.37 million after the redesign to $22.1 million; a state grant covers $7.9 million and EV Realty meets the remaining $14.2 million, including the increase.",
+    "Completion slipped from February 2026 to June 2027 after permitting delays at two outside agencies, one of them the city of Torrance.",
+    "The site has 9.9 MW of grid capacity, and the developer's model is to buy sites where utility power already exists, treating grid access as the main constraint on electrification.",
+    "The ports of Los Angeles and Long Beach have proposed $60 per terminal visit for zero-emission trucks, up to $36,000 a year over three years; only about 3.6% of the drayage trucks with terminal access called at Long Beach in July."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 85,
+     "reading": "In the language of green and sustainable logistics, this is decarbonisation of port-linked drayage through infrastructure as well as vehicles. The module focuses on freight emissions, the options for cutting them, and the policies (grants, incentives, utility arrangements) that decide whether operators switch. A student should care because the article shows that power supply and capital are the binding constraints, and that the per-visit port payment and state grant are public attempts to correct a market in which local air pollution is not paid for by the operator."
+    },
+    {
+     "id": "projects",
+     "relevance": 60,
+     "reading": "For the projects module, the Torrance hub is a capital project whose baseline changed during delivery. The redesign cut the number of ports while raising capacity, the budget rose after the redesign, and permitting by outside agencies moved the finish date back by about sixteen months. Students should note how a physical constraint forced a scope change, how the extra cost was allocated, and how external approvals create dependencies that belong in the risk register and stakeholder analysis."
+    },
+    {
+     "id": "logops",
+     "relevance": 55,
+     "reading": "Logistics operations students will see the charging hub as a node in a freight network. Its position beside two interstates, close to the port terminals, inland distribution centres and air cargo at LAX, is a network-design choice about where trucks can turn around and how often. The CEO's claim of three or four turns per truck per day is a utilisation figure, and whether it holds depends on charging speed, terminal dwell times and routing."
+    },
+    {
+     "id": "pwo",
+     "relevance": 35,
+     "reading": "For People, Work and Organisations, the article is mainly an account of an inter-organisational project rather than of people at work, so the link is indirect. The design change was triggered by a physical constraint and a recommendation from a state agency, and it was carried out by a developer working with partners and regulators whose consent and timing it does not control. A student should care because change in multi-party settings is shaped by who must agree, who resists and who bears the cost, not only by the engineering."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "Externalities and carbon pricing",
+     "unit": "",
+     "theory": "An externality is a cost or benefit that falls on people outside a transaction, such as local air pollution from diesel trucks. Markets tend to overuse activities whose external costs are uncompensated, so policy tries to internalise them through charges, subsidies, grants or regulation.",
+     "link": "The article describes local air impacts from diesel drayage that the operator does not pay for directly. The ports' proposed payment of $60 per terminal visit for zero-emission trucks, capped at $36,000 a year, and the $7.9 million state grant are public attempts to shift that cost, since both lower the operator's effective cost of switching. Only about 3.6% of the drayage trucks with terminal access called at Long Beach in July as zero-emission vehicles, which suggests the incentive has not yet reached most of the market. The CEO's claim of reduced local air impacts is asserted in the release, not measured.",
+     "critique": "A per-visit payment is a subsidy rather than a charge on emissions, so it rewards electric trucks without penalising diesel ones, and it does not address the emissions from the power that charges them; the article provides no emissions data to test either point.",
+     "practice": "A developer seeking public co-funding should quantify the avoided local air costs and set them against the subsidy required. A fleet operator should build the full incentive stack (port payment, grant and utility rebate) into its cost per truck before deciding to switch."
+    },
+    {
+     "moduleId": "projects",
+     "concept": "The iron triangle (time, cost and quality or scope)",
+     "unit": "",
+     "theory": "The iron triangle holds that a project's time, cost and quality or scope are linked, so that changing one usually requires adjusting another. Projects are judged against all three, which is why baselines are set early and changes must be controlled and formally re-approved.",
+     "link": "All three elements moved at Torrance. The design shifted from 60 ports to 50 with more power, a change in scope and quality driven by the physical size of the site; the budget rose from $18.37 million to $22.1 million, absorbed by EV Realty; and the end date moved from 6 February 2026 to 30 June 2027 after permitting delays at two outside agencies. The commission records show that the scope change was approved through a formal process, which is what keeps the baseline auditable.",
+     "critique": "The triangle treats scope as something that can be traded, whereas at Torrance the site dictated the scope, and it does not show how to price delays caused by external approvals. The planning fallacy suggests the original schedule may have underestimated approval times, but the article does not say whether it did.",
+     "practice": "The developer should record permitting by each agency as a separate risk with an owner and lead time, rebaseline the schedule and budget formally when scope changes, and use reference-class forecasts from comparable charging or real-estate projects to set realistic dates and contingency for future sites."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Distribution network design: hub-and-spoke, cross-docking and consolidation",
+     "unit": "",
+     "theory": "Distribution network design determines how many facilities a network needs, where they are placed and which flows pass through them. Hub-and-spoke designs route flows through central nodes, while cross-docking and consolidation move goods quickly through facilities without long storage to fill vehicles and reduce cost per movement.",
+     "link": "The Torrance site sits beside the I-405 with a link to the I-110, close to the ports, inland distribution centres and air cargo at LAX, so it lies where several freight flows meet. The hub is not a warehouse, but its location and number of charging ports determine how many turns a drayage truck can make in a day, which the CEO puts at three or four. Access is tied to the ports' terminal programmes and the Port of Los Angeles grant requires fleets of at least 10 trucks, which means the value of the node depends on which carriers use it.",
+     "critique": "Hub-and-spoke and consolidation logic assumes freight is being pooled, whereas a charging hub serves vehicles as they pass through, so applying the model directly would overstate any consolidation benefit. The article names no customers for Torrance, so the utilisation that drives the network case is not yet demonstrated.",
+     "practice": "A logistics planner should model the site's throughput in trucks per day against charging time and terminal dwell, compare alternative sites on the same corridors, and secure signed fleet commitments before relying on the volumes assumed."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Planned versus emergent change",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Planned change is deliberately designed, with defined goals, steps and a timetable that move an organisation from its current to its intended state. Emergent change is continuous and less predictable, arising as people adjust to events and constraints over time, and it is associated with the need to adapt as the situation unfolds.",
+     "link": "The Torrance project has a planned frame: a commission-approved scope, a state funding agreement, an updated schedule and budget, and published milestones. The redesign itself emerged when the layout proved too small for the lower-power design, and it was then recommended by Caltrans and adopted by the developer, which absorbed the cost increase. The later delays from permitting agencies, including the city, were external events the plan had to absorb. The article therefore shows both modes operating together, with formal approvals wrapped around emergent adjustments.",
+     "critique": "The planned-versus-emergent distinction is too neat, since most real projects combine a planned frame with emergent adjustments. The article gives no evidence of how partners, staff or agencies responded to the revised design, so it cannot test whether the change was accepted or resisted.",
+     "practice": "A manager should keep planned milestones and approvals intact while building feedback loops that let teams adjust layout and procurement as constraints emerge. They should also brief partners and agencies early on the trade-offs, since people are more likely to support a changed plan when they understand why it changed."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A developer of truck charging hubs has acquired a site close to a major port, but the 60-port, lower-power layout it first planned does not fit on the plot. It changes to 50 higher-power ports, the budget rises by several million dollars, and permitting by two outside agencies pushes the opening back by about sixteen months. Several partners and public bodies must agree to the revised scope, and the chief executive wants the project presented to them as a basis for growth.",
+    "question": "Critically evaluate whether the redesign of the charging hub should be managed as a planned or an emergent change, and advise the project's leadership on the people aspects of implementing it, including partners and public agencies.",
+    "evidence": [
+     "Caltrans, which recommended the change, said the megawatt-charging ports would shorten charging times for trucks built to use them.",
+     "Commission records show the port count was cut from 60 to 50 and capacity raised from 7.6 MW to 9 MW because the lower-power layout needed more space than the site had.",
+     "The budget rose from $18.37 million with the redesign, and EV Realty agreed to absorb the increase, bringing the total to $22.1 million.",
+     "The end date moved from 6 February 2026 to 30 June 2027 after permitting delays at two outside agencies, including the city of Torrance.",
+     "The project partners named in the article are Outpost, ParWest and Synop, alongside EV Realty."
+    ],
+    "plan": [
+     "Identify the triggers for change: an internal physical constraint discovered in the layout, a recommendation from a state agency, and external permitting delays (Unit 8, triggers for change).",
+     "Classify the redesign as emergent in origin but planned in its approval, and justify the classification with evidence from the case (Unit 8, planned versus emergent change).",
+     "Apply Lewin's force field analysis to list the driving forces (grant funding, port incentives, Caltrans support) and restraining forces (cost increase, permitting, partner expectations set by the original design).",
+     "Assess likely resistance from partners and agencies and select strategies from Kotter and Schlesinger, such as communication, participation and negotiation (Unit 8, resistance to change).",
+     "Use Bridges's transition model to plan for the endings the original design leaves behind, the neutral period of the delay and the new beginning of the 9 MW layout.",
+     "Recommend a clear communication and involvement plan, explicit decision rights for further scope changes, and regular milestone reviews with partners and agencies."
+    ],
+    "pitfalls": [
+     "Treating the redesign as a purely technical fix and neglecting the people, partner and agency aspects that the question asks about.",
+     "Declaring the change planned or emergent without evidence from the case to justify the choice."
+    ]
+   },
+   "alsoConsider": [
+    "Lewin's three-step model and force field analysis",
+    "Kotter and Schlesinger's strategies for resistance to change",
+    "Mendelow's power-interest matrix",
+    "McKinnon's green logistics framework for decarbonising freight"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether public incentives and infrastructure investment, rather than vehicle purchase alone, can drive the decarbonisation of port-linked freight.",
+    "outline": [
+     "Define externalities and carbon pricing, and explain why the local air pollution from drayage trucks is an external cost that incentives aim to correct.",
+     "Assess the roles of grid access, grants and per-visit payments as enablers and constraints, using the Torrance figures and the low share of zero-emission port calls at Long Beach.",
+     "Critique the approach by weighing subsidies against charges and noting the unmeasured emissions benefits, then conclude with a recommendation for policymakers and operators."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "5c416d040e70",
+   "title": "Businesses warn budget cuts threaten EU’s clean industry ambitions",
+   "url": "https://www.edie.net/businesses-warn-budget-cuts-threaten-eus-clean-industry-ambitions/",
+   "source": "edie",
+   "publishedAt": "2026-11-23T05:00:33Z",
+   "addedAt": "2026-11-23T06:38:02Z",
+   "basis": "full_text",
+   "takeaway": "More than 75 businesses have asked EU leaders to protect the European Competitiveness Fund in the 2028-2034 budget, arguing that cuts undermine the investment certainty clean-tech manufacturers need. For a student, it shows how collective business lobbying, public funding and investment decisions interact under policy uncertainty.",
+   "summary": "A joint letter from more than 75 companies, trade associations and clean-tech start-ups, including EDF, 3M, Orano and PowerCo, urges EU heads of state and government to protect the European Competitiveness Fund when they set the 2028-2034 budget. The fund is meant to modernise Europe's economy by combining previously separate programmes into a single instrument with one set of rules. The latest draft cuts it by about 10%, from €398bn to €356bn in 2025 prices, while agriculture and cohesion are cut by about 3%. The signatories want the €26.6bn top-up proposed by the European Parliament, more support for cleantech manufacturing and energy sovereignty, and an end to EU funding for new fossil-fuel infrastructure from 2028. A battery recycler in Germany says reliable EU financing is needed to scale its refinery, and a sustainable finance adviser says businesses want investment certainty. Leaders meet on 26 and 27 November to settle the budget.",
+   "keyPoints": [
+    "More than 75 companies signed a joint letter to EU leaders, ranging from large industrial groups to start-ups and trade associations.",
+    "The European Competitiveness Fund replaces 14 existing EU programmes with one instrument, one set of rules and one application process for 2028-2034.",
+    "The latest draft cuts the fund by around 10% (€398bn to €356bn in 2025 prices), compared with about 3% for agriculture and cohesion.",
+    "The signatories back a €26.6bn top-up proposed by the European Parliament and want EU money to stop funding new fossil-fuel infrastructure from 2028.",
+    "The businesses argue that cuts would stop factories being built and keep Europe's energy fossil-based, expensive and dependent on others."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 85,
+     "reading": "The letter is about financing the decarbonisation of industry: cleantech manufacturing, grids, electrification, battery recycling and an end to new fossil-fuel infrastructure. In green logistics terms, it shows that decarbonisation depends on capital and policy as much as on technology. The collection of used batteries and their processing in a refinery is a clear example of circular flows and reverse logistics. The article is about manufacturing investment rather than freight, so the link to logistics is indirect, but students should be able to connect it to closed-loop supply chains."
+    },
+    {
+     "id": "strategy",
+     "relevance": 55,
+     "reading": "The article describes the external environment that shapes competitive advantage for European firms. The political and economic forces are the main story: budget negotiations, a fund being restructured, rival economies in the US and China, and energy costs. The firms are also trying to secure a resource base, since Europe has few domestic battery raw materials. Strategy students should see this as an external analysis question, asking how exposed these firms are to policy decisions they cannot control."
+    },
+    {
+     "id": "finance",
+     "relevance": 50,
+     "reading": "The businesses say that investment decisions for large plants need certainty about public funding. This is a question of how uncertainty affects the value of an investment and the timing of capital commitments. Students of financial decision making should see that a delayed or reduced budget raises the risk of projects and may change the investment decision itself. The article gives no project figures, so the analysis must rest on the logic of the appraisal rather than on numbers."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "The letter is a collective attempt by organisations to influence a decision made by others, which is a question of power and politics. Businesses depend on EU funding and policy, while the EU depends on private investment to deliver its goals. The coalition brings together large firms, start-ups and trade associations, and works through an intermediary, the Corporate Leaders Group Europe. A student of organisational behaviour should see this as a case of external political influence, with the parties pursuing interests that overlap but are not identical."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "Circular economy",
+     "unit": "",
+     "theory": "The circular economy seeks to keep materials in use for as long as possible through reuse, recycling and remanufacturing, replacing a linear model of extraction, use and disposal. It treats end-of-life products as sources of supply, forming closed loops that reduce dependence on virgin resources. Its benefits depend on collection, transport and processing systems that return materials to production.",
+     "link": "cylib collects used batteries and processes them in a refinery, which fits the closed-loop model in which end-of-life products become inputs. Its chief executive describes recycling as urban mining and a route to raw material sovereignty, which treats recovery as a supply strategy rather than waste management. The article notes that Europe has very few domestic battery raw material deposits, which gives the circular model a strategic rationale. The letter's call to prioritise energy sovereignty and cleantech manufacturing extends the same logic across the wider economy.",
+     "critique": "The article gives no figures on recovery rates, recycled content or the carbon footprint of the refinery, so the claimed circular benefits cannot be tested. Circularity also depends on reverse logistics, which is costly and difficult to scale, and public funding may favour headline manufacturing projects over collection networks.",
+     "practice": "A manager building a battery recycling business should map the full collection, transport and refining chain and measure recovery yields and embodied carbon at each stage. These metrics should be used to make the case for public co-funding, showing how the investment reduces import dependence and emissions."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Real options",
+     "unit": "",
+     "theory": "Real options theory treats the ability to invest, delay, expand or abandon a project as a valuable right, similar to a financial option. Under uncertainty, the option to wait can be worth more than investing immediately, especially when investment costs are largely irreversible. Standard net present value analysis can understate this flexibility and may favour early commitment when the future is uncertain.",
+     "link": "The businesses say they need investment certainty before building factories, and the letter warns that cuts would mean factories that never get built. The 10% reduction and the unresolved row over the budget create uncertainty about whether funding will exist when a plant is built. Real options logic predicts that firms facing such uncertainty will defer irreversible commitments, which is the cost the letter describes. The article's reference to a Strategic Project designation suggests that some projects have already moved beyond the waiting stage.",
+     "critique": "Real options assume that uncertainty will be resolved at some point and that waiting is cheap. In a contest with rivals in the US and China, delay can cost first-mover advantage, market share and supplier relationships, so the option to wait may be expensive. The article also offers no project figures from which the value of waiting could be estimated.",
+     "practice": "A finance director should value the project under each funding scenario, including the full fund, the trimmed draft and a lower outcome, and estimate the cost of delay. The firm should then consider staged investment, phased construction or conditional commitments that reduce the value lost to waiting while limiting exposure to funding risk."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "PESTEL analysis",
+     "unit": "",
+     "theory": "PESTEL analysis scans the political, economic, social, technological, environmental and legal forces in a firm's macro environment to identify opportunities and threats it cannot control. It helps managers recognise which external factors matter most for strategy. Its results are most useful when each factor is assessed for likelihood and impact.",
+     "link": "The article is dominated by political and economic forces: the budget negotiation, the restructuring of EU funding, the proposed cut, the Parliament's top-up and the conflict between institutions. Technological factors appear in battery recycling and environmental factors in the phase-out of fossil-fuel infrastructure. Energy costs and dependence on other countries are economic and political concerns. A PESTEL analysis would show that the firms' main exposure is political, although the environmental and technological trends support their case.",
+     "critique": "PESTEL is largely descriptive and does not indicate which factor is most important or how factors interact. A stronger analysis would pair it with scenario planning and rate each factor by probability and impact.",
+     "practice": "A strategy team should prepare a PESTEL table for the EU clean-tech market and rate each factor for likelihood and impact. The most significant political factor, the outcome of the budget, should then drive scenarios for full, partial and reduced funding, with strategic options tested against each scenario."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on external actors for critical resources such as money, materials, legitimacy and information. Power lies with those who control scarce resources that others need, and organisations manage their dependence through strategies such as buffering, coalition building and influence over decision-makers. Political influence is a means of reducing uncertainty about access to these resources.",
+     "link": "The businesses depend on EU funding for their investment plans, and the EU depends on private investment to deliver its industrial goals, so each side holds some power over the other. The coalition pools the influence of large firms, start-ups and trade associations through a joint letter, with CISL acting as an intermediary. The letter's messages, such as energy sovereignty and cleantech factories, link the businesses' interests to those of the funder. The Parliament's proposed top-up and the rapporteur's comments show the business coalition aligning with one side in a dispute between EU institutions.",
+     "critique": "Resource dependence is largely structural and gives less weight to ideas and framing, which the letter uses heavily. Lukes's third dimension of power would ask whether the agenda was shaped before the negotiation began. The article is also an advocacy piece from interested parties, so it cannot show how far the letter affected the outcome.",
+     "practice": "A firm or trade association seeking to influence public policy should identify the decision-makers who control the critical resource, build coalitions with credible partners and frame its request around the funder's own goals, such as energy security. It should also monitor the outcome closely and be ready to adjust its investment plans if the funding conditions change."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A battery recycling company has committed to building a refinery, but its financing depends on an EU budget that is still being negotiated. Its trade association has joined a coalition of more than 75 firms urging leaders to protect a competitiveness fund. The draft budget has trimmed the fund by around 10%, and the Parliament and national governments are in dispute over the total.",
+    "question": "Advise the board of the battery recycling company on whether to proceed with its refinery before the budget is settled. Critically evaluate the role of collective business lobbying in securing the investment certainty the company needs.",
+    "evidence": [
+     "More than 75 companies signed a joint letter asking EU leaders to protect the European Competitiveness Fund.",
+     "The latest draft cuts the fund from €398bn to €356bn in 2025 prices, compared with about a 3% cut for agriculture and cohesion.",
+     "The Parliament has proposed a €26.6bn top-up, and heads of state meet on 26 and 27 November to settle the budget.",
+     "The chief executive of cylib says Europe has very few domestic battery raw material deposits, so recycling is key to raw material sovereignty."
+    ],
+    "plan": [
+     "Use PESTEL to show that the company's main exposure is political and economic, with environmental and technological trends supporting its case.",
+     "Apply resource dependence theory to explain why the company and the coalition depend on EU funding and how collective lobbying seeks to influence the decision.",
+     "Use Fox's pluralist view of conflict to explain why the institutional split between Parliament and governments makes the outcome uncertain.",
+     "Apply real options to weigh the value of waiting against the cost of delay and first-mover disadvantage.",
+     "Use the circular economy to argue for recycling as a domestic supply security investment, and identify the metrics needed to support funding requests.",
+     "Recommend a staged or conditional commitment, continued engagement with the coalition and scenario planning for full, partial and reduced funding."
+    ],
+    "pitfalls": [
+     "Treating the letter as evidence of the outcome: the article reports a proposal and a draft, and the summit result is not yet known.",
+     "Treating the businesses' views as neutral: the letter is advocacy by parties who would gain from the funding, and the Parliament's rapporteur also has a position."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Fox's unitarist, pluralist and radical perspectives on conflict",
+    "Mendelow's power-interest matrix",
+    "Teece's dynamic capabilities"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that collective lobbying by businesses is an effective way of shaping public policy, drawing on theories of power and politics in organisations.",
+    "outline": [
+     "Define power and political influence, using resource dependence theory and French and Raven's bases of power to explain why businesses can influence public funding decisions.",
+     "Assess the strength of the business coalition, considering its pooled resources, framing and intermediaries, and the risk that its interests are narrow or self-serving, drawing on Lukes's third dimension.",
+     "Conclude by identifying the conditions under which collective lobbying is effective, using the EU budget dispute as evidence and noting that the outcome is still uncertain."
+    ]
+   },
+   "readingMinutes": 4
+  },
+  {
+   "id": "38828b27eec0",
+   "title": "‘Indefensible’: Negotiators and green groups brand COP31 a ‘political failure’",
+   "url": "https://www.edie.net/indefensible-negotiators-and-green-groups-brand-cop31-a-political-failure/",
+   "source": "edie",
+   "publishedAt": "2026-11-22T13:44:09Z",
+   "addedAt": "2026-11-23T06:38:02Z",
+   "basis": "full_text",
+   "takeaway": "A failed multi-party negotiation is a clear case of conflict and power at work, so COP31 can be read through Thomas-Kilmann, Fox and Pondy as well as through climate policy.",
+   "summary": "Negotiators and green groups have condemned COP31 as a political failure after the summit ended without an agreement. It is the longest-running summit in the series, and only the second to collapse without a deal, the first being COP15 in Copenhagen in 2009. After more than two weeks of talks, a draft text for the 'Antalya Accords' failed to win agreement. The rest of the piece is restricted to members, so the detailed reactions and the causes of the deadlock are not available in the text provided.",
+   "keyPoints": [
+    "COP31 ended without an agreement after more than two weeks of negotiations, making it the longest-running summit on record.",
+    "It is only the second summit to collapse without an agreement; COP15 in 2009 is the earlier case, which finished with a contested deal.",
+    "A draft text for the 'Antalya Accords' failed to win consensus.",
+    "Negotiators and green groups publicly described the outcome as a political failure.",
+    "The article gives no detail on the specific disputes, because the remainder is paywalled."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 60,
+     "reading": "Read through People, Work and Organisations, the collapse is a case of conflict among parties with different interests and different levels of power, not only a climate story. Negotiating states and campaigning green groups each pursue distinct goals, and the text was described as having run into the usual problems. Students of Unit 5 can use the article to test how the conflict was handled, whether it was productive, and whether the outcome reflects who held the power to block a deal. The teaser gives little detail on the disputes, so any analysis has to rest on the theory and the stated reaction."
+    },
+    {
+     "id": "green",
+     "relevance": 35,
+     "reading": "The article concerns the governance of climate policy, the layer of regulation that sets emissions expectations for freight, warehousing and other sectors. For the green logistics module it matters because a failed agreement leaves the framework for decarbonisation and carbon pricing unsettled. The text does not discuss logistics or transport directly, so the connection is indirect and should be presented as context for the regulatory environment rather than as evidence about freight."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Thomas-Kilmann conflict modes",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Thomas and Kilmann describe five ways of handling conflict, plotted on two dimensions: assertiveness, or concern for one's own goals, and cooperativeness, or concern for others' goals. The five modes are competing, collaborating, compromising, avoiding and accommodating. Each mode suits some situations, and the right choice depends on the stakes and the relationship between the parties.",
+     "link": "The article describes a negotiation that ran for more than two weeks and ended without agreement after a draft text failed to win consensus. This pattern suggests that parties competed hard for their own positions or were unwilling to compromise on the text. The reaction from negotiators and green groups treats the failure as shared rather than as one party's win, which points to a breakdown of collaborating and compromising. The teaser does not say which mode each party used, so this mapping is an inference.",
+     "critique": "The model was built for two-party interpersonal disputes and rests on individual choices of style. It says little about multi-party settings with consensus rules, where one party can block a deal whatever the others do.",
+     "practice": "A conference chair in this position should separate positions from underlying interests and identify where each party could move without losing its core demands. Building a sequence of smaller interim texts that can be agreed first is more likely to produce a final package than trying to settle everything at once. Avoiding the hard issues to keep talks alive tends to produce the kind of deadlock described here."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Unitarist, pluralist and radical perspectives on conflict (Fox)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Fox's three frames describe how conflict is understood in organisations. The unitarist view sees one team with shared goals, so conflict is a malfunction. The pluralist view sees a coalition of groups with legitimately different interests, so conflict is normal and must be managed. The radical view sees conflict as rooted in structural inequality between groups.",
+     "link": "Describing the collapse as a political failure, and asking both negotiators and green groups to comment, assumes several groups with different interests who are expected to bargain. This fits the pluralist frame, since a summit is designed on the premise that parties with different economic positions and priorities will reach shared commitments. A unitarist would expect a shared aim of limiting climate harm to produce agreement quickly, so its failure is hard to explain. The article's emphasis on a political, rather than technical, failure points towards the pluralist reading.",
+     "critique": "The pluralist frame can understate how unequal bargaining power shapes outcomes, and the radical view would ask who gained from the deadlock. The teaser does not show which parties benefited, so the radical reading cannot be tested with this evidence.",
+     "practice": "A manager facing a multi-stakeholder deadlock should first map which groups hold legitimate interests and which have leverage. Under a pluralist approach the conflict is treated as normal, and forums are designed in which interests can be traded. Where one group gains from delay, the manager should make the cost of deadlock visible to everyone at the table."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Functional and dysfunctional conflict (Pondy)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Pondy argued that conflict is not inherently harmful. Functional conflict improves decisions, surfaces problems and stimulates debate, while dysfunctional conflict drains resources, polarises the parties and prevents action. The test is the effect of the conflict on the performance of the system.",
+     "link": "The summit ended without agreement after more than two weeks of talks, which is a clear example of a dysfunctional outcome: effort was spent but no decision was reached. Some of the process may still have been functional, since the talks may have clarified positions that a later round can use. The article's description of the outcome as a political failure suggests that observers judged the net effect to be negative.",
+     "critique": "Pondy's model is a process framework and offers no measure for when conflict tips from functional to dysfunctional, so the judgement is subjective. It also assumes a single system that can be managed, whereas a summit involves many sovereign actors with separate domestic constraints.",
+     "practice": "The chair should aim for enough challenge to sharpen the text without hardening positions. This means setting interim milestones, clear procedural rules and a record of which disagreements are narrowing. After a collapse, the next step is to identify the issues that caused the deadlock so that the next round can channel conflict productively."
+    },
+    {
+     "moduleId": "green",
+     "concept": "Externalities and carbon pricing",
+     "unit": "",
+     "theory": "An externality is a cost or benefit that falls on people who did not choose the activity, such as the climate effects of freight emissions. Because the emitter does not bear the full cost, markets tend to produce too much of the activity. Carbon pricing, through taxes or emissions trading, aims to bring that cost into prices so that decisions reflect it.",
+     "link": "Climate summits exist because emissions in one country affect all others, a textbook externality that no single party has a full incentive to correct. The failure to agree a text at COP31, as described in the article, leaves the shared commitments and any price signal unsettled, which weakens the incentive for logistics operators to decarbonise. The article itself does not mention carbon prices, so this is an analytical link rather than a finding from the text.",
+     "critique": "Economic analysis treats externalities mainly as a pricing problem, but negotiation outcomes also reflect questions of fairness and historical responsibility. Carbon pricing alone may not be politically acceptable, so the efficiency case does not guarantee agreement.",
+     "practice": "A logistics manager should not wait for the policy outcome before acting. A shadow price for carbon can be built into freight and warehousing investment appraisals, so that decisions remain sound whether or not a carbon price is formally introduced."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A multi-party international negotiation runs for more than two weeks with the aim of agreeing a shared text on climate action. A draft is circulated but fails to win consensus, and the summit closes without any agreement. Negotiators and campaigning groups publicly describe the outcome as a political failure, and it is only the second such collapse in the history of the summit series.",
+    "question": "Critically evaluate why the negotiation failed, and advise the conference presidency on how to build a workable agreement at the next summit, using theories of conflict and power.",
+    "evidence": [
+     "COP31 was the longest-running iteration of the summit in history.",
+     "It is only the second summit to collapse and end without an agreement, the earlier case being COP15 in Copenhagen in 2009.",
+     "After more than two weeks of talks, a draft text for the 'Antalya Accords' failed to win agreement.",
+     "Negotiators and green groups described the outcome as a political failure."
+    ],
+    "plan": [
+     "Define the situation as a multi-party negotiation that needs consensus, and use Fox's pluralist perspective to show that the parties have legitimately different interests.",
+     "Diagnose the conflict style by applying the Thomas-Kilmann modes to explain why parties competed or avoided movement rather than collaborating or compromising on the text.",
+     "Assess whether the conflict was functional or dysfunctional using Pondy's model, noting that the absence of any deal and the political failure verdict point to a dysfunctional outcome.",
+     "Consider power: identify which parties could block a deal and use resource dependence or Lukes's three dimensions to explain why a text that could have been agreed was not.",
+     "State the limits of the evidence, since the teaser does not name the disputed issues, and make any assumptions explicit.",
+     "Recommend interim milestone texts, a clear process for narrowing issues and a separation of positions from interests, justified by the pluralist frame."
+    ],
+    "pitfalls": [
+     "Presenting specific disputes or causes of deadlock as fact, when the available text does not describe them.",
+     "Treating the Thomas-Kilmann modes as a full explanation of a multi-state negotiation with consensus rules, without acknowledging structural constraints such as the power to block."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Pfeffer and Salancik's resource dependence theory",
+    "French and Raven's bases of power"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether conflict in multi-party negotiations is functional or dysfunctional, using a recent failed international summit as evidence.",
+    "outline": [
+     "Define functional and dysfunctional conflict (Pondy) and the unitarist, pluralist and radical perspectives (Fox), and explain how each frame would predict the outcome of a negotiation.",
+     "Apply the Thomas-Kilmann modes and a power perspective to diagnose why the parties did not reach consensus, using evidence from the article.",
+     "Evaluate the limits of these theories in consensus-based, multi-party settings, and conclude on which process design would most improve the chances of agreement."
+    ]
+   },
+   "readingMinutes": 1
+  },
+  {
+   "id": "be0f8f8c8145",
+   "title": "EXCLUSIVE: GXO’s Kelleher relaxed on Amazon, eyes Asia investment",
+   "url": "https://theloadstar.com/exclusive-gxos-kelleher-relaxed-on-amazon-eyes-asia-investment/",
+   "source": "The Loadstar",
+   "publishedAt": "2026-11-20T12:21:52Z",
+   "addedAt": "2026-11-23T06:38:02Z",
+   "basis": "full_text",
+   "takeaway": "A contract logistics leader is being pressed on the threat from Amazon's new supply chain services, and its response depends on strategic analysis of industry structure, outsourcing relationships and growth choices.",
+   "summary": "The Loadstar reports an exclusive interview with GXO chief executive Patrick Kelleher. The extract shows him responding to questions about Amazon with wariness and a sense of weariness, after fielding the same question repeatedly at GXO's investor day that week. The interviewer asks for his personal view on how the launch of Amazon Supply Chain Services would affect the wider contract logistics market. The rest of the article is paywalled. Its headline and the related headlines mention GXO's Asia investment plans, a mid-term plan described as ambitious, a self-help playbook, and a return of M&A to contract logistics, including the sale of Neovia.",
+   "keyPoints": [
+    "The interviewer asks Patrick Kelleher, GXO's chief executive, about the threat from Amazon, and he responds with visible wariness and weariness.",
+    "The Amazon question was raised repeatedly during GXO's investor day on the Monday before the interview.",
+    "The interviewer asks for his personal view on how Amazon Supply Chain Services would affect the broader contract logistics market.",
+    "The headline indicates the interview covers GXO's plans to invest in Asia.",
+    "Related headlines describe GXO's investor day as an ambitious mid-term plan and refer to a self-help playbook."
+   ],
+   "modules": [
+    {
+     "id": "strategy",
+     "relevance": 85,
+     "reading": "The article is about how a major contract logistics provider reads a competitive threat from a much larger technology firm entering a related service. Strategy is central because the question is whether Amazon's launch changes industry structure and where GXO can still compete. The reported plan to invest in Asia and the mention of M&A are growth choices that students should evaluate using strategic tools. The only direct evidence from the extract is the CEO's response to the threat question, so any analysis should separate what is reported from what must be inferred."
+    },
+    {
+     "id": "logops",
+     "relevance": 60,
+     "reading": "Contract logistics is the outsourcing of warehousing and distribution to third-party logistics providers, so the article concerns the relationship between shippers and providers. Amazon's offer would compete for the same customers who decide whether to outsource logistics operations. Consolidation in the sector, shown by the Neovia sale, affects the network and service scale that providers can offer. Students should consider how outsourcing decisions depend on cost, service and dependency rather than just price."
+    },
+    {
+     "id": "pwo",
+     "relevance": 35,
+     "reading": "An external competitive threat can act as a trigger for organisational change, which is a PWO Unit 8 idea. The article shows the threat being communicated to investors and analysts, and the headlines suggest internal improvement programmes. Whether those programmes change people, structures or culture is not shown in the text provided. Students of PWO should consider how a threat discussed at investor level is translated into urgency for the people who run the operations."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "strategy",
+     "concept": "Porter's five forces",
+     "unit": "",
+     "theory": "Porter's five forces model analyses industry attractiveness through the rivalry among existing competitors, the threat of new entrants, the bargaining power of buyers and suppliers, and the threat of substitutes. Industry structure determines the profit potential available to firms within it. A change in any one force can shift the economics of the whole industry.",
+     "link": "The interviewer's question about the effect of Amazon Supply Chain Services on the wider contract logistics market is a question about the threat of new entrants and substitutes. The repeated questioning at GXO's investor day suggests analysts see the launch as a force that could change the market's structure. Mapping the launch onto the five forces would show whether it lowers entry barriers, gives shippers a credible alternative, or shifts bargaining power towards large buyers. The extract does not give Amazon's pricing or customer terms, so the mapping must remain provisional.",
+     "critique": "Five forces is a static snapshot of structure, and it handles poorly a threat that comes from a firm already operating in adjacent markets with platform scale. The model also struggles to capture complementary assets, such as Amazon's existing customer relationships, that change how entry happens.",
+     "practice": "A manager facing this threat should use five forces to identify which forces Amazon's launch changes, such as how easily shippers can switch providers. The manager should then choose a response, such as differentiating on service, deepening integrated contracts with customers, or changing the terms of competition, and test each response against the forces."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Logistics outsourcing: third-party and fourth-party logistics",
+     "unit": "",
+     "theory": "Third-party logistics providers operate warehousing, transport and related services on behalf of shippers, often under longer contracts known as contract logistics. Fourth-party providers coordinate several third-party providers and manage the wider network. Outsourcing transfers operating assets and day-to-day decisions to the provider while the shipper keeps responsibility for service levels.",
+     "link": "The article is about GXO, a contract logistics provider, and asks how a new Amazon offer would affect that market, which is a question about who shippers choose to run their logistics. The headline about the return of M&A to contract logistics, with the Neovia sale, shows that providers are consolidating, which changes the scale they can offer shippers. The Asia investment in the headline indicates that shippers' networks are global, so providers must follow them across borders.",
+     "critique": "Outsourcing decisions are usually analysed on cost and service, but here shippers may also weigh data control and dependence on a platform that competes with their provider. Standard models of outsourcing do not give enough weight to that trade-off.",
+     "practice": "A provider should show customers the total logistics cost savings and service performance, such as on-time in-full measures, to justify the contract. A shipper considering a shift of volume should assess its dependence on a single provider and the data it would share before committing."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Ansoff matrix",
+     "unit": "",
+     "theory": "The Ansoff matrix sets out four growth strategies by crossing existing or new products with existing or new markets. These are market penetration, market development, product development and diversification. Each option carries a different level of risk because it requires different capabilities and market knowledge.",
+     "link": "The headline that GXO eyes Asia investment suggests a growth move into a new geographic market. If GXO takes existing contract logistics services into Asia, this is market development, and if it adds new service types, it is closer to diversification. The mention of a mid-term plan described as ambitious suggests the firm is weighing how much new ground it wants to cover at once.",
+     "critique": "Ansoff does not address how growth is financed or how a firm builds local capability quickly. In contract logistics, entry into a new region often happens through acquisition rather than organic building, which the matrix does not capture.",
+     "practice": "A manager should first establish whether the Asian expansion uses existing services in new markets or requires new capabilities. The manager should then compare the organic and acquisition routes on risk, speed and cost, and set milestones so the expansion can be reviewed."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Kotter's eight-step model",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Kotter's eight-step model sets out a sequence for leading change, starting with creating a sense of urgency and then building a guiding coalition, creating a vision, communicating it, removing barriers, generating short-term wins, consolidating gains and anchoring the change in culture. The first step is urgency, because change will not happen without a shared belief that it is needed.",
+     "link": "The Amazon threat is an external trigger for change, and its repeated discussion at investor day suggests the urgency is being communicated to investors. The headline about a self-help playbook suggests an internal improvement programme, which would need urgency among operational staff as well. The article does not show how far the message reaches warehouse managers or employees.",
+     "critique": "Kotter's model is largely sequential and assumes a clear change leader, while the extract suggests a tone that is relaxed rather than urgent. Urgency communicated to investors may not produce the behaviour change that the operations need, which the model does not test directly.",
+     "practice": "Leaders should translate the external threat into implications for frontline teams, such as service targets, skills and performance measures. They should check whether the urgency felt at investor level is understood and acted on in the warehouses where the change must happen."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A contract logistics provider with a large global warehouse network faces the launch of a supply chain service from a technology company that already runs large logistics operations. Its chief executive is repeatedly asked about the threat at an investor day and has announced plans to invest in Asia. Peers are consolidating through acquisition, and the firm must decide how to respond.",
+    "question": "Advise the board on how the provider should respond to the launch of a competing supply chain service, and critically evaluate whether its planned Asian expansion should proceed.",
+    "evidence": [
+     "The chief executive was repeatedly asked about the threat from Amazon at the investor day on the Monday before the interview.",
+     "The interviewer asked for a personal view on how Amazon Supply Chain Services would affect the wider contract logistics market.",
+     "The headline reports that GXO eyes Asia investment.",
+     "A related headline reports that M&A has returned to contract logistics, citing the sale of Neovia in the US and Turkey's Ekol."
+    ],
+    "plan": [
+     "Set out the external context using Porter's five forces, identifying which forces the new service changes, especially the threat of new entrants and substitutes.",
+     "Assess the provider's own position by asking whether its service, network and customer relationships are valuable and difficult to copy, and where its advantage is weakest.",
+     "Outline the outsourcing logic for shippers, using third-party logistics and total logistics cost, and explain why customers might weigh dependence on a rival platform.",
+     "Evaluate the Asian expansion with the Ansoff matrix, distinguishing market development from diversification and assessing organic growth against acquisition.",
+     "Recommend a course of action that combines a defensive response in existing markets with a staged expansion, with milestones and a review point, and explain the change needed to deliver it using Kotter's first steps."
+    ],
+    "pitfalls": [
+     "Treating the Amazon threat as a single event without analysing how it changes the competitive forces and the bargaining power of shippers.",
+     "Recommending Asian expansion without distinguishing the risks of market development from diversification or ignoring the acquisition route."
+    ]
+   },
+   "alsoConsider": [
+    "Dynamic capabilities (Teece)",
+    "The VRIO framework (Barney)",
+    "Transaction cost economics (Williamson)",
+    "Lewin's force field analysis"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that an incumbent firm can defend its market position against a new entrant by relying on industry structure analysis alone.",
+    "outline": [
+     "Explain how Porter's five forces identifies sources of threat from new entrants and substitutes, and state its limits for firms that enter from adjacent markets.",
+     "Assess the incumbent's resources and capabilities using the VRIO framework or dynamic capabilities, and show how these can be extended or lost.",
+     "Conclude with a judgement on whether strategic responses and organisational change must complement structural analysis."
+    ]
+   },
+   "readingMinutes": 1
+  },
+  {
+   "id": "f94cb29852f3",
+   "title": "Trump Unveils $17 billion of Southeast Asia Deals for U.S. firms, White House Says",
+   "url": "https://www.supplychainbrain.com/industries/aerospace-defense/article/16542129/trump-unveils-17-billion-of-southeast-asia-deals-for-us-firms-white-house-says",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-19T15:09:07Z",
+   "addedAt": "2026-11-23T06:38:02Z",
+   "basis": "full_text",
+   "takeaway": "This is strategy and purchasing evidence about government-backed market access. Separate the deals that are signed from those that are only announced, planned or under negotiation.",
+   "summary": "The White House says President Trump announced more than $17 billion of commercial deals and investments for US firms in Southeast Asia after a visit to the Philippines for the ASEAN Summit. The package includes an aircraft sale to Philippine Airlines, defence financing and military support for the Philippines, a Thai defence purchase, Indonesian and Malaysian energy deals, and AI and data centre work in Malaysia and Brunei. Several items are finalised or signed, while others are planned or still being negotiated, and the figures come from government statements rather than company filings.",
+   "keyPoints": [
+    "The White House says more than $17 billion of deals and investments for US firms in Southeast Asia were announced after a two-day visit to the Philippines for the ASEAN Summit.",
+    "The stages differ: the Boeing and GE Aerospace sale is described as being finalised, the Navajo coal supply deal as signed, and the Indonesian coal project and Thai HIMARS purchase as under negotiation or planned.",
+    "Government financing and security support are attached to several items, including more than $2 billion of proposed US financing for Philippine defence purchases and $400 million for South China Sea military operations.",
+    "The sectors span aircraft, defence hardware, coal, fuel infrastructure, data centres and sovereign AI cloud services.",
+    "The package combines White House statements with a separate Malaysian regulator statement, so each figure needs checking against the specific counterparty before it is treated as firm business."
+   ],
+   "modules": [
+    {
+     "id": "strategy",
+     "relevance": 60,
+     "reading": "This is a story about international market access, and in strategy terms it concerns where firms should compete and how they get in. The deals are framed as government-brokered, with finance, defence cooperation and political backing attached, so the external environment rather than the firm's capabilities alone is driving entry. A strategy student should note that most items are announced, planned or under negotiation rather than completed, which makes the gap between declared and realised strategy a central analytical point."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 50,
+     "reading": "Seen from purchasing, the article describes buyers in several countries committing large sums to suppliers from one country, including an airline, defence ministries, a power utility and a data centre tender. The purchases are high-value and specialised, and their terms are shaped by government financing and expectations about sourcing from US vendors. A purchasing student should see how buyer choices in this setting reflect politics, financing and supply risk, not price alone."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "strategy",
+     "concept": "Ansoff matrix (Ansoff)",
+     "unit": "",
+     "theory": "The Ansoff matrix classifies growth options by whether products and markets are existing or new: market penetration, market development, product development and diversification. Market development means selling existing products into new markets, often new geographies or customer segments. Each option carries a different level of risk, depending on how familiar the firm is with the product and the market.",
+     "link": "The Boeing 787 sale to Philippine Airlines and the HIMARS purchase in Thailand involve existing US products offered to Southeast Asian buyers, so for the US suppliers they sit in the market development box. The article says the Thai purchase is potentially the first such deal in mainland Southeast Asia, which indicates a new market rather than an extension of existing sales there. The Brunei data centre tender and the Malaysian sovereign AI cloud involve services rather than products, so the matrix would need adapting for them. Taken together, the cluster of deals across several countries suggests US firms are pursuing market development in multiple places at once.",
+     "critique": "Ansoff treats the market as a fixed destination, whereas here access is being opened and closed by governments, so the principal risk lies in political decisions rather than customer acceptance alone. The matrix also says little about how a firm should enter, for example through a partner or a government-to-government channel.",
+     "practice": "A US supplier should classify each opportunity by how new the product and the market are to it, and then assess the political and financing conditions for each one separately. It should prioritise deals that are signed or finalised before committing heavily to those still under negotiation."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Mintzberg's deliberate and emergent strategy (Mintzberg)",
+     "unit": "",
+     "theory": "Mintzberg distinguishes intended strategy from realised strategy. Deliberate strategy is what is planned and carried out, unrealised strategy is planned but not implemented, and emergent strategy is a pattern of action that was not planned but appears over time. Realised strategy is therefore the deliberate part that happened, plus the emergent part, and it may differ substantially from what was announced.",
+     "link": "The White House presents the package as a set of commitments, but the text shows they are at different stages. The Boeing and GE sale is described as being finalised and the Navajo coal supply deal as signed, whereas the Indonesian coal project is under negotiation and Thailand plans to spend up to $123 million on HIMARS. In Mintzberg's terms, a large part of the announced package is intended but not yet realised. The Malaysian AI cloud is described in a separate statement from the regulator, which shows that the same initiative can be reported differently by different actors.",
+     "critique": "Mintzberg's categories describe strategy from the inside of a firm, whereas these announcements are political statements whose realisation depends on counterparties and their approvals. The framework does not explain why governments might publicise packages that are not all completed, which may reflect signalling or diplomacy.",
+     "practice": "A manager should track each announced item through its stages and record it as realised only once a contract is signed and financed. They should also watch for emergent opportunities, such as further tenders, that the original package did not plan for."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Kraljic's purchasing portfolio matrix (Kraljic)",
+     "unit": "",
+     "theory": "Kraljic classifies purchases on two axes, profit impact and supply risk. Strategic items are high on both and call for long-term, collaborative supplier relationships, while leverage items have high profit impact and low supply risk and suit competitive tendering. Bottleneck items carry high supply risk with low profit impact, and non-critical items are low on both and suit standardised buying. The grid indicates how much effort a buyer should invest in each category and how to manage the supplier relationship.",
+     "link": "Large, specialised purchases such as 20 Boeing 787 aircraft, HIMARS launchers and a fuel depot would sit in the high-value, high-risk corner, because they are costly, technically complex and have few alternative suppliers. The article links these buys to government financing, with more than $2 billion of US financing proposed for Philippine defence purchases, so the buyer's choice is shaped by the supplier's home government. The coal supply deal and the Brunei data centre tender, where nearly $1 billion of spending is said to be sourced from US vendors, show purchases tied to particular national suppliers. For strategic items Kraljic suggests a long-term relationship rather than price-led tendering.",
+     "critique": "Kraljic assumes the buyer chooses freely and uses its own leverage. In these deals the buyers are governments or state-linked bodies, and political and financing considerations can outweigh the portfolio logic, so the matrix captures the commercial position without the diplomatic one.",
+     "practice": "A government or airline buyer should treat the aircraft and defence systems as strategic items and invest in supplier relationships, contract terms and maintenance support. It should also test whether financing offered with a purchase is tied to conditions that limit future sourcing choices, and price that constraint into the decision."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized US aerospace and defence supplier is considering a package of opportunities in Southeast Asia that its government has publicised. Some opportunities are signed, some are being negotiated and some are only planned, and each depends on the buyer's financing and political approval. The board must decide how much of its growth plan to base on this announced pipeline.",
+    "question": "Advise the board on whether the announced Southeast Asian deals should form the basis of the company's international growth strategy, and how the company should prioritise and manage them.",
+    "evidence": [
+     "Boeing and GE Aerospace are finalising a $12 billion sale of 20 Boeing 787 aircraft to Philippine Airlines, according to the White House statement.",
+     "Thailand plans to spend up to $123 million on HIMARS, potentially the first such deal in mainland Southeast Asia.",
+     "A $2 billion Indonesian coal project is being negotiated, while a three-year $100 million coal supply deal has been signed.",
+     "Brunei's Unified National Networks plans to award a data centre tender to Vertiv, with nearly $1 billion of spending said to be sourced from US vendors."
+    ],
+    "plan": [
+     "Set out the market context using a PESTEL analysis, covering political support, financing, security concerns and the energy and AI agendas in each country.",
+     "Classify each opportunity by how new the product and the market are to the firm using the Ansoff matrix, to show where it is developing new markets.",
+     "Sort the announced items into signed, finalised, negotiating and planned using Mintzberg's deliberate and emergent strategy categories, and estimate the realised share of the package.",
+     "Use Kraljic's matrix from the buyers' side to explain why aircraft and defence systems are treated as strategic purchases, and what that implies for the firm's relationship approach.",
+     "Assess the firm's ability to deliver by applying the resource-based view and VRIO to test whether its resources are valuable, rare, inimitable and organised for the work.",
+     "Recommend a phased entry that commits resources first to signed or financed deals and keeps further pursuits under review, with stated triggers for scaling up."
+    ],
+    "pitfalls": [
+     "Treating the White House's $17 billion total as firm revenue or committed spending, when much of it is announced, planned or under negotiation.",
+     "Describing the political support as a lasting advantage without considering that the deals could change with a different government or shifting regional security conditions."
+    ]
+   },
+   "alsoConsider": [
+    "Porter's five forces",
+    "Porter's generic strategies",
+    "The resource-based view and VRIO (Barney)",
+    "Transaction cost economics (Williamson)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that government-brokered deals give foreign firms a sustainable route into an emerging market, drawing on theories of market entry and the distinction between intended and realised strategy.",
+    "outline": [
+     "Explain the main market-entry and growth options, including market development, and how political support changes their risk.",
+     "Distinguish intended, realised and emergent strategy and apply the distinction to an announced pipeline of deals.",
+     "Evaluate the limits of the government-backed route for long-term competitive advantage, and reach a reasoned conclusion."
+    ]
+   },
+   "readingMinutes": 1
+  },
   {
    "id": "d6ffd324a49c",
    "title": "Advancing US economic mobility in the age of AI",

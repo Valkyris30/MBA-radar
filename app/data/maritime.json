@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-23T00:58:02Z",
+ "generatedAt": "2026-11-23T06:48:26Z",
  "model": "claude-haiku-5-5",
  "countries": [
   {
@@ -176,70 +176,655 @@
   }
  ],
  "brief": {
-  "date": "2026-11-23T00:58:02Z",
-  "headline": "Asia-Mediterranean container rates jump $1,076 per FEU to $5,357 while Asia-US lanes ease, raising costs for Morocco, Spain and France-bound cargo.",
-  "overview": "Asia-Mediterranean container rates rose $1,076 to $5,357 per FEU in week 47, which will lift quotes for Morocco, Spain and France-bound cargo, while Asia-US lanes fell. Morocco is preparing a national fleet plan of 21 new vessels by 2030 and Atlantic port traffic is gaining weight, although near-term operations are unlikely to change. In Spain, international ro-ro short-sea volumes slipped 1% in 2025, with Atlantic traffic down 8.7%. Rhine water levels at Kaub rebounded, cutting barge freight from Amsterdam-Rotterdam-Antwerp to Basel from €162.5 to €92.5 per tonne.",
+  "date": "2026-11-23T06:48:26Z",
+  "headline": "Attacks on tankers and reported mines near the Strait of Hormuz, alongside Houthi claims against Saudi Red Sea ports, raise war-risk exposure for Gulf-bound cargo.",
+  "overview": "Gulf security dominated today's notes, with UKMTO-reported tanker strikes near Oman's Khasab and Houthi claims against Jizan port and other Saudi sites raising war-risk concerns for shipments to the Gulf and Red Sea. In the focus markets, Morocco featured most, with a US easing of AI chip licence requirements, a EBRD report on its growing role as a car exporter to Europe, and a customs crackdown on smuggling through Casablanca airport. Spain saw six vessels sheltering at Marín from weather, and France's Port-La Nouvelle project entered its final stage. No notes covered the United Kingdom or the Netherlands today.",
   "highlights": [
    {
-    "text": "Asia-Mediterranean container rates jump $1,076 to $5,357 per FEU, raising costs for Morocco, Spain and France.",
-    "id": "m-68c739b05587"
+    "text": "UKMTO reported tanker hits near Khasab, and Iran's navy says a tanker caught fire after hitting a mine east of the Strait of Hormuz.",
+    "id": "m-dc0637495814"
    },
    {
-    "text": "Rhine levels rebound at Kaub, cutting barge freight from Amsterdam-Rotterdam-Antwerp to Basel from €162.5 to €92.5 per tonne.",
-    "id": "m-401bf866056d"
+    "text": "Houthis claim strikes on Jizan port and other Saudi sites, though Saudi authorities did not confirm the attacks.",
+    "id": "m-5b4281a69207"
    },
    {
-    "text": "Morocco plans a 21-ship national merchant fleet by 2030 that could shift some Europe-Morocco volumes to local operators.",
-    "id": "m-41e3a198eba3"
+    "text": "The US revoked the Biden-era AI chip framework, so advanced chips shipped to Morocco no longer need a licence on destination alone.",
+    "id": "m-fc958778e3f5"
    },
    {
-    "text": "Spanish international ro-ro volumes fell 1% in 2025, with Atlantic traffic down 8.7% while Mediterranean links grew.",
-    "id": "m-3d6e72c17edd"
+    "text": "Maersk will blank westbound sailing 652W from Shanghai on 20 December 2026, reducing capacity on the Far East to East Coast Latin America loop.",
+    "id": "m-597202b8d1bc"
    },
    {
-    "text": "EU and Indonesia signed a CEPA removing duties on more than 98% of EU exports, but it takes effect only in early 2027.",
-    "id": "m-ff3a294586b3"
+    "text": "Congestion at Durban Gateway Terminal has caused delays of up to 20 days for automotive inventory, and Metair warns of possible force majeure.",
+    "id": "m-d0ab8a2e78a0"
    },
    {
-    "text": "Zim's third-quarter net income rose to $830 million as freight rates climbed 55%, keeping costs high on transpacific lanes.",
-    "id": "m-645ede632a90"
+    "text": "The EBRD says Morocco is Africa's largest car exporter and a key EU vehicle supplier, with vehicles about 13% of its total exports.",
+    "id": "m-bc6d65c823fb"
    }
   ],
   "deadlines": [
    {
-    "date": "Effective: late November 2026",
-    "text": "Drewry intra-Asia index report takes effect; rates are expected to decline in the coming weeks.",
+    "date": "20 December 2026",
+    "text": "Maersk blanks westbound ASAS voyage 652W from Shanghai, reducing sailings on the Far East to East Coast Latin America service.",
     "country": "CN"
    },
    {
-    "date": "In force from May 2025",
-    "text": "SECA sulphur rules in force, shifting some Mediterranean traffic towards the West African route and raising bunker costs.",
-    "country": "MA"
+    "date": "Effective on publication",
+    "text": "US revokes the Biden-era global AI chip licensing framework; Morocco no longer needs a licence on destination alone, though end-user and end-use controls remain.",
+    "country": "US"
    },
    {
-    "date": "First quarter",
-    "text": "Planned refinery turnarounds and Rhine lock maintenance could tighten supply and logistics again.",
-    "country": "DE"
+    "date": "Late November",
+    "text": "ONE launches the weekly Korea-China-Jakarta (KCJ) service with six 4,500 TEU ships, expected to replace its slots on the KCI service.",
+    "country": "KR"
    },
    {
-    "date": "Targeted for the first quarter of 2027",
-    "text": "Targeted closing of the proposed Hapag-Lloyd takeover of Zim.",
+    "date": "Within three months",
+    "text": "Transport Minister Barbara Creecy threatens to revoke ICTSI's operating licence at Durban Gateway Terminal if performance does not improve.",
     "country": "GLOBAL"
-   },
-   {
-    "date": "Early 2027",
-    "text": "Expected provisional entry into force of the EU-Indonesia CEPA, subject to Parliament approval and Indonesian ratification.",
-    "country": "EU"
-   },
-   {
-    "date": "By 2030",
-    "text": "Target for Morocco to deliver 21 new vessels for a national merchant fleet.",
-    "country": "MA"
    }
   ],
-  "market": "Asia-Mediterranean container rates rose sharply while Asia-US West Coast and East Coast rates fell, and Zim expects costs to stay high on Asia-US lanes. Vehicle carrier charter rates near $100,000 per day and rising vessel values point to a capacity crunch, while tanker freight has weakened as refining margins fall. Intra-Asia rates were mixed, with Shanghai to Jebel Ali remaining high at $8,149 per 40ft container."
+  "market": "Baltic Exchange tanker assessments were mixed last week, with VLCC rates firming on most routes while MR rates weakened across the board, most sharply in the US Gulf and wider Atlantic. Aframax rates surged on Atlantic routes and Suezmax rates firmed broadly. Attacks and reported mines around Hormuz and threats to Red Sea ports are raising insurance costs for Gulf and Red Sea cargo."
  },
  "items": [
+  {
+   "id": "m-5b4281a69207",
+   "title": "Houthis claim strikes on Saudi oil facility and Jizan port",
+   "originalTitle": "Houthis claim strikes on Saudi oil facility and port",
+   "url": "https://www.agbi.com/oil-and-gas/2026/11/houthis-claim-strikes-on-saudi-oil-facility-and-port/",
+   "source": "AGBI",
+   "publishedAt": "2026-11-23T04:54:47Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "trade",
+   "urgency": "high",
+   "countries": [
+    {
+     "id": "SA",
+     "relevance": 85
+    },
+    {
+     "id": "GLOBAL",
+     "relevance": 70
+    }
+   ],
+   "summary": "The Houthis claimed on social media to have struck the Port of Jizan, the Rabigh oil refinery and the Al-Shuqaiq power station in Saudi Arabia over the weekend, and threatened all Saudi Red Sea ports. The Saudi authorities did not confirm the attacks, and the coalition said it destroyed a Houthi UAV heading for the south. Separately, the UKMTO reported three tanker attacks in the Gulf of Oman, and Iran's navy said two tankers caught fire after hitting mines in the eastern Strait of Hormuz.",
+   "impact": "Threats to Red Sea ports such as Jizan add war-risk and disruption exposure for cargo calling at or transhipping through Saudi Red Sea ports. Attacks on tankers and reported mines in the Strait of Hormuz raise insurance costs and may lead carriers to reroute or delay Gulf of Oman and Hormuz calls. Forwarders should expect surcharges, possible war-risk clauses and longer lead times.",
+   "action": "Check with carriers and agents whether Jizan, Rabigh-area and other Saudi Red Sea calls are being suspended, rerouted or surcharged, and review war-risk and force majeure terms on bookings to the Gulf. Monitor UKMTO advisories and Saudi official statements, as the attack claims remain unconfirmed.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Brent crude at $92.08 a barrel, down 0.53 percent in early trading",
+    "Brent and WTI both down more than 17 percent over the past month",
+    "UKMTO reported three tanker attacks in the Gulf of Oman over the weekend",
+    "Saudi benchmark index fell 2 percent on Sunday"
+   ]
+  },
+  {
+   "id": "m-dc0637495814",
+   "title": "Tankers hit by projectiles near Strait of Hormuz; Iran reports mine strike",
+   "originalTitle": "Two Tanker Incidents Reported Near Oman; Vessel Hit Mine East Of Hormuz",
+   "url": "https://gcaptain.com/two-tanker-incidents-reported-near-oman-vessel-hit-mine-east-of-hormuz/",
+   "source": "gCaptain",
+   "publishedAt": "2026-11-21T19:38:29Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "trade",
+   "urgency": "high",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 85
+    },
+    {
+     "id": "OM",
+     "relevance": 60
+    }
+   ],
+   "summary": "UKMTO reported that an outbound tanker was hit on its stern by an unidentified projectile about 11 nautical miles north of Oman's Khasab, and a separate tanker was hit in its engine room 17 nautical miles east of Khasab; it is unclear whether these were the same vessel. No casualties were reported and the environmental impact is unknown. Iran's navy said an oil tanker caught fire after hitting a naval mine east of the strait, a claim Reuters could not verify.",
+   "impact": "Tehran has imposed restrictions on vessels transiting the Strait of Hormuz and has attacked ships it says broke them, so cargo movements through the chokepoint carry a serious safety and insurance risk. Crews, cargo interests and insurers should expect possible delays, rerouting, higher war-risk costs and tighter security requirements for Gulf and Oman-bound or Hormuz-transiting shipments.",
+   "action": "Check current UKMTO advisories and confirm routing and war-risk cover with carriers and insurers before booking or sailing through Hormuz, and monitor for further incidents or changes in Iranian restrictions.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Incident about 11 nautical miles north of Khasab",
+    "Second incident about 17 nautical miles east of Khasab",
+    "Strait of Hormuz carried nearly one-fifth of global crude oil supplies before the Iran war",
+    "Iranian Revolutionary Guards claimed four tankers caught fire on 30 October"
+   ]
+  },
+  {
+   "id": "m-a1f090f95a14",
+   "title": "US rule on ship-to-ship transfers tightens Hormuz blockade, shifting risk onto Gulf oil ships",
+   "originalTitle": "How the Hormuz blockade moved from the map to the cargo",
+   "url": "https://container-news.com/how-the-hormuz-blockade-moved-from-the-map-to-the-cargo/",
+   "source": "Container News",
+   "publishedAt": "2026-11-23T06:00:28Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "abstract",
+   "category": "trade",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 85
+    },
+    {
+     "id": "US",
+     "relevance": 60
+    },
+    {
+     "id": "SA",
+     "relevance": 30
+    }
+   ],
+   "summary": "A new US rule on ship-to-ship transfers continues the tightening of the Hormuz blockade. The change moves risk onto the vessels that keep Gulf oil moving, according to a short publisher summary.",
+   "impact": "The source gives only a short summary, so the detail of the rule is unclear. Forwarders and agents should expect that tighter controls around the Strait of Hormuz could raise risk and cost for vessels carrying Gulf oil and could affect the wider movement of cargo through the region.",
+   "action": "Monitor the full text of the US rule and any follow-up guidance from carriers and insurers on Hormuz transits and ship-to-ship transfer restrictions.",
+   "effectiveDate": "",
+   "keyFigures": []
+  },
+  {
+   "id": "m-597202b8d1bc",
+   "title": "Maersk blanks one westbound ASAS sailing from Shanghai on 20 December",
+   "originalTitle": "Maersk announces ASAS blank sailing",
+   "url": "https://container-news.com/maersk-announces-asas-blank-sailing/",
+   "source": "Container News",
+   "publishedAt": "2026-11-23T01:54:36Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "abstract",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "CN",
+     "relevance": 65
+    },
+    {
+     "id": "GLOBAL",
+     "relevance": 30
+    }
+   ],
+   "summary": "Maersk will blank one sailing on its ASAS service between Far East Asia and the East Coast of Latin America. The carrier cites cargo seasonality and fluctuating demand. The affected westbound voyage is 652W, scheduled to begin in Shanghai on 20 December 2026, and the source summary cuts off before giving full details of the corresponding eastbound voyage 705E.",
+   "impact": "Removing one sailing reduces weekly capacity on this Far East to East Coast Latin America loop, which may tighten space and make rebooking harder for shippers with cargo planned on voyage 652W. Forwarders may also face roll-overs and schedule changes that affect transit times and cut-off dates. The source gives no information on rate effects.",
+   "action": "Check bookings and cargo ready dates for voyage 652W from Shanghai and confirm with Maersk whether the eastbound voyage 705E is also affected. Watch for further capacity adjustments on the ASAS service.",
+   "effectiveDate": "20 December 2026",
+   "keyFigures": [
+    "Voyage 652W, scheduled to begin in Shanghai on 20 December 2026",
+    "One sailing blanked on the ASAS service"
+   ]
+  },
+  {
+   "id": "m-d0ab8a2e78a0",
+   "title": "Durban Gateway Terminal congestion hits South Africa's automotive sector, with 20-day delays",
+   "originalTitle": "Durban Port Congestion Becomes Headache for the Auto Industry",
+   "url": "https://maritime-executive.com/article/durban-port-congestion-becomes-headache-for-the-auto-industry",
+   "source": "The Maritime Executive",
+   "publishedAt": "2026-11-22T18:08:00Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "port",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 60
+    }
+   ],
+   "summary": "Congestion at Durban Gateway Terminal, operated by ICTSI and handling nearly half of South Africa's containerised cargo, has worsened after a new terminal operating system was introduced. Automotive supplier Metair reports delays of up to 20 days clearing inventory and warns it could invoke force majeure if disruption persists. Transnet has announced short-term measures, including diverting vessels to Ngqura and prioritising essential cargo such as auto parts.",
+   "impact": "Importers and suppliers face delayed inventory clearance of up to 20 days, with Metair estimating operating costs could rise by up to 25%, partly because some cargo is shifted to costly airfreight. Forwarders should expect longer dwell times and possible contractual disputes over force majeure. Transport Minister Barbara Creecy has threatened to revoke ICTSI's operating licence if performance does not improve within three months.",
+   "action": "Monitor DGT performance over the next three months and review contingency options such as Ngqura diversion or airfreight for time-critical auto parts and pharmaceuticals bound for South Africa.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Up to 20 days delay clearing inventory at DGT",
+    "Operating costs could rise by up to 25%",
+    "DGT handles nearly half of South Africa's containerised cargo",
+    "Three-month deadline for ICTSI performance improvement"
+   ]
+  },
+  {
+   "id": "m-bbde925e5b9e",
+   "title": "Moroccan exports to South Korea rise 57.8% in January-October 2026",
+   "originalTitle": "Les exportations marocaines vers la Corée grimpent de 57,8 %",
+   "url": "https://fr.hespress.com/496758-les-exportations-marocaines-vers-la-coree-grimpent-de-578.html",
+   "source": "Hespress FR",
+   "publishedAt": "2026-11-23T04:11:38Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "trade",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 85
+    },
+    {
+     "id": "KR",
+     "relevance": 80
+    }
+   ],
+   "summary": "Bilateral trade between South Korea and Morocco passed $700 million in January-October 2026, up 27.8% on the same period of 2025, according to Korean customs data. Korean purchases of Moroccan goods rose 57.8% to $329.4 million, while Korean sales to Morocco grew 9.4% to $374.1 million, narrowing Korea's trade surplus by about two-thirds.",
+   "impact": "For forwarders and importers, the story is about trade balance rather than port or customs change: Moroccan goods now cover a larger share of Korean exports to Morocco, so two-way cargo volumes are growing. The article gives no information on shipping routes, transit times, tariffs or customs procedures, so no immediate operational change follows from it.",
+   "action": "No action needed now. Monitor whether the growth in Moroccan exports to Korea shows up in sea-freight bookings on Morocco-Asia lanes.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Korean imports from Morocco: $329.4 million, up 57.8% (January-October 2026)",
+    "Bilateral trade: $703.5 million, up 27.8%",
+    "Korean surplus with Morocco fell 66.5% to $44.6 million",
+    "Moroccan goods are about 0.05% of total Korean imports"
+   ]
+  },
+  {
+   "id": "m-bc6d65c823fb",
+   "title": "EBRD says Morocco has become Africa's largest car exporter and a key EU vehicle supplier",
+   "originalTitle": "EBRD highlights Morocco’s rise as Africa’s top car exporter and Key EU supplier",
+   "url": "https://northafricapost.com/101750-ebrd-highlights-moroccos-rise-as-africas-top-car-exporter-and-key-eu-supplier.html",
+   "source": "North Africa Post",
+   "publishedAt": "2026-11-20T14:15:34Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "trade",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 85
+    },
+    {
+     "id": "EU",
+     "relevance": 45
+    }
+   ],
+   "summary": "The European Bank for Reconstruction and Development, in its report 'Transition 2026-2027: Competitiveness Outlook', describes Morocco as Africa's largest car exporter and one of the EU's biggest external vehicle suppliers by volume. Moroccan car exports were 'negligible' before 2010, and vehicles now make up about 13% of the country's total exports. The growth is attributed to tax incentives, special economic zones, worker training and preferential access to the European market, with Renault's plant (2012) and Stellantis' factory (2019) cited as major investments.",
+   "impact": "For forwarders and shipping agents, Morocco's growing role as a vehicle source for Europe points to sustained outbound flows of finished cars and components to EU markets, which may keep demand for vehicle and roll-on/roll-off capacity on Moroccan and Mediterranean routes firm. The report also notes that an ecosystem of more than 250 suppliers has grown up around the assembly plants, so component and parts shipments are likely to be a significant share of cargo. The article gives no figures on transit times, rates or port volumes, so practical effects on routings and costs are not yet clear.",
+   "action": "No immediate action is required. Monitor Moroccan automotive export volumes and any capacity or service changes on Moroccan and Mediterranean car carrier routes, and check with carriers whether space for vehicle and parts cargo is tightening.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Vehicles account for about 13% of Morocco's total exports",
+    "More than 250 suppliers around Morocco's assembly plants",
+    "Renault plant opened in 2012 and Stellantis factory in 2019",
+    "Moroccan car exports were 'negligible' before 2010"
+   ]
+  },
+  {
+   "id": "m-b2148c9b7b4d",
+   "title": "Casablanca airport gold and phone smuggling ring dismantled; five suspects arrested",
+   "originalTitle": "Aéroport Mohammed V: un réseau de contrebande d’or et de téléphones, dirigé par des Algériens, démantelé",
+   "url": "https://fr.le360.ma/societe/aeroport-mohammed-v-un-reseau-de-contrebande-dor-et-de-telephones-dirige-par-des-algeriens-demantele_2VVLJJMJVBDUTCFET4SBD2JMKI/",
+   "source": "Le360",
+   "publishedAt": "2026-11-20T21:07:04Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "customs",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 90
+    }
+   ],
+   "summary": "Moroccan customs and the gendarmerie dismantled an international smuggling network, reportedly led by Algerians, that moved gold, high-end phones and other valuable goods into Morocco through Mohammed V airport over several years. Five suspects were arrested and referred to the Casablanca prosecutor, and an Algerian alleged to lead the network is still being sought. Goods are estimated at about nine million dirhams, and investigators are examining possible links to espionage or surveillance via tampered phones.",
+   "impact": "The case points to tighter scrutiny of air cargo handling and ground-service staff at Casablanca, and suggests customs may check high-value consignments and the paperwork behind them more closely. The method involved relabelling parcels and bypassing customs at arrival, so forwarders handling valuable or high-risk goods into Morocco may face more questions and delays. Consignments that were split across passengers or carry altered labels are likely to draw attention.",
+   "action": "Forwarders and agents handling valuable air cargo into Casablanca should check that labels, airway bills and consignee details match, and should watch for further customs announcements on enforcement at the airport.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Goods valued at about nine million dirhams",
+    "Five suspects arrested and referred to the Casablanca prosecutor",
+    "Investigation lasted three months",
+    "One Algerian suspect, alleged to lead the network, is still at large"
+   ]
+  },
+  {
+   "id": "m-5143c67195f4",
+   "title": "Six ships shelter in Marín port waters due to weather alerts",
+   "originalTitle": "Seis buques se refugian en las aguas del puerto de Marín por las alertas meteorológicas",
+   "url": "https://www.cadenadesuministro.es/transporte-maritimo/seis-buques-se-refugian-en-aguas-puerto-marin-por-alertas-meteorologicas_1519814_102.html",
+   "source": "Cadena de Suministro",
+   "publishedAt": "2026-11-20T12:25:36Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "abstract",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "ES",
+     "relevance": 60
+    }
+   ],
+   "summary": "Six vessels have taken shelter in the waters of the port of Marín, Spain, because of weather warnings. The source says they are expected to resume activity gradually and continue their routes once conditions improve. The article is only a short summary, so no further details on cargo, schedules or duration are available.",
+   "impact": "Weather-related sheltering can delay vessel arrivals and departures at Marín, with knock-on effects on schedules for shippers and agents using the port. Because vessels are expected to restart in stages, delays may be uneven rather than a full stoppage. The source gives no information on cargo types or expected length of delay.",
+   "action": "Forwarders and agents with cargo or bookings linked to Marín should check with carriers or the port for updated sailing times once weather warnings are lifted.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Six vessels sheltering"
+   ]
+  },
+  {
+   "id": "m-be21554a85ad",
+   "title": "DEME says Port-La Nouvelle project has entered its final stage",
+   "originalTitle": "DEME Group: Port-La Nouvelle project enters its final stage",
+   "url": "https://www.dredgingtoday.com/2026/11/20/deme-group-port-la-nouvelle-project-enters-its-final-stage",
+   "source": "Dredging Today",
+   "publishedAt": "2026-11-20T09:27:15Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "abstract",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "FR",
+     "relevance": 85
+    }
+   ],
+   "summary": "DEME Group reports that its Port-La Nouvelle project in southern France has entered the final stage, with port operations gradually ramping up. The source is only a short summary, so no further details on scope, volumes or dates are available.",
+   "impact": "For forwarders and agents using the French Mediterranean, the project suggests a port in gradual ramp-up, which may mean changing terminal capacity and services. Without the full article, it is unclear how this affects berth availability, transit times or cargo handling at Port-La Nouvelle.",
+   "action": "Monitor for the full article and any announcements on service start dates, capacity and terminal operations before changing routing or booking plans.",
+   "effectiveDate": "",
+   "keyFigures": []
+  },
+  {
+   "id": "m-fc958778e3f5",
+   "title": "US scraps Biden AI chip export rule, easing licence requirements for Morocco",
+   "originalTitle": "Washington enterre la règle Biden qui encadrait les ventes de puces avancées au Maroc",
+   "url": "https://barlamane.com/fr/washington-enterre-la-regle-biden-qui-encadrait-les-ventes-de-puces-avancees-au-maroc/",
+   "source": "Barlamane",
+   "publishedAt": "2026-11-22T23:55:16Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "US",
+     "relevance": 85
+    },
+    {
+     "id": "MA",
+     "relevance": 75
+    }
+   ],
+   "summary": "The US Bureau of Industry and Security has revoked the Biden-era global licensing framework for advanced AI chips, which had placed Morocco in an intermediate tier with a 790 million TPP national cap. Morocco is now outside the five named countries and the D:1, D:4 and D:5 groups, so shipments of advanced chips to it no longer need a licence on destination alone. Controls on end users and end uses remain, including a new licence requirement for data centres serving entities in D:5 countries or Macao above 12 million TPP.",
+   "impact": "Importers and forwarders moving GPUs, accelerators and servers into Morocco face fewer destination-based licence requirements, but must still classify each item precisely, verify the buyer and end use, and meet manufacturer rules. Data centre operators in Morocco must screen clients for links to D:5 countries and Macao, since supplying large compute capacity to them now requires a licence.",
+   "action": "Confirm the export control classification (ECCN 3A090 or 4A090) and the end user of any advanced chip shipment before ordering, and monitor the BIS docket BIS-2026-0628 ahead of the comment deadline.",
+   "effectiveDate": "Effective on publication",
+   "keyFigures": [
+    "Comment deadline: 19 January 2027",
+    "Data-centre licence trigger: more than 12 million TPP",
+    "Former Moroccan national cap: 790 million TPP",
+    "Chip threshold under 3A090.a: TPP of 4,800 or more"
+   ]
+  },
+  {
+   "id": "m-387c413d6540",
+   "title": "MSC adds Busan call to weekly Pearl service",
+   "originalTitle": "MSC adds Busan call to Pearl service",
+   "url": "https://container-news.com/msc-adds-busan-call-to-pearl-service/",
+   "source": "Container News",
+   "publishedAt": "2026-11-23T04:30:38Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "abstract",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "KR",
+     "relevance": 80
+    },
+    {
+     "id": "US",
+     "relevance": 50
+    }
+   ],
+   "summary": "MSC has added Busan to the westbound leg of its weekly Pearl service between the Far East and the US West Coast. Vessels will call at Busan after Los Angeles and Oakland, before continuing to Hai Phong in Vietnam. The service is operated with seven container ships.",
+   "impact": "The new call adds Busan to a weekly loop serving US West Coast ports, which may give forwarders and importers on Asia to US West Coast cargo an additional Korean departure option. The source does not state transit times, rates or cut-off changes, so these should be confirmed with the carrier. Cargo for Hai Phong is carried on the same rotation after Busan.",
+   "action": "Check MSC's updated Pearl schedule and port rotation with your carrier contacts before booking Busan or Hai Phong cargo on this service. Monitor for the first sailing dates and any changes to transit times.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Weekly Pearl service",
+    "Seven container ships deployed",
+    "Busan called after Los Angeles and Oakland"
+   ]
+  },
+  {
+   "id": "m-782b141498b9",
+   "title": "ONE launches weekly Korea-China-Jakarta service from late November with six 4,500 TEU ships",
+   "originalTitle": "ONE to launch new Korea-China-Jakarta service",
+   "url": "https://container-news.com/one-to-launch-new-korea-china-jakarta-service/",
+   "source": "Container News",
+   "publishedAt": "2026-11-23T03:00:37Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "KR",
+     "relevance": 60
+    },
+    {
+     "id": "CN",
+     "relevance": 60
+    },
+    {
+     "id": "GLOBAL",
+     "relevance": 30
+    }
+   ],
+   "summary": "Ocean Network Express (ONE) will launch a new weekly Korea-China-Jakarta service, branded KCJ, in late November. It is expected to replace ONE's current slot arrangement on the KCI service operated by Gold Star Line, Interasia Lines, Namsung Shipping and T.S. Lines. ONE will deploy six container ships of about 4,500 TEU on the rotation Xiamen, Busan, Tianjin, Qingdao, Busan, Shanghai, Laem Chabang, Jakarta and back to Xiamen.",
+   "impact": "The service adds direct connections between South Korean and Chinese ports and the Thai and Indonesian markets, which may improve options for shippers on these lanes. Forwarders using ONE's existing slots on the KCI service should check whether their bookings will move to the new KCJ service. The article does not give transit times or rates.",
+   "action": "Forwarders and agents on Korea, China, Thailand and Indonesia lanes should confirm with ONE whether existing KCI slot bookings will transfer to KCJ from late November, and monitor the first sailing schedules.",
+   "effectiveDate": "late November",
+   "keyFigures": [
+    "Weekly service frequency",
+    "Six container ships of approximately 4,500 TEU",
+    "Rotation includes Busan, Tianjin, Qingdao, Shanghai, Laem Chabang and Jakarta"
+   ]
+  },
+  {
+   "id": "m-d3b2735c6d87",
+   "title": "Germany's port security conference in Bremen focuses on drug smuggling routes shifting",
+   "originalTitle": "Bremen port security conference focuses on drug routes shifting to smaller ports",
+   "url": "https://www.portseurope.com/bremen-port-security-conference-focuses-on-drug-routes-shifting-to-smaller-ports/",
+   "source": "PortSEurope",
+   "publishedAt": "2026-11-22T23:03:00Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "abstract",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "DE",
+     "relevance": 80
+    }
+   ],
+   "summary": "Germany's second National Port Security Conference met in Bremen on 18 November 2026 to discuss countering drug smuggling through ports. About 130 representatives from politics, security authorities and ports attended, and Bremen's senators for the Interior, Justice, and Economy and Ports jointly organised it. The source summary indicates that drug routes are shifting towards smaller ports.",
+   "impact": "The shift of drug smuggling towards smaller ports could bring closer security attention to a wider range of German and European facilities. Forwarders and agents handling cargo through smaller ports may face more scrutiny, though the summary gives no details of new measures. The full article would be needed to confirm any specific controls.",
+   "action": "Monitor for follow-up measures from German security authorities and port operators, particularly any new inspection or access requirements at smaller ports. No immediate action is needed.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Second National Port Security Conference, held 18 November 2026",
+    "About 130 attendees from politics, security authorities and ports"
+   ]
+  },
+  {
+   "id": "m-d9b3f677e68d",
+   "title": "IEA warns extreme weather threatens oil and gas shipping ports and chokepoints",
+   "originalTitle": "IEA: Extreme Weather Risks to International Oil and Natural Gas Shipping",
+   "url": "https://www.hellenicshippingnews.com/iea-extreme-weather-risks-to-international-oil-and-natural-gas-shipping/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-22T22:00:57Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 85
+    },
+    {
+     "id": "US",
+     "relevance": 35
+    },
+    {
+     "id": "CN",
+     "relevance": 30
+    }
+   ],
+   "summary": "The International Energy Agency says extreme weather can damage port infrastructure, interrupt operations and restrict or close shipping routes, causing costly delays and diversions. Reliance on shipping for oil and gas is set to grow, with LNG growing faster than oil, so port and route resilience matters more. Tanker-handling ports face about USD 5 billion in annual weather-related physical damage, and that could nearly double by 2050 in a high-warming scenario.",
+   "impact": "Forwarders and agents should expect longer and less predictable port downtime, especially for tanker and LNG cargoes, when high-impact events close terminals for weeks or months. Where chokepoints such as the Panama Canal are constrained by drought, rerouting raises voyage times, fuel use and freight costs. Inland routes such as the Rhine can also become unnavigable for around a month a year on average, forcing load reductions or overland transfers.",
+   "action": "No immediate action is required; monitor weather-related port closures and chokepoint restrictions on the routes you use, and build contingency time into schedules for peak hurricane and drought seasons.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Tanker-handling ports average 1.5 days of weather-related downtime per year",
+    "Weather-related physical damage to tanker-handling ports estimated at around USD 5 billion annually",
+    "LNG shipping volumes have quadrupled since 2000",
+    "Navigation on the Rhine at Kaub was economically unviable for around one month per year on average from 2015 to 2026"
+   ]
+  },
+  {
+   "id": "m-788d98fad633",
+   "title": "Tanker rates mixed last week: VLCC firmed while MR weakened sharply in the Atlantic",
+   "originalTitle": "VLCC Market Moved Higher Last Week",
+   "url": "https://www.hellenicshippingnews.com/vlcc-market-moved-higher-last-week/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-22T22:00:56Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 85
+    },
+    {
+     "id": "US",
+     "relevance": 35
+    }
+   ],
+   "summary": "Baltic Exchange tanker assessments for the week were mixed across segments. VLCC rates strengthened on most routes, while MR rates weakened across the board, with the sharpest losses in the US Gulf and wider Atlantic. Aframax rates surged on Atlantic routes, and Suezmax rates firmed broadly.",
+   "impact": "For forwarders and agents, tanker freight costs are moving in different directions by vessel size and route, so charter and bunker-linked costs will vary by trade. Weaker MR earnings in the US Gulf and Atlantic may ease tonnage pricing on those lanes. Stronger Aframax and VLCC earnings on certain routes could push up costs for energy and bulk cargoes.",
+   "action": "Monitor weekly Baltic Exchange assessments for the routes you use, and check that freight quotes on affected trades reflect current levels. No immediate action is required.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "TD3C Middle East Gulf/China rose 21.25 points to WS315.63, a round-trip TCE of $1,079,794/day",
+    "TC14 US Gulf/UK-Continent fell 121 points to WS237",
+    "TD26 East Coast Mexico/US Gulf climbed almost 310 points to WS631.11",
+    "MR Atlantic Triangulation Basket TCE fell from $60,600/day to $37,000/day"
+   ]
+  },
+  {
+   "id": "m-988b1d56ade6",
+   "title": "China's ship renewal subsidy could raise lifecycle emissions unless fuel rules added",
+   "originalTitle": "Vessel renewal incentive policy in China: Potential greenhouse gas reduction impact and opportunities for improvement",
+   "url": "https://www.hellenicshippingnews.com/vessel-renewal-incentive-policy-in-china-potential-greenhouse-gas-reduction-impact-and-opportunities-for-improvement%e2%80%af/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-22T22:00:44Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "CN",
+     "relevance": 85
+    }
+   ],
+   "summary": "A study by the International Council on Clean Transportation models China's retire-and-renew policy, which offers tiered subsidies to scrap older ships early, with more support for new clean-energy vessels. It projects 18% of the coastal fleet renewed in 2025 to 2028 against 13% without the policy, and a 6.1% rise in cumulative well-to-wake emissions to 2050, because the policy does not specify fuels. Adding a carbon price, an e-fuel blending mandate and e-fuel incentives would instead cut emissions by 4.5%.",
+   "impact": "For forwarders and agents, the policy is unlikely to change near-term rates or port operations directly. Over time, it may shift the coastal fleet towards LNG and methanol-fuelled ships, which could affect vessel availability and fuel-related surcharges on China coastal and feeder services. Emissions-related rules may also tighten later, which could add cost to cargo moving through Chinese ports.",
+   "action": "No immediate action is needed. Monitor any Chinese implementing rules that specify fuels or carbon pricing, and watch for changes to coastal and feeder vessel deployments.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Fleet renewal 18% in 2025-2028 with the policy versus 13% without",
+    "Well-to-wake emissions up 6.1% cumulatively 2025-2050 under the policy alone",
+    "Combined policy scenario cuts cumulative well-to-wake emissions by 4.5%",
+    "Higher subsidies alone could raise well-to-wake emissions by up to 17.4%"
+   ]
+  },
+  {
+   "id": "m-cb04011e9658",
+   "title": "China's imported iron ore losses narrow as market awaits APEC summit outcome",
+   "originalTitle": "China: Imported iron ore losses narrow as market waits on APEC summit",
+   "url": "https://www.hellenicshippingnews.com/china-imported-iron-ore-losses-narrow-as-market-waits-on-apec-summit/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-22T22:00:30Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "abstract",
+   "category": "trade",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "CN",
+     "relevance": 85
+    },
+    {
+     "id": "GLOBAL",
+     "relevance": 30
+    }
+   ],
+   "summary": "The average margin on imported iron ore in China improved from -14.83 yuan/mt to -13.08 yuan/mt, so losses narrowed slightly. The gain was mainly driven by a small rise in spot prices. Most market participants stayed on the sidelines during the APEC leaders' summit while they waited for clearer policy signals.",
+   "impact": "Import margins are still negative, so buyers have little incentive to expand iron ore purchases by sea. Cautious trading suggests seaborne dry bulk demand into China may stay subdued until policy direction becomes clearer. The change is small and the article gives no outlook for volumes or freight.",
+   "action": "Monitor Chinese iron ore import margins and spot prices, along with any policy signals from the APEC summit, before adjusting dry bulk capacity or pricing assumptions for China.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Average imported iron ore margin rose from -14.83 yuan/mt to -13.08 yuan/mt"
+   ]
+  },
+  {
+   "id": "m-63686e6f51bc",
+   "title": "Duqm Port sets out 22 initiatives to lift efficiency and attract shipping lines",
+   "originalTitle": "Duqm Port outlines 22 initiatives to boost operational efficiency and attract investment",
+   "url": "https://www.hellenicshippingnews.com/duqm-port-outlines-22-initiatives-to-boost-operational-efficiency-and-attract-investment/",
+   "source": "Hellenic Shipping News: ports",
+   "publishedAt": "2026-11-22T22:00:00Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "full_text",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "OM",
+     "relevance": 90
+    }
+   ],
+   "summary": "Oman's Lab for Improving the Operational Efficiency of Duqm Port has agreed a roadmap of 22 initiatives across service projects, investment projects and general enablers. The plan aims to raise efficiency, localise cargo, attract industrial investment and new shipping lines, and integrate the port with the Special Economic Zone at Duqm. A logistics corridor has also been launched to link regional ports directly with Omani ports through integrated customs facilities.",
+   "impact": "For forwarders and shipping agents, the plan points to more services and new calls at Duqm, although the article gives no dates, tariffs or timelines for the initiatives. The customs-integrated corridor could speed the transit of goods to neighbouring countries' ports, but its procedures are not detailed in the text.",
+   "action": "Monitor announcements on new shipping line calls and the corridor's customs procedures at Duqm before changing routings or booking patterns.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "22 initiatives: 8 service, 10 investment and 4 general enablers",
+    "Some Duqm sectors recorded growth of up to 700 percent during Strait of Hormuz closure disruption, per former Sohar Port CEO"
+   ]
+  },
+  {
+   "id": "m-33f9e79052ae",
+   "title": "Diamond Line doubles Piraeus–Constanta service to twice weekly sailings",
+   "originalTitle": "Diamond Line doubles Piraeus–Constanta service frequency",
+   "url": "https://container-news.com/diamond-line-doubles-piraeus-constanta-service-frequency/",
+   "source": "Container News",
+   "publishedAt": "2026-11-22T19:00:06Z",
+   "addedAt": "2026-11-23T06:48:26Z",
+   "basis": "abstract",
+   "category": "trade",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "EU",
+     "relevance": 40
+    }
+   ],
+   "summary": "Diamond Line, the intra-European subsidiary of COSCO Shipping Lines, has increased its Piraeus–Constanta Express (PCE) from weekly to twice weekly. A second vessel has been added to the service, which keeps the rotation Piraeus – Constanta – Piraeus unchanged. The change gives more frequent sailings between Greece and Romania.",
+   "impact": "Shippers using the Greece–Romania link should get more frequent sailings, which may shorten waiting times for cargo between Piraeus and Constanta. The port rotation is unchanged, so routing and port calls stay the same. The source does not give rates or transit times, so no cost or schedule effects can be confirmed from it.",
+   "action": "Forwarders and agents on Greece–Romania cargo should check the updated sailing schedule with Diamond Line before rebooking. No immediate action is needed for other trades.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Frequency increased from weekly to twice weekly",
+    "A second vessel added to the service",
+    "Rotation: Piraeus – Constanta – Piraeus"
+   ]
+  },
   {
    "id": "m-16f053ab76f4",
    "title": "Sovcomflot credits sanctions adaptation for profit rebound as EU targets its former fleet network",
