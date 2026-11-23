@@ -21,7 +21,10 @@ relevant module applied to it, and an exam-style question.
   surcharges. Every figure keeps its source. Ports, lanes, carriers and container factors are in
   `collector/freight_config.json`; sea routes are built once with `collector/build_routes.py` (needs
   `pip install searoute`). Research volume: repository variables `FREIGHT_LANES_PER_DAY`,
-  `FREIGHT_PORTS_PER_DAY`, `FREIGHT_CARRIERS_PER_DAY` (about $0.01 per web search).
+  `FREIGHT_PORTS_PER_DAY`, `FREIGHT_CARRIERS_PER_DAY` (about $0.01 per web search). The app lists only port
+  pairs with a rate; ports without a researched tariff show an approximation averaged from researched ports
+  nearby. It also shows Brent (US EIA) and the EU carbon allowance price (EEX auctions), and each voyage's
+  CO2e per container from the GLEC Framework v3.1 trade-lane intensities, with the EU ETS cost.
 - `.github/workflows/daily.yml` runs the three collectors each morning and publishes the app to GitHub Pages.
 
 ## Change what the app covers

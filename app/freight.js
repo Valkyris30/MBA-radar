@@ -55,6 +55,7 @@ window.Freight = (() => {
     ]);
     S.ports = p.ports;
     S.regions = p.regions;
+    S.static = { carbon: p.carbon, euEts: p.euEts };
     S.byCode = Object.fromEntries(p.ports.map((x) => [x.code, x]));
     S.data = f;
     if (S.sel.cape) { S.sel.route = 'cape'; delete S.sel.cape; }   // older saved choice
@@ -116,33 +117,81 @@ window.Freight = (() => {
     return rate ? amount / rate : null;
   }
 
-  function portCharge(port, side) {
+  function researched(port) {
     const r = S.data && S.data.research && S.data.research.ports && S.data.research.ports[port.code];
-    if (!r) return { status: 'pending' };
-    if (!r.found) return { status: 'none', checkedAt: r.checkedAt };
-    const size = container().size;
-    const amount = r[`thc_${side}_${size}`];
-    return { status: amount == null ? 'partial' : 'ok', amount, currency: r.currency, usd: toUsd(amount, r.currency), r };
+    return r && r.found ? r : null;
+  }
+
+  // Average, in USD, of a field over researched ports matching a test (same country, same region...).
+  function averageOf(field, test) {
+    const vals = S.ports.filter(test).map((p) => {
+      const r = researched(p);
+      return r ? toUsd(r[field], r.currency) : null;
+    }).filter((v) => v != null && v > 0);
+    return vals.length ? { usd: vals.reduce((a, b) => a + b, 0) / vals.length, n: vals.length } : null;
+  }
+
+  // The researched figure when there is one; otherwise an approximation from the closest researched ports.
+  function estimate(port, field) {
+    const r = researched(port);
+    if (r && r[field] != null) return { exact: true, amount: r[field], currency: r.currency, usd: toUsd(r[field], r.currency), r };
+    const tries = [
+      [(p) => p.code !== port.code && p.country === port.country, `other ports in ${port.flag} ${port.country}`],
+      [(p) => p.code !== port.code && parent(p.region) === parent(port.region), `ports in ${S.regions[parent(port.region)].name}`],
+      [(p) => p.code !== port.code, 'researched ports worldwide'],
+    ];
+    for (const [test, label] of tries) {
+      const a = averageOf(field, test);
+      if (a) return { exact: false, usd: a.usd, basis: `average of ${a.n} ${a.n === 1 ? label.replace('ports', 'port') : label}`, r };
+    }
+    return { exact: false, usd: null, r };
+  }
+
+  function portCharge(port, side) {
+    return estimate(port, `thc_${side}_${container().size}`);
   }
 
   /* ── Panel ────────────────────────────────────────────── */
 
-  function options(selected, exclude) {
+  function hasRate(o, d) {
+    if (!o || !d || o.code === d.code) return false;
+    const lane = laneData(o, d);
+    return lane.indices.length > 0 || !!lane.research;
+  }
+
+  const originsWithRates = () => S.ports.filter((o) => S.ports.some((d) => hasRate(o, d)));
+
+  // Keep the chosen pair on a priced lane; fall back to the nearest valid choice.
+  function keepPriced() {
+    const origins = originsWithRates();
+    if (!origins.length) return;
+    if (!origins.some((p) => p.code === S.sel.from)) S.sel.from = (origins.find((p) => p.code === 'CNSHA') || origins[0]).code;
+    const o = S.byCode[S.sel.from];
+    if (!hasRate(o, S.byCode[S.sel.to])) {
+      const dests = S.ports.filter((d) => hasRate(o, d));
+      S.sel.to = (dests.find((p) => p.code === 'MAPTM') || dests.find((p) => p.focus) || dests[0]).code;
+      S.sel.route = 'main';
+    }
+  }
+
+  function options(selected, list) {
     const groups = {};
-    S.ports.forEach((p) => { (groups[p.country] = groups[p.country] || []).push(p); });
+    list.forEach((p) => { (groups[p.country] = groups[p.country] || []).push(p); });
     const order = Object.keys(groups).sort((a, b) => (groups[b][0].focus - groups[a][0].focus) || groups[a][0].name.localeCompare(groups[b][0].name));
     return order.map((cty) => `<optgroup label="${esc(groups[cty][0].flag)} ${esc(cty)}">${groups[cty]
-      .map((p) => `<option value="${p.code}"${p.code === selected ? ' selected' : ''}${p.code === exclude ? ' disabled' : ''}>${esc(p.flag)} ${esc(p.name)}</option>`).join('')}</optgroup>`).join('');
+      .map((p) => `<option value="${p.code}"${p.code === selected ? ' selected' : ''}>${esc(p.flag)} ${esc(p.name)}</option>`).join('')}</optgroup>`).join('');
   }
 
   function renderForm() {
+    keepPriced();
+    const origin = S.byCode[S.sel.from];
     const carriers = (S.data && S.data.carriers) || [];
     const containers = (S.data && S.data.containers) || [];
     $('#frForm').innerHTML = `
       <div class="fr-ports">
-        <label class="fr-field"><span>From</span><select id="frFrom">${options(S.sel.from, S.sel.to)}</select></label>
+        <label class="fr-field"><span>From</span><select id="frFrom">${options(S.sel.from, originsWithRates())}</select></label>
         <button type="button" class="icon-btn fr-swap" id="frSwap" aria-label="Swap ports"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16M7 4L3 8M7 4l4 4M17 20V4M17 20l-4-4M17 20l4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-        <label class="fr-field"><span>To</span><select id="frTo">${options(S.sel.to, S.sel.from)}</select></label>
+        <label class="fr-field"><span>To</span><select id="frTo">${options(S.sel.to, S.ports.filter((d) => hasRate(origin, d)))}</select></label>
       </div>
       <div class="fr-row">
         <label class="fr-field"><span>Shipping line</span><select id="frCarrier"><option value="">Any line (market rate)</option>${carriers.map((c) => `<option value="${c.id}"${c.id === S.sel.carrier ? ' selected' : ''}>${esc(c.name)}</option>`).join('')}</select></label>
@@ -201,7 +250,7 @@ window.Freight = (() => {
       <button type="button" class="fr-opt${leg.id === (chosen(route) || {}).id ? ' on' : ''}" data-route="${leg.id}" role="radio" aria-checked="${leg.id === (chosen(route) || {}).id}">
         <span class="radio" aria-hidden="true"></span>
         <span><b>${esc(routeName(leg))}</b><small>${esc(routeNote(leg))}</small></span>
-        <span class="fr-opt-n">${fmtNm(leg.nm)} nm<small>≈ ${fmtDays(seaDays(leg))}${leg.nm > best ? ` · +${fmtNm(leg.nm - best)} nm` : ''}</small></span>
+        <span class="fr-opt-n">${fmtNm(leg.nm)} nm<small>≈ ${fmtDays(seaDays(leg))}${(() => { const k = carbonFor(S.byCode[S.sel.from], S.byCode[S.sel.to], leg); return k ? ` · ${fmtKg(k.kg)} CO₂e` : ''; })()}</small></span>
       </button>`).join('')}`;
   }
 
@@ -211,6 +260,67 @@ window.Freight = (() => {
       ? `<span><span class="leg-line"></span><b>${esc(o.name)} → ${esc(d.name)}</b></span><span class="sep"></span><span><b>${fmtNm(leg.nm)}</b> nm · ${fmtNm(leg.nm * 1.852)} km</span><span class="sep"></span><span>≈ <b>${fmtDays(seaDays(leg))}</b> at sea</span>`
       : '';
   }
+
+  /* ── Carbon ───────────────────────────────────────────── */
+
+  const NE_ASIA = ['CN', 'HK', 'KR', 'JP', 'TW'];
+  const group = (p) => ({ FE: 'asia', NEU: 'neu', MED: 'med', MA: 'med', MEG: 'meisc', ISC: 'meisc', USWC: 'nawc', USEC: 'naec', SAEC: 'sam', WAF: 'africa', SAF: 'africa' }[p.region] || 'other');
+
+  // Which GLEC / Clean Cargo trade-lane intensity applies between two ports.
+  function carbonLane(o, d) {
+    const [a, b] = [group(o), group(d)].sort();
+    const pair = `${a}-${b}`;
+    const eu = (g) => g === 'neu' || g === 'med';
+    const na = (g) => g === 'nawc' || g === 'naec';
+    if (a === 'asia' && b === 'asia') {
+      const ne = (p) => NE_ASIA.includes(p.country);
+      return ne(o) && ne(d) ? 'intra_ne_asia' : !ne(o) && !ne(d) ? 'intra_se_asia' : 'se_ne_asia';
+    }
+    if ((o.region === 'MA') !== (d.region === 'MA') && (eu(group(o)) && eu(group(d)))) {
+      return [o, d].some((p) => p.region === 'NEU') ? 'eu_africa' : 'intra_med';
+    }
+    const table = {
+      'asia-neu': 'asia_neu', 'asia-med': 'asia_med', 'asia-meisc': 'asia_meisc', 'asia-naec': 'asia_naec', 'asia-nawc': 'asia_nawc',
+      'asia-sam': 'asia_sam', 'africa-asia': 'asia_africa', 'africa-neu': 'eu_africa', 'africa-med': 'eu_africa', 'neu-sam': 'eu_sam',
+      'med-sam': 'eu_sam', 'meisc-neu': 'eu_meisc', 'med-meisc': 'eu_meisc', 'med-naec': 'med_naec', 'med-nawc': 'med_nawc',
+      'africa-naec': 'na_africa', 'africa-nawc': 'na_africa', 'naec-sam': 'na_sam', 'nawc-sam': 'na_sam', 'med-neu': 'neu_med',
+      'med-med': 'intra_med', 'neu-neu': 'intra_neu', 'meisc-meisc': 'intra_meisc', 'meisc-naec': 'na_meisc', 'meisc-nawc': 'na_meisc',
+      'naec-neu': 'neu_naec', 'neu-nawc': 'panama', 'africa-sam': 'sam_africa', 'africa-africa': 'intra_africa',
+      'naec-naec': 'intra_na', 'naec-nawc': 'intra_na', 'nawc-nawc': 'intra_na', 'sam-sam': 'intra_sam',
+      'africa-meisc': 'other',
+    };
+    return table[pair] || (na(a) || na(b) ? 'other' : 'industry');
+  }
+
+  const LANE_NAMES = {
+    industry: 'industry average', asia_neu: 'Asia–North Europe', asia_med: 'Asia–Mediterranean', asia_meisc: 'Asia–Middle East/India',
+    asia_naec: 'Asia–North America East Coast/Gulf', asia_nawc: 'Asia–North America West Coast', asia_sam: 'Asia–South America',
+    asia_africa: 'Asia–Africa', eu_africa: 'Europe–Africa', eu_sam: 'Europe–South America', eu_meisc: 'Europe–Middle East/India',
+    med_naec: 'Mediterranean–North America East Coast', med_nawc: 'Mediterranean–North America West Coast', na_africa: 'North America–Africa',
+    na_sam: 'North America–South America', intra_ne_asia: 'intra North-East Asia', intra_se_asia: 'intra South-East Asia',
+    se_ne_asia: 'South-East Asia–North-East Asia', neu_med: 'North Europe–Mediterranean', intra_med: 'intra Mediterranean',
+    intra_neu: 'intra North Europe', intra_meisc: 'intra Middle East/India', na_meisc: 'North America–Middle East/India',
+    neu_naec: 'North Europe–North America East Coast', panama: 'Panama trades', sam_africa: 'South America–Africa',
+    intra_africa: 'intra Africa', intra_na: 'intra North America', intra_sam: 'intra South America', other: 'other global trades',
+  };
+
+  function carbonFor(o, d, leg) {
+    const C = S.static.carbon || (S.data && S.data.carbon);
+    if (!C || !leg) return null;
+    const c = container();
+    const key = carbonLane(o, d);
+    const factor = (C.lanes[key] || C.lanes.industry)[c.reefer ? 1 : 0];   // g CO2e per TEU-km, well-to-wake
+    const teu = c.size === '40' ? 2 : 1;
+    const km = leg.nm * 1.852;
+    const kg = (factor * km * teu) / 1000;
+    const eu = S.static.euEts || (S.data && S.data.euEts) || [];
+    const share = (eu.includes(o.country) ? 0.5 : 0) + (eu.includes(d.country) ? 0.5 : 0);   // 100% inside the EEA, 50% in or out
+    const eua = S.data.markets && S.data.markets.eua;
+    const etsEur = eua ? (kg / 1000) * (C.ttw_share || 0.85) * share * eua.value : null;
+    return { key, factor, kg, share, etsEur, etsUsd: etsEur != null ? toUsd(etsEur, 'EUR') : null, eua };
+  }
+
+  const fmtKg = (kg) => (kg >= 1000 ? `${(kg / 1000).toLocaleString('en-GB', { maximumFractionDigits: 2 })} t` : `${Math.round(kg).toLocaleString('en-GB')} kg`);
 
   function sourceLinks(sources) {
     return (sources || []).map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || new URL(s.url).hostname)} ${ext}</a>`).join('');
@@ -229,18 +339,46 @@ window.Freight = (() => {
     const extra = (exp.usd || 0) + (imp.usd || 0);
     const total = oc ? [oc.lo + extra, oc.hi + extra] : null;
     const leg = chosen(route);
+    const approx = [exp, imp].some((x) => x.usd != null && !x.exact);
 
     // 1. Headline
-    const missing = [];
-    if (exp.usd == null) missing.push(`export handling at ${o.name}`);
-    if (imp.usd == null) missing.push(`import handling at ${d.name}`);
     const head = `<div class="fr-total">
       <p class="eyebrow"><span>Indicative cost</span> · ${esc(c.name)} · ${esc(o.name)} → ${esc(d.name)}</p>
       <div class="fr-big">${total ? range(total[0], total[1]) : 'No public rate'}</div>
       <p class="fr-sub">${total
-        ? `Ocean freight ${range(oc.lo, oc.hi)}${extra ? ` + port handling ${usd(extra)}` : ''}${missing.length ? `. Not included yet: ${esc(missing.join(' and '))}.` : '.'}`
-        : `No free index or researched rate covers ${esc(S.regions[lane.from].name)} → ${esc(S.regions[lane.to].name)} yet.`}</p>
+        ? `Ocean freight ${range(oc.lo, oc.hi)}${extra ? ` + terminal handling ${usd(extra)}${approx ? ' (partly approximate)' : ''}` : ''}.`
+        : 'This pair has no rate today.'}</p>
     </div>`;
+
+    // Markets today: the fuel and carbon prices behind surcharges.
+    const mk = S.data && S.data.markets ? S.data.markets : {};
+    const tile = (m, fmt) => (m ? `<a class="fr-mkt" href="${esc(m.url)}" target="_blank" rel="noopener noreferrer"><span>${esc(m.name)}</span><b>${fmt(m.value)}</b><small>${m.change == null ? '' : `<em class="${m.change > 0 ? 'up' : m.change < 0 ? 'down' : ''}">${m.change > 0 ? '+' : ''}${m.change}%</em> `}${esc(day(m.date))} · ${esc(m.source)}</small></a>` : '');
+    const markets = mk.brent || mk.eua ? `<section class="fr-block"><h3>Markets</h3><div class="fr-mkts">
+        ${tile(mk.brent, (v) => `$${v.toFixed(2)}<i>/bbl</i>`)}${tile(mk.eua, (v) => `€${v.toFixed(2)}<i>/t CO₂</i>`)}
+      </div></section>` : '';
+
+    // Carbon footprint of the voyage.
+    let carbonHtml = '';
+    const k = carbonFor(o, d, leg);
+    if (k) {
+      const alts = itineraries(route).filter((r) => r.id !== leg.id).map((r) => {
+        const x = carbonFor(o, d, r);
+        const diff = x.kg - k.kg;
+        return `<li><span>${esc(routeName(r))}</span><b>${fmtKg(x.kg)}</b><small>${diff > 0 ? '+' : ''}${fmtKg(Math.abs(diff)).replace(/^/, diff < 0 ? '−' : '')}</small></li>`;
+      }).join('');
+      const level = k.factor <= 55 ? ['low', 'Lower than average for container shipping'] : k.factor <= 90 ? ['mid', 'Around the container-shipping average'] : ['high', 'Higher than average: short-sea and feeder services emit more per container-km'];
+      carbonHtml = `<section class="fr-block"><h3>Carbon</h3>
+        <div class="fr-carbon ${level[0]}">
+          <div><b>${fmtKg(k.kg)}</b><span>CO₂e per ${esc(c.name)}</span></div>
+          <div><b>${k.factor.toLocaleString('en-GB')}</b><span>g CO₂e per TEU-km</span></div>
+        </div>
+        <p class="fr-note">${esc(level[1])}. Intensity for ${esc(LANE_NAMES[k.key] || k.key)}${c.reefer ? ', reefer' : ', dry'}: ${esc(S.static.carbon.source)}, ${esc(S.static.carbon.basis)}.</p>
+        ${alts ? `<ul class="fr-charges">${alts}</ul>` : ''}
+        ${k.share ? `<div class="fr-eta"><span>EU ETS cost (${k.share === 1 ? 'voyage inside the EU/EEA, 100% of emissions' : 'voyage to or from the EU/EEA, 50% of emissions'})</span><b>${k.etsEur != null ? `€${Math.round(k.etsEur).toLocaleString('en-GB')}` : '—'}</b></div>
+          <p class="fr-note">At ${k.eua ? `€${k.eua.value.toFixed(2)}/t (EEX auction, ${esc(day(k.eua.date))})` : 'today\'s allowance price'}, on tank-to-wake emissions. Lines pass this on as an EU ETS surcharge; their figures vary with vessel and load.</p>`
+        : '<p class="fr-note">No EU ETS charge: neither port is in the EU or EEA.</p>'}
+      </section>`;
+    }
 
     // 2. Voyage
     let voyage = '';
@@ -281,25 +419,25 @@ window.Freight = (() => {
     // 4. Port charges
     const portBlock = (port, side, ch) => {
       const label = side === 'export' ? 'Origin' : 'Destination';
-      if (ch.status === 'pending') {
-        return `<div class="fr-port"><h4>${label}: ${esc(port.flag)} ${esc(port.name)}</h4><p class="fr-note">${port.research
-          ? 'This port is on the research rotation; its handling charges appear after one of the next morning collections.'
-          : 'Handling charges are researched for the main ports only; ask the line or your forwarder for this port.'}</p></div>`;
+      const size = container().size;
+      const store = estimate(port, `storage_per_day_${size}`);
+      const r = ch.r || store.r;
+      const line = (name, e, unit) => (e.usd == null ? '' : e.exact
+        ? `<li><span>${name}</span><b>${esc(e.currency)} ${Number(e.amount).toLocaleString('en-GB')}${unit}</b><small>${e.currency !== 'USD' && e.usd != null ? `≈ ${usd(e.usd)}` : ''}</small></li>`
+        : `<li><span>${name} <em class="approx">approx.</em></span><b>≈ ${usd(e.usd)}${unit}</b><small>${esc(e.basis)}</small></li>`);
+      const others = r ? (r.other_charges || []).filter((x) => x.applies === side || x.applies === 'both')
+        .map((x) => `<li><span>${esc(x.name)}</span><b>${x.amount != null ? `${esc(x.currency || r.currency)} ${Number(x.amount).toLocaleString('en-GB')}` : ''}</b><small>${esc(x.per || '')}</small></li>`).join('') : '';
+      const thc = line(`${side === 'export' ? 'Export' : 'Import'} terminal handling, ${size}'`, ch, '');
+      const st = line(`Storage after free time${r && r.free_days != null && store.exact ? ` (${r.free_days} free days)` : ''}`, store, '/day');
+      if (!thc && !st && !others) {
+        return `<div class="fr-port"><h4>${label}: ${esc(port.flag)} ${esc(port.name)}</h4><p class="fr-note">No published charges found yet; this port is on the daily research rotation.</p></div>`;
       }
-      if (ch.status === 'none') return `<div class="fr-port"><h4>${label}: ${esc(port.flag)} ${esc(port.name)}</h4><p class="fr-note">No published tariff found on ${esc(day(ch.checkedAt))}.</p></div>`;
-      const r = ch.r;
-      const others = (r.other_charges || []).filter((x) => x.applies === side || x.applies === 'both')
-        .map((x) => `<li><span>${esc(x.name)}</span><b>${x.amount != null ? `${esc(x.currency || r.currency)} ${Number(x.amount).toLocaleString('en-GB')}` : ''}</b><small>${esc(x.per || '')}</small></li>`).join('');
       return `<div class="fr-port"><h4>${label}: ${esc(port.flag)} ${esc(port.name)}</h4>
-        <ul class="fr-charges">
-          <li><span>${side === 'export' ? 'Export' : 'Import'} THC, ${esc(container().size)}'</span><b>${ch.amount != null ? `${esc(r.currency)} ${Number(ch.amount).toLocaleString('en-GB')}` : 'not found'}</b><small>${ch.usd != null && r.currency !== 'USD' ? `≈ ${usd(ch.usd)}` : ''}</small></li>
-          ${others}
-        </ul>
-        <p class="fr-note">${r.tariff_of ? `Tariff of ${esc(r.tariff_of)}. ` : ''}${r.effective ? `Applies from ${esc(r.effective)}. ` : ''}Checked ${esc(day(r.checkedAt))}.${container().reefer ? ' Reefer handling usually costs more.' : ''}</p>
-        <div class="fr-src">${sourceLinks(r.sources)}</div>
+        <ul class="fr-charges">${thc}${st}${others}</ul>
+        ${r ? `<p class="fr-note">${r.tariff_of ? `Tariff of ${esc(r.tariff_of)}. ` : ''}${r.effective ? `Applies from ${esc(r.effective)}. ` : ''}Checked ${esc(day(r.checkedAt))}.${container().reefer ? ' Reefer handling usually costs more.' : ''}</p><div class="fr-src">${sourceLinks(r.sources)}</div>` : ''}
+        ${!ch.exact || !store.exact ? '<p class="fr-note">Approximate figures average the terminal charges researched at comparable ports; each port\'s own tariff replaces them once found.</p>' : ''}
       </div>`;
     };
-
     // 5. Carrier
     let carrierHtml = '';
     if (carrier) {
@@ -314,8 +452,10 @@ window.Freight = (() => {
 
     const updated = S.data ? `Indices and research updated ${esc(day(S.data.generatedAt))}. Exchange rates: <a href="${esc((S.data.fx || {}).source || '#')}" target="_blank" rel="noopener noreferrer">ExchangeRate-API</a>.` : '';
     $('#frResults').innerHTML = `${head}${voyage}
+      ${markets}
       <section class="fr-block"><h3>Ocean freight</h3>${oceanHtml}</section>
       <section class="fr-block"><h3>Port charges</h3>${portBlock(o, 'export', exp)}${portBlock(d, 'import', imp)}</section>
+      ${carbonHtml}
       ${carrierHtml}
       <p class="fine">Indicative only: market indices, published tariffs and AI web research, each with its source. Final prices depend on the line, contract, date and cargo; always confirm with a quote. ${updated}</p>`;
   }
@@ -372,7 +512,7 @@ window.Freight = (() => {
       .pathColor((p) => (p.on ? look().route : look().alt)).pathStroke((p) => (p.on ? 2.6 : 1.1))
       .pathDashLength((p) => (p.on ? 0.05 : 0.012)).pathDashGap((p) => (p.on ? 0.012 : 0.01))
       .pathDashAnimateTime((p) => (p.on ? 14000 : 0)).pathTransitionDuration(700)
-      .htmlElementsData([S.ship]).htmlLat('lat').htmlLng('lng').htmlAltitude(0.02).htmlElement((d) => d.el)
+      .htmlElementsData([S.ship]).htmlLat('lat').htmlLng('lng').htmlAltitude(0.004).htmlElement((d) => d.el)
       .htmlTransitionDuration(0);
     const ctl = S.globe.controls();
     ctl.autoRotate = false;
@@ -387,34 +527,28 @@ window.Freight = (() => {
     S.globe.width(el.clientWidth).height(el.clientHeight);
   }
 
-  // Unit vectors and slerp, so the ship follows great circles between route points like the drawn line.
-  const toVec = ([lng, lat]) => { const a = lat * Math.PI / 180, b = lng * Math.PI / 180; return [Math.cos(a) * Math.cos(b), Math.cos(a) * Math.sin(b), Math.sin(a)]; };
-  const toLL = ([x, y, z]) => [Math.atan2(y, x) * 180 / Math.PI, Math.atan2(z, Math.hypot(x, y)) * 180 / Math.PI];
-  function slerp(p, q, t) {
-    const dot = Math.min(1, Math.max(-1, p[0] * q[0] + p[1] * q[1] + p[2] * q[2]));
-    const w = Math.acos(dot);
-    if (w < 1e-9) return p;
-    const s = Math.sin(w), a = Math.sin((1 - t) * w) / s, b = Math.sin(t * w) / s;
-    return [a * p[0] + b * q[0], a * p[1] + b * q[1], a * p[2] + b * q[2]];
+  // The globe draws each route segment as a straight line in latitude/longitude, so the ship moves the
+  // same way, at a steady speed measured along the ground.
+  const rad = Math.PI / 180;
+  function groundKm([x1, y1], [x2, y2]) {
+    const a = Math.sin((y2 - y1) * rad / 2) ** 2 + Math.cos(y1 * rad) * Math.cos(y2 * rad) * Math.sin((x2 - x1) * rad / 2) ** 2;
+    return 12742 * Math.asin(Math.sqrt(Math.min(1, a)));
   }
 
   function sailAlong(path) {
     cancelAnimationFrame(S.anim);
-    const vecs = path.map(toVec);
     const seg = [0];
-    for (let i = 1; i < vecs.length; i++) {
-      const v = vecs[i - 1], w = vecs[i];
-      seg.push(seg[i - 1] + Math.acos(Math.min(1, Math.max(-1, v[0] * w[0] + v[1] * w[1] + v[2] * w[2]))));
-    }
+    for (let i = 1; i < path.length; i++) seg.push(seg[i - 1] + groundKm(path[i - 1], path[i]));
     const total = seg[seg.length - 1] || 1;
-    const duration = Math.min(28000, Math.max(9000, total * 9000));
+    const duration = Math.min(28000, Math.max(9000, total * 0.9));
     const start = performance.now();
     const at = (u) => {
       const dist = u * total;
       let i = 1;
       while (i < seg.length - 1 && seg[i] < dist) i++;
-      const t = (dist - seg[i - 1]) / ((seg[i] - seg[i - 1]) || 1);
-      return toLL(slerp(vecs[i - 1], vecs[i], Math.min(1, Math.max(0, t))));
+      const t = Math.min(1, Math.max(0, (dist - seg[i - 1]) / ((seg[i] - seg[i - 1]) || 1)));
+      const [x1, y1] = path[i - 1], [x2, y2] = path[i];
+      return [x1 + (x2 - x1) * t, y1 + (y2 - y1) * t];
     };
     let last = 0;
     const step = (now) => {
@@ -427,7 +561,7 @@ window.Freight = (() => {
       const [lng2, lat2] = at(Math.min(1, k + 0.004));
       S.ship.lat = lat; S.ship.lng = lng;
       S.globe.htmlElementsData([S.ship]);
-      const a = S.globe.getScreenCoords(lat, lng), b = S.globe.getScreenCoords(lat2, lng2);
+      const a = S.globe.getScreenCoords(lat, lng, 0.004), b = S.globe.getScreenCoords(lat2, lng2, 0.004);
       if (a && b && (Math.abs(b.x - a.x) + Math.abs(b.y - a.y) > 0.01)) {
         const deg = Math.atan2(b.y - a.y, b.x - a.x) * 180 / Math.PI + 90;
         S.ship.el.firstElementChild.style.transform = `rotate(${deg.toFixed(1)}deg)`;
@@ -438,12 +572,18 @@ window.Freight = (() => {
   }
 
   function frameRoute(path, nm) {
-    // Centre the camera on the route's middle point, and back off for long routes.
-    const mid = toLL(slerp(toVec(path[0]), toVec(path[path.length - 1]), 0.5));
-    const midOnRoute = path[Math.floor(path.length / 2)];
-    const lat = (mid[1] + midOnRoute[1]) / 2, lng = Math.abs(mid[0] - midOnRoute[0]) > 90 ? midOnRoute[0] : (mid[0] + midOnRoute[0]) / 2;
+    // Centre the camera on the middle of the route, measured along it, and back off for long routes.
+    let run = 0;
+    const half = path.reduce((t, p, i) => t + (i ? groundKm(path[i - 1], p) : 0), 0) / 2;
+    let mid = path[0];
+    for (let i = 1; i < path.length; i++) {
+      const d = groundKm(path[i - 1], path[i]);
+      if (run + d >= half) { const t = (half - run) / (d || 1); mid = [path[i - 1][0] + (path[i][0] - path[i - 1][0]) * t, path[i - 1][1] + (path[i][1] - path[i - 1][1]) * t]; break; }
+      run += d;
+    }
+    const lng = ((mid[0] + 540) % 360) - 180;
     const altitude = Math.min(2.6, Math.max(0.9, 0.7 + nm / 5500));
-    S.globe.pointOfView({ lat, lng, altitude }, 1400);
+    S.globe.pointOfView({ lat: mid[1], lng, altitude }, 1400);
   }
 
   function drawGlobe(route) {

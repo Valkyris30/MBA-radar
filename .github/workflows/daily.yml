@@ -66,7 +66,7 @@ jobs:
           MBA_RADAR_MODEL: ${{ vars.MBA_RADAR_MODEL || 'claude-haiku-5-5' }}
           FREIGHT_RESEARCH_MODEL: ${{ vars.FREIGHT_RESEARCH_MODEL || '' }}
           FREIGHT_LANES_PER_DAY: ${{ vars.FREIGHT_LANES_PER_DAY || '2' }}
-          FREIGHT_PORTS_PER_DAY: ${{ vars.FREIGHT_PORTS_PER_DAY || '2' }}
+          FREIGHT_PORTS_PER_DAY: ${{ vars.FREIGHT_PORTS_PER_DAY || '3' }}
           FREIGHT_CARRIERS_PER_DAY: ${{ vars.FREIGHT_CARRIERS_PER_DAY || '1' }}
         run: python collector/freight.py
 

@@ -42,7 +42,7 @@
    "lon": -2.9196,
    "lat": 35.2038,
    "focus": true,
-   "research": false
+   "research": true
   },
   {
    "code": "GBFXT",
@@ -86,7 +86,7 @@
    "lon": -2.9924,
    "lat": 53.41,
    "focus": true,
-   "research": false
+   "research": true
   },
   {
    "code": "ESALG",
@@ -130,7 +130,7 @@
    "lon": -3.047,
    "lat": 43.34,
    "focus": true,
-   "research": false
+   "research": true
   },
   {
    "code": "FRLEH",
@@ -163,7 +163,7 @@
    "lon": 2.3761,
    "lat": 51.0448,
    "focus": true,
-   "research": false
+   "research": true
   },
   {
    "code": "NLRTM",
@@ -185,7 +185,7 @@
    "lon": 4.9041,
    "lat": 52.3755,
    "focus": true,
-   "research": false
+   "research": true
   },
   {
    "code": "BEANR",
@@ -218,7 +218,7 @@
    "lon": 8.5755,
    "lat": 53.5428,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "ITGOA",
@@ -229,7 +229,7 @@
    "lon": 8.9153,
    "lat": 44.4147,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "GRPIR",
@@ -240,7 +240,7 @@
    "lon": 23.6381,
    "lat": 37.9503,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "EGPSD",
@@ -251,7 +251,7 @@
    "lon": 32.2861,
    "lat": 31.2653,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "AEJEA",
@@ -273,7 +273,7 @@
    "lon": 54.64,
    "lat": 24.81,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "SADMM",
@@ -317,7 +317,7 @@
    "lon": 54.1,
    "lat": 16.9988,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "OMSOH",
@@ -328,7 +328,7 @@
    "lon": 56.75,
    "lat": 24.3333,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "CNSHA",
@@ -372,7 +372,7 @@
    "lon": 120.3853,
    "lat": 36.065,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "HKHKG",
@@ -383,7 +383,7 @@
    "lon": 114.1701,
    "lat": 22.2948,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "KRPUS",
@@ -394,7 +394,7 @@
    "lon": 129.0358,
    "lat": 35.0982,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "SGSIN",
@@ -416,7 +416,7 @@
    "lon": 101.3826,
    "lat": 3.0034,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "MYTPP",
@@ -427,7 +427,7 @@
    "lon": 103.5484,
    "lat": 1.3559,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "INNSA",
@@ -438,7 +438,7 @@
    "lon": 72.93,
    "lat": 18.97,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "LKCMB",
@@ -449,7 +449,7 @@
    "lon": 79.8486,
    "lat": 6.9308,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "USLAX",
@@ -460,7 +460,7 @@
    "lon": -118.2833,
    "lat": 33.7167,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "USLGB",
@@ -471,7 +471,7 @@
    "lon": -118.1933,
    "lat": 33.7386,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "USNYC",
@@ -482,7 +482,7 @@
    "lon": -74.0177,
    "lat": 40.7055,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "USSAV",
@@ -493,7 +493,7 @@
    "lon": -81.0997,
    "lat": 32.0866,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "USHOU",
@@ -504,7 +504,7 @@
    "lon": -95.2872,
    "lat": 29.7458,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "BRSSZ",
@@ -515,7 +515,7 @@
    "lon": -46.3208,
    "lat": -23.9738,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "NGAPP",
@@ -526,7 +526,7 @@
    "lon": 3.3924,
    "lat": 6.4486,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "CIABJ",
@@ -537,7 +537,7 @@
    "lon": -3.978,
    "lat": 5.2562,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "SNDKR",
@@ -548,7 +548,7 @@
    "lon": -17.4408,
    "lat": 14.6824,
    "focus": false,
-   "research": false
+   "research": true
   },
   {
    "code": "ZADUR",
@@ -559,7 +559,7 @@
    "lon": 31.0167,
    "lat": -29.8667,
    "focus": false,
-   "research": false
+   "research": true
   }
  ],
  "regions": {
@@ -597,5 +597,163 @@
   "SAF": {
    "name": "South Africa"
   }
- }
+ },
+ "carbon": {
+  "source": "GLEC Framework v3.1 (Smart Freight Centre, 2024), Tables 14 and 15: Clean Cargo end-user emission intensities for container vessels",
+  "url": "https://www.smartfreightcentre.org/en/our-programs/emissions-accounting/global-logistics-emissions-council/",
+  "basis": "well-to-wake CO2e per TEU-km, 70% load factor, including the 15% distance adjustment to the shortest feasible route",
+  "ttw_share": 0.85,
+  "lanes": {
+   "industry": [
+    72.7,
+    148.0
+   ],
+   "asia_neu": [
+    44.1,
+    114.8
+   ],
+   "asia_med": [
+    48.0,
+    124.3
+   ],
+   "asia_meisc": [
+    73.2,
+    145.9
+   ],
+   "asia_naec": [
+    61.7,
+    130.1
+   ],
+   "asia_nawc": [
+    64.8,
+    137.7
+   ],
+   "asia_oceania": [
+    97.0,
+    173.9
+   ],
+   "asia_sam": [
+    69.6,
+    137.7
+   ],
+   "asia_africa": [
+    82.5,
+    160.4
+   ],
+   "eu_africa": [
+    102.0,
+    187.0
+   ],
+   "eu_sam": [
+    81.8,
+    157.8
+   ],
+   "eu_meisc": [
+    62.3,
+    138.2
+   ],
+   "med_naec": [
+    91.7,
+    173.4
+   ],
+   "med_nawc": [
+    64.3,
+    149.0
+   ],
+   "na_africa": [
+    127.0,
+    205.5
+   ],
+   "na_sam": [
+    95.9,
+    174.1
+   ],
+   "intra_ne_asia": [
+    114.9,
+    202.0
+   ],
+   "intra_se_asia": [
+    132.4,
+    222.7
+   ],
+   "se_ne_asia": [
+    102.8,
+    180.0
+   ],
+   "neu_med": [
+    73.5,
+    149.4
+   ],
+   "intra_med": [
+    156.9,
+    274.0
+   ],
+   "intra_neu": [
+    161.2,
+    268.0
+   ],
+   "intra_meisc": [
+    121.3,
+    213.6
+   ],
+   "na_meisc": [
+    83.1,
+    154.0
+   ],
+   "neu_naec": [
+    89.0,
+    163.8
+   ],
+   "panama": [
+    91.8,
+    169.8
+   ],
+   "sam_africa": [
+    115.2,
+    199.5
+   ],
+   "intra_africa": [
+    131.3,
+    244.1
+   ],
+   "intra_na": [
+    244.7,
+    336.0
+   ],
+   "intra_sam": [
+    114.2,
+    201.1
+   ],
+   "other": [
+    96.9,
+    185.8
+   ]
+  }
+ },
+ "euEts": [
+  "BE",
+  "BG",
+  "HR",
+  "CY",
+  "DK",
+  "EE",
+  "FI",
+  "FR",
+  "DE",
+  "GR",
+  "IE",
+  "IT",
+  "LV",
+  "LT",
+  "MT",
+  "NL",
+  "PL",
+  "PT",
+  "RO",
+  "SE",
+  "ES",
+  "SI",
+  "IS",
+  "NO"
+ ]
 }

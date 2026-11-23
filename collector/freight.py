@@ -7,6 +7,8 @@ Runs once a day after the other collectors (GitHub Actions) and writes app/data/
     Freightos Baltic Index (FBX, daily), Xeneta Shipping Index (XSI-C, daily) and
     Drewry World Container Index (WCI, weekly);
   * exchange rates (open.er-api.com, daily);
+  * market prices: Brent crude (US Energy Information Administration, daily spot) and the EU carbon
+    allowance (EEX primary auction results, each auction day), for the voyage's carbon cost;
   * web research by Claude, on a rotation, for what no free index covers: spot rates on other
     lanes (Asia to the Gulf, Morocco to North Europe...), terminal handling charges at each port,
     and the surcharges and rate increases each carrier has announced. Every figure keeps the
@@ -19,7 +21,7 @@ Settings (environment variables, all optional):
     MBA_RADAR_MODEL          model for extraction                       (default claude-haiku-5-5)
     FREIGHT_RESEARCH_MODEL   model that searches the web                (default: same as MBA_RADAR_MODEL)
     FREIGHT_LANES_PER_DAY    lanes researched per run                   (default 2)
-    FREIGHT_PORTS_PER_DAY    ports researched per run                   (default 2)
+    FREIGHT_PORTS_PER_DAY    ports researched per run                   (default 3)
     FREIGHT_CARRIERS_PER_DAY carriers researched per run                (default 1)
     FREIGHT_MAX_SEARCHES     web searches allowed per research question (default 3)
 """
@@ -28,10 +30,12 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import html
+import io
 import json
 import os
 import re
 import sys
+import zipfile
 from pathlib import Path
 
 import collect as base
@@ -42,7 +46,7 @@ OUTPUT = HERE.parent / "app" / "data" / "freight.json"
 MODEL = base.MODEL
 RESEARCH_MODEL = os.environ.get("FREIGHT_RESEARCH_MODEL") or MODEL
 LANES_PER_DAY = int(os.environ.get("FREIGHT_LANES_PER_DAY", "2"))
-PORTS_PER_DAY = int(os.environ.get("FREIGHT_PORTS_PER_DAY", "2"))
+PORTS_PER_DAY = int(os.environ.get("FREIGHT_PORTS_PER_DAY", "3"))
 CARRIERS_PER_DAY = int(os.environ.get("FREIGHT_CARRIERS_PER_DAY", "1"))
 MAX_SEARCHES = int(os.environ.get("FREIGHT_MAX_SEARCHES", "3"))
 WEB_SEARCH_PRICE = 0.01   # USD per search, for the cost line in the log
@@ -59,6 +63,9 @@ FBX_URL = "https://fbx.freightos.com/"
 XSI_URL = "https://www.xeneta.com/xsi"
 WCI_URL = "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
 FX_URL = "https://open.er-api.com/v6/latest/USD"
+BRENT_URL = "https://www.eia.gov/dnav/pet/hist/RBRTED.htm"
+EUA_PAGE = "https://www.eex.com/en/market-data/environmental-markets/eua-primary-auction-spot-download"
+EUA_REPORT = "https://public.eex-group.com/eex/eua-auction-report/emission-spot-primary-market-auction-report-{year}-data.xlsx"
 
 XSI_LANES = {
     "Far East → N. Europe": ("FE", "NEU"), "N. Europe → Far East": ("NEU", "FE"),
@@ -201,6 +208,75 @@ def fetch_wci(claude) -> tuple[list[dict], dict | None]:
     return out, summary
 
 
+# ── Market prices ───────────────────────────────────────────────────────────
+
+MONTHS = {m: i for i, m in enumerate(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
+
+
+def fetch_brent() -> dict | None:
+    """Daily Brent spot price, from the EIA weekly table (one row per week, Monday to Friday)."""
+    status, body, charset = base.http_get(BRENT_URL)
+    if status != 200:
+        log(f"  Brent: EIA returned {status}")
+        return None
+    text = body.decode(charset, "replace")
+    days = []
+    for label, cells in re.findall(r"<td class='B6'>\s*([^<]+?)\s*</td>(.*?)</tr>", text, re.S):
+        m = re.search(r"(\d{4})\s+([A-Z][a-z]{2})-\s*(\d+)", html.unescape(label).replace("\xa0", " "))
+        if not m:
+            continue
+        start = dt.date(int(m.group(1)), MONTHS[m.group(2)], int(m.group(3)))
+        values = re.findall(r"<td class='B3'>([^<]*)</td>", cells)
+        for i, v in enumerate(values):
+            v = html.unescape(v).replace("\xa0", "").strip()
+            if v:
+                days.append((start + dt.timedelta(days=i), float(v)))
+    if not days:
+        log("  Brent: no figure found")
+        return None
+    (date, price), prev = days[-1], days[-2][1] if len(days) > 1 else None
+    log(f"  Brent: ${price} on {date}")
+    return {"name": "Brent crude, spot", "value": price, "unit": "USD/bbl", "date": date.isoformat(),
+            "change": round((price / prev - 1) * 100, 2) if prev else None, "source": "US EIA", "url": BRENT_URL}
+
+
+def fetch_eua(year: int) -> dict | None:
+    """EU carbon allowance price: the clearing price of the latest EEX primary auction."""
+    for y in (year, year - 1):
+        url = EUA_REPORT.format(year=y)
+        status, body, _ = base.http_get(url, limit=20_000_000)
+        if status == 200 and body[:2] == b"PK":
+            break
+    else:
+        log("  EUA: auction report unavailable")
+        return None
+    try:
+        z = zipfile.ZipFile(io.BytesIO(body))
+        shared = [re.sub(r"<[^>]+>", "", x) for x in re.findall(r"<si>(.*?)</si>", z.read("xl/sharedStrings.xml").decode("utf-8"), re.S)]
+        sheet = z.read("xl/worksheets/sheet1.xml").decode("utf-8")
+    except (zipfile.BadZipFile, KeyError) as err:
+        log(f"  EUA: report could not be read ({err})")
+        return None
+    auctions = []
+    for row in re.findall(r"<row[^>]*>(.*?)</row>", sheet, re.S):
+        cells = {}
+        for col, kind, val in re.findall(r'<c r="([A-Z]+)\d+"([^>]*)>(?:<f>.*?</f>)?<v>([^<]*)</v>', row):
+            cells[col] = shared[int(val)] if 't="s"' in kind else val
+        try:
+            if cells.get("F") == "successful" and cells.get("G"):
+                auctions.append((dt.date(1899, 12, 30) + dt.timedelta(days=int(float(cells["B"]))), float(cells["G"])))
+        except ValueError:
+            continue
+    if not auctions:
+        log("  EUA: no auction found")
+        return None
+    auctions.sort()
+    (date, price), prev = auctions[-1], auctions[-2][1] if len(auctions) > 1 else None
+    log(f"  EUA: €{price}/t on {date}")
+    return {"name": "EU carbon allowance (EUA)", "value": price, "unit": "EUR/tCO2", "date": date.isoformat(),
+            "change": round((price / prev - 1) * 100, 2) if prev else None, "source": "EEX primary auction", "url": EUA_PAGE}
+
+
 # ── Web research ────────────────────────────────────────────────────────────
 
 RESEARCH_SYSTEM = """You research container shipping costs for freight forwarders and importers. Today is {today}. \
@@ -228,6 +304,7 @@ PORT_SCHEMA = obj(
     thc_export_20=NUM, thc_export_40=NUM, thc_import_20=NUM, thc_import_40=NUM,
     other_charges={"type": "array", "items": obj(name=STR, amount=NUM, currency=STR, per=STR,
                                                    applies={"type": "string", "enum": ["export", "import", "both"]})},
+    free_days=NUM, storage_per_day_20=NUM, storage_per_day_40=NUM,
     tariff_of=STR, effective=STR, sources={"type": "array", "items": STR}, notes=STR)
 CARRIER_SCHEMA = obj(
     items={"type": "array", "items": obj(kind={"type": "string", "enum": ["GRI", "PSS", "surcharge", "other"]},
@@ -326,14 +403,16 @@ def research_port(r: Researcher, port: dict) -> dict | None:
          f"({port['country']}, UN/LOCODE {port['code']}), for export and for import, per 20ft and per 40ft dry "
          "container, as published in a major carrier's local charges tariff or by the terminal? Also list other "
          "standard local charges a shipper or consignee pays there (for example ISPS security, documentation or bill "
-         "of lading fees, port or infrastructure fees, EU ETS surcharges), with amounts, currency and the date they apply from.")
+         "of lading fees, port or infrastructure fees, EU ETS surcharges), and the daily storage or demurrage charge per "
+         "container once the free days at the terminal are used up, with the number of free days. Give amounts, currency "
+         "and the date they apply from.")
     data = r.ask(q, PORT_SCHEMA)
     if not data or not data.get("found") or not data.get("sources"):
         return {"found": False}
     keep = ("found", "currency", "thc_export_20", "thc_export_40", "thc_import_20", "thc_import_40",
-            "other_charges", "tariff_of", "effective", "sources", "notes")
+            "free_days", "storage_per_day_20", "storage_per_day_40", "other_charges", "tariff_of", "effective", "sources", "notes")
     data["other_charges"] = [c for c in data.get("other_charges", []) if c.get("name") and c.get("amount") is not None][:8]
-    return {k: data[k] for k in keep}
+    return {k: data.get(k) for k in keep}
 
 
 def research_carrier(r: Researcher, carrier: dict) -> dict | None:
@@ -365,11 +444,14 @@ def main() -> int:
     log("Reading public freight indices")
     fx = fetch_fx() or previous.get("fx")
     indices = fetch_fbx(config, today) + fetch_xsi()
+    markets = {"brent": fetch_brent() or (previous.get("markets") or {}).get("brent"),
+               "eua": fetch_eua(now.year) or (previous.get("markets") or {}).get("eua")}
 
     if opts.dry_run:
         for x in indices:
             log(f"  {x['from']:>4} > {x['to']:<4} {x['value']:>8,.0f} USD/FEU  {x['source']} ({x['date']})")
         log(f"  FX: {len((fx or {}).get('rates', {}))} currencies")
+        log(f"  Markets: {json.dumps(markets)[:300]}")
         log("Dry run finished. Drewry WCI and web research need the API; nothing was written.")
         return 0
 
@@ -418,6 +500,8 @@ def main() -> int:
         "generatedAt": iso(now),
         "model": MODEL,
         "fx": fx,
+        "markets": markets,
+
         "indices": indices,
         "wci": wci_summary or previous.get("wci"),
         "containers": config["containers"],

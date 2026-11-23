@@ -52,6 +52,21 @@ def simplify(points: list[list[float]], tol: float) -> list[list[float]]:
     return [p for p, k in zip(points, keep) if k]
 
 
+def unwrap(points: list[list[float]]) -> list[list[float]]:
+    """Keep longitudes continuous across the 180th meridian (Pacific crossings), within -180..540,
+    so no segment jumps 360 degrees. The globe draws each segment as a straight lat/lon line."""
+    out = []
+    for x, y in points:
+        x = ((x + 180) % 360) - 180
+        if out:
+            while x - out[-1][0] > 180:
+                x -= 360
+            while x - out[-1][0] < -180:
+                x += 360
+        out.append([x, y])
+    return out
+
+
 def route(o: dict, d: dict, restrictions: list[str]) -> dict | None:
     try:
         r = sr.searoute([o["lon"], o["lat"]], [d["lon"], d["lat"]], units="naut",
@@ -59,9 +74,9 @@ def route(o: dict, d: dict, restrictions: list[str]) -> dict | None:
     except Exception as err:  # an unreachable pair must not stop the build
         print(f"  {o['code']} -> {d['code']}: {err}")
         return None
-    coords = r["geometry"]["coordinates"]
-    # The network starts and ends at the nearest lane; join it to the ports themselves.
-    line = [[o["lon"], o["lat"]]] + coords + [[d["lon"], d["lat"]]]
+    # The route runs on the shipping-lane network from the lane point nearest each port. It is not
+    # joined to the port by a straight line, which could cut across land (Sohar, Khalifa, Hamad...).
+    line = unwrap(r["geometry"]["coordinates"])
     line = [[round(x, 2), round(y, 2)] for x, y in simplify(line, TOLERANCE)]
     return {
         "nm": round(r["properties"]["length"]),
@@ -102,7 +117,8 @@ def main() -> None:
         print(f"{o['code']}: {len(routes)} routes, {len(text) // 1024} KB")
     public = [{k: p[k] for k in ("code", "name", "country", "flag", "region", "lon", "lat")}
               | {"focus": bool(p.get("focus")), "research": bool(p.get("research"))} for p in ports]
-    (APP / "ports.json").write_text(json.dumps({"ports": public, "regions": config["regions"]}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    static = {"ports": public, "regions": config["regions"], "carbon": config["carbon"], "euEts": config["eu_ets_countries"]}
+    (APP / "ports.json").write_text(json.dumps(static, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Done: {len(ports)} ports, {total // 1024} KB of routes")
 
 

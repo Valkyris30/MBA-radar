@@ -860,3 +860,29 @@ body[data-desk="freight"] .freight { display: block; }
   .sweep, svg .dot.unread .halo, svg .link, .fit-row .track i { animation: none; }
   .detail { transition: none; }
 }
+
+/* Freight: markets, carbon, approximations */
+.fr-mkts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.fr-mkt { display: grid; gap: 2px; padding: 12px 13px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface-2); text-decoration: none; transition: border-color 0.2s; }
+.fr-mkt:hover { border-color: var(--desk); }
+.fr-mkt span { font-size: 12px; color: var(--mu); }
+.fr-mkt b { font: 700 20px/1.2 var(--font-display); font-variant-numeric: tabular-nums; color: var(--tx); }
+.fr-mkt b i { font-style: normal; font-size: 12px; font-weight: 600; color: var(--mu); margin-left: 2px; }
+.fr-mkt small { font-size: 11.5px; color: var(--dim); }
+.fr-mkt em { font-style: normal; font-weight: 700; }
+.fr-mkt em.up { color: var(--bad); }
+.fr-mkt em.down { color: var(--ok); }
+.fr-carbon { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.fr-carbon div { padding: 12px 13px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface-2); }
+.fr-carbon b { display: block; font: 700 20px/1.2 var(--font-display); font-variant-numeric: tabular-nums; }
+.fr-carbon span { font-size: 12px; color: var(--mu); }
+.fr-carbon.low div:first-child { border-color: color-mix(in srgb, var(--ok) 45%, var(--line)); background: color-mix(in srgb, var(--ok) 7%, var(--surface)); }
+.fr-carbon.mid div:first-child { border-color: color-mix(in srgb, var(--warn) 40%, var(--line)); background: var(--warn-bg); }
+.fr-carbon.high div:first-child { border-color: color-mix(in srgb, var(--bad) 40%, var(--line)); background: var(--bad-bg); }
+.fr-carbon + .fr-note + .fr-charges { margin-top: 10px; }
+em.approx { font-style: normal; margin-left: 4px; padding: 1px 6px; border-radius: 999px; background: var(--warn-bg); color: var(--warn); font-size: 10.5px; font-weight: 700; }
+/* Long source titles and notes must wrap inside the panel instead of widening it. */
+.fr-results { grid-template-columns: minmax(0, 1fr); }
+.fr-results > *, .fr-port, .fr-charges li > *, .fr-carrier li > * { min-width: 0; }
+.fr-mkts, .fr-carbon, .fr-stats { grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); }
+.fr-charges span, .fr-carrier b, .fr-note { overflow-wrap: anywhere; }
