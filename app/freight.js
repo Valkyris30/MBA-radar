@@ -14,7 +14,15 @@
 window.Freight = (() => {
   const GLOBE_JS = 'https://cdn.jsdelivr.net/npm/globe.gl@2.46.2/dist/globe.gl.min.js';
   const IMG = 'https://cdn.jsdelivr.net/npm/three-globe@2.45.6/example/img/';
-  const KNOTS = [15, 18];          // typical container service speeds, for sea days
+  const SPEED = 16;                // knots: a typical container service speed today (slow steaming)
+  const SPEEDS = [14, 19];         // the usual range between slow and fast services
+  const CANAL_DAYS = { suez: 1, panama: 1.5 };   // transit plus a typical wait at the canal
+  // Where each passage sits, to label it on the globe.
+  const PASSAGE_AT = {
+    suez: [32.35, 30.6], babalmandab: [43.4, 12.6], gibraltar: [-5.6, 35.95], malacca: [100.8, 2.9],
+    panama: [-79.65, 9.1], ormuz: [56.4, 26.55], south_africa: [18.47, -34.8], sunda: [105.8, -6.0],
+    bosporus: [29.05, 41.1], chili: [-70.9, -53.5], bering: [-168.9, 65.8], northwest: [-95, 74],
+  };
   const PASSAGES = {
     suez: 'Suez Canal', babalmandab: 'Bab el-Mandeb', gibraltar: 'Strait of Gibraltar', malacca: 'Strait of Malacca',
     panama: 'Panama Canal', ormuz: 'Strait of Hormuz', south_africa: 'Cape of Good Hope', sunda: 'Sunda Strait',
@@ -34,7 +42,7 @@ window.Freight = (() => {
 
   const S = {
     ready: false, ports: [], byCode: {}, regions: {}, data: null, routes: {},
-    sel: store.get('mr.freight', { from: 'CNSHA', to: 'MAPTM', carrier: '', container: '40DV', cape: false }),
+    sel: store.get('mr.freight', { from: 'CNSHA', to: 'MAPTM', carrier: '', container: '40DV', route: 'main' }),
     globe: null, ship: null, path: null, anim: null,
   };
 
@@ -49,6 +57,8 @@ window.Freight = (() => {
     S.regions = p.regions;
     S.byCode = Object.fromEntries(p.ports.map((x) => [x.code, x]));
     S.data = f;
+    if (S.sel.cape) { S.sel.route = 'cape'; delete S.sel.cape; }   // older saved choice
+    if (!S.sel.route) S.sel.route = 'main';
     if (!S.byCode[S.sel.from]) S.sel.from = 'CNSHA';
     if (!S.byCode[S.sel.to] || S.sel.to === S.sel.from) S.sel.to = S.sel.from === 'MAPTM' ? 'NLRTM' : 'MAPTM';
   }
@@ -138,13 +148,68 @@ window.Freight = (() => {
         <label class="fr-field"><span>Shipping line</span><select id="frCarrier"><option value="">Any line (market rate)</option>${carriers.map((c) => `<option value="${c.id}"${c.id === S.sel.carrier ? ' selected' : ''}>${esc(c.name)}</option>`).join('')}</select></label>
         <label class="fr-field"><span>Container</span><select id="frContainer">${containers.map((c) => `<option value="${c.id}"${c.id === S.sel.container ? ' selected' : ''}>${esc(c.name)}</option>`).join('')}</select></label>
       </div>
-      <div class="fr-routeopt" id="frRouteOpt" hidden>
-        <span>Route</span>
-        <div class="seg small" role="group" aria-label="Route">
-          <button type="button" data-cape="0">Via Suez</button>
-          <button type="button" data-cape="1">Via Cape of Good Hope</button>
-        </div>
-      </div>`;
+      <div class="fr-routes" id="frRoutes" role="radiogroup" aria-label="Itinerary" hidden></div>`;
+  }
+
+  /* ── Itineraries ──────────────────────────────────────── */
+
+  // Every way to sail between the two ports: the shortest, then the alternatives stored with it.
+  function itineraries(route) {
+    if (!route) return [];
+    return [{ id: 'main', ...route }, ...(route.alts || [])];
+  }
+
+  function chosen(route) {
+    const list = itineraries(route);
+    return list.find((r) => r.id === S.sel.route) || list[0] || null;
+  }
+
+  function routeName(leg) {
+    const v = leg.via;
+    if (v.includes('south_africa')) return 'Via the Cape of Good Hope';
+    if (v.includes('suez')) return 'Via the Suez Canal';
+    if (v.includes('panama')) return 'Via the Panama Canal';
+    if (v.includes('chili')) return 'Via the Strait of Magellan';
+    if (v.includes('ormuz')) return 'Via the Strait of Hormuz';
+    if (v.includes('gibraltar')) return 'Via the Strait of Gibraltar';
+    if (v.includes('malacca')) return 'Via the Strait of Malacca';
+    return 'Direct';
+  }
+
+  function routeNote(leg) {
+    if (leg.id === 'cape') return 'Avoids the Red Sea, as many lines still do';
+    if (leg.id === 'nopanama') return 'Avoids the Panama Canal';
+    return 'Shortest navigable route';
+  }
+
+  // Sailing time at a service speed, plus the time a canal transit usually takes.
+  function seaDays(leg, knots = SPEED) {
+    const canal = leg.via.reduce((t, v) => t + (CANAL_DAYS[v] || 0), 0);
+    return leg.nm / (knots * 24) + canal;
+  }
+
+  const fmtNm = (n) => Math.round(n).toLocaleString('en-GB');
+  const fmtDays = (d) => `${Math.max(1, Math.round(d))} day${Math.round(d) === 1 ? '' : 's'}`;
+
+  function renderRoutes(route) {
+    const box = $('#frRoutes');
+    const list = itineraries(route);
+    box.hidden = list.length < 2;
+    if (list.length < 2) return;
+    const best = list[0].nm;
+    box.innerHTML = `<span class="fr-label">Itinerary</span>${list.map((leg) => `
+      <button type="button" class="fr-opt${leg.id === (chosen(route) || {}).id ? ' on' : ''}" data-route="${leg.id}" role="radio" aria-checked="${leg.id === (chosen(route) || {}).id}">
+        <span class="radio" aria-hidden="true"></span>
+        <span><b>${esc(routeName(leg))}</b><small>${esc(routeNote(leg))}</small></span>
+        <span class="fr-opt-n">${fmtNm(leg.nm)} nm<small>≈ ${fmtDays(seaDays(leg))}${leg.nm > best ? ` · +${fmtNm(leg.nm - best)} nm` : ''}</small></span>
+      </button>`).join('')}`;
+  }
+
+  function renderHud(leg) {
+    const o = S.byCode[S.sel.from], d = S.byCode[S.sel.to];
+    $('#frHud').innerHTML = leg
+      ? `<span><span class="leg-line"></span><b>${esc(o.name)} → ${esc(d.name)}</b></span><span class="sep"></span><span><b>${fmtNm(leg.nm)}</b> nm · ${fmtNm(leg.nm * 1.852)} km</span><span class="sep"></span><span>≈ <b>${fmtDays(seaDays(leg))}</b> at sea</span>`
+      : '';
   }
 
   function sourceLinks(sources) {
@@ -163,7 +228,7 @@ window.Freight = (() => {
 
     const extra = (exp.usd || 0) + (imp.usd || 0);
     const total = oc ? [oc.lo + extra, oc.hi + extra] : null;
-    const leg = route ? (S.sel.cape && route.cape ? route.cape : route) : null;
+    const leg = chosen(route);
 
     // 1. Headline
     const missing = [];
@@ -178,15 +243,21 @@ window.Freight = (() => {
     </div>`;
 
     // 2. Voyage
-    const voyage = leg ? `<section class="fr-block"><h3>Voyage</h3>
-      <div class="fr-stats">
-        <div><b>${leg.nm.toLocaleString('en-GB')}</b><span>nautical miles</span></div>
-        <div><b>${Math.round(leg.nm * 1.852).toLocaleString('en-GB')}</b><span>km</span></div>
-        <div><b>${Math.round(leg.nm / (KNOTS[1] * 24))}–${Math.round(leg.nm / (KNOTS[0] * 24))}</b><span>days at sea</span></div>
-      </div>
-      ${leg.via.length ? `<p class="fr-note">Passes ${leg.via.map((v) => esc(PASSAGES[v] || v)).join(', ')}.</p>` : ''}
-      <p class="fr-note">Sea time at ${KNOTS[0]}–${KNOTS[1]} knots, port to port; real schedules add port calls and transhipment.</p>
-    </section>` : '';
+    let voyage = '';
+    if (leg) {
+      const days = seaDays(leg);
+      const eta = new Date(Date.now() + days * 86400000);
+      voyage = `<section class="fr-block"><h3>Voyage</h3>
+        <div class="fr-stats">
+          <div><b>${fmtNm(leg.nm)}</b><span>nautical miles</span></div>
+          <div><b>${fmtNm(leg.nm * 1.852)}</b><span>kilometres</span></div>
+          <div><b>≈ ${Math.round(days)}</b><span>days at sea</span></div>
+        </div>
+        <div class="fr-eta"><span>Leaving today, arrival around</span><b>${eta.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'long' })}</b></div>
+        ${leg.via.length ? `<div class="fr-pass">${leg.via.map((v) => `<span>${esc(PASSAGES[v] || v)}</span>`).join('')}</div>` : ''}
+        <p class="fr-note">${esc(routeName(leg))}: the shortest navigable sea distance on the main shipping lanes. Sailing time at ${SPEED} knots${leg.via.some((v) => CANAL_DAYS[v]) ? ', including the canal transit' : ''}; between ${fmtDays(seaDays(leg, SPEEDS[1]))} and ${fmtDays(seaDays(leg, SPEEDS[0]))} depending on the service. A direct call; transhipment and port stays add several days.</p>
+      </section>`;
+    }
 
     // 3. Ocean freight
     let oceanHtml;
@@ -265,6 +336,16 @@ window.Freight = (() => {
     <rect x="16.5" y="16" width="7" height="3.2" fill="#ff8a4c"/><rect x="16.5" y="20.2" width="7" height="3.2" fill="#2de2e6"/><rect x="16.5" y="24.4" width="7" height="3.2" fill="#8b7cff"/>
     <rect x="17" y="28.6" width="6" height="3" fill="#05070d"/></svg>`;
 
+  const dark = () => {
+    const t = document.documentElement.dataset.theme;
+    return t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+  };
+  const LOOK = {
+    light: { img: 'earth-blue-marble.jpg', atmo: '#7dd3fc', route: ['#ffb020', '#ff5a36'], alt: 'rgba(255,255,255,0.55)', port: '#0891b2', other: 'rgba(255,255,255,0.75)', pass: '#fde68a' },
+    dark: { img: 'earth-night.jpg', atmo: '#38bdf8', route: ['#22d3ee', '#a78bfa'], alt: 'rgba(148,163,184,0.45)', port: '#22d3ee', other: 'rgba(148,180,255,0.6)', pass: '#fde68a' },
+  };
+  const look = () => LOOK[dark() ? 'dark' : 'light'];
+
   async function initGlobe() {
     if (S.globe) return;
     const el = $('#globe');
@@ -275,19 +356,21 @@ window.Freight = (() => {
     S.ship = { lat: 0, lng: 0, el: shipEl };
     S.globe = window.Globe({ animateIn: true })(el)
       .backgroundColor('rgba(0,0,0,0)')
-      .globeImageUrl(`${IMG}earth-night.jpg`)
+      .globeImageUrl(`${IMG}${look().img}`)
       .bumpImageUrl(`${IMG}earth-topology.png`)
-      .showAtmosphere(true).atmosphereColor('#2de2e6').atmosphereAltitude(0.17)
+      .showAtmosphere(true).atmosphereColor(look().atmo).atmosphereAltitude(0.17)
       .pointsData([]).pointLat('lat').pointLng('lon').pointAltitude(0.005).pointRadius((p) => (p.sel ? 0.45 : 0.18))
-      .pointColor((p) => (p.sel ? '#ffffff' : p.focus ? '#2de2e6' : 'rgba(150,180,255,0.55)')).pointsMerge(false)
+      .pointColor((p) => (p.sel ? '#ffffff' : p.focus ? look().port : look().other)).pointsMerge(false)
       .onPointClick((p) => { setPort(p.code); })
-      .labelsData([]).labelLat('lat').labelLng('lon').labelText('label').labelSize(0.9).labelDotRadius(0.4)
-      .labelColor(() => '#e9eefb').labelResolution(2).labelAltitude(0.012)
+      .labelsData([]).labelLat('lat').labelLng('lon').labelText('label').labelSize((l) => (l.pass ? 0.55 : 0.95))
+      .labelDotRadius((l) => (l.pass ? 0.22 : 0.42)).labelColor((l) => (l.pass ? look().pass : '#ffffff'))
+      .labelResolution(2).labelAltitude(0.012)
       .ringsData([]).ringLat('lat').ringLng('lon').ringColor(() => (t) => `rgba(45,226,230,${1 - t})`)
       .ringMaxRadius(3).ringPropagationSpeed(2).ringRepeatPeriod(1400)
       .pathsData([]).pathPoints('pts').pathPointLat((p) => p[1]).pathPointLng((p) => p[0]).pathPointAlt(0.004)
-      .pathColor(() => ['rgba(45,226,230,0.95)', 'rgba(139,124,255,0.95)']).pathStroke(2.2)
-      .pathDashLength(0.05).pathDashGap(0.012).pathDashAnimateTime(14000).pathTransitionDuration(800)
+      .pathColor((p) => (p.on ? look().route : look().alt)).pathStroke((p) => (p.on ? 2.6 : 1.1))
+      .pathDashLength((p) => (p.on ? 0.05 : 0.012)).pathDashGap((p) => (p.on ? 0.012 : 0.01))
+      .pathDashAnimateTime((p) => (p.on ? 14000 : 0)).pathTransitionDuration(700)
       .htmlElementsData([S.ship]).htmlLat('lat').htmlLng('lng').htmlAltitude(0.02).htmlElement((d) => d.el)
       .htmlTransitionDuration(0);
     const ctl = S.globe.controls();
@@ -364,19 +447,28 @@ window.Freight = (() => {
 
   function drawGlobe(route) {
     if (!S.globe) return;
-    // Only redraw when the route itself changes, not when the line or container does.
-    const key = `${S.sel.from}>${S.sel.to}>${S.sel.cape && route && route.cape ? 'cape' : 'main'}`;
+    const leg = chosen(route);
+    // Only redraw when the itinerary itself changes, not when the line or container does.
+    const key = `${S.sel.from}>${S.sel.to}>${leg ? leg.id : '-'}>${dark() ? 'd' : 'l'}`;
     if (key === S.drawn) return;
     S.drawn = key;
     const o = S.byCode[S.sel.from], d = S.byCode[S.sel.to];
     S.globe.pointsData(S.ports.map((p) => ({ ...p, sel: p.code === o.code || p.code === d.code })));
-    S.globe.labelsData([{ ...o, label: o.name }, { ...d, label: d.name }]);
+    const passes = leg ? leg.via.filter((v) => PASSAGE_AT[v]).map((v) => ({ lon: PASSAGE_AT[v][0], lat: PASSAGE_AT[v][1], label: PASSAGES[v], pass: true })) : [];
+    S.globe.labelsData([{ ...o, label: o.name }, { ...d, label: d.name }, ...passes]);
     S.globe.ringsData([o, d]);
-    if (!route) { S.globe.pathsData([]); return; }
-    const leg = S.sel.cape && route.cape ? route.cape : route;
-    S.globe.pathsData([{ pts: leg.path }]);
+    if (!leg) { S.globe.pathsData([]); return; }
+    // The chosen itinerary is drawn bright and animated; the alternatives stay faint for comparison.
+    S.globe.pathsData(itineraries(route).map((r) => ({ pts: r.path, on: r.id === leg.id })).sort((a, b) => a.on - b.on));
     frameRoute(leg.path, leg.nm);
     sailAlong(leg.path);
+  }
+
+  function retheme() {
+    if (!S.globe) return;
+    S.globe.globeImageUrl(`${IMG}${look().img}`).atmosphereColor(look().atmo);
+    S.drawn = null;
+    if (S.ready) update();
   }
 
   /* ── Flow ─────────────────────────────────────────────── */
@@ -384,10 +476,9 @@ window.Freight = (() => {
   async function update() {
     store.set('mr.freight', S.sel);
     const route = await routeFor(S.sel.from, S.sel.to).catch(() => null);
-    const opt = $('#frRouteOpt');
-    opt.hidden = !(route && route.cape);
-    if (!(route && route.cape)) S.sel.cape = false;
-    opt.querySelectorAll('button').forEach((b) => b.classList.toggle('on', (b.dataset.cape === '1') === !!S.sel.cape));
+    if (route && !itineraries(route).some((r) => r.id === S.sel.route)) S.sel.route = 'main';
+    renderRoutes(route);
+    renderHud(chosen(route));
     renderResults(route);
     drawGlobe(route);
   }
@@ -396,18 +487,19 @@ window.Freight = (() => {
     // Clicking a port on the globe: it becomes the destination, or the origin when it already is the destination.
     if (code === S.sel.from || code === S.sel.to) return;
     S.sel.to = code;
+    S.sel.route = 'main';
     renderForm(); bindForm(); update();
   }
 
   function bindForm() {
-    $('#frFrom').addEventListener('change', (e) => { S.sel.from = e.target.value; renderForm(); bindForm(); update(); });
-    $('#frTo').addEventListener('change', (e) => { S.sel.to = e.target.value; renderForm(); bindForm(); update(); });
+    $('#frFrom').addEventListener('change', (e) => { S.sel.from = e.target.value; S.sel.route = 'main'; renderForm(); bindForm(); update(); });
+    $('#frTo').addEventListener('change', (e) => { S.sel.to = e.target.value; S.sel.route = 'main'; renderForm(); bindForm(); update(); });
     $('#frSwap').addEventListener('click', () => { [S.sel.from, S.sel.to] = [S.sel.to, S.sel.from]; renderForm(); bindForm(); update(); });
     $('#frCarrier').addEventListener('change', (e) => { S.sel.carrier = e.target.value; update(); });
     $('#frContainer').addEventListener('change', (e) => { S.sel.container = e.target.value; update(); });
-    $('#frRouteOpt').addEventListener('click', (e) => {
-      const b = e.target.closest('[data-cape]');
-      if (b) { S.sel.cape = b.dataset.cape === '1'; update(); }
+    $('#frRoutes').addEventListener('click', (e) => {
+      const b = e.target.closest('[data-route]');
+      if (b) { S.sel.route = b.dataset.route; update(); }
     });
   }
 
@@ -442,5 +534,5 @@ window.Freight = (() => {
     return `${(S.data.indices || []).length} index lanes${fe ? ` · Asia → N. Europe ${usd(fe.value)}/40'` : ''}`;
   }
 
-  return { show, hide, refresh, briefLine, get updated() { return S.data && S.data.generatedAt; } };
+  return { show, hide, refresh, briefLine, retheme, get updated() { return S.data && S.data.generatedAt; } };
 })();

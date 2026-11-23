@@ -10,7 +10,24 @@
 const $ = (sel, root = document) => root.querySelector(sel);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const isHttp = (u) => /^https?:\/\//i.test(String(u || ''));
-const color = (c) => (/^#[0-9a-f]{6}$/i.test(c || '') ? c : '#2de2e6');
+/* Theme. The collectors write vivid "palette key" colours; each theme shows its own readable shade of them. */
+const PALETTE = {
+  '#2de2e6': ['#0891b2', '#22d3ee'], '#3ba7ff': ['#2563eb', '#60a5fa'], '#8b7cff': ['#7c3aed', '#a78bfa'],
+  '#f06bd6': ['#c026d3', '#e879f9'], '#ff6b8b': ['#e11d48', '#fb7185'], '#ffb454': ['#d97706', '#fbbf24'],
+  '#c6f04f': ['#65a30d', '#a3e635'], '#ff8a4c': ['#ea580c', '#fb923c'], '#4ff0a8': ['#059669', '#34d399'],
+  '#5fd068': ['#16a34a', '#4ade80'], '#d9dee9': ['#64748b', '#cbd5e1'], '#7fb4ff': ['#3b82f6', '#93c5fd'],
+  '#3b82f6': ['#1e40af', '#60a5fa'], '#ffd166': ['#ca8a04', '#facc15'], '#a78bfa': ['#7c3aed', '#c4b5fd'],
+};
+const isDark = () => {
+  const t = document.documentElement.dataset.theme;
+  return t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+};
+const color = (c) => {
+  const key = String(c || '').toLowerCase();
+  const pair = PALETTE[key];
+  if (pair) return pair[isDark() ? 1 : 0];
+  return /^#[0-9a-f]{6}$/i.test(key) ? key : (isDark() ? '#22d3ee' : '#0891b2');
+};
 
 const store = {
   get(key, fallback) {
@@ -108,7 +125,7 @@ const DESKS = {
         meta: { generatedAt: data.generatedAt, sample: !!data.sample },
       };
     },
-    dotColor: (a, D) => (a.nodes.length ? D.nodeMap[a.nodes[0].id].color : '#2de2e6'),
+    dotColor: (a, D) => (a.nodes.length ? D.nodeMap[a.nodes[0].id].color : color('#2de2e6')),
     order: (x, y) => new Date(y.publishedAt) - new Date(x.publishedAt),
 
     briefLine(D) {
@@ -232,7 +249,7 @@ const DESKS = {
         meta: { generatedAt: data.generatedAt },
       };
     },
-    dotColor: (a, D) => (D.cats[a.category] ? D.cats[a.category].color : '#d9dee9'),
+    dotColor: (a, D) => (D.cats[a.category] ? D.cats[a.category].color : color('#d9dee9')),
     // Most urgent first, then the focus markets, then the newest.
     order(x, y) {
       const u = { high: 0, medium: 1, low: 2 };
@@ -523,7 +540,7 @@ function briefCard() {
     <div class="card-top"><span class="src">Morning brief</span><span>·</span><span>${esc(fmtDate(b.date, { weekday: 'long', day: 'numeric', month: 'short' }))}</span></div>
     <h3>${esc(b.headline)}</h3>
     <p class="take">${esc(b.overview)}</p>
-    ${(b.deadlines || []).length ? `<div class="tags"><span class="tag" style="--c:#ffb454">${b.deadlines.length} date${b.deadlines.length > 1 ? 's' : ''} to watch</span></div>` : ''}
+    ${(b.deadlines || []).length ? `<div class="tags"><span class="tag" style="--c:${color('#ffb454')}">${b.deadlines.length} date${b.deadlines.length > 1 ? 's' : ''} to watch</span></div>` : ''}
   </a>`;
 }
 
@@ -742,7 +759,7 @@ function renderDetail() {
 
   if (!a) {
     const body = D.loaded ? spec.overview(D) : '';
-    el.style.setProperty('--c', state.desk === 'maritime' ? '#2de2e6' : '#8b7cff');
+    el.style.removeProperty('--c');
     el.innerHTML = sel === 'brief'
       ? `<div class="d-bar"><button type="button" class="icon-btn" data-act="close" aria-label="Back to radar">${ICON.back}</button><span class="d-bar-title">Morning brief</span></div><div class="d-body">${body}</div>`
       : body;
@@ -773,6 +790,7 @@ function parseHash() {
 function showFreight() {
   document.body.classList.remove('detail-open');
   document.body.dataset.desk = 'freight';
+  document.documentElement.dataset.desk = 'freight';
   state.selected = null;
   renderFreightHeader();
   if (window.Freight) window.Freight.show().then(renderFreightHeader);
@@ -791,6 +809,7 @@ function route() {
   }
   document.body.classList.toggle('detail-open', !!state.selected);
   document.body.dataset.desk = state.desk;
+  document.documentElement.dataset.desk = state.desk;
   showTip(null);
   renderHeader();
   renderFeed();
@@ -864,7 +883,20 @@ function toggleSaved(id) {
   renderHeader(); renderDetail(); renderFeed();
 }
 
+function setTheme(next) {
+  document.documentElement.dataset.theme = next;
+  store.set('mr.theme', next);
+  // Colours are baked into the prepared data, so prepare it again for the new theme.
+  Object.values(DESK_STATE).forEach((D) => { D.stamp = ''; });
+  load(false);
+  if (window.Freight) window.Freight.retheme();
+}
+
 function bind() {
+  $('#theme').addEventListener('click', () => setTheme(isDark() ? 'light' : 'dark'));
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (!document.documentElement.dataset.theme) setTheme(isDark() ? 'dark' : 'light');
+  });
   window.addEventListener('hashchange', route);
   window.addEventListener('popstate', route);
   $('#refresh').addEventListener('click', () => { load(true); if (state.desk === 'freight' && window.Freight) window.Freight.refresh(); });
@@ -956,6 +988,7 @@ function migrateSaved() {
 
 bind();
 document.body.dataset.desk = state.desk;
+  document.documentElement.dataset.desk = state.desk;
 renderHeader();
 load(false).then(() => { migrateSaved(); renderHeader(); });
 

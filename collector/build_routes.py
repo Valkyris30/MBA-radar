@@ -8,8 +8,9 @@ Run once, and again only when ports are added to freight_config.json:
 
 It writes app/data/ports.json and one file per origin port in app/data/routes/, holding the
 route to every other port along real shipping lanes (the MARNET network used by Eurostat's
-SeaRoute). When the shortest route passes through the Red Sea, a second route around the
-Cape of Good Hope is stored too, since many carriers still avoid the Red Sea.
+SeaRoute). Besides the shortest route, it stores the realistic alternatives: around the Cape of
+Good Hope when the shortest route crosses the Red Sea (many carriers still avoid it), and a route
+that avoids the Panama Canal when the shortest one uses it.
 """
 from __future__ import annotations
 
@@ -23,7 +24,8 @@ HERE = Path(__file__).resolve().parent
 APP = HERE.parent / "app" / "data"
 DEFAULT = ["northwest"]
 AVOID_RED_SEA = ["northwest", "babalmandab", "suez", "panama"]
-TOLERANCE = 0.06   # degrees; drops points that do not change the line's shape
+AVOID_PANAMA = ["northwest", "panama"]
+TOLERANCE = 0.015  # degrees (about 1.5 km); drops only points that do not change the line's shape
 
 
 def simplify(points: list[list[float]], tol: float) -> list[list[float]]:
@@ -82,10 +84,17 @@ def main() -> None:
             main_route = route(o, d, DEFAULT)
             if not main_route:
                 continue
+            alts = []
             if "babalmandab" in main_route["via"] or "suez" in main_route["via"]:
                 alt = route(o, d, AVOID_RED_SEA)
                 if alt and "south_africa" in alt["via"]:
-                    main_route["cape"] = alt
+                    alts.append({"id": "cape", **alt})
+            if "panama" in main_route["via"]:
+                alt = route(o, d, AVOID_PANAMA)
+                if alt and alt["nm"] < main_route["nm"] * 1.8:
+                    alts.append({"id": "nopanama", **alt})
+            if alts:
+                main_route["alts"] = alts
             routes[d["code"]] = main_route
         text = json.dumps(routes, separators=(",", ":"))
         (out_dir / f"{o['code']}.json").write_text(text, encoding="utf-8")

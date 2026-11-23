@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
   <defs>
-    <radialGradient id="bg" cx="70%" cy="15%" r="95%">
-      <stop offset="0" stop-color="#1b1f4a"/>
-      <stop offset="0.55" stop-color="#0a0e1a"/>
-      <stop offset="1" stop-color="#05070d"/>
-    </radialGradient>
-    <linearGradient id="sweep" x1="256" y1="256" x2="400" y2="120" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#2de2e6" stop-opacity="0.05"/>
-      <stop offset="1" stop-color="#2de2e6" stop-opacity="0.55"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="0.55" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0e7490"/>
     </linearGradient>
+    <radialGradient id="shine" cx="78%" cy="12%" r="70%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
   </defs>
   <rect width="512" height="512" fill="url(#bg)"/>
-  <circle cx="256" cy="256" r="168" fill="none" stroke="#2de2e6" stroke-opacity="0.45" stroke-width="6"/>
-  <circle cx="256" cy="256" r="108" fill="none" stroke="#2de2e6" stroke-opacity="0.32" stroke-width="5"/>
-  <circle cx="256" cy="256" r="50" fill="none" stroke="#2de2e6" stroke-opacity="0.25" stroke-width="5"/>
-  <path d="M256 256 L256 88 A168 168 0 0 1 401.5 172 Z" fill="url(#sweep)"/>
-  <line x1="256" y1="256" x2="256" y2="88" stroke="#2de2e6" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="256" cy="256" r="16" fill="#2de2e6"/>
-  <circle cx="338" cy="176" r="22" fill="#8b7cff"/>
-  <circle cx="160" cy="300" r="17" fill="#ffb454"/>
-  <circle cx="312" cy="352" r="14" fill="#f06bd6"/>
+  <rect width="512" height="512" fill="url(#shine)"/>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round">
+    <circle cx="256" cy="256" r="160" stroke-width="18" stroke-opacity="0.55"/>
+    <circle cx="256" cy="256" r="92" stroke-width="18" stroke-opacity="0.8"/>
+  </g>
+  <path d="M256 256 L256 96 A160 160 0 0 1 394.6 176 Z" fill="#ffffff" fill-opacity="0.42"/>
+  <circle cx="256" cy="256" r="26" fill="#ffffff"/>
+  <circle cx="336" cy="170" r="24" fill="#ffffff"/>
+  <circle cx="176" cy="318" r="16" fill="#ffffff" fill-opacity="0.85"/>
 </svg>
