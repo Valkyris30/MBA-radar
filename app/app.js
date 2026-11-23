@@ -1022,6 +1022,15 @@ function start() {
   load(false).then(() => { migrateSaved(); renderHeader(); });
 }
 
+// An older page kept by the browser may arrive with this newer code: reload it once from the network.
+if (!window.Vault || !$('#lockForm')) {
+  let tried = false;
+  try { tried = sessionStorage.getItem('mr.reloaded') === '1'; sessionStorage.setItem('mr.reloaded', '1'); } catch { /* reload anyway */ }
+  if (!tried) location.replace(location.pathname + '?v=' + Date.now() + location.hash);
+  throw new Error('Outdated page: reloading');
+}
+try { sessionStorage.removeItem('mr.reloaded'); } catch { /* nothing stored */ }
+
 bind();
 bindLock();
 document.body.dataset.desk = state.desk;

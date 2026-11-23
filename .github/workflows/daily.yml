@@ -3,8 +3,9 @@ name: Daily edition
 # Every morning: collect new articles, write the study notes, publish the app.
 # A push that changes the app republishes it without collecting.
 on:
-  schedule:
-    - cron: "30 5 * * *"   # 05:30 UTC, every day
+  # Daily collection is paused (no API credits used). To resume, remove the # on the two lines below.
+  # schedule:
+  #   - cron: "30 5 * * *"   # 05:30 UTC, every day
   workflow_dispatch:
   push:
     branches: [main]

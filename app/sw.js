@@ -1,12 +1,12 @@
 /* Offline support: always try the network first so the edition is fresh,
    and fall back to the last copy we saw when there is no connection. */
-const CACHE = 'mba-radar-v7';
+const CACHE = 'mba-radar-v8';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'vault.js', 'freight.js', 'data/ports.json', 'data/freight.json', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png', 'data/articles.json', 'data/archive.json', 'data/maritime.json', 'data/maritime-archive.json'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE)
-      .then((cache) => Promise.allSettled(SHELL.map((url) => cache.add(url))))
+      .then((cache) => Promise.allSettled(SHELL.map((url) => cache.add(new Request(url, { cache: 'reload' })))))
       .then(() => self.skipWaiting()),
   );
 });
@@ -22,8 +22,8 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== self.location.origin) return;
-  // Revalidate with the server every time, so a new edition or app update is never hidden by the HTTP cache.
-  const fresh = req.mode === 'navigate' ? fetch(req) : fetch(req.url, { cache: 'no-cache', credentials: 'same-origin' });
+  // Revalidate with the server every time (the page too), so an old page is never mixed with new code.
+  const fresh = fetch(req.url, { cache: 'no-cache', credentials: 'same-origin' });
   event.respondWith(
     fresh
       .then((res) => {

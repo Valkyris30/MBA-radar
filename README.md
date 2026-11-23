@@ -58,6 +58,12 @@ Check the feeds without calling the API:
 python3 collector/collect.py --dry-run
 ```
 
+## Pause the collection
+
+Daily collection is paused: the `schedule` lines in `.github/workflows/daily.yml` are commented
+out, so no API credits are used. A push still republishes the app. To resume, remove the `#` on
+those two lines and push, or click "Run workflow" once for a single edition.
+
 ## Secrets
 
 The collector needs two repository secrets. Neither is ever stored in the code.
