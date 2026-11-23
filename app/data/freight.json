@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-23T00:18:32Z",
+ "generatedAt": "2026-11-23T01:01:17Z",
  "model": "claude-haiku-5-5",
  "fx": {
   "base": "USD",
@@ -174,6 +174,26 @@
    "ZWL": 26.5872
   },
   "source": "https://www.exchangerate-api.com"
+ },
+ "markets": {
+  "brent": {
+   "name": "Brent crude, spot",
+   "value": 92.94,
+   "unit": "USD/bbl",
+   "date": "2026-11-17",
+   "change": 0.04,
+   "source": "US EIA",
+   "url": "https://www.eia.gov/dnav/pet/hist/RBRTED.htm"
+  },
+  "eua": {
+   "name": "EU carbon allowance (EUA)",
+   "value": 80.6,
+   "unit": "EUR/tCO2",
+   "date": "2026-11-20",
+   "change": -0.87,
+   "source": "EEX primary auction",
+   "url": "https://www.eex.com/en/market-data/environmental-markets/eua-primary-auction-spot-download"
+  }
  },
  "indices": [
   {
@@ -393,7 +413,7 @@
    "unit": "FEU",
    "change": -9,
    "changePeriod": "1 week",
-   "date": "2026-11-19",
+   "date": "19 Nov 2026",
    "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
   },
   {
@@ -404,7 +424,7 @@
    "unit": "FEU",
    "change": -5,
    "changePeriod": "1 week",
-   "date": "2026-11-19",
+   "date": "19 Nov 2026",
    "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
   },
   {
@@ -415,7 +435,7 @@
    "unit": "FEU",
    "change": 6,
    "changePeriod": "1 week",
-   "date": "2026-11-19",
+   "date": "19 Nov 2026",
    "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
   },
   {
@@ -426,14 +446,14 @@
    "unit": "FEU",
    "change": 0,
    "changePeriod": "1 week",
-   "date": "2026-11-19",
+   "date": "19 Nov 2026",
    "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
   }
  ],
  "wci": {
-  "date": "2026-11-19",
+  "date": "19 Nov 2026",
   "composite": 4176,
-  "outlook": "Drewry expects Transpacific rates to decrease further next week despite ten announced blank sailings, while Asia-Europe/Med rates are expected to rise in the coming weeks as demand strengthens ahead of the new contract season, with carriers announcing peak season surcharges (PSS) of $1,000-1,600 per 40ft effective December.",
+  "outlook": "Drewry expects Transpacific rates to decrease further next week despite ten announced blank sailings, while Asia-Europe/Med rates are expected to rise in the coming weeks as December demand strengthens ahead of the new contract season. Many carriers have announced peak season surcharges (PSS) of $1,000-1,600 per 40ft container on Asia-Europe/Med effective December.",
   "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
  },
  "containers": [
@@ -642,6 +662,56 @@
    "NEU>MA": {
     "found": false,
     "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "MA>MED": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "NEU>MED": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "MED>NEU": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "FE>WAF": {
+    "found": true,
+    "low": 4023,
+    "high": 4023,
+    "unit": "TEU",
+    "currency": "USD",
+    "as_of": "7 Aug 2026",
+    "basis": "SCFI West Africa (Lagos sub-index) value of 4,023 USD/TEU (−0.5%), taken from a secondary guide (Great Hensen, Africa Shipping Rates August 2026) because the SSE page could not be read. Per TEU, not per 20ft or 40ft.",
+    "sources": [
+     {
+      "url": "https://www.greathensen.com/en/guide/africa-rates-august-2026-deep-dive.html",
+      "title": "Africa Shipping Rates August 2026: Three Lanes Flat, Congestion Holds Prices High"
+     }
+    ],
+    "notes": "Indicative only. This is about 108 days old at the note date of 23 Nov 2026, so it falls outside the three-month window the research aimed for. No recent (Aug to Nov 2026) SCFI Lagos value was found, and no Drewry, Xeneta or Freightos Lagos-lane rate was found. The per-container figures in the note come from secondary web pages and are not verified against carrier tariffs or index publishers. The CMA CGM figures are surcharges only, not base freight, and the Sino-Shipping November 2026 figure is undated within the month and gives no port.",
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "FE>ISC": {
+    "found": true,
+    "low": 2929.5,
+    "high": 3150,
+    "unit": "TEU",
+    "currency": "USD",
+    "as_of": "30 Oct 2026 per the page stamp, but the date is uncertain because the page's own metadata suggests about 101 days old; about 24 days old as of 23 Nov 2026 on the stamp",
+    "basis": "Cogoport public indicative FCL rate, Shanghai to JNPT (Nhava Sheva), 20ft standard equipment, DDP incoterm; a 20ft indicative rate, not a 40ft figure or a carrier quotation",
+    "sources": [
+     {
+      "url": "https://www.cogoport.com/en-IN/rates/shanghai-sp-to-jnpt-nhava-sheva-sp",
+      "title": "Shanghai to JNPT FCL Shipping Rates"
+     }
+    ],
+    "notes": "Only an indicative 20ft range is available within the three-month window, and its date is uncertain. No current SCFI India and Pakistan (Nhava Sheva) lane sub-index value was found; the SCFI composite of 3,633.45 (6 Nov 2026) is an index, not a dollar rate for India. No dated 40ft spot rate for Far East to Nhava Sheva was found in the window. The Ikargos averages (20ft USD 3,842, 40ft USD 4,044) are undated, state they are not a quotation, and were excluded. The Xeneta figure (USD 2,305 per FEU, 20 March 2026) and the YQN promotional rate (early July 2026) fall outside the window and were excluded. The MSC and Hapag-Lloyd announcements cover India or Pakistan to Europe, so they do not apply. Checking the SCFI weekly release from the Shanghai Shipping Exchange for the India lane sub-index would close the main gap.",
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "NEU>WAF": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
    }
   },
   "ports": {
@@ -837,6 +907,72 @@
     ],
     "notes": "The £196.13 figure is a single combined line for full import and full export lifts, so the same value is shown against both directions; no separate export THC was found. Figures are from search extracts, not opened PDFs. Gate out/in of £65.33 per container is noted but not mapped to the THC fields. The £181.86 v13 figure appears superseded but is undated. Terminal SSR admin fees conflict (£70.73 versus £35.47) and are excluded. No current ISPS export figure was found; the 2021 £5.50 is not treated as current. Demurrage and detention on the 15 June 2026 sheet have an unclear column mapping and are excluded. The Hapag-Lloyd GBP 5.9 figure has no unit or size and is excluded. The forwarder sheet's applies value of both is an assumption. The PLA £4.30 is unverified. Confirm against DP World's current public tariff and the carrier's local charges tariff.",
     "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "MANDR": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "GBLIV": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "ESALG": {
+    "found": true,
+    "currency": "EUR",
+    "thc_export_20": 260,
+    "thc_export_40": 260,
+    "thc_import_20": null,
+    "thc_import_40": null,
+    "free_days": null,
+    "storage_per_day_20": null,
+    "storage_per_day_40": null,
+    "other_charges": [],
+    "tariff_of": "Maersk origin charge (OHC) corridor row for Algeciras to Newark, US, not a published Algeciras local-charges tariff",
+    "effective": "1 March 2025",
+    "sources": [
+     {
+      "url": "https://www.maersk.com/news/articles/2025/01/31/terminal-handling-service-dhc-world-to-united-states",
+      "title": "Terminal Handling Service Destination (DHC) for the scope - World to United States"
+     },
+     {
+      "url": "https://www.maersk.com/local-information/europe/spain/import",
+      "title": "Spain Imports"
+     },
+     {
+      "url": "https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/es_dnd_imp_oct24.pdf",
+      "title": "Country Port Charge Period Calendar Days Curr. Rate per day Calendar Days Curr."
+     },
+     {
+      "url": "https://www.hapag-lloyd.com/content/dam/website/downloads/pdf/TerminalHandlingChargesEurope_June_2026_update_1.pdf",
+      "title": "Overview - Terminal Handling Charges From: Europe"
+     }
+    ],
+    "notes": "Only one Algeciras-related THC figure was found: EUR 260 per container for both 20ft and 40ft dry export, taken from a Maersk notice for Algeciras to Newark, US, effective 1 March 2025. It is a corridor origin charge rather than a local tariff, and it is roughly 21 to 22 months old, so it is not current. No import THC was found; the USD destination figures in the notice relate to the US side and do not apply to imports into Algeciras. The Hapag-Lloyd June 2026 THC sheet does not show which port each row covers, so no figure is attributed to Algeciras. No ISPS, documentation, port, infrastructure or EU ETS charges for Algeciras were found. Free days are unresolved: the Maersk Spain import page gives conflicting readings of 7 days or 5 days for dry containers, and it is undated. No daily storage rate was found there. The Hapag-Lloyd Spain storage sheet from October 2024 is about 25 months old and its column layout is unclear, so its possible reading of 7 free days, EUR 40 and EUR 55 has not been used. Current Algeciras rates should be obtained from the terminal operators, including APM Terminals Algeciras, and from the carriers in use, with validity dates confirmed.",
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "ESVLC": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "ESBCN": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "ESBIO": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "FRLEH": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "FRFOS": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "FRDKK": {
+    "found": false,
+    "checkedAt": "2026-11-23T01:01:17Z"
    }
   },
   "carriers": {
@@ -1115,6 +1251,247 @@
      }
     ],
     "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "COSCO": {
+    "found": true,
+    "items": [
+     {
+      "kind": "GRI",
+      "name": "Tariff 201 General Rate Increase (COSCO SHIPPING Lines North America, US trades)",
+      "amount": "",
+      "trades": "North America (US trades); not Asia–Europe, Asia–Mediterranean, Europe–Middle East or North Africa/Morocco",
+      "effective": "15 November 2026 (notice entries dated 12 October 2026)"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Notice – EBS Surcharge application – Europe (COSCO SHIPPING Lines Brazil, title only)",
+      "amount": "",
+      "trades": "Unconfirmed; the Brazil office may concern Latin America–Europe rather than Asia–Europe",
+      "effective": "15 November 2026"
+     },
+     {
+      "kind": "PSS",
+      "name": "Peak Season Surcharge (PSS) – DRY Cargo – ESE2 – Europe Service (COSCO SHIPPING Lines Brazil, title only)",
+      "amount": "",
+      "trades": "Unconfirmed; the Brazil office may concern Latin America–Europe rather than Asia–Europe",
+      "effective": ""
+     },
+     {
+      "kind": "surcharge",
+      "name": "Emergency Bunker Surcharge (COSCO, US-bound cargo)",
+      "amount": "Refrigerated: USD 224 per 20-foot container and USD 448 per 40-foot and 45-foot containers; other types: USD 172 per 20-foot container and USD 344 per 40-foot and 45-foot containers",
+      "trades": "US-bound cargo, US coasts; not your lanes",
+      "effective": "null (reported 11 June 2026)"
+     }
+    ],
+    "summary": "No COSCO SHIPPING or OOCL GRI or PSS for Asia–North Europe, Asia–Mediterranean, Europe–Middle East or North Africa/Morocco was found with an amount and effective date, in the last six weeks or the coming weeks. Coverage is thin: COSCO's and OOCL's own Europe and Mediterranean tariff pages could not be opened, so this should be read as not found rather than not announced. The items listed are COSCO notices for other trades or notices with titles only. The Tariff 201 GRI and the US Emergency Bunker Surcharge concern North America. The Brazil Europe EBS and PSS notices show titles only, with no a",
+    "sources": [
+     {
+      "url": "https://lines.coscoshipping.com/na/en/home",
+      "title": "COSCO SHIPPING Lines"
+     },
+     {
+      "url": "https://finance.yahoo.com/markets/commodities/articles/asia-us-container-rates-hold-173926075.html",
+      "title": "Asia-US container rates hold as carriers seek $3,000 November rate hikes"
+     },
+     {
+      "url": "https://finance.yahoo.com/markets/commodities/articles/conundrum-asia-us-europe-ocean-115946051.html",
+      "title": "New ‘conundrum’: Asia-US, Europe ocean rates diverge"
+     },
+     {
+      "url": "https://www.freightwaves.com/news/asia-us-container-rates-hold-as-carriers-seek-3000-november-rate-hikes",
+      "title": "Asia-US container rates hold as carriers seek $3,000 November rate hikes - FreightWaves"
+     },
+     {
+      "url": "https://container-news.com/cosco-announces-emergency-bunker-surcharge-for-us-bound-cargo/",
+      "title": "COSCO announces emergency bunker surcharge for US-bound cargo - Container News"
+     }
+    ],
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "HAPAG": {
+    "found": true,
+    "items": [
+     {
+      "kind": "PSS",
+      "name": "Far East to Mediterranean peak season surcharge",
+      "amount": "USD 750 per TEU",
+      "trades": "Far East to Mediterranean (Asia–Mediterranean)",
+      "effective": "Sailings beginning on 1 December 2026, until further notice; reported by trade press (Container News, 17 Nov 2026; IndexBox, 16 Nov 2026)"
+     },
+     {
+      "kind": "PSS",
+      "name": "Far East to North Europe peak season surcharge",
+      "amount": "USD 500 per TEU",
+      "trades": "Far East to North Europe (Asia–Europe)",
+      "effective": "Sailings beginning on 1 December 2026, until further notice; reported by trade press (Container News, 17 Nov 2026; IndexBox, 16 Nov 2026)"
+     },
+     {
+      "kind": "other",
+      "name": "North Europe to South Asia base-rate increase",
+      "amount": "USD 200 per 20-foot dry container; USD 100 per 40-foot dry container (example: Ennore 20-foot base rate from US$714 to US$914)",
+      "trades": "North Europe to South Asia",
+      "effective": "Sailings beginning on 1 December 2026, valid until further notice (Container News, 10 Nov 2026)"
+     },
+     {
+      "kind": "PSS",
+      "name": "Asia/Oceania to Dar es Salaam peak season surcharge",
+      "amount": "USD 400 per TEU",
+      "trades": "Asia/Oceania to Dar es Salaam, Tanzania",
+      "effective": "Cargo loaded on board from 22 November 2026"
+     },
+     {
+      "kind": "PSS",
+      "name": "Asia/Oceania to Tema peak season surcharge",
+      "amount": "USD 400 per TEU",
+      "trades": "Asia/Oceania to Tema, Ghana; applies to all container types",
+      "effective": "Cargo loaded on board from 6 November 2026 (Container News, 8 Nov 2026)"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Reefer surcharge",
+      "amount": "",
+      "trades": "Pakistan to Arabian Gulf",
+      "effective": "16 November 2026 to 30 November 2026"
+     },
+     {
+      "kind": "GRI",
+      "name": "General rate increase to North America",
+      "amount": "USD 1,000 per container (East/Gulf Coast); USD 1,500 per container (West Coast)",
+      "trades": "Indian Subcontinent, Pakistan and Middle East to North America",
+      "effective": "Containers gated in full from 1 November 2026 per the IndexBox notice of 4 Nov 2026; a later notice says containers gated in full from 1 December 2026. Dates conflict."
+     },
+     {
+      "kind": "PSS",
+      "name": "Far East to North Europe and Mediterranean peak season surcharge (older)",
+      "amount": "USD 500 per 20-foot; USD 1,000 per 40-foot",
+      "trades": "Far East to North Europe and Mediterranean",
+      "effective": "From 8 June 2026 until further notice; current status unconfirmed"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Red Sea contingency surcharge (older)",
+      "amount": "USD 1,500 per TEU for standard containers",
+      "trades": "Red Sea to North Europe, Mediterranean and North Africa",
+      "effective": "From 3 March 2026; current status unconfirmed"
+     },
+     {
+      "kind": "surcharge",
+      "name": "South Europe, North Africa and Eastern Mediterranean feeder emergency charge (older)",
+      "amount": "USD 50 per TEU (most locations)",
+      "trades": "South Europe, North Africa and Eastern Mediterranean feeder routes",
+      "effective": "8 May 2026 for non-FMC trades; current status unconfirmed"
+     }
+    ],
+    "summary": "Two new Hapag-Lloyd announcements cover the trades directly, both effective 1 December 2026: a USD 750 per TEU peak season surcharge for Far East to Mediterranean and a USD 500 per TEU surcharge for Far East to North Europe. The research also found a North Europe to South Asia base-rate increase of USD 200 per 20-foot and USD 100 per 40-foot dry container from 1 December 2026. Figures come from trade press reporting Hapag-Lloyd's announcements, as Hapag-Lloyd's own November notices could not be opened. The North America GRI has conflicting effective dates (1 November and 1 December 2026) and i",
+    "sources": [
+     {
+      "url": "https://container-news.com/hapag-lloyd-announces-north-america-gri/",
+      "title": "Hapag-Lloyd announces North America GRI - Container News"
+     },
+     {
+      "url": "https://container-news.com/hapag-lloyd-announces-new-surcharges-across-multiple-trade-routes/",
+      "title": "Hapag-Lloyd announces new surcharges across multiple trade routes - Container News"
+     },
+     {
+      "url": "https://container-news.com/hapag-lloyd-raises-north-europe-south-asia-tariff-rates/",
+      "title": "Hapag-Lloyd raises North Europe–South Asia tariff rates - Container News"
+     },
+     {
+      "url": "https://container-news.com/hapag-lloyd-sets-americas-gri-from-east-coast-south-america/",
+      "title": "Hapag-Lloyd sets Americas GRI from East Coast South America - Container News"
+     },
+     {
+      "url": "https://www.indexbox.io/blog/hapag-lloyd-general-rate-increase-for-south-america-east-coast-shipments-effective-november-1-2026/",
+      "title": "Hapag-Lloyd GRI: South America East Coast Rates Rise November 2026 - News and Statistics - IndexBox"
+     }
+    ],
+    "checkedAt": "2026-11-23T01:01:17Z"
+   },
+   "ONE": {
+    "found": true,
+    "items": [
+     {
+      "kind": "surcharge",
+      "name": "Emergency Fuel Surcharge (EFS) revised schedule",
+      "amount": "Dry headhaul US$180 per TEU; reefer headhaul US$230 per TEU; dry backhaul US$90 per TEU; reefer backhaul US$115 per TEU; short-sea US$90 dry and US$115 reefer per TEU",
+      "trades": "Long-haul headhaul, long-haul backhaul and short-sea scope; classification of Asia–Europe, Mediterranean, Middle East and North African lanes not confirmed",
+      "effective": "15 December 2026 (announced 16 November 2026)"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Superseded EFS schedule (reference only)",
+      "amount": "Dry headhaul US$150 per TEU; reefer headhaul US$190 per TEU; backhaul and short-sea US$75 dry and US$95 reefer per TEU",
+      "trades": "Not specified",
+      "effective": "Superseded by 15 December 2026 revision; 1 November 2026 notice referenced"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Europe Environmental Surcharge (EES), quarterly",
+      "amount": "South America–Europe: US$89 (20') and US$178 (40') dry to Europe; US$76 (20') and US$152 (40') from Europe",
+      "trades": "South America–Europe only; no Asia–Europe, Asia–Mediterranean or Middle East figures found",
+      "effective": "1 October 2026 to 31 December 2026"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Earlier EES figures (not current)",
+      "amount": "Asia/Oceania to Europe US$186 per FEU; West Asia to Mediterranean US$266 per FEU; Europe to North America US$122 per FEU",
+      "trades": "Asia/Oceania–Europe; West Asia–Mediterranean; Europe–North America",
+      "effective": "Believed 1 January; not confirmed as current"
+     },
+     {
+      "kind": "PSS",
+      "name": "Asia–Europe/Mediterranean peak season surcharge (third-party listing, unverified)",
+      "amount": "US$500 and US$1000 (listed as $500 · $1000)",
+      "trades": "Asia–Europe/Mediterranean (not confirmed as ONE)",
+      "effective": "June 15, until further notice (listed by Shypple; not relied on)"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Persian Gulf emergency surcharge",
+      "amount": "Not stated in notices found",
+      "trades": "Persian Gulf",
+      "effective": "4 March 2026, remains in effect until further notice"
+     },
+     {
+      "kind": "other",
+      "name": "Bunker surcharge (OBS) tariff",
+      "amount": "Not stated in research note",
+      "trades": "Not specified",
+      "effective": "1 January 2026 (not confirmed as current)"
+     },
+     {
+      "kind": "PSS",
+      "name": "Maersk PSS, Far East Asia to North Europe (competitor, not ONE)",
+      "amount": "US$500 per 20' and US$1,000 per 40'",
+      "trades": "Far East Asia to North Europe",
+      "effective": "1 December 2026 (published 12 November 2026)"
+     }
+    ],
+    "summary": "The only ONE announcement found from the last six weeks or coming weeks is the EFS revision effective 15 December 2026. No ONE GRI or PSS for Asia–Europe, Asia–Mediterranean, Europe–Middle East, North Africa or Morocco was found in that window, and no ONE figures for those trades dated within it. The EES figures found for the October–December 2026 quarter cover South America–Europe only. Persian Gulf surcharge amount, Europe–Middle East and Morocco notices, and the OBS tariff could not be confirmed as current. The Maersk PSS is a competitor rate and not a ONE figure.",
+    "sources": [
+     {
+      "url": "https://container-news.com/one-raises-emergency-fuel-surcharge-across-global-trades/",
+      "title": "ONE raises Emergency Fuel Surcharge across global trades - Container News"
+     },
+     {
+      "url": "https://www.one-line.com/en/newsroom/update-emergency-fuel-surcharge-efs-3",
+      "title": "Update on Emergency Fuel Surcharge (EFS)"
+     },
+     {
+      "url": "https://dataportuaria.com/en/internacional/environment-and-energy/one-increases-environmental-surcharge-rates-on-routes-to-eur",
+      "title": "ONE Increases Environmental Surcharge Rates on Routes to Europe — DataPortuaria"
+     },
+     {
+      "url": "https://help.shypple.com/en/peak-season-surcharges-asia-europe-2026",
+      "title": "Peak Season Surcharges (Asia-Europe) 2026"
+     },
+     {
+      "url": "https://www.maersk.com/news/articles/2026/11/12/pss-from-far-east-asia-to-north-europe",
+      "title": "Implementation of Peak Season Surcharge (PSS) from Far East Asia to North Europe (E1W)"
+     }
+    ],
+    "checkedAt": "2026-11-23T01:01:17Z"
    }
   }
  }

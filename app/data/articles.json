@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-23T00:06:15Z",
+ "generatedAt": "2026-11-23T00:49:04Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
@@ -72,6 +72,1035 @@
   }
  ],
  "articles": [
+  {
+   "id": "d6ffd324a49c",
+   "title": "Advancing US economic mobility in the age of AI",
+   "url": "https://www.mckinsey.com/institute-for-economic-mobility/our-insights/advancing-us-economic-mobility-in-the-age-of-ai",
+   "source": "McKinsey Insights",
+   "publishedAt": "2026-11-20T00:00:00Z",
+   "addedAt": "2026-11-23T00:49:04Z",
+   "basis": "full_text",
+   "takeaway": "AI's effect on US economic mobility depends less on how many jobs it touches than on whether it displaces or augments the tasks people do, and on how unevenly the resulting transitions fall by race, geography and wage level.",
+   "summary": "The McKinsey Institute for Economic Mobility argues that AI could widen US mobility gaps before it narrows them. It combines McKinsey Global Institute automation modelling with data on how different groups spend their work hours. Automation adoption by 2035 looks similar across racial groups and across urban and rural areas, but the share of automated hours that leads to reduced labour demand differs: 40 percent for Black workers and 41 percent for Latino workers, against 37 percent for White workers and 36 percent for Asian workers. The difference arises because Black and Latino workers do more standardised, easily verified, low-stakes activity and more physical work, which is the kind most likely to be displaced. Black workers are over-represented in the six occupations with the steepest projected falls in labour demand, and projected growth in work hours to 2035 is slower for Black, Latino and rural workers than for White and Asian workers. MGI estimates that automation could remove about 36 million jobs over a decade while growth adds about 41 million in its base case, but around 11 million workers may need to move into different occupations. Lower-wage workers and those without a bachelor's degree are more likely to need such moves, and only about 14 percent of those workers have a direct pathway into growing work. The report then sets out five pillars across the cradle-to",
+   "keyPoints": [
+    "Automation adoption by 2035 is similar across racial and rural-urban groups, but the displacement share of automated hours is higher for Black (40 percent) and Latino (41 percent) workers than for White (37 percent) and Asian (36 percent) workers.",
+    "Displacement is most likely where activities are standardised, outputs are easy to verify and errors carry low stakes; augmentation is more likely where mistakes are costly and human judgement matters.",
+    "Black workers are over-represented in the six occupations with the steepest projected declines in labour demand, such as postal mail sorting, where demand is projected to fall by more than 50 percent between 2025 and 2035.",
+    "Projected growth in work hours from 2025 to 2035 is 2.1 percent for Black workers, 1.4 percent for Latino workers, 3.4 percent for White workers and 5.8 percent for Asian workers; rural growth is 2.7 percent against 3.3 percent for urban areas.",
+    "MGI estimates about 36 million jobs could be lost to automation and about 41 million added in its base case, with roughly 11 million workers needing to move into different occupations."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 62,
+     "reading": "In People, Work and Organisations terms this is a story about workforce transitions and job design, not about technology as such. Automation changes which tasks people perform, which shapes how jobs are designed, how individuals experience and respond to change, and whether they can move into new roles. The article's point that people face very different transition pathways, and that those most exposed have the least financial cushion, shows that individual adaptation depends heavily on structural conditions. Students should care because it links the people aspects of change, individual differences and perception to labour-market inequality."
+    },
+    {
+     "id": "leadership",
+     "relevance": 35,
+     "reading": "The leadership relevance lies in the article's argument that those who decide how AI is deployed will largely determine whether mobility gaps widen or close, and its call for intentional design, governance and community partnership. Ethical and responsible leadership asks leaders to weigh the effects of their decisions on a wide range of stakeholders, not only shareholders, which is exactly the tension the article identifies between firm productivity and worker mobility. Students should care because the article frames AI adoption as a set of choices leaders make, rather than an inevitable force."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Bridges's transition model",
+     "unit": "Unit 8 Organisational change",
+     "theory": "William Bridges distinguishes change, the external event, from transition, the internal psychological process of letting go of the old situation, passing through a neutral zone and starting something new. People need to work through all three phases, and if the neutral zone is rushed or ignored they can remain stuck. Change leaders should therefore attend to endings and loss of identity as well as to the design of the new structure.",
+     "link": "The article's workers are not simply displaced; they face a direct, winding or unpaved route into growing work, requiring new skills, credentials or a wage trade-off. Bridges's neutral zone maps onto the period between leaving a routine entry-level or middle-class role and securing a new one, which the article says is especially hard for workers with no savings. The 14 percent with a direct pathway may pass through transition quickly, while the 45 percent on unpaved routes may remain in limbo for long periods. The model therefore helps explain why similar AI exposure produces very different individual experiences.",
+     "critique": "Bridges's model is written mainly about individual reactions within an organisation that is managing change, and gives little weight to structural constraints such as lost income, credential costs or thin local labour markets, which the article shows are decisive. Read uncritically, it can make an economic barrier look like a coping problem.",
+     "practice": "A manager or public employment agency applying this model would name the endings explicitly, acknowledging the loss of a role and its status, then build a structured neutral zone with retraining, mentoring and interim income support before defining the new beginning. Because pathways differ sharply by wage quintile, support should be differentiated and funded rather than offered as a single programme."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model (Hackman and Oldham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The Job Characteristics Model holds that five core job dimensions, namely skill variety, task identity, task significance, autonomy and feedback, produce experienced meaningfulness, responsibility for outcomes and knowledge of results. These psychological states in turn drive motivation, satisfaction and performance. Jobs can be redesigned to strengthen the core dimensions, although the effect depends on the individual's growth-need strength.",
+     "link": "The article's central distinction between automation that displaces work and automation that augments it is, at root, a question of job design. Its example of adjusting a patient's medication dose, where AI is more likely to support a clinician than replace one because errors are costly, shows augmentation retaining judgement, autonomy and task significance for the person. By contrast, routine billing questions, which are standardised and easy to check, are the low-variety, low-significance tasks the model associates with reduced motivation, and they are exactly where displacement concentrates. The occupations facing steepest decline are therefore those whose core tasks are most codifiable.",
+     "critique": "The model is micro-level and explains how to design a particular job, but it cannot explain why aggregate labour demand falls when a job's tasks are automated across an economy. Its assumption that the employer retains and redesigns the role does not hold where the article's displacement mechanisms apply, and it says little about whether workers have the skills or growth-need strength to take on enriched roles.",
+     "practice": "A manager facing AI adoption should audit each role's tasks, automate the routine and standardised elements, and deliberately reallocate judgement, verification and client-facing work to the people who remain. The test is whether the redesigned role scores higher on the five core dimensions than before, and whether training is provided so that staff can use the added autonomy."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Perceptual biases: stereotyping and selective perception",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Perception is the process by which people select, organise and interpret information about others, and it is distorted by mental shortcuts. Stereotyping attributes characteristics to individuals on the basis of group membership, while selective perception filters information so that it confirms existing expectations. These biases shape evaluation decisions such as hiring and promotion, often without the decision-maker being aware of them.",
+     "link": "The article warns that AI interviewers could make biased hiring decisions if sociodemographic biases are embedded in the models, and that career agents could overfit to past work and limit access to stretch goals. This is stereotyping carried into code: a model trained on historical decisions shaped by unequal opportunity reproduces that pattern and presents it as merit. The article's suggestion to evaluate capabilities rather than degrees or job titles is a direct attempt to replace categorical shortcuts with assessment of the individual.",
+     "critique": "Perception theory was developed to explain individual human perceivers, whereas in AI systems the bias is structural, applied consistently across thousands of decisions and hard to observe. Human remedies such as training and awareness are weaker here. Capability-based assessment can also carry bias if the measures themselves reflect unequal past experience.",
+     "practice": "An HR team should audit selection and redeployment tools for disparate outcomes across groups before and after deployment, keep a named human decision-maker accountable for final decisions, and use structured criteria tied to job requirements. It should also test whether apparently neutral proxies, such as past employer prestige or employment gaps, are standing in for protected characteristics."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Ethical and responsible leadership",
+     "unit": "",
+     "theory": "Ethical and responsible leadership holds that leaders are accountable for the consequences of their decisions for a wide range of stakeholders, not only shareholders, and must make and act on ethical judgements. It emphasises moral awareness, fairness, transparency and the building of trust through consistent conduct over time.",
+     "link": "The article places the deployment choice in leaders' hands, stating that those who shape how AI is deployed will likely determine whether mobility gaps widen or close, and calling for intentional design, governance and community partnership across private, public and social sectors. A responsible leader would have to recognise that a productivity gain for the firm can be a displacement cost for Black, Latino and rural workers, and weigh the two together. The article's examples of predictive alerts that label students as risky, and of credit tools that hide predatory terms, show what happens when ethical awareness is missing from design.",
+     "critique": "Ethical leadership theory assumes the leader has meaningful discretion over outcomes, yet many displacement effects are driven by competitive pressure and cost structures that no single leader controls, a point the article's emphasis on structural barriers reinforces. Responsible leadership can also become a reputational label unless it is backed by governance and measurable commitments.",
+     "practice": "A leader should set explicit principles for AI use, including impact assessments for affected groups, involve workers and community partners in design decisions, commit to reskilling pathways before displacement occurs, and report outcomes by group so that the commitment can be tested."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A regional logistics company plans to automate the sorting, invoice checking and routine customer queries in its distribution operations over the next three years. Most affected staff are lower-paid, and the firm's own workforce data shows that some groups are over-represented in these roles. The firm has no dedicated retraining budget, and its managers disagree about whether to redeploy staff or to make redundancies.",
+    "question": "Advise the board on how the company should introduce AI into these roles so that the transition is managed fairly and the firm keeps the capability it needs. Critically evaluate the change and job design approaches you recommend.",
+    "evidence": [
+     "The displacement share of automated hours is 40 percent for Black workers and 41 percent for Latino workers, compared with 37 percent for White workers and 36 percent for Asian workers.",
+     "Lower-wage workers are 7.6 times as likely as higher-wage workers to need to transition into a new occupation.",
+     "Only about 14 percent of workers who need to transition have a direct pathway requiring minimal retraining and no wage loss, while 45 percent face an unpaved pathway.",
+     "Only about 10 percent of workers in the lowest wage quintile have a direct pathway, compared with almost 40 percent in the highest quintile."
+    ],
+    "plan": [
+     "Diagnose the change: identify AI as an external technological trigger, and decide whether the change should be planned or emergent, drawing on the triggers and change models in Unit 8.",
+     "Analyse the job design: apply the Job Characteristics Model role by role to separate augmentation, which keeps judgement and feedback, from displacement, which affects standardised and verifiable tasks, and recommend which tasks to automate and how to enrich the rest.",
+     "Assess the people impact: apply Bridges's transition model to the staff who must move, noting that pathways and support needs differ by wage level and qualification.",
+     "Check fairness: use perceptual bias theory to audit selection, redeployment and any AI screening decisions for disparate outcomes across groups.",
+     "Evaluate the leadership choice: use ethical and responsible leadership to justify commitments to affected stakeholders and to set group-level reporting measures.",
+     "Recommend a phased plan combining augmentation-led redesign, funded reskilling with income protection, and monitored redeployment, and state the trade-offs and the costs of each option."
+    ],
+    "pitfalls": [
+     "Treating AI as a neutral productivity tool and ignoring the displacement versus augmentation distinction, which is the article's central argument.",
+     "Relying on the aggregate figures alone: the answer must show how exposure concentrates in particular occupations, wage levels and groups, otherwise the modest headline gap looks like no problem."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter's eight-step model",
+    "The Kübler-Ross change curve",
+    "Kahn's model of employee engagement"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether change management models adequately explain the people consequences of technology-driven workforce transitions, using evidence of uneven impacts by group, wage level and geography.",
+    "outline": [
+     "Define the relevant change and transition concepts, such as Bridges's model and the change curve, and set out their assumptions about the individual and the organisation.",
+     "Use the article's evidence on uneven displacement and unequal pathways to show where individual-level models miss structural, economic and perceptual constraints.",
+     "Conclude with a reasoned judgement on combining job design, perception and change approaches, and on the role of leadership choices in shaping outcomes."
+    ]
+   },
+   "readingMinutes": 38
+  },
+  {
+   "id": "deac526ba801",
+   "title": "The Case for “Small AI”",
+   "url": "https://hbr.org/2026/11/the-case-for-small-ai",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-20T13:05:49Z",
+   "addedAt": "2026-11-23T00:49:04Z",
+   "basis": "abstract",
+   "takeaway": "The abstract's one claim is that organisations overspend on technology they do not need. Finance tools test whether an investment pays, and strategy tools test whether it builds advantage, so the note links the claim to NPV, agency theory and VRIO. The full article is not available, so none of this is confirmed against its evidence.",
+   "summary": "The publisher's abstract is a single line: organisations should stop overspending on technology they do not need. The title frames the piece as a case for 'small AI'. Only this headline is available, so the article's arguments, evidence and examples cannot be verified. The note therefore relies on the claim itself and on the theory that would test it.",
+   "keyPoints": [
+    "The abstract's central claim is that technology spending often exceeds what an organisation actually needs.",
+    "The title suggests the author favours smaller-scale AI over larger, more expensive systems, but the abstract does not say how small AI is defined.",
+    "The abstract gives no figures, examples or reasons for overspending, so any explanation of the cause must be treated as a hypothesis to check against the full text."
+   ],
+   "modules": [
+    {
+     "id": "finance",
+     "relevance": 70,
+     "reading": "In finance terms, the claim is about investment that does not earn its cost of capital: spending on technology without a clear, positive net present value. A student of financial decision making should ask what cash flows each system is expected to generate, how those forecasts were made, and whether the business case survived scrutiny before approval. Overspending also raises agency questions about whether the people approving the spend are aligned with the owners who pay for it."
+    },
+    {
+     "id": "strategy",
+     "relevance": 55,
+     "reading": "The strategic reading asks whether technology spending supports a source of competitive advantage or merely keeps pace with rivals. If a tool is widely available and easy to buy, it is unlikely to differentiate the firm, so buying it because others have does not build advantage. A strategy student should look at how spending decisions are linked to the firm's resources and capabilities, and whether they are deliberately matched to the chosen strategy."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "finance",
+     "concept": "Net present value (NPV) and investment appraisal",
+     "unit": "",
+     "theory": "NPV discounts the expected incremental cash flows of an investment at the cost of capital and accepts projects with a positive value. Internal rate of return and payback are used alongside it, but NPV is the preferred measure because it gives a value in money terms. The method is only as reliable as the cash flow forecasts and the discount rate used.",
+     "link": "The abstract says organisations are overspending on technology they do not need, which implies that some investments have no cash flow strong enough to justify their cost. Applying NPV would require each technology proposal to show incremental benefits, such as cost savings or additional revenue, that exceed its full cost. A system without an identifiable use case would fail this test by definition. The abstract does not say whether the problem lies in the appraisal itself or in how it was applied, so this link is a test to carry out rather than a confirmed finding.",
+     "critique": "Benefits from AI and digital projects are hard to forecast and often intangible, such as productivity or learning, so NPV can be made to look positive through optimistic assumptions. Sensitivity analysis and post-investment review are needed to expose this.",
+     "practice": "A manager should require a business case that sets out incremental cash flows, the assumed benefits and their owners, and a sensitivity analysis showing how the result changes if benefits fall short. Approval should be followed by a review comparing actual results with the forecast."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Agency theory (Jensen and Meckling)",
+     "unit": "",
+     "theory": "Agency theory holds that managers (agents) may pursue their own interests, such as status, growth or visibility, rather than those of shareholders (principals). The gap between the two creates agency costs, which can be reduced through monitoring, incentive alignment and governance. Overinvestment is one form of agency problem.",
+     "link": "If organisations are overspending on technology, one explanation is that managers approve visible projects that raise their status or appear modern, even when the investment is not needed by the business. Agency theory offers this as a possible cause, which the abstract does not confirm. The idea of a strong case for smaller, more targeted investment fits the view that governance should check such proposals against real need.",
+     "critique": "Agency theory assumes self-interest is the main driver, but overspending may also come from managers who genuinely misjudge the value of new tools, from vendor pressure or from following competitors. A student should acknowledge these alternatives and say which evidence would distinguish them.",
+     "practice": "The board should link approval of technology spending to measured business outcomes, use stage gates with independent review, and align managers' incentives with long-term value rather than with the scale of the programme they run."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "The resource-based view and VRIO (Barney)",
+     "unit": "",
+     "theory": "The resource-based view argues that sustained competitive advantage comes from resources that are valuable, rare, inimitable and organised to be exploited, which is summarised as the VRIO framework. Resources that are common or easy to acquire tend to yield only parity with competitors. Strategy should therefore focus investment on resources that meet the VRIO tests.",
+     "link": "The abstract's warning against spending on technology a firm does not need can be read through VRIO. Tools that many competitors can buy on the same terms are unlikely to be rare or hard to imitate, so spending on them does not create advantage. Investment should go to technology that fits the firm's specific capabilities, which is the logic the title's case for smaller, fit-for-purpose AI appears to support.",
+     "critique": "The resource-based view looks inward and can underplay market conditions and customer needs. Some widely available technology is still necessary as table stakes, so an organisation that cuts it entirely may fall behind even though the tools do not differentiate it.",
+     "practice": "A manager should audit current technology spending against the four VRIO tests, identify the tools that are neither valuable nor rare, and defer or cancel them. Remaining investment should be directed to capabilities that are difficult for rivals to copy."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized professional services firm has added several AI tools across its departments following vendor presentations. Spending has risen sharply, but several business units cannot describe a clear use case for the tools they have adopted. The finance director wants to cut the programme, while the technology team argues that the firm risks falling behind competitors.",
+    "question": "Advise the board on how it should decide which technology investments to keep, defer or cancel, using appropriate financial and strategic theory.",
+    "evidence": [
+     "The abstract states that organisations overspend on technology they do not need.",
+     "The title, The Case for 'Small AI', suggests the article argues for smaller, more targeted AI rather than large-scale adoption.",
+     "The abstract provides no figures, case examples or findings, so the case should rely on the theories applied rather than specific data from the article."
+    ],
+    "plan": [
+     "Define the decision criteria: explain that each technology should be judged on whether it creates positive net present value and whether it contributes to advantage, drawing on NPV and the resource-based view.",
+     "Test each investment financially, requiring incremental cash flows, benefit owners and sensitivity analysis, and identify those with no credible benefit case.",
+     "Test each remaining investment strategically using VRIO, separating tools that are table stakes from those that could differentiate the firm.",
+     "Discuss governance and agency issues, explaining how overspending may reflect managers' incentives and how stage gates and independent review would correct this.",
+     "Recommend a clear classification into keep, defer and cancel, with a timetable for review and the criteria that would trigger reinvestment.",
+     "Acknowledge the limits of the evidence, noting that the article's arguments and any data should be checked before the decision is finalised."
+    ],
+    "pitfalls": [
+     "Presenting the abstract's single line as evidence of specific findings, when the full article has not been read and the abstract contains no data.",
+     "Treating 'small AI' as a precisely defined technology, when the abstract does not define it, and failing to explain what the term means in the answer."
+    ]
+   },
+   "alsoConsider": [
+    "Real options (finance: valuing the flexibility to delay or expand an investment)",
+    "Escalation of commitment (Staw: continuing a failing investment because of past spending)",
+    "Diffusion of innovations (Rogers: how and why organisations adopt new technologies)"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether investment appraisal techniques such as net present value are sufficient to prevent organisations from overspending on technology.",
+    "outline": [
+     "Explain how NPV and related appraisal methods are intended to ensure that investment creates value, and identify the forecasting assumptions on which they depend.",
+     "Assess the limits of these methods for technology investment, including intangible benefits, optimistic forecasts and the role of agency problems in shaping proposals.",
+     "Conclude with governance and strategic measures, such as stage gates, post-investment reviews and VRIO-based prioritisation, that address the gaps left by appraisal alone."
+    ]
+   }
+  },
+  {
+   "id": "d329a0e4fba4",
+   "title": "Half of Europe backs climate policy – only Germany acts on it",
+   "url": "https://blogs.lse.ac.uk/businessreview/2026/11/19/cop31-half-of-europe-backs-climate-policy-only-germany-acts-on-it/",
+   "source": "LSE Business Review",
+   "publishedAt": "2026-11-19T15:03:15Z",
+   "addedAt": "2026-11-23T00:49:04Z",
+   "basis": "full_text",
+   "takeaway": "The gap between European climate attitudes and behaviour is mainly a gap in infrastructure and institutions rather than conviction or information, and Germany shows that the gap can close when action becomes the easy default.",
+   "summary": "The author argues that the gap between what Europeans say about climate and what they do is not mainly a problem of conviction or information. Using Special Eurobarometer 550 (2024, 26,332 respondents across the EU27), a latent class analysis on sixteen indicators finds five segments. The largest, 47.1 per cent, combines high concern and strong support for EU regulation with only moderate behaviour, and the author calls the half of Europe in this position Concerned Policy Supporters. Household bill difficulty is not the dominant predictor of segment membership, while education and political views are more strongly associated, though the author stresses this is descriptive. In Germany's largest segment, concern (around 94 per cent) and observed behaviour (around 95 per cent) are almost equal, which the author attributes to decades of waste-management investment, deposit-return schemes, municipal recycling logistics and extended producer responsibility. He concludes that climate finance for infrastructure is likely to do more than further consumer-facing communication campaigns, and that policy should be segment-aware.",
+   "keyPoints": [
+    "The 2024 Eurobarometer segmentation of 26,332 EU citizens across 27 member states, using sixteen indicators, yields five classes with qualitatively different profiles.",
+    "The largest class (47.1 per cent) has high concern and the strongest support for EU environmental legislation, but only moderate behavioural engagement.",
+    "Comprehensive Eco-Citizens are 20.8 per cent; Chemically Concerned Pragmatists 14.2 per cent; Disengaged 12.9 per cent; a residual 4.9 per cent shows strong waste-reduction behaviour with only moderate attitudes.",
+    "Severe household bill-paying difficulty is not the dominant predictor of class membership, and is associated with higher Comprehensive Eco-Citizen membership; the author stresses this is descriptive, not causal.",
+    "In Germany the attitude-behaviour gap in the largest segment is effectively zero, whereas Italy shows the pooled pattern and France and Spain show smaller but visible gaps."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 70,
+     "reading": "In the language of People, Work and Organisations, this article is about the attitude-behaviour gap: individuals hold strong stated attitudes that do not reliably produce the behaviour that policy needs. The author places the constraint in the situation, the infrastructure and institutions that make action easy or hard, rather than in individual conviction or knowledge. A student of this module should care because it challenges the common assumption, in policy and in organisations, that changing attitudes or communicating more clearly will change behaviour."
+    },
+    {
+     "id": "green",
+     "relevance": 60,
+     "reading": "Green and Sustainable Logistics examines the environmental impact of logistics and the systems that return material into use. The article's central evidence is the German infrastructure of deposit-return schemes, municipal collection and extended producer responsibility, which are reverse flows and regulatory instruments of the kind the module treats as the basis of circularity. A student should care because it shows that circularity and decarbonisation depend on the design of collection networks and on who bears the cost, not only on public willingness."
+    },
+    {
+     "id": "marketing",
+     "relevance": 40,
+     "reading": "Strategic Marketing teaches segmentation, targeting and positioning, and the marketing mix. The article divides the EU population into five distinct profiles and argues that a single message aimed at the average citizen will misfire, which is the core logic of segmentation. It also implies that place, meaning the availability of the sustainable option, matters more than promotion for the largest segment. A marketing student should care because it applies segmentation to citizens rather than customers, which raises questions about the limits and legitimacy of targeting in public policy."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Cognitive dissonance (Festinger)",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Cognitive dissonance is the discomfort people feel when their beliefs and their actions conflict. Festinger argued that people are motivated to reduce this discomfort by changing their beliefs, changing their behaviour, or adding justifications that make the conflict seem smaller.",
+     "link": "The Concerned Policy Supporters, almost half the EU sample, hold strong concern and back regulation, yet their observed behaviour lags well behind. This is a conflict between cognition and action, and its persistence at scale suggests the usual ways of reducing dissonance are blocked. Changing behaviour is costly in time and effort where infrastructure is weak, so the easier route is to keep the attitude and accept the gap. The author's account, that friction is in the infrastructure rather than in conscience, implies the tension is external, and in Germany, where action has become easy, the tension largely disappears.",
+     "critique": "Dissonance theory predicts that people will shift their attitudes towards their behaviour, yet the article's data show that attitudes are already strong and that the problem is behaviour, so the theory's usual mechanism is not obviously at work. The survey also cannot show whether respondents feel any discomfort, and dissonance theory underplays structural constraints that the article treats as central.",
+     "practice": "A policymaker applying this theory should not simply exhort people to act on values they already hold. They should lower the cost of acting, for example through collection and return systems, so that behaviour becomes the easy route, and then track whether the gap narrows."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Contingency approach (Lawrence and Lorsch)",
+     "unit": "Unit 1 Understanding behaviour in organisations",
+     "theory": "The contingency approach holds that there is no single best way to organise or manage. The appropriate approach depends on the environment and the particular conditions an organisation or group faces, so effective practice comes from matching the approach to those conditions rather than applying one universal model.",
+     "link": "The article argues that the average citizen does not exist and that five segments with different profiles respond to different combinations of regulation, information and affordability. A single communication campaign misfires because it ignores these differing conditions, much as a universal organisational design fails when the environment varies. The Germany comparison shows that context, meaning waste systems and deposit schemes, shapes whether attitudes become action. The gap is smaller in France and Spain and largely absent in Germany's dominant segment, which indicates that the relevant conditions vary by country within the same policy framework.",
+     "critique": "Contingency theory is largely descriptive and hard to test, and it tends to identify the decisive contingency only after the event. The Germany finding is a single-country comparison, so the fit between infrastructure and behaviour may partly be coincidental, and the author's causal account rests on interpretation of associations.",
+     "practice": "A policy team applying this should diagnose the conditions facing each segment, such as income, locality and existing services, and match the instrument mix to each. It should review that fit periodically, because conditions change."
+    },
+    {
+     "moduleId": "green",
+     "concept": "Reverse logistics and closed-loop supply chains",
+     "unit": "",
+     "theory": "Reverse logistics is the flow of products and materials back from the point of consumption for return, recycling, remanufacture or disposal. A closed-loop supply chain is designed so that used products are recovered and fed back into production rather than discarded, and such flows depend on collection points, incentives and producer obligations.",
+     "link": "The article credits deposit-return systems for beverage packaging, visible municipal recycling logistics and extended producer responsibility regimes with making pro-environmental behaviour the path of least resistance in Germany. These are reverse flows that bring used packaging back to a collection point and recover it. Extended producer responsibility moves the cost of end-of-life collection to producers, which is a closed-loop design choice as much as a behavioural one. The author's point is that waste reduction depends on the network that moves material back into the system, not on consumers' intentions alone.",
+     "critique": "The article does not measure the logistics of Germany's schemes, their costs or their return rates, so its causal claim is an inference from association. Deposit-return and producer responsibility schemes can also shift costs and compliance burdens onto producers and consumers, and they may not transfer easily to materials or countries with different infrastructure.",
+     "practice": "A logistics or sustainability manager should map the return flow for each product, identify where collection barriers are highest, and design incentives and collection points that make return the default. Return rate should be the performance measure, so that progress is tracked in material recovered rather than in awareness."
+    },
+    {
+     "moduleId": "marketing",
+     "concept": "Market segmentation, targeting and positioning",
+     "unit": "",
+     "theory": "Segmentation divides a heterogeneous market into groups with similar needs or responses. Targeting selects which segments to serve, and positioning shapes how the offer is perceived within them. The approach assumes that segments respond differently to messages and offers, so a single mass message is usually less effective than one tailored to each group.",
+     "link": "The latent class analysis divides the EU27 public into five classes defined by joint patterns across sixteen indicators, not by demographics alone, and the author argues that a single communication aimed at one class will misfire against the others. Targeting then means choosing priorities: the author suggests that the largest class, at 47.1 per cent, needs infrastructure rather than more messaging, while smaller classes need different combinations. The article also effectively shifts emphasis within the marketing mix, placing the availability of the sustainable option, the place element, ahead of promotion.",
+     "critique": "Segmenting citizens is not the same as segmenting customers: government cannot choose its audience in the way a firm can, and targeting raises equity and legitimacy concerns. The segments are statistical classes from one survey, and their stability over time and their usefulness for targeting are not demonstrated.",
+     "practice": "A marketer applying this should profile each segment by the drivers of its behaviour, select one or two priority segments, and choose the lever, whether product, price, place or promotion, that suits each. The response should be tested rather than assumed."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national government wants to increase household recycling and the purchase of sustainable products. A survey shows that most citizens say they support strong climate policy, but their reported behaviour lags well behind. With a limited budget, ministers must choose between a national awareness campaign and investment in collection networks, deposit-return schemes and affordability support.",
+    "question": "Critically evaluate whether the government should prioritise communication campaigns or infrastructure investment to close the gap between citizens' attitudes and behaviour, and advise on how it should segment its approach. Use theory from People, Work and Organisations.",
+    "evidence": [
+     "Almost half of EU citizens (47.1 per cent) combine high environmental concern and strong support for regulation with only moderate behavioural engagement.",
+     "In Germany's largest segment, environmental concern is around 94 per cent and observed behaviour around 95 per cent, so the gap is effectively zero.",
+     "Severe household bill-paying difficulty is not the dominant predictor of segment membership, while education and political views are more strongly associated, though the author stresses this is descriptive.",
+     "Germany's result is attributed to decades of waste-management investment, deposit-return schemes, municipal recycling logistics and extended producer responsibility."
+    ],
+    "plan": [
+     "Diagnose the gap by distinguishing attitudes from behaviour and explaining, using cognitive dissonance (Festinger), why stated support may not produce action.",
+     "Segment the population using the five classes, and argue with the contingency approach (Lawrence and Lorsch) that one message for the average citizen will misfire against the others.",
+     "Test the cost-of-living and information explanations against the evidence, noting that the associations are descriptive and that information is unlikely to be the binding constraint for the largest segment.",
+     "Use the German comparison to argue that contextual facilitation matters, and apply Lewin's force field analysis to identify the driving and restraining forces for each segment.",
+     "Weigh the options of infrastructure investment for the largest segment against targeted information and affordability support for smaller segments, considering cost, time to effect and equity.",
+     "Recommend prioritising infrastructure investment for the Concerned Policy Supporters, targeted measures for the other segments, and tracking of return and behaviour rates to test whether the gap narrows."
+    ],
+    "pitfalls": [
+     "Treating Germany's near-zero gap as proof that infrastructure causes the gap to close; the article's comparison is of associations and the infrastructure explanation is the author's interpretation, which a strong answer should acknowledge and propose a way to test.",
+     "Concluding from the cost-of-living finding that household finances do not matter; the article says only that bill difficulty is not the dominant predictor in a descriptive analysis, and it notes that severe difficulty is associated with higher Comprehensive Eco-Citizen membership."
+    ]
+   },
+   "alsoConsider": [
+    "Theory of planned behaviour (Ajzen)",
+    "Lewin's force field analysis",
+    "Nudge theory (Thaler and Sunstein)"
+   ],
+   "exam": {
+    "question": "To what extent is the gap between people's attitudes and their behaviour a matter of individual conviction, and to what extent a matter of the context in which they act? Discuss with reference to theories of attitudes, individual differences and situational influences on behaviour.",
+    "outline": [
+     "Define the attitude-behaviour gap and explain, with cognitive dissonance, why stated attitudes do not always predict action.",
+     "Assess individual differences using the segmentation evidence, arguing that one-size-fits-all approaches fail under a contingency view.",
+     "Evaluate the role of context and infrastructure, weighing the evidence and its limits on causation, and reach a reasoned conclusion."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "06320c5c49c4",
+   "title": "The $1bn parking question – STB says railroads can charge even when cars and land are private",
+   "url": "https://theloadstar.com/the-1bn-parking-question-stb-says-railroads-can-charge-even-when-cars-and-land-are-private/",
+   "source": "The Loadstar",
+   "publishedAt": "2026-11-20T15:25:59Z",
+   "addedAt": "2026-11-23T00:49:04Z",
+   "basis": "full_text",
+   "takeaway": "A regulator's ruling that a dominant rail carrier can charge demurrage on privately owned railcars parked on private land shows how a supplier's control of a scarce resource can turn into power over its customers, and how that power is shaped by rules set outside the firm.",
+   "summary": "The Loadstar reports that CSX and Norfolk Southern collected nearly $1 billion in demurrage revenue in 2021. A Surface Transportation Board ruling of 17 November reinforced the railroads' authority to charge for private railcars held at a Pennsylvania industrial park, after a dispute that produced a $354,000 court judgment. The article's central point is that the railcars and the land are both privately owned, yet the railroad can still charge for the time the cars are parked. The article is paywalled and truncated, so only the lead is available. The remaining text is a list of headlines about other freight stories, which I have not analysed. The analysis below rests on the lead alone, so claims about the wider market or the dispute's detail are not supported by this text.",
+   "keyPoints": [
+    "CSX and Norfolk Southern collected nearly $1 billion in annual demurrage revenue in 2021, according to the article.",
+    "A Surface Transportation Board ruling dated 17 November reinforced the railroads' authority to charge for private railcars held at a Pennsylvania industrial park.",
+    "The railcars and the land at the centre of the dispute are privately owned, but the article says the railroad can still charge for parking.",
+    "The dispute produced a court judgment of $354,000.",
+    "The article is paywalled and truncated; the other items in the feed are headlines only and are not analysed here."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 75,
+     "reading": "In logistics operations, demurrage is an accessorial charge that sits outside the headline freight rate but can add materially to the total cost of moving goods by rail. The ruling matters because it determines how far a carrier can levy such charges on railcars held at a customer's own site, which directly affects dwell time, equipment utilisation and the cost-service trade-off. A logistics student should read it as an example of costs that are hard to see in a rate sheet but significant in total logistics cost."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 55,
+     "reading": "From a purchasing perspective, shippers are buyers of rail capacity and rail carriers are suppliers in a relationship where the supplier controls a scarce service. The article shows how a supplier's regulatory standing can shift the terms of that relationship, leaving the buyer to absorb charges it may not have expected. A purchasing student should consider whether such terms are visible in supplier evaluation and total cost of ownership, and whether the buyer has any real alternative supplier."
+    },
+    {
+     "id": "pwo",
+     "relevance": 35,
+     "reading": "In People, Work and Organisations, the case is a dependence relationship between organisations, where one party holds a resource the other needs and can use it to extract concessions. The ruling also shows that the rules of the relationship are settled by a third party, here a regulator, rather than by the parties alone. This makes it a useful illustration of resource dependence and of the distinction between having power and being able to exercise it."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "logops",
+     "concept": "Total logistics cost and the cost-service trade-off",
+     "unit": "",
+     "theory": "Total logistics cost is the sum of all costs incurred in moving and holding goods, including transport, storage, inventory, handling and accessorial charges, and not just the headline freight rate. Managers minimise this total subject to a service level, because cutting one cost often raises another. Accessorial charges such as detention and demurrage are a common source of hidden cost that falls outside the basic rate.",
+     "link": "The article reports that nearly $1 billion of demurrage revenue was collected by two US carriers in 2021, which indicates that these charges are a large and recurring cost in the system rather than an occasional penalty. The Surface Transportation Board's ruling that railroads can charge on privately owned cars held on private land changes where that cost falls and who controls the time that drives it. In total-cost terms, a shipper's decisions about how quickly it unloads and returns equipment therefore carry a direct charge that a simple rate comparison would miss. The $354,000 judgment shows the cost is not hypothetical and can be contested through formal channels.",
+     "critique": "Total cost frameworks assume the firm can see and control the cost drivers, but here the decisive variable, the regulatory rules on demurrage, sits outside the logistics function. A pure cost model therefore understates the importance of the legal and regulatory environment.",
+     "practice": "A logistics manager should map accessorial charges in every rail contract, estimate them in the total cost model, and set operational targets for railcar dwell time. Where the cost is material, the manager should negotiate free-time terms and monitor demurrage invoices, and should review the legal position with counsel before assuming the charges are avoidable."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Power in buyer-supplier relationships (Cox)",
+     "unit": "",
+     "theory": "Cox argues that the balance of power in a buyer-supplier relationship depends on the relative scarcity of what each party needs from the other and on the alternatives each has. Where the buyer is dependent on a scarce supply with few substitutes, the supplier holds the power and can set terms. Purchasers can rebalance this by building alternatives, diversifying sources or changing the nature of the exchange.",
+     "link": "The article describes a case in which the railroads hold a service that shippers need, and the ruling reinforces their ability to charge even where the shipper owns both the railcars and the land. That fits Cox's view that the supplier's power comes from control of a scarce resource and not from the goodwill of the relationship. The reference to a dispute that reached court suggests the shipper had limited scope to avoid the charge through ordinary commercial means. The fact that the outcome was set by a federal regulator also suggests that the power balance was settled outside the buyer-supplier relationship itself.",
+     "critique": "Cox's framework focuses on the commercial relationship and gives less weight to regulation, which in this case appears to have decided the outcome. A purchaser who analyses only the commercial alternatives may therefore misjudge its leverage.",
+     "practice": "A purchasing manager facing this situation should assess the realistic alternatives to rail, such as trucking or intermodal options, and the cost of switching. The manager should also seek contract terms that set free time and charges clearly, and should consider joining or monitoring regulatory processes through trade bodies."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on others for critical resources, and that those who control resources that are scarce, important and not easily replaced gain power over those who depend on them. Power is therefore located in the structure of dependence between organisations, not only in formal authority. Organisations respond by reducing their dependence, for example through diversification, contracts, mergers or by influencing the external environment.",
+     "link": "The railroads control access to rail transport, which the shippers depend on, and the article shows that this dependence is backed by a charging right that the regulator has confirmed. The ruling that the railroads can charge even when cars and land are private indicates that the power extends to the shipper's own assets, so the dependence is not limited to the transport service. The $354,000 judgment shows a dispute being resolved through a formal channel, which is consistent with Pfeffer and Salancik's view that organisations influence the environment through legal and political means. The article's figures on total demurrage revenue indicate how much value this dependence yields to the carriers.",
+     "critique": "Resource dependence theory explains where power comes from but says less about how the weaker party can use legitimate means to change the balance, and it underplays the role of institutions such as regulators in shaping the outcome. Lukes's three-dimensional view would also ask whether shippers have accepted these terms without seeing an alternative.",
+     "practice": "A manager of the dependent organisation should map the resources it depends on, judge which are scarce and replaceable, and reduce dependence where possible by building alternatives. The manager should also engage with the external bodies, such as regulators and industry associations, that set the rules of the dependence relationship."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A regional manufacturer holds rail cars for loading at a private industrial park it owns. A dominant rail carrier with few local alternatives begins charging storage fees on those cars after the agreed free time, and the manufacturer disputes the charges. A regulator ultimately rules that the carrier may charge even though the cars and land are privately owned, and a court later awards the carrier a judgment against the manufacturer.",
+    "question": "Critically evaluate the sources of the carrier's power over the manufacturer, and advise the manufacturer's board on how it should respond.",
+    "evidence": [
+     "The article reports that CSX and Norfolk Southern collected nearly $1 billion in demurrage revenue in 2021.",
+     "A Surface Transportation Board ruling of 17 November reinforced the railroads' authority to charge for privately owned railcars held at a Pennsylvania industrial park.",
+     "The article states that the railcars and land are privately owned, yet the railroad can still charge for parking.",
+     "The dispute produced a court judgment of $354,000."
+    ],
+    "plan": [
+     "Define the relationship as one of resource dependence, identifying the rail service as the scarce resource the manufacturer needs (Pfeffer and Salancik).",
+     "Assess how scarce and replaceable the rail service is, considering the availability of alternatives such as trucking or other carriers, and whether the manufacturer's dependence is high.",
+     "Show that the carrier's power extends beyond the transport service to the manufacturer's own assets, because the regulator upheld the charging right, and note that the power rests on rules set by a third party.",
+     "Apply Lukes's three dimensions to ask whether the manufacturer has accepted these terms because it sees no alternative, and whether the dispute was reframed by the regulatory outcome.",
+     "Recommend that the board reduce dependence by building alternative logistics options, negotiate clearer free-time and charge terms, and engage with regulators and trade bodies to influence future rules."
+    ],
+    "pitfalls": [
+     "Treating the carrier's power as only a matter of contract or bargaining skill and ignoring the structural dependence and the regulatory context that the article highlights.",
+     "Presenting the regulator's ruling as a general statement about all rail charges, when the article reports a specific ruling on a particular set of facts."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Williamson's transaction cost economics",
+    "Total cost of ownership"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that power in inter-organisational relationships is best explained by resource dependence, drawing on an example in which a regulator, rather than the parties themselves, determines the outcome of a dispute.",
+    "outline": [
+     "Define resource dependence and explain how scarcity, importance and substitutability create power for one organisation over another (Pfeffer and Salancik).",
+     "Use a specific example to show how dependence can be extended to assets the weaker party owns, and how a third party's rules can reinforce that power.",
+     "Evaluate the limits of the theory, including its weaker account of legitimacy, institutions and the weaker party's options, and conclude with a balanced judgement."
+    ]
+   },
+   "readingMinutes": 1
+  },
+  {
+   "id": "65213bfd4605",
+   "title": "14 charged in $22.5 million cargo theft ring that stopped moving freight trains",
+   "url": "https://www.freightwaves.com/news/14-charged-in-22-5-million-cargo-theft-ring-that-stopped-moving-freight-trains",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-20T13:57:54Z",
+   "addedAt": "2026-11-23T00:49:04Z",
+   "basis": "full_text",
+   "takeaway": "Organised criminals allegedly halted freight trains by cutting air hoses, using divided roles and a resale network. For PWO the case shows power, roles and group norms operating in an informal network with no formal structure. For supply chain students it exposes in-transit security as a resilience gap.",
+   "summary": "Federal prosecutors have charged 14 people over an alleged conspiracy to steal freight from trains in Southern California, with alleged losses of $22.5 million. The 17-count indictment names Nathan Daniel Angel and 13 co-defendants. According to prosecutors, crews cut train air hoses so that emergency brakes stopped the trains, and then removed high-value consumer goods such as branded sneakers, power tools and electronics. Roles were divided: a coordinator selected locations, some members boarded trains or watched the surroundings, drivers moved goods to residences, and others inventoried products, negotiated prices and arranged sales. Goods were allegedly sold to a Los Angeles resale business referred to as Company 1, which paid about $1.08 million between May and October 2025. The company is not charged in this indictment. Investigators rely heavily on messages, photographs and financial records, and all defendants are presumed innocent unless proven guilty.",
+   "keyPoints": [
+    "The alleged conspiracy involved 14 charged people, a 17-count indictment and more than 70 containers over a period from early 2024 to August 2026.",
+    "The method was to cut air hoses so that emergency brakes stopped trains, which allowed cargo to be removed without access to traditional cargo facilities.",
+    "Roles were specialised: coordinator, spotters, train riders, drivers, inventory and price negotiators, storage holders and social media resellers.",
+    "Goods were allegedly sold through a resale business whose purchases exceeded $1 million, with sales arranged through messages, cash and wire transfers.",
+    "The indictment stresses safety risks: sudden stops can damage couplers, separate equipment and derail railcars, and some counts concern railroad personnel."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 70,
+     "reading": "This is a supply chain security and resilience problem. The goods were exposed in transit by rail, away from the warehouses and gates where most controls sit, and a single act at one link disrupted a multi-state network. For SCM students, the case shows that theft is a disruption whose effects spread to carriers, shippers and resale buyers, and that visibility tools can be countered by criminals who look for them."
+    },
+    {
+     "id": "pwo",
+     "relevance": 50,
+     "reading": "In the language of this module, the case is an informal network in which people with different expertise and roles coordinate risky action in secret. Power appears to rest on who decides where and when to act, who holds technical know-how about train systems, and who controls the money. The shared group identity and celebration of successful stops show how group norms and cohesion can sustain behaviour that the members would otherwise find unacceptable, and students should consider how far theories built for legitimate firms apply to such settings."
+    },
+    {
+     "id": "logops",
+     "relevance": 40,
+     "reading": "For logistics operations, the case concerns freight transport security. Rail carries high-value consumer goods with limited protection between origin and destination, and the thieves treated the train itself as the point of access. The losses, the cost of recovery and the disruption to schedules are logistics costs that a freight rate does not show, and they matter to anyone choosing a mode or route."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Supply chain resilience is the ability of a network to withstand disruption and recover to a stable state. Christopher and Peck argue that resilience is built through visibility, flexibility, collaboration and redundancy, and that vulnerability is often concentrated at particular links that are poorly protected. Risk should therefore be mapped across the whole network and not treated only at the factory or warehouse.",
+     "link": "The article shows exposure at a link that shippers rarely guard closely: freight in transit by rail from the ports of Los Angeles and Long Beach. A single action at one point, cutting air hoses, stopped the train and allowed the theft, and the goods then moved through several stages to resale buyers across the network. This shows how one vulnerability can spread losses to the shipper, the carrier and the buyer. The alleged discussion of trackers inside boxes shows that visibility tools can be detected and countered, so visibility on its own is not enough.",
+     "critique": "Christopher and Peck's framework was developed mainly for accidental or natural disruption. A deliberate adversary adapts to defences, so security needs a threat-based approach as well as a general risk map.",
+     "practice": "A logistics manager should map in-transit exposure by lane and carrier, and prioritise high-value products such as footwear and electronics. Tamper-evident seals, alerts for unexpected train stops, concealed or layered tracking, and coordination with the rail carrier and police would reduce exposure. The manager should also monitor resale channels, since that is where stolen stock reappears."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "French and Raven's bases of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "French and Raven identified five bases of power: legitimate (formal authority), reward (control of rewards), coercive (ability to punish), expert (specialist knowledge) and referent (attraction or identification). Power is a relationship between people, and an individual may draw on several bases at once. Each base can be used to influence others to act in ways they might not otherwise choose.",
+     "link": "The article describes a coordinator who chose locations and directed others, which suggests he drew on more than one base. His control over where trains were stopped and the cash and deliveries that rewarded participants points to reward power. Another participant's technical ability to disable the brake system gave expert power within the operation. The group named after trains and its celebration of successful stops suggests referent power, as members identified with one another and with the leader's direction.",
+     "critique": "The model describes power in legitimate settings and does not explain how power in illegal networks depends on secrecy and trust. Lukes's third dimension would also ask whether the coordinator shaped what participants wanted, which is not visible in the text.",
+     "practice": "A manager in a legitimate firm should audit whether operations depend on single individuals with unique expertise, such as one person who knows a critical system. Reducing such dependence through documentation, cross-training and shared oversight limits the risk that one person's power can be misused."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Group norms and cohesiveness (with Janis's groupthink)",
+     "unit": "Unit 4 Team dynamics",
+     "theory": "Norms are shared standards of behaviour that a group enforces on its members, and cohesiveness is the degree to which members are attracted to the group and to one another. Highly cohesive groups can perform well, but they can also enforce norms that suppress dissent and discourage outside views. Janis's groupthink describes this risk when group loyalty overrides realistic appraisal of risks.",
+     "link": "The alleged Instagram group 'Los Trenes' shared images, shipment information and celebratory messages after successful stops, which suggests a strong sense of shared identity. The division of labour, in which spotters, riders, drivers and sellers depended on one another, points to cohesion built around a common task. The messages quoted celebrate success, while the indictment itself highlights the dangers of emergency braking, which suggests the group's shared norms may have overridden attention to risk. The text does not show members questioning the operation, so this is an inference from the messages.",
+     "critique": "Cohesion theory was built for legitimate teams with shared organisational goals. Applying it to a criminal group raises the question of whether cohesion caused the risky behaviour or resulted from shared gains, and the norms here are inferred from allegations.",
+     "practice": "A manager of a legitimate team should recognise that strong norms can promote unsafe shortcuts. They should set explicit safety norms, invite challenge, and reward reporting of hazards. Drawing on Janis's advice, they could assign someone to play a critical role or seek views from outside the group before major decisions."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Total logistics cost and the cost-service trade-off",
+     "unit": "",
+     "theory": "Total logistics cost is the sum of all costs of moving and storing goods, including transport, inventory holding, warehousing, administration and the costs of losses and failed service. Managers balance these costs against service levels, because reducing cost in one area can raise cost elsewhere.",
+     "link": "The article reports alleged losses of more than $22 million and single incidents valued at hundreds of thousands of dollars, with shipments disrupted across several states. In total-cost terms, these losses sit alongside recovery, delay, insurance and possible derailment costs, none of which appears in a freight rate. A shipper looking only at rail rates would miss these costs, and the article shows that losses can be large and concentrated on a few high-value consignments.",
+     "critique": "The concept is useful but measures mainly costs that can be recorded. Reputational harm, the risk to railroad workers and the wider social cost are hard to quantify and are often left out of the model.",
+     "practice": "A logistics manager should add expected theft losses, security investment and claim costs to the total cost model for each lane and mode. They should then compare routings and service options on this full basis rather than on rate alone."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A freight shipper moves high-value footwear and electronics by rail from a West Coast port to distribution centres in several states. Over a period of about two years, a group of people is alleged to have stopped several trains by cutting air hoses, with roles divided between coordinators, train-riders, drivers and sellers. Some of the stolen stock is alleged to have been bought in volume by a resale business that did not question its origin.",
+    "question": "Critically evaluate how power, informal roles and group norms help to explain how the ring operated, and advise the shipper's management on how to reduce the risk that a similar network develops or exploits its operations.",
+    "evidence": [
+     "Prosecutors allege that a coordinator chose locations and directed participants, while others boarded trains, drove vehicles, monitored areas, inventoried goods and negotiated sales.",
+     "Investigators say a text exchange moved from a question about where to act to a precise map location within minutes.",
+     "The alleged Instagram group 'Los Trenes' shared images and messages that celebrated successful stops.",
+     "Prosecutors say the resale business paid approximately $1.08 million for goods between May and October 2025."
+    ],
+    "plan": [
+     "Define informal organisation and the roles within the ring, making clear that all the activity is alleged and that the defendants are presumed innocent.",
+     "Apply French and Raven's bases of power to identify the sources of the coordinator's influence, such as expert, reward and referent power, and show how each was used.",
+     "Apply group norms and cohesiveness, with Janis's groupthink, to explain why the group sustained risky behaviour and celebrated successful stops.",
+     "Use Lukes's three dimensions of power to consider whether the coordinator shaped preferences as well as decisions, and evaluate the limits of the evidence.",
+     "Relate the findings to the shipper's own structures, identifying where its operations rely on single experts or informal arrangements that could be exploited.",
+     "Recommend reducing dependence on single individuals, setting explicit safety norms with channels for raising concerns, and monitoring informal networks, then conclude."
+    ],
+    "pitfalls": [
+     "Presenting the allegations as proven fact rather than writing 'prosecutors allege' and recognising the presumption of innocence.",
+     "Labelling the ring a team and applying team and power theories without evaluating whether they fit a criminal setting built on secrecy and trust."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Pfeffer and Salancik's resource dependence theory",
+    "Katzenbach and Smith on groups versus teams",
+    "Mintzberg's political games"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether theories of power and team dynamics developed for legitimate organisations can explain the behaviour of informal networks that operate outside the law, using a recent case of organised crime as evidence.",
+    "outline": [
+     "Define the bases of power and group norms, and show how each applies within an informal network using examples from the case.",
+     "Critically assess the limits of these theories in a setting of secrecy, illegality and deception, including Lukes's view of hidden power.",
+     "Conclude with practical implications for managers seeking to reduce the risk that informal networks cause harm within their own organisations."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "39f040c0d183",
+   "title": "Wind and solar projects face £1 starting budgets in latest CfD auction",
+   "url": "https://www.edie.net/wind-and-solar-projects-face-1-starting-budgets-in-latest-cfd-auction/",
+   "source": "edie",
+   "publishedAt": "2026-11-20T00:01:20Z",
+   "addedAt": "2026-11-23T00:49:04Z",
+   "basis": "full_text",
+   "takeaway": "Setting nominal £1 budgets turns the auction into a staged, option-like commitment in which government controls the money and developers bear the uncertainty, which is a clear case of resource-based power and stakeholder conflict for PWO Unit 5.",
+   "summary": "The UK government has set nominal starting budgets of £1 for the wind and solar pots (Pots 1 to 4) in the eighth Contracts for Difference allocation round (AR8), and zero for the emerging technologies pot (Pot 5). The energy secretary can revise budgets after seeing anonymised bids, a power first used for offshore wind and now extended to solar, onshore wind and floating offshore wind. Ministers say increases are not guaranteed and need Treasury agreement. Industry bodies welcome value-for-money scrutiny but warn that uncertainty about how budgets will be revised could damage investor confidence, while RenewableUK points to a precedent where the offshore budget more than doubled in the previous round. Sealed bids open in early December, final budget decisions are due in early 2027, and results are due in February.",
+   "keyPoints": [
+    "Initial budgets for Pots 1 to 4 are set at a notional £1, so no project clears under the starting budget and all bids are seen anonymously.",
+    "The energy secretary's power to raise budgets after reviewing bids was introduced for offshore wind and is now applied to solar, onshore wind and floating offshore wind.",
+    "Pot 5 for emerging technologies has zero budget and will not be revised upwards, with the government prioritising affordability and near-term delivery at scale.",
+    "Budget increases depend on bids showing strong value for money and on Treasury agreement, so the decision rests with a small group of government actors.",
+    "Industry bodies hold different positions: RenewableUK backs the government's value-for-money focus and wants the budget raised if prices are competitive, while Energy UK wants clarity on how budgets will be revised."
+   ],
+   "modules": [
+    {
+     "id": "finance",
+     "relevance": 78,
+     "reading": "The article describes a capital allocation decision made under uncertainty, where the state commits funds only after learning what developers will accept. Real options and agency theory explain why a notional £1 budget has value: it keeps the option to expand while the government gathers information on bid prices. A finance student should also see the information problem, since developers know their true costs and the government is the party that must decide how much to fund."
+    },
+    {
+     "id": "pwo",
+     "relevance": 62,
+     "reading": "In organisational behaviour terms, this is a story about power over scarce resources and conflict between interest groups. Ministers and the Treasury control the funding, developers depend on it, and trade bodies and campaigners press for different outcomes, so the case maps onto power, politics and conflict in Unit 5. It also shows how a change in the rules (the expanded budget powers and the forthcoming reforms ahead of AR9) can unsettle the people who must respond to it."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 48,
+     "reading": "The government is effectively acting as a buyer running a competitive procurement, with bidders competing on price and the buyer deciding how much capacity to contract. Purchasing theory on buyer-supplier power and competitive tendering helps explain why the buyer wants to see prices before committing and why suppliers worry about being squeezed or left without a clear route to contract."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "finance",
+     "concept": "Real options (Myers, 1977)",
+     "unit": "",
+     "theory": "A real option is the right, but not the obligation, to take an action later, such as expanding, delaying or abandoning an investment, as uncertainty is resolved. Static net present value can understate the value of this flexibility, so decision-makers may rationally commit in stages. The option is valuable when uncertainty is high and the decision-maker can wait for information before spending.",
+     "link": "The £1 starting budget works like a staged commitment: the government holds back material funding while it observes the prices developers are prepared to offer, and keeps the option to raise budgets if bids show strong value for money. The article's precedent, in which the offshore budget more than doubled after bids came in, shows the option being exercised in a previous round. Because the notional figure is a placeholder rather than a commitment, developers cannot treat it as a known funding ceiling when pricing their bids. The option is held by the government alone, so the value of the flexibility sits with the buyer and the uncertainty sits with the sellers.",
+     "critique": "Real options analysis usually assumes that the option holder bears the uncertainty and can act on it, but here the government holds the option while developers bear the cost of not knowing whether budgets will rise, and the Treasury's agreement is an extra condition. The text also says an increase is not guaranteed, so developers may be pricing an option they cannot count on.",
+     "practice": "A developer should value its bid as the project's net present value plus the value of any expansion it might win, but should discount that expansion because the budget revision is discretionary. A government wanting credible flexibility should publish the criteria and timing for budget revisions so that bidders can price the option fairly, which is the clarity Energy UK asks for."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Agency theory (Jensen and Meckling)",
+     "unit": "",
+     "theory": "Agency theory examines the relationship in which a principal delegates work to an agent who has more information and may not act purely in the principal's interest. Information asymmetry creates adverse selection before a contract and moral hazard after it, and principals reduce these problems through screening, monitoring and incentive design. The aim is to align the agent's behaviour with the principal's objectives at a reasonable cost.",
+     "link": "Developers know their true costs, while ministers and bill-payers, the principal in the arrangement, do not. Setting a notional budget and viewing all bids anonymously is a screening mechanism designed to reveal the agents' real price before any material funding is committed. The competitive field the article describes, with 17 gigawatts of offshore wind eligible against the UK's operational fleet, gives the principal a range of options to compare. The government's reliance on Treasury agreement shows that the principal itself has an agent layer, which complicates the simple model.",
+     "critique": "The model assumes a single principal with clear preferences, but the government here balances bill relief, energy security, industrial strategy and fiscal limits, and these goals may conflict. Its screening can also backfire if the revision process itself becomes a source of mistrust, which reduces the number of bids a competitive auction needs.",
+     "practice": "A government running this type of auction should keep the screening benefit of anonymous bids while publishing transparent rules for revisions, so that developers do not overprice to protect themselves. Developers should disclose costs credibly within the rules, since the auction rewards accurate bids that are competitive on price."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on external actors for resources they need to survive, and that those who control critical resources gain power over dependent organisations. Dependence is shaped by how essential the resource is and how few alternative sources exist. Organisations respond by managing the dependence, for example by diversifying suppliers, negotiating or building relationships with the controlling party.",
+     "link": "Developers depend on the government for access to the auction and on the Treasury for the funding that makes it possible, so the power to allocate money sits with a few actors. The discretion to revise budgets only after seeing bids gives ministers leverage over what developers offer. The sector's response, including collective statements through RenewableUK and warnings through Energy UK, is the kind of collective action the theory predicts when individual developers have little bargaining power. The government's dependence on bids at acceptable prices gives developers some counter-power.",
+     "critique": "Resource dependence explains the source of power well but says less about legitimacy and framing: ministers justify their control with the language of value for money and consumer protection, and this framing may matter as much as control of money. The theory also treats dependence as fixed, when developers can change their bidding strategy and timing.",
+     "practice": "A developer facing a dependence of this kind should map which actors control which resources, including funding, planning and grid access, and assess where its alternatives are. It should coordinate with others through industry bodies to present a united case, while building direct relationships with the officials who make the final decision."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Fox's unitarist, pluralist and radical perspectives on conflict",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Alan Fox distinguished three ways of viewing conflict in organisations. The unitarist view sees the organisation as a single team with shared goals, so conflict is a malfunction. The pluralist view sees organisations as coalitions of groups with different interests, so conflict is normal and should be managed through negotiation. The radical view sees conflict as rooted in structural inequality between classes or groups, so it cannot be resolved by negotiation alone.",
+     "link": "The article contains several stakeholder positions that differ: the government wants value for money and control over what it buys, developers want budgets that reflect the investment they must make, Energy UK wants certainty, and the Energy and Climate Intelligence Unit wants policy stability and criticises cuts to other low-carbon policies. The government frames its reforms as serving all, which is a unitarist claim, while the industry responses are pluralist, bargaining over budgets and timing. The phrase 'unprecedented state oversight' in the article points to a radical reading in which the imbalance of power is structural.",
+     "critique": "Pluralism may understate the imbalance of power because the government sets the rules, the budgets and the timetable, so negotiation takes place on terms it controls. A purely pluralist reading would also struggle to explain why developers accept rules they consider unfavourable, which suggests the radical concern about structural dependence is relevant.",
+     "practice": "A manager applying this analysis should first identify which view its own stakeholders hold, then use negotiation and transparency to manage pluralist conflict while recognising the structural asymmetry. Developers should seek clear and binding revision criteria, and government should expect the conflict to persist if the rules remain discretionary."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national government running a competitive renewable energy auction sets nominal starting budgets of £1 for most technology pots, so that it can see all bids anonymously before deciding how much funding to commit. The emerging technologies pot is given no budget at all. Developers and trade bodies warn that the discretionary approach undermines investor confidence, while the government argues that it is protecting consumers and value for money. Final budget decisions are not due until after the bidding window closes.",
+    "question": "Critically evaluate the power and conflict dynamics between the government, developers and industry bodies in this auction, and advise the developers' trade body on how it should respond to the government's approach.",
+    "evidence": [
+     "Starting budgets for Pots 1 to 4 are set at a notional £1, and the energy secretary can revise them after seeing anonymised bids, with the government stating that increases are not guaranteed and subject to Treasury agreement.",
+     "The emerging technologies pot has zero budget and will not be revised upwards, which the department justifies by prioritising affordability and near-term delivery.",
+     "RenewableUK says that more than 17 gigawatts of offshore wind is eligible to bid, and that in the previous round the initial offshore budget more than doubled once bids came in, and asks government to respond with the same ambition.",
+     "Energy UK says it is crucial that developers have clarity and confidence in how budgets will be revised, and the Energy and Climate Intelligence Unit warns that abandoning policies before they have worked risks repeating a familiar mistake."
+    ],
+    "plan": [
+     "Identify the stakeholders and their interests, distinguishing the ministers, the Treasury, developers, trade bodies and consumer-focused groups, and note where their interests conflict.",
+     "Apply resource dependence theory to show that ministers and the Treasury control the critical resource of funding, so developers are dependent and the government holds most of the power in the relationship.",
+     "Use Fox's three perspectives to assess the conflict: the government's value-for-money framing is unitarist, the industry responses are pluralist, and the discretionary powers can be read through a radical lens of structural asymmetry.",
+     "Evaluate whether the conflict is functional or dysfunctional, using Pondy's distinction, by considering whether it produces better bids and clearer rules or whether it deters investment and undermines trust.",
+     "Recommend that the trade body press for transparent and binding revision criteria and a timetable, while building direct relationships with decision-makers and presenting a united industry case based on evidence of competitive prices."
+    ],
+    "pitfalls": [
+     "Treating the government as a single unitary actor, when ministers, the Treasury and the department have different priorities and the Treasury holds a separate veto.",
+     "Describing the £1 figure as a real funding limit rather than a notional placeholder, which misreads the mechanism and weakens the analysis of uncertainty."
+    ]
+   },
+   "alsoConsider": [
+    "French and Raven's bases of power (reward, legitimate and expert power)",
+    "Lukes's three dimensions of power",
+    "Pondy's functional and dysfunctional conflict",
+    "Cox's power in buyer-supplier relationships"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that power in organisations derives mainly from control of scarce resources. Illustrate your answer with a situation in which a body controlling funding sets allocations before it sees bids from dependent parties, and assess whether the resulting conflict is functional or dysfunctional for the organisation.",
+    "outline": [
+     "Define resource dependence theory and the bases of power, and explain how control of funding gives one party leverage over others.",
+     "Apply the theory to the auction, showing how the discretionary budget, the Treasury condition and the timing of decisions shape the behaviour of developers and industry bodies.",
+     "Critically assess the view by weighing the pluralist and radical readings of conflict and the functional or dysfunctional effects, then reach a reasoned conclusion."
+    ]
+   },
+   "readingMinutes": 6
+  },
+  {
+   "id": "94523380ba7d",
+   "title": "From a collapsed deal to the ‘age of electricity’: The 10 biggest stories from COP31",
+   "url": "https://www.edie.net/from-a-collapsed-deal-to-the-age-of-electricity-the-10-biggest-stories-from-cop31/",
+   "source": "edie",
+   "publishedAt": "2026-11-22T13:45:07Z",
+   "addedAt": "2026-11-23T00:49:04Z",
+   "basis": "full_text",
+   "takeaway": "The COP31 story is about power and conflict among parties with unequal resources and interests. The summit produced no agreed text, while corporate coalitions advanced electrification commitments on a separate track. Read through PWO's power, politics and conflict unit, the article gives evidence for resource dependence, pluralist versus radical views of conflict, and the effects of an absent form",
+   "summary": "The edie article is a paywalled roundup, and only its introduction is available here. It reports that COP31 in Antalya, described as the longest summit in the history of international climate negotiations, ended with no final text after three draft texts failed to reach consensus, and that several nations refused to back a deal that did not mention fossil fuels. It says governments and corporate coalitions pursued separate tracks, with corporate coalitions committing billions to electrification while major economies largely withdrew from the negotiating floor. It also reports disagreement over scientific timelines and adaptation funding between developed nations and frontline states, and states that corporate influence grew in the vacuum left by absent leaders, with corporate representatives outnumbering vulnerable delegations. The other headlines listed are not covered in the text provided, so this note does not rely on them.",
+   "keyPoints": [
+    "No final text was agreed after three draft texts, making it the longest summit in the history of climate negotiations.",
+    "Several nations refused a deal that did not mention fossil fuels, so the disagreement was about the content of the text as well as its process.",
+    "Governments and corporate coalitions worked on separate tracks, with corporate coalitions committing billions to electrification.",
+    "Major economies largely withdrew from the negotiating floor, which left a leadership vacuum.",
+    "Corporate representatives reportedly outnumbered vulnerable delegations, so influence was unevenly distributed."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 60,
+     "reading": "In PWO terms, the summit is a multi-party bargaining arena in which power, politics and conflict decide the outcome. Parties with control over resources such as funding, investment and access to markets appear to have shaped the agenda, while vulnerable delegations were outnumbered and could not secure adaptation funding. The split between those who wanted fossil fuels named and those who did not is a conflict over interests, not only a failure of communication. Students should care because the case shows how structural power and conflict perspectives explain a collapsed agreement."
+    },
+    {
+     "id": "green",
+     "relevance": 45,
+     "reading": "Green logistics and sustainability study how the costs of emissions are priced and who bears them. The dispute over whether a text should mention fossil fuels is a dispute over whether the external costs of fossil dependence should be named and addressed. The electrification commitments made by corporate coalitions are a practical response to those costs. The article does not give detail on the specific policies, so the green reading remains at the level of principle."
+    },
+    {
+     "id": "leadership",
+     "relevance": 30,
+     "reading": "Leadership theory asks what happens when formal leaders step back. The article reports that major economies largely left the negotiating floor, and that corporate coalitions moved forward instead. This is a case of leadership emerging from outside the formal structure, which raises questions about legitimacy, accountability and whether a leadership vacuum can be filled without shared purpose. The evidence is limited to the introduction, so the claims are general."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that power in an organisation or coalition belongs to whoever controls resources that others need. Dependence on those resources gives the holder leverage over decisions. Actors can reduce dependence by diversifying sources, building alternatives or forming coalitions.",
+     "link": "The article says corporate coalitions committed billions to electrification and that corporate influence grew while absent leaders left a vacuum. Developed nations and frontline states disagreed over adaptation funding, which suggests that frontline states depended on resources controlled by others. The outnumbering of vulnerable delegations by corporate representatives indicates that access to the summit itself was unevenly distributed. Mapping these resource flows explains why some parties could shape the agenda while others could only object.",
+     "critique": "Resource dependence focuses on material resources and underplays moral authority, norms and collective framing, which weaker parties can use to challenge stronger ones. The introduction gives no evidence of how frontline states tried to use such tools.",
+     "practice": "A negotiator in a frontline state should map which parties hold the funding and access that they need, and then identify where it can build alternative coalitions or secure commitments in writing. Those seeking to shape the outcome should avoid depending on a single resource holder."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Fox's unitarist, pluralist and radical perspectives on conflict",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Fox's three perspectives describe different views of conflict in organisations. The unitarist view sees conflict as abnormal and caused by poor communication, since everyone shares the same goals. The pluralist view sees conflict as normal, arising from competing interest groups that bargain over outcomes. The radical view sees conflict as rooted in structural inequality and domination.",
+     "link": "Reading the summit through the unitarist lens would treat the failure as a breakdown of shared goals that better process might have fixed. The pluralist lens fits the article's account of developed nations, frontline states and corporate coalitions pursuing different interests and bargaining over funding, timelines and wording. The radical lens fits the report that corporate influence grew while vulnerable delegations were outnumbered. The article's own framing, which points to corporate influence and absent leaders, suggests the radical or pluralist readings are more useful than a unitarist one.",
+     "critique": "A pluralist reading assumes that bargaining power is roughly balanced and that outcomes reflect fair compromise, which the article's description of outnumbered vulnerable delegations challenges. A radical reading may overstate the coordination of powerful actors, and the article gives no evidence of deliberate collusion.",
+     "practice": "A chair who recognises a pluralist conflict should identify each interest group's position and build agreed procedures for trade-offs. Where the radical critique applies, the chair should also address imbalances in representation before pushing for consensus."
+    },
+    {
+     "moduleId": "green",
+     "concept": "Externalities and carbon pricing",
+     "unit": "",
+     "theory": "An externality is a cost or benefit that falls on third parties and is not reflected in market prices. Carbon pricing, through taxes or cap-and-trade schemes, aims to internalise the cost of emissions so that polluters bear it. Because fossil fuel prices typically do not reflect their climate damage, markets underprice emissions without intervention.",
+     "link": "The sticking point at COP31 was whether a text should mention fossil fuels, which is a question about naming the source of an externality. Frontline states that face adaptation costs bear the external costs of emissions while developed nations and corporate coalitions set the terms. The electrification commitments described in the article are one route to reducing emissions without a formal carbon price. Read together, the case shows how an unpriced externality can produce a deadlock over both wording and funding.",
+     "critique": "Carbon pricing is politically contested and may fall unevenly on poorer states and households. The article does not report whether any party proposed a carbon price, so the theory is applied here to the dispute rather than to a specific policy.",
+     "practice": "A logistics or procurement manager should estimate the carbon cost of fossil-fuel-dependent options and factor it into decisions, either through an internal carbon price or Scope 3 measurement. The aim is to make the externality visible in ordinary decisions, not only in negotiations."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Distributed leadership",
+     "unit": "",
+     "theory": "Distributed leadership treats leadership as a practice shared across a network of individuals rather than held by a single formal leader. Influence emerges from those who mobilise others around a shared task. It is most useful where formal authority is weak or spread across organisations.",
+     "link": "The article says that major economies largely vacated their seats while corporate coalitions advanced electrification and national roadmaps. This is leadership appearing from actors who were not in the formal decision chain, which is the pattern distributed leadership describes. The article also suggests the vacuum was filled by those with the greatest resources, rather than by a deliberately shared approach.",
+     "critique": "Distributed leadership assumes that the leaders who emerge share a common purpose and remain accountable to the group. Here the coalitions may serve sectional interests, so their leadership may fragment accountability rather than integrate it. The introduction gives no evidence of the coalitions' coordination or governance.",
+     "practice": "A leader facing an absent formal authority should identify the actors willing to act and link their initiatives to shared aims, so that distributed effort is coordinated. Where some actors dominate, a leader should bring in under-represented voices to keep the process legitimate."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A multilateral climate summit ends after its longest session without an agreed final text. Several nations refuse a draft that omits any reference to fossil fuels, while developed nations and frontline states disagree over adaptation funding and scientific timelines. Several major economies have largely withdrawn from the negotiating floor, and corporate coalitions announce electrification commitments on a separate track.",
+    "question": "Critically evaluate how power, politics and conflict shaped the failure of the summit. Advise the lead negotiator of a frontline state on how to influence the next round.",
+    "evidence": [
+     "The summit ended with no final text after three draft texts, described as the longest in the history of climate negotiations.",
+     "Several nations refused to back a deal that did not mention fossil fuels.",
+     "Corporate influence grew in the vacuum left by absent leaders, and corporate representatives outnumbered vulnerable delegations.",
+     "Developed nations and frontline states disagreed over scientific timelines and adaptation funding, while corporate coalitions committed billions to electrification."
+    ],
+    "plan": [
+     "Set out the competing interests at the summit, distinguishing developed nations, frontline states, major economies that withdrew, and corporate coalitions, using Fox's pluralist perspective on conflict.",
+     "Apply resource dependence theory to show which parties controlled funding, access and investment, and how this explains the uneven influence described in the article.",
+     "Assess the conflict using Fox's unitarist and radical perspectives to test whether the failure reflects poor process, legitimate bargaining, or structural imbalance.",
+     "Apply distributed leadership theory to explain how corporate coalitions filled the leadership vacuum, and what this means for legitimacy and accountability.",
+     "Advise the frontline negotiator to map the resource holders, build coalitions to reduce dependence, and seek adaptation funding commitments in a form that can be verified.",
+     "Conclude with a recommendation that combines resource-based bargaining with transparent representation, and note the limits of the evidence in the introduction."
+    ],
+    "pitfalls": [
+     "Stating that corporate influence caused the collapse; the introduction describes influence growing alongside the failure, which is correlation, not proven causation.",
+     "Treating the article's brief introduction as a full account of motives, actors or the wording of the drafts, when the paywall hides most of the detail."
+    ]
+   },
+   "alsoConsider": [
+    "Lukes's three dimensions of power",
+    "Mintzberg's political games",
+    "Mendelow's power-interest matrix",
+    "Pondy's functional and dysfunctional conflict"
+   ],
+   "exam": {
+    "question": "Critically assess whether the failure of a multilateral agreement can be explained by the distribution of power among its participants rather than by the content of the proposals.",
+    "outline": [
+     "Define power and conflict using resource dependence theory and Fox's perspectives, and identify the main parties and their interests.",
+     "Test the power explanation against the content dispute over fossil fuels and adaptation funding, showing where content and power interact.",
+     "Evaluate the limits of the power explanation, including the role of legitimacy, norms and distributed leadership, and conclude on the balance of evidence."
+    ]
+   },
+   "readingMinutes": 1
+  },
+  {
+   "id": "ceb1b185f690",
+   "title": "The policy tests facing governments in the age of AI",
+   "url": "https://blogs.lse.ac.uk/businessreview/2026/11/19/the-policy-tests-facing-governments-in-the-age-of-ai/",
+   "source": "LSE Business Review",
+   "publishedAt": "2026-11-19T09:26:47Z",
+   "addedAt": "2026-11-23T00:49:04Z",
+   "basis": "full_text",
+   "takeaway": "AI's labour and tax effects depend on whether workers, firms and states are ready for it, so the question of who gets trained, who is protected and who bears the change is an organisational question as well as a policy one.",
+   "summary": "Era Dabla Norris of the IMF argues that AI has become a policy test because its capabilities are advancing faster than labour market institutions, tax systems and safeguards. Her central idea is 'preparedness': usable data, skills, financing, management able to redesign tasks and processes, and energy and digital infrastructure. Preparedness shapes whether firms and countries adopt AI and capture its productivity gains. She sets out three policy issues. On skills, new skills are already being repriced and demand is strongest in professional, technical and managerial roles, but among the most AI-exposed workers many had no organised training and many more wanted more than they could take, mostly because of work commitments. On social protection, only 17 per cent of unemployed people worldwide receive cash unemployment benefits, and earlier US evidence suggests more generous insurance cushioned wage losses from robot exposure without stopping labour markets adjusting. On tax, the AI ecosystem of chips, data centres, models, cloud and data produces mobile rents that are hard to locate, while a declining labour share threatens tax systems that depend on labour income.",
+   "keyPoints": [
+    "Almost 40 per cent of global employment is exposed to AI, with higher exposure in advanced economies. Exposure means AI can automate, complement or reorganise tasks, but actual change depends on adoption.",
+    "Adoption depends on preparedness, including usable data, skilled workers, financing, management capable of redesigning work, and energy and grid capacity. Economies with stronger digital infrastructure and skills are adopting AI more intensively, which risks widening gaps between countries.",
+    "About one in ten vacancies in advanced economies requires at least one new skill, roughly half that share in emerging markets. Jobs requiring new skills tend to pay more.",
+    "Training participation is not the same as access. Many workers in the most exposed occupations were not trained, and many who wanted training could not take it because of work commitments.",
+    "Disruption may appear as lower earnings, fewer hours, weaker bargaining power or movement into lower-paid work, not only as job losses, and adjustment takes time."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 60,
+     "reading": "In PWO terms, the article is about how people experience technological change at work. Its point that AI reorganises tasks inside jobs is a question of job design, and its claim that adoption requires management able to redesign processes is a question of organisational change and change readiness. The gap between training offered and training accessed is a motivation and engagement problem, and the risk of lower pay or weaker bargaining power raises issues of the psychological contract. A PWO student should care because the policy framework and firm-level practice both depend on how individuals adjust."
+    },
+    {
+     "id": "strategy",
+     "relevance": 35,
+     "reading": "Strategically, the article describes the AI value chain of chips, data centres, models, cloud and data as concentrated, research-intensive and reliant on intangible assets, which is a question of where competitive advantage sits. The claim that the resulting rents are mobile and hard to locate challenges the assumption that valuable resources keep their returns inside the firm. This is mainly relevant to understanding why AI returns may migrate across borders, and it is secondary to PWO for this article."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Job Demands-Resources model (Bakker and Demerouti)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Job strain arises when job demands such as workload and pressure exceed the resources available to the worker. Resources such as training, autonomy and support both buffer strain and build engagement, so they enable people to develop and remain engaged during change.",
+     "link": "The article reports that many workers in the most AI-exposed occupations wanted more training than they could take, mostly because of work commitments. In JD-R terms, the new demands created by AI, such as learning new tools and reorganised tasks, consume the time that training would require, while training is itself a key job resource. The author notes that employer-paid training does not reliably accompany workplace change, so the resource is missing exactly where demands are rising. This points to a risk of strain and disengagement among the workers the article identifies as most exposed.",
+     "critique": "JD-R is a model of the job and the team rather than of labour markets, so it cannot explain the national gaps the article stresses, such as benefit coverage of 17 per cent globally, where the missing resource is the state rather than the employer. It also assumes that the employer controls the resources, which is not the case in economies with high informality.",
+     "practice": "A manager introducing AI tools should first map where new task demands are rising and then protect time for training within working hours rather than leaving it to be done on top of existing workloads. They should track who actually accesses training, not just who is offered it, and compare uptake by role, as the article's distinction between participation and access implies."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Lewin's three-step model and force field analysis",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Lewin describes change as movement from one quasi-stable state to another, through unfreezing the existing pattern, moving to a new state and refreezing it. Force field analysis identifies driving forces pushing for change and restraining forces resisting it, and change succeeds when the balance shifts, often by reducing restraints rather than adding pressure.",
+     "link": "The article's preparedness argument reads as a force field. AI capability and productivity promise act as driving forces, while missing data, skills, financing, management capacity, grid capacity and digital infrastructure act as restraining forces. The author observes that economies with stronger foundations are adopting AI more intensively, which shows that restraints set the pace of change. Her point that adoption requires management able to redesign tasks and processes corresponds to the change agent's task of addressing restraints before a new practice can be refrozen.",
+     "critique": "Force field analysis assumes a bounded system in which the change agent can see and influence the forces. AI adoption spans firms, sectors and countries, and forces such as grid capacity lie largely outside any single organisation's control, so Lewin's model may underplay the external constraints the article highlights. It also says little about the distributional winners and losers that the article raises.",
+     "practice": "A manager should list the driving and restraining forces for AI adoption in their unit, rank the restraints by how much they block progress, and address the most serious ones, such as skills gaps and poor data quality, before pushing a wider rollout. They should plan the refreezing stage through new role profiles and training pathways so that the new way of working is embedded."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job Characteristics Model (Hackman and Oldham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The Job Characteristics Model holds that five core job dimensions, namely skill variety, task identity, task significance, autonomy and feedback, shape three critical psychological states: experienced meaningfulness, responsibility for outcomes and knowledge of results. These states drive motivation, satisfaction and performance, and the effect is stronger for people with high growth-need strength.",
+     "link": "The article describes AI as reorganising tasks within jobs rather than simply removing jobs, which is a change to job design. Automating routine elements can reduce skill variety and task identity, whereas the article's observation that jobs requiring new skills pay more suggests that some redesigns raise skill variety and significance. Because demand is strongest in professional, technical and managerial roles, the core dimensions are likely to be redistributed unevenly across occupations.",
+     "critique": "The model was developed with a focus on designing individual jobs and assumes that designers can choose the characteristics of a job. The article suggests that much of AI-driven change is shaped by market forces and firm strategy beyond the job designer's control, and that adjustment can come as lower pay or weaker bargaining power, which the model does not address.",
+     "practice": "Before deploying AI, a manager should diagnose the current job characteristics of affected roles, for example with a job diagnostic survey, and then design the integration to keep or enrich skill variety, autonomy and feedback rather than simply stripping out tasks. Where automation removes the skilled parts of a role, the manager should either redesign the remaining work or provide a development route into higher-skilled tasks."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Resource-based view and VRIO (Barney)",
+     "unit": "",
+     "theory": "A firm's sustained competitive advantage comes from resources that are valuable, rare, costly to imitate and organised to be exploited, which is the VRIO framework. Resources that are tacit and hard to move, such as know-how and intangible assets, are the basis of advantage.",
+     "link": "The article describes the AI-producing ecosystem as concentrated, research-intensive and reliant on intangible assets, which resembles a set of rare and hard-to-imitate resources. However, the author says the rents it generates are mobile and hard to locate, which implies that the economic return can move away from the firm or country where the resource sits. This tension between a rare resource and a return that travels is what VRIO does not capture.",
+     "critique": "VRIO assumes that resources are firm-specific and immobile enough to keep their returns inside the firm. The article shows that location decisions, profit shifting and tax competition can separate returns from the resource, so the firm-level view needs supplementing with an account of where value is captured, such as the tax-policy perspective the article offers.",
+     "practice": "A firm in the AI supply chain should test its AI assets against the four VRIO questions and then assess where its profits are likely to be recorded for tax purposes. A board in a country hosting AI infrastructure should expect scrutiny of taxing rights and should not assume that investment will automatically translate into domestic rents."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national manufacturer of industrial components plans to introduce AI-based production planning and quality inspection across its sites over three years. A staff survey finds that many of the planners and inspectors most exposed to the change were offered some training but could not attend because of shift and workload pressures. Some roles are expected to be reorganised, and some displaced staff may move into lower-paid work. The board wants to introduce the technology without losing trust or skills.",
+    "question": "Advise the board on how to manage the people aspects of introducing AI, and critically evaluate the view that the main constraint on adoption is technology rather than people and organisation.",
+    "evidence": [
+     "Almost 40 per cent of global employment is exposed to AI, with higher exposure in advanced economies.",
+     "Among the most AI-exposed workers most took some organised training, but a sizeable minority had none and many wanted more, mostly because of work commitments.",
+     "About one in ten vacancies in advanced economies now requires at least one new skill, and jobs requiring new skills tend to pay more.",
+     "In US states more exposed to robot adoption, more generous unemployment insurance was associated with wage losses about two-thirds smaller."
+    ],
+    "plan": [
+     "Frame the problem as one of adoption rather than technology alone: the article argues that preparedness (skills, data, management capacity) sets the pace, so use Lewin's force field analysis to list driving and restraining forces and rank the restraints.",
+     "Diagnose job design: apply the Job Characteristics Model to the affected roles to see which core dimensions AI will remove or enrich, and where displacement or lower pay is likely.",
+     "Diagnose training access: use the Job Demands-Resources model to explain why work demands crowd out training, and recommend protected training time and tracking of actual access by role.",
+     "Plan the human transition: apply Bridges's transition model to structure the endings, the neutral zone and the new beginnings for staff moving into changed or lower-paid roles, and use equity theory to address perceived unfairness where new roles pay differently.",
+     "Evaluate the external constraints: the article suggests that wider social protection cushions disruption without stopping adjustment, and the firm cannot fix national coverage alone, so it should work with policy-makers where it can.",
+     "Recommend a phased rollout that removes the most serious restraints first, offers training access and clear pay and role paths, and measures training uptake and retention by role."
+    ],
+    "pitfalls": [
+     "Treating the article as only about government policy and ignoring the organisational implications, when the question asks what the firm and its board should do.",
+     "Assuming that because training was offered, workers had access to it; the article separates participation from access and highlights the group who wanted training but could not take it."
+    ]
+   },
+   "alsoConsider": [
+    "Kotter's eight-step model of change",
+    "Rousseau's psychological contract",
+    "Adams's equity theory",
+    "Kahn's employee engagement"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether managers within organisations, rather than governments, can best protect employees from the disruption caused by the adoption of AI, drawing on theories of job design, motivation and organisational change.",
+    "outline": [
+     "Define the change problem using a change model such as force field analysis, identifying the driving forces and the restraints, such as skills gaps and management capacity.",
+     "Apply job design and motivation theory, such as the Job Characteristics Model and the Job Demands-Resources model, to explain how AI changes tasks and why access to training may be uneven.",
+     "Critically evaluate the limits of organisation-level theory against structural constraints such as low benefit coverage and wage effects, then reach a reasoned judgement on the roles of managers and government."
+    ]
+   },
+   "readingMinutes": 6
+  },
+  {
+   "id": "5d3fd5afab56",
+   "title": "Is Auto Renew Actually Good for Your Business?",
+   "url": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/is-auto-renew-actually-good-for-your-business/",
+   "source": "Knowledge at Wharton",
+   "publishedAt": "2026-11-20T18:58:02Z",
+   "addedAt": "2026-11-23T00:49:04Z",
+   "basis": "abstract",
+   "takeaway": "Automatic renewal is a marketing choice that trades easier retention against the risk of weakening the customer relationship and the acquisition pitch, and its value depends on the lifetime value and cash flows it generates.",
+   "summary": "This is a short Knowledge at Wharton item in which marketing professor John Zhang discusses the trade-offs of automatic subscription renewals and how firms can balance customer acquisition with customer retention. Only the publisher's abstract was supplied, so the full argument, evidence and recommendations cannot be reported and the notes below rest on what the abstract states plus established theory.",
+   "keyPoints": [
+    "The piece is framed around the trade-offs of automatic subscription renewal, not a single verdict on whether it is good.",
+    "The central managerial question is how to balance winning new customers against keeping existing ones.",
+    "Because only the abstract is available, any claim about specific findings, data or firms would be invented and should not be used in an assignment without reading the full piece."
+   ],
+   "modules": [
+    {
+     "id": "marketing",
+     "relevance": 80,
+     "reading": "The article sits squarely in strategic marketing because it addresses the balance between customer acquisition and customer retention, a core relationship marketing concern. Auto-renewal turns a purchase decision into a continuing revenue stream, which changes how a firm should value each customer over time. A marketing student should care because the policy affects consumer decision making, perceived fairness and long-term brand trust, not just short-term sign-up numbers."
+    },
+    {
+     "id": "finance",
+     "relevance": 40,
+     "reading": "Read from the finance module, the acquisition-versus-retention question is an investment appraisal problem: acquisition spend is an upfront outflow and renewals are later inflows. Auto-renewal changes the expected timing and number of those inflows, so it changes the value of acquiring a customer. A finance student would ask how sensitive that value is to churn and discount-rate assumptions."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "marketing",
+     "concept": "Relationship marketing and customer lifetime value",
+     "unit": "",
+     "theory": "Customer lifetime value is the present value of the net profit a firm expects to earn from a customer over the whole relationship. Relationship marketing argues that retaining existing customers is usually more profitable than constantly acquiring new ones, because retention lengthens the lifetime and reduces acquisition cost per year of revenue.",
+     "link": "The abstract frames auto-renewal as a way of balancing acquisition with retention, which is exactly the trade-off that lifetime value is designed to measure. Automatic renewal extends the expected life of each subscriber without any new decision by the customer. This raises lifetime value per customer, but only if renewals are retained for the right reasons. The student should map the policy onto the lifetime value formula: higher retention rate, longer expected lifetime and unchanged margin all push the figure up.",
+     "critique": "Lifetime value models usually treat retention as a sign of satisfaction, yet auto-renewal can keep customers who would otherwise leave, so the model may overstate the value of the relationship. Renewals driven by inertia can also hide dissatisfaction that surfaces later as complaints or churn.",
+     "practice": "A manager should measure lifetime value separately for auto-renewed and actively renewed cohorts, and track cancellations shortly after each renewal. Where the figures diverge, the firm should weigh the added retention against the risk of damaged trust, perhaps by making cancellation easy and sending clear renewal notices."
+    },
+    {
+     "moduleId": "marketing",
+     "concept": "The consumer decision-making process",
+     "unit": "",
+     "theory": "The consumer decision-making process is usually described as a sequence of need recognition, information search, evaluation of alternatives, purchase and post-purchase evaluation. Each stage is a point where the consumer can choose again, and satisfaction at the post-purchase stage influences whether they repurchase.",
+     "link": "Automatic renewal removes the decision point at the end of a subscription period, so the evaluation of alternatives and the post-purchase review may never happen for many customers. The abstract's emphasis on trade-offs suggests the policy changes how customers reach a repurchase decision rather than simply adding renewals. The student can use the model to show which stages are skipped and what the firm must do to replace them, such as reminders that prompt a review of value.",
+     "critique": "The stage model assumes the consumer deliberates at each step, whereas renewal under an automatic policy is often passive. The model therefore describes active choice well but understates habit and inertia, which is the mechanism that makes automatic renewal effective in the first place.",
+     "practice": "A manager applying this model should keep a deliberate review point in the renewal cycle, such as a brief usage summary before the charge, so that the customer still evaluates the purchase. This protects the post-purchase evaluation stage and reduces the chance that a renewal turns into resentment."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Net present value (NPV)",
+     "unit": "",
+     "theory": "Net present value discounts all expected future cash flows of an investment back to today at the appropriate cost of capital and subtracts the initial outlay. An investment is worth making when its NPV is positive, and the result is highly sensitive to the timing and size of later inflows.",
+     "link": "Customer acquisition can be treated as an investment: the firm pays to win a subscriber now and expects renewal payments later. Auto-renewal increases the expected number and duration of those later inflows, so it raises the NPV of each acquired customer and may justify higher acquisition spend. The abstract's focus on balancing acquisition with retention is the same question an NPV analysis would ask about where to put the marginal pound.",
+     "critique": "NPV is only as reliable as its churn and discount-rate assumptions, and auto-renewal can change churn in ways that are hard to forecast. If the policy provokes cancellations or complaints after charges, the inflows assumed in the model may never arrive.",
+     "practice": "A finance manager should build cohort cash-flow forecasts with and without auto-renewal and run a sensitivity analysis on churn. The decision to change renewal terms should be based on whether the NPV stays positive under plausible downside churn, not on the central estimate alone."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A subscription software firm is considering moving all of its annual plans to automatic renewal to reduce churn. Its retention team expects higher renewal rates, but its acquisition team fears that prospective customers who dislike being locked in will choose a competitor. The board must decide whether the policy is worth adopting for the whole customer base.",
+    "question": "Advise the board on whether the firm should adopt automatic renewal for all subscription plans, balancing customer acquisition against customer retention.",
+    "evidence": [
+     "The abstract states that a Wharton marketing professor discusses the trade-offs of automatic subscription renewals.",
+     "The abstract states that the piece addresses how companies can balance customer acquisition with customer retention.",
+     "The abstract does not report any findings, data or firm examples, so the answer should rely on the theory and on the scenario facts supplied."
+    ],
+    "plan": [
+     "Define the two sides of the trade-off: acquisition cost and the risk of deterring new sign-ups, against retention and lifetime value gains from renewals.",
+     "Apply customer lifetime value to estimate how much extra retention the policy would add per customer and how it would change overall value.",
+     "Apply the consumer decision-making process to show which decision points automatic renewal removes and how trust and satisfaction could suffer.",
+     "Apply net present value to test whether the extra inflows justify the acquisition cost, using sensitivity analysis on churn.",
+     "Recommend a conditional policy, for example automatic renewal for existing customers with clear notice and easy cancellation, and a review of the acquisition effect after a defined period."
+    ],
+    "pitfalls": [
+     "Presenting the article's position as evidence for a specific result, when only the abstract is available and it reports no findings.",
+     "Treating a higher renewal rate as proof of greater customer value without separating passive renewal from satisfied renewal."
+    ]
+   },
+   "alsoConsider": [
+    "Keller's customer-based brand equity",
+    "Service-dominant logic (Vargo and Lusch)",
+    "The balanced scorecard (Kaplan and Norton)",
+    "Value-based pricing"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether automatic subscription renewal creates sustainable customer value or simply delays customer churn, and advise a firm on how to balance acquisition against retention.",
+    "outline": [
+     "Define customer lifetime value and relationship marketing, and explain how renewal policies affect retention and lifetime value.",
+     "Assess the consumer decision-making process and the risk that automatic renewal weakens satisfaction and trust.",
+     "Evaluate the trade-off between acquisition and retention using the financial logic of net present value, and recommend a conditional policy."
+    ]
+   }
+  },
+  {
+   "id": "79b8c829f310",
+   "title": "American Express and the Rise of Commerce Media",
+   "url": "https://knowledge.wharton.upenn.edu/podcast/marketing-matters/american-express-and-the-rise-of-commerce-media/",
+   "source": "Knowledge at Wharton",
+   "publishedAt": "2026-11-19T16:42:14Z",
+   "addedAt": "2026-11-23T00:49:04Z",
+   "basis": "abstract",
+   "takeaway": "The abstract presents data-led, personalised and measurable offers as the engine of commerce media, which makes it a useful marketing and strategy case. The abstract itself gives few details, so the note relies on theory rather than on claims about results.",
+   "summary": "This short Knowledge at Wharton abstract introduces an interview with Jacob King, senior vice president of Amex Offers and digital media at American Express. According to the abstract, the discussion covers how transaction data, personalised offers and measurable results are changing commerce media. The text provided contains no figures, performance data or detailed findings, so any analysis should treat the company's results as unverified.",
+   "keyPoints": [
+    "The subject is commerce media, meaning advertising and offers linked to purchasing activity.",
+    "Transaction data is presented as the basis for the offers.",
+    "Personalisation and measurability are presented as the main changes in the sector.",
+    "The speaker is a senior executive responsible for Amex's offers and digital media business.",
+    "The abstract reports no outcome data, so claims of effectiveness cannot be checked from this text."
+   ],
+   "modules": [
+    {
+     "id": "marketing",
+     "relevance": 85,
+     "reading": "This is a marketing story about how a firm targets and monetises its customer base. Personalised offers built from transaction data are a form of targeting and relationship marketing, and measurable results turn promotion into something that can be evaluated. A marketing student should care because it shows data-driven promotion sitting inside a payments business, blurring the lines between advertiser, retailer and card issuer."
+    },
+    {
+     "id": "strategy",
+     "relevance": 50,
+     "reading": "Strategically, the abstract describes a payments company using the data it holds as a platform for a new revenue stream in media. That raises questions about business model design, the resources behind any advantage, and how a firm extends beyond its core business. Strategy students can treat it as an example of diversification into an adjacent market."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "marketing",
+     "concept": "Relationship marketing and customer lifetime value",
+     "unit": "",
+     "theory": "Relationship marketing focuses on retaining and developing customers over time rather than making single sales. Customer lifetime value estimates the net profit a customer generates across the whole relationship, which can justify investment in targeting and retention.",
+     "link": "The abstract's focus on transaction data and personalised offers suggests that each purchase informs the next offer made to the same customer. This fits the relationship view, in which information gathered over time is used to build the relationship rather than to run one-off campaigns. The abstract does not say whether the offers aim at retention or acquisition, so the link is to the mechanism, not to measured lifetime value. The model would expect offers to be judged by their contribution to long-term value, not only by immediate uptake.",
+     "critique": "Lifetime value calculations depend heavily on assumptions about retention and margin, which are hard to verify from outside. Heavy personalisation also raises privacy and trust concerns that the relationship model does not address directly.",
+     "practice": "A manager applying this would segment cardholders by spending pattern and test offers against a control group. Offers that lift one-off purchases but reduce long-run value should be dropped."
+    },
+    {
+     "moduleId": "marketing",
+     "concept": "The consumer decision-making process",
+     "unit": "",
+     "theory": "The consumer decision-making process describes stages from need recognition through information search, evaluation of alternatives, purchase and post-purchase evaluation. Marketers try to influence the stages at which consumers make choices.",
+     "link": "Personalised offers delivered at or near the point of purchase, based on transaction data, target the stage where a consumer is evaluating options or about to buy. The abstract's emphasis on measurable results implies that the seller wants to show whether an offer changed behaviour at that point. This is a direct test of influence at the decision stage, although the abstract does not describe how it is measured.",
+     "critique": "The model is largely linear and assumes deliberate choice, whereas much purchasing is habitual or impulsive. An offer may simply claim credit for purchases that would have happened anyway, so measured uplift must be separated from baseline sales.",
+     "practice": "A manager would design offers around the stage at which the decision is being made and use control groups to estimate incremental sales. This avoids paying for purchases that customers would have made regardless."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Resource-based view and VRIO (Barney)",
+     "unit": "",
+     "theory": "The resource-based view holds that sustained competitive advantage comes from resources that are valuable, rare, costly to imitate and organised to be exploited, which is tested through the VRIO framework. Such internal resources can explain performance better than market position alone.",
+     "link": "Transaction data held by a card network is a plausible resource: it is valuable for targeting, is not held by most competitors in the same form, and is hard to copy because it accumulates over a large customer base. The abstract's framing suggests the company treats this data as the core of its media offer. The VRIO test would then ask whether the firm has the organisation and capabilities to turn the data into offers that advertisers will buy.",
+     "critique": "A data advantage can erode if privacy regulation limits its use or if rivals gain similar data through partnerships or third parties. The VRIO test is also largely static and does not capture how quickly the value of data changes.",
+     "practice": "A manager would assess the data asset against each VRIO criterion and identify whether the capability to exploit it, such as analytics, advertiser tools and measurement, is scarce. Investment should then go into protecting access and compliance as well as into the data itself."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Dynamic capabilities (Teece)",
+     "unit": "",
+     "theory": "Dynamic capabilities are an organisation's ability to sense opportunities and threats, seize them by mobilising resources, and reconfigure assets as markets change. They explain how firms adapt when an existing advantage no longer fits the environment.",
+     "link": "The abstract describes commerce media as being reshaped, and a payments firm moving into advertising is an example of seizing an opportunity created by data and digital measurement. Sensing (recognising that transaction data can support measurable offers), seizing (building an offers and media business) and reconfiguring (combining card, merchant and advertiser assets) can each be traced in the abstract's themes. Because the abstract gives no detail on how these moves were made, the link is interpretive rather than evidenced.",
+     "critique": "Teece's account can be hard to test, since successful moves are easily relabelled as capabilities after the event. Critics argue that it explains adaptation in hindsight rather than predicting which firms will adapt.",
+     "practice": "A manager would set up a regular review of data-driven offer opportunities and pilot new advertiser products with clear success measures. They would be ready to reallocate budget and partners as results come in."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A payments company holds detailed records of its cardholders' purchases and wants to sell targeted offers to retailers and brands. Its senior managers want to know whether this can become a significant media business and what they must do to show that the offers work. They have a strong customer base but limited experience of advertising.",
+    "question": "Critically evaluate whether a payments company can build a sustainable commerce media business from its transaction data, and advise its board on the marketing and strategic conditions for success.",
+    "evidence": [
+     "The abstract names transaction data, personalised offers and measurable results as the forces reshaping commerce media.",
+     "The interviewee is a senior vice president responsible for Amex Offers and digital media at American Express.",
+     "The abstract reports no revenue or performance figures, so any claim of effectiveness must be presented as something to be tested."
+    ],
+    "plan": [
+     "Define commerce media and explain the role of transaction data and personalised offers, using the consumer decision-making process to show where offers can influence purchase.",
+     "Assess the data as a resource using VRIO, testing whether it is valuable, rare, hard to imitate and organised for use.",
+     "Use dynamic capabilities to judge whether the firm can sense, seize and reconfigure as data rules and advertiser demand change.",
+     "Apply relationship marketing and customer lifetime value to show how personalisation can build value over time and where it creates privacy or trust risks.",
+     "Recommend a phased entry: pilot offers with control groups, build measurement credibility with advertisers, protect data access through compliance, and then scale."
+    ],
+    "pitfalls": [
+     "Treating the abstract's references to measurable results as proof of effectiveness; argue for testing and evidence rather than asserting success.",
+     "Describing commerce media in general terms without linking each recommendation to a specific resource, capability or consumer stage."
+    ]
+   },
+   "alsoConsider": [
+    "Porter's five forces",
+    "Diffusion of innovations (Rogers)",
+    "The balanced scorecard (Kaplan and Norton)"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that a firm's transaction data is a sustainable source of competitive advantage in marketing, and discuss the conditions under which data-driven personalised offers create value for both customers and advertisers.",
+    "outline": [
+     "Define commerce media and explain the roles of transaction data and personalised offers, including how their results are measured.",
+     "Apply relationship marketing, customer lifetime value and the consumer decision-making process to show how and where offers create value.",
+     "Critically evaluate the data-as-resource argument using VRIO, and discuss the risks of imitation, measurement error and privacy concerns."
+    ]
+   }
+  },
   {
    "id": "ca41c7e94f8f",
    "title": "Shorter workweeks do not share work: Evidence from France's 35-hour reform",

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-23T00:15:29Z",
+ "generatedAt": "2026-11-23T00:58:02Z",
  "model": "claude-haiku-5-5",
  "countries": [
   {
@@ -176,80 +176,674 @@
   }
  ],
  "brief": {
-  "date": "2026-11-23T00:15:29Z",
-  "headline": "The UK and EU have agreed a food trade deal that would cut SPS paperwork and border checks, while the UK carbon border charge starts on 1 January 2027 and will apply to Moroccan fertiliser imports unless emissions are declared.",
-  "overview": "The UK and EU struck a food and plants trade deal at the EU-UK Summit, though no start date has been given and existing SPS rules still apply until it takes effect. From 1 January 2027 the UK carbon border adjustment mechanism will add a carbon cost to fertiliser imports from Morocco unless importers declare verified actual emissions. In Morocco, exporters may gain duty-free access to China under a new measure, subject to rules of origin and ADII certificates. Across the wider network, Hormuz traffic remains about 65% below pre-conflict levels, Los Angeles and Long Beach face a possible labour disruption that a tentative deal has eased, and Spain has announced a national scrubber washwater ban from July 2027.",
+  "date": "2026-11-23T00:58:02Z",
+  "headline": "Asia-Mediterranean container rates jump $1,076 per FEU to $5,357 while Asia-US lanes ease, raising costs for Morocco, Spain and France-bound cargo.",
+  "overview": "Asia-Mediterranean container rates rose $1,076 to $5,357 per FEU in week 47, which will lift quotes for Morocco, Spain and France-bound cargo, while Asia-US lanes fell. Morocco is preparing a national fleet plan of 21 new vessels by 2030 and Atlantic port traffic is gaining weight, although near-term operations are unlikely to change. In Spain, international ro-ro short-sea volumes slipped 1% in 2025, with Atlantic traffic down 8.7%. Rhine water levels at Kaub rebounded, cutting barge freight from Amsterdam-Rotterdam-Antwerp to Basel from €162.5 to €92.5 per tonne.",
   "highlights": [
    {
-    "text": "The UK carbon border charge applies to Moroccan fertiliser imports from 1 January 2027 unless importers declare verified actual emissions.",
-    "id": "m-d12616cf2b24"
+    "text": "Asia-Mediterranean container rates jump $1,076 to $5,357 per FEU, raising costs for Morocco, Spain and France.",
+    "id": "m-68c739b05587"
    },
    {
-    "text": "Moroccan exports to China may be exempt from Chinese customs duties, but proof of origin meeting Chinese rules will be needed.",
-    "id": "m-a6a0ef1677a6"
+    "text": "Rhine levels rebound at Kaub, cutting barge freight from Amsterdam-Rotterdam-Antwerp to Basel from €162.5 to €92.5 per tonne.",
+    "id": "m-401bf866056d"
    },
    {
-    "text": "The UK and EU food trade deal could cut certificates, documentation and border checks once it takes effect, with no start date yet.",
-    "id": "m-0219ddf078f0"
+    "text": "Morocco plans a 21-ship national merchant fleet by 2030 that could shift some Europe-Morocco volumes to local operators.",
+    "id": "m-41e3a198eba3"
    },
    {
-    "text": "Spain will ban scrubber wastewater discharge in all its ports and anchorages from 1 July 2027.",
-    "id": "m-a1384eb942b3"
+    "text": "Spanish international ro-ro volumes fell 1% in 2025, with Atlantic traffic down 8.7% while Mediterranean links grew.",
+    "id": "m-3d6e72c17edd"
    },
    {
-    "text": "A tentative agreement covering about 250 watchmen at Los Angeles and Long Beach lowers the immediate strike risk, pending ratification.",
-    "id": "m-8df72216c578"
+    "text": "EU and Indonesia signed a CEPA removing duties on more than 98% of EU exports, but it takes effect only in early 2027.",
+    "id": "m-ff3a294586b3"
    },
    {
-    "text": "Hormuz transits stayed about 65% below pre-conflict levels, with six tankers attacked in the week.",
-    "id": "m-90303806c765"
+    "text": "Zim's third-quarter net income rose to $830 million as freight rates climbed 55%, keeping costs high on transpacific lanes.",
+    "id": "m-645ede632a90"
    }
   ],
   "deadlines": [
    {
-    "date": "21 November 2026",
-    "text": "Los Angeles and Long Beach port contract expires at 12:01 on Saturday, a possible watchmen strike date.",
-    "country": "US"
+    "date": "Effective: late November 2026",
+    "text": "Drewry intra-Asia index report takes effect; rates are expected to decline in the coming weeks.",
+    "country": "CN"
    },
    {
-    "date": "12:01 a.m. Pacific time Saturday",
-    "text": "Contract extension expires for LA-Long Beach port security workers, the strike deadline cited by trade groups.",
-    "country": "US"
+    "date": "In force from May 2025",
+    "text": "SECA sulphur rules in force, shifting some Mediterranean traffic towards the West African route and raising bunker costs.",
+    "country": "MA"
    },
    {
-    "date": "30 November to 3 December",
-    "text": "IMO Marine Environment Protection Committee meets to consider the Net-Zero Framework.",
+    "date": "First quarter",
+    "text": "Planned refinery turnarounds and Rhine lock maintenance could tighten supply and logistics again.",
+    "country": "DE"
+   },
+   {
+    "date": "Targeted for the first quarter of 2027",
+    "text": "Targeted closing of the proposed Hapag-Lloyd takeover of Zim.",
     "country": "GLOBAL"
    },
    {
-    "date": "1 December 2026",
-    "text": "Hapag-Lloyd Equipment Imbalance Surcharge applies to intra-Asia shipments to Vietnam for dry and refrigerated containers.",
-    "country": "GLOBAL"
+    "date": "Early 2027",
+    "text": "Expected provisional entry into force of the EU-Indonesia CEPA, subject to Parliament approval and Indonesian ratification.",
+    "country": "EU"
    },
    {
-    "date": "December 2026",
-    "text": "Maersk Intermodal Fuel Fee for UK full-container landside moves rises to 11.6% for truck or rail, and Ireland's truck fee is 8.1%.",
-    "country": "GB"
-   },
-   {
-    "date": "1 January 2027",
-    "text": "UK carbon border adjustment mechanism starts, covering aluminium, cement, fertilisers, hydrogen, iron and steel.",
-    "country": "GB"
-   },
-   {
-    "date": "1 January 2027",
-    "text": "Hapag-Lloyd Marine Fuel Surcharge applies to all new contracts, gradually replacing the Marine Fuel Recovery mechanism.",
-    "country": "GLOBAL"
-   },
-   {
-    "date": "1 July 2027",
-    "text": "Spain's ban on scrubber wastewater discharge in its ports and anchorages takes effect for all scrubber types.",
-    "country": "ES"
+    "date": "By 2030",
+    "text": "Target for Morocco to deliver 21 new vessels for a national merchant fleet.",
+    "country": "MA"
    }
   ],
-  "market": "Asia to US container rates were mostly lower, with Drewry reporting falls of 5% to Los Angeles and 9% to New York, while US Gulf chemical tanker rates were mostly higher. Reduced Hormuz transit capacity raises the risk of delays and cost pressure on Gulf-linked energy and LPG cargo. Maersk's higher UK fuel fee and Hapag-Lloyd's Vietnam imbalance surcharge will add to landside and intra-Asia costs from December 2026."
+  "market": "Asia-Mediterranean container rates rose sharply while Asia-US West Coast and East Coast rates fell, and Zim expects costs to stay high on Asia-US lanes. Vehicle carrier charter rates near $100,000 per day and rising vessel values point to a capacity crunch, while tanker freight has weakened as refining margins fall. Intra-Asia rates were mixed, with Shanghai to Jebel Ali remaining high at $8,149 per 40ft container."
  },
  "items": [
+  {
+   "id": "m-16f053ab76f4",
+   "title": "Sovcomflot credits sanctions adaptation for profit rebound as EU targets its former fleet network",
+   "originalTitle": "Sovcomflot credits sanctions adaptation for profit rebound as EU targets network behind former fleet",
+   "url": "https://www.lloydslist.com/LL1159185/Sovcomflot%20credits%20sanctions%20adaptation%20for%20profit%20rebound%20as%20EU%20targets%20network%20behind%20former%20fleet?utm_source=search&amp;utm_medium=RSS&amp;utm_term=&amp;utm_campaign=search_rss",
+   "source": "Lloyd's List",
+   "publishedAt": "2026-11-20T17:13:26Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "abstract",
+   "category": "regulation",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "EU",
+     "relevance": 75
+    },
+    {
+     "id": "GLOBAL",
+     "relevance": 40
+    }
+   ],
+   "summary": "Russian shipping company Sovcomflot has attributed a return to profit to its adaptation to sanctions. At the same time, the EU is targeting the network of companies behind vessels that were formerly part of the Sovcomflot fleet.",
+   "impact": "Sanctions on Sovcomflot and linked shipping networks raise compliance risk for forwarders and agents handling cargo on tonnage with Russian ownership or links. Vessels moved between owners or flags may still fall within EU measures, so counterparties need careful screening. The source is only a short summary, so the specific measures and dates are not confirmed here.",
+   "action": "Screen vessels, owners and managers on any voyage touching Russian-linked tonnage against current EU sanctions lists, and watch for the detailed EU listings and their effective dates.",
+   "effectiveDate": "",
+   "keyFigures": []
+  },
+  {
+   "id": "m-401bf866056d",
+   "title": "Rhine water levels rebound at Kaub, easing barge freight costs and shortages",
+   "originalTitle": "Water levels on Rhine rise, providing relief to market participants",
+   "url": "https://www.hellenicshippingnews.com/water-levels-on-rhine-rise-providing-relief-to-market-participants/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-22T22:00:48Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "DE",
+     "relevance": 85
+    },
+    {
+     "id": "NL",
+     "relevance": 50
+    },
+    {
+     "id": "BE",
+     "relevance": 40
+    }
+   ],
+   "summary": "Water levels on the Rhine rose above 140 cm at Kaub on 20 November and were forecast to exceed 250 cm by 22 November after several days of rain. Barge freight from the Amsterdam-Rotterdam-Antwerp hub to Basel fell from €162.5/mt to €92.5/mt over the same week, after months of record lows that had constrained cargo loads.",
+   "impact": "Barges carrying more than 2,000 tonnes must cut loads below 150 cm, and shipowners have been adding surcharges to offset lost capacity, so cost relief will depend on sustained levels. Stocks remain very low and a backlog still needs clearing, while planned refinery turnarounds and Rhine lock maintenance in the first quarter could tighten supply and logistics again.",
+   "action": "Watch Kaub gauge readings and barge surcharge notices over the coming weeks, and plan for possible Q1 constraints from refinery turnarounds and lock maintenance. Use rail where available, as the right-bank Middle Rhine Line rail route reopens on 12 December.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Kaub 144 cm on 20 November, forecast above 250 cm on 22 November",
+    "ARA to Basel barge freight €92.5/mt on 20 November, down from €162.5/mt earlier that week",
+    "Barges lose about half their load below 135 cm",
+    "Right-bank Middle Rhine Line closure to finish 12 December"
+   ]
+  },
+  {
+   "id": "m-68c739b05587",
+   "title": "Asia-Mediterranean container rates jump $1,076 while Asia-US lanes fall in week 47",
+   "originalTitle": "Container Report – Week 47",
+   "url": "https://www.hellenicshippingnews.com/container-report-week-47/",
+   "source": "Hellenic Shipping News: international",
+   "publishedAt": "2026-11-22T22:00:00Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 75
+    },
+    {
+     "id": "EU",
+     "relevance": 55
+    },
+    {
+     "id": "US",
+     "relevance": 50
+    }
+   ],
+   "summary": "The Baltic Exchange Freightos-style FBX Weighted Average fell 57 points to 3,419 over the past week, with mixed movement across lanes. Asia-US West Coast (FBX01) dropped $809 to $7,643/FEU and Asia-US East Coast (FBX03) fell $427 to $9,421/FEU, while Asia-North Europe (FBX11) edged up to $3,406/FEU. The largest rise was on Asia-Mediterranean (FBX13), up $1,076 to $5,357/FEU, and North Europe-US East Coast (FBX22) softened $107 to $2,639/FEU.",
+   "impact": "The sharp rise on Asia-Mediterranean lanes will raise costs for Morocco, Spain, France and Italian-bound cargo, so forwarders should expect higher quotes on that trade. Falling Asia-US rates may ease transpacific costs, but the report flags a possible strike at Los Angeles and Long Beach this weekend, which could cause delays and make rate direction uncertain. Rates on Asia-North Europe remain much lower than Asia-Mediterranean.",
+   "action": "Check current quotations on Asia-Mediterranean and confirm surcharges with carriers before committing to shipments. Monitor news on the possible Los Angeles and Long Beach strike and build contingency time into US West Coast bookings.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "FBX Weighted Average down 57 points to 3,419",
+    "Asia-Mediterranean (FBX13) up $1,076 to $5,357/FEU",
+    "Asia-US West Coast (FBX01) down $809 to $7,643/FEU",
+    "Asia-US East Coast (FBX03) down $427 to $9,421/FEU"
+   ]
+  },
+  {
+   "id": "m-645ede632a90",
+   "title": "Zim's third-quarter profit surges to $830 million as freight rates rise 55%",
+   "originalTitle": "Zim Q3 profit surges to $830 million as freight rates jump 55%",
+   "url": "https://www.freightwaves.com/news/zim-q3-profit-surges-to-830-million-as-freight-rates-jump-55",
+   "source": "FreightWaves Maritime",
+   "publishedAt": "2026-11-20T16:26:00Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 70
+    },
+    {
+     "id": "US",
+     "relevance": 60
+    }
+   ],
+   "summary": "Israeli carrier Zim reported third-quarter net income of $830 million, up from $123 million a year earlier, as average freight rates climbed 55% to $2,480 per TEU. It raised its full-year adjusted EBITDA and EBIT guidance, and said the proposed Hapag-Lloyd takeover is targeted to close in the first quarter of 2027. Reported profit includes a non-cash impairment reversal of $155 million after tax.",
+   "impact": "Strong pricing on Asia-US West Coast and East Coast lanes signals tight capacity and elevated rates, so forwarders should expect costs to stay high. Management said it saw some softening in recent weeks around the year-end holidays, with a possible pick-up in January before Chinese New Year. Zim also launched ZX3 and Falcon services, adding expedited options for Asia-US West Coast and China to South America cargo.",
+   "action": "Review contract and spot rate exposure on Asia-US lanes and monitor rates for the expected January recovery. Consider the new expedited Asia-US West Coast and China-South America services where faster transit matters.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Average freight rate up 55% to $2,480 per TEU",
+    "Q3 cargo volume up 4% to 962,000 TEUs",
+    "Full-year adjusted EBIT guidance raised to $2 billion to $2.2 billion",
+    "Hapag-Lloyd offer of $35 per share in cash"
+   ]
+  },
+  {
+   "id": "m-96c0cc97c3d5",
+   "title": "Vehicle carrier charter rates near $100,000 per day as vessel values climb",
+   "originalTitle": "Vehicle carrier charter rates near $100,000 per day while vessel values climb amid capacity crunch",
+   "url": "https://www.lloydslist.com/LL1159137/Vehicle%20carrier%20charter%20rates%20near%20100000%20per%20day%20while%20vessel%20values%20climb%20amid%20capacity%20crunch?utm_source=search&amp;utm_medium=RSS&amp;utm_term=&amp;utm_campaign=search_rss",
+   "source": "Lloyd's List",
+   "publishedAt": "2026-11-20T12:53:01Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "abstract",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 85
+    }
+   ],
+   "summary": "Vehicle carrier charter rates are reported near $100,000 per day while vessel values are rising amid a capacity crunch. The source attributes rising demand to changing trade patterns, longer-haul trades and Cape of Good Hope diversions. The short summary notes that record newbuild contracting is under way across the industry.",
+   "impact": "Higher charter costs and tight vehicle carrier capacity may raise rates and reduce space availability for car and rolling cargo shipments. Longer routings via the Cape of Good Hope can extend transit times, so schedules for vehicle and roll-on cargo may need more buffer. Rising vessel values suggest owners expect sustained demand rather than a short-lived spike.",
+   "action": "Check current vehicle carrier space and rate quotes with carriers and monitor charter and newbuild trends for signs of easing as new tonnage enters service.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Vehicle carrier charter rates near $100,000 per day"
+   ]
+  },
+  {
+   "id": "m-89a981c054ee",
+   "title": "Lower refining margins squeeze tanker freight rates across clean and crude markets",
+   "originalTitle": "Tanker Market: Lower Refining Margins Leaving Less Room to Pay for Freight",
+   "url": "https://www.hellenicshippingnews.com/tanker-market-lower-refining-margins-leaving-less-room-to-pay-for-freight/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-22T22:00:59Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 90
+    },
+    {
+     "id": "CN",
+     "relevance": 35
+    }
+   ],
+   "summary": "Gibson reports that weaker refining margins are leaving refiners less room to pay freight, so cost pressure is shifting to sellers and freight has already fallen. Clean tanker rates outside the Gulf have dropped sharply, with US Gulf MRs around $26,000/day and TC15 LR2s at $60,000/day against $175,000/day in mid-October. Chinese clean product export plans for the final two months of quota may not be met in full.",
+   "impact": "Forwarders and importers buying tanker capacity may see lower clean and crude freight rates in the near term, but rates could recover if margins stay weak only to a limited extent. Fleet supply is growing, with scheduled deliveries through 2027, while attacks around the Strait of Hormuz have temporarily removed some capacity. Risk premiums remain high in Gulf freight, where war risk sets the price.",
+   "action": "Monitor weekly clean and dirty tanker rates, Chinese export quota use in the coming months, and whether Gulf refinery runs show up in product loadings. Consider timing tanker bookings against the current softening in clean rates, while allowing for Hormuz security risk.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "US Gulf MRs around $26,000/day TCE, down about two thirds since late October",
+    "TC15 LR2s Mediterranean to Far East at $60,000/day against $175,000/day in mid-October",
+    "Chinese CPP exports around 850kbd in October, down from 1.1 mbd in September",
+    "Around 16 million tonnes of Chinese export quota left for the final two months"
+   ]
+  },
+  {
+   "id": "m-a68719ebcccf",
+   "title": "Drewry intra-Asia index edges up $4 to $1,444 per 40ft container",
+   "originalTitle": "Drewry: Intra Asia Container Index Keeps Grinding Higher",
+   "url": "https://www.hellenicshippingnews.com/drewry-intra-asia-container-index-keeps-grinding-higher/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-22T22:00:46Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "CN",
+     "relevance": 85
+    },
+    {
+     "id": "SG",
+     "relevance": 45
+    },
+    {
+     "id": "KR",
+     "relevance": 30
+    }
+   ],
+   "summary": "Drewry's Intra-Asia Container Index rose $4 to $1,444 per 40ft container, with rates broadly stable. Easing congestion on the Greater China to North Asia corridor, notably to Busan, offset rising rates to Southeast Asia, Manila and Singapore. Drewry expects rates to decline in the coming weeks as extra capacity and better port conditions ease pressure.",
+   "impact": "Forwarders and importers buying intra-Asia capacity face mixed movements by lane, so spot quotes should be checked route by route rather than against the composite index. Shanghai to Jebel Ali remains high at $8,149 per 40ft container, and congestion at Singapore is adding waiting time at a key transhipment hub. Weather-related port closures and vessel delays could still push rates up, and elevated bunker costs continue to support pricing.",
+   "action": "Watch weekly index updates and Singapore waiting times before fixing intra-Asia spot bookings, and monitor the OOCL FCS4 service linking Chennai and Visakhapatnam with Port Klang when it launches.",
+   "effectiveDate": "late November 2026",
+   "keyFigures": [
+    "IACI up $4 to $1,444 per 40ft container",
+    "Busan rates down 8% to $990 per 40ft container",
+    "Manila rates up 7% to $1,310 per 40ft container",
+    "Index up 117% year on year"
+   ]
+  },
+  {
+   "id": "m-41e3a198eba3",
+   "title": "Morocco plans 21-ship national merchant fleet by 2030 to cut reliance on foreign carriers",
+   "originalTitle": "Flotte maritime: le Maroc prépare son grand retour en mer",
+   "url": "https://www.challenge.ma/flotte-maritime-le-maroc-prepare-son-grand-retour-en-mer-326907/",
+   "source": "Challenge.ma",
+   "publishedAt": "2026-11-22T11:30:00Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 90
+    }
+   ],
+   "summary": "Morocco is preparing to rebuild a national merchant fleet, with a roadmap drawn up by Boston Consulting Group for the Ministry of Transport and Logistics, presented at the first national maritime assises in Tangier on 21 May. The plan proposes 21 new vessels by 2030, about 3.4 billion DH of investment and more than 1,200 direct and indirect jobs, with a 3.6 billion DH annual turnover. The initiative follows a royal call made on 6 November 2023 and responds to heavy dependence on foreign carriers, which handle over 95% of foreign trade by sea.",
+   "impact": "For forwarders and agents, a Moroccan-flagged fleet could in time shift part of the Europe-Morocco RoRo, RoPax, dry bulk and feeder volumes to local operators, changing carrier options and pricing. The proposals on tonnage tax, leasing and simpler port procedures are still recommendations, so near-term operations are unlikely to change.",
+   "action": "Monitor the government's response to the roadmap and any legislation on tonnage tax, leasing and cabotage rules for national operators; no immediate action is required.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "21 new vessels by 2030",
+    "About 3.4 billion DH investment and over 1,200 jobs",
+    "Target of 50% of Morocco-Europe RoRo and RoPax flows via the Strait of Gibraltar",
+    "Over 95% of foreign trade transits by sea, with about 4 billion dollars spent on maritime transport in 2022"
+   ]
+  },
+  {
+   "id": "m-0dd28ca6e336",
+   "title": "Morocco's Nador West Med and Dakhla gain weight as Atlantic route traffic grows",
+   "originalTitle": "Najib Cherfaoui : «Le Maroc est une puissance maritime internationale»",
+   "url": "https://www.challenge.ma/najib-cherfaoui-le-maroc-est-une-puissance-maritime-internationale-326910/",
+   "source": "Challenge.ma",
+   "publishedAt": "2026-11-21T11:15:47Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 85
+    },
+    {
+     "id": "GLOBAL",
+     "relevance": 45
+    }
+   ],
+   "summary": "Expert Najib Cherfaoui argues that Morocco's ports, including Tanger Med, Nador West Med and the planned Dakhla Atlantique, are becoming strategically important on world shipping routes. He cites the SECA sulphur rules in force from May 2025, which he says shift some Mediterranean traffic towards the West African route, and the return of ships to the Gibraltar to Cape of Good Hope routing. He also calls for port concession contracts to include clauses on bunker surcharges and Moroccan shipping development.",
+   "impact": "For forwarders and shipping agents, the shift towards the Atlantic route could change service options, transit patterns and port calls for Moroccan cargo. Bunker costs are rising under the SECA rules, with the expert citing a surcharge of around 200 dollars per tonne. Proposed concession clauses on fuel and freight surcharges have not been adopted and are only described as intentions.",
+   "action": "Monitor carrier announcements on new services and routings via Nador West Med and Dakhla Atlantique, and track any concession terms on surcharges that could affect Moroccan import and export costs.",
+   "effectiveDate": "May 2025",
+   "keyFigures": [
+    "Over 1 billion tonnes of cargo passed along Morocco's coasts in 2025",
+    "SECA surcharge of about 200 dollars per tonne",
+    "Nador West Med: 54 billion DH investment and 5.3 million TEU projected capacity",
+    "15 wind turbine blades shipped to Hamburg in November 2025"
+   ]
+  },
+  {
+   "id": "m-a581ea96d026",
+   "title": "Eight kilos of cocaine seized at Tangier port; Moroccan resident of Spain arrested",
+   "originalTitle": "Tanger: huit kilos de cocaïne saisis au port, un Marocain résidant en Espagne interpellé",
+   "url": "https://fr.le360.ma/societe/tanger-huit-kilos-de-cocaine-saisis-au-port-un-marocain-residant-en-espagne-interpelle_MDRLRJMHOBAPBM4XGVVVSWH2GU/",
+   "source": "Le360",
+   "publishedAt": "2026-11-22T17:44:36Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "abstract",
+   "category": "customs",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 85
+    },
+    {
+     "id": "ES",
+     "relevance": 30
+    }
+   ],
+   "summary": "Customs seized eight kilograms of cocaine at the port of Tangier, according to a short report. A Moroccan man resident in Spain was arrested in connection with the seizure.",
+   "impact": "Seizures of narcotics at Tangier can lead to heightened inspections, holds and delays for containers and vehicles moving through the port. Forwarders and shipping agents handling cargo from or to Spain may face extra scrutiny of documentation and cargo.",
+   "action": "Monitor for any further announcements from Moroccan customs on enforcement at Tangier Med and ensure shipper and cargo documentation is complete and consistent.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Eight kilograms of cocaine seized"
+   ]
+  },
+  {
+   "id": "m-fac2291ecb22",
+   "title": "648 kg of chira cannabis intercepted at Béni Ansar port in Morocco",
+   "originalTitle": "Trafic de drogue: 648 kg de chira interceptés au port de Béni Ansar",
+   "url": "https://fr.le360.ma/societe/trafic-de-drogue-648-kg-de-chira-interceptes-au-port-de-beni-ansar_ZIOYKXEV4FGSBPYYHADNCVA76E/",
+   "source": "Le360",
+   "publishedAt": "2026-11-21T10:40:00Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "abstract",
+   "category": "customs",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 85
+    }
+   ],
+   "summary": "Authorities intercepted 648 kg of chira, a form of cannabis resin, at the port of Béni Ansar, according to a short news summary. The source provides no detail on the method of concealment, the cargo route or any arrests.",
+   "impact": "Seizures at Moroccan ports can lead to heightened inspections, holds and additional documentary checks for cargo moving through the port area. Forwarders and agents handling shipments through Béni Ansar may face delays while controls are reinforced.",
+   "action": "Monitor for any official statement on enhanced controls at Béni Ansar and check with your agent whether cargo inspection times have changed for current bookings.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "648 kg of chira seized"
+   ]
+  },
+  {
+   "id": "m-3d6e72c17edd",
+   "title": "Spanish international ro-ro short-sea traffic fell 1% in 2025, led by Atlantic declines",
+   "originalTitle": "Debilidad de los tráficos ro-ro exteriores",
+   "url": "https://www.cadenadesuministro.es/monograficos/transporte-maritimo-corta-distancia-espana-cae-2025_1519673_102.html",
+   "source": "Cadena de Suministro",
+   "publishedAt": "2026-11-22T21:10:52Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "trade",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "ES",
+     "relevance": 85
+    },
+    {
+     "id": "MA",
+     "relevance": 45
+    }
+   ],
+   "summary": "Short-sea shipping in Spain fell 4.3% in 2025 to 257.5 million tonnes, with international traffic down 6.4%. International ro-ro volumes slipped 1% to 28.4 million tonnes, as loadings dropped 2.4% while discharges rose 0.7%. Atlantic ro-ro traffic fell 8.7%, while the Mediterranean rose 0.6%, and Algeciras–Tanger Med truck movements show weakness in early 2026.",
+   "impact": "Forwarders using Spanish ro-ro services should expect a softer market on Atlantic routes, where Santander and Vigo saw sharp falls, while Mediterranean links to Morocco, Algeria and Tunisia grew. On the Strait, truck volumes on Algeciras–Tanger Med were 0.69% lower in the first five months of 2026, and passenger vehicle traffic on the Tanger Med line rose 4.62%.",
+   "action": "Monitor Algeciras–Tanger Med truck capacity and pricing for signs of further weakness, and review Atlantic ro-ro bookings out of Santander and Vigo given the steep declines.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "International ro-ro traffic: 28.4 million tonnes in 2025, down 1%",
+    "Atlantic ro-ro traffic down 8.7%; Mediterranean up 0.6%",
+    "Algeciras–Tanger Med trucks: 228,747 units in Jan–May 2026, down 0.69%",
+    "Morocco ro-ro traffic with Spain's Mediterranean ports up 4.6%"
+   ]
+  },
+  {
+   "id": "m-c364b176d2cc",
+   "title": "Valenciaport container traffic holds steady as rail and vehicle volumes climb",
+   "originalTitle": "Valenciaport container traffic holds steady as vehicle traffic rises",
+   "url": "https://container-news.com/valenciaport-container-traffic-holds-steady-as-vehicle-traffic-rises/",
+   "source": "Container News",
+   "publishedAt": "2026-11-22T05:00:15Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "abstract",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "ES",
+     "relevance": 85
+    }
+   ],
+   "summary": "Container traffic at terminals managed by the Port Authority of València is virtually stable, with the rolling twelve-month total at 5,628,895 TEUs, up 0.15%. Rail traffic reached 258,910 TEUs, up 20.26% on 2025, and vehicle traffic handled as cargo rose 9%.",
+   "impact": "Stable container volumes at Valencia mean no new capacity pressure is signalled for forwarders routing through the port. The strong growth in rail traffic points to more inland rail options linked to Valenciaport, which may suit forwarders moving cargo onward by rail. The rise in ro-ro vehicle cargo may affect space and scheduling for vehicle shippers.",
+   "action": "Monitor rail service availability and terminal capacity at Valencia if your inland or onward moves depend on rail; no immediate action is required on the summary figures alone.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Rolling twelve-month container total: 5,628,895 TEUs, up 0.15%",
+    "Rail traffic: 258,910 TEUs, up 20.26% on 2025",
+    "Vehicle traffic handled as cargo: up 9%"
+   ]
+  },
+  {
+   "id": "m-060522c0cde5",
+   "title": "Rotterdam biofuel bunker premiums widen as conventional VLSFO prices fall sharply",
+   "originalTitle": "Biofuel Bunker Snapshot: B30 premiums widen as conventional bunker prices drop",
+   "url": "https://www.hellenicshippingnews.com/biofuel-bunker-snapshot-b30-premiums-widen-as-conventional-bunker-prices-drop/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-22T22:00:50Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "NL",
+     "relevance": 85
+    },
+    {
+     "id": "SG",
+     "relevance": 70
+    },
+    {
+     "id": "BE",
+     "relevance": 60
+    },
+    {
+     "id": "CN",
+     "relevance": 40
+    }
+   ],
+   "summary": "Rotterdam's B30-VLSFO premium over conventional VLSFO widened by $55/mt to $194/mt as the conventional price dropped $48/mt to $678/mt. Singapore and Hong Kong biofuel blend premiums also widened, while Singapore's bio-blended bunker sales fell 33% in October to 54,000 mt. Dutch ZRE-A ticket prices fell from €197.5 to €170/mtCO2e over the week.",
+   "impact": "Biofuel blends are becoming more expensive relative to conventional fuel in Rotterdam, Singapore and Hong Kong, so the cost gap for ships choosing B30 has widened. Antwerp's B100 price sits about $666/mt above Rotterdam because Belgium has no RED III mechanism, which raises the cost of bio-blended fuel bunkered there. Lower ZRE-A ticket prices may also have reduced support for Rotterdam's biofuel prices.",
+   "action": "Forwarders and agents with clients on biofuel bunker contracts should compare the blend premium against conventional VLSFO before fixing supply, and monitor Rotterdam ZRE-A ticket prices and feedstock barge prices for further movement.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Rotterdam B30-VLSFO premium over conventional VLSFO: $194/mt",
+    "Rotterdam conventional VLSFO: $678/mt, down $48/mt on the week",
+    "Singapore bio-blended bunker sales in October: down 33% to 54,000 mt",
+    "ZRE-A tickets: €170/mtCO2e, down from €197.5/mtCO2e"
+   ]
+  },
+  {
+   "id": "m-a73135323267",
+   "title": "Sidra Line adds Misurata, Rades and Casablanca to Mediterranean–West Africa service",
+   "originalTitle": "Sidra Line revises Mediterranean–West Africa service",
+   "url": "https://container-news.com/sidra-line-revises-mediterranean-west-africa-service/",
+   "source": "Container News",
+   "publishedAt": "2026-11-22T02:59:31Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "abstract",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 60
+    }
+   ],
+   "summary": "Sidra Line is realigning its Mediterranean–West Africa service, adding calls at Misurata in Libya, Rades in Tunisia and Casablanca in Morocco while dropping Adana from the rotation. The service will continue to link the Mediterranean with Conakry in Guinea. The source summary is truncated, so vessel details beyond a single 750 TEU reference are not available.",
+   "impact": "Casablanca gains a direct call on a West Africa service, which may offer new connectivity for Moroccan importers and exporters trading with Guinea. Shippers using Adana or relying on the previous port sequence should expect changes to transit times and cut-off dates. Forwarders should confirm how the new rotation affects routings and onward connections.",
+   "action": "Check with Sidra Line or your agent for the revised port rotation, schedule and cut-off dates before booking Casablanca or Conakry cargo. Monitor for the effective date of the change, which the summary does not give.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Single 750 TEU vessel referenced in the service",
+    "Three ports added: Misurata, Rades, Casablanca",
+    "Adana removed from rotation"
+   ]
+  },
+  {
+   "id": "m-e2ccd2b22cec",
+   "title": "JSV Logistic restores Canary Islands calls on weekly Türkiye–Spain container service",
+   "originalTitle": "JSV Logistic reconnects Türkiye with Canary Islands",
+   "url": "https://container-news.com/jsv-logistic-reconnects-turkiye-with-canary-islands/",
+   "source": "Container News",
+   "publishedAt": "2026-11-22T00:34:29Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "abstract",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "ES",
+     "relevance": 75
+    }
+   ],
+   "summary": "JSV Logistic has reinstated the Canary Islands leg of its weekly Türkiye–Spain service, restoring direct calls between Türkiye and the Spanish archipelago. The Canary Islands section had been separated from the operation in mid-2026, and the carrier has since increased deployment to three container ships of 750 to 1,200 TEU.",
+   "impact": "Forwarders shipping between Türkiye and the Canary Islands regain a direct container link, which may reduce transhipment and transit times for that lane. The larger deployment of three ships should add sailing frequency and capacity, though the source gives no rates or schedule details.",
+   "action": "Check with JSV Logistic or your agent for the revised sailing schedule and rotation before planning Türkiye–Canary Islands bookings.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Weekly service frequency",
+    "Three container ships deployed",
+    "Vessel sizes of 750 to 1,200 TEU"
+   ]
+  },
+  {
+   "id": "m-ff3a294586b3",
+   "title": "EU and Indonesia sign trade agreement removing duties on most goods",
+   "originalTitle": "90% des exportations indonésiennes vers l'UE seront exonérées de droits de douane: Bruxelles officialise un vaste accord commercial avec Jakarta (notamment pour du textile et de l'huile de palme)",
+   "url": "https://www.bfmtv.com/economie/international/90-des-exportations-indonesiennes-vers-l-ue-seront-exonerees-de-droits-de-douane-bruxelles-officialise-un-nouvel-accord-commercial-avec-jakarta_AD-202611210344.html",
+   "source": "BFM Économie",
+   "publishedAt": "2026-11-21T14:30:06Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "trade",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "EU",
+     "relevance": 85
+    }
+   ],
+   "summary": "The European Union and Indonesia formally signed a comprehensive economic partnership agreement (CEPA) and an investment protection agreement in Brussels on 21 November. The deal removes customs duties on more than 98% of EU exports to Indonesia, and Indonesia says about 90% of its exports to the EU will be duty-free, including palm oil, footwear, textiles and seafood. It still needs European Parliament approval and Indonesian ratification before provisional entry into force, which is expected in early 2027.",
+   "impact": "EU food, agricultural and industrial exporters should see lower duty costs on Indonesian-bound cargo, and importers of Indonesian textiles, palm oil, footwear and seafood should see lower duties on entry to the EU. Savings are estimated at over 600 million euros a year, but the benefits will only apply after entry into force, so current shipments remain subject to existing tariffs. Palm oil and deforestation were key sticking points, and a dedicated palm oil protocol and sustainability cooperation mechanisms are included.",
+   "action": "No change to current procedures yet. Monitor the European Parliament vote and Indonesia's ratification timetable, and prepare origin documentation and supplier certification for preferential claims ahead of entry into force.",
+   "effectiveDate": "early 2027",
+   "keyFigures": [
+    "Over 98% of EU exports to Indonesia to be duty-free",
+    "About 90% of Indonesian exports to the EU to be exempt from duties",
+    "Over 600 million euros in duty savings per year",
+    "EU-Indonesia trade reached 28.9 billion euros last year"
+   ]
+  },
+  {
+   "id": "m-d7e4b5ef84b7",
+   "title": "Long Beach and Los Angeles mark 20 years of clean air plan",
+   "originalTitle": "San Pedro Bay Ports Mark 20 Years of Landmark Clean Air Action Plan",
+   "url": "https://www.hellenicshippingnews.com/san-pedro-bay-ports-mark-20-years-of-landmark-clean-air-action-plan/",
+   "source": "Hellenic Shipping News: ports",
+   "publishedAt": "2026-11-22T18:00:58Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "US",
+     "relevance": 85
+    }
+   ],
+   "summary": "The ports of Long Beach and Los Angeles marked 20 years since adopting the Clean Air Action Plan (CAAP), which has cut port-related diesel particulate matter by 90%, nitrogen oxides by 70% and sulfur oxides by 98% since 2005. The next phase focuses on moving zero-emission cargo-handling equipment and drayage trucks from demonstration to broader deployment, backed by a Cooperative Agreement with the South Coast Air Quality Management District and new CAAP Plus incentives. The ports are also pursuing cleaner marine fuels and Green Shipping Corridors with Asian ports.",
+   "impact": "For forwarders and shipping agents using San Pedro Bay, the push towards zero-emission trucks and cargo-handling equipment may bring future changes to terminal equipment, charging and fuelling arrangements, and possibly truck access requirements. The article gives no specific new charges, deadlines or rules for cargo owners at this stage. Costs of the transition are acknowledged but not quantified.",
+   "action": "No immediate action is required. Monitor the zero-emission infrastructure plans that both ports are developing with terminal and utility partners, with initial drafts expected next May, and check with your Long Beach and Los Angeles terminal operators for any equipment or access changes.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Since 2005: diesel particulate matter down 90%, nitrogen oxides down 70%, sulfur oxides down 98%",
+    "Technology Advancement Program: $61.3 million invested by the ports since 2007; $445 million with other agencies' funding",
+    "Vessel speed reduction compliance above 95% within 20 nautical miles of the harbour",
+    "Clean Truck Program reduced truck-related air pollution by more than 90% in just over three years"
+   ]
+  },
+  {
+   "id": "m-282e126c0036",
+   "title": "Boxship owners face 20%-plus jump in reinsurance levy after Dali claims",
+   "originalTitle": "Boxship owners face 20%-plus jump in reinsurance levy on back of Dali jitters",
+   "url": "https://www.lloydslist.com/LL1159251/Boxship%20owners%20face%2020plus%20jump%20in%20reinsurance%20levy%20on%20back%20of%20Dali%20jitters?utm_source=search&amp;utm_medium=RSS&amp;utm_term=&amp;utm_campaign=search_rss",
+   "source": "Lloyd's List",
+   "publishedAt": "2026-11-20T16:09:42Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "abstract",
+   "category": "freight",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 75
+    }
+   ],
+   "summary": "According to the publisher's short summary, a further sharp increase in the International Group's GXL reinsurance levy could push the annual bill for the largest containerships close to a significant sum. The rise is linked to jitters following the Dali incident. The summary is truncated, so the full figures are not available.",
+   "impact": "Containership owners and operators would face higher annual insurance costs for their largest vessels, which may be passed on through freight pricing or surcharges. Forwarders and importers should expect the cost pressure to feed into shipping rates over time. The exact figures cannot be confirmed from the summary alone.",
+   "action": "Monitor the full article and carrier announcements for surcharge changes linked to higher P&I and reinsurance costs. No immediate action is needed beyond watching for rate notices.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Levy increase: 20%-plus, per the headline"
+   ]
+  },
+  {
+   "id": "m-6086675cbf2f",
+   "title": "Dry bulk freight rates mixed as Atlantic firms and Pacific softens",
+   "originalTitle": "Dry Bulk Market: Capesizes Trending Lower",
+   "url": "https://www.hellenicshippingnews.com/dry-bulk-market-capesizes-trending-lower/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-22T22:00:58Z",
+   "addedAt": "2026-11-23T00:58:02Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 90
+    },
+    {
+     "id": "US",
+     "relevance": 30
+    }
+   ],
+   "summary": "Dry bulk rates were mixed in the week to 23 November 2026. Panamax and Kamsarmax rates were supported in the Atlantic by limited prompt tonnage and healthy mineral enquiry, while Pacific rates came under pressure from slowing Australian mineral demand and growing tonnage availability. Ultramax and Handysize markets were broadly steady, with firmer pockets in the Atlantic and US Gulf.",
+   "impact": "Shipping agents and importers buying bulk tonnage should expect firm Atlantic and South American rates and softer Pacific pricing. The report describes tight tonnage on early December dates, which may limit flexibility on short-notice fixtures. Period rates and scrubber benefits to charterers are also relevant to longer-term cost planning.",
+   "action": "Monitor weekly Atlantic and Pacific fixture levels before committing to new bulk freight, particularly for early December laycans. No immediate action is required for container or general cargo.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "82,000-dwt transatlantic trip from US East Coast fixed at $17,250",
+    "82,000-dwt one-year period fixed at $21,500, scrubber benefit to charterers",
+    "64,000-dwt North China to West Africa fixed at $25,100 and $25,250",
+    "40,000-dwt Recalada to US East Coast fixed at $32,000"
+   ]
+  },
   {
    "id": "m-90303806c765",
    "title": "Hormuz traffic stays 65% below pre-war levels as six tankers attacked",
