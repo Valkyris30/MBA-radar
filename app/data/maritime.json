@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-22T18:57:12Z",
+ "generatedAt": "2026-11-23T00:15:29Z",
  "model": "claude-haiku-5-5",
  "countries": [
   {
@@ -176,80 +176,660 @@
   }
  ],
  "brief": {
-  "date": "2026-11-22T18:57:12Z",
-  "headline": "The EU and UK have concluded talks to link their emissions trading systems from 2028, while the EU's ban on clean plastic waste exports to Morocco takes effect from 21 November until May 2029.",
-  "overview": "The United Kingdom and European Union have concluded talks to link their Emissions Trading Systems, with the agreement committed to apply from 2028 and a possible mutual exemption from each side's carbon border mechanism. For Morocco, an EU ban on clean non-hazardous plastic waste exports to non-OECD countries takes effect from 21 November, while the draft 2027 Finance Bill would cut feed duties and exempt live animals and meat from import duties. Ports and trade flows in Morocco continued to grow, with port traffic up 3.1% to 202.7 million tonnes to the end of September. On freight, transpacific container rates fell for a seventh week while Far East to Mediterranean spot rates rose sharply.",
+  "date": "2026-11-23T00:15:29Z",
+  "headline": "The UK and EU have agreed a food trade deal that would cut SPS paperwork and border checks, while the UK carbon border charge starts on 1 January 2027 and will apply to Moroccan fertiliser imports unless emissions are declared.",
+  "overview": "The UK and EU struck a food and plants trade deal at the EU-UK Summit, though no start date has been given and existing SPS rules still apply until it takes effect. From 1 January 2027 the UK carbon border adjustment mechanism will add a carbon cost to fertiliser imports from Morocco unless importers declare verified actual emissions. In Morocco, exporters may gain duty-free access to China under a new measure, subject to rules of origin and ADII certificates. Across the wider network, Hormuz traffic remains about 65% below pre-conflict levels, Los Angeles and Long Beach face a possible labour disruption that a tentative deal has eased, and Spain has announced a national scrubber washwater ban from July 2027.",
   "highlights": [
    {
-    "text": "The EU and UK have concluded talks to link their emissions trading systems, with application committed from 2028, subject to ratification.",
-    "id": "m-7ba210f66ecd"
+    "text": "The UK carbon border charge applies to Moroccan fertiliser imports from 1 January 2027 unless importers declare verified actual emissions.",
+    "id": "m-d12616cf2b24"
    },
    {
-    "text": "The EU bans exports of clean plastic waste for recycling to Morocco and other non-OECD countries until 21 May 2029.",
-    "id": "m-c99510118382"
+    "text": "Moroccan exports to China may be exempt from Chinese customs duties, but proof of origin meeting Chinese rules will be needed.",
+    "id": "m-a6a0ef1677a6"
    },
    {
-    "text": "The draft 2027 Moroccan Finance Bill would cut feed raw material duties to 2.5% and exempt live animals and meat from import duties.",
-    "id": "m-0b383a0f7596"
+    "text": "The UK and EU food trade deal could cut certificates, documentation and border checks once it takes effect, with no start date yet.",
+    "id": "m-0219ddf078f0"
    },
    {
-    "text": "The Drewry World Container Index fell 3% to $4,176 per 40ft as Transpacific rates continued to drop.",
-    "id": "m-3c25d89f4193"
+    "text": "Spain will ban scrubber wastewater discharge in all its ports and anchorages from 1 July 2027.",
+    "id": "m-a1384eb942b3"
    },
    {
-    "text": "Far East to Mediterranean spot rates rose 6.8% to USD 4,989 per FEU while other Far East routes softened.",
-    "id": "m-c410a5f9f3bb"
+    "text": "A tentative agreement covering about 250 watchmen at Los Angeles and Long Beach lowers the immediate strike risk, pending ratification.",
+    "id": "m-8df72216c578"
    },
    {
-    "text": "Moroccan port traffic rose 3.1%, with transhipment now accounting for 51.9% of total traffic.",
-    "id": "m-bb0d9afc137a"
+    "text": "Hormuz transits stayed about 65% below pre-conflict levels, with six tankers attacked in the week.",
+    "id": "m-90303806c765"
    }
   ],
   "deadlines": [
    {
-    "date": "21 November 2025",
-    "text": "EU ban on clean non-hazardous plastic waste exports to Morocco and other non-OECD countries takes effect, lasting until 21 May 2029.",
-    "country": "MA"
+    "date": "21 November 2026",
+    "text": "Los Angeles and Long Beach port contract expires at 12:01 on Saturday, a possible watchmen strike date.",
+    "country": "US"
    },
    {
-    "date": "23 November to 4 December 2026",
-    "text": "IMO governments meet to decide whether to adopt the Net-Zero Framework and global shipping carbon pricing.",
-    "country": "GLOBAL"
+    "date": "12:01 a.m. Pacific time Saturday",
+    "text": "Contract extension expires for LA-Long Beach port security workers, the strike deadline cited by trade groups.",
+    "country": "US"
    },
    {
-    "date": "23 to 27 November 2026",
-    "text": "ISWG-GHG 23 working group meets in London on the IMO Net-Zero Framework.",
-    "country": "GLOBAL"
-   },
-   {
-    "date": "30 November 2026",
-    "text": "MEPC 85 begins in London.",
+    "date": "30 November to 3 December",
+    "text": "IMO Marine Environment Protection Committee meets to consider the Net-Zero Framework.",
     "country": "GLOBAL"
    },
    {
     "date": "1 December 2026",
-    "text": "Asia-Med notified FAK increases and pre-Chinese New Year peak season surcharges of $1,000 to $1,600 per 40ft take effect.",
+    "text": "Hapag-Lloyd Equipment Imbalance Surcharge applies to intra-Asia shipments to Vietnam for dry and refrigerated containers.",
     "country": "GLOBAL"
-   },
-   {
-    "date": "1 October 2026",
-    "text": "Updated HMRC customs declaration document codes take effect for UK and Northern Ireland imports and exports.",
-    "country": "GB"
-   },
-   {
-    "date": "10 December 2026",
-    "text": "EU keeps Tanger Med on the transhipment port list and adds Abu Qir and Damietta under new implementing regulations for emissions trading and FuelEU Maritime.",
-    "country": "EU"
    },
    {
     "date": "December 2026",
-    "text": "Carriers expected to push peak season surcharges on Asia-Europe routes ahead of the new contract season.",
+    "text": "Maersk Intermodal Fuel Fee for UK full-container landside moves rises to 11.6% for truck or rail, and Ireland's truck fee is 8.1%.",
+    "country": "GB"
+   },
+   {
+    "date": "1 January 2027",
+    "text": "UK carbon border adjustment mechanism starts, covering aluminium, cement, fertilisers, hydrogen, iron and steel.",
+    "country": "GB"
+   },
+   {
+    "date": "1 January 2027",
+    "text": "Hapag-Lloyd Marine Fuel Surcharge applies to all new contracts, gradually replacing the Marine Fuel Recovery mechanism.",
     "country": "GLOBAL"
+   },
+   {
+    "date": "1 July 2027",
+    "text": "Spain's ban on scrubber wastewater discharge in its ports and anchorages takes effect for all scrubber types.",
+    "country": "ES"
    }
   ],
-  "market": "Far East to Mediterranean spot rates rose 6.8% to USD 4,989 per FEU on 19 November, while Shanghai to Genoa was up 6% to $4,436 per 40ft and transpacific rates fell, with Shanghai to New York down 9% to $8,194. Forwarders expect transpacific costs to ease further as new capacity arrives and blank sailings continue, while carriers are likely to push peak season surcharges on Asia-Europe routes in December. Xeneta expects rates to trend downwards into 2027, but not smoothly, and Mediterranean-bound budgets should allow for a premium over North Europe lanes."
+  "market": "Asia to US container rates were mostly lower, with Drewry reporting falls of 5% to Los Angeles and 9% to New York, while US Gulf chemical tanker rates were mostly higher. Reduced Hormuz transit capacity raises the risk of delays and cost pressure on Gulf-linked energy and LPG cargo. Maersk's higher UK fuel fee and Hapag-Lloyd's Vietnam imbalance surcharge will add to landside and intra-Asia costs from December 2026."
  },
  "items": [
+  {
+   "id": "m-90303806c765",
+   "title": "Hormuz traffic stays 65% below pre-war levels as six tankers attacked",
+   "originalTitle": "Strait Of Hormuz Traffic Stays 65% Below Pre-War Levels As 6 Tankers Are Attacked In A Week",
+   "url": "https://www.marineinsight.com/strait-hormuz-shipping-65-below-tanker-attacks/?utm_source=rss&utm_medium=rss&utm_campaign=strait-hormuz-shipping-65-below-tanker-attacks",
+   "source": "Marine Insight",
+   "publishedAt": "2026-11-21T13:51:13Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "trade",
+   "urgency": "high",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 90
+    },
+    {
+     "id": "AE",
+     "relevance": 35
+    },
+    {
+     "id": "OM",
+     "relevance": 30
+    }
+   ],
+   "summary": "Shipping through the Strait of Hormuz stayed about 65% below pre-conflict levels in mid-November, with 263 transits in the seven days to 18 November, down from 308 the week before. UKMTO reported attacks on six tankers in the week, including two in the Persian Gulf, and one crew member was reported missing on each of two affected vessels. The JMIC rates the threat level in the strait as severe.",
+   "impact": "Reduced transit capacity through the strait raises the risk of delays and cost pressure on Gulf-linked cargo, particularly energy and LPG. Attacks near Khasab and the strait itself make war-risk cover, crew safety and routing decisions central to planning. UKMTO cannot verify all US-facilitated transits, so official counts may understate the true incident picture.",
+   "action": "Check with carriers and war-risk insurers on routing, surcharges and sailing reliability for Gulf calls, and watch UKMTO and JMIC updates before committing to Hormuz transits.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "263 vessel transits in the seven days to 18 November, down from 308",
+    "Six tankers attacked in one week, with four in the strait and two in the Persian Gulf",
+    "106 incidents recorded in the strait since 28 February 2026",
+    "About 10% of attacked vessels with confirmed outcomes lost or sunk since 17 August"
+   ]
+  },
+  {
+   "id": "m-878761dee397",
+   "title": "Possible LA/LB port strike this weekend as Asia-US container rates ease",
+   "originalTitle": "Asia-US container rates lower, tanker rates ex-USG higher; possible strike at LA/LB ports this weekend",
+   "url": "https://www.hellenicshippingnews.com/asia-us-container-rates-lower-tanker-rates-ex-usg-higher-possible-strike-at-la-lb-ports-this-weekend/",
+   "source": "Hellenic Shipping News",
+   "publishedAt": "2026-11-22T22:00:58Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "port",
+   "urgency": "high",
+   "countries": [
+    {
+     "id": "US",
+     "relevance": 85
+    },
+    {
+     "id": "CN",
+     "relevance": 40
+    },
+    {
+     "id": "GLOBAL",
+     "relevance": 30
+    }
+   ],
+   "summary": "Talks between ILWU Local 26 and the Pacific Maritime Association ended without agreement, raising the possibility of a watchmen strike at the Los Angeles and Long Beach port complex after the contract expires at 12:01 on Saturday 21 November. Container rates from Asia to the US were mostly lower, with Drewry reporting falls of 5% to Los Angeles and 9% to New York, while US Gulf chemical tanker rates were mostly higher on the USG-to-ARA and USG-to-Brazil lanes.",
+   "impact": "A strike could halt operations at eight terminals and affect vessel, yard and gate activity, with a significant rail backlog already slowing inland moves of holiday inventory. Analysts expect limited effect on Black Friday goods, but other holiday cargo still in port could face delays and some deliveries may be threatened.",
+   "action": "Importers and forwarders shipping into LA/LB should check cargo status, prepare contingency routings and monitor the contract outcome after the Saturday expiry.",
+   "effectiveDate": "21 November 2026",
+   "keyFigures": [
+    "Rates to West Coast $7,025-8,460/FEU",
+    "Rates to East Coast $8,194-10,900/FEU",
+    "Drewry Shanghai-Los Angeles down 5%, Shanghai-New York down 9%",
+    "ILWU Local 26 covers about 250 port watchmen handling roughly 85% of Long Beach cargo"
+   ]
+  },
+  {
+   "id": "m-d12616cf2b24",
+   "title": "UK carbon border charge hits Moroccan fertiliser imports from January 2027",
+   "originalTitle": "Le Royaume-Uni soumet les engrais marocains à une vérification carbone propre à son mécanisme frontal",
+   "url": "https://barlamane.com/fr/le-royaume-uni-soumet-les-engrais-marocains-a-une-verification-carbone-propre-a-son-mecanisme-frontal/",
+   "source": "Barlamane",
+   "publishedAt": "2026-11-22T22:06:16Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GB",
+     "relevance": 90
+    },
+    {
+     "id": "MA",
+     "relevance": 75
+    }
+   ],
+   "summary": "HMRC has set out how UK importers can declare the actual emissions of goods under the UK carbon border adjustment mechanism, which starts on 1 January 2027 and covers aluminium, cement, fertilisers, hydrogen, iron and steel. Importers can use verified actual emissions or HMRC default values, and the verifier must hold a process-specific accreditation to ISO/IEC 17029 and ISO 14065. The charge applies the sectoral quarterly rate to embedded emissions, less any carbon price already paid in the country of production.",
+   "impact": "Moroccan fertiliser exports to the UK will carry a carbon cost from 2027, unless the importer declares actual emissions verified by an accredited third party. Default values are binding once chosen and cannot be corrected later, and they are set high for ammonia and nitric acid, so the default route may be costly for some producers. Registration is needed for importers buying at least £50,000 of covered goods in a 30-day window or having passed that amount in the previous twelve months, with the first declaration and payment due by 31 May 2028.",
+   "action": "Moroccan producers and their UK clients should decide now whether to use actual or default emissions, and start monitoring emissions over the full calendar year 2027 with an accredited verifier. Producers should prepare to pass CN code, net weight, verified emissions intensity, intermediate material data and any carbon taxes paid in Morocco to UK customers.",
+   "effectiveDate": "1 January 2027",
+   "keyFigures": [
+    "Default value for anhydrous ammonia: 2.4 t CO2e per tonne",
+    "Registration threshold: £50,000 of covered goods",
+    "Materiality threshold: 5% of emissions intensity",
+    "First declaration and payment due by 31 May 2028"
+   ]
+  },
+  {
+   "id": "m-a6a0ef1677a6",
+   "title": "China grants duty-free access to Moroccan exports under new African measure",
+   "originalTitle": "La Chine ouvre son marché au Maroc: les exportations exemptées de droits de douane",
+   "url": "https://fr.le360.ma/economie/la-chine-ouvre-son-marche-au-maroc-les-exportations-exemptees-de-droits-de-douane_L6QYSXZ3LBGHNE35T3Q52EWTS4/",
+   "source": "Le360 Économie",
+   "publishedAt": "2026-11-22T15:36:02Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "customs",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 90
+    },
+    {
+     "id": "CN",
+     "relevance": 60
+    }
+   ],
+   "summary": "Moroccan exports to China are now exempt from customs duties under a new Chinese trade measure for African countries, according to Morocco's Ministry of Foreign Trade. Access to the preferential treatment depends on compliance with the rules of origin notified by China and annexed to the ministry's notice. ADII remains responsible for issuing the certificates of origin required for export, and other export formalities are unchanged.",
+   "impact": "Moroccan exporters could sell to China without paying Chinese import duties, which may improve margins and competitiveness on eligible products. Forwarders and exporters will need proof of origin that meets the Chinese rules, so documentation through ADII will be central to claiming the benefit. The article gives no effective date, product list or start date for the measure, so the scope remains unclear.",
+   "action": "Exporters and forwarders should obtain the Chinese rules of origin annexed to the ministry notice and check which HS codes are covered. Confirm the certificate of origin procedure with ADII before shipping, and watch for the effective date and product scope.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Trade between China and Morocco rose 25.1% (+23.7 MMDH) in 2025",
+    "Morocco's trade deficit with China reached 110.2 MMDH in 2025, up from 86.2 MMDH in 2024",
+    "Morocco's trade deficit with China was 21.7 MMDH in 2011",
+    "Imports from China rose by 23.8 MMDH in 2025"
+   ]
+  },
+  {
+   "id": "m-bcf73cd67bbf",
+   "title": "Maersk sets higher intermodal fuel fees for UK and Ireland landside moves in December",
+   "originalTitle": "Maersk raises UK and Ireland intermodal fuel fees",
+   "url": "https://container-news.com/maersk-raises-uk-and-ireland-intermodal-fuel-fees/",
+   "source": "Container News",
+   "publishedAt": "2026-11-22T21:00:08Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "abstract",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GB",
+     "relevance": 85
+    }
+   ],
+   "summary": "Maersk has announced revised Intermodal Fuel Fee levels for full-container-load landside transport in the United Kingdom and Ireland for December 2026. The UK fee is 11.6% for truck or rail transport, and Ireland's fee is 8.1% for truck transport.",
+   "impact": "Forwarders and importers moving full containers inland in the UK and Ireland will pay a higher fuel surcharge on landside legs in December 2026. The UK rate applies to both truck and rail, so rail is not a cheaper alternative on this surcharge. Budgets for December inland haulage should be adjusted accordingly.",
+   "action": "Check the December 2026 fuel fee table with Maersk and reflect the 11.6% UK and 8.1% Ireland levels in landside quotes. Watch for further monthly revisions.",
+   "effectiveDate": "December 2026",
+   "keyFigures": [
+    "UK intermodal fuel fee 11.6% for truck or rail in December 2026",
+    "Ireland intermodal fuel fee 8.1% for truck in December 2026"
+   ]
+  },
+  {
+   "id": "m-0219ddf078f0",
+   "title": "UK and EU agree food trade deal cutting SPS paperwork and border checks",
+   "originalTitle": "Supermarket sweep: Morrisons, Tesco and M&S back Government's business-boosting food trade deal with Europe",
+   "url": "https://www.gov.uk/government/news/supermarket-sweep-morrisons-tesco-and-ms-back-governments-business-boosting-food-trade-deal-with-europe",
+   "source": "UK government: trade",
+   "publishedAt": "2026-11-20T14:25:00Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "trade",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GB",
+     "relevance": 90
+    },
+    {
+     "id": "EU",
+     "relevance": 85
+    }
+   ],
+   "summary": "The UK and EU struck a food trade deal at the EU-UK Summit in Brussels, which the government says will remove costly paperwork and border checks for food and plants. Products such as fresh sausages, fresh burgers, seed potatoes and shellfish will regain access to the EU market, and food moving between Great Britain and Northern Ireland will also see reduced bureaucracy. The government estimates the deal could add up to £5.1bn to the UK economy in the long term.",
+   "impact": "Forwarders and importers moving food and plants between the UK and EU should expect fewer certificates, less documentation and fewer border checks once the deal takes effect, which could cut costs per consignment and speed up transit. The article gives no start date, and retailers say the detail is still to be worked through, including regulatory alignment. Until then, existing SPS requirements still apply.",
+   "action": "Monitor for the implementation date and the detailed SPS text, and identify which of your food and plant lines would benefit. Do not change certification or border procedures until the rules are confirmed in force.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Up to £5.1bn added to the UK economy in the long term",
+    "The EU took 58% of UK agri-food exports and supplied 69% of imports in 2025",
+    "Major agricultural exports to the EU could rise by around 16%",
+    "Food and drink exports to the EU have fallen by around a quarter in real terms since 2018"
+   ]
+  },
+  {
+   "id": "m-333efc1f9ed0",
+   "title": "HMRC publishes guidance on added value duty calculation for mixed temporary export goods",
+   "originalTitle": "Added value duty calculation where different temporary export goods are involved",
+   "url": "https://www.gov.uk/guidance/special-procedure-outward-processing/added-value-duty-calculation-where-different-temporary-export-goods-are-involved",
+   "source": "HMRC",
+   "publishedAt": "2026-11-20T09:48:52Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "abstract",
+   "category": "customs",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GB",
+     "relevance": 85
+    }
+   ],
+   "summary": "HMRC has published information on how added value duty is calculated where different temporary export goods are involved. The publisher's summary is brief and gives no further detail on the rules or figures.",
+   "impact": "Importers and forwarders handling temporary exports from the UK that combine different goods may need to check how added value duty is worked out for their shipments. The short summary does not say what changes, so the exact effect on duty amounts or paperwork cannot be confirmed from this item alone.",
+   "action": "Read the full HMRC guidance before the next temporary export shipment involving mixed goods, and check your duty calculations with your customs agent.",
+   "effectiveDate": "",
+   "keyFigures": []
+  },
+  {
+   "id": "m-63280938351e",
+   "title": "Hapag-Lloyd to replace fuel recovery surcharge with new Marine Fuel Surcharge from 2027",
+   "originalTitle": "Hapag-Lloyd to introduce new Marine Fuel Surcharge for contracts from January 2027",
+   "url": "https://www.manifoldtimes.com/news/hapag-lloyd-to-introduce-new-marine-fuel-surcharge-for-contracts-from-january-2027/",
+   "source": "Manifold Times",
+   "publishedAt": "2026-11-20T05:17:13Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 80
+    }
+   ],
+   "summary": "Hapag-Lloyd will introduce a new Marine Fuel Surcharge (MFS) for all contracts taking effect from 1 January 2027, gradually replacing its Marine Fuel Recovery (MFR) mechanism. The MFS reflects larger, more fuel-efficient vessels, changed operating speeds and a modelled full return to Suez Canal routings. Contracts taking effect before that date stay under the MFR until their terms end.",
+   "impact": "Forwarders and importers should expect a different fuel surcharge structure on new contracts from 2027, with fuel costs reflected in freight rates through a revised mechanism. Only one fuel recovery mechanism applies to each contract at a time, so contract start dates will determine which surcharge applies. Quarterly adjustments continue under both mechanisms during the transition.",
+   "action": "Check the start dates of upcoming contracts and quotes against the 1 January 2027 cut-off, and review how fuel surcharges are costed in 2027 pricing. Watch for the Q1 2027 MFS values published on Hapag-Lloyd's tariff page on 1 December 2026.",
+   "effectiveDate": "1 January 2027",
+   "keyFigures": [
+    "MFS applies to contracts taking effect on or after 1 January 2027",
+    "Q1 2027 MFS values to be published on 1 December 2026",
+    "MFS and MFR reviewed and adjusted quarterly",
+    "Existing contracts remain under MFR until the end of their agreed terms"
+   ]
+  },
+  {
+   "id": "m-532b8c132d91",
+   "title": "IMO Net-Zero Framework faces compromise talks at December MEPC meeting",
+   "originalTitle": "The Week in Alt Fuels: The net-zero bargain",
+   "url": "https://www.hellenicshippingnews.com/the-week-in-alt-fuels-the-net-zero-bargain/",
+   "source": "Hellenic Shipping News: international",
+   "publishedAt": "2026-11-20T22:00:51Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 90
+    },
+    {
+     "id": "EU",
+     "relevance": 55
+    }
+   ],
+   "summary": "The IMO's Marine Environment Protection Committee meets from 30 November to 3 December to consider proposals ranging from stronger economic measures to removing greenhouse gas pricing altogether. The EU and Pacific Island states back the text approved in April 2025, while the US and several other countries, including major oil producers, want substantial changes to its technical and economic provisions. Shipping associations and some EU member states are pressing for a more flexible, achievable framework that avoids overlapping regional and global charges.",
+   "impact": "A softer Net-Zero Framework could lower future carbon-related costs on ocean freight but could also make compliance cheaper than switching fuels, which may slow investment in cleaner fuels. Forwarders and importers should expect uncertainty over carbon pricing and surcharges until the outcome is clear. Any global deal that replaces overlapping regional charges, such as the EU's own measures, could change how carbon costs are levied on shipments.",
+   "action": "Monitor the outcome of the IMO intersessional GHG working group (23 to 27 November) and the MEPC session (30 November to 3 December). Review contract clauses on bunker and carbon-related surcharges so you can adjust quickly once the framework is settled.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "MEPC meets 30 November to 3 December",
+    "Intersessional GHG working group meets 23 to 27 November",
+    "Greece and three other EU states represent 70% of the EU-controlled fleet",
+    "Japan's proposal was not circulated within the six-month MARPOL period required for adoption at MEPC 85"
+   ]
+  },
+  {
+   "id": "m-8df72216c578",
+   "title": "Tentative deal averts strike threat at Los Angeles-Long Beach ports",
+   "originalTitle": "Tentative union deal averts strike at Port of LA-Long Beach",
+   "url": "https://www.freightwaves.com/news/tentative-union-deal-averts-strike-at-port-of-la-long-beach",
+   "source": "FreightWaves Maritime",
+   "publishedAt": "2026-11-21T14:57:00Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "port",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "US",
+     "relevance": 85
+    }
+   ],
+   "summary": "The Pacific Maritime Association and ILWU Local 26 have reached a tentative contract agreement covering about 250 watchmen at the ports of Los Angeles and Long Beach, under federal mediation. The agreement is subject to ratification by Local 26 members, and the existing contract will be extended while that process runs. No terms or ratification timeline have been disclosed.",
+   "impact": "The deal lowers the immediate risk of a labour disruption at the largest US container port complex, where a walkout could have affected cargo owners across the supply chain. Watchmen control terminal-gate access at six container terminals, so there were concerns that other union workers might honour their picket lines. Until ratification is confirmed, the risk is reduced rather than removed.",
+   "action": "Keep monitoring for Local 26 ratification results and any published terms, and avoid treating the risk as closed until members vote. Check with carriers and terminals on any changes to gate or cargo handling arrangements at Los Angeles and Long Beach.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "About 250 watchmen covered across six container terminals",
+    "Pre-settlement offer included a $3,200 one-time bonus",
+    "Offer would lift full-time watchman average earnings from over $170,000 to $198,000 a year",
+    "Local 26 represents roughly 2% of ILWU workers at the two ports"
+   ]
+  },
+  {
+   "id": "m-4b4f72008acd",
+   "title": "US trade groups urge deal as LA-Long Beach port security strike deadline nears",
+   "originalTitle": "More Than 110 Trade Groups Urge Deal as LA-Long Beach Port Strike Deadline Nears",
+   "url": "https://gcaptain.com/more-than-110-trade-groups-urge-deal-as-la-long-beach-port-strike-deadline-nears/",
+   "source": "gCaptain",
+   "publishedAt": "2026-11-20T22:33:04Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "port",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "US",
+     "relevance": 90
+    }
+   ],
+   "summary": "More than 110 US trade associations urged the Pacific Maritime Association and ILWU Local 26 to reach a labour agreement before a contract extension expires at 12:01 a.m. Pacific time on Saturday. The dispute covers about 250 port security workers, and PMA said talks on 17 November made little progress. A related item in the source reports a tentative agreement between the PMA and the union for security workers.",
+   "impact": "A strike could disrupt container operations at terminals handling much of Southern California's cargo, and thousands of longshore workers, clerks and foremen could honour picket lines. The associations warned that backlogs could take weeks or months to clear, with knock-on delays for trucking, rail and warehousing. Ports already face congestion from near-record import volumes.",
+   "action": "Monitor the outcome of the tentative agreement and any ratification before Saturday's deadline, and review contingency plans for diverted or delayed Los Angeles and Long Beach bookings.",
+   "effectiveDate": "12:01 a.m. Pacific time Saturday",
+   "keyFigures": [
+    "About 250 port security workers covered by the dispute",
+    "Local 26 represents about 2% of the ILWU workforce at the two ports",
+    "Six container terminals account for about 85% of cargo at Long Beach and 33% at Los Angeles",
+    "More than 110 trade associations signed the joint statement"
+   ]
+  },
+  {
+   "id": "m-c4fec80736c1",
+   "title": "Los Angeles and Long Beach labour group signs tentative truce with employers",
+   "originalTitle": "LA-LB labour group signs truce with employers",
+   "url": "https://www.seatrade-maritime.com/ports-logistics/la-lb-labour-group-signs-truce-with-employers",
+   "source": "Seatrade Maritime",
+   "publishedAt": "2026-11-21T22:07:21Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "abstract",
+   "category": "port",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "US",
+     "relevance": 85
+    }
+   ],
+   "summary": "A labour group at the Los Angeles and Long Beach ports has reached a tentative agreement with employers, averting a strike. The deal is subject to ratification by rank-and-file port workers. The summary gives no further terms.",
+   "impact": "A ratified deal would remove the immediate risk of strike-related disruption at two of the largest US container gateways. Until ratification is confirmed, forwarders should treat the risk of stoppage as not fully resolved. Contract terms, dates and any effect on cargo flows are not stated in the summary.",
+   "action": "Monitor for the ratification vote result and watch for any strike notice at Los Angeles and Long Beach before finalising US import schedules.",
+   "effectiveDate": "",
+   "keyFigures": []
+  },
+  {
+   "id": "m-b65d34a5536a",
+   "title": "Hapag-Lloyd to add equipment imbalance surcharge on intra-Asia Vietnam shipments",
+   "originalTitle": "Hapag-Lloyd introduces Vietnam equipment surcharge",
+   "url": "https://container-news.com/hapag-lloyd-introduces-vietnam-equipment-surcharge/",
+   "source": "Container News",
+   "publishedAt": "2026-11-22T23:17:35Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "abstract",
+   "category": "freight",
+   "urgency": "medium",
+   "countries": [
+    {
+     "id": "GLOBAL",
+     "relevance": 40
+    }
+   ],
+   "summary": "Hapag-Lloyd will introduce an Equipment Imbalance Surcharge on intra-Asia shipments to Vietnam for dry and refrigerated containers loaded on sailings from 1 December 2026. The surcharge will stay in effect until further notice. The source summary lists per-container amounts for 20-foot dry, 40-foot dry and 40-foot high cube boxes, with the rest of the table not included.",
+   "impact": "Forwarders and shipping agents moving containers into Vietnam on intra-Asia services will face an extra per-box charge from December 2026, adding to freight costs. The surcharge is linked to container imbalance, so it may be applied to cargo that already has a booking, depending on the carrier's terms. Costs should be built into quotes for Vietnam-bound boxes.",
+   "action": "Check the full Hapag-Lloyd notice for the complete rate table, refrigerated container rates and any exemptions, and include the surcharge in forward quotes for Vietnam loadings from 1 December 2026.",
+   "effectiveDate": "1 December 2026",
+   "keyFigures": [
+    "20-foot dry container: US$50 per container",
+    "40-foot dry container: US$100 per container",
+    "40-foot high cube container: US$100 per container"
+   ]
+  },
+  {
+   "id": "m-a1384eb942b3",
+   "title": "Spain bans scrubber wastewater discharge in all its ports from July 2027",
+   "originalTitle": "Spain to ban all scrubber wastewater discharge in its ports",
+   "url": "https://www.hellenicshippingnews.com/spain-to-ban-all-scrubber-wastewater-discharge-in-its-ports/",
+   "source": "Hellenic Shipping News: ports",
+   "publishedAt": "2026-11-22T22:00:32Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "regulation",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "ES",
+     "relevance": 90
+    },
+    {
+     "id": "EU",
+     "relevance": 40
+    }
+   ],
+   "summary": "Spain's Council of Ministers approved a royal decree banning ships fitted with any type of scrubber, whatever their flag, from discharging scrubber wastewater in its ports and anchorages from 1 July 2027. The ban covers open-loop, closed-loop and hybrid systems and replaces local restrictions at several Spanish ports, including Algeciras, Valencia and Barcelona. It aligns with the OSPAR Commission decision but goes further by bringing forward the closed-loop and hybrid ban and extending it beyond OSPAR areas.",
+   "impact": "Ships with scrubbers will not be able to discharge washwater in Spanish ports and anchorages, so they must burn low-sulphur fuel in the regulated areas or hold wastewater on board for handover in port. This may add fuel costs and port-side handling for vessels calling Algeciras, Valencia, Barcelona and other Spanish ports. The uniform national rule should give operators more legal certainty than the current patchwork of local restrictions.",
+   "action": "Vessel operators and agents calling Spanish ports should check which scrubber mode their ships use and plan low-sulphur fuel or wastewater handover arrangements before 1 July 2027. Monitor the royal decree text for detailed compliance requirements.",
+   "effectiveDate": "1 July 2027",
+   "keyFigures": [
+    "7,230 ships currently equipped with scrubbers worldwide",
+    "Expected to rise to 7,612 vessels by 2029 (DNV)",
+    "Open-loop ban in OSPAR areas due by 1 July 2027, all scrubber modes by 1 July 2029",
+    "Denmark, Sweden and Finland banned open-loop discharges from 1 July 2025"
+   ]
+  },
+  {
+   "id": "m-2110b971b5e8",
+   "title": "JSV Group buys third ship for Alicante–Canary Islands express service",
+   "originalTitle": "JSV puts third owned ship on Alicante–Canary Islands express service",
+   "url": "https://www.portseurope.com/jsv-puts-third-owned-ship-on-alicante-canary-islands-express-service/",
+   "source": "PortSEurope",
+   "publishedAt": "2026-11-22T23:03:00Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "abstract",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "ES",
+     "relevance": 85
+    }
+   ],
+   "summary": "JSV Group has bought the 809 TEU containership CanariasGreen, previously chartered as Njord, for its express service from Alicante to the Canary Islands. The purchase, announced on 18 June 2026, gives the group three owned ships and greater control over its Canary Islands and Turkey connections.",
+   "impact": "Owning rather than chartering a vessel gives JSV more control over capacity on the Alicante to Canary Islands link, which may support more consistent sailing schedules for cargo moving between mainland Spain and the islands. The source summary gives no details on rates, sailing frequency or transit times, so the practical effect on service levels is not yet clear.",
+   "action": "Forwarders and agents moving cargo between Alicante and the Canary Islands should watch for schedule and capacity announcements from JSV on this service.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "809 TEU containership CanariasGreen",
+    "Three owned ships in the JSV Group fleet",
+    "Purchase announced 18 June 2026"
+   ]
+  },
+  {
+   "id": "m-ef322e44c744",
+   "title": "Thames Freeport completes private 5G network across London Gateway and Tilbury ports",
+   "originalTitle": "Thames Freeport completes private 5G network across London Gateway and Tilbury ports",
+   "url": "https://www.portseurope.com/thames-freeport-completes-private-5g-network-across-london-gateway-and-tilbury-ports/",
+   "source": "PortSEurope",
+   "publishedAt": "2026-11-22T23:04:00Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "abstract",
+   "category": "port",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "GB",
+     "relevance": 85
+    }
+   ],
+   "summary": "Verizon Business has completed a five-site private 5G network at Thames Freeport, covering London Gateway and the Port of Tilbury. The platform is already supporting trials of AI damage detection and digital truck processing.",
+   "impact": "Digital truck processing and AI damage detection could, if rolled out, speed gate operations and cargo inspection at these Thames ports. For now the network is at trial stage, so day-to-day procedures and transit times are unlikely to change yet.",
+   "action": "No immediate action needed. Monitor whether the trials move to wider operational use at London Gateway and Tilbury, and check with terminals on any new digital processes.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Five-site private 5G network"
+   ]
+  },
+  {
+   "id": "m-e32205d20cce",
+   "title": "Sentury's Tangier tyre plant shifts exports from United States to Turkey",
+   "originalTitle": "L’usine tangéroise de Sentury Tire redirige vers la Turquie une partie de ses pneus auparavant destinés aux États-Unis",
+   "url": "https://barlamane.com/fr/lusine-tangeroise-de-sentury-tire-redirige-vers-la-turquie-une-partie-de-ses-pneus-auparavant-destines-aux-etats-unis/",
+   "source": "Barlamane",
+   "publishedAt": "2026-11-22T18:43:59Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "trade",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 85
+    },
+    {
+     "id": "US",
+     "relevance": 45
+    },
+    {
+     "id": "CN",
+     "relevance": 40
+    }
+   ],
+   "summary": "Sentury Tire's Tangier plant has begun selling part of its output in Turkey, previously destined for the United States, according to a Noria Research study. The US share of Moroccan car tyre exports fell from 94% in 2025 to 74% in the first half of 2026, while Turkey took 17% of shipments. The shift is attributed to higher US tariffs, and the group is also building a seven-million-tyre plant in Turkey.",
+   "impact": "Forwarders handling Moroccan tyre exports may see more cargo routed to Turkey rather than the US, changing lanes and shipping volumes from Tanger Med. The study also reports that most of the plant's output leaves Morocco under temporary admission, which suspends duties on imported Chinese rubber and carbon black, so customs paperwork and inputs matter for compliance.",
+   "action": "Check whether your Moroccan tyre volumes or lanes are affected by the shift from US to Turkish destinations, and review temporary admission documentation for Chinese inputs. No immediate action is needed beyond monitoring.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Moroccan car tyre exports reached about 1 billion dirhams in H1 2026, versus about 800 million in all of 2025",
+    "US share fell from 94% in 2025 to 74% in H1 2026; Turkey took 17% of shipments",
+    "Temporary admission covered 99.8% of Sentury's 2025 output leaving Morocco",
+    "Turkish plant: $272.8 million investment, 7 million tyres a year, 18-month build"
+   ]
+  },
+  {
+   "id": "m-47676b65ba6c",
+   "title": "Brazil's Mato Grosso plans for up to 3.8 million tonnes more fertiliser demand, citing OCP Morocco",
+   "originalTitle": "Le Mato Grosso prévoit jusqu’à 3,8 millions de tonnes supplémentaires d’engrais et cite le Maroc dans sa stratégie logistique",
+   "url": "https://barlamane.com/fr/le-mato-grosso-prevoit-jusqua-38-millions-de-tonnes-supplementaires-dengrais-et-cite-le-maroc-dans-sa-strategie-logistique/",
+   "source": "Barlamane",
+   "publishedAt": "2026-11-22T23:14:25Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "full_text",
+   "category": "trade",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "MA",
+     "relevance": 60
+    }
+   ],
+   "summary": "The Mato Grosso state economy secretariat published a Federal University of Mato Grosso study forecasting fertiliser demand rising 29% to 39% by 2034, adding 2.8 to 3.8 million tonnes on the 9.8 million tonnes used in 2024. The state already depends heavily on imports, with China, Canada and Russia supplying 69.6% of its 2025 fertiliser. Officials have held technical contacts with Moroccan producer OCP, under a federal memorandum with OCP Nutricrops that sets an indicative 3.8 million tonnes of phosphate fertiliser for Brazilian buyers in 2026-2027.",
+   "impact": "For forwarders and importers, this points to a possible new long-haul bulk flow of Moroccan phosphate fertiliser to Brazil, from ports such as Jorf Lasfar. Each purchase remains subject to commercial terms still to be negotiated between OCP and buyers, so volumes and routings are not yet firm. Nothing in the text sets new costs, paperwork or transit times.",
+   "action": "No action needed now. Monitor OCP export announcements and any Brazil-bound fertiliser capacity or booking offers for 2026-2027.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Demand up 29% to 39% by 2034, adding 2.8 to 3.8 million tonnes",
+    "Mato Grosso received 11.4 million tonnes of fertiliser in 2025, 23.2% of Brazilian deliveries",
+    "China, Canada and Russia supplied 69.6% of Mato Grosso's 2025 imports",
+    "OCP Jorf Lasfar declared capacity of 15 million tonnes a year"
+   ]
+  },
+  {
+   "id": "m-bd34800ade00",
+   "title": "EU and Indonesia sign comprehensive trade and investment partnership agreements",
+   "originalTitle": "EU and Indonesia sign ambitious trade and investment agreements",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
+   "source": "EU Trade",
+   "publishedAt": "2026-11-20T23:00:00Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "abstract",
+   "category": "trade",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "EU",
+     "relevance": 85
+    }
+   ],
+   "summary": "The European Union and Indonesia have signed their Comprehensive Economic Partnership Agreement (CEPA) and Investment Protection Agreement (IPA). The source is a short publisher's summary, so details of tariff cuts, timelines and entry into force are not available here.",
+   "impact": "The signing sets out a framework for future trade and investment rules between the EU and Indonesia, but it does not in itself change duties or procedures for cargo. Forwarders and importers should not assume new preferential rates until the agreements enter into force and the schedules are published.",
+   "action": "Monitor the EU Official Journal and the Commission's trade pages for ratification steps, entry-into-force dates and tariff schedules for Indonesian goods.",
+   "effectiveDate": "",
+   "keyFigures": []
+  },
+  {
+   "id": "m-5513cc4730e3",
+   "title": "EU and Indonesia sign CEPA trade deal opening market of 280 million consumers",
+   "originalTitle": "EU and Indonesia sign CEPA opening a market of 280 million consumers",
+   "url": "https://www.portseurope.com/eu-and-indonesia-sign-cepa-opening-a-market-of-280-million-consumers/",
+   "source": "PortSEurope",
+   "publishedAt": "2026-11-22T23:01:00Z",
+   "addedAt": "2026-11-23T00:15:29Z",
+   "basis": "abstract",
+   "category": "trade",
+   "urgency": "low",
+   "countries": [
+    {
+     "id": "EU",
+     "relevance": 85
+    }
+   ],
+   "summary": "The EU and Indonesia signed their Comprehensive Economic Partnership Agreement in Brussels on 21 November 2026, opening a market of 280 million consumers to EU exporters. The source summary indicates most Indonesian import duties are due to be phased out, with customs provisions also referenced, though the full text is truncated.",
+   "impact": "Lower Indonesian import duties should make European goods cheaper to sell into Indonesia, which may lift export volumes through EU ports over time. Forwarders and agents should expect changes to customs documentation and origin requirements once the agreement is implemented, though the summary gives no detail on these. The timing of duty phase-outs is not stated in the material available.",
+   "action": "Monitor the entry-into-force date and the tariff phase-out schedule for Indonesia, and review the full agreement text for origin and customs procedure changes before advising exporters.",
+   "effectiveDate": "",
+   "keyFigures": [
+    "Market of 280 million consumers",
+    "Signed 21 November 2026 in Brussels"
+   ]
+  },
   {
    "id": "m-c99510118382",
    "title": "EU bans plastic waste exports to Morocco and other non-OECD countries until May 2029",

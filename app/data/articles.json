@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-22T18:48:38Z",
+ "generatedAt": "2026-11-23T00:06:15Z",
  "model": "claude-haiku-5-5",
  "modules": [
   {
@@ -72,6 +72,1065 @@
   }
  ],
  "articles": [
+  {
+   "id": "ca41c7e94f8f",
+   "title": "Shorter workweeks do not share work: Evidence from France's 35-hour reform",
+   "url": "https://cepr.org/voxeu/columns/shorter-workweeks-do-not-share-work-evidence-frances-35-hour-reform",
+   "source": "VoxEU (CEPR)",
+   "publishedAt": "2026-11-23T00:00:00Z",
+   "addedAt": "2026-11-23T00:06:15Z",
+   "basis": "abstract",
+   "takeaway": "A shorter working week at unchanged pay is not a free gain: French evidence suggests productivity rose yet output still fell, and lower-skill workers bore most of the costs.",
+   "summary": "The column uses France's 2000 cut in the standard working week from 39 to 35 hours, made at unchanged monthly pay and paired with payroll tax cuts for employers, to test two promises: that shorter hours share out work and that they raise productivity. The authors find that the shorter week alone would have reduced employment by 4%, and that the tax cuts fully offset this. Productivity rose, but not by enough to prevent a fall in output. Lower-skill workers bore most of the costs.",
+   "keyPoints": [
+    "France cut the standard week from 39 to 35 hours in 2000 without reducing monthly pay, so the hourly reward for each hour worked rose.",
+    "The reform was paired with payroll tax cuts for employers, so the employment result cannot be attributed to the hours change alone.",
+    "The authors estimate the shorter week alone would have cut employment by 4%, and that the tax cuts fully offset this effect.",
+    "Productivity rose, but the gain was not large enough to stop output falling.",
+    "Lower-skill workers bore most of the costs of the reform."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 65,
+     "reading": "The article examines how a change in the terms of work, namely fewer contracted hours at the same monthly pay, alters the exchange between employers and employees and how output is produced. For People, Work and Organisations, the key questions are how individuals judge a changed reward and workload, how job design and demands shape effort, and why effects differ across skill groups. The finding that lower-skill workers bore most of the costs shows that individual differences and job conditions shape how a policy lands. Students should care because the case shows how contemporary pressures on work can be analysed through motivation and employment-relationship theory, even though the abstract reports aggregate rather than individual-level evidence."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Equity theory (Adams)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Equity theory holds that people judge their treatment by comparing the ratio of their inputs, such as effort and time, to their outcomes, such as pay, against that of relevant others. When the ratio appears unequal, people feel distress and act to restore balance, for example by changing effort, output or their comparison group. Perceived fairness therefore depends on the exchange as employees experience it, not only on the level of pay.",
+     "link": "The abstract says monthly pay was held while the standard week fell from 39 to 35 hours, so each hour worked carried a higher reward. Employees would be expected to notice this change and to compare it with their own previous terms and with the terms of others. The reported finding that lower-skill workers bore most of the costs suggests that the perceived balance of the exchange may have differed across groups. The abstract does not report workers' own perceptions, so the link to equity theory is an inference from the outcomes.",
+     "critique": "Equity theory assumes people compare inputs and outcomes accurately and in a stable way, which is doubtful when a national statute changes terms for everyone at once. It also cannot explain the aggregate fall in output, which depends on employer decisions and market conditions as well as on individual perceptions.",
+     "practice": "A manager facing a similar change should assess how it alters the perceived balance of effort and reward across grades, not only on average. Communicating explicitly what has changed for each group, and why, is likely to reduce perceptions of unfairness."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Job demands-resources model (Bakker and Demerouti)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The job demands-resources model divides job features into demands, which require sustained physical or mental effort and carry costs, and resources, which reduce those costs, support goals or promote growth. Strain is most likely when demands are high and resources are low, while engagement is most likely when resources are high. The model implies that the outcome of changing working conditions depends on the balance between these two sets of features.",
+     "link": "A shorter week reduces the time available for work, which could lower time pressure for employees, but the abstract reports that productivity rose while output still fell, so output per hour changed without output rising. The abstract does not say whether demands fell or whether work was intensified to fit fewer hours. The concentration of costs among lower-skill workers suggests that their jobs may have offered fewer resources, such as autonomy over scheduling or support, to absorb the change.",
+     "critique": "The model focuses on individual wellbeing and engagement, whereas the abstract reports employment, productivity and output. The model therefore cannot test the reform's aggregate effects, and it says little about the employer decisions that determine output.",
+     "practice": "Before cutting hours, a manager should audit the demands and resources of each role, identifying where work can be redesigned rather than simply compressed into fewer hours. Monitoring workload and intensity after the change would show whether productivity gains are coming from better design or from strain."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of beliefs each party holds about the obligations the other owes it, many of them unwritten. Employees experience a breach when they believe the employer has failed to deliver what was promised, which tends to reduce trust, commitment and discretionary effort. The concept helps explain why changes to formal terms can affect behaviour even when the contract itself is unchanged.",
+     "link": "The reform changed the formal terms of work: fewer contracted hours at unchanged monthly pay. For employees, this may have been experienced as an offer of time in return for effort, while the policy's framing of work-sharing set expectations about what the arrangement would achieve. The finding that productivity rose but not enough to prevent a fall in output is consistent with the idea that expectations of the new bargain were only partly met. The abstract does not report survey data on trust or perceived breach.",
+     "critique": "The psychological contract is an individual and perceptual concept, whereas the French reform was set by statute and applied to everyone. This weakens the idea of a bargain struck between two parties and gives the theory little explanatory power for aggregate outcomes such as employment and output.",
+     "practice": "An employer introducing a shorter week should state clearly what it expects in return, such as output standards or flexibility, and should monitor whether employees feel these expectations are fair. Particular attention should go to lower-skill staff, who may be more exposed to breach."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national government is considering cutting the standard working week from 39 to 35 hours at unchanged monthly pay, with payroll tax relief for employers. A mid-sized manufacturing and services firm with a mixed-skill workforce is weighing whether to adopt the same change for its own staff. Its board wants to know whether the change will protect employment, raise productivity and treat employees fairly.",
+    "question": "Advise the board on whether to adopt a shorter working week at unchanged pay, drawing on the evidence from France's 35-hour reform and on theories of motivation and the employment relationship to assess the likely effects on employees.",
+    "evidence": [
+     "France cut the standard week from 39 to 35 hours in 2000 at unchanged monthly pay.",
+     "The reform was paired with payroll tax cuts for employers.",
+     "The authors estimate that the shorter week alone would have reduced employment by 4%, and that the tax cuts fully offset this.",
+     "Productivity rose, but not enough to prevent a fall in output, and lower-skill workers bore most of the costs."
+    ],
+    "plan": [
+     "Describe the change in terms of the exchange: fewer contracted hours at the same monthly pay, which raises the reward for each hour worked.",
+     "Apply equity theory to predict how employees will judge the change, and where comparisons across skill groups may create perceptions of unfairness.",
+     "Apply the job demands-resources model to diagnose whether the firm's jobs would see demands fall or work intensify, and what resources could offset the change.",
+     "Use the psychological contract to set out what the firm expects in return and the risk of perceived breach, particularly among lower-skill staff.",
+     "Assess the limits of the evidence, noting that the employment result reflects the combined reform and that the abstract reports no direct engagement measure.",
+     "Recommend a conditional adoption, such as a pilot with job redesign, explicit expectations and targeted support for lower-skill staff, with output and engagement measured throughout."
+    ],
+    "pitfalls": [
+     "Treating the French employment and productivity results as proof that shorter hours raise motivation, since the abstract reports no direct measure of engagement.",
+     "Attributing the employment outcome to the shorter week alone, when the tax cuts that offset it were part of the same reform."
+    ]
+   },
+   "alsoConsider": [
+    "Herzberg's two-factor theory",
+    "Hackman and Oldham's Job Characteristics Model",
+    "Kahn's employee engagement"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether reducing working time improves employee motivation and performance, using a national policy change to illustrate your argument.",
+    "outline": [
+     "Explain how fewer contracted hours at unchanged pay alter the exchange between employer and employee, drawing on equity theory and the psychological contract.",
+     "Assess how job design and the balance of demands and resources could explain why productivity rose yet output still fell, and why costs fell unevenly across skill groups.",
+     "Evaluate the limits of aggregate evidence for understanding individual motivation, including the confounding effect of the payroll tax cuts."
+    ]
+   }
+  },
+  {
+   "id": "832c3634acc5",
+   "title": "EU's Hansen Says U.S. Trade Uncertainty Is Drawing Mexico, Europe Closer",
+   "url": "https://www.supplychainbrain.com/general-scm/global-trade-economics/article/16542364/eus-hansen-says-us-trade-uncertainty-is-drawing-mexico-europe-closer",
+   "source": "SupplyChainBrain",
+   "publishedAt": "2026-11-21T07:39:00Z",
+   "addedAt": "2026-11-23T00:06:15Z",
+   "basis": "full_text",
+   "takeaway": "Tariff uncertainty in the US market is pushing Mexico and the EU towards each other, and the article shows how dependence on one dominant market shapes bargaining power and drives diversification.",
+   "summary": "The EU agriculture commissioner expects Mexico's Senate to ratify an interim EU-Mexico trade agreement by the end of the year, a step needed before the deal takes effect. Both sides see closer ties as a response to uncertainty in the US market, which is the largest trade partner for each. US tariff threats and the decision not to extend the USMCA, which now faces annual reviews, have unsettled long-established supply chains. Mexico sends roughly 80% of its exports to the US, so its exposure to US policy is high. The article presents the EU deal as an alternative route, with growth expected in avocado, chilli, cocoa and tequila exports to the EU and pork, chicken and dairy exports to Mexico.",
+   "keyPoints": [
+    "The EU and Mexico signed a modernised trade agreement in May, but Mexico's Senate must ratify an interim version before it can take effect.",
+    "The EU ratified the interim deal in July, and the interim deal takes effect only after both sides confirm their internal ratifications are complete.",
+    "The US declined to extend the USMCA in July, starting a process of annual reviews that call into question US-Mexico trade worth an annual $960 billion.",
+    "Roughly 80% of Mexico's exports go to the US, so US tariff threats give Washington leverage over Mexican domestic policy.",
+    "Hansen links the slow Mexican ratification to ongoing US-Mexico talks, while expressing optimism about a vote before the end of the year."
+   ],
+   "modules": [
+    {
+     "id": "scm",
+     "relevance": 75,
+     "reading": "In supply chain terms, long-established flows of food between North America, Mexico and Europe have been disrupted by policy shocks rather than by operational failures. The article shows a dominant market becoming a source of risk, with tariff threats and annual treaty reviews making future volumes uncertain. Students of supply chain risk should note how the response is to diversify routes and markets rather than only to protect existing ones. The article is therefore a live example of resilience being built through new trading relationships."
+    },
+    {
+     "id": "strategy",
+     "relevance": 65,
+     "reading": "From a strategy perspective, the article describes an external environment shaped by political and trade factors that change the attractiveness of existing markets. Mexican and EU producers are reconsidering where to sell, which is a choice about growth direction for existing products. The reading turns on whether this is an opportunistic move or a deliberate strategic reorientation. Students should consider how the shift changes the balance between dependence on one market and the spread of risk across several."
+    },
+    {
+     "id": "pwo",
+     "relevance": 45,
+     "reading": "In the language of the PWO module, the article is about power and dependence between parties that rely on each other for access to markets. Mexico's reliance on the US market gives Washington leverage, and the tariff threats show that power being used to shape policy. Hansen's remark about speaking as equals raises a question about how power is exercised in relationships where one side is much stronger. Students should be able to apply resource dependence theory to see how dependence and alternatives shape bargaining positions."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Supply chain vulnerability arises when disruptions in one part of a network cannot be absorbed or recovered from quickly. Resilience is the capacity to withstand disruption and return to a stable state, and it is typically built through diversifying sources, reducing dependence on single nodes or routes, and improving visibility of risk. Managers should identify the exposures in their networks and then decide where to add alternatives.",
+     "link": "The article describes long-established supply chains thrown into uncertainty by on-and-off tariff threats, which matches the vulnerability the framework describes. Because the US takes roughly 80% of Mexico's exports, the network has a concentrated exposure to one market and one policy regime. The annual reviews of the USMCA, covering $960 billion of trade, are a disruption that cannot be addressed by operational fixes alone. The EU-Mexico deal, with lower tariffs on most food trade, is a resilience measure that adds an alternative route to market.",
+     "critique": "The framework is designed for disruptions that a firm can plan around, whereas tariff policy is set by governments and can change quickly and without warning. Diversifying a market takes time, and the EU-Mexico deal is not yet in force, so the resilience gain is still prospective. Diversification may also raise costs and create new compliance requirements.",
+     "practice": "A Mexican or EU exporter should map its sales and routes by market and by policy exposure, and set triggers for review when treaty or tariff conditions change. It should then develop alternative contracts and certifications in target markets while keeping its existing US relationships in place. The timing of the diversification should follow the milestones in the ratification process."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Ansoff growth matrix (market development)",
+     "unit": "",
+     "theory": "The Ansoff matrix sets out four growth directions defined by products and markets: market penetration, market development, product development and diversification. Market development means selling existing products into new markets, and it carries moderate risk because the product is known while the market is not. Choosing it implies an analysis of entry barriers, customer needs and the capabilities required to serve the new market.",
+     "link": "The article describes the EU hoping to increase exports of pork, chicken and dairy to Mexico, and Mexican producers expecting growth for avocado, chilli, cocoa and tequila in the EU. These are existing products moving into new geographic markets, which is market development. Hansen's statement that it is natural to look elsewhere when the US market is harder to access describes the motive for this choice. The shift is driven by an external change rather than by a product innovation.",
+     "critique": "The Ansoff matrix does not address the regulatory barriers that the article identifies, such as protections for denominations of origin that the US opposes and that will be extended in Mexico. It also assumes that the firm can enter a new market on the strength of its existing product, whereas local rules and tastes may require adaptation. The framework is a planning tool and does not predict whether the new market will prove large enough.",
+     "practice": "A firm considering market development should test demand in the target market before committing capacity, and identify what regulatory or labelling changes are needed. It should prioritise the markets where tariff reductions make entry cheapest and check whether the timing matches the ratification milestones. It should also set a clear measure of success, such as share of export revenue, to judge whether the move is working."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Resource dependence theory (Pfeffer and Salancik)",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Resource dependence theory holds that organisations depend on external actors for critical resources, and that those who control scarce, critical or hard-to-replace resources hold power over others. The degree of dependence is shaped by how important the resource is, how concentrated its source is, and how many alternatives exist. Organisations reduce dependence by buffering themselves, diversifying their sources, or forming new relationships.",
+     "link": "The article shows a clear asymmetry: Mexico sends roughly 80% of its exports to the US, so access to that market is a critical resource for Mexico and the US holds power over it. The tariff threats that the article describes are a use of that power to influence domestic policy. The EU-Mexico deal is an attempt to create alternatives that reduce dependence, and Hansen's comment that it is natural to look elsewhere reflects this logic. His call for relations between equals is a claim that dependence should not decide the terms of the relationship.",
+     "critique": "The theory was developed to explain power within and between organisations, so applying it to states and trade blocs is an analogy that needs careful justification. It tends to focus on economic dependence and says little about political or legal sources of power, which may matter more in trade disputes. The article also suggests that the power balance is contested, since Mexico is pursuing a deal with the EU and the outcome of US-Mexico talks is uncertain.",
+     "practice": "A manager in a dependent exporter should map which customers control a critical share of its volume and how easily that volume could be replaced. The manager should then reduce concentration by building relationships with alternative buyers and by negotiating terms that do not depend solely on one party. The manager should also monitor the other party's use of leverage and prepare responses in advance."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized food exporter sends most of its output to one large neighbouring market under a long-standing trade arrangement. That market's government has begun to use tariff threats and has put the arrangement under periodic review, and the exporter's main buyer has started asking for lower prices. A rival trading partner has offered a new export route, but the agreement that would make it effective is still waiting for legislative approval.",
+    "question": "Critically evaluate the extent to which the exporter's dependence on one market gives that market power over it, and advise the exporter's leadership on how to reduce that dependence.",
+    "evidence": [
+     "Mexico sends roughly 80% of its exports to the US, and the US is the biggest trade partner for both Mexico and the EU.",
+     "The USMCA was not extended in July and now faces annual reviews that put US-Mexico trade worth $960 billion a year in question.",
+     "Tariffs have hurt Mexican producers and pushed up US food costs, according to the article.",
+     "Hansen said: if it is harder to access the US market, it is only natural to look elsewhere."
+    ],
+    "plan": [
+     "Define the critical resource, which here is access to the dominant market, and use resource dependence theory to assess how important it is to the exporter.",
+     "Assess the degree of dependence by considering how concentrated the exporter's sales are, how replaceable the buyer is, and what alternatives exist.",
+     "Evaluate the power the buyer holds, showing how tariff threats and annual reviews are used to shape terms, and note the limits of that power where alternatives exist.",
+     "Assess options for reducing dependence, using the Ansoff market development route and a supply chain resilience approach, and weigh timing against the ratification milestones.",
+     "Recommend a phased diversification strategy that keeps the existing relationship in place, sets review triggers and tracks progress towards a target share of revenue from new markets."
+    ],
+    "pitfalls": [
+     "Treating the EU-Mexico deal as already in force, when the article makes clear it still needs Mexican Senate ratification and mutual notification before it takes effect.",
+     "Assuming that dependence automatically means weakness without considering the alternatives, the costs of switching and the scope for negotiation."
+    ]
+   },
+   "alsoConsider": [
+    "Porter's five forces",
+    "PESTEL analysis",
+    "Lukes's three dimensions of power",
+    "Single, dual and multiple sourcing"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether resource dependence theory explains the power that one trading partner holds over another, using a recent example of tariff-driven diversification of export markets.",
+    "outline": [
+     "Define resource dependence theory and the factors that determine dependence, namely criticality, concentration and substitutability, and explain how power follows from them.",
+     "Apply the theory to the example, showing how the share of exports going to one market and the use of tariff threats create asymmetric power, while alternative markets offer a way to reduce it.",
+     "Critique the theory by noting that it was developed for organisations rather than states, that it focuses on economic rather than political sources of power, and that diversification takes time to deliver results."
+    ]
+   },
+   "readingMinutes": 2
+  },
+  {
+   "id": "f8366ac18b55",
+   "title": "Rail incentive scheme removes 50,000 tonnes of CO₂e",
+   "url": "https://www.logisticsmanager.com/rail-incentive-scheme-removes-50000-tonnes-of-co%e2%82%82e/",
+   "source": "Logistics Manager",
+   "publishedAt": "2026-11-19T09:00:11Z",
+   "addedAt": "2026-11-23T00:06:15Z",
+   "basis": "full_text",
+   "takeaway": "Financial incentives that make rail the cheaper, easier option can shift freight off road, but the carbon savings are the company's own estimates and the scheme is funded by a flat levy on all importers, which raises questions about durability and fairness.",
+   "summary": "DP World reports that its Modal Shift Programme at Southampton, first launched as a six-month trial in 2023, has moved more than 220,000 additional containers by rail, avoided an estimated 18 million road miles and saved an estimated 50,000 tonnes of CO2e. Rail's share of container movements from the port rose from 21 per cent to 29 per cent, and five new rail services now connect Southampton with inland destinations. The scheme pays customers who move import-laden containers by rail to destinations within 140 miles of the railhead. It is funded by a flat £10 fee on every import-laden container arriving at the port, and the company is now extending it to Rail Freight Terminal Operators through quarterly, performance-based payments.",
+   "keyPoints": [
+    "The carbon and mileage figures are described as estimates, and the article does not explain how they were calculated or which emissions scope they cover.",
+    "The main mechanism is a financial incentive for cargo owners to choose rail over road, presented as a commercially sensible route to lower emissions.",
+    "Rail's share of container movements at Southampton rose by eight percentage points, and five new rail links to inland destinations were introduced.",
+    "Incentives apply only to import-laden containers going to destinations within 140 miles of the railhead.",
+    "Funding comes from a flat fee on all import-laden containers arriving at the port, so every importer contributes whether or not it uses rail."
+   ],
+   "modules": [
+    {
+     "id": "green",
+     "relevance": 90,
+     "reading": "The article is about carbon reduction in freight through modal shift, moving containers from road to rail. In green logistics terms, the programme avoids road miles and their emissions, which is one of the main routes to decarbonising freight. A green logistics student should care because the article reports results in tonnes of CO2e and shows how a port operator can use incentives to bring this about, but the figures are estimates and the boundary of the calculation is not stated."
+    },
+    {
+     "id": "logops",
+     "relevance": 55,
+     "reading": "Freight mode choice is the central logistics question here: rail is being made more attractive relative to road for containers moving inland. The article reports a rise in rail's share from 21 to 29 per cent and new rail services to several inland hubs, which changes both the price and the availability of rail. A logistics operations student should note that the incentive works as a subsidy that shifts the cost-service balance, and that the article gives no data on transit times or reliability."
+    },
+    {
+     "id": "scm",
+     "relevance": 50,
+     "reading": "The programme is a collaboration across the inbound chain involving a port operator, cargo owners and now rail freight terminal operators. In supply chain terms, the port is trying to integrate rail into the flow of containers from ship to inland destination. A supply chain student should see the expansion to terminal operators as the point where the arrangement reaches a further tier of partners, and should ask whether the links are financial only or extend to planning and information."
+    },
+    {
+     "id": "pwo",
+     "relevance": 40,
+     "reading": "From a people, work and organisations perspective, the article concerns getting independent organisations to change their behaviour through incentives, which is a question of motivation and fairness. Payments are linked to performance against quarterly targets, and they are funded by a levy on all importers, including those who cannot shift to rail. How costs and benefits are distributed affects whether people see the arrangement as fair, and whether the incentive changes behaviour in a lasting way is a motivation question."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "green",
+     "concept": "McKinnon's green logistics framework for decarbonising freight",
+     "unit": "",
+     "theory": "McKinnon's framework treats freight decarbonisation as a set of levers, including reducing the amount of freight activity, shifting freight to less carbon-intensive modes, improving vehicle and operational efficiency, and lowering the carbon intensity of fuel and energy. The levers interact, so a firm should assess their combined effect rather than relying on one. Modal shift is one lever among several.",
+     "link": "The programme is a clear example of the modal shift lever: it has moved more than 220,000 additional containers onto rail and avoided an estimated 18 million road miles since 2023. The rise in rail's share from 21 to 29 per cent at Southampton shows the lever working at port scale. The five new services show that the lever depends on rail links being available to the destinations concerned. The article does not say which emissions scope the 50,000 tonnes falls within or how the baseline was set, so the student should check what the claim covers before accepting it as a full measure of carbon impact.",
+     "critique": "The framework identifies modal shift as one lever but does not say how to weigh it against the others, so a headline saving from a single intervention can overstate the overall effect. Rail savings also depend on the energy mix, load factors and the distance covered, so a per-mile saving cannot be assumed for every route.",
+     "practice": "A logistics manager applying this should measure the baseline road emissions for the affected flows, record which emissions scope the saving sits in, and test whether the shift is additional, meaning it would not have happened without the incentive. They should also combine modal shift with load consolidation and vehicle efficiency measures."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Equity theory (Adams)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Equity theory holds that people judge fairness by comparing the ratio of their inputs and outcomes with those of relevant others. When people perceive that they are under-rewarded, or that others gain more for the same contribution, they experience tension and may reduce their effort, seek a change in outcomes or withdraw. Perceptions of fairness therefore affect motivation as well as the outcome itself.",
+     "link": "The incentive is paid to customers who move import-laden containers by rail, while the flat £10 fee is charged on all import-laden containers arriving at the port. An importer whose freight cannot reasonably go by rail, perhaps because its destination lies outside the 140-mile zone, pays the same levy as one that receives payments. Those who contribute without benefit may judge the arrangement unfair, which matters if the scheme depends on the continued support of all importers. The benefits are narrowly targeted while the costs are spread evenly.",
+     "critique": "Equity theory was developed to explain how individual employees react to pay and treatment, and it does not transfer directly to commercial customers, who judge fairness through contracts and total cost rather than social comparison. A flat fee is also simple and transparent, which may be accepted as fair even though it is not proportional to benefit.",
+     "practice": "A manager running a scheme of this kind should explain clearly why the fee applies to all importers and how the port community as a whole benefits from modal shift. They should monitor whether non-participating customers accept the arrangement and consider whether the fee or payments should be tiered to reflect differing ability to shift modes."
+    },
+    {
+     "moduleId": "logops",
+     "concept": "Modal choice and the trade-off between transport cost and service",
+     "unit": "",
+     "theory": "Modal choice is the decision about which transport mode, such as road, rail, sea or air, to use for a movement, based on the balance between cost, transit time, reliability, flexibility and the nature of the goods. Rail often has lower costs over longer distances and high volumes but can be less flexible for door-to-door delivery. Shippers should choose the mode that meets the required service level at the lowest total cost.",
+     "link": "The incentive is a payment that lowers the effective cost of rail for importers moving containers to destinations within 140 miles of the railhead. The limit to that radius reflects the cost-service trade-off, since beyond a certain distance road may remain the more practical option. The new services to Birmingham, Cardiff, East Midlands Gateway, Doncaster and Northampton give shippers a wider choice of rail routes, which changes the service offer as well as the price. The article does not report transit times or reliability, so it cannot show whether the service trade-off has been resolved.",
+     "critique": "Modal choice models often treat cost and service as separate considerations, but in practice a subsidy can encourage shifts that the rail service does not yet support reliably. The 140-mile limit is a policy choice that the article does not justify with evidence.",
+     "practice": "A logistics manager should compare full logistics cost, including the incentive and terminal handling, with door-to-door service measures such as lead time and on-time delivery. Where rail misses service targets, the incentive alone is unlikely to sustain the shift."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain integration and the arcs of integration (Frohlich and Westbrook)",
+     "unit": "",
+     "theory": "Frohlich and Westbrook suggest that supply chain integration can be measured by how widely a firm extends its links with suppliers and customers, and how far it shares information and works jointly with them. The wider the arc of integration, the more partners a firm is aligned with. Integration deepens when information, planning and processes are shared, not only when payments are made.",
+     "link": "The programme links the port operator with cargo owners, who are its customers, and now with Rail Freight Terminal Operators, who run the rail leg. Extending the incentive to RFTOs, with quarterly performance-based payments, widens the arc of collaboration to a further partner in the inbound chain. The article's reference to working with partners on bespoke trials suggests collaboration, although the links it describes are mainly financial rather than shared planning or information.",
+     "critique": "Financial incentives can align partners around a volume target without integrating planning, information systems or processes, so the arc may be wide but shallow. In this case the integration is largely transactional, and the article does not show any shared data or joint planning.",
+     "practice": "A port or terminal operator in this position should agree shared data on container movements and rail slots with its partners, not just payment terms. This would allow the incentive to be supported by joint planning, so that rail capacity matches demand from cargo owners."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A container port has run a six-month trial that pays importers a per-container incentive to move import containers by rail to inland destinations within a fixed radius. The scheme is funded by a flat fee on all import containers, and rail's share of the port's container movements has risen with new services to inland hubs. The port now proposes to extend the incentive to rail freight terminal operators with quarterly targets, and presents the programme to its board as a model for decarbonising its hinterland.",
+    "question": "Critically evaluate whether the port's modal shift programme can deliver lasting carbon reductions, and advise the board on how the scheme should be developed before it is extended.",
+    "evidence": [
+     "DP World reports an estimated 50,000 tonnes of CO2e saved and an estimated 18 million road miles avoided since 2023.",
+     "Rail's share of container movements from Southampton rose from 21 per cent to 29 per cent, with five new rail services introduced.",
+     "The programme pays for import-laden containers moved by rail within 140 miles of the railhead, funded by a flat £10 fee on all import-laden containers arriving at the port.",
+     "The scheme is being extended to Rail Freight Terminal Operators through performance-based disbursements tied to quarterly targets."
+    ],
+    "plan": [
+     "Set out the commercial and carbon case, noting that the company frames the aim as lower-emission options that make commercial sense for customers.",
+     "Apply McKinnon's green logistics framework to show that modal shift is one lever among several, and ask the board to confirm how the 50,000 tonnes estimate was calculated, including baseline and emissions scope.",
+     "Use modal choice to test whether rail's service is competitive beyond the 140-mile zone, comparing total logistics cost with lead time and reliability, since the article gives no service data.",
+     "Apply equity theory to the flat fee, arguing that importers who cannot shift may see the levy as unfair, which threatens the scheme's funding and continued cooperation.",
+     "Use the arcs of integration to assess whether the extension to RFTOs builds deeper collaboration or only a financial link, and recommend shared planning data alongside payments.",
+     "Recommend publishing a transparent baseline and methodology, testing additionality, reviewing the fee structure, widening service coverage, and planning how to move from a trial to a permanent arrangement."
+    ],
+    "pitfalls": [
+     "Presenting the 50,000 tonnes as a verified figure rather than the company's own estimate, which the article describes as estimated.",
+     "Assuming rail is always lower-carbon than road on every route, without considering load factors, distance and the energy mix."
+    ]
+   },
+   "alsoConsider": [
+    "Expectancy theory (Vroom)",
+    "Self-determination theory (Deci and Ryan)",
+    "Elkington's triple bottom line",
+    "Externalities and carbon pricing"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that financial incentives are an effective way to shift freight from road to rail and so reduce the carbon emissions of supply chains.",
+    "outline": [
+     "Explain McKinnon's levers for freight decarbonisation and where modal shift fits among them, using the Southampton programme as evidence.",
+     "Assess the cost-service trade-off that governs modal choice, and whether incentives alone can change it beyond a short radius.",
+     "Critique the reliability of the carbon claims and the fairness of the funding model, then conclude on whether the incentive can be sustained without further change."
+    ]
+   },
+   "readingMinutes": 1
+  },
+  {
+   "id": "d059155869a7",
+   "title": "Trucking Rejection Rates: Why Holiday Shipping Gets SPICY",
+   "url": "https://www.freightwaves.com/news/trucking-rejection-rates-why-holiday-shipping-gets-spicy",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-20T17:30:03Z",
+   "addedAt": "2026-11-23T00:06:15Z",
+   "basis": "full_text",
+   "takeaway": "Holiday peak capacity is tightening trucking. Tender rejections are near 13 to 14 per cent and spot rates are rising for reasons other than fuel, which squeezes shippers who depend on contracted rates and reveals a labour problem behind the freight numbers.",
+   "summary": "A FreightWaves interview with SONAR analyst Zach Strickland forecasts that truckload tender rejection rates, which had climbed back toward 13 per cent before Thanksgiving, will rise to about 14 per cent the following week. He attributes the holiday squeeze to drivers being lost in the peak season, to drivers being limited to work within around 500 miles, and to large fleets having to persuade drivers to run during holidays, which carries a premium. Inventory levels are lower than usual, raising the risk of last-minute shipping. Spot rates are already elevated across van, refrigerated and flatbed modes, and Strickland says capacity rather than falling diesel prices is the cause. A possible port strike is expected to add only a modest bump, with larger rate effects nearer Christmas. Regional pressure points include the Midwest, Phoenix, the Gulf Coast and the Pacific Northwest, where cargo diverted from Los Angeles congestion and weather add to strain.",
+   "keyPoints": [
+    "Truckload tender rejection rates rose back toward 13 per cent before Thanksgiving and are forecast to reach roughly 14 per cent the following week.",
+    "Rejection rates indicate how much pricing power carriers hold and how hard it will be to cover loads at contracted rates.",
+    "Tender volumes typically only pick up in the few days before the holiday, as many tenders are pushed out until after the break.",
+    "Drivers are lost during peak season, are limited to around 500 miles, and large fleets must persuade them to work holidays, so a premium is paid.",
+    "Inventory levels are below normal, which raises the risk of last-minute shipping and pressure on capacity."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 90,
+     "reading": "This is squarely about freight transport capacity: truckload carriers, tender acceptance and the spot market for moving goods by road. In logistics operations terms, a rising rejection rate means contracted loads are not being accepted, which forces shippers onto the more expensive spot market or into delays. A logistics student should care because the article shows which lanes and modes are likely to be squeezed and why, which is the raw material for planning freight buying and service levels in peak periods."
+    },
+    {
+     "id": "scm",
+     "relevance": 60,
+     "reading": "The article describes a supply chain under stress from several directions at once: low inventory, a possible port strike, congestion at Los Angeles that diverts cargo to Seattle and Tacoma, and severe weather. These are demand, inventory and risk issues. An SCM student should note how one transport bottleneck changes routing and buffer decisions, and that the pressure is concentrated in particular lanes rather than spread evenly across the network."
+    },
+    {
+     "id": "purchasing",
+     "relevance": 55,
+     "reading": "Shippers buying road capacity are, in purchasing terms, buyers in a supplier-led market. The article shows carriers holding pricing power, reflected in rejection rates and in spot rates elevated across three modes, which affects whether contracted rates hold and how much a buyer pays for cover. A purchasing student should see the rejection rate as a measure of relative power and as a prompt to review how capacity is contracted and secured."
+    },
+    {
+     "id": "pwo",
+     "relevance": 35,
+     "reading": "Behind the freight numbers is a people problem: drivers, particularly those in large fleets, must be persuaded to work over holidays when they would rather be with family, and the article says a premium is needed to achieve this. In People, Work and Organisations terms this concerns motivation, job design and the trade-off between pay and personal commitments. A student should see that a capacity shortage can have its roots in how work is designed and rewarded, not just in the size of the market."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "logops",
+     "concept": "Total logistics cost and the cost-service trade-off",
+     "unit": "",
+     "theory": "Logistics decisions balance the total cost of moving and holding goods against the level of service delivered, and improving one usually affects the other. Service failures such as rejected or late loads carry hidden costs that must be counted when choosing between contracted and spot capacity.",
+     "link": "The article shows the trade-off in practice: a shipper facing rejection rates near 13 to 14 per cent must choose between paying the spot premium carriers are demanding and risking service failure on loads already tendered. Strickland's observation that many tenders are pushed out until after the break suggests that late cover is where the premium is most likely to bite. Lower inventory makes a missed delivery more damaging because there is less buffer to absorb it. The Midwest and Gulf Coast lanes, where weighted rejection rates are rising in lower-volume markets, are where this trade-off is sharpest.",
+     "critique": "The framework assumes the cost of a late or failed delivery can be measured, but in a holiday shortage the real cost may lie in lost customers or stock-outs that are hard to quantify. Cost-minimising models also tend to treat carriers as price-takers, whereas the article shows carriers setting the price through premiums.",
+     "practice": "A logistics manager should separate loads that can be planned early from those that cannot, pre-book capacity on critical lanes before the tender window closes, and set an explicit budget for spot premiums rather than paying them reactively. The expected cost of a missed delivery should be compared with the premium before a decision is made."
+    },
+    {
+     "moduleId": "purchasing",
+     "concept": "Power in buyer-supplier relationships (Cox)",
+     "unit": "",
+     "theory": "Cox argues that the balance of power between buyer and supplier depends on the relative scarcity and value of what each side controls, and on how easily each can find an alternative. Where supply is scarce and the buyer has few alternatives, the supplier holds the power, and the buyer must manage the relationship accordingly.",
+     "link": "The article describes carriers holding pricing power, reflected in rejection rates and in spot rates elevated across van, refrigerated and flatbed modes, which points to a supplier-dominant market. Strickland attributes the rise to capacity rather than fuel, so the scarcity lies in the supplier's resource, not in a cost the buyer can see and negotiate. Shippers with contracted rates find that a contract protects price but not availability, since carriers can still reject tendered loads. Because the pressure is strongest on Pacific Northwest and Gulf Coast lanes, the balance of power shifts lane by lane, so the buyer's strategy needs to be lane-specific.",
+     "critique": "Cox's model is most useful in relatively stable markets; in a short holiday peak power is temporary and contingent, so an analysis built on structural power may overstate its permanence. The article also draws mainly on one analyst's forecasts and does not report carrier or driver views.",
+     "practice": "A purchasing manager should check whether a rejected load triggers a cost or service penalty in existing contracts, identify lanes where the supplier market is tight, and negotiate capacity commitments or flexible volume agreements in advance rather than relying on the headline contracted rate."
+    },
+    {
+     "moduleId": "scm",
+     "concept": "Supply chain risk management and resilience (Christopher and Peck)",
+     "unit": "",
+     "theory": "Christopher and Peck argue that supply chains are vulnerable to disruption, and that resilience depends on identifying risks, reducing the vulnerability of the network and building the ability to recover quickly. Resilience is built through redundancy, flexibility and visibility, not through efficiency alone.",
+     "link": "The article identifies several concurrent pressures: a possible port strike, congestion at Los Angeles that pushes freight to Seattle and Tacoma, atmospheric rivers and snow on West Coast and mountain routes, and below-normal inventories. Each adds to strain on the same transport capacity, showing how a network with little slack can be disrupted by events that appear unrelated. Rerouting cargo to Seattle and Tacoma is itself a resilience response, but it shifts the bottleneck, as the concern about low freight density in mountain and prairie regions shows. Strickland's view that a resolved strike would have only a modest effect suggests the immediate risk is manageable while later effects matter more.",
+     "critique": "The framework is designed for disruptions a firm can anticipate, yet much of the holiday pressure is seasonal and predictable, so treating it as a risk may understate its place in ordinary planning. Resilience also has a cost, since holding extra stock or spare capacity must be traded against efficiency.",
+     "practice": "A supply chain manager should map which lanes and ports are single points of failure, decide how much safety stock or alternative carrier capacity to hold for them, and set triggers for rerouting. Visibility of carrier rejection data and port status should inform these decisions early."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Expectancy theory (Vroom)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Vroom's expectancy theory holds that people are motivated to put in effort when they believe effort will lead to performance (expectancy), performance will be rewarded (instrumentality), and the reward is valued (valence). Motivation is the product of these three elements, so if any one is low, motivation falls.",
+     "link": "The article gives the mechanics of this in a trucking context. A driver who is limited to around 500 miles and would rather be at home must judge whether a holiday run is achievable (expectancy), whether the premium will actually be paid (instrumentality), and whether the premium is worth more than time with family (valence). Strickland says large fleets must convince drivers to get on the road and that a premium comes with that, which is the managerial lever in the model. The statement that drivers are lost during the peak suggests that the valence of time at home is high for many, so the premium must be large enough to outweigh it.",
+     "critique": "Expectancy theory assumes a calculating individual, yet drivers' decisions also depend on family obligations, fatigue and fairness, which pay alone may not address. Herzberg would add that a premium is an extrinsic, hygiene factor and may not produce lasting engagement.",
+     "practice": "A fleet manager should make the holiday premium clear and certain so drivers can see the link between working and pay, recognise that drivers value rewards differently (some may prefer time off to a premium), and offer schedule choices such as rotating or voluntary holiday rosters, which address valence and the sense of control at the same time."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A regional truckload carrier serving the Midwest has lost a number of drivers during the autumn and expects its large fleet to be asked to run loads from Thanksgiving through the Christmas peak. Shippers report that tendered loads are being rejected more often, and spot rates are above contracted levels. Drivers are restricted to working within about 500 miles of home, and managers must persuade them to take holiday runs when they would prefer to be with their families.",
+    "question": "Advise the operations director how to secure enough drivers for the holiday peak, using theories of motivation and engagement, and critically evaluate whether a holiday premium alone will solve the problem.",
+    "evidence": [
+     "Truckload tender rejection rates rose back toward 13 per cent before Thanksgiving and were forecast to reach roughly 14 per cent the following week.",
+     "Strickland attributes the holiday squeeze to drivers being lost during the peak, to a limit of around 500 miles, and to large fleets needing to persuade drivers to work when they want to be home, with a premium attached.",
+     "Spot rates were already elevated across van, refrigerated and flatbed modes, driven by capacity rather than by fuel, whose price was falling.",
+     "Many tenders are pushed out until after the break, so demand concentrates in the final days before the holiday."
+    ],
+    "plan": [
+     "Define the problem: rejections show that the carrier cannot cover loads at contracted rates, and the constraint is driver supply, since the article notes that demand signals remain underwhelming.",
+     "Apply expectancy theory (Vroom) to each driver's decision to take a holiday run: test expectancy (can the run be completed within limits), instrumentality (will the premium be paid reliably) and valence (is the premium worth more than time at home).",
+     "Use Herzberg's two-factor theory to argue that the premium removes dissatisfaction but does not build commitment, and that schedule flexibility, recognition and control over rotas are motivators that can secure cover more durably.",
+     "Apply equity theory (Adams) to show that drivers will compare their holiday premium with colleagues', so the scheme must be seen as fair across the fleet.",
+     "Critically evaluate the premium-only approach: it addresses valence but not family pressure, fatigue or the 500-mile limit, and it may be costly and short-lived.",
+     "Recommend a package with a clear and certain holiday premium, voluntary or rotating holiday rosters, flexible boundaries where feasible, and early consultation with drivers, with weekly monitoring of rejection rates."
+    ],
+    "pitfalls": [
+     "Treating drivers as purely money-driven and ignoring non-financial motivators such as family time and control over schedules.",
+     "Presenting the analyst's forecast of rising rejection rates as certain; a strong answer should acknowledge uncertainty and link recommendations to contingency planning."
+    ]
+   },
+   "alsoConsider": [
+    "Herzberg's two-factor theory",
+    "Adams's equity theory",
+    "Bakker and Demerouti's job demands-resources model",
+    "Porter's five forces"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether financial incentives are an effective way for organisations to secure scarce labour during peak periods, drawing on motivation theory and an example from road freight.",
+    "outline": [
+     "Define the motivation theory used, such as expectancy, equity or two-factor theory, and explain its components with precise terms.",
+     "Apply the theory to the road freight example, showing how drivers' choices about holiday work depend on expectancy, instrumentality and valence.",
+     "Evaluate the limits of pay-based motivation, including family pressure, fairness and the scope for non-financial levers such as job design and scheduling."
+    ]
+   },
+   "readingMinutes": 3
+  },
+  {
+   "id": "0b72e91f1c9a",
+   "title": "Industrial Demand Is Broadening. So Is Competition for Space",
+   "url": "https://www.freightwaves.com/news/industrial-demand-is-broadening-so-is-competition-for-space",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-20T17:03:11Z",
+   "addedAt": "2026-11-23T00:06:15Z",
+   "basis": "full_text",
+   "takeaway": "Competition for industrial space is returning, so tenants who check power capacity first and decide quickly are the ones most likely to secure a building; the article links network design, scarce resources, the value of waiting and internal structure.",
+   "summary": "The article is a market update from Link Logistics, a large North American owner of last-mile industrial property, based on an interview with its leasing head. Demand is broadening from data centre activity, e-commerce, third-party logistics, cold storage and defence, and competition for buildings is returning, so tenants can no longer take their time. Large users are consolidating several 200,000 to 400,000 square foot buildings into single sites of about 1 million square feet, while last-mile users need infill sites close to customers. Power capacity has become the first question in many searches, ahead of square footage and location, because tenants plan for electrification and automation and need a credible timeline for capacity. Automation is still rare, with under 5% of Link's facilities automated, and the article ends by advising firms to evaluate sites earlier, ask about power first and decide faster.",
+   "keyPoints": [
+    "Demand has built steadily, led by data centre activity, with e-commerce, third-party logistics, cold storage and defence also contributing.",
+    "Several tenants are now pursuing the same building, so slow decision-making is costing occupiers the space.",
+    "Large users consolidate multiple buildings into one site to reduce duplicated capital and management effort, while last-mile users favour proximity to customers.",
+    "Power capacity has overtaken labour, transport costs and rent as the first criterion, with the new baseline roughly double the older panel size.",
+    "Only a small share of facilities have automation, because costs remain high for most customers, and tenants weigh credit, lease term and landlord flexibility when closing deals."
+   ],
+   "modules": [
+    {
+     "id": "logops",
+     "relevance": 75,
+     "reading": "In logistics operations terms, the article is about where warehouses sit, how big they are and how a network of sites is built, which is the core of freight and warehouse management. The shift from several buildings to one large hub for bulk users, against dispersed infill sites for last-mile users, is a live network design choice with cost and service consequences. Power availability and automation readiness determine whether a site can take the handling systems the operation needs. Students should see that the property market now constrains network design as much as the cost model does."
+    },
+    {
+     "id": "scm",
+     "relevance": 55,
+     "reading": "From a supply chain viewpoint, the article shows how network footprint decisions shape service levels, delivery speed and resilience. The retailers described want to be as close to consumers as possible, sometimes delivering within 30 minutes, which affects how inventory is positioned between stores and warehouses. Third-party logistics providers are presented as a flexible way to reconfigure a national network without tying up capital. Students should consider how the availability of space and power limits the supply chain strategy a firm can pursue."
+    },
+    {
+     "id": "strategy",
+     "relevance": 45,
+     "reading": "Strategically, the article describes a market where access to scarce physical assets, such as grid power and well-located buildings, drives competitive position. Tenants compete for the same sites, which reflects rivalry for resources rather than customers. The speed with which a firm moves to secure a building is presented as a source of advantage. Students should use the article to test whether location and power are rare, valuable and hard to imitate."
+    },
+    {
+     "id": "finance",
+     "relevance": 40,
+     "reading": "Financially, the leasing choice is an investment decision with timing value. Tenants can wait, but the option to wait is shrinking as competitors move and the number of available buildings falls. Power that arrives in six, 12 or 18 months can be treated as a staged investment, with other facilities covering demand in the meantime. Students should see that the value of flexibility and the cost of delay are central to the decision."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "logops",
+     "concept": "Distribution network design: hub-and-spoke, consolidation and proximity",
+     "unit": "",
+     "theory": "Distribution network design decides how many nodes a firm operates, where they are located and how stock and flows are routed between them. The central trade-off lies between consolidation, which reduces fixed costs and duplicated effort through fewer, larger sites, and proximity, which shortens delivery times and lowers transport cost to customers. Firms settle this balance by comparing total logistics cost against the service level they must achieve.",
+     "link": "Page describes large users consolidating three 200,000 to 400,000 square foot buildings into a single site of about 1 million square feet, because three buildings mean three sets of capital and management teams. Set against this, last-mile and omnichannel users move towards infill sites near customers, where location can matter more than specification, and some retailers aim to deliver within 30 minutes. The article therefore shows both ends of the network trade-off, scale for bulk flows and nearness for speed. National third-party providers sit between the two, since they can reposition their portfolios as client needs change.",
+     "critique": "Network models treat distance, cost and service as the variables to optimise, yet in this market the binding constraint is often whether a building with enough power can be leased at all, so the theoretically best node may be unavailable. These models also assume sites can be opened and closed freely, which the six to 18 month power timelines in the article contradict.",
+     "practice": "A logistics manager should model the network against the actual site pipeline, including power capacity and lead times, before committing to consolidation. Where service depends on proximity, the manager should keep a mix of large hubs and infill nodes and use third-party capacity as a flexible layer. Scenarios should test delays in power delivery as well as changes in demand."
+    },
+    {
+     "moduleId": "finance",
+     "concept": "Real options (Myers)",
+     "unit": "",
+     "theory": "A real option is the right, but not the obligation, to take a future action in an investment, such as delaying, expanding, staging or abandoning it. The option has value because uncertainty may resolve favourably and the firm can then act, and this value falls as the window to act closes. Standard net present value undervalues flexibility, so decision-makers add the option value to the static appraisal.",
+     "link": "The opening of the article describes tenants who could wait because looking at other options was a viable strategy, which is a deferral option that is now shrinking. Page notes that the choice set may fall from five or 10 options to one or two, and that several parties may chase the same building, so the value of waiting is used up quickly. The power point maps onto a staged option: tenants may not need full power on day one but need a credible path to it over six, 12 or 18 months. Keeping other facilities as a fallback works like a second option that protects the firm while the expansion is delayed.",
+     "critique": "Real options models assume that the underlying uncertainty can be quantified, yet the main risk described here is competitive, the chance that another tenant takes the building, which is hard to price. The models also treat the option holder as a price-taker, whereas the article suggests that landlords hold much of the bargaining power.",
+     "practice": "A finance or property manager should set an explicit decision deadline for each lease and value the option to wait against the risk of losing the building. Where power timing is uncertain, the manager should negotiate phased rights, such as expansion or power-upgrade options written into the lease. The business case should show the cost of waiting, not only the headline rent."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "The resource-based view and VRIO (Barney)",
+     "unit": "",
+     "theory": "The resource-based view holds that a firm's advantage comes from its internal resources and capabilities rather than from industry structure alone. VRIO tests whether a resource is valuable, rare, costly to imitate and organised to be exploited, and only resources that pass all four tests are likely to sustain advantage. Scarce, hard-to-copy assets are therefore central to competitive position.",
+     "link": "Page's comments suggest that scarce physical resources now define competitive position in this market. A building with a 4,000-amp baseline, or a site close to dense consumer populations, is rare and difficult to replicate quickly, because grid capacity and planning approval cannot be secured in weeks. He also says that owners with 50 buildings in a market can offer more room to grow than an owner of a single facility, which points to portfolio breadth as a valuable resource. For a tenant, advantage comes from securing these resources before rivals do.",
+     "critique": "The resource-based view assumes the firm owns the resources that generate its advantage, whereas here the scarce assets sit with landlords and tenants gain access through contracts, so their advantage is leased rather than owned. The framework also says little about the speed of decision that the article identifies as decisive, and rivals could imitate the position by leasing the same nearby buildings.",
+     "practice": "A strategist should identify which property attributes are valuable, rare and hard to imitate for the firm's network, such as power capacity or infill location. The firm should then prioritise securing those assets through early commitments and leases that include flexibility. It should also check that its decision processes can exploit these assets quickly enough."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Galbraith's Star Model",
+     "unit": "Unit 6 Designing effective organisations",
+     "theory": "Galbraith's Star Model argues that organisational design rests on five interdependent components: strategy, structure, processes, rewards and people. These must be aligned with one another and with the environment, so a change in one element usually requires adjustments in the others. Structure is effective only when it fits the strategy it is meant to serve.",
+     "link": "Page describes a large user choosing to consolidate several buildings into a single facility because running three sites means three capital and management teams, so the structure is redesigned to remove duplication. Last-mile users take the opposite structural route, spreading into many infill sites close to customers, which shows strategy, here speed to consumers, driving structure. The concern that firms delay by over-analysing points to processes, which must match a strategy that depends on fast action. The customer advisory council of heads of real estate also shows how people and decision processes shape which sites are chosen.",
+     "critique": "The Star is largely a descriptive framework and does not indicate which component should change first or how much weight each should carry. It also assumes the organisation designs its own structure, whereas tenants here are constrained by the buildings the market offers, so structure may follow available space as much as strategy.",
+     "practice": "A manager applying the Star should test whether a consolidation or dispersal decision fits strategy, processes, rewards and people, not just cost. Where a firm consolidates sites, it should redesign management and decision processes so that fewer teams can act quickly. The manager should also check that reward systems encourage the speed of decision that the strategy requires."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A national retailer and its third-party logistics provider are reviewing their warehouse network in a market where industrial space is tightening. The retailer must decide whether to consolidate three existing buildings into one large facility or keep a set of smaller sites close to customers to support same-day delivery. The most suitable building has enough space for future automation, but its power upgrade could take 6 to 18 months, and other occupiers are already viewing it.",
+    "question": "Advise the board on whether to consolidate the network into one large facility or retain a dispersed infill network, and recommend how it should decide and secure the site. Critically evaluate the trade-offs using two relevant theories.",
+    "evidence": [
+     "Large users consolidate 200,000 to 400,000 square foot buildings into single facilities of about 1 million square feet to avoid three sets of capital and management teams.",
+     "Last-mile and omnichannel users favour infill sites close to customers, where location can matter more than specification.",
+     "The new baseline for a large building is roughly 4,000 amps, against 2,000 amps previously, and power is now the first question in many searches.",
+     "Tenants may need to wait six, 12 or 18 months for power and use other facilities in the meantime.",
+     "Several customers and prospects are sometimes pursuing the same building, and those moving quicker are having better success."
+    ],
+    "plan": [
+     "Define the decision and its objectives, comparing total logistics cost and service levels for each customer segment, using distribution network design.",
+     "Assess the site's power capacity and location as scarce, valuable and hard-to-imitate resources, applying VRIO from the resource-based view.",
+     "Evaluate timing by treating the option to wait as a real option, weighing the value of delay against the risk of losing the building.",
+     "Check internal fit using Galbraith's Star Model, aligning structure, processes, rewards and people with a consolidated or dispersed strategy.",
+     "Recommend a hybrid: a consolidated core for bulk flows, infill nodes for last-mile demand, power-path rights written into the lease, and a firm decision deadline."
+    ],
+    "pitfalls": [
+     "Treating the decision as a simple cost comparison and ignoring power lead times and competition for the building.",
+     "Describing the theories in general terms without applying them to the retailer's specific trade-off between scale and proximity."
+    ]
+   },
+   "alsoConsider": [
+    "Porter's five forces",
+    "Dynamic capabilities (Teece)",
+    "Mintzberg's organisational configurations",
+    "Total logistics cost and the cost-service trade-off"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that an organisation's structure should be designed to fit its strategy and environment, using Galbraith's Star Model and one example of a firm changing its physical footprint in response to market conditions.",
+    "outline": [
+     "Define the five components of Galbraith's Star Model and the principle that they must be aligned with one another and with strategy.",
+     "Apply the model to a firm's choice between consolidating sites and dispersing them, showing how strategy and the environment drive structure.",
+     "Critique the model as largely descriptive, unclear on which component to change first, and limited where external markets constrain design choices."
+    ]
+   },
+   "readingMinutes": 7
+  },
+  {
+   "id": "bfc25ebc5c45",
+   "title": "Werner and Bennett turn AI dashcams toward crash prevention",
+   "url": "https://www.freightwaves.com/news/werner-bennett-ai-dashcams-crash-prevention",
+   "source": "FreightWaves",
+   "publishedAt": "2026-11-20T13:00:00Z",
+   "addedAt": "2026-11-23T00:06:15Z",
+   "basis": "full_text",
+   "takeaway": "Monitoring data that once only served as crash evidence is now used to coach drivers before incidents, which turns a PWO question about feedback, perception, change and trust into a practical management problem.",
+   "summary": "Werner Enterprises and Bennett Family of Companies, both using Motive's AI platform, have moved their truck camera and telematics data from post-crash reconstruction to prevention. Real-time in-cab alerts, same-day video review, AI-generated coaching and faster compliance decisions are the main changes described. The executives say the footage also protects drivers who are not at fault, but they also stress the need to earn and keep drivers' trust and note that legacy systems slow the rollout.",
+   "keyPoints": [
+    "The fleet's camera programme moved from accident reconstruction and litigation exposure to preventing incidents through early coaching and intervention.",
+    "Real-time in-cab alerts for distracted driving go to the driver and the back office, and staff call the driver to a safe place when an alert fires.",
+    "Drivers cannot move on in their workflow until they have watched flagged footage, and the fleet says about 97% of these videos are reviewed on the day they occur.",
+    "Footage cleared a long-serving driver who had opposed the cameras; he now features in the fleet's training videos.",
+    "Hours-of-service compliance review fell from four or five minutes per event to around 30 seconds, with AI giving a recommendation and staff confirming or rejecting it."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 85,
+     "reading": "In PWO terms this is control through monitoring and feedback applied to people doing largely unsupervised work. Drivers are away from their managers, so performance management moves from periodic review to continuous detection and same-day coaching. The case also shows how an individual's attitude to surveillance shapes how a change is received, and how hard evidence can change a driver's view of blame. A student should care because it links technology, motivation, perception, change and trust in one practical setting."
+    },
+    {
+     "id": "logops",
+     "relevance": 40,
+     "reading": "From a logistics operations perspective this is fleet management, where freight moves through drivers whose behaviour, hours and vehicle condition affect cost, safety and service. The article covers hours-of-service compliance, a regulatory and labour-cost matter, and links fault codes to shop visits, which affect vehicle availability. Telematics and video become operational performance data. The gains described relate to compliance time and driver safety rather than network design or routing, so the logistics link is secondary."
+    },
+    {
+     "id": "strategy",
+     "relevance": 35,
+     "reading": "Strategically the article asks whether a technology platform can give a fleet competitive advantage. Werner and Bennett both use Motive's AI, so rivals can buy the same tool, and any edge must lie in how each carrier builds processes around it and how far legacy systems block integration. The claim that smaller carriers may move faster because they carry less legacy technology is a resource and capability argument. Strategy students can use it to test whether a capability is rare and hard to copy."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Attribution theory (Heider; Kelley)",
+     "unit": "Unit 2 Individual differences",
+     "theory": "Attribution theory explains how people infer the causes of behaviour, either to internal dispositions such as carelessness or ability, or to external situations such as road conditions or other road users. Kelley's covariation model suggests people judge causes using consistency, distinctiveness and consensus information. Fundamental attribution error describes the tendency to over-attribute others' failures to disposition.",
+     "link": "The driver with about 20 years of experience was involved in a highway incident two weeks after the camera was installed, and the replay showed it was not his fault. The fleet's first response, the legal notice and the four days needed to resolve the matter all reflect how easily an incident is attributed to the driver before the evidence is seen. Video supplies situational evidence that overturns the default blame, much like a high-consistency, low-ambiguity observation in Kelley's model. The driver then moved from opposition to advocacy, which suggests that seeing the causes changed his attributions about the cameras and about himself.",
+     "critique": "Attribution theory assumes people reason from available information, but the footage is selected and framed by the fleet, which decides which events are flagged and how alerts are set, so the evidence itself carries managerial choices. Drivers may still attribute the camera programme to distrust or to management control rather than to safety.",
+     "practice": "A manager should use footage to separate situational from dispositional causes before any disciplinary decision and should share the replay with the driver. Clear rules on what triggers review, and who sees the footage, help to make attributions fair and consistent."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Goal-setting theory with feedback (Locke and Latham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Goal-setting theory holds that specific and challenging goals lead to higher performance than vague goals or the instruction to do one's best. Feedback on progress towards the goal raises performance further, because it shows the gap between current and desired performance and allows effort to be redirected. Goal acceptance and self-efficacy are needed for the effect to hold.",
+     "link": "Same-day review, with drivers unable to proceed until they have watched a flagged event, shortens the gap between behaviour and feedback, which is the timing Locke and Latham associate with effective feedback. A driver who ran a stop sign can be coached about it while the event is still fresh rather than two weeks later. The AI-generated coaching videos and Henderson's remark that good drivers want to be great drivers suggest the feedback is aimed at a self-set standard. Specific, observable behaviours such as following distance and stop-sign compliance are the kind of goals the theory describes.",
+     "critique": "The theory assumes the goal is accepted and that the person controls the behaviour. Here the standards are set by the fleet and feedback is largely corrective, which can reduce self-efficacy and encourage defensive driving rather than learning. The article gives no outcome data on crash rates or on how drivers responded over time.",
+     "practice": "Managers should frame feedback around specific, achievable driving goals and give positive recognition as well as corrections. They should involve drivers in setting thresholds and track whether the flagged behaviours fall over time, separating coaching from discipline."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Kotter and Schlesinger's approaches to overcoming resistance to change",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Kotter and Schlesinger argue that resistance to change can be overcome through education and communication, participation and involvement, facilitation and support, negotiation, manipulation and co-optation, and explicit or implicit coercion. Each has different costs and benefits, and the right choice depends on the source of resistance, the power of the resisters and the urgency of the change. Participation tends to build commitment but takes time.",
+     "link": "The antagonistic driver is a clear example of resistance to a new technology grounded in personal concern. Once he saw the replay that cleared him, his position changed, and the fleet then used him in training videos to tell other drivers what happened, which is a form of peer-led education and involvement. Whitson's refusal to go 'all in' and his remark that the system must earn trust point to a phased approach. Henderson's 'pick a provider and lean in' advice implies a strong top-down commitment to the change.",
+     "critique": "The framework tends to treat resistance as an obstacle to be managed, whereas driver resistance may reflect legitimate concerns about privacy, autonomy and fairness. Manipulation and coercion options sit uneasily with a programme that depends on trust. The article's evidence on resistance rests on one driver's story, which the executives tell.",
+     "practice": "Managers should involve drivers in setting alert thresholds and coaching content, use credible peers such as the driver in the training videos, and publish a clear policy on how footage will be used and not used. Coercion should be avoided in favour of explained, transparent rules."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Resource-based view and VRIO (Barney); dynamic capabilities (Teece)",
+     "unit": "",
+     "theory": "The resource-based view holds that competitive advantage comes from resources that are valuable, rare, inimitable and organised (VRIO). Dynamic capabilities, as developed by Teece, are the firm's ability to sense opportunities, seize them and reconfigure its assets and processes as the environment changes. Advantage therefore depends on how resources are combined and renewed, not only on owning them.",
+     "link": "Both Werner and Bennett use the same Motive AI platform, so the tool is available to competitors and is neither rare nor hard to copy. The differences the article describes lie in how each fleet reconfigured its processes, for example by linking alerts to same-day coaching and by using AI recommendations in compliance review. Henderson's complaint that older systems limit how quickly new tools can be wired together shows how legacy assets can block reconfiguration. Whitson's point that a small fleet can run like a larger one suggests that process agility may matter more than scale.",
+     "critique": "Dynamic capabilities can become a catch-all explanation that is hard to test. The small-carrier advantage is a claim made by executives at a Motive-hosted panel, and the article offers no evidence that smaller fleets outperform larger ones on safety or cost.",
+     "practice": "A carrier should audit its legacy integration points and treat the choice of AI platform as less important than the processes built around it. It should invest in staff capability and governance so that the tool changes how decisions are made, and it should measure outcomes such as incident rates and review times."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A regional truckload carrier, similar to the fleets described in the article, is considering fitting AI cameras across its tractors to give real-time driver alerts and same-day coaching. Several long-serving drivers have said they feel watched, and older dispatch and maintenance systems do not connect easily with the new platform. Senior management must decide how to introduce the system and whether footage should inform disciplinary decisions.",
+    "question": "Advise the board on how to introduce AI camera coaching across the driver workforce so that safety improves while engagement and trust are maintained. Critically evaluate the risks of using the footage for discipline.",
+    "evidence": [
+     "Flagged events are reviewed on the day they occur, and drivers cannot move on in their workflow until they have watched the footage.",
+     "A driver who first opposed the cameras was cleared by footage of an incident that was not his fault and now appears in the fleet's training videos.",
+     "Compliance review time for a single hours-of-service event fell from four or five minutes to around 30 seconds, with staff confirming or rejecting AI recommendations.",
+     "Bennett's safety executive says the system 'has to earn our trust, and it has to keep our trust', and warns against blind acceptance."
+    ],
+    "plan": [
+     "Diagnose the shift from using footage as post-crash evidence to using it for prevention through feedback, citing the article's examples of real-time alerts and same-day coaching.",
+     "Apply attribution theory to show how footage can correct blame, and how fair, transparent rules on review and discipline help drivers to accept the system.",
+     "Apply goal-setting theory with feedback to justify timely, specific coaching on observable behaviours such as following distance, and set measures to test whether behaviour changes.",
+     "Use Kotter and Schlesinger's approaches to resistance to recommend participation, peer advocates and a phased rollout, and explain why coercion would undermine trust.",
+     "Consider psychological contract and autonomy concerns (Rousseau; self-determination theory) to assess the risk that surveillance reduces motivation and engagement, and set clear limits on how footage is used.",
+     "Recommend a phased programme with governance that starts with alerts and coaching, agrees discipline rules with drivers in advance, and tracks incident rates, review times, driver turnover and survey measures of trust."
+    ],
+    "pitfalls": [
+     "Treating the reported efficiency gains and the anecdotal safety claims as proof that the programme works, when the article gives no crash-rate data.",
+     "Assuming drivers will accept monitoring because executives do, without considering autonomy, privacy and the psychological contract; the article reports management views rather than driver views."
+    ]
+   },
+   "alsoConsider": [
+    "Psychological contract (Rousseau)",
+    "Self-determination theory (Deci and Ryan)",
+    "Lewin's three-step model and force field analysis",
+    "Kotter's eight-step model"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether digital monitoring of employees, such as AI-enabled video in vehicles, improves performance, and explain how managers should introduce it without undermining motivation, fairness and trust.",
+    "outline": [
+     "Explain how real-time and same-day feedback can improve performance and learning, using performance management and goal-setting theory with evidence from the article.",
+     "Assess how footage affects perception and attribution, showing how it can correct blame but can also be read as surveillance.",
+     "Evaluate the change and motivational risks, including resistance, autonomy and trust, and reach a balanced conclusion on when monitoring helps and when it harms."
+    ]
+   },
+   "readingMinutes": 5
+  },
+  {
+   "id": "36145871002f",
+   "title": "From a global electrification package to a new draft text: What happened on 19 November at COP31?",
+   "url": "https://www.edie.net/from-a-global-electrification-package-to-a-new-draft-text-what-happened-on-19-november-at-cop31/",
+   "source": "edie",
+   "publishedAt": "2026-11-19T20:17:53Z",
+   "addedAt": "2026-11-23T00:06:15Z",
+   "basis": "full_text",
+   "takeaway": "A late Presidency draft at COP31 that drops fossil-fuel references shows how control of the agenda and the threat of a veto shape multi-party negotiation, which makes it a direct case for PWO's Unit 5 on power, politics and conflict.",
+   "summary": "edie reports that, with COP31 close to ending, a late draft text from the Presidency has drawn wide criticism for removing explicit references to fossil fuels. The piece describes widening divisions between nations, a trimmed text that also weakens key climate targets, and parallel efforts to get round the stalled talks, including a global electrification package backed by more than 150 countries. Some delegations reportedly threaten to block consensus unless production caps and stricter financing terms are restored. Only the paywalled opening of the article was supplied, so this note relies on those headline claims and cannot cover later developments or the motives behind the changes.",
+   "keyPoints": [
+    "The Presidency's late draft removed explicit references to fossil fuels and pared back key climate targets, drawing sharp criticism from observers.",
+    "Nations are in open confrontation over the final wording of the agreement, and the revised text is described as a purged document.",
+    "An electrification package backed by more than 150 countries is being pursued alongside the formal text to get round the deadlock.",
+    "Individual delegations threaten to block consensus unless production caps and stricter financing terms are restored.",
+    "Only the opening of the article was available, so the final outcome and the reasons for the deletions are not known from this source."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 60,
+     "reading": "In PWO terms this is a case of power, politics and conflict in a setting where no single actor controls the outcome. The Presidency's drafting choices show how control of the text can shape what is decided at all, while delegations' threats to block consensus show power resting on the ability to veto. Students should care because the conflict is structural and driven by interests rather than personalities, so it can be analysed with Unit 5 concepts."
+    },
+    {
+     "id": "green",
+     "relevance": 35,
+     "reading": "The subject is decarbonisation policy, which the green module treats as a regulatory and externality problem rather than a logistics one. Fossil-fuel references and production caps go to the source of emissions from energy and transport, so the negotiation shapes the regulatory environment in which freight decarbonisation takes place. The link is indirect because the article concerns international policy rather than logistics operations, so it is best used as context."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Lukes's three dimensions of power",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Lukes argues that power works in three dimensions: visible decisions made in open conflict, control of the agenda so that some issues never reach a decision, and shaping preferences so that people do not perceive a conflict. The second dimension is the most useful here, because power can be exercised by keeping a topic out of the text before the final rounds.",
+     "link": "The Presidency's late draft removes explicit references to fossil fuels, which is a form of agenda control: the issue is taken out of the text rather than defeated in a vote. The criticism from observers and the threats to block consensus show that the removal is contested, so the exercise of power is visible rather than hidden. The electrification package, backed by more than 150 countries outside the stalled text, suggests that other actors are trying to build an alternative agenda once the formal text has closed one down. Lukes would ask whose interests the omission serves and whether the affected parties had a voice in the framing.",
+     "critique": "Lukes's framework is strong at revealing hidden power but hard to test, since showing that a deletion was an exercise of power requires evidence of intent that public reporting rarely supplies. A pluralist reading would treat the removal as an ordinary negotiating move that other states can reverse.",
+     "practice": "A delegation facing this should map who controls each drafting stage and put alternative wording on the table in forums where it has allies. It should also press for explicit reasons for each deletion, so that agenda control becomes a debated decision rather than a quiet one."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Fox's unitarist, pluralist and radical perspectives on conflict",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Fox distinguishes three frames for organisational conflict. The unitarist view treats the organisation as a single team with shared goals, so conflict signals failure; the pluralist view sees a coalition of groups with legitimately different interests, so conflict is normal and must be managed; the radical view locates conflict in structural inequality between groups.",
+     "link": "Open confrontation between nations over the final wording, with separate positions on production caps and financing terms, reads most naturally as pluralist: each party pursues interests it considers legitimate, and no authority can impose a single goal. A unitarist reading would treat the stalled text as a breakdown to be repaired by appealing to a common purpose, which is hard to sustain when the parties' interests conflict over fossil-fuel production. The radical lens adds that the ability to write the draft and the terms of financing reflect unequal resources, though the article offers only hints of this.",
+     "critique": "Fox's categories are ideal types and real negotiations mix them. A pluralist frame can underplay how far some parties hold more power than others, which the radical view would stress, and the article gives little evidence about the interests behind each delegation's position.",
+     "practice": "A manager facing this kind of conflict should accept that divergent interests are normal and design a process to handle them, rather than insisting on agreement from the outset. That means identifying the interests behind each position, separating a party's stated demand from its lowest acceptable outcome, and agreeing procedures for what happens when the group disagrees."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Thomas-Kilmann conflict modes",
+     "unit": "Unit 5 Power, politics and conflict",
+     "theory": "Thomas and Kilmann describe five ways of handling conflict, plotted on assertiveness (pursuing your own concerns) and cooperativeness (meeting the other party's concerns). The modes are competing, collaborating, compromising, avoiding and accommodating, and each suits different circumstances.",
+     "link": "Delegations threatening to block consensus unless production caps and stricter financing terms are restored are taking a competing stance, asserting their demands and relying on a veto. The electrification package, which has the support of more than 150 countries, looks more like collaboration or compromise because it seeks a shared outcome outside the stalled text. The Presidency's pruning of the text could be read as avoidance or accommodation of the most resistant parties, but the article does not say why the change was made.",
+     "critique": "The model describes individual styles and fits multi-party diplomacy poorly, because a party may adopt different modes towards different audiences at once. It also treats the modes as free choices, whereas national mandates may limit what delegates are able to accept.",
+     "practice": "A negotiator should diagnose which mode each party is using before responding, since threats call for a different response from requests for compromise. Where the relationship matters for later rounds, collaboration to find a package that meets both sides' core needs is usually more durable than a block."
+    },
+    {
+     "moduleId": "green",
+     "concept": "Externalities and carbon pricing",
+     "unit": "",
+     "theory": "An externality is a cost or benefit falling on people who are not party to a transaction, such as the damage done by emissions to the climate. Carbon pricing and regulation aim to bring such costs into decisions so that producers and consumers face the true cost of emissions. Caps on production are a quantity-based alternative to price-based instruments.",
+     "link": "The dispute over production caps is a direct argument about how to restrain emissions from fossil-fuel supply, closely linked to the removed references. Stricter financing terms concern who bears the cost of the transition, which is a distributional question tied to externalities. The electrification package points towards shifting energy use to cleaner sources, which for freight and warehousing would eventually mean electrified vehicles and equipment.",
+     "critique": "The article does not report the specific policy instruments under discussion, so any application to logistics is an inference. Economists also debate whether quantity caps or carbon prices are more efficient, and the negotiation may end up using both or neither.",
+     "practice": "A logistics operator facing this regulatory uncertainty should model scenarios with and without tighter production caps or carbon costs, then prioritise investments such as electrification that perform well under each. Following these negotiations closely gives time to plan for likely compliance costs."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A multilateral climate summit enters its final hours. The presiding nation circulates a late draft that removes explicit references to fossil fuels and softens key targets, and observers criticise the change. Some delegations threaten to block agreement unless production caps and stricter financing terms are restored, while a separate electrification package has gained the backing of more than 150 countries.",
+    "question": "Critically evaluate how power, politics and conflict shaped this negotiation and its outcome, and advise the Presidency on how to secure a consensus that will hold.",
+    "evidence": [
+     "The Presidency's late draft removed explicit references to fossil fuels and pared back key climate targets.",
+     "Observers have sharply criticised the deletion of core transition commitments.",
+     "Individual delegations threaten to block consensus unless production caps and stricter financing terms are restored.",
+     "A global electrification package has secured backing from more than 150 countries."
+    ],
+    "plan": [
+     "Set out the situation and apply Lukes's second dimension of power to show how the omission from the draft shapes what can be decided.",
+     "Characterise the conflict as structural and interest-driven using Fox's pluralist perspective, explaining why divergent interests are legitimate and cannot be settled simply by appeal to a shared goal.",
+     "Diagnose each party's conflict style with the Thomas-Kilmann modes, distinguishing the competing stance of blocking delegations from the collaborative character of the electrification package.",
+     "Assess whether the conflict is functional or dysfunctional using Pondy's distinction: open confrontation may force clearer commitments, but a block would stall progress.",
+     "Recommend a route to consensus: restore a credible production and financing package, make drafting decisions transparent, and build a coalition around the electrification work, setting out the trade-offs."
+    ],
+    "pitfalls": [
+     "Treating the Presidency's draft as proof of bad faith; the article reports the change and the criticism, not the motives behind it.",
+     "Describing the conflict as personal disagreement, which ignores the structural interests and unequal power that the theories are designed to capture."
+    ]
+   },
+   "alsoConsider": [
+    "French and Raven's bases of power",
+    "Pfeffer and Salancik's resource dependence",
+    "Mintzberg's political games"
+   ],
+   "exam": {
+    "question": "Critically evaluate whether conflict and power in multi-party negotiations, such as international climate talks, are best understood as a dysfunctional breakdown or as a normal feature of pluralist organisations.",
+    "outline": [
+     "Define power, politics and conflict using Lukes's three dimensions and Fox's pluralist perspective, and explain how control of the agenda can shape outcomes.",
+     "Assess the functional and dysfunctional effects of open confrontation using Pondy's distinction and the Thomas-Kilmann modes, drawing on a negotiation example.",
+     "Evaluate the limits of these frameworks in a setting with many parties and unequal resources, and conclude with a justified view."
+    ]
+   },
+   "readingMinutes": 1
+  },
+  {
+   "id": "f7d9c0f112d7",
+   "title": "Employers should prepare for a labor market shake-up in 2027, Indeed and Glassdoor say",
+   "url": "https://www.hrdive.com/news/employers-should-prepare-for-a-labor-market-shake-up-in-2027-report-finds/875221/",
+   "source": "HR Dive",
+   "publishedAt": "2026-11-19T20:36:00Z",
+   "addedAt": "2026-11-23T00:06:15Z",
+   "basis": "abstract",
+   "takeaway": "A short forecast from two hiring platforms says employers should expect higher staff turnover and a weaker leadership pipeline, so people and talent policy becomes a priority. The abstract gives no figures or evidence, so the note relies on established theory to show how an employer should respond.",
+   "summary": "The abstract reports that Indeed and Glassdoor expect the labour market to be reshaped in 2027, and that talent leaders will face two main concerns: higher employee turnover and the need for a stronger leadership pipeline. The item is a brief news summary of a forecast, not a full report. It gives no data on the size of the turnover increase, the sectors affected, or how the forecast was produced. Its value for study lies in showing how an external labour market shift becomes an internal people-management problem that organisations must plan for.",
+   "keyPoints": [
+    "The forecast comes from two hiring platforms, Indeed and Glassdoor, which see their own job-search and hiring data as a window on the market.",
+    "Talent leaders are expected to be most concerned about higher turnover in the coming year.",
+    "A second main concern is the leadership pipeline, meaning the supply of people ready to take senior and management roles.",
+    "The abstract gives no figures, sectors or methods, so the size and reliability of the predicted shake-up cannot be judged from it.",
+    "Turnover and succession are linked: losing staff can empty the pipeline, and a thin pipeline can make turnover more costly."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 75,
+     "reading": "In People, Work and Organisations terms, the article is about the employment relationship being renegotiated from outside the firm, with staff more likely to leave and the organisation less able to fill senior roles from within. Turnover is an outcome of attitudes, motivation, perceived fairness and the psychological contract, while a leadership pipeline depends on development, career design and organisational culture. A student should care because the forecast shows how external labour market conditions push organisations into change, and because the response involves individual motivation, job design and culture rather than recruitment alone."
+    },
+    {
+     "id": "leadership",
+     "relevance": 55,
+     "reading": "From a leadership perspective, the concern about the pipeline is a concern about how leaders are developed, selected and succeeded. Leadership theories about development, such as action-centred leadership, and about the quality of relationships between leaders and followers help explain why a thin pipeline matters: people who leave often do so because of their immediate leaders. The article therefore links the leadership module to retention and succession, which is a practical issue for any leader asked to build a team that can last."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "The psychological contract (Rousseau)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "The psychological contract is the set of unwritten beliefs an employee holds about the mutual obligations between themselves and their employer, such as effort in return for development, security or recognition. When employees believe the employer has failed to honour these expectations, they experience breach, which lowers commitment and increases the likelihood of leaving. The contract is shaped by what the organisation says, does and has done in the past.",
+     "link": "The abstract predicts higher turnover, which the psychological contract helps explain: in a tight or changing market, employees compare what they were promised with what other employers can offer, and a perceived breach may prompt them to act on the comparison. The forecast suggests that leaders should expect people to reassess their obligations and their future with the employer. The leadership pipeline concern fits here too, because staff who believe their development was promised but not delivered are the ones most likely to leave before reaching senior roles.",
+     "critique": "The theory is hard to measure, and its focus on individual beliefs can lead to underestimating the role of pay, external job offers and personal circumstances, which the abstract does not mention. Employers who attend only to perceived obligations may miss market-driven departures that no change in the relationship would prevent.",
+     "practice": "A manager should review what has been promised informally to key staff, especially on development, career paths and flexibility, and check whether those promises are being kept. Regular stay conversations can reveal early signs of breach before people start applying elsewhere."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Equity theory (Adams)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Equity theory holds that people judge the fairness of their rewards by comparing the ratio of their inputs, such as effort and skill, to their outcomes, such as pay and recognition, with the ratio of relevant others. Perceived inequity creates tension, and people try to restore balance by changing their effort, altering their perception of the comparison or leaving the situation. Comparison is the key mechanism.",
+     "link": "In a labour market shake-up, employees have more visible comparison points, including job adverts, offers from competitors and reports about pay levels, which the abstract's forecast of higher turnover suggests will matter. An employee who sees that they could earn more elsewhere for similar inputs may conclude that their current reward is unfair and leave. The theory explains why turnover can rise even where the employer has not changed its practices, because the reference point has moved.",
+     "critique": "Equity theory assumes that people compare themselves in a relatively stable way, whereas in a volatile market the reference point may shift quickly and irrationally. It also says little about how far pay alone can offset other reasons for leaving, such as career progression or management quality.",
+     "practice": "A manager should benchmark pay and benefits for critical roles against the market and explain how reward decisions are made, so that comparisons are informed rather than rumour-driven. Where pay cannot match outside offers, the manager should look for fairness in other inputs, such as flexibility, progression and recognition, and communicate these clearly."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Triggers for change: internal and external triggers (PESTLE)",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Organisational change is usually triggered by forces either outside the firm, such as political, economic, social, technological, legal and environmental factors, or inside it, such as falling performance or a new leader. External triggers create pressure that the organisation must interpret before acting. Recognising the trigger early allows the organisation to shape its response rather than react under pressure.",
+     "link": "The forecast treats a labour market shake-up as a trigger for change in the people function: higher turnover and a thinner leadership pipeline are external pressures that require internal adjustment in retention, development and succession. The abstract makes clear that talent leaders are the ones who must respond, so the trigger is interpreted through people management. A student could use this to show how a market-level forecast becomes a change agenda for HR.",
+     "critique": "A forecast is not an event, and the abstract gives no evidence that the shake-up will happen. Responding to predicted triggers can waste resources if the forecast is wrong, and classifying triggers into internal and external categories can understate how they interact.",
+     "practice": "Before committing to a major programme, an HR leader should test the forecast against the organisation's own turnover data, exit reasons and pipeline figures. A staged response, with early actions that are useful even if the shake-up is mild, reduces the risk of over-committing."
+    },
+    {
+     "moduleId": "leadership",
+     "concept": "Action-centred leadership (Adair)",
+     "unit": "",
+     "theory": "Adair's action-centred leadership model describes leadership as the interaction of three overlapping needs: the task, the team and the individual. Effective leaders attend to all three, and the balance between them shifts with the situation. The model is widely used in leadership development because it gives managers a simple checklist for what they must do to lead.",
+     "link": "The concern about the leadership pipeline is a concern about individuals who must be developed to take on leadership tasks and teams. Using Adair's model, a development plan for future leaders should cover the task skills they need, the team leadership they must practise and the individual support that keeps them engaged. The abstract's combination of turnover and pipeline concerns suggests that the individual need, meaning development and retention, is where many organisations are weakest.",
+     "critique": "The model is descriptive and does not specify how to identify or select future leaders, nor how to balance competing needs when resources are tight. It also treats leadership as a set of behaviours, which may underplay the structural and cultural conditions that determine whether a pipeline forms.",
+     "practice": "A manager should map the key senior roles and identify, for each, two or three people who could take them on within a set period. Development should address the task, team and individual dimensions, with stretch assignments, team leadership responsibilities and regular one-to-one support."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized professional services firm expects its staff to become more mobile over the coming year, and its partners worry that few of its managers are ready for senior roles. Exit interviews show that some of the people it most wants to keep have started to look at outside offers. The HR director has been asked to present a plan to the board.",
+    "question": "Advise the board on how the firm should respond to the expected rise in turnover and the weakness of its leadership pipeline. Critically evaluate the extent to which pay can address these problems.",
+    "evidence": [
+     "Indeed and Glassdoor, as reported by HR Dive, expect a labour market shake-up in 2027.",
+     "Talent leaders are expected to see higher turnover as a major concern in the coming year.",
+     "A stronger leadership pipeline is identified as a further major concern for talent leaders.",
+     "The forecast comes from hiring platforms, which are well placed to observe job-search and hiring activity but do not themselves set out the detailed basis of the forecast in the abstract."
+    ],
+    "plan": [
+     "Diagnose the situation by separating the external trigger, the expected market shake-up, from the internal problem, the firm's own turnover and pipeline gaps, using the triggers-for-change framework.",
+     "Analyse why people might leave using the psychological contract, identifying promises about development and career progression that may be at risk of breach.",
+     "Assess fairness in pay and reward using equity theory, comparing the firm's reward with market reference points and considering non-pay inputs.",
+     "Develop the leadership pipeline using action-centred leadership, mapping likely successors for critical roles and planning development across task, team and individual needs.",
+     "Evaluate the limits of pay, arguing that it can address perceived inequity but not broken promises or weak leadership, and conclude with a recommendation to combine targeted pay review with development and a clear career offer.",
+     "Recommend a phased plan with early measures such as stay interviews and a succession review, and a review point to test whether the forecast is being borne out in the firm's own data."
+    ],
+    "pitfalls": [
+     "Presenting the forecast as certain. The abstract predicts a shake-up but gives no evidence of its size or timing, so the answer must treat it as a scenario to test.",
+     "Answering with generic advice on motivation or engagement without naming and applying a specific theory such as the psychological contract, equity theory or action-centred leadership."
+    ]
+   },
+   "alsoConsider": [
+    "Herzberg's two-factor theory, for distinguishing hygiene factors such as pay from motivators such as development and rec",
+    "Kahn's model of employee engagement, for explaining why people withdraw from roles before they leave",
+    "Lewin's three-step model, for framing how an organisation prepares for and manages a change in its people practices"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that rising staff turnover and a weak leadership pipeline are best addressed through pay, rather than through the psychological contract, job design and leadership development.",
+    "outline": [
+     "Explain how external labour market pressure becomes a turnover and succession problem for the organisation, using the triggers-for-change framework.",
+     "Apply the psychological contract and equity theory to show why pay alone may not retain key staff, and why perceived breach and fairness matter.",
+     "Evaluate the limits of the argument, including the weakness of the forecast's evidence and the role of leadership development in building a pipeline, and reach a reasoned conclusion."
+    ]
+   }
+  },
+  {
+   "id": "374480574957",
+   "title": "We’re Seeing the Costs of Moving Fast",
+   "url": "https://hbr.org/2026/11/were-seeing-the-costs-of-moving-fast",
+   "source": "Harvard Business Review",
+   "publishedAt": "2026-11-20T13:25:23Z",
+   "addedAt": "2026-11-23T00:06:15Z",
+   "basis": "abstract",
+   "takeaway": "The abstract links recent technology breakdowns to organisations giving too little time and resource to stress testing, which points to a people and culture question about how speed is valued against care, as well as a project and operations question.",
+   "summary": "The publisher's abstract argues that recent technology breakdowns suggest organisations are not spending enough time and resources stress testing their operations. Only this short abstract was supplied, so the note relies on that claim and does not assume findings from the full article.",
+   "keyPoints": [
+    "The abstract links recent technology breakdowns to a shortfall in stress testing.",
+    "The stated shortfall is in both time and resources, so testing appears to be squeezed rather than simply overlooked.",
+    "The abstract frames the problem as a pattern across organisations, not a single firm's error.",
+    "The abstract's wording is suggestive ('suggest'), so the claim is an interpretation of recent events rather than a measured result.",
+    "The title, 'the costs of moving fast', implies that speed is being prioritised over checking that systems can cope with stress."
+   ],
+   "modules": [
+    {
+     "id": "pwo",
+     "relevance": 70,
+     "reading": "From the PWO perspective the abstract describes a trade-off between speed and care that is shaped by culture and norms rather than by technology alone. Whether testing gets time and resource depends on what the organisation values, what people feel able to say about risk, and how performance is measured. A student of organisational behaviour should care because it turns a technical failure into a question about culture, team climate and goal-setting. Only the abstract was available, so the link is drawn from its framing."
+    },
+    {
+     "id": "projects",
+     "relevance": 60,
+     "reading": "Stress testing is a form of verification and risk management, and in project terms it is one of the activities most often compressed when schedules tighten. The abstract's concern that testing receives inadequate time and resources maps onto the familiar pattern in which the iron triangle pressures lead teams to cut testing to hold the date. The abstract does not say whether the affected projects used agile or waterfall methods, so the speed point should not be assigned to either method without more information."
+    },
+    {
+     "id": "scm",
+     "relevance": 35,
+     "reading": "Supply chains depend heavily on operational technology, so a breakdown in those systems can disrupt flows of goods and information. Stress testing is one way to build the resilience that supply chain risk management seeks. The abstract is general and does not describe any supply chain, so this is a secondary connection."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "pwo",
+     "concept": "Schein's three levels of organisational culture",
+     "unit": "Unit 7 Organisational culture",
+     "theory": "Schein describes culture at three levels: visible artefacts, espoused values that people state, and basic underlying assumptions that are taken for granted and guide behaviour without being debated. Espoused values can differ from what people actually do, and the underlying assumptions are the hardest level to see and change.",
+     "link": "The abstract suggests that organisations are not giving stress testing adequate time and resources even though they are exposed to technology failures. This gap could indicate that speed is an espoused value that is stated openly, while the underlying assumption that testing is overhead goes unexamined. Schein's model would direct the student to look beneath the stated 'move fast' message to the assumptions that decide how much time testing receives in practice. The abstract does not report any evidence about what organisations say or assume, so this interpretation is a hypothesis to test.",
+     "critique": "Schein's model is difficult to apply from the outside, because assumptions can only be inferred from behaviour and are often unavailable to the people who hold them. The abstract provides no data on organisational culture, so the cultural explanation is one plausible reading among several, including budget constraints and competitive pressure.",
+     "practice": "A manager applying Schein would compare what the organisation says about quality and speed with what it rewards in budgets, schedules and promotions. Where stated values and actual choices diverge, the manager would name the hidden assumption, such as testing being a cost rather than protection, and address it through leadership messages, metrics and resource decisions."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Psychological safety (Edmondson)",
+     "unit": "Unit 4 Team dynamics",
+     "theory": "Edmondson defines psychological safety as a shared belief that a team is safe for interpersonal risk-taking, so that members can speak up about mistakes, concerns or bad news without fear of punishment. Teams with high psychological safety are more likely to surface problems early and learn from failure. It is a property of the team's climate, not simply of individual confidence.",
+     "link": "The abstract's claim that testing is under-resourced implies that someone, somewhere, is deciding that testing can be shortened. In a team with low psychological safety, engineers or testers who think a release is not ready may stay silent to avoid appearing obstructive when the organisation is moving quickly. Edmondson's concept would point the student to the speaking-up behaviour that would allow a warning to reach decision-makers before a breakdown. The abstract does not describe any team, so this link is theoretical rather than evidenced.",
+     "critique": "Psychological safety explains whether concerns are voiced but not whether they are acted on, and a team can feel safe while still being overruled by budget or deadline pressure. It also works at team level, so it may not capture the structural decisions that set testing budgets.",
+     "practice": "A manager would build forums where testers can raise readiness concerns without penalty, and would make it normal to halt a release for stated reasons. They would also track whether warnings are acknowledged in decisions, since a safe climate that changes nothing will not protect the organisation."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Goal-setting theory (Locke and Latham)",
+     "unit": "Unit 3 Motivation and engagement",
+     "theory": "Goal-setting theory holds that specific and challenging goals lead to higher performance than vague goals, provided people have the ability and commitment to pursue them and receive feedback on progress. The theory is usually used to explain how goals raise effort and persistence. Its effects depend on which goals are set, so narrow targets can focus effort on the measured outcome at the expense of unmeasured ones.",
+     "link": "If the abstract's organisations are judged mainly on speed of delivery, goal-setting theory predicts that effort will concentrate on meeting that target. Stress testing has effects that appear only later, so it is unlikely to be rewarded by a speed-based goal. The abstract's point that testing receives inadequate time and resources can be read as a consequence of goals that measure only what is visible. The theory predicts that balancing goals, such as reliability or incident rates, would redirect effort towards testing.",
+     "critique": "Goal-setting theory assumes goals are chosen carefully and that people accept them, but it does not explain how to decide which goals matter when speed and reliability conflict. The abstract gives no information about the goals used in the organisations concerned.",
+     "practice": "A manager applying goal-setting theory would set delivery goals alongside specific reliability goals, such as the number of tested scenarios or the incident rate after release, and would give feedback on both. The goals should be challenging but achievable, so that testing is not treated as a barrier to the speed target."
+    },
+    {
+     "moduleId": "projects",
+     "concept": "Project risk management and the risk register",
+     "unit": "",
+     "theory": "Project risk management identifies, assesses, responds to and monitors risks to scope, time, cost and quality. The risk register records each risk with its likelihood, impact, owner and response, and it is reviewed through the project life cycle. Failing to treat testing as a risk response, or to record the risk of a breakdown, is a common reason projects suffer late failures.",
+     "link": "The abstract's concern that organisations are not giving stress testing enough time and resources suggests that a risk to operational stability is being accepted without being registered or priced. If the failure risk from untested systems does not appear in the register, the cost of testing looks like pure expense when set against schedule pressure. The abstract's framing of 'the costs of moving fast' implies that these costs are deferred to the point of failure. The abstract gives no data on how the affected organisations manage risk, so the link is an inference.",
+     "critique": "A risk register records only the risks people think to identify, and it can understate low-probability, high-impact failures that are hard to quantify. Risk registers also depend on the honesty of the risk owners, so they may reflect the optimism bias they are meant to control.",
+     "practice": "A project manager would list the failure of key systems as a named risk with its likelihood and impact, and would link the testing budget to the mitigation. The manager would present the testing cost as a risk response, with an estimate of the cost of a breakdown, so that the trade-off against speed is explicit to the sponsor."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A company in this position has recently suffered technology breakdowns that disrupted its operations. Its leaders have pushed for faster delivery of new systems and features, and the time and budget allocated to stress testing have been reduced. Staff who raised concerns about readiness were not clearly heard before the decisions were taken. The board now wants to know whether the company's approach to speed is sustainable.",
+    "question": "Critically evaluate the claim that organisations are sacrificing stress testing in pursuit of speed, and advise the board on how to balance speed with operational reliability.",
+    "evidence": [
+     "The abstract reports that recent technology breakdowns suggest organisations are not spending adequate time and resources on stress testing.",
+     "The abstract's title frames the issue as the costs of moving fast, which implies that the costs of speed are deferred rather than avoided.",
+     "The abstract's claim is an interpretation based on recent breakdowns, so it should be treated as a suggestion rather than a measured finding."
+    ],
+    "plan": [
+     "Define stress testing and explain why reduced time and resources for it increase the risk of breakdowns, drawing on the abstract's claim.",
+     "Apply Schein's three levels of culture to examine whether speed is a stated value while testing is an unexamined overhead assumption.",
+     "Use psychological safety (Edmondson) to assess whether people who see risks can raise them before release decisions are made.",
+     "Apply goal-setting theory to show how speed-only targets may focus effort away from testing, and propose balancing goals.",
+     "Use project risk management to show how the failure risk should appear in the register with a costed mitigation, so that the trade-off is visible.",
+     "Recommend that the board fund stress testing as a named risk response, change the goals and reporting that reward speed, and create formal routes for readiness concerns."
+    ],
+    "pitfalls": [
+     "Treating the abstract's suggestion as established evidence, when it is an interpretation of recent breakdowns and the full article was not available.",
+     "Presenting speed and testing as simply opposed, without showing how the trade-off can be managed through goals, governance and team climate."
+    ]
+   },
+   "alsoConsider": [
+    "Groupthink (Janis)",
+    "Escalation of commitment (Staw)",
+    "Normal accident theory (Perrow)",
+    "Lencioni's five dysfunctions of a team"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that organisational culture and team dynamics, rather than technical capability, explain why organisations under-invest in stress testing and suffer avoidable operational failures.",
+    "outline": [
+     "Explain how culture (Schein) and goal-setting shape the priority given to testing relative to speed, and assess the evidence for each.",
+     "Evaluate the role of psychological safety in enabling people to raise concerns about readiness, and where it falls short as an explanation.",
+     "Conclude by weighing organisational explanations against project risk and budget explanations, and recommend how a manager should respond."
+    ]
+   }
+  },
+  {
+   "id": "e2252a4a3c13",
+   "title": "The new consolidation: M&A shifts in European consumer tech and media",
+   "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-new-consolidation-m-and-a-shifts-in-european-consumer-tech-and-media",
+   "source": "McKinsey Insights",
+   "publishedAt": "2026-11-20T00:00:00Z",
+   "addedAt": "2026-11-23T00:06:15Z",
+   "basis": "abstract",
+   "takeaway": "Consolidation in European consumer tech and media is framed as a set of recurring deal types, and the piece claims to say where the next deals are likely to come from. Only the abstract was supplied, so treat this as a strategy note on M&A that can be developed fully once the full article is read.",
+   "summary": "This is a McKinsey Insights piece on mergers and acquisitions in European consumer technology and media. According to the abstract, the authors link the changing European media landscape to a set of deal archetypes that drive consolidation, and they predict where the next transactions are most likely to emerge. Only the abstract was provided, so the evidence behind these claims, the specific deal types and any named companies or figures are not available here.",
+   "keyPoints": [
+    "The abstract says the European media landscape is changing and that this is driving consolidation.",
+    "The analysis groups consolidation into deal archetypes, which suggests recurring patterns of M&A rather than one-off deals.",
+    "The authors aim to identify where the next transactions are most likely to emerge, which makes the piece forward-looking and predictive.",
+    "The abstract does not say which archetypes were found, what evidence supports them, or whether the people and integration side of deals is covered."
+   ],
+   "modules": [
+    {
+     "id": "strategy",
+     "relevance": 80,
+     "reading": "In strategy terms this is about how industries consolidate through mergers and acquisitions, which is one of the growth routes covered in the module. A student should read it as a question of why firms buy rivals or adjacent businesses, what competitive position a deal is meant to secure, and how the industry structure shifts as a result. Deal archetypes are a useful way of linking these decisions to the module's analytical tools."
+    },
+    {
+     "id": "pwo",
+     "relevance": 32,
+     "reading": "The abstract does not mention people, but consolidation is a major external trigger for organisational change. Any deal that goes ahead will change structures, cultures and working relationships, and this is where the People, Work and Organisations module applies. The link is secondary and depends on the full article, which may or may not address integration."
+    }
+   ],
+   "applications": [
+    {
+     "moduleId": "strategy",
+     "concept": "Porter's five forces",
+     "unit": "",
+     "theory": "Porter's five forces framework analyses industry attractiveness through the threat of new entrants, the bargaining power of buyers and suppliers, the threat of substitutes and the intensity of rivalry. A firm uses it to judge whether an industry is profitable and how its structure may change. Consolidation alters the balance of these forces, so the framework can be used to test whether a deal strengthens or weakens a firm's position.",
+     "link": "The abstract says consolidation is driving the European media landscape, which suggests that the number of competitors and their relative size are changing. In Porter's terms, fewer and larger players would usually raise the bargaining power of the remaining firms and could reduce rivalry, while new digital entrants could shift the threat of entry and substitution. The article's identification of the deal archetypes behind consolidation can be mapped onto these forces to show which ones each type of deal is designed to change. The abstract does not give the specifics, so the mapping must be checked against the full text.",
+     "critique": "Five forces is a static snapshot, and it assumes the industry boundaries are clear, which is doubtful in converging consumer tech and media. Consolidation can also raise regulatory scrutiny, which the framework does not model directly.",
+     "practice": "A manager considering a deal should use five forces to assess how the transaction would change buyer and supplier power and rivalry, and should test whether the gain in market position outlasts the change in industry structure. They should also record which forces the deal leaves unchanged, because these will still limit the expected return."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "Ansoff matrix",
+     "unit": "",
+     "theory": "The Ansoff matrix sets out four growth directions defined by products and markets: market penetration, market development, product development and diversification. Each carries a different level of risk, with diversification the most risky because both the product and the market are new. It helps managers decide whether growth should come from existing or new products and markets, and by what route.",
+     "link": "Acquisitions are one way to move into a new market or product area without building capability from scratch. If the deal archetypes described in the abstract involve media or technology firms buying into adjacent content, platforms or markets, they can be classed as market development or diversification on the Ansoff grid. Placing each archetype on the matrix would show how much risk a deal adds, and whether the acquirer is buying growth it already understands or moving into unfamiliar territory. This is a matter of interpretation, because the abstract does not name the archetypes.",
+     "critique": "The matrix treats growth as separate from how it is achieved, so it says little about whether an acquisition succeeds in practice. It also does not capture the value that comes from combining assets across businesses.",
+     "practice": "A manager should classify a proposed acquisition on the Ansoff grid and then assess the risk that goes with its quadrant. They should then check whether the firm has the capabilities needed to integrate the target, rather than assuming that buying a new market is the same as entering it successfully."
+    },
+    {
+     "moduleId": "strategy",
+     "concept": "VRIO framework and the resource-based view (Barney)",
+     "unit": "",
+     "theory": "The resource-based view holds that sustained competitive advantage comes from resources that are valuable, rare, inimitable and organised to be exploited, which is summarised in the VRIO framework. Firms therefore evaluate acquisitions by asking whether the target brings resources that meet these tests and that the buyer can exploit. A deal that adds only resources competitors can buy easily gives little lasting advantage.",
+     "link": "If consolidation is driven by firms buying the assets, audiences or technologies that rivals lack, the VRIO test explains whether those purchases create lasting advantage. The abstract's focus on where the next transactions will emerge implies that the targets will be chosen for their resources, so the framework can be used to judge whether those resources are rare and hard to copy. The full article would be needed to say which resources the archetypes involve.",
+     "critique": "The resource-based view can be applied after the event, so it is harder to use for predicting which deals will succeed. Scale and data assets may be valuable yet easy to imitate through partnerships, which the framework may understate.",
+     "practice": "Before recommending a deal, a manager should list the resources the target would bring and apply the VRIO questions to each. They should also decide whether the acquirer can integrate and exploit them, because a resource that is valuable but not exploited adds no advantage."
+    },
+    {
+     "moduleId": "pwo",
+     "concept": "Triggers for change (internal and external, PESTLE)",
+     "unit": "Unit 8 Organisational change",
+     "theory": "Organisational change is usually triggered by forces either inside the organisation or outside it. External triggers include political, economic, social, technological, legal and environmental pressures, which are often summarised using PESTLE. Understanding the trigger matters because it shapes whether change is a response to threat, an opportunity or a strategic decision.",
+     "link": "The abstract describes consolidation as a response to a changing European media landscape, which points to external triggers such as technological and market shifts. A merger or acquisition is itself a deliberate change, and the decision to consolidate is a response to the forces the article describes. For employees, the trigger is what they experience as the reason for change, and it can determine how far they accept the new arrangements. The full article would need to show whether the people side of deals is discussed.",
+     "critique": "The trigger model explains why change starts but says little about how it unfolds inside the organisation. In practice, a deal can be driven by financial logic that does not match the trigger, so the stated reason may not match the real one.",
+     "practice": "A manager leading a merger should identify the external trigger clearly and communicate it in terms that employees can relate to. They should then link the trigger to the goals of the deal, so that the case for change is credible to the people who must deliver it."
+    }
+   ],
+   "caseStudy": {
+    "scenario": "A mid-sized European digital media company faces consolidation among its competitors and a shift in how audiences consume content. Its board is considering whether to acquire a smaller technology firm, or to pursue a partnership, in order to stay competitive. The board wants to understand which types of deal are likely to succeed and how the choice will affect the organisation.",
+    "question": "Critically evaluate the options open to the board, advising on which route to growth it should pursue and how it should manage the organisational consequences of the choice.",
+    "evidence": [
+     "The analysis identifies deal archetypes that are driving consolidation in European consumer technology and media.",
+     "The authors argue that the European media landscape is evolving, which is the context for consolidation.",
+     "The analysis also identifies where the next transactions are most likely to emerge."
+    ],
+    "plan": [
+     "Set out the external triggers for change using PESTLE, and state why they make consolidation a strategic option for the company.",
+     "Assess the competitive effects of the possible deals using Porter's five forces, showing how each option changes buyer power, supplier power, rivalry and entry threats.",
+     "Classify the options on the Ansoff matrix to show the level of risk each carries, distinguishing market development from diversification.",
+     "Test whether the target would provide resources that are valuable, rare, inimitable and exploitable, using the VRIO framework.",
+     "Discuss the organisational consequences of the preferred option, including changes to structure, culture and working relationships, and the reasons for resistance.",
+     "Recommend a route and state the conditions under which the company should choose it over the alternatives."
+    ],
+    "pitfalls": [
+     "Treating the abstract as evidence of a particular deal outcome or statistic, when it reports only that archetypes and likely deal locations were identified.",
+     "Ignoring the organisational and people consequences of the chosen route, which will often decide whether a deal delivers its value."
+    ]
+   },
+   "alsoConsider": [
+    "Dynamic capabilities (Teece)",
+    "Core competences (Prahalad and Hamel)",
+    "Kotter's eight-step model"
+   ],
+   "exam": {
+    "question": "Critically evaluate the view that mergers and acquisitions are the most effective route to growth for firms in consolidating industries, drawing on the theories of industry structure and resources.",
+    "outline": [
+     "Explain the main growth routes available to firms and why M&A is attractive in consolidating industries, using Porter's five forces and the Ansoff matrix.",
+     "Assess the conditions under which M&A creates lasting advantage, applying the resource-based view and VRIO.",
+     "Evaluate the limits of M&A, including integration risk and the organisational change it triggers, and reach a supported conclusion."
+    ]
+   }
+  },
   {
    "id": "cd7a3341cf7b",
    "title": "Job candidates’ AI usage is obscuring their viability, report finds",

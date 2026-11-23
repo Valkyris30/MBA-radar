@@ -1,175 +1,175 @@
 {
  "version": 1,
- "generatedAt": "2026-11-22T23:44:52Z",
- "model": null,
+ "generatedAt": "2026-11-23T00:18:32Z",
+ "model": "claude-haiku-5-5",
  "fx": {
   "base": "USD",
-  "date": "Sun, 22 Nov 2026 00:02:32 +0000",
+  "date": "Mon, 23 Nov 2026 00:02:32 +0000",
   "rates": {
    "USD": 1,
    "AED": 3.6725,
-   "AFN": 66.118191,
-   "ALL": 82.126238,
-   "AMD": 360.594676,
+   "AFN": 65.187392,
+   "ALL": 81.82705,
+   "AMD": 360.567076,
    "ANG": 1.79,
-   "AOA": 921.903624,
+   "AOA": 922.171399,
    "ARS": 1575.9572,
-   "AUD": 1.507035,
+   "AUD": 1.507013,
    "AWG": 1.79,
-   "AZN": 1.700099,
-   "BAM": 1.78226,
+   "AZN": 1.698002,
+   "BAM": 1.782021,
    "BBD": 2,
-   "BDT": 124.388033,
-   "BGN": 1.78226,
+   "BDT": 124.425063,
+   "BGN": 1.782021,
    "BHD": 0.376,
-   "BIF": 3009.807176,
+   "BIF": 3002.275802,
    "BMD": 1,
-   "BND": 1.289577,
-   "BOB": 11.728666,
-   "BRL": 5.937879,
+   "BND": 1.289103,
+   "BOB": 11.723917,
+   "BRL": 5.945309,
    "BSD": 1,
-   "BTN": 92.888729,
-   "BWP": 14.687019,
-   "BYN": 2.995302,
+   "BTN": 92.752736,
+   "BWP": 14.326243,
+   "BYN": 2.993982,
    "BZD": 2,
-   "CAD": 1.433441,
-   "CDF": 2294.467623,
-   "CHF": 0.840341,
-   "CLF": 0.025656,
-   "CLP": 1014.084257,
-   "CNH": 6.675662,
-   "CNY": 6.693346,
-   "COP": 3341.891148,
-   "CRC": 445.321099,
+   "CAD": 1.433241,
+   "CDF": 2315.140957,
+   "CHF": 0.840419,
+   "CLF": 0.025719,
+   "CLP": 1016.589577,
+   "CNH": 6.673954,
+   "CNY": 6.681345,
+   "COP": 3437.41712,
+   "CRC": 447.588816,
    "CUP": 24,
-   "CVE": 100.47955,
-   "CZK": 22.291402,
+   "CVE": 100.466052,
+   "CZK": 22.283029,
    "DJF": 177.721,
-   "DKK": 6.805787,
-   "DOP": 60.388212,
-   "DZD": 137.105812,
-   "EGP": 53.813894,
+   "DKK": 6.806835,
+   "DOP": 60.03921,
+   "DZD": 136.983934,
+   "EGP": 54.166609,
    "ERN": 15,
-   "ETB": 161.27438,
-   "EUR": 0.911256,
-   "FJD": 2.293687,
-   "FKP": 0.7636,
-   "FOK": 6.805783,
-   "GBP": 0.763601,
-   "GEL": 2.592167,
-   "GGP": 0.7636,
-   "GHS": 11.804993,
-   "GIP": 0.7636,
-   "GMD": 74.781126,
-   "GNF": 8855.182692,
-   "GTQ": 7.639035,
-   "GYD": 209.044216,
-   "HKD": 7.838737,
-   "HNL": 26.862428,
-   "HRK": 6.865852,
-   "HTG": 131.18476,
-   "HUF": 340.052586,
-   "IDR": 18291.407129,
-   "ILS": 3.346289,
-   "IMP": 0.7636,
-   "INR": 92.889095,
-   "IQD": 1514.155021,
-   "IRR": 1757351.912857,
-   "ISK": 124.934687,
-   "JEP": 0.7636,
-   "JMD": 158.25047,
+   "ETB": 161.825929,
+   "EUR": 0.911134,
+   "FJD": 2.290056,
+   "FKP": 0.763586,
+   "FOK": 6.806832,
+   "GBP": 0.763577,
+   "GEL": 2.591948,
+   "GGP": 0.763586,
+   "GHS": 11.802194,
+   "GIP": 0.763586,
+   "GMD": 74.790909,
+   "GNF": 8835.326814,
+   "GTQ": 7.63739,
+   "GYD": 209.177059,
+   "HKD": 7.838987,
+   "HNL": 26.861394,
+   "HRK": 6.86493,
+   "HTG": 131.157097,
+   "HUF": 340.031355,
+   "IDR": 18276.102736,
+   "ILS": 3.351967,
+   "IMP": 0.763586,
+   "INR": 92.753491,
+   "IQD": 1514.602217,
+   "IRR": 1704813.871685,
+   "ISK": 124.854047,
+   "JEP": 0.763586,
+   "JMD": 158.379827,
    "JOD": 0.709,
-   "JPY": 158.747474,
-   "KES": 129.963338,
-   "KGS": 87.451126,
-   "KHR": 4066.613386,
-   "KID": 1.507023,
-   "KMF": 448.308151,
-   "KRW": 1343.330639,
-   "KWD": 0.3112,
+   "JPY": 158.701406,
+   "KES": 129.915267,
+   "KGS": 87.469301,
+   "KHR": 4065.944525,
+   "KID": 1.507133,
+   "KMF": 448.247925,
+   "KRW": 1343.597019,
+   "KWD": 0.310445,
    "KYD": 0.833333,
-   "KZT": 449.946365,
-   "LAK": 22309.317427,
+   "KZT": 455.698773,
+   "LAK": 22399.549616,
    "LBP": 89500,
-   "LKR": 332.626031,
-   "LRD": 168.303744,
-   "LSL": 17.532275,
-   "LYD": 6.46128,
-   "MAD": 9.97726,
-   "MDL": 18.311132,
-   "MGA": 4574.447571,
+   "LKR": 332.392719,
+   "LRD": 167.862587,
+   "LSL": 17.513285,
+   "LYD": 6.468655,
+   "MAD": 9.97044,
+   "MDL": 18.313181,
+   "MGA": 4598.727328,
    "MKD": 55.881655,
-   "MMK": 2099.717479,
-   "MNT": 3630.287886,
-   "MOP": 8.073899,
-   "MRU": 40.543168,
-   "MUR": 46.850335,
-   "MVR": 15.438684,
-   "MWK": 1744.367737,
-   "MXN": 19.123957,
-   "MYR": 4.112786,
-   "MZN": 63.686226,
-   "NAD": 17.532275,
-   "NGN": 1376.736792,
-   "NIO": 36.774014,
-   "NOK": 9.768265,
-   "NPR": 148.621966,
-   "NZD": 1.824946,
+   "MMK": 2097.819676,
+   "MNT": 3626.047912,
+   "MOP": 8.07387,
+   "MRU": 40.718811,
+   "MUR": 47.093189,
+   "MVR": 15.425097,
+   "MWK": 1737.831255,
+   "MXN": 19.113379,
+   "MYR": 4.112368,
+   "MZN": 63.640334,
+   "NAD": 17.513285,
+   "NGN": 1367.642612,
+   "NIO": 36.750173,
+   "NOK": 9.751101,
+   "NPR": 148.404378,
+   "NZD": 1.826906,
    "OMR": 0.384497,
    "PAB": 1,
-   "PEN": 3.441274,
-   "PGK": 4.493406,
-   "PHP": 63.984688,
-   "PKR": 276.595853,
-   "PLN": 4.059578,
-   "PYG": 6271.058356,
+   "PEN": 3.442586,
+   "PGK": 4.49879,
+   "PHP": 63.908027,
+   "PKR": 276.545746,
+   "PLN": 4.064234,
+   "PYG": 6326.700243,
    "QAR": 3.64,
-   "RON": 4.871523,
-   "RSD": 107.140235,
-   "RUB": 82.062616,
-   "RWF": 1479.858242,
+   "RON": 4.87032,
+   "RSD": 107.108039,
+   "RUB": 81.988351,
+   "RWF": 1478.983349,
    "SAR": 3.75,
-   "SBD": 8.02641,
-   "SCR": 14.02805,
-   "SDG": 509.124016,
-   "SEK": 10.219547,
-   "SGD": 1.289578,
-   "SHP": 0.7636,
+   "SBD": 8.090626,
+   "SCR": 14.452936,
+   "SDG": 458.835548,
+   "SEK": 10.221203,
+   "SGD": 1.289081,
+   "SHP": 0.763586,
    "SLE": 22.929351,
    "SLL": 22929.350553,
-   "SOS": 570.912234,
-   "SRD": 37.459981,
-   "SSP": 5789.935695,
-   "STN": 22.325751,
-   "SYP": 121.805247,
-   "SZL": 17.532275,
-   "THB": 33.918378,
-   "TJS": 9.207343,
-   "TMT": 3.499304,
-   "TND": 3.0646,
-   "TOP": 2.398757,
-   "TRY": 50.602045,
-   "TTD": 6.749037,
-   "TVD": 1.507023,
-   "TWD": 32.980334,
-   "TZS": 2648.996851,
-   "UAH": 45.004434,
-   "UGX": 4048.218994,
-   "UYU": 40.585199,
-   "UZS": 11987.908877,
+   "SOS": 571.117035,
+   "SRD": 37.298532,
+   "SSP": 5809.566063,
+   "STN": 22.322752,
+   "SYP": 121.549979,
+   "SZL": 17.513285,
+   "THB": 33.943445,
+   "TJS": 9.205441,
+   "TMT": 3.498883,
+   "TND": 3.06038,
+   "TOP": 2.395027,
+   "TRY": 50.583634,
+   "TTD": 6.775029,
+   "TVD": 1.507133,
+   "TWD": 32.968084,
+   "TZS": 2659.014429,
+   "UAH": 44.952432,
+   "UGX": 4163.265313,
+   "UYU": 40.573291,
+   "UZS": 11921.409559,
    "VES": 919.8227,
-   "VND": 25783.122794,
-   "VUV": 120.564769,
-   "WST": 2.785111,
-   "XAF": 597.744201,
+   "VND": 25779.206142,
+   "VUV": 120.966238,
+   "WST": 2.789487,
+   "XAF": 597.6639,
    "XCD": 2.7,
    "XCG": 1.79,
    "XDR": 0.744757,
-   "XOF": 597.744201,
-   "XPF": 108.741901,
-   "YER": 236.347131,
-   "ZAR": 17.529792,
-   "ZMW": 20.629023,
+   "XOF": 597.6639,
+   "XPF": 108.727292,
+   "YER": 236.155845,
+   "ZAR": 17.513472,
+   "ZMW": 20.534885,
    "ZWG": 26.5872,
    "ZWL": 26.5872
   },
@@ -184,7 +184,7 @@
    "unit": "FEU",
    "change": -5.6,
    "changePeriod": "vs previous release",
-   "date": "22 Nov 2026",
+   "date": "23 Nov 2026",
    "url": "https://fbx.freightos.com/"
   },
   {
@@ -195,7 +195,7 @@
    "unit": "FEU",
    "change": 4.61,
    "changePeriod": "vs previous release",
-   "date": "22 Nov 2026",
+   "date": "23 Nov 2026",
    "url": "https://fbx.freightos.com/"
   },
   {
@@ -206,7 +206,7 @@
    "unit": "FEU",
    "change": 0.06,
    "changePeriod": "vs previous release",
-   "date": "22 Nov 2026",
+   "date": "23 Nov 2026",
    "url": "https://fbx.freightos.com/"
   },
   {
@@ -217,7 +217,7 @@
    "unit": "FEU",
    "change": 1.77,
    "changePeriod": "vs previous release",
-   "date": "22 Nov 2026",
+   "date": "23 Nov 2026",
    "url": "https://fbx.freightos.com/"
   },
   {
@@ -228,7 +228,7 @@
    "unit": "FEU",
    "change": -0.96,
    "changePeriod": "vs previous release",
-   "date": "22 Nov 2026",
+   "date": "23 Nov 2026",
    "url": "https://fbx.freightos.com/"
   },
   {
@@ -239,7 +239,7 @@
    "unit": "FEU",
    "change": 3.01,
    "changePeriod": "vs previous release",
-   "date": "22 Nov 2026",
+   "date": "23 Nov 2026",
    "url": "https://fbx.freightos.com/"
   },
   {
@@ -250,7 +250,7 @@
    "unit": "FEU",
    "change": 20.2,
    "changePeriod": "vs previous release",
-   "date": "22 Nov 2026",
+   "date": "23 Nov 2026",
    "url": "https://fbx.freightos.com/"
   },
   {
@@ -261,7 +261,7 @@
    "unit": "FEU",
    "change": 0.0,
    "changePeriod": "vs previous release",
-   "date": "22 Nov 2026",
+   "date": "23 Nov 2026",
    "url": "https://fbx.freightos.com/"
   },
   {
@@ -272,7 +272,7 @@
    "unit": "FEU",
    "change": 3.39,
    "changePeriod": "vs previous release",
-   "date": "22 Nov 2026",
+   "date": "23 Nov 2026",
    "url": "https://fbx.freightos.com/"
   },
   {
@@ -283,7 +283,7 @@
    "unit": "FEU",
    "change": -3.08,
    "changePeriod": "vs previous release",
-   "date": "22 Nov 2026",
+   "date": "23 Nov 2026",
    "url": "https://fbx.freightos.com/"
   },
   {
@@ -294,7 +294,7 @@
    "unit": "FEU",
    "change": -4.29,
    "changePeriod": "vs previous release",
-   "date": "22 Nov 2026",
+   "date": "23 Nov 2026",
    "url": "https://fbx.freightos.com/"
   },
   {
@@ -384,9 +384,58 @@
    "changePeriod": "7 days",
    "date": "20 Nov 2026",
    "url": "https://www.xeneta.com/xsi"
+  },
+  {
+   "from": "FE",
+   "to": "USEC",
+   "source": "Drewry WCI Shanghai to New York",
+   "value": 8194,
+   "unit": "FEU",
+   "change": -9,
+   "changePeriod": "1 week",
+   "date": "2026-11-19",
+   "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+  },
+  {
+   "from": "FE",
+   "to": "USWC",
+   "source": "Drewry WCI Shanghai to Los Angeles",
+   "value": 7026,
+   "unit": "FEU",
+   "change": -5,
+   "changePeriod": "1 week",
+   "date": "2026-11-19",
+   "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+  },
+  {
+   "from": "FE",
+   "to": "MED",
+   "source": "Drewry WCI Shanghai to Genoa",
+   "value": 4436,
+   "unit": "FEU",
+   "change": 6,
+   "changePeriod": "1 week",
+   "date": "2026-11-19",
+   "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+  },
+  {
+   "from": "FE",
+   "to": "NEU",
+   "source": "Drewry WCI Shanghai to Rotterdam",
+   "value": 3496,
+   "unit": "FEU",
+   "change": 0,
+   "changePeriod": "1 week",
+   "date": "2026-11-19",
+   "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
   }
  ],
- "wci": null,
+ "wci": {
+  "date": "2026-11-19",
+  "composite": 4176,
+  "outlook": "Drewry expects Transpacific rates to decrease further next week despite ten announced blank sailings, while Asia-Europe/Med rates are expected to rise in the coming weeks as demand strengthens ahead of the new contract season, with carriers announcing peak season surcharges (PSS) of $1,000-1,600 per 40ft effective December.",
+  "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+ },
  "containers": [
   {
    "id": "20DV",
@@ -569,8 +618,504 @@
   }
  ],
  "research": {
-  "lanes": {},
-  "ports": {},
-  "carriers": {}
+  "lanes": {
+   "FE>MEG": {
+    "found": false,
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "NEU>MEG": {
+    "found": false,
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "MED>MEG": {
+    "found": false,
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "MEG>NEU": {
+    "found": false,
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "MA>NEU": {
+    "found": false,
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "NEU>MA": {
+    "found": false,
+    "checkedAt": "2026-11-23T00:18:32Z"
+   }
+  },
+  "ports": {
+   "MAPTM": {
+    "found": true,
+    "currency": "MAD",
+    "thc_export_20": 1310,
+    "thc_export_40": 2250,
+    "thc_import_20": 1580,
+    "thc_import_40": 2635,
+    "other_charges": [
+     {
+      "name": "BL / documentation fee (One Line, effective 18 Jan 2025), excluding VAT of 20%",
+      "amount": 300,
+      "currency": "MAD",
+      "per": "per B/L",
+      "applies": "export"
+     },
+     {
+      "name": "Tax dues on cargo (One Line, effective 18 Jan 2025), import 20ft, excluding tax",
+      "amount": 430,
+      "currency": "MAD",
+      "per": "per container",
+      "applies": "import"
+     },
+     {
+      "name": "Tax dues on cargo (One Line, effective 18 Jan 2025), import 40ft, excluding tax",
+      "amount": 600,
+      "currency": "MAD",
+      "per": "per container",
+      "applies": "import"
+     },
+     {
+      "name": "Tax dues on cargo (One Line, 4% regional tax set), export 20ft, excluding tax",
+      "amount": 900,
+      "currency": "MAD",
+      "per": "per container",
+      "applies": "export"
+     },
+     {
+      "name": "Equipment transfer charge (Hapag-Lloyd, effective 1 Jan 2025)",
+      "amount": 55,
+      "currency": "USD",
+      "per": "per container",
+      "applies": "both"
+     },
+     {
+      "name": "Gate-in empties (Hapag-Lloyd, Tanger Port, date not shown)",
+      "amount": 70,
+      "currency": "USD",
+      "per": "per container",
+      "applies": "both"
+     },
+     {
+      "name": "Container weighing inside terminal (Hapag-Lloyd, Tanger Port, effective 1 Jan 2022), about four years old",
+      "amount": 312,
+      "currency": "MAD",
+      "per": "per container",
+      "applies": "both"
+     },
+     {
+      "name": "ISPS - Vessel Security Surcharge (CMA CGM, Tanger Med to Rotterdam, cached 20 June 2024), 20ft, currency not stated",
+      "amount": 14,
+      "currency": "not stated",
+      "per": "per container",
+      "applies": "export"
+     }
+    ],
+    "tariff_of": "Tanger Med, Morocco (One Line Morocco local surcharges as primary THC source; figures dated January 2025, historical rather than current)",
+    "effective": "18 January 2025 (One Line THC set, until further notice); no THC dated within the last three months was found",
+    "sources": [
+     {
+      "url": "https://eua.one-line.com/sites/g/files/lnzjqr1581/files/surcharge-change/2024-12/MOROCCO%20LOCAL%20SURCHARGES%2018th%20January%202025%20until%20further%20notice_0.pdf",
+      "title": "EUA Local Surcharges file 2024"
+     },
+     {
+      "url": "https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/morocco_locals_0725.pdf",
+      "title": "Regional Tax: Casablanca and Agadir 3%. Tanger"
+     },
+     {
+      "url": "https://www.cma-cgm.com/ebusiness/tariffs/charge-finder/results?DeparturePlaceCode=MAPTM&ArrivalPlaceCode=NLRTM&DeparturePlaceName=TANGER+MED&ArrivalPlaceName=ROTTERDAM&DepartureCountryCode=MA&ArrivalCountryCode=NL&DateCultureId=1033&ActualPOLDescription=TANGER+MED+%3B+MA+%3B+MAPTM&ActualPODDescription=ROTTERDAM+%3B+NL+%3B+NLRTM&POLDescription=TANGER+MED+%3B+MA+%3B+MAPTM&PODDescription=ROTTERDAM+%3B+NL+%3B+NLRTM&ChargeSearchDate=20-Jun-2024&SearchMode=Dry",
+      "title": "CMA CGM"
+     },
+     {
+      "url": "https://cms-cd.apmterminals.com/medport-tangier/-/media/mainsite/africa-and-middle-east/MedPort-Tangier/services/TermsofBusiness-2026APM-Terminals-Med-Port-Tangier-SA-TC4.pdf?rev=bd0a77f6dedf4e44bf6c94241b4c6ef1",
+      "title": "January 2026 APM Terminals Terms of Business APM Terminals MedPort Tangier S.A"
+     },
+     {
+      "url": "https://www.mumnet.fr/2026/06/09/frais-taxes-portuaires-tanger-med-2026/",
+      "title": "Frais portuaires Tanger Med 2026 : guide complet importateurs"
+     }
+    ],
+    "notes": "The THC figures are from the One Line January 2025 set at 3% regional tax, which the note says is the most usable but not confirmed as current; a second 4% set (export 20ft MAD 1,340, 40ft MAD 2,240; import 20ft MAD 1,560, 40ft MAD 2,500) exists and the choice between sets is unresolved. All THC figures exclude VAT of 20% and regional tax. The OOCL 40ft figures (2,447 and 3,997 MAD), the Hapag-Lloyd THC cell ('Included'), and the CMA CGM 2021 reefer THC (MAD 2068.48) were not used. No current 2026 THC was found, and no ISPS fee in MAD or EUR from a Moroccan or carrier source was found. Port fee amount was not given in the extract. The Hapag-Lloyd equipment transfer charge is not labelled Tanger-specific. Lacking a confirmed date for the Hapag-Lloyd gate-in charge, it is shown without one.",
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "MACAS": {
+    "found": false,
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "MAAGA": {
+    "found": false,
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "GBFXT": {
+    "found": false,
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "GBSOU": {
+    "found": false,
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "GBLGP": {
+    "found": true,
+    "currency": "GBP",
+    "thc_export_20": 196.13,
+    "thc_export_40": 196.13,
+    "thc_import_20": 196.13,
+    "thc_import_40": 196.13,
+    "other_charges": [
+     {
+      "name": "ISPS (import laden)",
+      "amount": 30.3,
+      "currency": "GBP",
+      "per": "import laden container",
+      "applies": "import"
+     },
+     {
+      "name": "Energy Adjustment Mechanism (import laden)",
+      "amount": 20.26,
+      "currency": "GBP",
+      "per": "import laden container",
+      "applies": "import"
+     },
+     {
+      "name": "Energy Transition Contribution (import laden)",
+      "amount": 29.5,
+      "currency": "GBP",
+      "per": "import laden container",
+      "applies": "import"
+     },
+     {
+      "name": "Administration fee (forwarder/bill-of-lading sheet, valid from 15 June 2026)",
+      "amount": 50,
+      "currency": "GBP",
+      "per": "invoice",
+      "applies": "both"
+     },
+     {
+      "name": "Attaching or removing seals (forwarder/bill-of-lading sheet)",
+      "amount": 300,
+      "currency": "GBP",
+      "per": "container",
+      "applies": "both"
+     },
+     {
+      "name": "M25 surcharge (forwarder/bill-of-lading sheet)",
+      "amount": 50,
+      "currency": "GBP",
+      "per": "container",
+      "applies": "both"
+     },
+     {
+      "name": "Port of London Authority charge (unconfirmed, from secondary blog)",
+      "amount": 4.3,
+      "currency": "GBP",
+      "per": "container up to 40ft or 45ft (unit unverified)",
+      "applies": "both"
+     }
+    ],
+    "tariff_of": "DP World London Gateway (single full import and export discharge/load lift line; no carrier local charges tariff found)",
+    "effective": "1 January 2026 for the £196.13 THC and the 2026 import charges, per secondary article and DP World 2026 update; the v13 public tariff (£181.86) is undated",
+    "sources": [
+     {
+      "url": "https://www.dpworld.com/london-gateway/-/media/project/dpwg/dpwg-tenant/europe/london-gateway/media-files/311025/20251031-dpwlg-eam-isps-advisory-final.pdf?rev=c4688c557bb64241b7419779193ee57b&hash=B62F43EAF59E6E615A1AF5E5AA98E25A",
+      "title": "DP World London Gateway 2026 Tariff Update"
+     },
+     {
+      "url": "https://www.maersk.com/news/articles/2025/11/14/uk-import-charges-update",
+      "title": "DP World London Gateway and DP World Southampton revisions to port charges effective from 1st January 2026"
+     },
+     {
+      "url": "https://weclines.com/wp-content/uploads/sheets/London%20Gateway%20LC.pdf",
+      "title": "LONDON GATEWAY - LOCAL CHARGES Valid as of 15 June 2026 Issuing Bill of Lading"
+     },
+     {
+      "url": "https://www.dpworld.com/london-gateway/-/media/project/dpwg/dpwg-tenant/europe/london-gateway/media-files/port-services-info/dpw-london-gateway-public-tariff-v13.pdf?rev=a7464315efa442178afbc819d421715d&hash=5BBD18060DA1AD7BC1715A25AB1738AF",
+      "title": "DP World London Gateway"
+     },
+     {
+      "url": "https://dpw-p-001.sitecorecontenthub.cloud/api/public/content/0211e4acb8c0402e8c8436644d54ac90?v=3a0d7b52",
+      "title": "DP World London Gateway"
+     }
+    ],
+    "notes": "The £196.13 figure is a single combined line for full import and full export lifts, so the same value is shown against both directions; no separate export THC was found. Figures are from search extracts, not opened PDFs. Gate out/in of £65.33 per container is noted but not mapped to the THC fields. The £181.86 v13 figure appears superseded but is undated. Terminal SSR admin fees conflict (£70.73 versus £35.47) and are excluded. No current ISPS export figure was found; the 2021 £5.50 is not treated as current. Demurrage and detention on the 15 June 2026 sheet have an unclear column mapping and are excluded. The Hapag-Lloyd GBP 5.9 figure has no unit or size and is excluded. The forwarder sheet's applies value of both is an assumption. The PLA £4.30 is unverified. Confirm against DP World's current public tariff and the carrier's local charges tariff.",
+    "checkedAt": "2026-11-23T00:18:32Z"
+   }
+  },
+  "carriers": {
+   "MSC": {
+    "found": true,
+    "items": [
+     {
+      "kind": "other",
+      "name": "Base FAK rates, advisory dated 17 Oct 2026",
+      "amount": "Algeria 5,800 / 7,400; Libya 5,800 / 7,000; Morocco (Casablanca) 4,800 / 6,000. Currency and column labels (20' or 40') not stated in the excerpt; no North Europe figure shown.",
+      "trades": "Far East origins to North Europe, the Mediterranean and Black Sea (per the note; North Africa figures as listed)",
+      "effective": "1–14 Nov 2026"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Global Fuel Surcharge",
+      "amount": "USD 266/TEU",
+      "trades": "Far East origins (per the 17 Oct 2026 advisory)",
+      "effective": "November 2026"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Carbon Review Surcharge and Carbon Limitation Surcharge",
+      "amount": "Carbon Review Surcharge USD 90/TEU for North Europe and USD 133/TEU for the Mediterranean; Carbon Limitation Surcharge USD 20/TEU",
+      "trades": "North Europe and the Mediterranean (per the 17 Oct 2026 advisory)",
+      "effective": "Not stated separately; listed under the advisory dated 17 Oct 2026"
+     },
+     {
+      "kind": "other",
+      "name": "Revised FAK rates, announcement reported 29 Oct 2026",
+      "amount": "East Mediterranean USD 5,100 to USD 5,700 (about 11.8%); Black Sea USD 5,300 to USD 5,900 (about 11.3%). Published 40' rates per Kisun Shipping summary (not MSC primary notice): Western Med USD 5,300; Eastern Med USD 5,700; Black Sea USD 5,900; Algeria USD 7,600.",
+      "trades": "Far East to Mediterranean and Black Sea; Algeria per Kisun summary",
+      "effective": "From 15 Nov 2026 until further notice, but not beyond 30 Nov 2026"
+     },
+     {
+      "kind": "other",
+      "name": "December 2026 FAK increase (Container News, unconfirmed)",
+      "amount": "West Med and East Med 6,500 (40'); Casablanca 7,000, stated as a rise of USD 800 (conflicts with the 6,000 Casablanca figure in the October advisory; unconfirmed). Currency not stated in excerpt.",
+      "trades": "Far East to Mediterranean, North Africa and Black Sea; North Europe unchanged",
+      "effective": "1 Dec 2026"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Piracy Risk Surcharge (PRS) and Suez Canal Surcharge (SCS), extended to all Mediterranean and Black Sea ports",
+      "amount": "PRS USD 55/TEU; SCS USD 36/TEU; USD 91/TEU combined. Reported as a geographical extension, not an increase in levels.",
+      "trades": "Cargo from Asia to all Mediterranean and Black Sea ports, including North African ports",
+      "effective": "From 15 Nov 2026 until further notice"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Emergency Operations Surcharge (EOS)",
+      "amount": "USD 200, EUR 200 or GBP 200 per container, depending on billing currency",
+      "trades": "Shipments from Greece, Turkey, the Black Sea and the Adriatic at non-Italian ports to Northwest Europe, the UK and Scanbaltia",
+      "effective": "From 1 Nov 2026, applying from bill of lading date, until further notice (secondary source, not checked against MSC notice)"
+     }
+    ],
+    "summary": "In the six weeks to 23 Nov 2026, the research found no MSC GRI or peak season surcharge on Asia to Europe, and no MSC surcharge on Europe to Middle East. Items listed are rate and surcharge announcements for Far East to Mediterranean, North Africa and North Europe, drawn mainly from search excerpts and trade press rather than MSC's own pages. The December FAK Casablanca figure is unconfirmed because it conflicts with the October advisory. The 15–30 Nov FAK is sourced partly from a Kisun Shipping summary, and the EOS from DataPortuaria, with neither checked against the MSC primary notice. No De",
+    "sources": [
+     {
+      "url": "https://dataportuaria.com/en/destacadas/msc-to-apply-emergency-surcharge-and-adjust-rotation-of-its-main-service-cf5e49",
+      "title": "MSC to Apply Emergency Surcharge and Adjust Rotation of Its Main Service — DataPortuaria"
+     },
+     {
+      "url": "https://container-news.com/msc-extends-piracy-and-suez-surcharges-across-mediterranean/",
+      "title": "MSC extends piracy and Suez surcharges across Mediterranean - Container News"
+     },
+     {
+      "url": "https://kisunshipping.com/november-2026-ocean-freight-rates/",
+      "title": "November 2026 Ocean Freight Rates: Do Carrier Hikes Stick?"
+     },
+     {
+      "url": "https://container-news.com/msc-raises-december-fak-rates-to-mediterranean-and-black-sea/",
+      "title": "MSC raises December FAK rates to Mediterranean and Black Sea - Container News"
+     },
+     {
+      "url": "https://www.msc.com/en/newsroom/customer-advisories/2026/october/pa-trade-from-far-east-to-nwc-and-mediterranean-and-black-sea",
+      "title": "PA Trade from Far East to NWC and Mediterranean and Black Sea"
+     }
+    ],
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "MAERSK": {
+    "found": true,
+    "items": [
+     {
+      "kind": "PSS",
+      "name": "Peak Season Surcharge, Far East Asia to North Europe (E1W)",
+      "amount": "USD 500 per 20-foot; USD 1,000 per 40-foot and 45-foot (Maersk notice dated 12 Nov 2026; trade press reports the same)",
+      "trades": "Far East Asia to North Europe",
+      "effective": "1 December 2026 (price calculation date from 1 December 2026)"
+     },
+     {
+      "kind": "PSS",
+      "name": "LCL Peak Season Surcharge, Far East Asia to Mediterranean (E2W)",
+      "amount": "USD 750 for 20DRY; USD 1,500 for 40DRY/H DRY; USD 38 LCL Min and W/m (from trade press report of Maersk notice dated 16 Nov 2026; Maersk notice not retrieved)",
+      "trades": "Far East Asia to Mediterranean",
+      "effective": "Price calculation date 23 Nov 2026"
+     },
+     {
+      "kind": "GRI",
+      "name": "Rate increase announcement, Far East to North Europe and Mediterranean",
+      "amount": "null",
+      "trades": "Far East Asia to North Europe and Mediterranean",
+      "effective": "2 Nov 2026 (announced 15 Oct 2026) and 16 Nov 2026 (announced 29 Oct 2026); announcements dated 12 Nov and 19 Nov 2026 also listed but amounts not seen"
+     },
+     {
+      "kind": "PSS",
+      "name": "Peak Season Surcharge removed, Far East Asia to North Europe and Mediterranean",
+      "amount": "null",
+      "trades": "Far East Asia to North Europe and Mediterranean",
+      "effective": "1 September 2026 (notice dated 12 Aug 2026)"
+     },
+     {
+      "kind": "PSS",
+      "name": "LCL Peak Season Surcharge stopped, Asia to Europe and Mediterranean",
+      "amount": "null",
+      "trades": "Far East Asia to North Europe and Mediterranean (LCL)",
+      "effective": "17 September 2026 (notice dated 16 Sep 2026)"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Heavy Load Surcharge, no longer applied",
+      "amount": "null",
+      "trades": "Far East Asia to Mediterranean",
+      "effective": "Price calculation date 12 Aug 2026"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Emergency Contingency Surcharge, North Europe and Mediterranean to Middle East Gulf, Indian Subcontinent and East Africa (old)",
+      "amount": "USD 1,800 for 20-foot; USD 3,000 for 40-foot and 45-foot (Gulf and Indian Subcontinent trade)",
+      "trades": "North Europe and Mediterranean to Middle East Gulf, Indian Subcontinent and East Africa",
+      "effective": "6 Mar 2026"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Morocco landside surcharge schedule 2026 (multistop charge)",
+      "amount": "1,400 MAD (multistop charge)",
+      "trades": "Morocco landside",
+      "effective": "2026 schedule published 5 Nov 2025"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Peak Season Surcharge, Mediterranean to US and Canada",
+      "amount": "USD 250 per container (West and East Mediterranean)",
+      "trades": "Mediterranean to US and Canada",
+      "effective": "7 Oct 2026 per Container News; another report gives 5 Oct 2026, so start date unclear"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Emergency fuel surcharge, UK and Ireland LCL inland shipments",
+      "amount": "20% (LCL inland); December truck rate 8.1% for Ireland; 11.6% for UK truck or rail",
+      "trades": "UK and Ireland inland",
+      "effective": "13 November 2026 (LCL); December 2026 (truck rates)"
+     }
+    ],
+    "summary": "Recent Maersk figures were found for the Asia to North Europe and Asia to Mediterranean lanes (E1W and E2W peak season surcharges), but the GRI amounts effective 2 Nov and 16 Nov 2026 were not visible. The E2W figures rest on trade press rather than the Maersk notice. No recent Maersk figures were found for Europe to Middle East or North Africa; the only Middle East Gulf and Indian Subcontinent figures are from a March 2026 notice, and the Morocco charges are from a 2025 schedule. Other items are off the requested trades or unverified, and the Cyprus 15% figure was not checked against the arti",
+    "sources": [
+     {
+      "url": "https://www.maersk.com/news/articles/2026/11/12/pss-from-far-east-asia-to-north-europe",
+      "title": "Implementation of Peak Season Surcharge (PSS) from Far East Asia to North Europe (E1W)"
+     },
+     {
+      "url": "https://www.maersk.com/news/articles/2026/10/15/rate-announcement-far-east-to-north-europe-mediterranean",
+      "title": "Rate Increase Announcement"
+     },
+     {
+      "url": "https://www.maersk.com/news/articles/2026/10/29/rate-increase-announcement-far-east-to-north-europe-mediterranean",
+      "title": "Rate Announcement Increase"
+     },
+     {
+      "url": "https://www.maersk.com/news/category/rate-announcements",
+      "title": "Rate announcements"
+     },
+     {
+      "url": "https://chinalogisticsdaily.com/briefing/2026-11-14/",
+      "title": "Maersk adds $1,000 surcharge on Asia to Europe lanes"
+     }
+    ],
+    "checkedAt": "2026-11-23T00:18:32Z"
+   },
+   "CMA": {
+    "found": true,
+    "items": [
+     {
+      "kind": "surcharge",
+      "name": "Peak season surcharge, Asia to Mediterranean and North Africa (El Estrecho Digital notice)",
+      "amount": "US$800 per 20ft; US$1,600 per 40ft",
+      "trades": "Asia to Mediterranean and North Africa; dry and reefer cargo; major Asian ports of origin to main Mediterranean and North Africa destination ports (no itemised port list)",
+      "effective": "From 25 November 2026 on loading; no end date set"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Peak season surcharge, Asia to Mediterranean and North Africa (AJOT headline)",
+      "amount": "null",
+      "trades": "Asia to Mediterranean and North Africa",
+      "effective": "null"
+     },
+     {
+      "kind": "PSS",
+      "name": "Peak season surcharge, Asia to North Europe (AJOT notice)",
+      "amount": "US$500 per TEU",
+      "trades": "All Asian main ports to Northern European base ports including UK and Portugal to Finland/Estonia; dry, reefer, OOG and paying empties",
+      "effective": "Loading from 1 December 2026 until further notice (AJOT URL slug says 25 November 2026; to be confirmed with CMA CGM)"
+     },
+     {
+      "kind": "PSS",
+      "name": "Peak season surcharge, Asia to North Europe (June notice, status unknown)",
+      "amount": "US$1,000 per TEU (North Europe); Mediterranean/North Africa US$1,400 per 20ft and US$2,800 per 40ft",
+      "trades": "Asia to North Europe; Mediterranean and North Africa",
+      "effective": "From 1 July 2026; whether still in force not confirmed"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Morocco-related peak season surcharge (Container News, 19 Oct 2026)",
+      "amount": "null",
+      "trades": "Null; the note does not confirm the trade for the Morocco charge",
+      "effective": "Effective dates between 22 October and 15 November 2026; one charge effective 1 November 2026 until further notice"
+     },
+     {
+      "kind": "PSS",
+      "name": "FAK revision and peak season surcharge, Mediterranean and North Africa to Middle East Gulf and Red Sea (Maritime Gateway, older)",
+      "amount": "US$1,500 per container",
+      "trades": "Adriatic, East Mediterranean and Black Sea origins; West Mediterranean and North Africa to Gulf; dry, OOG and paying empties",
+      "effective": "1 August 2026"
+     },
+     {
+      "kind": "surcharge",
+      "name": "Emergency Fuel Surcharge update (CMA CGM Middle East situation page)",
+      "amount": "null",
+      "trades": "Middle East",
+      "effective": "Update dated 18 September 2026"
+     },
+     {
+      "kind": "other",
+      "name": "Asia to Latin America rate increase (announced 16 Nov 2026)",
+      "amount": "US$1,000 per container",
+      "trades": "Asia to Latin America (outside requested trades)",
+      "effective": "1 December 2026"
+     },
+     {
+      "kind": "other",
+      "name": "Oceania to Americas rate increase",
+      "amount": "US$300 per TEU",
+      "trades": "Oceania to Americas (outside requested trades)",
+      "effective": "2 November 2026"
+     },
+     {
+      "kind": "other",
+      "name": "Asia to Africa peak season surcharge, South China to Mozambique",
+      "amount": "US$400 per TEU",
+      "trades": "South China to Mozambique (outside requested trades)",
+      "effective": "10 November 2026"
+     }
+    ],
+    "summary": "No new CMA CGM GRI found for Asia–Europe, Asia–Mediterranean, Europe–Middle East or North Africa in the last six weeks. Recent items are a PSS on Asia–Mediterranean/North Africa (US$800/20ft, US$1,600/40ft, from 25 November 2026, per El Estrecho Digital) and a PSS on Asia–North Europe (US$500/TEU, from 1 December 2026 per AJOT, with a conflicting date in the URL slug). The Morocco charge and the Asia–Mediterranean AJOT headline have no confirmed amounts. The June Asia–Europe PSS status is unknown, and the Europe–Middle East PSS of 1 August 2026 is outside the window. Verify all amounts and dat",
+    "sources": [
+     {
+      "url": "https://www.elestrechodigital.com/en/2026/11/10/cma-cgm-announces-new-surcharges-of-up-to-1600-dollars-per-container-on-routes-between-asia-and-the-mediterranean",
+      "title": "CMA CGM announces new surcharges of up to $1,600 per container on routes between Asia and the Mediterranean"
+     },
+     {
+      "url": "https://www.ajot.com/news/cma-cgm-pss-from-asia-to-north-europe-effective-november-25-2026",
+      "title": "CMA CGM"
+     },
+     {
+      "url": "https://container-news.com/cma-cgm-updates-surcharges-for-china-south-america-and-morocco-shipments/",
+      "title": "CMA CGM updates surcharges for China, South America and Morocco shipments - Container News"
+     },
+     {
+      "url": "https://container-news.com/cma-cgm-announces-pss-from-asia-to-europe-and-mediterranean-trades/",
+      "title": "CMA CGM announces PSS from Asia to Europe and Mediterranean trades - Container News"
+     },
+     {
+      "url": "https://www.maritimegateway.com/cma-cgm-raises-fak-rates-introduces-peak-season-surcharge-on-middle-east-and-red-sea-trades/",
+      "title": "CMA CGM Raises FAK Rates, Introduces Peak Season Surcharge on Middle East and Red Sea Trades"
+     }
+    ],
+    "checkedAt": "2026-11-23T00:18:32Z"
+   }
+  }
  }
 }
