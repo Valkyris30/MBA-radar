@@ -34,6 +34,8 @@ import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
 
+import vault   # seals the data files so only paired devices can read them
+
 HERE = Path(__file__).resolve().parent
 OUTPUT = HERE.parent / "app" / "data" / "articles.json"
 ARCHIVE = HERE.parent / "app" / "data" / "archive.json"
@@ -730,12 +732,13 @@ def link_only(article: dict) -> dict:
 
 
 def load(path: Path) -> dict:
-    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    """Read a data file, opening it with APP_KEY when it is sealed (see vault.py)."""
+    return vault.read(path)
 
 
 def save(path: Path, payload: dict) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    """Write a data file, sealed with APP_KEY when it is set (see vault.py)."""
+    vault.write(path, payload)
 
 
 # ── Main ────────────────────────────────────────────────────────────────────

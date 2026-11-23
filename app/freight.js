@@ -51,7 +51,7 @@ window.Freight = (() => {
   async function loadData() {
     const [p, f] = await Promise.all([
       fetch('data/ports.json', { cache: 'no-store' }).then((r) => r.json()),
-      fetch('data/freight.json', { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+      Vault.json('data/freight.json').catch(() => null),
     ]);
     S.ports = p.ports;
     S.regions = p.regions;
@@ -664,8 +664,8 @@ window.Freight = (() => {
   async function refresh() {
     if (!S.ready) return show();
     try {
-      const f = await fetch('data/freight.json', { cache: 'no-store' });
-      if (f.ok) { S.data = await f.json(); renderForm(); bindForm(); update(); }
+      const f = await Vault.json('data/freight.json');
+      if (f) { S.data = f; renderForm(); bindForm(); update(); }
     } catch { /* keep what is shown */ }
   }
 

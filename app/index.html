@@ -23,6 +23,9 @@
     var d = JSON.parse(localStorage.getItem('mr.desk') || '"study"');
     document.documentElement.dataset.desk = ['study', 'maritime', 'freight'].indexOf(d) >= 0 ? d : 'study';
   } catch (e) { document.documentElement.dataset.desk = 'study'; }
+  // Unpaired devices see only the lock screen (the data files are encrypted; see vault.js).
+  try { if (!localStorage.getItem('mr.deviceKey')) document.documentElement.setAttribute('data-lock', ''); }
+  catch (e) { document.documentElement.setAttribute('data-lock', ''); }
 </script>
 </head>
 <body>
@@ -109,6 +112,19 @@
 
 </div>
 <div class="toast" id="toast" role="status" hidden></div>
+
+<main class="lock" id="lock" aria-labelledby="lockTitle">
+  <form class="lock-card" id="lockForm" autocomplete="off">
+    <img class="lock-logo" src="icons/icon.svg" alt="" width="64" height="64">
+    <h1 id="lockTitle">MBA Radar is private</h1>
+    <p>This app opens only on paired devices. To pair this one, paste its device key.</p>
+    <label for="lockKey">Device key</label>
+    <input id="lockKey" type="password" inputmode="text" autocapitalize="off" autocorrect="off" spellcheck="false" required placeholder="Paste the key">
+    <button type="submit">Unlock this device</button>
+    <p class="lock-msg" id="lockMsg" role="status" aria-live="polite"></p>
+  </form>
+</main>
+<script src="vault.js" defer></script>
 <script src="freight.js" defer></script>
 <script src="app.js" defer></script>
 </body>

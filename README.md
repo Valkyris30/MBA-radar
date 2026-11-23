@@ -60,4 +60,27 @@ python3 collector/collect.py --dry-run
 
 ## Secrets
 
-The collector needs one repository secret, `ANTHROPIC_API_KEY`. It is never stored in the code.
+The collector needs two repository secrets. Neither is ever stored in the code.
+
+- `ANTHROPIC_API_KEY`: writes the notes and runs the freight research.
+- `APP_KEY`: the device key (32 random bytes, base64url). Without it the workflow stops.
+
+## Private access
+
+The app's data files (`articles`, `archive`, `maritime`, `maritime-archive`, `freight`) are
+compressed and encrypted with AES-256-GCM (`collector/vault.py`) before they are committed or
+published. The public site and repository only hold ciphertext; the page itself shows a lock screen.
+
+A device opens the app once its owner pastes the device key on the lock screen. The key stays in
+that device's storage and is never sent anywhere. On an iPhone, the Home Screen app and Safari keep
+separate storage, so paste the key inside the Home Screen app.
+
+- **Key file:** `.private/device-key.txt` on the Mac that set this up (ignored by Git).
+- **Change the key** (for example if it leaks): run `python3 collector/vault.py new-key`, put the new
+  value in the `APP_KEY` secret and in the key file, then run the workflow once. The collector can
+  no longer open the old files, so restore them first with `APP_KEY=<old key> python3
+  collector/vault.py open FILE` or let the archives start again. Every device then asks for the new key.
+- **Read a file locally:** `APP_KEY=<key> python3 collector/vault.py open app/data/freight.json`
+  (needs `pip install cryptography`).
+- Static files stay readable: `ports.json` and the sea routes hold no edition content.
+- Editions published before the lock remain in the Git history.

@@ -886,3 +886,31 @@ em.approx { font-style: normal; margin-left: 4px; padding: 1px 6px; border-radiu
 .fr-results > *, .fr-port, .fr-charges li > *, .fr-carrier li > * { min-width: 0; }
 .fr-mkts, .fr-carbon, .fr-stats { grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); }
 .fr-charges span, .fr-carrier b, .fr-note { overflow-wrap: anywhere; }
+
+/* ── Device lock ─────────────────────────────────────────── */
+.lock { display: none; }
+:root[data-lock] .app, :root[data-lock] .toast { display: none; }
+:root[data-lock] .lock {
+  display: grid; place-items: center; min-height: 100dvh;
+  padding: calc(24px + var(--st, 0px)) 16px 24px;
+}
+.lock-card {
+  width: min(400px, 100%); display: grid; gap: 12px; text-align: center;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 20px;
+  padding: 32px 24px 24px; box-shadow: var(--shadow-lg);
+}
+.lock-logo { justify-self: center; border-radius: 16px; box-shadow: var(--shadow); }
+.lock-card h1 { margin: 4px 0 0; font-size: 1.35rem; color: var(--tx); letter-spacing: -0.01em; }
+.lock-card p { margin: 0; color: var(--mu); line-height: 1.5; }
+.lock-card label { text-align: left; font-size: 0.8rem; font-weight: 600; color: var(--tx-2); margin-top: 8px; }
+.lock-card input {
+  font: inherit; font-size: 16px; padding: 12px 14px; border-radius: 12px;
+  border: 1px solid var(--line-2); background: var(--surface-2); color: var(--tx); width: 100%; box-sizing: border-box;
+}
+.lock-card input:focus { outline: 2px solid var(--desk); outline-offset: 1px; }
+.lock-card button {
+  font: inherit; font-weight: 600; padding: 12px 16px; border: 0; border-radius: 12px; cursor: pointer;
+  background: var(--desk); color: var(--on-desk);
+}
+.lock-card button:disabled { opacity: 0.6; cursor: wait; }
+.lock-msg { min-height: 1.5em; font-size: 0.9rem; }

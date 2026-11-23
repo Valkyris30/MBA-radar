@@ -373,13 +373,10 @@ function nodeCounts(articles) {
 async function loadDesk(id) {
   const spec = DESKS[id];
   const D = DESK_STATE[id];
-  const [res, arc] = await Promise.all([
-    fetch(spec.files[0], { cache: 'no-store' }),
-    fetch(spec.files[1], { cache: 'no-store' }).catch(() => null),
+  const [data, archive] = await Promise.all([
+    Vault.json(spec.files[0]),
+    Vault.json(spec.files[1]).catch((e) => { if (e instanceof Vault.Locked) throw e; return null; }),
   ]);
-  if (!res.ok) throw new Error('HTTP ' + res.status);
-  const data = await res.json();
-  const archive = arc && arc.ok ? await arc.json().catch(() => null) : null;
   const items = data.articles || data.items || [];
   const stamp = `${data.generatedAt}|${items.length}|${archive ? (archive.articles || archive.items || []).length : 0}`;
   if (stamp === D.stamp) return false;
@@ -418,6 +415,12 @@ async function load(manual) {
   const btn = $('#refresh');
   btn.classList.add('spin');
   const results = await Promise.allSettled(Object.keys(DESKS).map(loadDesk));
+  if (results.some((r) => r.status === 'rejected' && r.reason instanceof Vault.Locked)) {
+    btn.classList.remove('spin');
+    Vault.forget();
+    lock('This device key no longer opens the edition. Paste the current key.');
+    return;
+  }
   results.forEach((r, i) => { if (r.status === 'rejected') DESK_STATE[Object.keys(DESKS)[i]].failed = true; });
   btn.classList.remove('spin');
   const changed = results.some((r) => r.status === 'fulfilled' && r.value);
@@ -972,7 +975,7 @@ function bind() {
 
   // Pick up a fresh edition when the app comes back to the foreground.
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'visible') { load(false); if (state.desk === 'freight' && window.Freight) window.Freight.refresh(); }
+    if (document.visibilityState === 'visible' && !locked()) { load(false); if (state.desk === 'freight' && window.Freight) window.Freight.refresh(); }
   });
 }
 
@@ -986,11 +989,45 @@ function migrateSaved() {
   try { localStorage.removeItem('mr.saved'); } catch { /* nothing to clean */ }
 }
 
+/* ── Device lock ────────────────────────────────────────── */
+
+function locked() { return document.documentElement.hasAttribute('data-lock'); }
+
+function lock(message) {
+  document.documentElement.setAttribute('data-lock', '');
+  $('#lockMsg').textContent = message || '';
+  setTimeout(() => $('#lockKey').focus(), 50);
+}
+
+function bindLock() {
+  $('#lockForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = $('#lockForm button');
+    btn.disabled = true;
+    $('#lockMsg').textContent = 'Checking…';
+    try {
+      await Vault.pair($('#lockKey').value);
+      $('#lockKey').value = '';
+      document.documentElement.removeAttribute('data-lock');
+      start();
+    } catch (err) {
+      $('#lockMsg').textContent = err instanceof Vault.Locked ? err.message : 'Could not check the key. Are you online?';
+    } finally {
+      btn.disabled = false;
+    }
+  });
+}
+
+function start() {
+  load(false).then(() => { migrateSaved(); renderHeader(); });
+}
+
 bind();
+bindLock();
 document.body.dataset.desk = state.desk;
   document.documentElement.dataset.desk = state.desk;
 renderHeader();
-load(false).then(() => { migrateSaved(); renderHeader(); });
+Vault.ready().then((ok) => (ok ? start() : lock()));
 
 if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   navigator.serviceWorker.register('sw.js').catch(() => { /* offline support is optional */ });

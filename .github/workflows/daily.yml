@@ -31,8 +31,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # The data files are encrypted with APP_KEY: without it nothing is collected or published.
+      - name: Check the device key
+        env:
+          APP_KEY: ${{ secrets.APP_KEY }}
+        run: |
+          if [ -z "$APP_KEY" ]; then
+            echo "::error::Add the repository secret APP_KEY (Settings > Secrets and variables > Actions)."
+            exit 1
+          fi
+
       - name: Set up Python
-        if: github.event_name != 'push'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -41,6 +50,7 @@ jobs:
         if: github.event_name != 'push'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          APP_KEY: ${{ secrets.APP_KEY }}
           MBA_RADAR_MODEL: ${{ vars.MBA_RADAR_MODEL || 'claude-haiku-5-5' }}
           MBA_RADAR_MAX_NEW: ${{ vars.MBA_RADAR_MAX_NEW || '10' }}
         run: |
@@ -53,6 +63,7 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          APP_KEY: ${{ secrets.APP_KEY }}
           MBA_RADAR_MODEL: ${{ vars.MBA_RADAR_MODEL || 'claude-haiku-5-5' }}
           MARITIME_MAX_NEW: ${{ vars.MARITIME_MAX_NEW || '20' }}
         run: python collector/maritime.py
@@ -63,6 +74,7 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          APP_KEY: ${{ secrets.APP_KEY }}
           MBA_RADAR_MODEL: ${{ vars.MBA_RADAR_MODEL || 'claude-haiku-5-5' }}
           FREIGHT_RESEARCH_MODEL: ${{ vars.FREIGHT_RESEARCH_MODEL || '' }}
           FREIGHT_LANES_PER_DAY: ${{ vars.FREIGHT_LANES_PER_DAY || '2' }}
@@ -70,8 +82,15 @@ jobs:
           FREIGHT_CARRIERS_PER_DAY: ${{ vars.FREIGHT_CARRIERS_PER_DAY || '1' }}
         run: python collector/freight.py
 
+      # Every published data file must be sealed, including on a push that only republishes the app.
+      - name: Seal the data files
+        env:
+          APP_KEY: ${{ secrets.APP_KEY }}
+        run: |
+          pip install --quiet "cryptography>=42"
+          python collector/vault.py seal app/data/articles.json app/data/archive.json app/data/maritime.json app/data/maritime-archive.json app/data/freight.json
+
       - name: Save the edition
-        if: github.event_name != 'push'
         run: |
           git config user.name "mba-radar-bot"
           git config user.email "mba-radar-bot@users.noreply.github.com"
