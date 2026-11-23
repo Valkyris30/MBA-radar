@@ -303,7 +303,8 @@ window.Freight = (() => {
     // 5. Carrier
     let carrierHtml = '';
     if (carrier) {
-      const items = carrierRes && carrierRes.items ? carrierRes.items.map((i) => `<li><span class="kind">${esc(i.kind)}</span><div><b>${esc(i.name)}</b> ${esc(i.amount)}<small>${esc(i.trades)}${i.effective ? ` · from ${esc(i.effective)}` : ''}</small></div></li>`).join('') : '';
+      const shown = (v) => (v && !/^(null|none|n\/a)$/i.test(String(v).trim()) ? v : '');
+      const items = carrierRes && carrierRes.items ? carrierRes.items.filter((i) => shown(i.amount) || shown(i.name)).map((i) => ({ ...i, amount: shown(i.amount), effective: shown(i.effective), trades: shown(i.trades) })).map((i) => `<li><span class="kind">${esc(i.kind)}</span><div><b>${esc(i.name)}</b> ${esc(i.amount)}<small>${esc(i.trades)}${i.effective ? ` · from ${esc(i.effective)}` : ''}</small></div></li>`).join('') : '';
       carrierHtml = `<section class="fr-block"><h3>${esc(carrier.name)}</h3>
         <p class="fr-note">${esc(carrier.group)}. Lines do not publish their spot prices, so the ocean freight above is the market rate across carriers; ${esc(carrier.name)}'s own quote can sit above or below it.</p>
         ${carrierRes ? (items ? `<h4>Announced rate increases and surcharges</h4><ul class="fr-carrier">${items}</ul>` : '<p class="fr-note">No recent rate increase or surcharge found.</p>') + (carrierRes.summary ? `<p class="fr-note">${esc(carrierRes.summary)}</p>` : '') + `<div class="fr-src">${sourceLinks(carrierRes.sources)}</div><p class="fr-note">Checked ${esc(day(carrierRes.checkedAt))}.</p>` : '<p class="fr-note">This line\'s announcements have not been researched yet.</p>'}

@@ -235,9 +235,9 @@ CARRIER_SCHEMA = obj(
     summary=STR, sources={"type": "array", "items": STR})
 
 
-def search_tool() -> dict:
+def search_tool(max_uses: int) -> dict:
     kind = "web_search_20260209" if RESEARCH_MODEL.startswith(DYNAMIC_SEARCH_MODELS) else "web_search_20250305"
-    return {"type": kind, "name": "web_search", "max_uses": MAX_SEARCHES}
+    return {"type": kind, "name": "web_search", "max_uses": max_uses}
 
 
 class Researcher:
@@ -247,7 +247,7 @@ class Researcher:
         self.searches = 0
         self.disabled = False
 
-    def ask(self, question: str, schema: dict) -> dict | None:
+    def ask(self, question: str, schema: dict, searches: int = MAX_SEARCHES) -> dict | None:
         """Search the web, then extract structured figures from what was found."""
         if self.disabled:
             return None
@@ -259,7 +259,7 @@ class Researcher:
             for _ in range(4):   # a server-side search loop can pause; resume it a few times at most
                 response = client.messages.create(
                     model=RESEARCH_MODEL, max_tokens=8000, output_config={"effort": "medium"},
-                    system=RESEARCH_SYSTEM.format(today=self.today), tools=[search_tool()], messages=messages)
+                    system=RESEARCH_SYSTEM.format(today=self.today), tools=[search_tool(searches)], messages=messages)
                 usage = response.usage
                 self.claude.tokens_in += usage.input_tokens or 0
                 self.claude.tokens_out += usage.output_tokens or 0
@@ -305,10 +305,12 @@ def stalest(keys: list[str], done: dict, count: int) -> list[str]:
 
 
 def research_lane(r: Researcher, lane: dict, regions: dict) -> dict | None:
-    q = (f"What is the current spot ocean freight rate for a dry container from {regions[lane['from']]['name']} "
-         f"to {regions[lane['to']]['name']} ({lane['hint']})? Give the rate per 20ft or per 40ft in US dollars, the "
-         "index or source it comes from and the date it applies to.")
-    data = r.ask(q, LANE_SCHEMA)
+    q = (f"What is the recent spot ocean freight rate for a dry container from {regions[lane['from']]['name']} "
+         f"to {regions[lane['to']]['name']} ({lane['hint']})? Look for weekly freight index reports (for example SCFI, "
+         "CCFI, Drewry, Xeneta or Freightos market updates), trade press rate reports, forwarder market updates and carrier "
+         "FAK or rate announcements from the last three months. A rate quoted for a nearby port on the same trade counts; "
+         "say which port it is. Give the rate or range per 20ft or per 40ft in US dollars, its source and the date.")
+    data = r.ask(q, LANE_SCHEMA, searches=max(MAX_SEARCHES, 5))
     if not data or not data.get("found") or not data.get("sources"):
         return {"found": False}
     for k in ("low", "high"):
@@ -341,7 +343,10 @@ def research_carrier(r: Researcher, carrier: dict) -> dict | None:
     data = r.ask(q, CARRIER_SCHEMA)
     if not data or not data.get("sources"):
         return {"found": False}
-    return {"found": bool(data.get("items")), "items": data.get("items", [])[:10],
+    def real(v) -> bool:
+        return bool(v) and str(v).strip().lower() not in ("null", "none", "n/a", "not stated")
+    items = [{k: (v if real(v) else "") for k, v in i.items()} for i in data.get("items", []) if real(i.get("amount")) or real(i.get("name"))]
+    return {"found": bool(items), "items": items[:10],
             "summary": clean(data.get("summary"), 600), "sources": data["sources"]}
 
 
